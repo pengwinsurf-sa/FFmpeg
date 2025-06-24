@@ -22,10 +22,10 @@ jobs:
       run: ./configure --enable-shared --toolchain=gcov
 
     - name: Build
-      run: make
+      run: make -j$(nproc)
 
     - name: Run regression tests
-      run: make fate
+      run: export LD_LIBRARY_PATH="$PWD:$PWD/libavutil:$PWD/libavcodec:$PWD/libavformat:$PWD/libswscale:$PWD/libswresample:$PWD/libavfilter:$PWD/libavdevice:$LD_LIBRARY_PATH" && make fate
 
     - name: Run distcheck
       run: make install
