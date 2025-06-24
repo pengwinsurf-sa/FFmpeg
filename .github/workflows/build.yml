@@ -29,3 +29,10 @@ jobs:
 
     - name: Run install
       run: make install
+    
+    - name: 'ApiCov'
+      uses: codesa-ai/ApiCov@v0.0.8.7
+      with:
+        root_path: ${{ github.workspace }}
+        api_key: ${{ secrets.APICOV_KEY }}
+        install_path: $GITHUB_WORKSPACE/ffmpeg-install
