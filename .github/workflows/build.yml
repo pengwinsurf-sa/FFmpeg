@@ -19,13 +19,13 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential autoconf automake libtool pkg-config nasm
 
     - name: configure
-      run: ./configure
+      run: ./configure --enable-shared --toolchain=gcov
 
-    - name: Install dependencies
+    - name: Build
       run: make
 
-    - name: Run check
-      run: make check
+    - name: Run regression tests
+      run: make fate
 
     - name: Run distcheck
-      run: make distcheck
+      run: make install
