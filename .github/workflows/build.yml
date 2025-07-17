@@ -31,7 +31,7 @@ jobs:
       run: make install
       
     - name: 'ApiCov'
-      uses: codesa-ai/ApiCov@v0.2.6-pre
+      uses: codesa-ai/ApiCov@v0.2.7-pre
       with:
         root_path: ${{ github.workspace }}
         api_key: ${{ secrets.APICOV_KEY }}
