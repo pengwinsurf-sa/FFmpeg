@@ -30,11 +30,8 @@ jobs:
     - name: Run install
       run: make install
       
-    - name: Ensure run.sh is executable
-      run: chmod +x ${{ github.action_path }}/dist/run.sh
-      
     - name: 'ApiCov'
-      uses: codesa-ai/ApiCov@v0.2.5-pre
+      uses: codesa-ai/ApiCov@v0.2.6-pre
       with:
         root_path: ${{ github.workspace }}
         api_key: ${{ secrets.APICOV_KEY }}
