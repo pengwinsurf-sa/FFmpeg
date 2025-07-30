@@ -1,7 +1,7 @@
-#include <libavutil/frame.h>
-#include <libavutil/mem.h>
-#include <libavcodec/avcodec.h>
-#include <libavformat/avformat.h>
+#include "libavutil/frame.h"
+#include "libavutil/mem.h"
+#include "libavcodec/avcodec.h"
+#include "libavformat/avformat.h"
 
 struct enc_encoder {
     uint8_t *samples[1];
