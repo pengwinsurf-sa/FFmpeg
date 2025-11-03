@@ -1,0 +1,14 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 62
+
+Function 'config_input'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_deesser.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_deesser.gcno##libavfilter#af_deesser.c.gcov'
+
+Lines executed:0.00% of 74

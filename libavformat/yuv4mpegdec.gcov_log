@@ -1,0 +1,25 @@
+Function 'yuv4_probe'
+Lines executed:0.00% of 3
+
+Function 'yuv4_read_seek'
+Lines executed:0.00% of 7
+
+Function 'yuv4_read_packet'
+Lines executed:0.00% of 24
+
+Function 'yuv4_read_header'
+Lines executed:0.00% of 122
+
+File 'libavformat/yuv4mpegdec.c'
+Lines executed:0.00% of 151
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yuv4mpegdec.gcno##libavformat#yuv4mpegdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yuv4mpegdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yuv4mpegdec.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 156

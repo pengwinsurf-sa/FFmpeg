@@ -1,0 +1,31 @@
+Function 'swri_noise_shaping_double'
+Lines executed:0.00% of 32
+
+Function 'swri_noise_shaping_float'
+Lines executed:0.00% of 32
+
+Function 'swri_noise_shaping_int32'
+Lines executed:0.00% of 32
+
+Function 'swri_noise_shaping_int16'
+Lines executed:0.00% of 32
+
+Function 'swri_dither_init'
+Lines executed:0.00% of 39
+
+Function 'swri_get_dither'
+Lines executed:0.00% of 36
+
+File 'libswresample/dither_template.c'
+Lines executed:0.00% of 160
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#dither.gcno##libswresample#dither_template.c.gcov'
+
+File 'libswresample/dither.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#dither.gcno##libswresample#dither.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#dither.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 235

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavc__codec__hwaccel__videotoolbox" kind="group">
+    <compoundname>lavc_codec_hwaccel_videotoolbox</compoundname>
+    <title>VideoToolbox Decoder</title>
+    <innerfile refid="videotoolbox_8h">videotoolbox.h</innerfile>
+    <innerclass refid="structAVVideotoolboxContext" prot="public">AVVideotoolboxContext</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__lavc__codec__hwaccel__videotoolbox_1ga63024b9f4f18a0420b1e71b49205d3ca" prot="public" static="no">
+        <name>Picture</name>
+        <initializer>QuickdrawPicture</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/videotoolbox.h" line="43" column="9" bodyfile="libavcodec/videotoolbox.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Hardware accelerated decoding using VideoToolbox on Apple Platforms. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+Function 'flashsv2_decode_end'
+Lines executed:0.00% of 8
+
+Function 'flashsv2_decode_init'
+Lines executed:0.00% of 8
+
+Function 'flashsv_decode_frame'
+Lines executed:0.00% of 171
+
+Function 'flashsv_decode_block'
+Lines executed:0.00% of 47
+
+Function 'flashsv2_prime'
+Lines executed:0.00% of 40
+
+Function 'flashsv_decode_init'
+Lines executed:0.00% of 7
+
+Function 'flashsv_decode_end'
+Lines executed:0.00% of 6
+
+Function 'decode_hybrid'
+Lines executed:0.00% of 24
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/flashsv.c'
+Lines executed:0.00% of 263
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno##libavcodec#flashsv.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flashsv.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 330

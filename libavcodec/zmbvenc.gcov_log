@@ -1,0 +1,24 @@
+Function 'encode_init'
+Lines executed:0.00% of 54
+
+Function 'encode_end'
+Lines executed:0.00% of 7
+
+Function 'encode_frame'
+Lines executed:0.00% of 105
+
+Function 'zmbv_me'
+Lines executed:0.00% of 29
+
+Function 'block_cmp'
+Lines executed:0.00% of 15
+
+File 'libavcodec/zmbvenc.c'
+Lines executed:0.00% of 206
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#zmbvenc.gcno##libavcodec#zmbvenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#zmbvenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 210

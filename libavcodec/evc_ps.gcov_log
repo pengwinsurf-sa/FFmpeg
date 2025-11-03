@@ -1,0 +1,61 @@
+Function 'ff_evc_ps_free'
+Lines executed:0.00% of 6
+
+Function 'ff_evc_parse_pps'
+Lines executed:0.00% of 65
+
+Function 'ff_evc_parse_sps'
+Lines executed:0.00% of 133
+
+Function 'vui_parameters'
+Lines executed:0.00% of 51
+
+Function 'hrd_parameters'
+Lines executed:0.00% of 14
+
+Function 'ref_pic_list_struct'
+Lines executed:0.00% of 15
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 11
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 10
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/evc_ps.c'
+Lines executed:0.00% of 266
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#evc_ps.gcno##libavcodec#evc_ps.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#evc_ps.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#evc_ps.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#evc_ps.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#evc_ps.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#evc_ps.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 354

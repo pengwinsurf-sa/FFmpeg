@@ -1,0 +1,65 @@
+Function 'avcodec_get_supported_config'
+Lines executed:0.00% of 11
+
+Function 'ff_default_get_supported_config'
+Lines executed:0.00% of 27
+
+Function 'avcodec_receive_frame'
+Lines executed:0.00% of 9
+
+Function 'avcodec_is_open'
+Lines executed:0.00% of 2
+
+Function 'avcodec_string'
+Lines executed:0.00% of 132
+
+Function 'ff_codec_close'
+Lines executed:0.00% of 47
+
+Function 'avsubtitle_free'
+Lines executed:0.00% of 16
+
+Function 'avcodec_flush_buffers'
+Lines executed:0.00% of 20
+
+Function 'avcodec_open2'
+Lines executed:0.00% of 160
+
+Function 'get_bit_rate'
+Lines executed:0.00% of 15
+
+Function 'avcodec_default_execute2'
+Lines executed:0.00% of 10
+
+Function 'avcodec_default_execute'
+Lines executed:0.00% of 9
+
+File 'libavcodec/avcodec.c'
+Lines executed:0.00% of 438
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno##libavcodec#avcodec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/codec_internal.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno##libavcodec#codec_internal.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avcodec.gcno##libavutil#emms.h.gcov'
+
+Lines executed:0.00% of 458

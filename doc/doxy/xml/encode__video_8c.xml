@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="encode__video_8c" kind="file" language="C++">
+    <compoundname>encode_video.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="avcodec_8h" local="no">libavcodec/avcodec.h</includes>
+    <includes refid="opt_8h" local="no">libavutil/opt.h</includes>
+    <includes refid="imgutils_8h" local="no">libavutil/imgutils.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>defs.h</label>
+        <link refid="defs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>packet.h</label>
+        <link refid="packet_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>version.h</label>
+        <link refid="libavcodec_2version_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>version_major.h</label>
+        <link refid="libavcodec_2version__major_8h"/>
+      </node>
+      <node id="8">
+        <label>libavutil/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="9">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>libavutil/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>libavutil/channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libavutil/dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>libavutil/imgutils.h</label>
+        <link refid="imgutils_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>libavutil/opt.h</label>
+        <link refid="opt_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>pixdesc.h</label>
+        <link refid="pixdesc_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>libavutil/samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>errno.h</label>
+      </node>
+      <node id="12">
+        <label>inttypes.h</label>
+      </node>
+      <node id="18">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="13">
+        <label>limits.h</label>
+      </node>
+      <node id="14">
+        <label>math.h</label>
+      </node>
+      <node id="25">
+        <label>stdarg.h</label>
+      </node>
+      <node id="16">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="encode__video_8c_1a56739f6d2e501c2388279fcde2078ac6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void encode</definition>
+        <argsstring>(AVCodecContext *enc_ctx, AVFrame *frame, AVPacket *pkt, FILE *outfile)</argsstring>
+        <name>encode</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>enc_ctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+          <declname>pkt</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>outfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/encode_video.c" line="39" column="13" bodyfile="doc/examples/encode_video.c" bodystart="39" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="encode__video_8c_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/encode_video.c" line="69" column="5" bodyfile="doc/examples/encode_video.c" bodystart="69" bodyend="216"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2001<sp/>Fabrice<sp/>Bellard</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>THE<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>@file<sp/>libavcodec<sp/>encoding<sp/>video<sp/>API<sp/>usage<sp/>example</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@example<sp/>encode_video.c</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>Generate<sp/>synthetic<sp/>video<sp/>data<sp/>and<sp/>encode<sp/>it<sp/>to<sp/>an<sp/>output<sp/>file.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="avcodec_8h" kindref="compound">libavcodec/avcodec.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="opt_8h" kindref="compound">libavutil/opt.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="imgutils_8h" kindref="compound">libavutil/imgutils.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="encode__video_8c_1a56739f6d2e501c2388279fcde2078ac6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" kindref="member">encode</ref>(<ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*enc_ctx,<sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/><ref refid="structAVPacket" kindref="compound">AVPacket</ref><sp/>*<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*outfile)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>send<sp/>the<sp/>frame<sp/>to<sp/>the<sp/>encoder<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Send<sp/>frame<sp/>%3&quot;</highlight><highlight class="normal">PRId64</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a0452833e3ab6ddd7acbf82817a7818a4" kindref="member">pts</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavc__decoding_1ga9395cb802a5febf1f00df31497779169" kindref="member">avcodec_send_frame</ref>(enc_ctx,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>sending<sp/>a<sp/>frame<sp/>for<sp/>encoding\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(ret<sp/>&gt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavc__decoding_1ga5b8eff59cf259747cf0b31563e38ded6" kindref="member">avcodec_receive_packet</ref>(enc_ctx,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>==<sp/><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR</ref>(EAGAIN)<sp/>||<sp/>ret<sp/>==<sp/><ref refid="group__lavu__error_1gab4faa0afdf35076914824200331defff" kindref="member">AVERROR_EOF</ref>)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>during<sp/>encoding\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Write<sp/>packet<sp/>%3&quot;</highlight><highlight class="normal">PRId64</highlight><highlight class="stringliteral">&quot;<sp/>(size=%5d)\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>-&gt;<ref refid="structAVPacket_1a73bde0a37f3b1efc839f11295bfbf42a" kindref="member">pts</ref>,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>-&gt;<ref refid="structAVPacket_1a4d1ea19f63eb107111fd650ca514d1f4" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite(<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>-&gt;<ref refid="structAVPacket_1aaf4fe58dfcc7c232c1f2268b539d8367" kindref="member">data</ref>,<sp/>1,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>-&gt;<ref refid="structAVPacket_1a4d1ea19f63eb107111fd650ca514d1f4" kindref="member">size</ref>,<sp/>outfile);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavc__packet_1ga63d5a489b419bd5d45cfd09091cbcbc2" kindref="member">av_packet_unref</ref>(<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="encode__video_8c_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="avio__list__dir_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**argv)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/>*codec_name;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*codec;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*c=<sp/>NULL;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>ret,<sp/>x,<sp/>y;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*f;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVPacket" kindref="compound">AVPacket</ref><sp/>*<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>endcode[]<sp/>=<sp/>{<sp/>0,<sp/>0,<sp/>1,<sp/>0xb7<sp/>};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>&lt;=<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Usage:<sp/>%s<sp/>&lt;output<sp/>file&gt;<sp/>&lt;codec<sp/>name&gt;\n&quot;</highlight><highlight class="normal">,<sp/>argv[0]);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>filename<sp/>=<sp/>argv[1];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>codec_name<sp/>=<sp/>argv[2];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>find<sp/>the<sp/>mpeg1video<sp/>encoder<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>codec<sp/>=<sp/><ref refid="group__lavc__core_1gacde808c8f768d6ea0cceb9c6913202d0" kindref="member">avcodec_find_encoder_by_name</ref>(codec_name);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!codec)<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Codec<sp/>&apos;%s&apos;<sp/>not<sp/>found\n&quot;</highlight><highlight class="normal">,<sp/>codec_name);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>c<sp/>=<sp/><ref refid="group__lavc__core_1ga3ad781acd35536a58863ed31ef94ccf0" kindref="member">avcodec_alloc_context3</ref>(codec);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!c)<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>allocate<sp/>video<sp/>codec<sp/>context\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref><sp/>=<sp/><ref refid="group__lavc__packet_1gad56057568fb51504e5b4aafcb44f9a03" kindref="member">av_packet_alloc</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>put<sp/>sample<sp/>parameters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a6b53fda85ad61baa345edbd96cb8a33c" kindref="member">bit_rate</ref><sp/>=<sp/>400000;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>resolution<sp/>must<sp/>be<sp/>a<sp/>multiple<sp/>of<sp/>two<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a0d8f46461754e8abea0847dcbc41b956" kindref="member">width</ref><sp/>=<sp/>352;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a0449afd803eb107bd4dbc8b5ea22e363" kindref="member">height</ref><sp/>=<sp/>288;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>frames<sp/>per<sp/>second<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1ab7bfeb9fa5840aac090e2b0bd0ef7589" kindref="member">time_base</ref><sp/>=<sp/>(<ref refid="structAVRational" kindref="compound">AVRational</ref>){1,<sp/>25};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a4d08b297e97eefd66c714df4fff493c8" kindref="member">framerate</ref><sp/>=<sp/>(<ref refid="structAVRational" kindref="compound">AVRational</ref>){25,<sp/>1};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>emit<sp/>one<sp/>intra<sp/>frame<sp/>every<sp/>ten<sp/>frames</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>check<sp/>frame<sp/>pict_type<sp/>before<sp/>passing<sp/>frame</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>encoder,<sp/>if<sp/>frame-&gt;pict_type<sp/>is<sp/>AV_PICTURE_TYPE_I</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>then<sp/>gop_size<sp/>is<sp/>ignored<sp/>and<sp/>the<sp/>output<sp/>of<sp/>encoder</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>will<sp/>always<sp/>be<sp/>I<sp/>frame<sp/>irrespective<sp/>to<sp/>gop_size</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a9b6b3f1fcbdcc2ad9f4dbb4370496e38" kindref="member">gop_size</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a3e5334a611a3e2a6a653805bb9e2d4d4" kindref="member">max_b_frames</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>c-&gt;<ref refid="structAVCodecContext_1a0425c77b3d06d71e5db88b1d7e1b37f2" kindref="member">pix_fmt</ref><sp/>=<sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5a1aa7677092740d8def31655b5d7f0cc2" kindref="member">AV_PIX_FMT_YUV420P</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(codec-&gt;<ref refid="structAVCodec_1a01a53d07936f4c7ee280444793b6967b" kindref="member">id</ref><sp/>==<sp/><ref refid="group__lavc__core_1ggaadca229ad2c20e060a14fec08a5cc7cea3d4c051c8b18a3c18750676a308c10be" kindref="member">AV_CODEC_ID_H264</ref>)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__opt__set__funcs_1ga5fd4b92bdf4f392a2847f711676a7537" kindref="member">av_opt_set</ref>(c-&gt;<ref refid="structAVCodecContext_1af3379123060ad8cc9c321c29af4f8360" kindref="member">priv_data</ref>,<sp/></highlight><highlight class="stringliteral">&quot;preset&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;slow&quot;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>open<sp/>it<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavc__core_1ga11f785a188d7d9df71621001465b0f1d" kindref="member">avcodec_open2</ref>(c,<sp/>codec,<sp/>NULL);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>open<sp/>codec:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="group__lavu__error_1gac4f6e109c242c81aeee21868d3f35e12" kindref="member">av_err2str</ref>(ret));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>f<sp/>=<sp/>fopen(filename,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!f)<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>open<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>filename);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref><sp/>=<sp/><ref refid="group__lavu__frame_1gac778d9609ac0c42d0a9445e549de172e" kindref="member">av_frame_alloc</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>allocate<sp/>video<sp/>frame\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aed14fa772ce46881020fd1545c86432c" kindref="member">format</ref><sp/>=<sp/>c-&gt;<ref refid="structAVCodecContext_1a0425c77b3d06d71e5db88b1d7e1b37f2" kindref="member">pix_fmt</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1e71ce60cedd5f3b6811714a9f7f9e0a" kindref="member">width</ref><sp/><sp/>=<sp/>c-&gt;<ref refid="structAVCodecContext_1a0d8f46461754e8abea0847dcbc41b956" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a3f89733f429c98ba5bc64373fb0a3f13" kindref="member">height</ref><sp/>=<sp/>c-&gt;<ref refid="structAVCodecContext_1a0449afd803eb107bd4dbc8b5ea22e363" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavu__frame_1ga6b1acbfa82c79bf7fd78d868572f0ceb" kindref="member">av_frame_get_buffer</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>allocate<sp/>the<sp/>video<sp/>frame<sp/>data\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>encode<sp/>1<sp/>second<sp/>of<sp/>video<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>25;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Make<sp/>sure<sp/>the<sp/>frame<sp/>data<sp/>is<sp/>writable.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>On<sp/>the<sp/>first<sp/>round,<sp/>the<sp/>frame<sp/>is<sp/>fresh<sp/>from<sp/>av_frame_get_buffer()</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>and<sp/>therefore<sp/>we<sp/>know<sp/>it<sp/>is<sp/>writable.</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>But<sp/>on<sp/>the<sp/>next<sp/>rounds,<sp/>encode()<sp/>will<sp/>have<sp/>called</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>avcodec_send_frame(),<sp/>and<sp/>the<sp/>codec<sp/>may<sp/>have<sp/>kept<sp/>a<sp/>reference<sp/>to</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>frame<sp/>in<sp/>its<sp/>internal<sp/>structures,<sp/>that<sp/>makes<sp/>the<sp/>frame</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unwritable.</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_frame_make_writable()<sp/>checks<sp/>that<sp/>and<sp/>allocates<sp/>a<sp/>new<sp/>buffer</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>the<sp/>frame<sp/>only<sp/>if<sp/>necessary.</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavu__frame_1gadd5417c06f5a6b419b0dbd8f0ff363fd" kindref="member">av_frame_make_writable</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Prepare<sp/>a<sp/>dummy<sp/>image.</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>In<sp/>real<sp/>code,<sp/>this<sp/>is<sp/>where<sp/>you<sp/>would<sp/>have<sp/>your<sp/>own<sp/>logic<sp/>for</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>filling<sp/>the<sp/>frame.<sp/>FFmpeg<sp/>does<sp/>not<sp/>care<sp/>what<sp/>you<sp/>put<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frame.</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Y<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(y<sp/>=<sp/>0;<sp/>y<sp/>&lt;<sp/>c-&gt;<ref refid="structAVCodecContext_1a0449afd803eb107bd4dbc8b5ea22e363" kindref="member">height</ref>;<sp/>y++)<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(x<sp/>=<sp/>0;<sp/>x<sp/>&lt;<sp/>c-&gt;<ref refid="structAVCodecContext_1a0d8f46461754e8abea0847dcbc41b956" kindref="member">width</ref>;<sp/>x++)<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1d0f65014a8d1bf78cec8cbed2304992" kindref="member">data</ref>[0][y<sp/>*<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aa52bfc6605f6a3059a0c3226cc0f6567" kindref="member">linesize</ref>[0]<sp/>+<sp/>x]<sp/>=<sp/>x<sp/>+<sp/>y<sp/>+<sp/>i<sp/>*<sp/>3;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Cb<sp/>and<sp/>Cr<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(y<sp/>=<sp/>0;<sp/>y<sp/>&lt;<sp/>c-&gt;<ref refid="structAVCodecContext_1a0449afd803eb107bd4dbc8b5ea22e363" kindref="member">height</ref>/2;<sp/>y++)<sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(x<sp/>=<sp/>0;<sp/>x<sp/>&lt;<sp/>c-&gt;<ref refid="structAVCodecContext_1a0d8f46461754e8abea0847dcbc41b956" kindref="member">width</ref>/2;<sp/>x++)<sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1d0f65014a8d1bf78cec8cbed2304992" kindref="member">data</ref>[1][y<sp/>*<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aa52bfc6605f6a3059a0c3226cc0f6567" kindref="member">linesize</ref>[1]<sp/>+<sp/>x]<sp/>=<sp/>128<sp/>+<sp/>y<sp/>+<sp/>i<sp/>*<sp/>2;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1d0f65014a8d1bf78cec8cbed2304992" kindref="member">data</ref>[2][y<sp/>*<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aa52bfc6605f6a3059a0c3226cc0f6567" kindref="member">linesize</ref>[2]<sp/>+<sp/>x]<sp/>=<sp/>64<sp/>+<sp/>x<sp/>+<sp/>i<sp/>*<sp/>5;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a0452833e3ab6ddd7acbf82817a7818a4" kindref="member">pts</ref><sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>encode<sp/>the<sp/>image<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" kindref="member">encode</ref>(c,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>,<sp/>f);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>flush<sp/>the<sp/>encoder<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" kindref="member">encode</ref>(c,<sp/>NULL,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>,<sp/>f);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Add<sp/>sequence<sp/>end<sp/>code<sp/>to<sp/>have<sp/>a<sp/>real<sp/>MPEG<sp/>file.</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>It<sp/>makes<sp/>only<sp/>sense<sp/>because<sp/>this<sp/>tiny<sp/>examples<sp/>writes<sp/>packets</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>directly.<sp/>This<sp/>is<sp/>called<sp/>&quot;elementary<sp/>stream&quot;<sp/>and<sp/>only<sp/>works<sp/>for<sp/>some</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>codecs.<sp/>To<sp/>create<sp/>a<sp/>valid<sp/>file,<sp/>you<sp/>usually<sp/>need<sp/>to<sp/>write<sp/>packets</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>into<sp/>a<sp/>proper<sp/>file<sp/>format<sp/>or<sp/>protocol;<sp/>see<sp/>mux.c.</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(codec-&gt;<ref refid="structAVCodec_1a01a53d07936f4c7ee280444793b6967b" kindref="member">id</ref><sp/>==<sp/><ref refid="group__lavc__core_1ggaadca229ad2c20e060a14fec08a5cc7ceaf019b13f4891b36ae579cd7bc96d1f78" kindref="member">AV_CODEC_ID_MPEG1VIDEO</ref><sp/>||<sp/>codec-&gt;<ref refid="structAVCodec_1a01a53d07936f4c7ee280444793b6967b" kindref="member">id</ref><sp/>==<sp/><ref refid="group__lavc__core_1ggaadca229ad2c20e060a14fec08a5cc7ceaf614abb36f7c5d0c42ed522c1d6c99f0" kindref="member">AV_CODEC_ID_MPEG2VIDEO</ref>)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite(endcode,<sp/>1,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(endcode),<sp/>f);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(f);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1gaf869d0829ed607cec3a4a02a1c7026b3" kindref="member">avcodec_free_context</ref>(&amp;c);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__frame_1ga979d73f3228814aee56aeca0636e37cc" kindref="member">av_frame_free</ref>(&amp;<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__packet_1ga1066464e7cdd1f215df6940db94e5d8e" kindref="member">av_packet_free</ref>(&amp;<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="doc/examples/encode_video.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 37
+
+Function 'config_input'
+Lines executed:0.00% of 6
+
+File 'libavfilter/af_adynamicsmooth.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adynamicsmooth.gcno##libavfilter#af_adynamicsmooth.c.gcov'
+
+Lines executed:0.00% of 47

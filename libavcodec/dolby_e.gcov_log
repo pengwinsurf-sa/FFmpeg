@@ -1,0 +1,91 @@
+Function 'dolby_e_init'
+Lines executed:0.00% of 16
+
+Function 'init_tables'
+Lines executed:0.00% of 54
+
+Function 'dolby_e_close'
+Lines executed:0.00% of 7
+
+Function 'dolby_e_flush'
+Lines executed:0.00% of 6
+
+Function 'dolby_e_decode_frame'
+Lines executed:0.00% of 44
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'apply_gain'
+Lines executed:0.00% of 9
+
+Function 'transform'
+Lines executed:0.00% of 19
+
+Function 'imdct_calc'
+Lines executed:0.00% of 19
+
+Function 'parse_audio'
+Lines executed:0.00% of 18
+
+Function 'parse_channel'
+Lines executed:0.00% of 33
+
+Function 'parse_mantissas'
+Lines executed:0.00% of 36
+
+Function 'parse_indices'
+Lines executed:0.00% of 29
+
+Function 'parse_bit_alloc'
+Lines executed:0.00% of 29
+
+Function 'bit_allocate'
+Lines executed:0.00% of 41
+
+Function 'calc_lowcomp'
+Lines executed:0.00% of 22
+
+Function 'parse_exponents'
+Lines executed:0.00% of 11
+
+Function 'unbias_exponents'
+Lines executed:0.00% of 12
+
+Function 'parse_key'
+Lines executed:0.00% of 6
+
+Function 'skip_input'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+File 'libavcodec/dolby_e.c'
+Lines executed:0.00% of 414
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dolby_e.gcno##libavcodec#dolby_e.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dolby_e.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dolby_e.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dolby_e.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dolby_e.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dolby_e.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 468

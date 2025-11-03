@@ -1,0 +1,64 @@
+Function 'rv40_decode_init'
+Lines executed:0.00% of 15
+
+Function 'rv40_loop_filter'
+Lines executed:0.00% of 122
+
+Function 'rv40_adaptive_loop_filter'
+Lines executed:0.00% of 13
+
+Function 'rv40_decode_mb_info'
+Lines executed:0.00% of 47
+
+Function 'rv40_decode_intra_types'
+Lines executed:0.00% of 45
+
+Function 'rv40_parse_slice_header'
+Lines executed:0.00% of 29
+
+Function 'rv40_parse_picture_size'
+Lines executed:0.00% of 4
+
+Function 'get_dimension'
+Lines executed:0.00% of 15
+
+Function 'rv40_init_tables'
+Lines executed:0.00% of 27
+
+Function 'rv40_init_table'
+Lines executed:0.00% of 3
+
+Function 'get_interleaved_ue_golomb'
+Lines executed:0.00% of 23
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/rv40.c'
+Lines executed:0.00% of 290
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv40.gcno##libavcodec#rv40.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv40.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv40.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv40.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv40.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv40.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 360

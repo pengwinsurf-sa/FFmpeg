@@ -1,0 +1,35 @@
+Function 'parse_av1_sdp_line'
+Lines executed:0.00% of 10
+
+Function 'av1_need_keyframe'
+Lines executed:0.00% of 2
+
+Function 'av1_close_context'
+Lines executed:0.00% of 2
+
+Function 'av1_handle_packet'
+Lines executed:0.00% of 190
+
+Function 'sdp_parse_fmtp_config_av1'
+Lines executed:0.00% of 13
+
+Function 'parse_leb'
+Lines executed:0.00% of 22
+
+File 'libavformat/rtpdec_av1.c'
+Lines executed:0.00% of 194
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_av1.gcno##libavformat#rtpdec_av1.c.gcov'
+
+File 'libavformat/rtp_av1.h'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_av1.gcno##libavformat#rtp_av1.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_av1.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_av1.gcno###usr#include#stdlib.h.gcov'
+
+Lines executed:0.00% of 239

@@ -1,0 +1,30 @@
+Function 'checkasm_check_alacdsp'
+Lines executed:100.00% of 4
+
+Function 'check_append_extra_bits'
+Lines executed:81.58% of 38
+
+Function 'check_decorrelate_stereo'
+Lines executed:95.24% of 21
+
+File 'tests/checkasm/alacdsp.c'
+Lines executed:95.92% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#alacdsp.gcno##tests#checkasm#alacdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#alacdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#alacdsp.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#alacdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#alacdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:87.30% of 63

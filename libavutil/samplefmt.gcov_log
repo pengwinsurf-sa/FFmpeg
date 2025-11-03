@@ -1,0 +1,55 @@
+Function 'av_samples_set_silence'
+Lines executed:0.00% of 14
+
+Function 'av_samples_copy'
+Lines executed:0.00% of 18
+
+Function 'av_samples_alloc_array_and_samples'
+Lines executed:0.00% of 7
+
+Function 'av_samples_alloc'
+Lines executed:0.00% of 12
+
+Function 'av_samples_fill_arrays'
+Lines executed:0.00% of 13
+
+Function 'av_samples_get_buffer_size'
+Lines executed:0.00% of 16
+
+Function 'av_sample_fmt_is_planar'
+Lines executed:0.00% of 3
+
+Function 'av_get_bytes_per_sample'
+Lines executed:0.00% of 3
+
+Function 'av_get_sample_fmt_string'
+Lines executed:0.00% of 9
+
+Function 'av_get_planar_sample_fmt'
+Lines executed:0.00% of 4
+
+Function 'av_get_packed_sample_fmt'
+Lines executed:0.00% of 4
+
+Function 'av_get_alt_sample_fmt'
+Lines executed:0.00% of 4
+
+Function 'av_get_sample_fmt'
+Lines executed:0.00% of 5
+
+Function 'av_get_sample_fmt_name'
+Lines executed:0.00% of 3
+
+File 'libavutil/samplefmt.c'
+Lines executed:0.00% of 107
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#samplefmt.gcno##libavutil#samplefmt.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#samplefmt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#samplefmt.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 115

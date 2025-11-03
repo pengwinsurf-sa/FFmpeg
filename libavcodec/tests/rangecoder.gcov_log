@@ -1,0 +1,32 @@
+Function 'main'
+Lines executed:0.00% of 36
+
+Function 'rac_check_termination'
+Lines executed:0.00% of 10
+
+Function 'get_rac'
+Lines executed:0.00% of 21
+
+Function 'put_rac'
+Lines executed:0.00% of 14
+
+Function 'renorm_encoder'
+Lines executed:0.00% of 12
+
+File 'libavcodec/tests/rangecoder.c'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#rangecoder.gcno##libavcodec#tests#rangecoder.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#rangecoder.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#rangecoder.gcno##libavutil#lfg.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#rangecoder.gcno##libavcodec#rangecoder.h.gcov'
+
+Lines executed:0.00% of 93

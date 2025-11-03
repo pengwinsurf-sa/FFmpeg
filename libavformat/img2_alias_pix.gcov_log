@@ -1,0 +1,16 @@
+Function 'alias_pix_read_probe'
+Lines executed:0.00% of 22
+
+File 'libavformat/img2_alias_pix.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2_alias_pix.gcno##libavformat#img2_alias_pix.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2_alias_pix.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2_alias_pix.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 22

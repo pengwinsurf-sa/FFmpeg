@@ -1,0 +1,11 @@
+Function 'epaf_read_header'
+Lines executed:0.00% of 34
+
+Function 'epaf_probe'
+Lines executed:0.00% of 8
+
+File 'libavformat/epafdec.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#epafdec.gcno##libavformat#epafdec.c.gcov'
+
+Lines executed:0.00% of 42

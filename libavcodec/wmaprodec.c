@@ -88,6 +88,7 @@
 
 #include <inttypes.h>
 
+#include "libavutil/attributes.h"
 #include "libavutil/audio_fifo.h"
 #include "libavutil/mem.h"
 #include "libavutil/tx.h"
@@ -370,14 +371,6 @@ static av_cold int decode_init(WMAProDecodeCtx *s, AVCodecContext *avctx, int nu
     int log2_max_num_subframes;
     int num_possible_block_sizes;
 
-    if (avctx->codec_id == AV_CODEC_ID_XMA1 || avctx->codec_id == AV_CODEC_ID_XMA2)
-        avctx->block_align = 2048;
-
-    if (!avctx->block_align) {
-        av_log(avctx, AV_LOG_ERROR, "block_align is not set\n");
-        return AVERROR(EINVAL);
-    }
-
     s->avctx = avctx;
 
     init_put_bits(&s->pb, s->frame_data, MAX_FRAMESIZE);
@@ -468,11 +461,6 @@ static av_cold int decode_init(WMAProDecodeCtx *s, AVCodecContext *avctx, int nu
     if (s->min_samples_per_subframe < WMAPRO_BLOCK_MIN_SIZE) {
         av_log(avctx, AV_LOG_ERROR, "min_samples_per_subframe of %d too small\n",
                s->min_samples_per_subframe);
-        return AVERROR_INVALIDDATA;
-    }
-
-    if (s->avctx->sample_rate <= 0) {
-        av_log(avctx, AV_LOG_ERROR, "invalid sample rate\n");
         return AVERROR_INVALIDDATA;
     }
 
@@ -607,6 +595,11 @@ static av_cold int decode_init(WMAProDecodeCtx *s, AVCodecContext *avctx, int nu
 static av_cold int wmapro_decode_init(AVCodecContext *avctx)
 {
     WMAProDecodeCtx *s = avctx->priv_data;
+
+    if (!avctx->block_align) {
+        av_log(avctx, AV_LOG_ERROR, "block_align is not set\n");
+        return AVERROR(EINVAL);
+    }
 
     return decode_init(s, avctx, 0);
 }
@@ -1962,6 +1955,8 @@ static av_cold int xma_decode_init(AVCodecContext *avctx)
     XMADecodeCtx *s = avctx->priv_data;
     int i, ret, start_channels = 0;
 
+    avctx->block_align = 2048;
+
     if (avctx->ch_layout.nb_channels <= 0 || avctx->extradata_size == 0)
         return AVERROR_INVALIDDATA;
 
@@ -2046,7 +2041,7 @@ static av_cold int xma_decode_end(AVCodecContext *avctx)
     return 0;
 }
 
-static void flush(WMAProDecodeCtx *s)
+static av_cold void flush(WMAProDecodeCtx *s)
 {
     int i;
     /** reset output buffer as a part of it is used during the windowing of a
@@ -2064,14 +2059,14 @@ static void flush(WMAProDecodeCtx *s)
  *@brief Clear decoder buffers (for seeking).
  *@param avctx codec context
  */
-static void wmapro_flush(AVCodecContext *avctx)
+static av_cold void wmapro_flush(AVCodecContext *avctx)
 {
     WMAProDecodeCtx *s = avctx->priv_data;
 
     flush(s);
 }
 
-static void xma_flush(AVCodecContext *avctx)
+static av_cold void xma_flush(AVCodecContext *avctx)
 {
     XMADecodeCtx *s = avctx->priv_data;
     int i;

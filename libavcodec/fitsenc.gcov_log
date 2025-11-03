@@ -1,0 +1,20 @@
+Function 'fits_encode_frame'
+Lines executed:0.00% of 48
+
+File 'libavcodec/fitsenc.c'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsenc.gcno##libavcodec#fitsenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 48

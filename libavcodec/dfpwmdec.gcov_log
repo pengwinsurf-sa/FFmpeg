@@ -1,0 +1,14 @@
+Function 'dfpwm_dec_frame'
+Lines executed:0.00% of 12
+
+Function 'dfpwm_dec_init'
+Lines executed:0.00% of 9
+
+Function 'au_decompress'
+Lines executed:0.00% of 25
+
+File 'libavcodec/dfpwmdec.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dfpwmdec.gcno##libavcodec#dfpwmdec.c.gcov'
+
+Lines executed:0.00% of 46

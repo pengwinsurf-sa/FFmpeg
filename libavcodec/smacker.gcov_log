@@ -1,0 +1,48 @@
+Function 'smka_decode_frame'
+Lines executed:0.00% of 164
+
+Function 'smka_decode_init'
+Lines executed:0.00% of 9
+
+Function 'decode_init'
+Lines executed:0.00% of 12
+
+Function 'decode_end'
+Lines executed:0.00% of 8
+
+Function 'decode_frame'
+Lines executed:0.00% of 133
+
+Function 'decode_header_trees'
+Lines executed:0.00% of 47
+
+Function 'smacker_decode_header_tree'
+Lines executed:0.00% of 53
+
+Function 'smacker_decode_bigtree'
+Lines executed:0.00% of 35
+
+Function 'smacker_decode_tree'
+Lines executed:0.00% of 15
+
+File 'libavcodec/smacker.c'
+Lines executed:0.00% of 411
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#smacker.gcno##libavcodec#smacker.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#smacker.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#smacker.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#smacker.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#smacker.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 476

@@ -1,0 +1,54 @@
+Function 'select_init'
+Lines executed:0.00% of 3
+
+Function 'query_formats'
+Lines executed:0.00% of 5
+
+Function 'aselect_init'
+Lines executed:0.00% of 7
+
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'request_frame'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 8
+
+Function 'select_frame'
+Lines executed:0.00% of 69
+
+Function 'get_concatdec_select'
+Lines executed:0.00% of 10
+
+Function 'get_scene_score'
+Lines executed:0.00% of 21
+
+Function 'config_input'
+Lines executed:0.00% of 50
+
+Function 'init'
+Lines executed:0.00% of 16
+
+File 'libavfilter/f_select.c'
+Lines executed:0.00% of 192
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_select.gcno##libavfilter#f_select.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_select.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_select.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/frame.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_select.gcno##libavutil#frame.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_select.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 200

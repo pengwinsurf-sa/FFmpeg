@@ -1,0 +1,54 @@
+Function 'ff_sbrdsp_init'
+Lines executed:100.00% of 17
+
+Function 'sbr_hf_apply_noise_3'
+Lines executed:100.00% of 18
+
+Function 'sbr_hf_apply_noise_2'
+Lines executed:100.00% of 3
+
+Function 'sbr_hf_apply_noise_1'
+Lines executed:100.00% of 4
+
+Function 'sbr_hf_apply_noise_0'
+Lines executed:100.00% of 3
+
+Function 'sbr_qmf_deint_bfly_c'
+Lines executed:100.00% of 6
+
+Function 'sbr_sum64x5_c'
+Lines executed:100.00% of 6
+
+Function 'sbr_hf_g_filt_c'
+Lines executed:100.00% of 6
+
+Function 'sbr_hf_gen_c'
+Lines executed:100.00% of 21
+
+Function 'sbr_autocorrelate_c'
+Lines executed:100.00% of 20
+
+Function 'sbr_qmf_deint_neg_c'
+Lines executed:100.00% of 8
+
+Function 'sbr_qmf_post_shuffle_c'
+Lines executed:100.00% of 10
+
+Function 'sbr_qmf_pre_shuffle_c'
+Lines executed:100.00% of 13
+
+Function 'sbr_neg_odd_64_c'
+Lines executed:100.00% of 7
+
+Function 'sbr_sum_square_c'
+Lines executed:100.00% of 9
+
+File 'libavcodec/sbrdsp_template.c'
+Lines executed:100.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbrdsp.gcno##libavcodec#sbrdsp_template.c.gcov'
+
+File 'libavcodec/sbrdsp.c'
+Lines executed:100.00% of 108
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbrdsp.gcno##libavcodec#sbrdsp.c.gcov'
+
+Lines executed:100.00% of 151

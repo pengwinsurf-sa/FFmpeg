@@ -1,0 +1,17 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 44
+
+Function 'config_input'
+Lines executed:0.00% of 21
+
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_haas.c'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_haas.gcno##libavfilter#af_haas.c.gcov'
+
+Lines executed:0.00% of 78

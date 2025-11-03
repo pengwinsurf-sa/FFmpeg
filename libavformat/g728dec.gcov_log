@@ -1,0 +1,11 @@
+Function 'g728_read_packet'
+Lines executed:0.00% of 5
+
+Function 'g728_read_header'
+Lines executed:0.00% of 11
+
+File 'libavformat/g728dec.c'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#g728dec.gcno##libavformat#g728dec.c.gcov'
+
+Lines executed:0.00% of 16

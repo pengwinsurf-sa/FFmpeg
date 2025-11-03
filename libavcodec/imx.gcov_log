@@ -1,0 +1,25 @@
+Function 'imx_decode_close'
+Lines executed:0.00% of 4
+
+Function 'imx_decode_flush'
+Lines executed:0.00% of 9
+
+Function 'imx_decode_frame'
+Lines executed:0.00% of 79
+
+Function 'imx_decode_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/imx.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imx.gcno##libavcodec#imx.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imx.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imx.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 100

@@ -1,0 +1,34 @@
+Function 'av_cast5_crypt'
+Lines executed:0.00% of 8
+
+Function 'av_cast5_crypt2'
+Lines executed:0.00% of 16
+
+Function 'av_cast5_init'
+Lines executed:0.00% of 18
+
+Function 'av_cast5_alloc'
+Lines executed:0.00% of 2
+
+Function 'decipher'
+Lines executed:0.00% of 28
+
+Function 'encipher'
+Lines executed:0.00% of 24
+
+Function 'generate_round_keys'
+Lines executed:0.00% of 23
+
+File 'libavutil/cast5.c'
+Lines executed:0.00% of 113
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#cast5.gcno##libavutil#cast5.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#cast5.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#cast5.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 119

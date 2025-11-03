@@ -1,0 +1,23 @@
+Function 'uninit'
+Lines executed:0.00% of 21
+
+Function 'request_frame'
+Lines executed:0.00% of 17
+
+Function 'filter_frame'
+Lines executed:0.00% of 32
+
+Function 'config_output'
+Lines executed:0.00% of 29
+
+Function 'init'
+Lines executed:0.00% of 37
+
+Function 'fill_items'
+Lines executed:0.00% of 11
+
+File 'libavfilter/af_chorus.c'
+Lines executed:0.00% of 147
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_chorus.gcno##libavfilter#af_chorus.c.gcov'
+
+Lines executed:0.00% of 147

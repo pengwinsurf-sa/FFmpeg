@@ -1,0 +1,23 @@
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'config_input'
+Lines executed:0.00% of 9
+
+Function 'filter_dblp'
+Lines executed:0.00% of 9
+
+Function 'filter_fltp'
+Lines executed:0.00% of 9
+
+Function 'filter_dbl'
+Lines executed:0.00% of 11
+
+Function 'filter_flt'
+Lines executed:0.00% of 11
+
+File 'libavfilter/af_acontrast.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_acontrast.gcno##libavfilter#af_acontrast.c.gcov'
+
+Lines executed:0.00% of 66

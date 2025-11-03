@@ -1,0 +1,133 @@
+Function 'vp9_decode_update_thread_context'
+Lines executed:0.00% of 29
+
+Function 'vp9_decode_init'
+Lines executed:0.00% of 8
+
+Function 'vp9_decode_flush'
+Lines executed:0.00% of 10
+
+Function 'vp9_decode_frame'
+Lines executed:0.00% of 175
+
+Function 'vp9_export_enc_params'
+Lines executed:0.00% of 34
+
+Function 'loopfilter_proc'
+Lines executed:0.00% of 20
+
+Function 'decode_tiles_mt'
+Lines executed:0.00% of 53
+
+Function 'decode_tiles'
+Lines executed:0.00% of 89
+
+Function 'vp9_decode_free'
+Lines executed:0.00% of 16
+
+Function 'free_buffers'
+Lines executed:0.00% of 6
+
+Function 'set_tile_offset'
+Lines executed:0.00% of 1
+
+Function 'decode_sb_mem'
+Lines executed:0.00% of 38
+
+Function 'decode_sb'
+Lines executed:0.00% of 78
+
+Function 'decode_frame_header'
+Lines executed:0.00% of 460
+
+Function 'read_colorspace_details'
+Lines executed:0.00% of 33
+
+Function 'update_prob'
+Lines executed:0.00% of 21
+
+Function 'update_block_buffers'
+Lines executed:0.00% of 40
+
+Function 'update_size'
+Lines executed:0.00% of 56
+
+Function 'vp9_frame_replace'
+Lines executed:0.00% of 9
+
+Function 'vp9_frame_alloc'
+Lines executed:0.00% of 26
+
+Function 'vp9_frame_unref'
+Lines executed:0.00% of 6
+
+Function 'vp9_tile_data_free'
+Lines executed:0.00% of 5
+
+Function 'vp9_await_tile_progress'
+Lines executed:0.00% of 6
+
+Function 'vp9_report_tile_progress'
+Lines executed:0.00% of 6
+
+Function 'vp9_alloc_entries'
+Lines executed:0.00% of 7
+
+Function 'vp89_rac_get_uint'
+Lines executed:0.00% of 5
+
+Function 'decode012'
+Lines executed:0.00% of 5
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/vp9.c'
+Lines executed:0.00% of 1132
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#vp9.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/vpx_rac.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#vpx_rac.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/video_enc_params.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavutil#video_enc_params.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/vp89_rac.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#vp89_rac.h.gcov'
+
+File 'libavcodec/x86/vpx_arith.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#x86#vpx_arith.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1259

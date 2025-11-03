@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVFilterPadParams" kind="struct" language="C++" prot="public">
+    <compoundname>AVFilterPadParams</compoundname>
+    <includes refid="avfilter_8h" local="no">libavfilter/avfilter.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVFilterPadParams_1a2f4fe47e14759af7af96697015ff1ea4" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* AVFilterPadParams::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <qualifiedname>AVFilterPadParams::label</qualifiedname>
+        <briefdescription>
+<para>An <ref refid="group__lavu__mem__funcs_1gaafef95f25208665371057f89fb5a11b8" kindref="member">av_malloc()</ref>&apos;ed string containing the pad label. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May be <ref refid="group__lavu__mem__funcs_1ga0c9096f498624c525aa2315b8a20c411" kindref="member">av_free()</ref>&apos;d and set to NULL by the caller, in which case this pad will be treated as unlabeled for linking. May also be replaced by another <ref refid="group__lavu__mem__funcs_1gaafef95f25208665371057f89fb5a11b8" kindref="member">av_malloc()</ref>&apos;ed string. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="841" column="10" bodyfile="libavfilter/avfilter.h" bodystart="841" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of a filter&apos;s input or output pad. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Created as a child of <ref refid="structAVFilterParams" kindref="compound">AVFilterParams</ref> by <ref refid="group__lavfi_1ga2ecfd3667219b6cd1e37b7047cc0ef2b" kindref="member">avfilter_graph_segment_parse()</ref>. Freed in <ref refid="group__lavfi_1ga51283edd8f3685e1f33239f360e14ae8" kindref="member">avfilter_graph_segment_free()</ref>. </para>
+    </detaileddescription>
+    <location file="libavfilter/avfilter.h" line="833" column="1" bodyfile="libavfilter/avfilter.h" bodystart="833" bodyend="842"/>
+    <listofallmembers>
+      <member refid="structAVFilterPadParams_1a2f4fe47e14759af7af96697015ff1ea4" prot="public" virt="non-virtual"><scope>AVFilterPadParams</scope><name>label</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

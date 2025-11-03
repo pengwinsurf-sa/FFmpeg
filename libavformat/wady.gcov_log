@@ -1,0 +1,11 @@
+Function 'wady_read_header'
+Lines executed:0.00% of 24
+
+Function 'wady_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/wady.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wady.gcno##libavformat#wady.c.gcov'
+
+Lines executed:0.00% of 31

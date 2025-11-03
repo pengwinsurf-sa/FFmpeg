@@ -1,0 +1,21 @@
+Function 'ff_hqxdsp_init'
+Lines executed:0.00% of 3
+
+Function 'hqx_idct_put'
+Lines executed:0.00% of 14
+
+Function 'idct_row'
+Lines executed:0.00% of 32
+
+Function 'idct_col'
+Lines executed:0.00% of 41
+
+File 'libavcodec/hqxdsp.c'
+Lines executed:0.00% of 88
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hqxdsp.gcno##libavcodec#hqxdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hqxdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 90

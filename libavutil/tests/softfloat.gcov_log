@@ -1,0 +1,32 @@
+Function 'main'
+Lines executed:0.00% of 139
+
+Function 'av_sincos_sf'
+Lines executed:0.00% of 34
+
+Function 'av_int2sf'
+Lines executed:0.00% of 2
+
+Function 'av_add_sf'
+Lines executed:0.00% of 6
+
+Function 'av_div_sf'
+Lines executed:0.00% of 13
+
+File 'libavutil/tests/softfloat.c'
+Lines executed:0.00% of 89
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#softfloat.gcno##libavutil#tests#softfloat.c.gcov'
+
+File 'libavutil/softfloat.h'
+Lines executed:0.00% of 99
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#softfloat.gcno##libavutil#softfloat.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#softfloat.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#softfloat.gcno##libavutil#x86#timer.h.gcov'
+
+Lines executed:0.00% of 194

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavu__iamf__mix" kind="group">
+    <compoundname>lavu_iamf_mix</compoundname>
+    <title>Mix Presentation</title>
+    <innerclass refid="structAVIAMFSubmixElement" prot="public">AVIAMFSubmixElement</innerclass>
+    <innerclass refid="structAVIAMFSubmixLayout" prot="public">AVIAMFSubmixLayout</innerclass>
+    <innerclass refid="structAVIAMFSubmix" prot="public">AVIAMFSubmix</innerclass>
+    <innerclass refid="structAVIAMFMixPresentation" prot="public">AVIAMFMixPresentation</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__lavu__iamf__mix_1ga5f1494ad734a1c44bafe59bc29f14d2d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVIAMFHeadphonesMode</name>
+        <enumvalue id="group__lavu__iamf__mix_1gga5f1494ad734a1c44bafe59bc29f14d2da1cae0734ace33450216bccd1cc9de8cb" prot="public">
+          <name>AV_IAMF_HEADPHONES_MODE_STEREO</name>
+          <briefdescription>
+<para>The referenced Audio Element shall be rendered to stereo loudspeakers. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__iamf__mix_1gga5f1494ad734a1c44bafe59bc29f14d2da7aecf2dc88704f72cb5ae91813fc7d66" prot="public">
+          <name>AV_IAMF_HEADPHONES_MODE_BINAURAL</name>
+          <briefdescription>
+<para>The referenced Audio Element shall be rendered with a binaural renderer. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="429" column="1" bodyfile="libavutil/iamf.h" bodystart="429" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__lavu__iamf__mix_1gad35caf7cb8e37aa35055f0662e6a584c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVIAMFSubmixLayoutType</name>
+        <enumvalue id="group__lavu__iamf__mix_1ggad35caf7cb8e37aa35055f0662e6a584ca96125c9375628065da5b811d99e4a5fe" prot="public">
+          <name>AV_IAMF_SUBMIX_LAYOUT_TYPE_LOUDSPEAKERS</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The layout follows the loudspeaker sound system convention of ITU-2051-3. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><ref refid="structAVIAMFSubmixLayout_1aa9c3b54c73bdc8c32c33adcf78c84f0f" kindref="member">AVIAMFSubmixLayout::sound_system</ref> must be set. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__iamf__mix_1ggad35caf7cb8e37aa35055f0662e6a584ca1dff3c072949ea7f61a29d33154bf865" prot="public">
+          <name>AV_IAMF_SUBMIX_LAYOUT_TYPE_BINAURAL</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The layout is binaural. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="note"><para><ref refid="structAVIAMFSubmixLayout_1aa9c3b54c73bdc8c32c33adcf78c84f0f" kindref="member">AVIAMFSubmixLayout::sound_system</ref> may be set to AV_CHANNEL_LAYOUT_BINAURAL to simplify API usage, but it&apos;s not mandatory. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="493" column="1" bodyfile="libavutil/iamf.h" bodystart="493" bodyend="506"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__lavu__iamf__mix_1gad93577f77238bd82c2ce8502f3563d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structAVClass" kindref="compound">AVClass</ref> *</type>
+        <definition>const AVClass * av_iamf_mix_presentation_get_class</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_iamf_mix_presentation_get_class</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="644" column="15" declfile="libavutil/iamf.h" declline="644" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__iamf__mix_1gaa7a7e9ad085d1b1534763492212a4ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref> *</type>
+        <definition>AVIAMFMixPresentation * av_iamf_mix_presentation_alloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_iamf_mix_presentation_alloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Allocates a <ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref>, and initializes its fields with default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>No submixes are allocated. Must be freed with <ref refid="group__lavu__iamf__mix_1ga99c34b5d14760eb2b9307253612cce53" kindref="member">av_iamf_mix_presentation_free()</ref>.</para>
+<para><simplesect kind="see"><para><ref refid="group__lavu__iamf__mix_1gaad1a6b8c71eb96f8d19a016ddca37ecf" kindref="member">av_iamf_mix_presentation_add_submix()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="653" column="23" declfile="libavutil/iamf.h" declline="653" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__iamf__mix_1gaad1a6b8c71eb96f8d19a016ddca37ecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref> *</type>
+        <definition>AVIAMFSubmix * av_iamf_mix_presentation_add_submix</definition>
+        <argsstring>(AVIAMFMixPresentation *mix_presentation)</argsstring>
+        <name>av_iamf_mix_presentation_add_submix</name>
+        <param>
+          <type><ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref> *</type>
+          <declname>mix_presentation</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a submix and add it to a given <ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is freed by <ref refid="group__lavu__iamf__mix_1ga99c34b5d14760eb2b9307253612cce53" kindref="member">av_iamf_mix_presentation_free()</ref> alongside the rest of the parent <ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref>.</para>
+<para><simplesect kind="return"><para>a pointer to the allocated submix. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="662" column="14" declfile="libavutil/iamf.h" declline="662" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__iamf__mix_1gaaf3d8f67a5a8678496494c301c8a8586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVIAMFSubmixElement" kindref="compound">AVIAMFSubmixElement</ref> *</type>
+        <definition>AVIAMFSubmixElement * av_iamf_submix_add_element</definition>
+        <argsstring>(AVIAMFSubmix *submix)</argsstring>
+        <name>av_iamf_submix_add_element</name>
+        <param>
+          <type><ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref> *</type>
+          <declname>submix</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a submix element and add it to a given <ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is freed by <ref refid="group__lavu__iamf__mix_1ga99c34b5d14760eb2b9307253612cce53" kindref="member">av_iamf_mix_presentation_free()</ref> alongside the rest of the parent <ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref>.</para>
+<para><simplesect kind="return"><para>a pointer to the allocated submix. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="671" column="21" declfile="libavutil/iamf.h" declline="671" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__iamf__mix_1ga7ecb693b04ba889da7df6c1cbff6b95e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVIAMFSubmixLayout" kindref="compound">AVIAMFSubmixLayout</ref> *</type>
+        <definition>AVIAMFSubmixLayout * av_iamf_submix_add_layout</definition>
+        <argsstring>(AVIAMFSubmix *submix)</argsstring>
+        <name>av_iamf_submix_add_layout</name>
+        <param>
+          <type><ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref> *</type>
+          <declname>submix</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a submix layout and add it to a given <ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is freed by <ref refid="group__lavu__iamf__mix_1ga99c34b5d14760eb2b9307253612cce53" kindref="member">av_iamf_mix_presentation_free()</ref> alongside the rest of the parent <ref refid="structAVIAMFSubmix" kindref="compound">AVIAMFSubmix</ref>.</para>
+<para><simplesect kind="return"><para>a pointer to the allocated submix. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="680" column="20" declfile="libavutil/iamf.h" declline="680" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__iamf__mix_1ga99c34b5d14760eb2b9307253612cce53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_iamf_mix_presentation_free</definition>
+        <argsstring>(AVIAMFMixPresentation **mix_presentation)</argsstring>
+        <name>av_iamf_mix_presentation_free</name>
+        <param>
+          <type><ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref> **</type>
+          <declname>mix_presentation</declname>
+        </param>
+        <briefdescription>
+<para>Free an <ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref> and all its contents. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mix_presentation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to pointer to an allocated <ref refid="structAVIAMFMixPresentation" kindref="compound">AVIAMFMixPresentation</ref>. upon return, *mix_presentation will be set to NULL. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/iamf.h" line="688" column="6" declfile="libavutil/iamf.h" declline="688" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Mix Presentations as defined in section 3.7 of IAMF. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

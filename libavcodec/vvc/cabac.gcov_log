@@ -1,0 +1,390 @@
+Function 'ff_vvc_end_of_subset_one_bit'
+Lines executed:0.00% of 8
+
+Function 'ff_vvc_end_of_tile_one_bit'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_end_of_slice_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_mts_idx'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_lfnst_idx'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_sbt_pos_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_sbt_horizontal_flag'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_sbt_quad_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_sbt_flag'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_cu_coded_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_residual_coding'
+Lines executed:0.00% of 4
+
+Function 'hls_residual_coding'
+Lines executed:0.00% of 33
+
+Function 'last_significant_coeff_x_y_decode'
+Lines executed:0.00% of 51
+
+Function 'derive_last_scan_pos'
+Lines executed:0.00% of 13
+
+Function 'residual_coding_subblock'
+Lines executed:0.00% of 114
+
+Function 'hls_residual_ts_coding'
+Lines executed:0.00% of 8
+
+Function 'residual_ts_coding_subblock'
+Lines executed:0.00% of 98
+
+Function 'init_residual_coding'
+Lines executed:0.00% of 30
+
+Function 'dec_abs_level_decode'
+Lines executed:0.00% of 10
+
+Function 'abs_level_gt1_flag_ts_decode'
+Lines executed:0.00% of 9
+
+Function 'coeff_sign_flag_ts_decode'
+Lines executed:0.00% of 14
+
+Function 'coeff_sign_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'abs_remainder_decode'
+Lines executed:0.00% of 8
+
+Function 'abs_decode'
+Lines executed:0.00% of 13
+
+Function 'abs_get_rice_param'
+Lines executed:0.00% of 14
+
+Function 'sig_coeff_flag_decode'
+Lines executed:0.00% of 22
+
+Function 'sb_coded_flag_decode'
+Lines executed:0.00% of 14
+
+Function 'get_gtx_flag_inc'
+Lines executed:0.00% of 15
+
+Function 'get_local_sum'
+Lines executed:0.00% of 14
+
+Function 'ff_vvc_transform_skip_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_tu_joint_cbcr_residual_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_cu_chroma_qp_offset_idx'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_cu_chroma_qp_offset_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_cu_qp_delta_sign_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_cu_qp_delta_abs'
+Lines executed:0.00% of 12
+
+Function 'ff_vvc_cu_act_enabled_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_tu_y_coded_flag'
+Lines executed:0.00% of 8
+
+Function 'ff_vvc_tu_cr_coded_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_tu_cb_coded_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_bcw_idx'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_amvr_shift'
+Lines executed:0.00% of 22
+
+Function 'amvr_precision_idx'
+Lines executed:0.00% of 1
+
+Function 'ff_vvc_mvp_lx_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_mvd_sign_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_abs_mvd_minus2'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_abs_mvd_greater1_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_abs_mvd_greater0_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_ref_idx_lx'
+Lines executed:0.00% of 10
+
+Function 'ff_vvc_sym_mvd_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_cu_affine_type_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_inter_affine_flag'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_pred_flag'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_ciip_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_merge_gpm_idx'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_merge_gpm_partition_idx'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_merge_idx'
+Lines executed:0.00% of 7
+
+Function 'get_luma_pred_mode'
+Lines executed:0.00% of 11
+
+Function 'ff_vvc_mmvd_offset_coding'
+Lines executed:0.00% of 8
+
+Function 'mmvd_direction_idx_decode'
+Lines executed:0.00% of 2
+
+Function 'mmvd_distance_idx_decode'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_mmvd_cand_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_mmvd_merge_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_regular_merge_flag'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_merge_subblock_idx'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_merge_subblock_flag'
+Lines executed:0.00% of 3
+
+Function 'get_inter_flag_inc'
+Lines executed:0.00% of 21
+
+Function 'ff_vvc_general_merge_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_palette_escape_val'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_palette_idx_idc'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_copy_above_palette_indices_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_run_copy_flag'
+Lines executed:0.00% of 7
+
+Function 'ff_vvc_palette_transpose_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_palette_escape_val_present_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_new_palette_entries'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_num_signalled_palette_entries'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_palette_predictor_run'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_chroma_pred_mode'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_cclm_mode_idx'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_cclm_mode_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_luma_mpm_remainder'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_luma_mpm_idx'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_intra_luma_not_planar_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_luma_mpm_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_isp_split_type'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_intra_subpartitions_mode_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_luma_ref_idx'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_intra_mip_mode'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_intra_mip_transposed_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_mip_flag'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_pred_mode_ibc_flag'
+Lines executed:0.00% of 8
+
+Function 'ff_vvc_cu_skip_flag'
+Lines executed:0.00% of 7
+
+Function 'ff_vvc_intra_bdpcm_chroma_dir_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_bdpcm_chroma_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_bdpcm_luma_dir_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_intra_bdpcm_luma_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_pred_mode_plt_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_pred_mode_flag'
+Lines executed:0.00% of 7
+
+Function 'ff_vvc_non_inter_flag'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_split_mode'
+Lines executed:0.00% of 21
+
+Function 'mtt_split_cu_vertical_flag_decode'
+Lines executed:0.00% of 23
+
+Function 'split_qt_flag_decode'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_split_cu_flag'
+Lines executed:0.00% of 12
+
+Function 'ff_vvc_alf_ctb_cc_idc'
+Lines executed:0.00% of 13
+
+Function 'ff_vvc_alf_ctb_filter_alt_idx'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_alf_luma_fixed_filter_idx'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_alf_luma_prev_filter_idx'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_alf_use_aps_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_alf_ctb_flag'
+Lines executed:0.00% of 10
+
+Function 'ff_vvc_sao_eo_class_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_sao_offset_sign_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_sao_offset_abs_decode'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_sao_band_position_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_sao_type_idx_decode'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_sao_merge_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'fixed_length_decode'
+Lines executed:0.00% of 5
+
+Function 'limited_kth_order_egk_decode'
+Lines executed:0.00% of 12
+
+Function 'kth_order_egk_decode'
+Lines executed:0.00% of 12
+
+Function 'truncated_binary_decode'
+Lines executed:0.00% of 11
+
+Function 'vvc_get_cabac'
+Lines executed:0.00% of 29
+
+Function 'ff_vvc_cabac_init'
+Lines executed:0.00% of 12
+
+Function 'cabac_init_state'
+Lines executed:0.00% of 24
+
+Function 'skip_bytes'
+Lines executed:0.00% of 8
+
+Function 'renorm_cabac_decoder_once'
+Lines executed:0.00% of 12
+
+File 'libavcodec/vvc/cabac.c'
+Lines executed:0.00% of 1014
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#cabac.gcno##libavcodec#vvc#cabac.c.gcov'
+
+File 'libavcodec/cabac_functions.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#cabac.gcno##libavcodec#cabac_functions.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#cabac.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/x86/cabac.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#cabac.gcno##libavcodec#x86#cabac.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#cabac.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 1054

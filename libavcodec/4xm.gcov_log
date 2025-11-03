@@ -1,0 +1,76 @@
+Function 'decode_init'
+Lines executed:0.00% of 24
+
+Function 'decode_end'
+Lines executed:0.00% of 12
+
+Function 'decode_frame'
+Lines executed:0.00% of 88
+
+Function 'decode_i_frame'
+Lines executed:0.00% of 67
+
+Function 'decode_i2_frame'
+Lines executed:0.00% of 37
+
+Function 'mix'
+Lines executed:0.00% of 5
+
+Function 'read_huffman_tables'
+Lines executed:0.00% of 56
+
+Function 'decode_i_mb'
+Lines executed:0.00% of 7
+
+Function 'idct_put'
+Lines executed:0.00% of 31
+
+Function 'decode_i_block'
+Lines executed:0.00% of 38
+
+Function 'decode_p_frame'
+Lines executed:0.00% of 46
+
+Function 'decode_p_block'
+Lines executed:0.00% of 60
+
+Function 'mcdc'
+Lines executed:0.00% of 31
+
+Function 'init_mv'
+Lines executed:0.00% of 7
+
+Function 'init_vlcs'
+Lines executed:0.00% of 8
+
+Function 'idct'
+Lines executed:0.00% of 65
+
+Function 'get_xbits'
+Lines executed:0.00% of 11
+
+File 'libavcodec/4xm.c'
+Lines executed:0.00% of 534
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#4xm.gcno##libavcodec#4xm.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#4xm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#4xm.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#4xm.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#4xm.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#4xm.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 593

@@ -1,0 +1,38 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'filter_frame'
+Lines executed:0.00% of 37
+
+Function 'black_counter'
+Lines executed:0.00% of 26
+
+Function 'check_black_end'
+Lines executed:0.00% of 8
+
+Function 'config_input'
+Lines executed:0.00% of 16
+
+Function 'query_format'
+Lines executed:0.00% of 7
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_blackdetect.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blackdetect.gcno##libavfilter#vf_blackdetect.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blackdetect.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blackdetect.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blackdetect.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 107

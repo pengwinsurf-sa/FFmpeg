@@ -1,0 +1,17 @@
+Function 'bitpacked_decode'
+Lines executed:0.00% of 8
+
+Function 'bitpacked_init_decoder'
+Lines executed:0.00% of 10
+
+Function 'bitpacked_decode_yuv422p10'
+Lines executed:0.00% of 21
+
+Function 'bitpacked_decode_uyvy422'
+Lines executed:0.00% of 8
+
+File 'libavcodec/bitpacked_dec.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bitpacked_dec.gcno##libavcodec#bitpacked_dec.c.gcov'
+
+Lines executed:0.00% of 47

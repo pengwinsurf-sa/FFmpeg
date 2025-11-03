@@ -1,0 +1,36 @@
+Function 'checkasm_check_sw_gbrp'
+Lines executed:100.00% of 10
+
+Function 'check_input_planar_rgb_to_a'
+Lines executed:86.67% of 60
+
+Function 'check_input_planar_rgb_to_uv'
+Lines executed:96.08% of 51
+
+Function 'check_input_planar_rgb_to_y'
+Lines executed:95.65% of 46
+
+Function 'check_output_yuv2gbrp'
+Lines executed:97.47% of 79
+
+File 'tests/checkasm/sw_gbrp.c'
+Lines executed:96.58% of 234
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_gbrp.gcno##tests#checkasm#sw_gbrp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_gbrp.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_gbrp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_gbrp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_gbrp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:94.31% of 246

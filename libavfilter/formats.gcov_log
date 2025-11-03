@@ -1,0 +1,225 @@
+Function 'ff_formats_check_channel_layouts'
+Lines executed:0.00% of 14
+
+Function 'layouts_compatible'
+Lines executed:0.00% of 4
+
+Function 'ff_formats_check_color_ranges'
+Lines executed:0.00% of 2
+
+Function 'ff_formats_check_color_spaces'
+Lines executed:0.00% of 6
+
+Function 'ff_formats_check_sample_rates'
+Lines executed:0.00% of 3
+
+Function 'ff_formats_check_sample_formats'
+Lines executed:0.00% of 2
+
+Function 'ff_formats_check_pixel_formats'
+Lines executed:0.00% of 2
+
+Function 'check_list'
+Lines executed:0.00% of 11
+
+Function 'ff_default_query_formats'
+Lines executed:0.00% of 40
+
+Function 'ff_set_common_formats_from_list2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_formats2'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_color_ranges2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_ranges_from_list2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_ranges2'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_color_spaces2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_spaces_from_list2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_spaces2'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_samplerates2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_samplerates_from_list2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_samplerates2'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_channel_counts2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_channel_layouts_from_list2'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_channel_layouts2'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_formats_from_list'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_formats'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_color_ranges'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_ranges_from_list'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_ranges'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_color_spaces'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_spaces_from_list'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_color_spaces'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_samplerates'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_samplerates_from_list'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_samplerates'
+Lines executed:0.00% of 3
+
+Function 'ff_set_common_all_channel_counts'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_channel_layouts_from_list'
+Lines executed:0.00% of 2
+
+Function 'ff_set_common_channel_layouts'
+Lines executed:0.00% of 3
+
+Function 'ff_formats_changeref'
+Lines executed:0.00% of 3
+
+Function 'ff_channel_layouts_changeref'
+Lines executed:0.00% of 3
+
+Function 'ff_channel_layouts_unref'
+Lines executed:0.00% of 4
+
+Function 'ff_formats_unref'
+Lines executed:0.00% of 2
+
+Function 'ff_formats_ref'
+Lines executed:0.00% of 2
+
+Function 'ff_channel_layouts_ref'
+Lines executed:0.00% of 2
+
+Function 'ff_all_color_ranges'
+Lines executed:0.00% of 5
+
+Function 'ff_all_color_spaces'
+Lines executed:0.00% of 8
+
+Function 'ff_all_channel_counts'
+Lines executed:0.00% of 5
+
+Function 'ff_all_channel_layouts'
+Lines executed:0.00% of 5
+
+Function 'ff_all_samplerates'
+Lines executed:0.00% of 3
+
+Function 'ff_planar_sample_fmts'
+Lines executed:0.00% of 7
+
+Function 'ff_formats_pixdesc_filter'
+Lines executed:0.00% of 28
+
+Function 'ff_all_formats'
+Lines executed:0.00% of 9
+
+Function 'ff_make_formats_list_singleton'
+Lines executed:0.00% of 3
+
+Function 'ff_add_channel_layout'
+Lines executed:0.00% of 6
+
+Function 'ff_add_format'
+Lines executed:0.00% of 3
+
+Function 'ff_make_channel_layout_list'
+Lines executed:0.00% of 25
+
+Function 'ff_make_format_list'
+Lines executed:0.00% of 5
+
+Function 'ff_fmt_is_in'
+Lines executed:0.00% of 4
+
+Function 'ff_filter_get_negotiation'
+Lines executed:0.00% of 4
+
+Function 'merge_generic'
+Lines executed:0.00% of 2
+
+Function 'can_merge_generic'
+Lines executed:0.00% of 2
+
+Function 'merge_generic_internal'
+Lines executed:0.00% of 5
+
+Function 'merge_channel_layouts'
+Lines executed:0.00% of 2
+
+Function 'can_merge_channel_layouts'
+Lines executed:0.00% of 2
+
+Function 'merge_channel_layouts_internal'
+Lines executed:0.00% of 61
+
+Function 'merge_samplerates'
+Lines executed:0.00% of 2
+
+Function 'can_merge_samplerates'
+Lines executed:0.00% of 2
+
+Function 'merge_samplerates_internal'
+Lines executed:0.00% of 5
+
+Function 'merge_sample_fmts'
+Lines executed:0.00% of 2
+
+Function 'can_merge_sample_fmts'
+Lines executed:0.00% of 2
+
+Function 'merge_pix_fmts'
+Lines executed:0.00% of 2
+
+Function 'can_merge_pix_fmts'
+Lines executed:0.00% of 2
+
+Function 'merge_formats_internal'
+Lines executed:0.00% of 19
+
+File 'libavfilter/formats.c'
+Lines executed:0.00% of 392
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#formats.gcno##libavfilter#formats.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#formats.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 396

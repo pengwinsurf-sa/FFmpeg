@@ -1,0 +1,17 @@
+Function 'filter_frame'
+Lines executed:0.00% of 13
+
+Function 'disp_palette'
+Lines executed:0.00% of 11
+
+Function 'config_output'
+Lines executed:0.00% of 5
+
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+File 'libavfilter/vf_showpalette.c'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showpalette.gcno##libavfilter#vf_showpalette.c.gcov'
+
+Lines executed:0.00% of 37

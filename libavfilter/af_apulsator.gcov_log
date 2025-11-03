@@ -1,0 +1,20 @@
+Function 'config_input'
+Lines executed:0.00% of 22
+
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 42
+
+Function 'lfo_get_value'
+Lines executed:0.00% of 25
+
+Function 'lfo_advance'
+Lines executed:0.00% of 5
+
+File 'libavfilter/af_apulsator.c'
+Lines executed:0.00% of 102
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_apulsator.gcno##libavfilter#af_apulsator.c.gcov'
+
+Lines executed:0.00% of 102

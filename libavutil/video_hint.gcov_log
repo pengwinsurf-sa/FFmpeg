@@ -1,0 +1,11 @@
+Function 'av_video_hint_create_side_data'
+Lines executed:0.00% of 14
+
+Function 'av_video_hint_alloc'
+Lines executed:0.00% of 15
+
+File 'libavutil/video_hint.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#video_hint.gcno##libavutil#video_hint.c.gcov'
+
+Lines executed:0.00% of 29

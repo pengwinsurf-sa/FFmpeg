@@ -1,0 +1,12 @@
+Function 'dpx_parse'
+Lines executed:0.00% of 48
+
+File 'libavcodec/dpx_parser.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dpx_parser.gcno##libavcodec#dpx_parser.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dpx_parser.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 48

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVComplexFloat" kind="struct" language="C++" prot="public">
+    <compoundname>AVComplexFloat</compoundname>
+    <includes refid="tx_8h" local="no">libavutil/tx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVComplexFloat_1ac654bda1e4ab3c5422db6eeeb8cc39f2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AVComplexFloat::re</definition>
+        <argsstring></argsstring>
+        <name>re</name>
+        <qualifiedname>AVComplexFloat::re</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/tx.h" line="28" column="11" bodyfile="libavutil/tx.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVComplexFloat_1a639397277d927ee76385338b5ce1f5bf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AVComplexFloat::im</definition>
+        <argsstring></argsstring>
+        <name>im</name>
+        <qualifiedname>AVComplexFloat::im</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/tx.h" line="28" column="14" bodyfile="libavutil/tx.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/tx.h" line="27" column="1" bodyfile="libavutil/tx.h" bodystart="27" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structAVComplexFloat_1a639397277d927ee76385338b5ce1f5bf" prot="public" virt="non-virtual"><scope>AVComplexFloat</scope><name>im</name></member>
+      <member refid="structAVComplexFloat_1ac654bda1e4ab3c5422db6eeeb8cc39f2" prot="public" virt="non-virtual"><scope>AVComplexFloat</scope><name>re</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+Function 'checkasm_check_llviddsp'
+Lines executed:100.00% of 25
+
+Function 'check_add_gradient_pred'
+Lines executed:74.07% of 27
+
+Function 'check_add_left_pred_16'
+Lines executed:90.91% of 22
+
+Function 'check_add_left_pred'
+Lines executed:90.91% of 22
+
+Function 'check_add_median_pred'
+Lines executed:96.43% of 28
+
+Function 'check_add_bytes'
+Lines executed:90.00% of 20
+
+File 'tests/checkasm/llviddsp.c'
+Lines executed:93.80% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llviddsp.gcno##tests#checkasm#llviddsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llviddsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llviddsp.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llviddsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llviddsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llviddsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:90.28% of 144

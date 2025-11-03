@@ -1,0 +1,22 @@
+Function 'sdr2_read_packet'
+Lines executed:0.00% of 27
+
+Function 'sdr2_read_header'
+Lines executed:0.00% of 20
+
+Function 'sdr2_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/sdr2.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdr2.gcno##libavformat#sdr2.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdr2.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdr2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 50

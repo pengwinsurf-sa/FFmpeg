@@ -1,0 +1,20 @@
+Function 'avtextwriter_create_buffer'
+Lines executed:0.00% of 8
+
+Function 'buffer_vprintf'
+Lines executed:0.00% of 4
+
+Function 'buffer_put_str'
+Lines executed:0.00% of 4
+
+Function 'buffer_w8'
+Lines executed:0.00% of 4
+
+Function 'bufferwriter_get_name'
+Lines executed:0.00% of 2
+
+File 'fftools/textformat/tw_buffer.c'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tw_buffer.gcno##fftools#textformat#tw_buffer.c.gcov'
+
+Lines executed:0.00% of 22

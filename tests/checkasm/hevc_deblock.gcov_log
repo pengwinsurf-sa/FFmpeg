@@ -1,0 +1,37 @@
+Function 'checkasm_check_hevc_deblock'
+Lines executed:100.00% of 20
+
+Function 'check_deblock_luma'
+Lines executed:82.61% of 46
+
+Function 'randomize_luma_buffers'
+Lines executed:100.00% of 56
+
+Function 'check_deblock_chroma'
+Lines executed:90.91% of 22
+
+File 'tests/checkasm/hevc_deblock.c'
+Lines executed:96.85% of 127
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_deblock.gcno##tests#checkasm#hevc_deblock.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_deblock.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_deblock.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_deblock.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_deblock.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_deblock.gcno##libavutil#common.h.gcov'
+
+Lines executed:93.06% of 144

@@ -1,0 +1,35 @@
+Function 'nuv_read_dts'
+Lines executed:0.00% of 30
+
+Function 'nuv_resync'
+Lines executed:0.00% of 8
+
+Function 'nuv_packet'
+Lines executed:0.00% of 50
+
+Function 'nuv_header'
+Lines executed:0.00% of 67
+
+Function 'get_codec_data'
+Lines executed:0.00% of 58
+
+Function 'nuv_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/nuv.c'
+Lines executed:0.00% of 209
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nuv.gcno##libavformat#nuv.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nuv.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nuv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nuv.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 217

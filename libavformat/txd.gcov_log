@@ -1,0 +1,18 @@
+Function 'txd_read_packet'
+Lines executed:0.00% of 25
+
+Function 'txd_read_header'
+Lines executed:0.00% of 12
+
+Function 'txd_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/txd.c'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#txd.gcno##libavformat#txd.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#txd.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 41

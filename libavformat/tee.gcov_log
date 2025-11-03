@@ -1,0 +1,39 @@
+Function 'tee_write_packet'
+Lines executed:0.00% of 53
+
+Function 'tee_write_trailer'
+Lines executed:0.00% of 10
+
+Function 'tee_write_header'
+Lines executed:0.00% of 46
+
+Function 'tee_process_slave_failure'
+Lines executed:0.00% of 14
+
+Function 'log_slave'
+Lines executed:0.00% of 14
+
+Function 'open_slave'
+Lines executed:0.00% of 154
+
+Function 'close_slaves'
+Lines executed:0.00% of 6
+
+Function 'close_slave'
+Lines executed:0.00% of 17
+
+Function 'parse_slave_fifo_policy'
+Lines executed:0.00% of 5
+
+Function 'parse_slave_failure_policy_option'
+Lines executed:0.00% of 12
+
+File 'libavformat/tee.c'
+Lines executed:0.00% of 328
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tee.gcno##libavformat#tee.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tee.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 331

@@ -1,0 +1,24 @@
+Function 'blockdetect_uninit'
+Lines executed:0.00% of 7
+
+Function 'blockdetect_filter_frame'
+Lines executed:0.00% of 28
+
+Function 'set_meta'
+Lines executed:0.00% of 7
+
+Function 'calculate_blockiness'
+Lines executed:0.00% of 56
+
+Function 'blockdetect_config_input'
+Lines executed:0.00% of 12
+
+File 'libavfilter/vf_blockdetect.c'
+Lines executed:0.00% of 108
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blockdetect.gcno##libavfilter#vf_blockdetect.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blockdetect.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 110

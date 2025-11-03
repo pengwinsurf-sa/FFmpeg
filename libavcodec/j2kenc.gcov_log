@@ -1,0 +1,114 @@
+Function 'j2kenc_destroy'
+Lines executed:0.00% of 4
+
+Function 'j2kenc_init'
+Lines executed:0.00% of 55
+
+Function 'parse_layer_rates'
+Lines executed:0.00% of 28
+
+Function 'encode_frame'
+Lines executed:0.00% of 118
+
+Function 'reinit'
+Lines executed:0.00% of 7
+
+Function 'cleanup'
+Lines executed:0.00% of 12
+
+Function 'encode_tile'
+Lines executed:0.00% of 64
+
+Function 'truncpasses'
+Lines executed:0.00% of 23
+
+Function 'getcut'
+Lines executed:0.00% of 12
+
+Function 'makelayers'
+Lines executed:0.00% of 57
+
+Function 'makelayer'
+Lines executed:0.00% of 52
+
+Function 'encode_packets'
+Lines executed:0.00% of 161
+
+Function 'encode_packet'
+Lines executed:0.00% of 108
+
+Function 'putnumpasses'
+Lines executed:0.00% of 11
+
+Function 'encode_cblk'
+Lines executed:0.00% of 38
+
+Function 'encode_clnpass'
+Lines executed:0.00% of 49
+
+Function 'encode_refpass'
+Lines executed:0.00% of 17
+
+Function 'encode_sigpass'
+Lines executed:0.00% of 17
+
+Function 'init_luts'
+Lines executed:0.00% of 11
+
+Function 'init_quantization'
+Lines executed:0.00% of 20
+
+Function 'copy_frame_16'
+Lines executed:0.00% of 1
+
+Function 'copy_frame_8'
+Lines executed:0.00% of 1
+
+Function 'init_tiles'
+Lines executed:0.00% of 35
+
+Function 'compute_rates'
+Lines executed:0.00% of 16
+
+Function 'put_sot'
+Lines executed:0.00% of 11
+
+Function 'put_com'
+Lines executed:0.00% of 9
+
+Function 'put_qcd'
+Lines executed:0.00% of 16
+
+Function 'put_cod'
+Lines executed:0.00% of 22
+
+Function 'put_siz'
+Lines executed:0.00% of 19
+
+Function 'tag_tree_code'
+Lines executed:0.00% of 21
+
+Function 'put_bits'
+Lines executed:0.00% of 7
+
+File 'libavcodec/j2kenc.c'
+Lines executed:0.00% of 994
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#j2kenc.gcno##libavcodec#j2kenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#j2kenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#j2kenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#j2kenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/jpeg2000.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#j2kenc.gcno##libavcodec#jpeg2000.h.gcov'
+
+Lines executed:0.00% of 1022

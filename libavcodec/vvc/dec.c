@@ -20,6 +20,8 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
+
+#include "libavcodec/bytestream.h"
 #include "libavcodec/codec_internal.h"
 #include "libavcodec/decode.h"
 #include "libavcodec/hwaccel_internal.h"
@@ -509,13 +511,14 @@ static int slices_realloc(VVCFrameContext *fc)
     return 0;
 }
 
-static int get_ep_size(const H266RawSliceHeader *rsh, GetBitContext *gb, const H2645NAL *nal, const int header_size, const int ep_index)
+static int get_ep_size(const H266RawSliceHeader *rsh, const GetByteContext *gb,
+                       const H2645NAL *nal, const int header_size, const int ep_index)
 {
     int size;
 
     if (ep_index < rsh->num_entry_points) {
         int skipped = 0;
-        int64_t start =  (gb->index >> 3);
+        int64_t start = bytestream2_tell(gb);
         int64_t end = start + rsh->sh_entry_point_offset_minus1[ep_index] + 1;
         while (skipped < nal->skipped_bytes && nal->skipped_bytes_pos[skipped] <= start + header_size) {
             skipped++;
@@ -525,26 +528,27 @@ static int get_ep_size(const H266RawSliceHeader *rsh, GetBitContext *gb, const H
             skipped++;
         }
         size = end - start;
-        size = av_clip(size, 0, get_bits_left(gb) / 8);
+        size = av_clip(size, 0, bytestream2_get_bytes_left(gb));
     } else {
-        size = get_bits_left(gb) / 8;
+        size = bytestream2_get_bytes_left(gb);
     }
     return size;
 }
 
-static int ep_init_cabac_decoder(EntryPoint *ep, GetBitContext *gb, const int size)
+static int ep_init_cabac_decoder(EntryPoint *ep, GetByteContext *gb, const int size)
 {
     int ret;
 
-    av_assert0(gb->buffer + get_bits_count(gb) / 8 + size <= gb->buffer_end);
-    ret = ff_init_cabac_decoder (&ep->cc, gb->buffer + get_bits_count(gb) / 8, size);
+    av_assert0(size <= bytestream2_get_bytes_left(gb));
+    ret = ff_init_cabac_decoder(&ep->cc, gb->buffer, size);
     if (ret < 0)
         return ret;
-    skip_bits(gb, size * 8);
+    bytestream2_skipu(gb, size);
     return 0;
 }
 
-static int ep_init(EntryPoint *ep, const int ctu_addr, const int ctu_end, GetBitContext *gb, const int size)
+static int ep_init(EntryPoint *ep, const int ctu_addr, const int ctu_end,
+                   GetByteContext *gb, const int size)
 {
     const int ret = ep_init_cabac_decoder(ep, gb, size);
 
@@ -567,7 +571,7 @@ static int slice_init_entry_points(SliceContext *sc,
     const H266RawSlice *slice = unit->content_ref;
     int nb_eps                = sh->r->num_entry_points + 1;
     int ctu_addr              = 0;
-    GetBitContext gb;
+    GetByteContext gb;
     int ret;
 
     if (sc->nb_eps != nb_eps) {
@@ -578,9 +582,8 @@ static int slice_init_entry_points(SliceContext *sc,
         sc->nb_eps = nb_eps;
     }
 
-    ret = init_get_bits8(&gb, slice->data, slice->data_size);
-    if (ret < 0)
-        return ret;
+    bytestream2_init(&gb, slice->data, slice->data_size);
+
     for (int i = 0; i < sc->nb_eps; i++)
     {
         const int size    = get_ep_size(sc->sh.r, &gb, nal, slice->header_size, i);
@@ -849,8 +852,6 @@ static int slice_start(SliceContext *sc, VVCContext *s, VVCFrameContext *fc,
     if (ret < 0)
         return ret;
 
-    av_refstruct_replace(&sc->ref, unit->content_ref);
-
     if (is_first_slice) {
         ret = frame_start(s, fc, sc);
         if (ret < 0)
@@ -924,7 +925,7 @@ static int export_frame_params(VVCContext *s, const VVCFrameContext *fc)
 
 static int frame_setup(VVCFrameContext *fc, VVCContext *s)
 {
-    int ret = ff_vvc_decode_frame_ps(&fc->ps, s);
+    int ret = ff_vvc_decode_frame_ps(fc, s);
     if (ret < 0)
         return ret;
 
@@ -951,6 +952,7 @@ static int decode_slice(VVCContext *s, VVCFrameContext *fc, AVBufferRef *buf_ref
         return ret;
 
     sc = fc->slices[fc->nb_slices];
+    av_refstruct_replace(&sc->ref, unit->content_ref);
 
     s->vcl_unit_type = nal->type;
     if (is_first_slice) {
@@ -1088,8 +1090,7 @@ static int frame_end(VVCContext *s, VVCFrameContext *fc)
             av_assert0(0);
             return AVERROR_BUG;
         case AV_FILM_GRAIN_PARAMS_H274:
-            ret = ff_h274_apply_film_grain(fc->ref->frame_grain, fc->ref->frame,
-                &s->h274db, fgp);
+            ret = ff_h274_apply_film_grain(fc->ref->frame_grain, fc->ref->frame, fgp);
             if (ret < 0)
                 return ret;
             break;
@@ -1109,13 +1110,11 @@ static int frame_end(VVCContext *s, VVCFrameContext *fc)
                 return ret;
 
             ret = ff_h274_hash_verify(s->hash_ctx, &sei->picture_hash, fc->ref->frame, fc->ps.pps->width, fc->ps.pps->height);
-            if (ret < 0) {
-                av_log(s->avctx, AV_LOG_ERROR,
-                    "Verifying checksum for frame with decoder_order %d: failed\n",
-                    (int)fc->decode_order);
-                if (s->avctx->err_recognition & AV_EF_EXPLODE)
-                    return ret;
-            }
+            av_log(s->avctx, ret < 0 ? AV_LOG_ERROR : AV_LOG_DEBUG,
+                "Verifying checksum for frame with decode_order %d: %s\n",
+                (int)fc->decode_order, ret < 0 ? "incorrect": "correct");
+            if (ret < 0 && (s->avctx->err_recognition & AV_EF_EXPLODE))
+                return ret;
         }
     }
 

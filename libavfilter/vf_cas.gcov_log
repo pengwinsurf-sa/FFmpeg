@@ -1,0 +1,21 @@
+Function 'config_input'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'cas_slice16'
+Lines executed:0.00% of 54
+
+Function 'cas_slice8'
+Lines executed:0.00% of 50
+
+File 'libavfilter/vf_cas.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_cas.gcno##libavfilter#vf_cas.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_cas.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 132

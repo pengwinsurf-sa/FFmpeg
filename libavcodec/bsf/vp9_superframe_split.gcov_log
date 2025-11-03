@@ -1,0 +1,36 @@
+Function 'vp9_superframe_split_uninit'
+Lines executed:0.00% of 4
+
+Function 'vp9_superframe_split_flush'
+Lines executed:0.00% of 4
+
+Function 'vp9_superframe_split_init'
+Lines executed:0.00% of 5
+
+Function 'vp9_superframe_split_filter'
+Lines executed:0.00% of 97
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/bsf/vp9_superframe_split.c'
+Lines executed:0.00% of 77
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vp9_superframe_split.gcno##libavcodec#bsf#vp9_superframe_split.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vp9_superframe_split.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vp9_superframe_split.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vp9_superframe_split.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vp9_superframe_split.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 129

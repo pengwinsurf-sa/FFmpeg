@@ -1,0 +1,59 @@
+Function 'webm_dash_manifest_write_packet'
+Lines executed:0.00% of 2
+
+Function 'webm_dash_manifest_write_header'
+Lines executed:0.00% of 32
+
+Function 'parse_adaptation_sets'
+Lines executed:0.00% of 52
+
+Function 'write_adaptation_set'
+Lines executed:0.00% of 82
+
+Function 'split_filename'
+Lines executed:0.00% of 5
+
+Function 'free_adaptation_sets'
+Lines executed:0.00% of 8
+
+Function 'check_matching_sample_rate'
+Lines executed:0.00% of 6
+
+Function 'check_matching_height'
+Lines executed:0.00% of 6
+
+Function 'check_matching_width'
+Lines executed:0.00% of 6
+
+Function 'write_representation'
+Lines executed:0.00% of 38
+
+Function 'bitstream_switching'
+Lines executed:0.00% of 17
+
+Function 'subsegment_alignment'
+Lines executed:0.00% of 7
+
+Function 'write_header'
+Lines executed:0.00% of 32
+
+Function 'get_duration'
+Lines executed:0.00% of 10
+
+File 'libavformat/webmdashenc.c'
+Lines executed:0.00% of 297
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#webmdashenc.gcno##libavformat#webmdashenc.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#webmdashenc.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#webmdashenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#webmdashenc.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-float.h.gcov'
+
+Lines executed:0.00% of 303

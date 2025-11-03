@@ -1,0 +1,169 @@
+Function 'theora_decode_init'
+Lines executed:0.00% of 63
+
+Function 'theora_decode_tables'
+Lines executed:0.00% of 70
+
+Function 'theora_decode_header'
+Lines executed:0.00% of 77
+
+Function 'read_huffman_tree'
+Lines executed:0.00% of 15
+
+Function 'vp3_decode_frame'
+Lines executed:0.00% of 161
+
+Function 'vp3_update_thread_context'
+Lines executed:0.00% of 22
+
+Function 'ref_frames'
+Lines executed:0.00% of 5
+
+Function 'update_frames'
+Lines executed:0.00% of 7
+
+Function 'vp3_decode_init'
+Lines executed:0.00% of 97
+
+Function 'free_vlc_tables'
+Lines executed:0.00% of 5
+
+Function 'allocate_tables'
+Lines executed:0.00% of 25
+
+Function 'init_tables_once'
+Lines executed:0.00% of 20
+
+Function 'render_slice'
+Lines executed:0.00% of 95
+
+Function 'vp4_mc_loop_filter'
+Lines executed:0.00% of 44
+
+Function 'await_reference_row'
+Lines executed:0.00% of 11
+
+Function 'vp3_draw_horiz_band'
+Lines executed:0.00% of 24
+
+Function 'vp3_dequant'
+Lines executed:0.00% of 29
+
+Function 'apply_loop_filter'
+Lines executed:0.00% of 30
+
+Function 'reverse_dc_prediction'
+Lines executed:0.00% of 59
+
+Function 'vp4_unpack_dct_coeffs'
+Lines executed:0.00% of 74
+
+Function 'vp4_dc_pred'
+Lines executed:0.00% of 16
+
+Function 'vp4_dc_pred_before'
+Lines executed:0.00% of 7
+
+Function 'vp4_unpack_vlcs'
+Lines executed:0.00% of 53
+
+Function 'unpack_dct_coeffs'
+Lines executed:0.00% of 48
+
+Function 'unpack_vlcs'
+Lines executed:0.00% of 59
+
+Function 'get_coeff'
+Lines executed:0.00% of 10
+
+Function 'unpack_block_qpis'
+Lines executed:0.00% of 24
+
+Function 'unpack_vectors'
+Lines executed:0.00% of 119
+
+Function 'vp4_get_mv'
+Lines executed:0.00% of 3
+
+Function 'unpack_modes'
+Lines executed:0.00% of 58
+
+Function 'vp4_unpack_macroblocks'
+Lines executed:0.00% of 53
+
+Function 'vp4_get_block_pattern'
+Lines executed:0.00% of 4
+
+Function 'vp4_get_mb_count'
+Lines executed:0.00% of 21
+
+Function 'unpack_superblocks'
+Lines executed:0.00% of 90
+
+Function 'init_dequantizer'
+Lines executed:0.00% of 24
+
+Function 'init_block_mapping'
+Lines executed:0.00% of 19
+
+Function 'vp3_decode_end'
+Lines executed:0.00% of 8
+
+Function 'vp3_decode_flush'
+Lines executed:0.00% of 6
+
+Function 'free_tables'
+Lines executed:0.00% of 13
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/vp3.c'
+Lines executed:0.00% of 1501
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavcodec#vp3.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/vlc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavcodec#vlc.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp3.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1600

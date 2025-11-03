@@ -1,0 +1,14 @@
+Function 'avdevice_license'
+Lines executed:0.00% of 2
+
+Function 'avdevice_configuration'
+Lines executed:0.00% of 2
+
+Function 'avdevice_version'
+Lines executed:0.00% of 3
+
+File 'libavdevice/version.c'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#version.gcno##libavdevice#version.c.gcov'
+
+Lines executed:0.00% of 7

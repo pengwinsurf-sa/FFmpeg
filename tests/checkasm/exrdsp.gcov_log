@@ -1,0 +1,30 @@
+Function 'checkasm_check_exrdsp'
+Lines executed:100.00% of 10
+
+Function 'check_predictor'
+Lines executed:75.86% of 29
+
+Function 'check_reorder_pixels'
+Lines executed:93.33% of 15
+
+File 'tests/checkasm/exrdsp.c'
+Lines executed:95.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#exrdsp.gcno##tests#checkasm#exrdsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#exrdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#exrdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#exrdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#exrdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:85.19% of 54

@@ -1,0 +1,119 @@
+Function 'ff_range_add'
+Lines executed:0.00% of 39
+
+Function 'sws_getCachedContext'
+Lines executed:0.00% of 32
+
+Function 'sws_free_context'
+Lines executed:0.00% of 5
+
+Function 'sws_freeContext'
+Lines executed:93.48% of 46
+
+Function 'sws_getDefaultFilter'
+Lines executed:0.00% of 64
+
+Function 'sws_freeFilter'
+Lines executed:0.00% of 7
+
+Function 'sws_freeVec'
+Lines executed:0.00% of 5
+
+Function 'sws_printVec2'
+Lines executed:0.00% of 19
+
+Function 'sws_addVec'
+Lines executed:0.00% of 10
+
+Function 'sws_shiftVec'
+Lines executed:0.00% of 8
+
+Function 'sws_getShiftedVec'
+Lines executed:0.00% of 8
+
+Function 'sws_sumVec'
+Lines executed:0.00% of 9
+
+Function 'sws_normalizeVec'
+Lines executed:0.00% of 9
+
+Function 'sws_scaleVec'
+Lines executed:0.00% of 5
+
+Function 'sws_getConstVec'
+Lines executed:0.00% of 6
+
+Function 'sws_getGaussianVec'
+Lines executed:0.00% of 14
+
+Function 'sws_allocVec'
+Lines executed:0.00% of 10
+
+Function 'sws_getContext'
+Lines executed:75.00% of 20
+
+Function 'sws_init_context'
+Lines executed:84.21% of 19
+
+Function 'context_init_threaded'
+Lines executed:0.00% of 28
+
+Function 'ff_sws_init_single_context'
+Lines executed:50.52% of 382
+
+Function 'alloc_gamma_tbl'
+Lines executed:0.00% of 7
+
+Function 'sws_alloc_context'
+Lines executed:100.00% of 8
+
+Function 'sws_getColorspaceDetails'
+Lines executed:0.00% of 13
+
+Function 'sws_setColorspaceDetails'
+Lines executed:56.99% of 93
+
+Function 'range_override_needed'
+Lines executed:100.00% of 2
+
+Function 'handle_formats'
+Lines executed:61.11% of 18
+
+Function 'handle_jpeg'
+Lines executed:11.76% of 17
+
+Function 'fill_xyztables'
+Lines executed:0.00% of 15
+
+Function 'init_xyz_tables'
+Lines executed:0.00% of 12
+
+Function 'fill_rgb2yuv_table'
+Lines executed:100.00% of 42
+
+Function 'initFilter'
+Lines executed:65.34% of 251
+
+Function 'get_local_pos'
+Lines executed:100.00% of 4
+
+Function 'ff_shuffle_filter_coefficients'
+Lines executed:106.67% of 30
+
+File 'libswscale/utils.c'
+Lines executed:44.52% of 1204
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#utils.gcno##libswscale#utils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#utils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#utils.gcno##libavutil#emms.h.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:82.22% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#utils.gcno##libswscale#swscale_internal.h.gcov'
+
+Lines executed:46.22% of 1257

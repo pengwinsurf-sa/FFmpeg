@@ -1,0 +1,32 @@
+Function 'filter_frame'
+Lines executed:0.00% of 31
+
+Function 'config_output'
+Lines executed:0.00% of 21
+
+Function 'pixelize_slice'
+Lines executed:0.00% of 30
+
+Function 'pixelize_max16'
+Lines executed:0.00% of 1
+
+Function 'pixelize_max8'
+Lines executed:0.00% of 1
+
+Function 'pixelize_min16'
+Lines executed:0.00% of 1
+
+Function 'pixelize_min8'
+Lines executed:0.00% of 1
+
+Function 'pixelize_avg16'
+Lines executed:0.00% of 1
+
+Function 'pixelize_avg8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_pixelize.c'
+Lines executed:0.00% of 88
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_pixelize.gcno##libavfilter#vf_pixelize.c.gcov'
+
+Lines executed:0.00% of 88

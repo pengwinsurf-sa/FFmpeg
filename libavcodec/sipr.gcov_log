@@ -1,0 +1,50 @@
+Function 'sipr_decode_frame'
+Lines executed:0.00% of 37
+
+Function 'sipr_decoder_init'
+Lines executed:0.00% of 28
+
+Function 'decode_frame'
+Lines executed:0.00% of 70
+
+Function 'decode_fixed_sparse'
+Lines executed:0.00% of 34
+
+Function 'postfilter_5k0'
+Lines executed:0.00% of 18
+
+Function 'convolute_with_sparse'
+Lines executed:0.00% of 7
+
+Function 'eval_ir'
+Lines executed:0.00% of 15
+
+Function 'sipr_decode_lp'
+Lines executed:0.00% of 12
+
+Function 'decode_parameters'
+Lines executed:0.00% of 26
+
+Function 'lsf_decode_fp'
+Lines executed:0.00% of 14
+
+Function 'dequant'
+Lines executed:0.00% of 7
+
+File 'libavcodec/sipr.c'
+Lines executed:0.00% of 236
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr.gcno##libavcodec#sipr.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 268

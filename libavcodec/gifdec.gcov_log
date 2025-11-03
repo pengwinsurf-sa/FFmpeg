@@ -1,0 +1,37 @@
+Function 'gif_decode_close'
+Lines executed:0.00% of 7
+
+Function 'gif_decode_frame'
+Lines executed:0.00% of 36
+
+Function 'gif_decode_init'
+Lines executed:0.00% of 8
+
+Function 'gif_parse_next_image'
+Lines executed:0.00% of 14
+
+Function 'gif_read_header1'
+Lines executed:0.00% of 40
+
+Function 'gif_read_extension'
+Lines executed:0.00% of 31
+
+Function 'gif_read_image'
+Lines executed:0.00% of 127
+
+Function 'gif_copy_img_rect'
+Lines executed:0.00% of 10
+
+File 'libavcodec/gifdec.c'
+Lines executed:0.00% of 253
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gifdec.gcno##libavcodec#gifdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gifdec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gifdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 273

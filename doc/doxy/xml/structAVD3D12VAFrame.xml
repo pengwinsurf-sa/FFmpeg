@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVD3D12VAFrame" kind="struct" language="C++" prot="public">
+    <compoundname>AVD3D12VAFrame</compoundname>
+    <includes refid="hwcontext__d3d12va_8h" local="no">libavutil/hwcontext_d3d12va.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVD3D12VAFrame_1a92303c5c28b780ee2e531b82b8188a96" prot="public" static="no" mutable="no">
+        <type>ID3D12Resource *</type>
+        <definition>ID3D12Resource* AVD3D12VAFrame::texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>AVD3D12VAFrame::texture</qualifiedname>
+        <briefdescription>
+<para>The texture in which the frame is located. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The reference count is managed by the <ref refid="structAVBufferRef" kindref="compound">AVBufferRef</ref>, and destroying the reference will release the interface. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="112" column="20" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VAFrame_1a9a314ddda3f56529fd1c5abb5a1710c0" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVD3D12VASyncContext" kindref="compound">AVD3D12VASyncContext</ref></type>
+        <definition>AVD3D12VASyncContext AVD3D12VAFrame::sync_ctx</definition>
+        <argsstring></argsstring>
+        <name>sync_ctx</name>
+        <qualifiedname>AVD3D12VAFrame::sync_ctx</qualifiedname>
+        <briefdescription>
+<para>The sync context for the texture. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>: <ulink url="https://learn.microsoft.com/en-us/windows/win32/medfound/direct3d-12-video-overview#directx-12-fences">https://learn.microsoft.com/en-us/windows/win32/medfound/direct3d-12-video-overview#directx-12-fences</ulink> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="119" column="26" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>D3D12VA frame descriptor for pool allocation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AVD3D12VAFrame</label>
+        <link refid="structAVD3D12VAFrame"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sync_ctx</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AVD3D12VASyncContext</label>
+        <link refid="structAVD3D12VASyncContext"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavutil/hwcontext_d3d12va.h" line="106" column="1" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="106" bodyend="120"/>
+    <listofallmembers>
+      <member refid="structAVD3D12VAFrame_1a9a314ddda3f56529fd1c5abb5a1710c0" prot="public" virt="non-virtual"><scope>AVD3D12VAFrame</scope><name>sync_ctx</name></member>
+      <member refid="structAVD3D12VAFrame_1a92303c5c28b780ee2e531b82b8188a96" prot="public" virt="non-virtual"><scope>AVD3D12VAFrame</scope><name>texture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

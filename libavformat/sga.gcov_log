@@ -1,0 +1,51 @@
+Function 'sga_seek'
+Lines executed:0.00% of 7
+
+Function 'sga_read_packet'
+Lines executed:0.00% of 49
+
+Function 'try_packet'
+Lines executed:0.00% of 10
+
+Function 'sga_packet'
+Lines executed:0.00% of 13
+
+Function 'sga_audio_packet'
+Lines executed:0.00% of 31
+
+Function 'sga_video_packet'
+Lines executed:0.00% of 31
+
+Function 'print_stats'
+Lines executed:0.00% of 11
+
+Function 'sga_read_header'
+Lines executed:0.00% of 33
+
+Function 'sga_probe'
+Lines executed:0.00% of 74
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavformat/sga.c'
+Lines executed:0.00% of 245
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sga.gcno##libavformat#sga.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sga.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sga.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sga.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sga.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 263

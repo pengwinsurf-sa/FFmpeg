@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="swscale_8h" kind="file" language="C++">
+    <compoundname>swscale.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="avutil_8h" local="yes">libavutil/avutil.h</includes>
+    <includes refid="frame_8h" local="yes">libavutil/frame.h</includes>
+    <includes refid="log_8h" local="yes">libavutil/log.h</includes>
+    <includes refid="pixfmt_8h" local="yes">libavutil/pixfmt.h</includes>
+    <includes refid="libswscale_2version__major_8h" local="yes">version_major.h</includes>
+    <includes refid="libswscale_2version_8h" local="yes">version.h</includes>
+    <includedby refid="mux_8c" local="no">doc/examples/mux.c</includedby>
+    <includedby refid="scale__video_8c" local="no">doc/examples/scale_video.c</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="3">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libswscale/swscale.h</label>
+        <link refid="swscale_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>version.h</label>
+        <link refid="libswscale_2version_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>version_major.h</label>
+        <link refid="libswscale_2version__major_8h"/>
+      </node>
+      <node id="5">
+        <label>errno.h</label>
+      </node>
+      <node id="6">
+        <label>inttypes.h</label>
+      </node>
+      <node id="16">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="7">
+        <label>limits.h</label>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="23">
+        <label>stdarg.h</label>
+      </node>
+      <node id="14">
+        <label>stddef.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>stdlib.h</label>
+      </node>
+      <node id="11">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="3">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="1">
+        <label>libswscale/swscale.h</label>
+        <link refid="swscale_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structSwsContext" prot="public">SwsContext</innerclass>
+    <innerclass refid="structSwsVector" prot="public">SwsVector</innerclass>
+    <innerclass refid="structSwsFilter" prot="public">SwsFilter</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__libsws_1ga3f5d541ffe1c4bf8a216c54f0de8eb11" kind="define"><name>SWS_SRC_V_CHR_DROP_MASK</name></member>
+      <member refid="group__libsws_1ga77331b2b4b9648ca47a3ca307a2151c5" kind="define"><name>SWS_SRC_V_CHR_DROP_SHIFT</name></member>
+      <member refid="group__libsws_1gad4a209577e10d655c2495349a96bb611" kind="define"><name>SWS_PARAM_DEFAULT</name></member>
+      <member refid="group__libsws_1gacc8f46b6954cae7d891a041793e2e751" kind="define"><name>SWS_MAX_REDUCE_CUTOFF</name></member>
+      <member refid="group__libsws_1gab5d1f9b6f50c155496b358d348ed6f36" kind="define"><name>SWS_CS_ITU709</name></member>
+      <member refid="group__libsws_1gaae1a28de2fd6fdd21a082bcc10ce6cb9" kind="define"><name>SWS_CS_FCC</name></member>
+      <member refid="group__libsws_1gaf9de144a406b66c68bd29cdcaefaeee5" kind="define"><name>SWS_CS_ITU601</name></member>
+      <member refid="group__libsws_1gab3795e86c9f475f206a187d937c7f4fa" kind="define"><name>SWS_CS_ITU624</name></member>
+      <member refid="group__libsws_1gac7287919a348578d8452c42c03d65042" kind="define"><name>SWS_CS_SMPTE170M</name></member>
+      <member refid="group__libsws_1ga8a066eae69a34d9d60c73c40628094e4" kind="define"><name>SWS_CS_SMPTE240M</name></member>
+      <member refid="group__libsws_1ga1867c2c57f3c0d18fa72592e30e7d3c2" kind="define"><name>SWS_CS_DEFAULT</name></member>
+      <member refid="group__libsws_1ga0c8f55463ce3bd8904dedd7e73f29050" kind="define"><name>SWS_CS_BT2020</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__libsws_1ga7305b190c33d84c6575799b4b593b3b9" kind="enum"><name>SwsDither</name></member>
+      <member refid="group__libsws_1ga878a03b3ee6c5066ee77c5c02b8f1016" kind="enum"><name>SwsAlphaBlend</name></member>
+      <member refid="group__libsws_1gade664a46fb2652e6050985ebcd316798" kind="enum"><name>SwsFlags</name></member>
+      <member refid="group__libsws_1ga71e02a84731a9d51c3b27c1ecb15f4f4" kind="enum"><name>SwsIntent</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__libsws_1gac879a3ada8130d32ba02a9265bfef253" kind="function"><name>swscale_version</name></member>
+      <member refid="group__libsws_1gab2d9cdff8aba8e5bb9e3691de864dc52" kind="function"><name>swscale_configuration</name></member>
+      <member refid="group__libsws_1ga5bc0b8f0d5c6702635fc93105208a0f9" kind="function"><name>swscale_license</name></member>
+      <member refid="group__libsws_1ga9952d942bbc700df8b9913a854ae36a3" kind="function"><name>sws_get_class</name></member>
+      <member refid="group__libsws_1ga6d69c4a081a1cba151c39e23b3780bd6" kind="function"><name>sws_alloc_context</name></member>
+      <member refid="group__libsws_1ga6e70a576a77f5839db7b1b65fe1be58c" kind="function"><name>sws_free_context</name></member>
+      <member refid="group__libsws_1gabf3c64eb307bbcd57495a00a1f8fe593" kind="function"><name>sws_test_format</name></member>
+      <member refid="group__libsws_1ga26061dc3409549af7c4f372ddf99101c" kind="function"><name>sws_test_colorspace</name></member>
+      <member refid="group__libsws_1ga43691a3d2d7aa2d65ba5eacf14e31f32" kind="function"><name>sws_test_primaries</name></member>
+      <member refid="group__libsws_1ga088df79fb46a1f504f2f19bce99a58d6" kind="function"><name>sws_test_transfer</name></member>
+      <member refid="group__libsws_1ga9a4b99648a5f2fe9b3d7e8cd6e1643f2" kind="function"><name>sws_test_frame</name></member>
+      <member refid="group__libsws_1gac123c2a5a4ac089de0648d4f0e1dc7b4" kind="function"><name>sws_frame_setup</name></member>
+      <member refid="group__libsws_1ga50bb392cac2bf4e626e309b56ab76c32" kind="function"><name>sws_is_noop</name></member>
+      <member refid="group__libsws_1ga2c7b155b5a961f6b6fd5771550fc7dc4" kind="function"><name>sws_scale_frame</name></member>
+      <member refid="group__libsws_1ga8c2a7d79bda5281ee2acdda359379f9e" kind="function"><name>sws_getCoefficients</name></member>
+      <member refid="group__libsws_1gab5e631b602510bd3fa3a5a7d509e573d" kind="function"><name>sws_isSupportedInput</name></member>
+      <member refid="group__libsws_1ga6885dc8ec36e8f2e701924263aa92cb0" kind="function"><name>sws_isSupportedOutput</name></member>
+      <member refid="group__libsws_1ga67f865ce22ae986ea84f4d7ce60ef182" kind="function"><name>sws_isSupportedEndiannessConversion</name></member>
+      <member refid="group__libsws_1ga2416739ac982d34b0010b7ce03074737" kind="function"><name>sws_init_context</name></member>
+      <member refid="group__libsws_1gad90b463ceeafdfd526994742f9954dbb" kind="function"><name>sws_freeContext</name></member>
+      <member refid="group__libsws_1gad1ad2df7ff7722a9a4672cd8c17c0d97" kind="function"><name>sws_getContext</name></member>
+      <member refid="group__libsws_1ga99a8a57d7fe64b44ea6ba6ddc698a1ca" kind="function"><name>sws_scale</name></member>
+      <member refid="group__libsws_1gaf1596b10563e2851c46c4de92736188a" kind="function"><name>sws_frame_start</name></member>
+      <member refid="group__libsws_1gad48e9f18ad68427a0b0c564801de5d77" kind="function"><name>sws_frame_end</name></member>
+      <member refid="group__libsws_1ga3394509b390ece6e39a027861a3fad4a" kind="function"><name>sws_send_slice</name></member>
+      <member refid="group__libsws_1ga19c354a10825af537aab99048b9eb900" kind="function"><name>sws_receive_slice</name></member>
+      <member refid="group__libsws_1ga6df42b4622cf0ed9ac8d6f8bdf0b70db" kind="function"><name>sws_receive_slice_alignment</name></member>
+      <member refid="group__libsws_1gafe7b7ca136c8b6bd1fbfca2beb28c5b1" kind="function"><name>sws_setColorspaceDetails</name></member>
+      <member refid="group__libsws_1ga1f9aed5176a5f8f169b8254ac57bdba7" kind="function"><name>sws_getColorspaceDetails</name></member>
+      <member refid="group__libsws_1ga7dfc79582bea9aaf0bcf4bb308c0f3f0" kind="function"><name>sws_allocVec</name></member>
+      <member refid="group__libsws_1ga873f630c7ae479fee1597924a2409fcd" kind="function"><name>sws_getGaussianVec</name></member>
+      <member refid="group__libsws_1gaf79fd6cabde06a0f2d118eb373bf83c6" kind="function"><name>sws_scaleVec</name></member>
+      <member refid="group__libsws_1gab40ce33fa0a432f1ba57dda9f740380d" kind="function"><name>sws_normalizeVec</name></member>
+      <member refid="group__libsws_1ga5745e8384365fd5c6b0a3241d6ab767b" kind="function"><name>sws_freeVec</name></member>
+      <member refid="group__libsws_1ga62206af736294f8cd90716877223d2af" kind="function"><name>sws_getDefaultFilter</name></member>
+      <member refid="group__libsws_1ga17b762761f7a53d596841ac0f2d4a2b5" kind="function"><name>sws_freeFilter</name></member>
+      <member refid="group__libsws_1ga91f10acfeb755cc9c551c6981beaa0a9" kind="function"><name>sws_getCachedContext</name></member>
+      <member refid="group__libsws_1ga2a140989dfed29dd91065352b6a52840" kind="function"><name>sws_convertPalette8ToPacked32</name></member>
+      <member refid="group__libsws_1ga3c3d094eb840e10fbc3a37c20a6c8585" kind="function"><name>sws_convertPalette8ToPacked24</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>external API header </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2024<sp/>Niklas<sp/>Haas</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2001-2011<sp/>Michael<sp/>Niedermayer<sp/>&lt;michaelni@gmx.at&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SWSCALE_SWSCALE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWSCALE_SWSCALE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="25"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>libsws</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>external<sp/>API<sp/>header</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avutil_8h" kindref="compound">libavutil/avutil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">libavutil/frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="log_8h" kindref="compound">libavutil/log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pixfmt_8h" kindref="compound">libavutil/pixfmt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libswscale_2version__major_8h" kindref="compound">version_major.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HAVE_AV_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>When<sp/>included<sp/>as<sp/>part<sp/>of<sp/>the<sp/>ffmpeg<sp/>build,<sp/>only<sp/>include<sp/>the<sp/>major<sp/>version</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>to<sp/>avoid<sp/>unnecessary<sp/>rebuilds.<sp/>When<sp/>included<sp/>externally,<sp/>keep<sp/>including</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>the<sp/>full<sp/>version<sp/>information.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libswscale_2version_8h" kindref="compound">version.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="45"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>libsws<sp/>libswscale</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>Color<sp/>conversion<sp/>and<sp/>scaling<sp/>library.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>LIBSWSCALE_VERSION_INT<sp/>constant.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="group__libsws_1gac879a3ada8130d32ba02a9265bfef253" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gac879a3ada8130d32ba02a9265bfef253" kindref="member">swscale_version</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>libswscale<sp/>build-time<sp/>configuration.</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="group__libsws_1gab2d9cdff8aba8e5bb9e3691de864dc52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__libsws_1gab2d9cdff8aba8e5bb9e3691de864dc52" kindref="member">swscale_configuration</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>libswscale<sp/>license.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="group__libsws_1ga5bc0b8f0d5c6702635fc93105208a0f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__libsws_1ga5bc0b8f0d5c6702635fc93105208a0f9" kindref="member">swscale_license</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>AVClass<sp/>for<sp/>SwsContext.<sp/>It<sp/>can<sp/>be<sp/>used<sp/>in<sp/>combination<sp/>with</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>AV_OPT_SEARCH_FAKE_OBJ<sp/>for<sp/>examining<sp/>options.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_opt_find().</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="group__libsws_1ga9952d942bbc700df8b9913a854ae36a3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVClass" kindref="compound">AVClass</ref><sp/>*<ref refid="group__libsws_1ga9952d942bbc700df8b9913a854ae36a3" kindref="member">sws_get_class</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/******************************</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>Flags<sp/>and<sp/>quality<sp/>settings<sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>******************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="group__libsws_1ga7305b190c33d84c6575799b4b593b3b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga7305b190c33d84c6575799b4b593b3b9" kindref="member">SwsDither</ref><sp/>{</highlight></codeline>
+<codeline lineno="78" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9afa87c1d59268142efb82b43f0382f927" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9afa87c1d59268142efb82b43f0382f927" kindref="member">SWS_DITHER_NONE</ref><sp/>=<sp/>0,<sp/></highlight><highlight class="comment">/*<sp/>disable<sp/>dithering<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a7926b0379b4c7c38a99fc4d47c8b4152" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a7926b0379b4c7c38a99fc4d47c8b4152" kindref="member">SWS_DITHER_AUTO</ref>,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>auto-select<sp/>from<sp/>preset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a8441801309e9452833b6a85ce16242f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a8441801309e9452833b6a85ce16242f2" kindref="member">SWS_DITHER_BAYER</ref>,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ordered<sp/>dither<sp/>matrix<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a3b1adb3a6d86a9e5527cc57ba46ed9eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a3b1adb3a6d86a9e5527cc57ba46ed9eb" kindref="member">SWS_DITHER_ED</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>error<sp/>diffusion<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a5045f0dd88bd1fdd0076b010dc12e04d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a5045f0dd88bd1fdd0076b010dc12e04d" kindref="member">SWS_DITHER_A_DITHER</ref>,<sp/></highlight><highlight class="comment">/*<sp/>arithmetic<sp/>addition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a6f5ce069fa234800d88ba418b3126927" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a6f5ce069fa234800d88ba418b3126927" kindref="member">SWS_DITHER_X_DITHER</ref>,<sp/></highlight><highlight class="comment">/*<sp/>arithmetic<sp/>xor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a0c09ab8f987970d62475b002ed32e83c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga7305b190c33d84c6575799b4b593b3b9a0c09ab8f987970d62475b002ed32e83c" kindref="member">SWS_DITHER_NB</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>not<sp/>part<sp/>of<sp/>the<sp/>ABI<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/><ref refid="group__libsws_1ga7305b190c33d84c6575799b4b593b3b9" kindref="member">SwsDither</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="group__libsws_1ga878a03b3ee6c5066ee77c5c02b8f1016" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga878a03b3ee6c5066ee77c5c02b8f1016" kindref="member">SwsAlphaBlend</ref><sp/>{</highlight></codeline>
+<codeline lineno="88" refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a8661b3199ee684757f139875e8541803" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a8661b3199ee684757f139875e8541803" kindref="member">SWS_ALPHA_BLEND_NONE</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="89" refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a1b2b8fdbfd214b7a26803029a15ad1cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a1b2b8fdbfd214b7a26803029a15ad1cc" kindref="member">SWS_ALPHA_BLEND_UNIFORM</ref>,</highlight></codeline>
+<codeline lineno="90" refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a7373aae7231a32f184c07a5f97450a6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a7373aae7231a32f184c07a5f97450a6a" kindref="member">SWS_ALPHA_BLEND_CHECKERBOARD</ref>,</highlight></codeline>
+<codeline lineno="91" refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a5e7f51afefc8b770a98d1897f5e41bd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga878a03b3ee6c5066ee77c5c02b8f1016a5e7f51afefc8b770a98d1897f5e41bd5" kindref="member">SWS_ALPHA_BLEND_NB</ref>,<sp/><sp/></highlight><highlight class="comment">/*<sp/>not<sp/>part<sp/>of<sp/>the<sp/>ABI<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}<sp/><ref refid="group__libsws_1ga878a03b3ee6c5066ee77c5c02b8f1016" kindref="member">SwsAlphaBlend</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="group__libsws_1gade664a46fb2652e6050985ebcd316798" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gade664a46fb2652e6050985ebcd316798" kindref="member">SwsFlags</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Scaler<sp/>selection<sp/>options.<sp/>Only<sp/>one<sp/>may<sp/>be<sp/>active<sp/>at<sp/>a<sp/>time.</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798ae366a8f172c83a868c4a149ef844f2a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798ae366a8f172c83a868c4a149ef844f2a7" kindref="member">SWS_FAST_BILINEAR</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>0,<sp/></highlight><highlight class="comment">///&lt;<sp/>fast<sp/>bilinear<sp/>filtering</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a98ac2e5dde17be2430d2ac9a4b70afc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a98ac2e5dde17be2430d2ac9a4b70afc6" kindref="member">SWS_BILINEAR</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>1,<sp/></highlight><highlight class="comment">///&lt;<sp/>bilinear<sp/>filtering</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a57e6f470533fc8b734f69718720e5bf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a57e6f470533fc8b734f69718720e5bf6" kindref="member">SWS_BICUBIC</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>2,<sp/></highlight><highlight class="comment">///&lt;<sp/>2-tap<sp/>cubic<sp/>B-spline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798afb31eda138d9249e341f5442399728de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798afb31eda138d9249e341f5442399728de" kindref="member">SWS_X</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>3,<sp/></highlight><highlight class="comment">///&lt;<sp/>experimental</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798afbf7c2808c569ee52d42fe5b8eec6810" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798afbf7c2808c569ee52d42fe5b8eec6810" kindref="member">SWS_POINT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>4,<sp/></highlight><highlight class="comment">///&lt;<sp/>nearest<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a7e70e7c3c6afc8ddd4b288464abd335d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a7e70e7c3c6afc8ddd4b288464abd335d" kindref="member">SWS_AREA</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>5,<sp/></highlight><highlight class="comment">///&lt;<sp/>area<sp/>averaging</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a8758e35d29c39b37c3cfe19e81a986c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a8758e35d29c39b37c3cfe19e81a986c2" kindref="member">SWS_BICUBLIN</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>6,<sp/></highlight><highlight class="comment">///&lt;<sp/>bicubic<sp/>luma,<sp/>bilinear<sp/>chroma</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798adf59bb7e4837683a6f6a8f35e1d3e8fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798adf59bb7e4837683a6f6a8f35e1d3e8fa" kindref="member">SWS_GAUSS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>7,<sp/></highlight><highlight class="comment">///&lt;<sp/>gaussian<sp/>approximation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798aceafe89e45c73cf84170b12d1c717bfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798aceafe89e45c73cf84170b12d1c717bfc" kindref="member">SWS_SINC</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>8,<sp/></highlight><highlight class="comment">///&lt;<sp/>unwindowed<sp/>sinc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798acfcf777352870884cc3fe12481e5e8b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798acfcf777352870884cc3fe12481e5e8b3" kindref="member">SWS_LANCZOS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/><sp/>9,<sp/></highlight><highlight class="comment">///&lt;<sp/>3-tap<sp/>sinc/sinc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a4fac67fa6dd88a7e82b833ae491ccdd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a4fac67fa6dd88a7e82b833ae491ccdd8" kindref="member">SWS_SPLINE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>10,<sp/></highlight><highlight class="comment">///&lt;<sp/>cubic<sp/>Keys<sp/>spline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Return<sp/>an<sp/>error<sp/>on<sp/>underspecified<sp/>conversions.<sp/>Without<sp/>this<sp/>flag,</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>unspecified<sp/>fields<sp/>are<sp/>defaulted<sp/>to<sp/>sensible<sp/>values.</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a6fdd2dbcf5e8c7332980820e7fa4fe79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a6fdd2dbcf5e8c7332980820e7fa4fe79" kindref="member">SWS_STRICT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>11,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Emit<sp/>verbose<sp/>log<sp/>of<sp/>scaling<sp/>parameters.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a27c3d9ff99412848efaab5d6e20e07c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a27c3d9ff99412848efaab5d6e20e07c7" kindref="member">SWS_PRINT_INFO</ref><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>12,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Perform<sp/>full<sp/>chroma<sp/>upsampling<sp/>when<sp/>upscaling<sp/>to<sp/>RGB.</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>For<sp/>example,<sp/>when<sp/>converting<sp/>50x50<sp/>yuv420p<sp/>to<sp/>100x100<sp/>rgba,<sp/>setting<sp/>this<sp/>flag</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>will<sp/>scale<sp/>the<sp/>chroma<sp/>plane<sp/>from<sp/>25x25<sp/>to<sp/>100x100<sp/>(4:4:4),<sp/>and<sp/>then<sp/>convert</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>100x100<sp/>yuv444p<sp/>image<sp/>to<sp/>rgba<sp/>in<sp/>the<sp/>final<sp/>output<sp/>step.</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Without<sp/>this<sp/>flag,<sp/>the<sp/>chroma<sp/>plane<sp/>is<sp/>instead<sp/>scaled<sp/>to<sp/>50x100<sp/>(4:2:2),</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>with<sp/>a<sp/>single<sp/>chroma<sp/>sample<sp/>being<sp/>re-used<sp/>for<sp/>both<sp/>of<sp/>the<sp/>horizontally</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>adjacent<sp/>RGBA<sp/>output<sp/>pixels.</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798afffe9f6875f303f20155dfaa21348e02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798afffe9f6875f303f20155dfaa21348e02" kindref="member">SWS_FULL_CHR_H_INT</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>13,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Perform<sp/>full<sp/>chroma<sp/>interpolation<sp/>when<sp/>downscaling<sp/>RGB<sp/>sources.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>For<sp/>example,<sp/>when<sp/>converting<sp/>a<sp/>100x100<sp/>rgba<sp/>source<sp/>to<sp/>50x50<sp/>yuv444p,<sp/>setting</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>this<sp/>flag<sp/>will<sp/>generate<sp/>a<sp/>100x100<sp/>(4:4:4)<sp/>chroma<sp/>plane,<sp/>which<sp/>is<sp/>then</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>downscaled<sp/>to<sp/>the<sp/>required<sp/>50x50.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Without<sp/>this<sp/>flag,<sp/>the<sp/>chroma<sp/>plane<sp/>is<sp/>instead<sp/>generated<sp/>at<sp/>50x100<sp/>(dropping</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>every<sp/>other<sp/>pixel),<sp/>before<sp/>then<sp/>being<sp/>downscaled<sp/>to<sp/>the<sp/>required<sp/>50x50</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>resolution.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798acd6d6abf360fafcb122bd1b2888cf029" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798acd6d6abf360fafcb122bd1b2888cf029" kindref="member">SWS_FULL_CHR_H_INP</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>14,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Force<sp/>bit-exact<sp/>output.<sp/>This<sp/>will<sp/>prevent<sp/>the<sp/>use<sp/>of<sp/>platform-specific</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>optimizations<sp/>that<sp/>may<sp/>lead<sp/>to<sp/>slight<sp/>difference<sp/>in<sp/>rounding,<sp/>in<sp/>favor</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>always<sp/>maintaining<sp/>exact<sp/>bit<sp/>output<sp/>compatibility<sp/>with<sp/>the<sp/>reference</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>C<sp/>code.</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Note:<sp/>It<sp/>is<sp/>recommended<sp/>to<sp/>set<sp/>both<sp/>of<sp/>these<sp/>flags<sp/>simultaneously.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798af2289add3daff9fe455793d44ca71df4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798af2289add3daff9fe455793d44ca71df4" kindref="member">SWS_ACCURATE_RND</ref><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>18,</highlight></codeline>
+<codeline lineno="156" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a6315e14919206d9461953f72c97846dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a6315e14919206d9461953f72c97846dc" kindref="member">SWS_BITEXACT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>19,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deprecated<sp/>flags.</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798ade1c537d8cfcff1e23680ed5707cd0f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798ade1c537d8cfcff1e23680ed5707cd0f0" kindref="member">SWS_DIRECT_BGR</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>15,<sp/></highlight><highlight class="comment">///&lt;<sp/>This<sp/>flag<sp/>has<sp/>no<sp/>effect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a8f9140301cea8279af00ad2acc0519e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ggade664a46fb2652e6050985ebcd316798a8f9140301cea8279af00ad2acc0519e9" kindref="member">SWS_ERROR_DIFFUSION</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>23,<sp/></highlight><highlight class="comment">///&lt;<sp/>Set<sp/>`SwsContext.dither`<sp/>instead</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}<sp/><ref refid="group__libsws_1gade664a46fb2652e6050985ebcd316798" kindref="member">SwsFlags</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="group__libsws_1ga71e02a84731a9d51c3b27c1ecb15f4f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga71e02a84731a9d51c3b27c1ecb15f4f4" kindref="member">SwsIntent</ref><sp/>{</highlight></codeline>
+<codeline lineno="166" refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a0e2c41ecbb835ddcafb698b324842cb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a0e2c41ecbb835ddcafb698b324842cb2" kindref="member">SWS_INTENT_PERCEPTUAL</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Perceptual<sp/>tone<sp/>mapping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a4077b3f6bd40dcaa47c892d2d2c5e5dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a4077b3f6bd40dcaa47c892d2d2c5e5dc" kindref="member">SWS_INTENT_RELATIVE_COLORIMETRIC</ref><sp/>=<sp/>1,<sp/></highlight><highlight class="comment">///&lt;<sp/>Relative<sp/>colorimetric<sp/>clipping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a70550e463d669dcac6540ff7c526a611" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a70550e463d669dcac6540ff7c526a611" kindref="member">SWS_INTENT_SATURATION</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Saturation<sp/>mapping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a397c098df7ea6b3b281347bf8ff759d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a397c098df7ea6b3b281347bf8ff759d6" kindref="member">SWS_INTENT_ABSOLUTE_COLORIMETRIC</ref><sp/>=<sp/>3,<sp/></highlight><highlight class="comment">///&lt;<sp/>Absolute<sp/>colorimetric<sp/>clipping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a9a0357eb476ebb4e24ac82fbd0a92ee0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1gga71e02a84731a9d51c3b27c1ecb15f4f4a9a0357eb476ebb4e24ac82fbd0a92ee0" kindref="member">SWS_INTENT_NB</ref>,<sp/></highlight><highlight class="comment">///&lt;<sp/>not<sp/>part<sp/>of<sp/>the<sp/>ABI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}<sp/><ref refid="group__libsws_1ga71e02a84731a9d51c3b27c1ecb15f4f4" kindref="member">SwsIntent</ref>;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">/***********************************</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*<sp/>Context<sp/>creation<sp/>and<sp/>management<sp/>*</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>***********************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="177"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*<sp/>Main<sp/>external<sp/>API<sp/>structure.<sp/>New<sp/>fields<sp/>can<sp/>be<sp/>added<sp/>to<sp/>the<sp/>end<sp/>with</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*<sp/>minor<sp/>version<sp/>bumps.<sp/>Removal,<sp/>reordering<sp/>and<sp/>changes<sp/>to<sp/>existing<sp/>fields</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*<sp/>require<sp/>a<sp/>major<sp/>version<sp/>bump.<sp/>sizeof(SwsContext)<sp/>is<sp/>not<sp/>part<sp/>of<sp/>the<sp/>ABI.</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="structSwsContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>{</highlight></codeline>
+<codeline lineno="183" refid="structSwsContext_1a6866f52574bc730833d2580abc806261" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVClass" kindref="compound">AVClass</ref><sp/>*<ref refid="structSwsContext_1a6866f52574bc730833d2580abc806261" kindref="member">av_class</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Private<sp/>data<sp/>of<sp/>the<sp/>user,<sp/>can<sp/>be<sp/>used<sp/>to<sp/>carry<sp/>app<sp/>specific<sp/>stuff.</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="structSwsContext_1a90a448639c27486dc88b3ef4fa1252de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structSwsContext_1a90a448639c27486dc88b3ef4fa1252de" kindref="member">opaque</ref>;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Bitmask<sp/>of<sp/>SWS_*.<sp/>See<sp/>`SwsFlags`<sp/>for<sp/>details.</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="structSwsContext_1aef45de443b59978fd38ad1531c618574" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1aef45de443b59978fd38ad1531c618574" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Extra<sp/>parameters<sp/>for<sp/>fine-tuning<sp/>certain<sp/>scalers.</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="structSwsContext_1aebfe8c01f9ea0bb80c7ae4d433cc5062" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1aebfe8c01f9ea0bb80c7ae4d433cc5062" kindref="member">scaler_params</ref>[2];</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>How<sp/>many<sp/>threads<sp/>to<sp/>use<sp/>for<sp/>processing,<sp/>or<sp/>0<sp/>for<sp/>automatic<sp/>selection.</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="structSwsContext_1a3cc13e08b01c1152405b3a0e4313b255" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1a3cc13e08b01c1152405b3a0e4313b255" kindref="member">threads</ref>;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Dither<sp/>mode.</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="structSwsContext_1abdb353dd741ba1ff0bfab6bcb133c682" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ga7305b190c33d84c6575799b4b593b3b9" kindref="member">SwsDither</ref><sp/><ref refid="structSwsContext_1abdb353dd741ba1ff0bfab6bcb133c682" kindref="member">dither</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Alpha<sp/>blending<sp/>mode.<sp/>See<sp/>`SwsAlphaBlend`<sp/>for<sp/>details.</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="structSwsContext_1a8179d7c46f6e0acf4541abe42d03d743" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__libsws_1ga878a03b3ee6c5066ee77c5c02b8f1016" kindref="member">SwsAlphaBlend</ref><sp/><ref refid="structSwsContext_1a8179d7c46f6e0acf4541abe42d03d743" kindref="member">alpha_blend</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Use<sp/>gamma<sp/>correct<sp/>scaling.</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="structSwsContext_1a28ec4f81a1e3dcce7c92f2e7be8e9bd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1a28ec4f81a1e3dcce7c92f2e7be8e9bd1" kindref="member">gamma_flag</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deprecated<sp/>frame<sp/>property<sp/>overrides,<sp/>for<sp/>the<sp/>legacy<sp/>API<sp/>only.</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Ignored<sp/>by<sp/>sws_scale_frame()<sp/>when<sp/>used<sp/>in<sp/>dynamic<sp/>mode,<sp/>in<sp/>which</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>case<sp/>all<sp/>properties<sp/>are<sp/>instead<sp/>taken<sp/>from<sp/>the<sp/>frame<sp/>directly.</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="structSwsContext_1a0dbc8c02bd3b4cd472e07008009751ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1aa7dc7a4f9ec57a7c37957259a51cd920" kindref="member">src_w</ref>,<sp/><ref refid="structSwsContext_1a0dbc8c02bd3b4cd472e07008009751ff" kindref="member">src_h</ref>;<sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Width<sp/>and<sp/>height<sp/>of<sp/>the<sp/>source<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="structSwsContext_1a7facd34608c9258dae8c2942e3dce78f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1a883a891c8a2d4ea7a15a3a7055f64386" kindref="member">dst_w</ref>,<sp/><ref refid="structSwsContext_1a7facd34608c9258dae8c2942e3dce78f" kindref="member">dst_h</ref>;<sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Width<sp/>and<sp/>height<sp/>of<sp/>the<sp/>destination<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="structSwsContext_1aab113373f157ee3b255ad97481af0cd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1aab113373f157ee3b255ad97481af0cd9" kindref="member">src_format</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Source<sp/>pixel<sp/>format</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="structSwsContext_1a0ff71c9ef5ab6dabf90378fa7bf836ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1a0ff71c9ef5ab6dabf90378fa7bf836ec" kindref="member">dst_format</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Destination<sp/>pixel<sp/>format</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="structSwsContext_1af10043377f39ca25a7af39f214c3fdff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1af10043377f39ca25a7af39f214c3fdff" kindref="member">src_range</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Source<sp/>is<sp/>full<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="structSwsContext_1ac8b4b166f254ccb8def6ce21deead82b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1ac8b4b166f254ccb8def6ce21deead82b" kindref="member">dst_range</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Destination<sp/>is<sp/>full<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="structSwsContext_1aadaa2cfcdba987b8a231612f180ae8ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1aadaa2cfcdba987b8a231612f180ae8ca" kindref="member">src_v_chr_pos</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>Source<sp/>vertical<sp/>chroma<sp/>position<sp/>in<sp/>luma<sp/>grid<sp/>/<sp/>256</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="structSwsContext_1af1c9fa89159377a7949d9a1a9586f44f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1af1c9fa89159377a7949d9a1a9586f44f" kindref="member">src_h_chr_pos</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>Source<sp/>horizontal<sp/>chroma<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="structSwsContext_1aaf85ed903dff37c5768867dd296ba92c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1aaf85ed903dff37c5768867dd296ba92c" kindref="member">dst_v_chr_pos</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>Destination<sp/>vertical<sp/>chroma<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="structSwsContext_1a8d5fc2f5fa1e0f15b0a5b45b82b14c1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1a8d5fc2f5fa1e0f15b0a5b45b82b14c1a" kindref="member">dst_h_chr_pos</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>Destination<sp/>horizontal<sp/>chroma<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Desired<sp/>ICC<sp/>intent<sp/>for<sp/>color<sp/>space<sp/>conversions.</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="structSwsContext_1a1c26a06608196ce7b73a34f7d20e2c13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsContext_1a1c26a06608196ce7b73a34f7d20e2c13" kindref="member">intent</ref>;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Remember<sp/>to<sp/>add<sp/>new<sp/>fields<sp/>to<sp/>graph.c:opts_equal()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}<sp/><ref refid="structSwsContext" kindref="compound">SwsContext</ref>;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="245"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>empty<sp/>SwsContext<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to<sp/>default<sp/>values.</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="group__libsws_1ga6d69c4a081a1cba151c39e23b3780bd6" refkind="member"><highlight class="normal"><ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*<ref refid="group__libsws_1ga6d69c4a081a1cba151c39e23b3780bd6" kindref="member">sws_alloc_context</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="250"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/>*<sp/>Free<sp/>the<sp/>context<sp/>and<sp/>everything<sp/>associated<sp/>with<sp/>it,<sp/>and<sp/>write<sp/>NULL</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/>*<sp/>to<sp/>the<sp/>provided<sp/>pointer.</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="group__libsws_1ga6e70a576a77f5839db7b1b65fe1be58c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga6e70a576a77f5839db7b1b65fe1be58c" kindref="member">sws_free_context</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>**ctx);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="comment">/***************************</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/>*<sp/>Supported<sp/>frame<sp/>formats<sp/>*</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/>***************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="260"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/>*<sp/>Test<sp/>if<sp/>a<sp/>given<sp/>pixel<sp/>format<sp/>is<sp/>supported.</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/>*<sp/>@param<sp/>output<sp/><sp/>If<sp/>0,<sp/>test<sp/>if<sp/>compatible<sp/>with<sp/>the<sp/>source/input<sp/>frame;</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>otherwise,<sp/>with<sp/>the<sp/>destination/output<sp/>frame.</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/>*<sp/>@param<sp/>format<sp/><sp/>The<sp/>format<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>positive<sp/>integer<sp/>if<sp/>supported,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="group__libsws_1gabf3c64eb307bbcd57495a00a1f8fe593" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gabf3c64eb307bbcd57495a00a1f8fe593" kindref="member">sws_test_format</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>format,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>output);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="271"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/>*<sp/>Test<sp/>if<sp/>a<sp/>given<sp/>color<sp/>space<sp/>is<sp/>supported.</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="274"><highlight class="comment"><sp/>*<sp/>@param<sp/>output<sp/><sp/>If<sp/>0,<sp/>test<sp/>if<sp/>compatible<sp/>with<sp/>the<sp/>source/input<sp/>frame;</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>otherwise,<sp/>with<sp/>the<sp/>destination/output<sp/>frame.</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/>*<sp/>@param<sp/>colorspace<sp/>The<sp/>colorspace<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>positive<sp/>integer<sp/>if<sp/>supported,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="group__libsws_1ga26061dc3409549af7c4f372ddf99101c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga26061dc3409549af7c4f372ddf99101c" kindref="member">sws_test_colorspace</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1aff71a069509a1ad3ff54d53a1c894c85" kindref="member">AVColorSpace</ref><sp/>colorspace,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>output);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="282"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="283"><highlight class="comment"><sp/>*<sp/>Test<sp/>if<sp/>a<sp/>given<sp/>set<sp/>of<sp/>color<sp/>primaries<sp/>is<sp/>supported.</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/>*<sp/>@param<sp/>output<sp/><sp/>If<sp/>0,<sp/>test<sp/>if<sp/>compatible<sp/>with<sp/>the<sp/>source/input<sp/>frame;</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>otherwise,<sp/>with<sp/>the<sp/>destination/output<sp/>frame.</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/>*<sp/>@param<sp/>primaries<sp/>The<sp/>color<sp/>primaries<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>positive<sp/>integer<sp/>if<sp/>supported,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="290"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="group__libsws_1ga43691a3d2d7aa2d65ba5eacf14e31f32" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga43691a3d2d7aa2d65ba5eacf14e31f32" kindref="member">sws_test_primaries</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad384ee5a840bafd73daef08e6d9cafe7" kindref="member">AVColorPrimaries</ref><sp/>primaries,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>output);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="293"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/>*<sp/>Test<sp/>if<sp/>a<sp/>given<sp/>color<sp/>transfer<sp/>function<sp/>is<sp/>supported.</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/>*<sp/>@param<sp/>output<sp/><sp/>If<sp/>0,<sp/>test<sp/>if<sp/>compatible<sp/>with<sp/>the<sp/>source/input<sp/>frame;</highlight></codeline>
+<codeline lineno="297"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>otherwise,<sp/>with<sp/>the<sp/>destination/output<sp/>frame.</highlight></codeline>
+<codeline lineno="298"><highlight class="comment"><sp/>*<sp/>@param<sp/>trc<sp/><sp/><sp/><sp/><sp/>The<sp/>color<sp/>transfer<sp/>function<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="299"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="300"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>positive<sp/>integer<sp/>if<sp/>supported,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="301"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="group__libsws_1ga088df79fb46a1f504f2f19bce99a58d6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga088df79fb46a1f504f2f19bce99a58d6" kindref="member">sws_test_transfer</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/>trc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>output);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="304"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/>*<sp/>Helper<sp/>function<sp/>to<sp/>run<sp/>all<sp/>sws_test_*<sp/>against<sp/>a<sp/>frame,<sp/>as<sp/>well<sp/>as<sp/>testing</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/>*<sp/>the<sp/>basic<sp/>frame<sp/>properties<sp/>for<sp/>sanity.<sp/>Ignores<sp/>irrelevant<sp/>properties<sp/>-<sp/>for</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/>*<sp/>example,<sp/>AVColorSpace<sp/>is<sp/>not<sp/>checked<sp/>for<sp/>RGB<sp/>frames.</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="group__libsws_1ga9a4b99648a5f2fe9b3d7e8cd6e1643f2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga9a4b99648a5f2fe9b3d7e8cd6e1643f2" kindref="member">sws_test_frame</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>output);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="311"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="312"><highlight class="comment"><sp/>*<sp/>Like<sp/>`sws_scale_frame`,<sp/>but<sp/>without<sp/>actually<sp/>scaling.<sp/>It<sp/>will<sp/>instead</highlight></codeline>
+<codeline lineno="313"><highlight class="comment"><sp/>*<sp/>merely<sp/>initialize<sp/>internal<sp/>state<sp/>that<sp/>*would*<sp/>be<sp/>required<sp/>to<sp/>perform<sp/>the</highlight></codeline>
+<codeline lineno="314"><highlight class="comment"><sp/>*<sp/>operation,<sp/>as<sp/>well<sp/>as<sp/>returning<sp/>the<sp/>correct<sp/>error<sp/>code<sp/>for<sp/>unsupported</highlight></codeline>
+<codeline lineno="315"><highlight class="comment"><sp/>*<sp/>frame<sp/>combinations.</highlight></codeline>
+<codeline lineno="316"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="317"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/><sp/><sp/>The<sp/>scaling<sp/>context.</highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/><sp/><sp/>The<sp/>destination<sp/>frame<sp/>to<sp/>consider.</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/><sp/><sp/>The<sp/>source<sp/>frame<sp/>to<sp/>consider.</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/>*<sp/>@return<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="group__libsws_1gac123c2a5a4ac089de0648d4f0e1dc7b4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gac123c2a5a4ac089de0648d4f0e1dc7b4" kindref="member">sws_frame_setup</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*src);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="comment">/********************</highlight></codeline>
+<codeline lineno="325"><highlight class="comment"><sp/>*<sp/>Main<sp/>scaling<sp/>API<sp/>*</highlight></codeline>
+<codeline lineno="326"><highlight class="comment"><sp/>********************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="328"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="329"><highlight class="comment"><sp/>*<sp/>Check<sp/>if<sp/>a<sp/>given<sp/>conversion<sp/>is<sp/>a<sp/>noop.<sp/>Returns<sp/>a<sp/>positive<sp/>integer<sp/>if</highlight></codeline>
+<codeline lineno="330"><highlight class="comment"><sp/>*<sp/>no<sp/>operation<sp/>needs<sp/>to<sp/>be<sp/>performed,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="group__libsws_1ga50bb392cac2bf4e626e309b56ab76c32" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga50bb392cac2bf4e626e309b56ab76c32" kindref="member">sws_is_noop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*src);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="334"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="335"><highlight class="comment"><sp/>*<sp/>Scale<sp/>source<sp/>data<sp/>from<sp/>`src`<sp/>and<sp/>write<sp/>the<sp/>output<sp/>to<sp/>`dst`.</highlight></codeline>
+<codeline lineno="336"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="337"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>can<sp/>be<sp/>used<sp/>directly<sp/>on<sp/>an<sp/>allocated<sp/>context,<sp/>without<sp/>setting</highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/>*<sp/>up<sp/>any<sp/>frame<sp/>properties<sp/>or<sp/>calling<sp/>`sws_init_context()`.<sp/>Such<sp/>usage<sp/>is<sp/>fully</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/>*<sp/>dynamic<sp/>and<sp/>does<sp/>not<sp/>require<sp/>reallocation<sp/>if<sp/>the<sp/>frame<sp/>properties<sp/>change.</highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="341"><highlight class="comment"><sp/>*<sp/>Alternatively,<sp/>this<sp/>function<sp/>can<sp/>be<sp/>called<sp/>on<sp/>a<sp/>context<sp/>that<sp/>has<sp/>been</highlight></codeline>
+<codeline lineno="342"><highlight class="comment"><sp/>*<sp/>explicitly<sp/>initialized.<sp/>However,<sp/>this<sp/>is<sp/>provided<sp/>only<sp/>for<sp/>backwards</highlight></codeline>
+<codeline lineno="343"><highlight class="comment"><sp/>*<sp/>compatibility.<sp/>In<sp/>this<sp/>usage<sp/>mode,<sp/>all<sp/>frame<sp/>properties<sp/>must<sp/>be<sp/>correctly</highlight></codeline>
+<codeline lineno="344"><highlight class="comment"><sp/>*<sp/>set<sp/>at<sp/>init<sp/>time,<sp/>and<sp/>may<sp/>no<sp/>longer<sp/>change<sp/>after<sp/>initialization.</highlight></codeline>
+<codeline lineno="345"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="346"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/><sp/><sp/>The<sp/>scaling<sp/>context.</highlight></codeline>
+<codeline lineno="347"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/><sp/><sp/>The<sp/>destination<sp/>frame.<sp/>The<sp/>data<sp/>buffers<sp/>may<sp/>either<sp/>be<sp/>already</highlight></codeline>
+<codeline lineno="348"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allocated<sp/>by<sp/>the<sp/>caller<sp/>or<sp/>left<sp/>clear,<sp/>in<sp/>which<sp/>case<sp/>they<sp/>will</highlight></codeline>
+<codeline lineno="349"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>allocated<sp/>by<sp/>the<sp/>scaler.<sp/>The<sp/>latter<sp/>may<sp/>have<sp/>performance</highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>advantages<sp/>-<sp/>e.g.<sp/>in<sp/>certain<sp/>cases<sp/>some<sp/>(or<sp/>all)<sp/>output<sp/>planes</highlight></codeline>
+<codeline lineno="351"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>may<sp/>be<sp/>references<sp/>to<sp/>input<sp/>planes,<sp/>rather<sp/>than<sp/>copies.</highlight></codeline>
+<codeline lineno="352"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/><sp/><sp/>The<sp/>source<sp/>frame.<sp/>If<sp/>the<sp/>data<sp/>buffers<sp/>are<sp/>set<sp/>to<sp/>NULL,<sp/>then</highlight></codeline>
+<codeline lineno="353"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this<sp/>function<sp/>behaves<sp/>identically<sp/>to<sp/>`sws_frame_setup`.</highlight></codeline>
+<codeline lineno="354"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="355"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="group__libsws_1ga2c7b155b5a961f6b6fd5771550fc7dc4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga2c7b155b5a961f6b6fd5771550fc7dc4" kindref="member">sws_scale_frame</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*src);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="comment">/*************************</highlight></codeline>
+<codeline lineno="359"><highlight class="comment"><sp/>*<sp/>Legacy<sp/>(stateful)<sp/>API<sp/>*</highlight></codeline>
+<codeline lineno="360"><highlight class="comment"><sp/>*************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="group__libsws_1ga3f5d541ffe1c4bf8a216c54f0de8eb11" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_SRC_V_CHR_DROP_MASK<sp/><sp/><sp/><sp/><sp/>0x30000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="group__libsws_1ga77331b2b4b9648ca47a3ca307a2151c5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_SRC_V_CHR_DROP_SHIFT<sp/><sp/><sp/><sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365" refid="group__libsws_1gad4a209577e10d655c2495349a96bb611" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_PARAM_DEFAULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>123456</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="group__libsws_1gacc8f46b6954cae7d891a041793e2e751" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_MAX_REDUCE_CUTOFF<sp/>0.002</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="group__libsws_1gab5d1f9b6f50c155496b358d348ed6f36" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_ITU709<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="group__libsws_1gaae1a28de2fd6fdd21a082bcc10ce6cb9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_FCC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371" refid="group__libsws_1gaf9de144a406b66c68bd29cdcaefaeee5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_ITU601<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="group__libsws_1gab3795e86c9f475f206a187d937c7f4fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_ITU624<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="group__libsws_1gac7287919a348578d8452c42c03d65042" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_SMPTE170M<sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="group__libsws_1ga8a066eae69a34d9d60c73c40628094e4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_SMPTE240M<sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375" refid="group__libsws_1ga1867c2c57f3c0d18fa72592e30e7d3c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_DEFAULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="group__libsws_1ga0c8f55463ce3bd8904dedd7e73f29050" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWS_CS_BT2020<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="378"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="379"><highlight class="comment"><sp/>*<sp/>Return<sp/>a<sp/>pointer<sp/>to<sp/>yuv&lt;-&gt;rgb<sp/>coefficients<sp/>for<sp/>the<sp/>given<sp/>colorspace</highlight></codeline>
+<codeline lineno="380"><highlight class="comment"><sp/>*<sp/>suitable<sp/>for<sp/>sws_setColorspaceDetails().</highlight></codeline>
+<codeline lineno="381"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="382"><highlight class="comment"><sp/>*<sp/>@param<sp/>colorspace<sp/>One<sp/>of<sp/>the<sp/>SWS_CS_*<sp/>macros.<sp/>If<sp/>invalid,</highlight></codeline>
+<codeline lineno="383"><highlight class="comment"><sp/>*<sp/>SWS_CS_DEFAULT<sp/>is<sp/>used.</highlight></codeline>
+<codeline lineno="384"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="group__libsws_1ga8c2a7d79bda5281ee2acdda359379f9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="group__libsws_1ga8c2a7d79bda5281ee2acdda359379f9e" kindref="member">sws_getCoefficients</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>colorspace);</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight><highlight class="comment">//<sp/>when<sp/>used<sp/>for<sp/>filters<sp/>they<sp/>must<sp/>have<sp/>an<sp/>odd<sp/>number<sp/>of<sp/>elements</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight><highlight class="comment">//<sp/>coeffs<sp/>cannot<sp/>be<sp/>shared<sp/>between<sp/>vectors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="structSwsVector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>{</highlight></codeline>
+<codeline lineno="390" refid="structSwsVector_1a6aa9dc37ec3cd932e9db2bf7904716b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="structSwsVector_1a6aa9dc37ec3cd932e9db2bf7904716b9" kindref="member">coeff</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>pointer<sp/>to<sp/>the<sp/>list<sp/>of<sp/>coefficients</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="391" refid="structSwsVector_1abb5da8263daced70032ba5edf955f4a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structSwsVector_1abb5da8263daced70032ba5edf955f4a4" kindref="member">length</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>number<sp/>of<sp/>coefficients<sp/>in<sp/>the<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal">}<sp/><ref refid="structSwsVector" kindref="compound">SwsVector</ref>;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vectors<sp/>can<sp/>be<sp/>shared</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395" refid="structSwsFilter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>{</highlight></codeline>
+<codeline lineno="396" refid="structSwsFilter_1a6eefe9f0f67a9f24d282ed32bb9725d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*<ref refid="structSwsFilter_1a6eefe9f0f67a9f24d282ed32bb9725d2" kindref="member">lumH</ref>;</highlight></codeline>
+<codeline lineno="397" refid="structSwsFilter_1abe07a7a5d01eba45fe6120691b078109" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*<ref refid="structSwsFilter_1abe07a7a5d01eba45fe6120691b078109" kindref="member">lumV</ref>;</highlight></codeline>
+<codeline lineno="398" refid="structSwsFilter_1af0a5dbf3ce675d51ac2531a0e7ee58bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*<ref refid="structSwsFilter_1af0a5dbf3ce675d51ac2531a0e7ee58bf" kindref="member">chrH</ref>;</highlight></codeline>
+<codeline lineno="399" refid="structSwsFilter_1a4e196620d61289c6369acc4cf0b732bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*<ref refid="structSwsFilter_1a4e196620d61289c6369acc4cf0b732bb" kindref="member">chrV</ref>;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal">}<sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref>;</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="402"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="403"><highlight class="comment"><sp/>*<sp/>Return<sp/>a<sp/>positive<sp/>value<sp/>if<sp/>pix_fmt<sp/>is<sp/>a<sp/>supported<sp/>input<sp/>format,<sp/>0</highlight></codeline>
+<codeline lineno="404"><highlight class="comment"><sp/>*<sp/>otherwise.</highlight></codeline>
+<codeline lineno="405"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="406" refid="group__libsws_1gab5e631b602510bd3fa3a5a7d509e573d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gab5e631b602510bd3fa3a5a7d509e573d" kindref="member">sws_isSupportedInput</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="408"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="409"><highlight class="comment"><sp/>*<sp/>Return<sp/>a<sp/>positive<sp/>value<sp/>if<sp/>pix_fmt<sp/>is<sp/>a<sp/>supported<sp/>output<sp/>format,<sp/>0</highlight></codeline>
+<codeline lineno="410"><highlight class="comment"><sp/>*<sp/>otherwise.</highlight></codeline>
+<codeline lineno="411"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="412" refid="group__libsws_1ga6885dc8ec36e8f2e701924263aa92cb0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga6885dc8ec36e8f2e701924263aa92cb0" kindref="member">sws_isSupportedOutput</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>);</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="414"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="415"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/>pix_fmt<sp/>the<sp/>pixel<sp/>format</highlight></codeline>
+<codeline lineno="416"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>positive<sp/>value<sp/>if<sp/>an<sp/>endianness<sp/>conversion<sp/>for<sp/>pix_fmt<sp/>is</highlight></codeline>
+<codeline lineno="417"><highlight class="comment"><sp/>*<sp/>supported,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="418"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="419" refid="group__libsws_1ga67f865ce22ae986ea84f4d7ce60ef182" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga67f865ce22ae986ea84f4d7ce60ef182" kindref="member">sws_isSupportedEndiannessConversion</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="421"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="422"><highlight class="comment"><sp/>*<sp/>Initialize<sp/>the<sp/>swscaler<sp/>context<sp/>sws_context.</highlight></codeline>
+<codeline lineno="423"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="424"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>considered<sp/>deprecated,<sp/>and<sp/>provided<sp/>only<sp/>for<sp/>backwards</highlight></codeline>
+<codeline lineno="425"><highlight class="comment"><sp/>*<sp/>compatibility<sp/>with<sp/>sws_scale()<sp/>and<sp/>sws_start_frame().<sp/>The<sp/>preferred<sp/>way<sp/>to</highlight></codeline>
+<codeline lineno="426"><highlight class="comment"><sp/>*<sp/>use<sp/>libswscale<sp/>is<sp/>to<sp/>set<sp/>all<sp/>frame<sp/>properties<sp/>correctly<sp/>and<sp/>call</highlight></codeline>
+<codeline lineno="427"><highlight class="comment"><sp/>*<sp/>sws_scale_frame()<sp/>directly,<sp/>without<sp/>explicitly<sp/>initializing<sp/>the<sp/>context.</highlight></codeline>
+<codeline lineno="428"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="429"><highlight class="comment"><sp/>*<sp/>@return<sp/>zero<sp/>or<sp/>positive<sp/>value<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>value<sp/>on</highlight></codeline>
+<codeline lineno="430"><highlight class="comment"><sp/>*<sp/>error</highlight></codeline>
+<codeline lineno="431"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><ref refid="attributes_8h_1a93f17e0f0b53a66e7b5eceb3dff2918f" kindref="member">av_warn_unused_result</ref></highlight></codeline>
+<codeline lineno="433" refid="group__libsws_1ga2416739ac982d34b0010b7ce03074737" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga2416739ac982d34b0010b7ce03074737" kindref="member">sws_init_context</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*sws_context,<sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*srcFilter,<sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*dstFilter);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="435"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="436"><highlight class="comment"><sp/>*<sp/>Free<sp/>the<sp/>swscaler<sp/>context<sp/>swsContext.</highlight></codeline>
+<codeline lineno="437"><highlight class="comment"><sp/>*<sp/>If<sp/>swsContext<sp/>is<sp/>NULL,<sp/>then<sp/>does<sp/>nothing.</highlight></codeline>
+<codeline lineno="438"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="439" refid="group__libsws_1gad90b463ceeafdfd526994742f9954dbb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gad90b463ceeafdfd526994742f9954dbb" kindref="member">sws_freeContext</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*swsContext);</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="441"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="442"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>and<sp/>return<sp/>an<sp/>SwsContext.<sp/>You<sp/>need<sp/>it<sp/>to<sp/>perform</highlight></codeline>
+<codeline lineno="443"><highlight class="comment"><sp/>*<sp/>scaling/conversion<sp/>operations<sp/>using<sp/>sws_scale().</highlight></codeline>
+<codeline lineno="444"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="445"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcW<sp/>the<sp/>width<sp/>of<sp/>the<sp/>source<sp/>image</highlight></codeline>
+<codeline lineno="446"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcH<sp/>the<sp/>height<sp/>of<sp/>the<sp/>source<sp/>image</highlight></codeline>
+<codeline lineno="447"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcFormat<sp/>the<sp/>source<sp/>image<sp/>format</highlight></codeline>
+<codeline lineno="448"><highlight class="comment"><sp/>*<sp/>@param<sp/>dstW<sp/>the<sp/>width<sp/>of<sp/>the<sp/>destination<sp/>image</highlight></codeline>
+<codeline lineno="449"><highlight class="comment"><sp/>*<sp/>@param<sp/>dstH<sp/>the<sp/>height<sp/>of<sp/>the<sp/>destination<sp/>image</highlight></codeline>
+<codeline lineno="450"><highlight class="comment"><sp/>*<sp/>@param<sp/>dstFormat<sp/>the<sp/>destination<sp/>image<sp/>format</highlight></codeline>
+<codeline lineno="451"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/>specify<sp/>which<sp/>algorithm<sp/>and<sp/>options<sp/>to<sp/>use<sp/>for<sp/>rescaling</highlight></codeline>
+<codeline lineno="452"><highlight class="comment"><sp/>*<sp/>@param<sp/>param<sp/>extra<sp/>parameters<sp/>to<sp/>tune<sp/>the<sp/>used<sp/>scaler</highlight></codeline>
+<codeline lineno="453"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>For<sp/>SWS_BICUBIC<sp/>param[0]<sp/>and<sp/>[1]<sp/>tune<sp/>the<sp/>shape<sp/>of<sp/>the<sp/>basis</highlight></codeline>
+<codeline lineno="454"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>function,<sp/>param[0]<sp/>tunes<sp/>f(1)<sp/>and<sp/>param[1]<sp/>f´(1)</highlight></codeline>
+<codeline lineno="455"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>For<sp/>SWS_GAUSS<sp/>param[0]<sp/>tunes<sp/>the<sp/>exponent<sp/>and<sp/>thus<sp/>cutoff</highlight></codeline>
+<codeline lineno="456"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frequency</highlight></codeline>
+<codeline lineno="457"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>For<sp/>SWS_LANCZOS<sp/>param[0]<sp/>tunes<sp/>the<sp/>width<sp/>of<sp/>the<sp/>window<sp/>function</highlight></codeline>
+<codeline lineno="458"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>pointer<sp/>to<sp/>an<sp/>allocated<sp/>context,<sp/>or<sp/>NULL<sp/>in<sp/>case<sp/>of<sp/>error</highlight></codeline>
+<codeline lineno="459"><highlight class="comment"><sp/>*<sp/>@note<sp/>this<sp/>function<sp/>is<sp/>to<sp/>be<sp/>removed<sp/>after<sp/>a<sp/>saner<sp/>alternative<sp/>is</highlight></codeline>
+<codeline lineno="460"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>written</highlight></codeline>
+<codeline lineno="461"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="462" refid="group__libsws_1gad1ad2df7ff7722a9a4672cd8c17c0d97" refkind="member"><highlight class="normal"><ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*<ref refid="group__libsws_1gad1ad2df7ff7722a9a4672cd8c17c0d97" kindref="member">sws_getContext</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcW,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcH,<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>srcFormat,</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dstW,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dstH,<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>dstFormat,</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags,<sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*srcFilter,</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*dstFilter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="467"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="468"><highlight class="comment"><sp/>*<sp/>Scale<sp/>the<sp/>image<sp/>slice<sp/>in<sp/>srcSlice<sp/>and<sp/>put<sp/>the<sp/>resulting<sp/>scaled</highlight></codeline>
+<codeline lineno="469"><highlight class="comment"><sp/>*<sp/>slice<sp/>in<sp/>the<sp/>image<sp/>in<sp/>dst.<sp/>A<sp/>slice<sp/>is<sp/>a<sp/>sequence<sp/>of<sp/>consecutive</highlight></codeline>
+<codeline lineno="470"><highlight class="comment"><sp/>*<sp/>rows<sp/>in<sp/>an<sp/>image.<sp/>Requires<sp/>a<sp/>context<sp/>that<sp/>has<sp/>been<sp/>previously</highlight></codeline>
+<codeline lineno="471"><highlight class="comment"><sp/>*<sp/>been<sp/>initialized<sp/>with<sp/>sws_init_context().</highlight></codeline>
+<codeline lineno="472"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="473"><highlight class="comment"><sp/>*<sp/>Slices<sp/>have<sp/>to<sp/>be<sp/>provided<sp/>in<sp/>sequential<sp/>order,<sp/>either<sp/>in</highlight></codeline>
+<codeline lineno="474"><highlight class="comment"><sp/>*<sp/>top-bottom<sp/>or<sp/>bottom-top<sp/>order.<sp/>If<sp/>slices<sp/>are<sp/>provided<sp/>in</highlight></codeline>
+<codeline lineno="475"><highlight class="comment"><sp/>*<sp/>non-sequential<sp/>order<sp/>the<sp/>behavior<sp/>of<sp/>the<sp/>function<sp/>is<sp/>undefined.</highlight></codeline>
+<codeline lineno="476"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="477"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>scaling<sp/>context<sp/>previously<sp/>created<sp/>with</highlight></codeline>
+<codeline lineno="478"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sws_getContext()</highlight></codeline>
+<codeline lineno="479"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcSlice<sp/><sp/>the<sp/>array<sp/>containing<sp/>the<sp/>pointers<sp/>to<sp/>the<sp/>planes<sp/>of</highlight></codeline>
+<codeline lineno="480"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>source<sp/>slice</highlight></codeline>
+<codeline lineno="481"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcStride<sp/>the<sp/>array<sp/>containing<sp/>the<sp/>strides<sp/>for<sp/>each<sp/>plane<sp/>of</highlight></codeline>
+<codeline lineno="482"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>source<sp/>image</highlight></codeline>
+<codeline lineno="483"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcSliceY<sp/>the<sp/>position<sp/>in<sp/>the<sp/>source<sp/>image<sp/>of<sp/>the<sp/>slice<sp/>to</highlight></codeline>
+<codeline lineno="484"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>process,<sp/>that<sp/>is<sp/>the<sp/>number<sp/>(counted<sp/>starting<sp/>from</highlight></codeline>
+<codeline lineno="485"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zero)<sp/>in<sp/>the<sp/>image<sp/>of<sp/>the<sp/>first<sp/>row<sp/>of<sp/>the<sp/>slice</highlight></codeline>
+<codeline lineno="486"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcSliceH<sp/>the<sp/>height<sp/>of<sp/>the<sp/>source<sp/>slice,<sp/>that<sp/>is<sp/>the<sp/>number</highlight></codeline>
+<codeline lineno="487"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>of<sp/>rows<sp/>in<sp/>the<sp/>slice</highlight></codeline>
+<codeline lineno="488"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>array<sp/>containing<sp/>the<sp/>pointers<sp/>to<sp/>the<sp/>planes<sp/>of</highlight></codeline>
+<codeline lineno="489"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>destination<sp/>image</highlight></codeline>
+<codeline lineno="490"><highlight class="comment"><sp/>*<sp/>@param<sp/>dstStride<sp/>the<sp/>array<sp/>containing<sp/>the<sp/>strides<sp/>for<sp/>each<sp/>plane<sp/>of</highlight></codeline>
+<codeline lineno="491"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>destination<sp/>image</highlight></codeline>
+<codeline lineno="492"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>height<sp/>of<sp/>the<sp/>output<sp/>slice</highlight></codeline>
+<codeline lineno="493"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="494" refid="group__libsws_1ga99a8a57d7fe64b44ea6ba6ddc698a1ca" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga99a8a57d7fe64b44ea6ba6ddc698a1ca" kindref="member">sws_scale</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>srcSlice[],</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcStride[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcSliceY,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcSliceH,</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dst[],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dstStride[]);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="498"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="499"><highlight class="comment"><sp/>*<sp/>Initialize<sp/>the<sp/>scaling<sp/>process<sp/>for<sp/>a<sp/>given<sp/>pair<sp/>of<sp/>source/destination<sp/>frames.</highlight></codeline>
+<codeline lineno="500"><highlight class="comment"><sp/>*<sp/>Must<sp/>be<sp/>called<sp/>before<sp/>any<sp/>calls<sp/>to<sp/>sws_send_slice()<sp/>and<sp/>sws_receive_slice().</highlight></codeline>
+<codeline lineno="501"><highlight class="comment"><sp/>*<sp/>Requires<sp/>a<sp/>context<sp/>that<sp/>has<sp/>been<sp/>previously<sp/>been<sp/>initialized<sp/>with</highlight></codeline>
+<codeline lineno="502"><highlight class="comment"><sp/>*<sp/>sws_init_context().</highlight></codeline>
+<codeline lineno="503"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="504"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>will<sp/>retain<sp/>references<sp/>to<sp/>src<sp/>and<sp/>dst,<sp/>so<sp/>they<sp/>must<sp/>both<sp/>use</highlight></codeline>
+<codeline lineno="505"><highlight class="comment"><sp/>*<sp/>refcounted<sp/>buffers<sp/>(if<sp/>allocated<sp/>by<sp/>the<sp/>caller,<sp/>in<sp/>case<sp/>of<sp/>dst).</highlight></codeline>
+<codeline lineno="506"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="507"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/><sp/><sp/>The<sp/>scaling<sp/>context</highlight></codeline>
+<codeline lineno="508"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/>The<sp/>destination<sp/>frame.</highlight></codeline>
+<codeline lineno="509"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="510"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>data<sp/>buffers<sp/>may<sp/>either<sp/>be<sp/>already<sp/>allocated<sp/>by<sp/>the<sp/>caller<sp/>or</highlight></codeline>
+<codeline lineno="511"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>left<sp/>clear,<sp/>in<sp/>which<sp/>case<sp/>they<sp/>will<sp/>be<sp/>allocated<sp/>by<sp/>the<sp/>scaler.</highlight></codeline>
+<codeline lineno="512"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>latter<sp/>may<sp/>have<sp/>performance<sp/>advantages<sp/>-<sp/>e.g.<sp/>in<sp/>certain<sp/>cases</highlight></codeline>
+<codeline lineno="513"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>some<sp/>output<sp/>planes<sp/>may<sp/>be<sp/>references<sp/>to<sp/>input<sp/>planes,<sp/>rather<sp/>than</highlight></codeline>
+<codeline lineno="514"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>copies.</highlight></codeline>
+<codeline lineno="515"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="516"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Output<sp/>data<sp/>will<sp/>be<sp/>written<sp/>into<sp/>this<sp/>frame<sp/>in<sp/>successful</highlight></codeline>
+<codeline lineno="517"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sws_receive_slice()<sp/>calls.</highlight></codeline>
+<codeline lineno="518"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/>The<sp/>source<sp/>frame.<sp/>The<sp/>data<sp/>buffers<sp/>must<sp/>be<sp/>allocated,<sp/>but<sp/>the</highlight></codeline>
+<codeline lineno="519"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frame<sp/>data<sp/>does<sp/>not<sp/>have<sp/>to<sp/>be<sp/>ready<sp/>at<sp/>this<sp/>point.<sp/>Data</highlight></codeline>
+<codeline lineno="520"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>availability<sp/>is<sp/>then<sp/>signalled<sp/>by<sp/>sws_send_slice().</highlight></codeline>
+<codeline lineno="521"><highlight class="comment"><sp/>*<sp/>@return<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="522"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="523"><highlight class="comment"><sp/>*<sp/>@see<sp/>sws_frame_end()</highlight></codeline>
+<codeline lineno="524"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="525" refid="group__libsws_1gaf1596b10563e2851c46c4de92736188a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gaf1596b10563e2851c46c4de92736188a" kindref="member">sws_frame_start</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*src);</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="527"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="528"><highlight class="comment"><sp/>*<sp/>Finish<sp/>the<sp/>scaling<sp/>process<sp/>for<sp/>a<sp/>pair<sp/>of<sp/>source/destination<sp/>frames<sp/>previously</highlight></codeline>
+<codeline lineno="529"><highlight class="comment"><sp/>*<sp/>submitted<sp/>with<sp/>sws_frame_start().<sp/>Must<sp/>be<sp/>called<sp/>after<sp/>all<sp/>sws_send_slice()</highlight></codeline>
+<codeline lineno="530"><highlight class="comment"><sp/>*<sp/>and<sp/>sws_receive_slice()<sp/>calls<sp/>are<sp/>done,<sp/>before<sp/>any<sp/>new<sp/>sws_frame_start()</highlight></codeline>
+<codeline lineno="531"><highlight class="comment"><sp/>*<sp/>calls.</highlight></codeline>
+<codeline lineno="532"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="533"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/><sp/><sp/>The<sp/>scaling<sp/>context</highlight></codeline>
+<codeline lineno="534"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="535" refid="group__libsws_1gad48e9f18ad68427a0b0c564801de5d77" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gad48e9f18ad68427a0b0c564801de5d77" kindref="member">sws_frame_end</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="537"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="538"><highlight class="comment"><sp/>*<sp/>Indicate<sp/>that<sp/>a<sp/>horizontal<sp/>slice<sp/>of<sp/>input<sp/>data<sp/>is<sp/>available<sp/>in<sp/>the<sp/>source</highlight></codeline>
+<codeline lineno="539"><highlight class="comment"><sp/>*<sp/>frame<sp/>previously<sp/>provided<sp/>to<sp/>sws_frame_start().<sp/>The<sp/>slices<sp/>may<sp/>be<sp/>provided<sp/>in</highlight></codeline>
+<codeline lineno="540"><highlight class="comment"><sp/>*<sp/>any<sp/>order,<sp/>but<sp/>may<sp/>not<sp/>overlap.<sp/>For<sp/>vertically<sp/>subsampled<sp/>pixel<sp/>formats,<sp/>the</highlight></codeline>
+<codeline lineno="541"><highlight class="comment"><sp/>*<sp/>slices<sp/>must<sp/>be<sp/>aligned<sp/>according<sp/>to<sp/>subsampling.</highlight></codeline>
+<codeline lineno="542"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="543"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/><sp/><sp/>The<sp/>scaling<sp/>context</highlight></codeline>
+<codeline lineno="544"><highlight class="comment"><sp/>*<sp/>@param<sp/>slice_start<sp/>first<sp/>row<sp/>of<sp/>the<sp/>slice</highlight></codeline>
+<codeline lineno="545"><highlight class="comment"><sp/>*<sp/>@param<sp/>slice_height<sp/>number<sp/>of<sp/>rows<sp/>in<sp/>the<sp/>slice</highlight></codeline>
+<codeline lineno="546"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="547"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>non-negative<sp/>number<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="548"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="549" refid="group__libsws_1ga3394509b390ece6e39a027861a3fad4a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga3394509b390ece6e39a027861a3fad4a" kindref="member">sws_send_slice</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slice_start,</highlight></codeline>
+<codeline lineno="550"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slice_height);</highlight></codeline>
+<codeline lineno="551"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="552"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="553"><highlight class="comment"><sp/>*<sp/>Request<sp/>a<sp/>horizontal<sp/>slice<sp/>of<sp/>the<sp/>output<sp/>data<sp/>to<sp/>be<sp/>written<sp/>into<sp/>the<sp/>frame</highlight></codeline>
+<codeline lineno="554"><highlight class="comment"><sp/>*<sp/>previously<sp/>provided<sp/>to<sp/>sws_frame_start().</highlight></codeline>
+<codeline lineno="555"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="556"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/><sp/><sp/>The<sp/>scaling<sp/>context</highlight></codeline>
+<codeline lineno="557"><highlight class="comment"><sp/>*<sp/>@param<sp/>slice_start<sp/>first<sp/>row<sp/>of<sp/>the<sp/>slice;<sp/>must<sp/>be<sp/>a<sp/>multiple<sp/>of</highlight></codeline>
+<codeline lineno="558"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sws_receive_slice_alignment()</highlight></codeline>
+<codeline lineno="559"><highlight class="comment"><sp/>*<sp/>@param<sp/>slice_height<sp/>number<sp/>of<sp/>rows<sp/>in<sp/>the<sp/>slice;<sp/>must<sp/>be<sp/>a<sp/>multiple<sp/>of</highlight></codeline>
+<codeline lineno="560"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sws_receive_slice_alignment(),<sp/>except<sp/>for<sp/>the<sp/>last<sp/>slice</highlight></codeline>
+<codeline lineno="561"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(i.e.<sp/>when<sp/>slice_start+slice_height<sp/>is<sp/>equal<sp/>to<sp/>output</highlight></codeline>
+<codeline lineno="562"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frame<sp/>height)</highlight></codeline>
+<codeline lineno="563"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="564"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>non-negative<sp/>number<sp/>if<sp/>the<sp/>data<sp/>was<sp/>successfully<sp/>written<sp/>into<sp/>the<sp/>output</highlight></codeline>
+<codeline lineno="565"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVERROR(EAGAIN)<sp/>if<sp/>more<sp/>input<sp/>data<sp/>needs<sp/>to<sp/>be<sp/>provided<sp/>before<sp/>the</highlight></codeline>
+<codeline lineno="566"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>can<sp/>be<sp/>produced</highlight></codeline>
+<codeline lineno="567"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>another<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>other<sp/>kinds<sp/>of<sp/>scaling<sp/>failure</highlight></codeline>
+<codeline lineno="568"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="569" refid="group__libsws_1ga19c354a10825af537aab99048b9eb900" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga19c354a10825af537aab99048b9eb900" kindref="member">sws_receive_slice</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slice_start,</highlight></codeline>
+<codeline lineno="570"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slice_height);</highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="572"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="573"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>alignment<sp/>required<sp/>for<sp/>slices.<sp/>Requires<sp/>a<sp/>context<sp/>that<sp/>has<sp/>been</highlight></codeline>
+<codeline lineno="574"><highlight class="comment"><sp/>*<sp/>previously<sp/>been<sp/>initialized<sp/>with<sp/>sws_init_context().</highlight></codeline>
+<codeline lineno="575"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="576"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/><sp/><sp/>The<sp/>scaling<sp/>context</highlight></codeline>
+<codeline lineno="577"><highlight class="comment"><sp/>*<sp/>@return<sp/>alignment<sp/>required<sp/>for<sp/>output<sp/>slices<sp/>requested<sp/>with<sp/>sws_receive_slice().</highlight></codeline>
+<codeline lineno="578"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Slice<sp/>offsets<sp/>and<sp/>sizes<sp/>passed<sp/>to<sp/>sws_receive_slice()<sp/>must<sp/>be</highlight></codeline>
+<codeline lineno="579"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>multiples<sp/>of<sp/>the<sp/>value<sp/>returned<sp/>from<sp/>this<sp/>function.</highlight></codeline>
+<codeline lineno="580"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="581" refid="group__libsws_1ga6df42b4622cf0ed9ac8d6f8bdf0b70db" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga6df42b4622cf0ed9ac8d6f8bdf0b70db" kindref="member">sws_receive_slice_alignment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="582"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="583"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="584"><highlight class="comment"><sp/>*<sp/>@param<sp/>c<sp/>the<sp/>scaling<sp/>context</highlight></codeline>
+<codeline lineno="585"><highlight class="comment"><sp/>*<sp/>@param<sp/>dstRange<sp/>flag<sp/>indicating<sp/>the<sp/>while-black<sp/>range<sp/>of<sp/>the<sp/>output<sp/>(1=jpeg<sp/>/<sp/>0=mpeg)</highlight></codeline>
+<codeline lineno="586"><highlight class="comment"><sp/>*<sp/>@param<sp/>srcRange<sp/>flag<sp/>indicating<sp/>the<sp/>while-black<sp/>range<sp/>of<sp/>the<sp/>input<sp/>(1=jpeg<sp/>/<sp/>0=mpeg)</highlight></codeline>
+<codeline lineno="587"><highlight class="comment"><sp/>*<sp/>@param<sp/>table<sp/>the<sp/>yuv2rgb<sp/>coefficients<sp/>describing<sp/>the<sp/>output<sp/>yuv<sp/>space,<sp/>normally<sp/>ff_yuv2rgb_coeffs[x]</highlight></codeline>
+<codeline lineno="588"><highlight class="comment"><sp/>*<sp/>@param<sp/>inv_table<sp/>the<sp/>yuv2rgb<sp/>coefficients<sp/>describing<sp/>the<sp/>input<sp/>yuv<sp/>space,<sp/>normally<sp/>ff_yuv2rgb_coeffs[x]</highlight></codeline>
+<codeline lineno="589"><highlight class="comment"><sp/>*<sp/>@param<sp/>brightness<sp/>16.16<sp/>fixed<sp/>point<sp/>brightness<sp/>correction</highlight></codeline>
+<codeline lineno="590"><highlight class="comment"><sp/>*<sp/>@param<sp/>contrast<sp/>16.16<sp/>fixed<sp/>point<sp/>contrast<sp/>correction</highlight></codeline>
+<codeline lineno="591"><highlight class="comment"><sp/>*<sp/>@param<sp/>saturation<sp/>16.16<sp/>fixed<sp/>point<sp/>saturation<sp/>correction</highlight></codeline>
+<codeline lineno="592"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="593"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>negative<sp/>error<sp/>code<sp/>on<sp/>error,<sp/>non<sp/>negative<sp/>otherwise.</highlight></codeline>
+<codeline lineno="594"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>`LIBSWSCALE_VERSION_MAJOR<sp/>&lt;<sp/>7`,<sp/>returns<sp/>-1<sp/>if<sp/>not<sp/>supported.</highlight></codeline>
+<codeline lineno="595"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="596" refid="group__libsws_1gafe7b7ca136c8b6bd1fbfca2beb28c5b1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gafe7b7ca136c8b6bd1fbfca2beb28c5b1" kindref="member">sws_setColorspaceDetails</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inv_table[4],</highlight></codeline>
+<codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcRange,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>table[4],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dstRange,</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>brightness,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>contrast,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>saturation);</highlight></codeline>
+<codeline lineno="599"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="600"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="601"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>negative<sp/>error<sp/>code<sp/>on<sp/>error,<sp/>non<sp/>negative<sp/>otherwise.</highlight></codeline>
+<codeline lineno="602"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>`LIBSWSCALE_VERSION_MAJOR<sp/>&lt;<sp/>7`,<sp/>returns<sp/>-1<sp/>if<sp/>not<sp/>supported.</highlight></codeline>
+<codeline lineno="603"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="604" refid="group__libsws_1ga1f9aed5176a5f8f169b8254ac57bdba7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga1f9aed5176a5f8f169b8254ac57bdba7" kindref="member">sws_getColorspaceDetails</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**inv_table,</highlight></codeline>
+<codeline lineno="605"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*srcRange,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**table,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dstRange,</highlight></codeline>
+<codeline lineno="606"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*brightness,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*contrast,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*saturation);</highlight></codeline>
+<codeline lineno="607"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="608"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="609"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>and<sp/>return<sp/>an<sp/>uninitialized<sp/>vector<sp/>with<sp/>length<sp/>coefficients.</highlight></codeline>
+<codeline lineno="610"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="611" refid="group__libsws_1ga7dfc79582bea9aaf0bcf4bb308c0f3f0" refkind="member"><highlight class="normal"><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*<ref refid="group__libsws_1ga7dfc79582bea9aaf0bcf4bb308c0f3f0" kindref="member">sws_allocVec</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="613"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="614"><highlight class="comment"><sp/>*<sp/>Return<sp/>a<sp/>normalized<sp/>Gaussian<sp/>curve<sp/>used<sp/>to<sp/>filter<sp/>stuff</highlight></codeline>
+<codeline lineno="615"><highlight class="comment"><sp/>*<sp/>quality<sp/>=<sp/>3<sp/>is<sp/>high<sp/>quality,<sp/>lower<sp/>is<sp/>lower<sp/>quality.</highlight></codeline>
+<codeline lineno="616"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="617" refid="group__libsws_1ga873f630c7ae479fee1597924a2409fcd" refkind="member"><highlight class="normal"><ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*<ref refid="group__libsws_1ga873f630c7ae479fee1597924a2409fcd" kindref="member">sws_getGaussianVec</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>variance,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>quality);</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="619"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="620"><highlight class="comment"><sp/>*<sp/>Scale<sp/>all<sp/>the<sp/>coefficients<sp/>of<sp/>a<sp/>by<sp/>the<sp/>scalar<sp/>value.</highlight></codeline>
+<codeline lineno="621"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="622" refid="group__libsws_1gaf79fd6cabde06a0f2d118eb373bf83c6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gaf79fd6cabde06a0f2d118eb373bf83c6" kindref="member">sws_scaleVec</ref>(<ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scalar);</highlight></codeline>
+<codeline lineno="623"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="624"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="625"><highlight class="comment"><sp/>*<sp/>Scale<sp/>all<sp/>the<sp/>coefficients<sp/>of<sp/>a<sp/>so<sp/>that<sp/>their<sp/>sum<sp/>equals<sp/>height.</highlight></codeline>
+<codeline lineno="626"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="627" refid="group__libsws_1gab40ce33fa0a432f1ba57dda9f740380d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1gab40ce33fa0a432f1ba57dda9f740380d" kindref="member">sws_normalizeVec</ref>(<ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>);</highlight></codeline>
+<codeline lineno="628"><highlight class="normal"></highlight></codeline>
+<codeline lineno="629" refid="group__libsws_1ga5745e8384365fd5c6b0a3241d6ab767b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga5745e8384365fd5c6b0a3241d6ab767b" kindref="member">sws_freeVec</ref>(<ref refid="structSwsVector" kindref="compound">SwsVector</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"></highlight></codeline>
+<codeline lineno="631" refid="group__libsws_1ga62206af736294f8cd90716877223d2af" refkind="member"><highlight class="normal"><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*<ref refid="group__libsws_1ga62206af736294f8cd90716877223d2af" kindref="member">sws_getDefaultFilter</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lumaGBlur,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>chromaGBlur,</highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lumaSharpen,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>chromaSharpen,</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>chromaHShift,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>chromaVShift,</highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>verbose);</highlight></codeline>
+<codeline lineno="635" refid="group__libsws_1ga17b762761f7a53d596841ac0f2d4a2b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga17b762761f7a53d596841ac0f2d4a2b5" kindref="member">sws_freeFilter</ref>(<ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*filter);</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="637"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="638"><highlight class="comment"><sp/>*<sp/>Check<sp/>if<sp/>context<sp/>can<sp/>be<sp/>reused,<sp/>otherwise<sp/>reallocate<sp/>a<sp/>new<sp/>one.</highlight></codeline>
+<codeline lineno="639"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="640"><highlight class="comment"><sp/>*<sp/>If<sp/>context<sp/>is<sp/>NULL,<sp/>just<sp/>calls<sp/>sws_getContext()<sp/>to<sp/>get<sp/>a<sp/>new</highlight></codeline>
+<codeline lineno="641"><highlight class="comment"><sp/>*<sp/>context.<sp/>Otherwise,<sp/>checks<sp/>if<sp/>the<sp/>parameters<sp/>are<sp/>the<sp/>ones<sp/>already</highlight></codeline>
+<codeline lineno="642"><highlight class="comment"><sp/>*<sp/>saved<sp/>in<sp/>context.<sp/>If<sp/>that<sp/>is<sp/>the<sp/>case,<sp/>returns<sp/>the<sp/>current</highlight></codeline>
+<codeline lineno="643"><highlight class="comment"><sp/>*<sp/>context.<sp/>Otherwise,<sp/>frees<sp/>context<sp/>and<sp/>gets<sp/>a<sp/>new<sp/>context<sp/>with</highlight></codeline>
+<codeline lineno="644"><highlight class="comment"><sp/>*<sp/>the<sp/>new<sp/>parameters.</highlight></codeline>
+<codeline lineno="645"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="646"><highlight class="comment"><sp/>*<sp/>Be<sp/>warned<sp/>that<sp/>srcFilter<sp/>and<sp/>dstFilter<sp/>are<sp/>not<sp/>checked,<sp/>they</highlight></codeline>
+<codeline lineno="647"><highlight class="comment"><sp/>*<sp/>are<sp/>assumed<sp/>to<sp/>remain<sp/>the<sp/>same.</highlight></codeline>
+<codeline lineno="648"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="649" refid="group__libsws_1ga91f10acfeb755cc9c551c6981beaa0a9" refkind="member"><highlight class="normal"><ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*<ref refid="group__libsws_1ga91f10acfeb755cc9c551c6981beaa0a9" kindref="member">sws_getCachedContext</ref>(<ref refid="structSwsContext" kindref="compound">SwsContext</ref><sp/>*context,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcW,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srcH,</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>srcFormat,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dstW,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dstH,</highlight></codeline>
+<codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>dstFormat,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags,</highlight></codeline>
+<codeline lineno="652"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*srcFilter,<sp/><ref refid="structSwsFilter" kindref="compound">SwsFilter</ref><sp/>*dstFilter,</highlight></codeline>
+<codeline lineno="653"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*param);</highlight></codeline>
+<codeline lineno="654"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="655"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="656"><highlight class="comment"><sp/>*<sp/>Convert<sp/>an<sp/>8-bit<sp/>paletted<sp/>frame<sp/>into<sp/>a<sp/>frame<sp/>with<sp/>a<sp/>color<sp/>depth<sp/>of<sp/>32<sp/>bits.</highlight></codeline>
+<codeline lineno="657"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="658"><highlight class="comment"><sp/>*<sp/>The<sp/>output<sp/>frame<sp/>will<sp/>have<sp/>the<sp/>same<sp/>packed<sp/>format<sp/>as<sp/>the<sp/>palette.</highlight></codeline>
+<codeline lineno="659"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="660"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source<sp/>frame<sp/>buffer</highlight></codeline>
+<codeline lineno="661"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>destination<sp/>frame<sp/>buffer</highlight></codeline>
+<codeline lineno="662"><highlight class="comment"><sp/>*<sp/>@param<sp/>num_pixels<sp/>number<sp/>of<sp/>pixels<sp/>to<sp/>convert</highlight></codeline>
+<codeline lineno="663"><highlight class="comment"><sp/>*<sp/>@param<sp/>palette<sp/><sp/><sp/><sp/>array<sp/>with<sp/>[256]<sp/>entries,<sp/>which<sp/>must<sp/>match<sp/>color<sp/>arrangement<sp/>(RGB<sp/>or<sp/>BGR)<sp/>of<sp/>src</highlight></codeline>
+<codeline lineno="664"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="665" refid="group__libsws_1ga2a140989dfed29dd91065352b6a52840" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga2a140989dfed29dd91065352b6a52840" kindref="member">sws_convertPalette8ToPacked32</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*src,<sp/>uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_pixels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*palette);</highlight></codeline>
+<codeline lineno="666"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="667"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="668"><highlight class="comment"><sp/>*<sp/>Convert<sp/>an<sp/>8-bit<sp/>paletted<sp/>frame<sp/>into<sp/>a<sp/>frame<sp/>with<sp/>a<sp/>color<sp/>depth<sp/>of<sp/>24<sp/>bits.</highlight></codeline>
+<codeline lineno="669"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="670"><highlight class="comment"><sp/>*<sp/>With<sp/>the<sp/>palette<sp/>format<sp/>&quot;ABCD&quot;,<sp/>the<sp/>destination<sp/>frame<sp/>ends<sp/>up<sp/>with<sp/>the<sp/>format<sp/>&quot;ABC&quot;.</highlight></codeline>
+<codeline lineno="671"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="672"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source<sp/>frame<sp/>buffer</highlight></codeline>
+<codeline lineno="673"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>destination<sp/>frame<sp/>buffer</highlight></codeline>
+<codeline lineno="674"><highlight class="comment"><sp/>*<sp/>@param<sp/>num_pixels<sp/>number<sp/>of<sp/>pixels<sp/>to<sp/>convert</highlight></codeline>
+<codeline lineno="675"><highlight class="comment"><sp/>*<sp/>@param<sp/>palette<sp/><sp/><sp/><sp/>array<sp/>with<sp/>[256]<sp/>entries,<sp/>which<sp/>must<sp/>match<sp/>color<sp/>arrangement<sp/>(RGB<sp/>or<sp/>BGR)<sp/>of<sp/>src</highlight></codeline>
+<codeline lineno="676"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="677" refid="group__libsws_1ga3c3d094eb840e10fbc3a37c20a6c8585" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__libsws_1ga3c3d094eb840e10fbc3a37c20a6c8585" kindref="member">sws_convertPalette8ToPacked24</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*src,<sp/>uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_pixels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*palette);</highlight></codeline>
+<codeline lineno="678"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="679"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="680"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="681"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="682"><highlight class="normal"></highlight></codeline>
+<codeline lineno="683"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>SWSCALE_SWSCALE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libswscale/swscale.h"/>
+  </compounddef>
+</doxygen>

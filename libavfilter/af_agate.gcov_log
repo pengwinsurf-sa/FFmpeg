@@ -1,0 +1,40 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'scconfig_output'
+Lines executed:0.00% of 9
+
+Function 'scquery_formats'
+Lines executed:0.00% of 7
+
+Function 'activate'
+Lines executed:0.00% of 48
+
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'gate'
+Lines executed:0.00% of 28
+
+Function 'output_gain'
+Lines executed:0.00% of 15
+
+Function 'agate_config_input'
+Lines executed:0.00% of 15
+
+Function 'hermite_interpolation'
+Lines executed:0.00% of 14
+
+File 'libavfilter/af_agate.c'
+Lines executed:0.00% of 144
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_agate.gcno##libavfilter#af_agate.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_agate.gcno##libavfilter#filters.h.gcov'
+
+File 'libavfilter/hermite.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_agate.gcno##libavfilter#hermite.h.gcov'
+
+Lines executed:0.00% of 160

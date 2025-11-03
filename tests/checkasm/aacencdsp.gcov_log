@@ -1,0 +1,36 @@
+Function 'checkasm_check_aacencdsp'
+Lines executed:100.00% of 10
+
+Function 'test_quant_bands'
+Lines executed:76.67% of 30
+
+Function 'test_abs_pow34'
+Lines executed:92.86% of 14
+
+Function 'quantize_bands'
+Lines executed:100.00% of 8
+
+Function 'abs_pow34_v'
+Lines executed:100.00% of 5
+
+File 'tests/checkasm/aacencdsp.c'
+Lines executed:95.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacencdsp.gcno##tests#checkasm#aacencdsp.c.gcov'
+
+File 'libavcodec/aacencdsp.h'
+Lines executed:100.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacencdsp.gcno##libavcodec#aacencdsp.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacencdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacencdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacencdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:88.06% of 67

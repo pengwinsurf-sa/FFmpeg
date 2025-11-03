@@ -1,0 +1,14 @@
+Function 'av_film_grain_params_select'
+Lines executed:0.00% of 32
+
+Function 'av_film_grain_params_create_side_data'
+Lines executed:0.00% of 7
+
+Function 'av_film_grain_params_alloc'
+Lines executed:0.00% of 5
+
+File 'libavutil/film_grain_params.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#film_grain_params.gcno##libavutil#film_grain_params.c.gcov'
+
+Lines executed:0.00% of 44

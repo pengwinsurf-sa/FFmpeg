@@ -1,0 +1,128 @@
+Function 'mobiclip_close'
+Lines executed:0.00% of 9
+
+Function 'mobiclip_flush'
+Lines executed:0.00% of 5
+
+Function 'mobiclip_decode'
+Lines executed:0.00% of 114
+
+Function 'predict_motion'
+Lines executed:0.00% of 90
+
+Function 'decode_macroblock'
+Lines executed:0.00% of 47
+
+Function 'process_block'
+Lines executed:0.00% of 24
+
+Function 'get_prediction'
+Lines executed:0.00% of 14
+
+Function 'predict_intra'
+Lines executed:0.00% of 82
+
+Function 'block_fill'
+Lines executed:0.00% of 17
+
+Function 'block_fill_simple'
+Lines executed:0.00% of 5
+
+Function 'pick_8'
+Lines executed:0.00% of 35
+
+Function 'pick_7'
+Lines executed:0.00% of 18
+
+Function 'pick_6'
+Lines executed:0.00% of 24
+
+Function 'pick_5'
+Lines executed:0.00% of 24
+
+Function 'pick_4'
+Lines executed:0.00% of 20
+
+Function 'half_vert'
+Lines executed:0.00% of 5
+
+Function 'half_horz'
+Lines executed:0.00% of 5
+
+Function 'pick_left'
+Lines executed:0.00% of 3
+
+Function 'pick_above'
+Lines executed:0.00% of 3
+
+Function 'pget'
+Lines executed:0.00% of 12
+
+Function 'add_pframe_coefficients'
+Lines executed:0.00% of 15
+
+Function 'add_coefficients'
+Lines executed:0.00% of 52
+
+Function 'read_run_encoding'
+Lines executed:0.00% of 8
+
+Function 'idct'
+Lines executed:0.00% of 37
+
+Function 'setup_qtables'
+Lines executed:0.00% of 13
+
+Function 'mobiclip_init'
+Lines executed:0.00% of 16
+
+Function 'mobiclip_init_static'
+Lines executed:0.00% of 12
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 20
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 9
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits'
+Lines executed:0.00% of 13
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/mobiclip.c'
+Lines executed:0.00% of 653
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno##libavcodec#mobiclip.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mobiclip.gcno##libavcodec#golomb.h.gcov'
+
+Lines executed:0.00% of 784

@@ -1,0 +1,46 @@
+Function 'ff_cbs_sei_delete_message_type'
+Lines executed:0.00% of 12
+
+Function 'cbs_sei_delete_message'
+Lines executed:0.00% of 14
+
+Function 'ff_cbs_sei_find_message'
+Lines executed:0.00% of 17
+
+Function 'ff_cbs_sei_add_message'
+Lines executed:0.00% of 21
+
+Function 'cbs_sei_get_message_list'
+Lines executed:0.00% of 17
+
+Function 'cbs_sei_get_unit'
+Lines executed:0.00% of 52
+
+Function 'ff_cbs_sei_free_message_list'
+Lines executed:0.00% of 7
+
+Function 'ff_cbs_sei_list_add'
+Lines executed:0.00% of 16
+
+Function 'ff_cbs_sei_alloc_message_payload'
+Lines executed:0.00% of 13
+
+Function 'cbs_free_user_data_unregistered'
+Lines executed:0.00% of 4
+
+Function 'cbs_free_user_data_registered'
+Lines executed:0.00% of 4
+
+File 'libavcodec/cbs_sei.c'
+Lines executed:0.00% of 169
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_sei.gcno##libavcodec#cbs_sei.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_sei.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_sei.gcno##libavutil#refstruct.h.gcov'
+
+Lines executed:0.00% of 177

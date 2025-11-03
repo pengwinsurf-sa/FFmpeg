@@ -1,0 +1,15 @@
+Function 'zero12v_decode_frame'
+Lines executed:0.00% of 70
+
+Function 'zero12v_decode_init'
+Lines executed:0.00% of 6
+
+File 'libavcodec/012v.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#012v.gcno##libavcodec#012v.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#012v.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 76

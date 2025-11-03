@@ -1,0 +1,160 @@
+Function 'jpeg2000_decode_frame'
+Lines executed:0.00% of 82
+
+Function 'jpeg2000_decode_init'
+Lines executed:0.00% of 10
+
+Function 'jp2_find_codestream'
+Lines executed:0.00% of 118
+
+Function 'jpeg2000_read_bitstream_packets'
+Lines executed:0.00% of 9
+
+Function 'jpeg2000_read_main_headers'
+Lines executed:0.00% of 154
+
+Function 'jpeg2000_dec_cleanup'
+Lines executed:0.00% of 22
+
+Function 'jpeg2000_decode_tile'
+Lines executed:0.00% of 15
+
+Function 'write_frame_16'
+Lines executed:0.00% of 3
+
+Function 'write_frame_8'
+Lines executed:0.00% of 1
+
+Function 'tile_codeblocks'
+Lines executed:0.00% of 53
+
+Function 'mct_decode'
+Lines executed:0.00% of 17
+
+Function 'dequantization_int_97'
+Lines executed:0.00% of 22
+
+Function 'dequantization_int'
+Lines executed:0.00% of 21
+
+Function 'dequantization_float'
+Lines executed:0.00% of 15
+
+Function 'decode_cblk'
+Lines executed:0.00% of 60
+
+Function 'decode_clnpass'
+Lines executed:0.00% of 46
+
+Function 'decode_refpass'
+Lines executed:0.00% of 19
+
+Function 'decode_sigpass'
+Lines executed:0.00% of 21
+
+Function 'jpeg2000_decode_packets'
+Lines executed:0.00% of 21
+
+Function 'jpeg2000_decode_packets_po_iteration'
+Lines executed:0.00% of 184
+
+Function 'jpeg2000_decode_packet'
+Lines executed:0.00% of 278
+
+Function 'select_stream'
+Lines executed:0.00% of 13
+
+Function 'select_header'
+Lines executed:0.00% of 7
+
+Function 'getnpasses'
+Lines executed:0.00% of 10
+
+Function 'init_tile'
+Lines executed:0.00% of 39
+
+Function 'get_ppt'
+Lines executed:0.00% of 21
+
+Function 'get_ppm'
+Lines executed:0.00% of 16
+
+Function 'get_plt'
+Lines executed:0.00% of 10
+
+Function 'get_tlm'
+Lines executed:0.00% of 19
+
+Function 'read_crg'
+Lines executed:0.00% of 6
+
+Function 'get_sot'
+Lines executed:0.00% of 31
+
+Function 'get_poc'
+Lines executed:0.00% of 41
+
+Function 'get_qcc'
+Lines executed:0.00% of 9
+
+Function 'get_qcd'
+Lines executed:0.00% of 8
+
+Function 'get_qcx'
+Lines executed:0.00% of 26
+
+Function 'get_rgn'
+Lines executed:0.00% of 18
+
+Function 'get_coc'
+Lines executed:0.00% of 20
+
+Function 'get_cod'
+Lines executed:0.00% of 18
+
+Function 'get_cox'
+Lines executed:0.00% of 44
+
+Function 'get_cap'
+Lines executed:0.00% of 47
+
+Function 'get_siz'
+Lines executed:0.00% of 147
+
+Function 'pix_fmt_match'
+Lines executed:0.00% of 18
+
+Function 'tag_tree_decode'
+Lines executed:0.00% of 24
+
+Function 'get_bits'
+Lines executed:0.00% of 9
+
+Function 'needs_termination'
+Lines executed:0.00% of 10
+
+File 'libavcodec/jpeg2000dec.c'
+Lines executed:0.00% of 1719
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dec.gcno##libavcodec#jpeg2000dec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/jpeg2000.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dec.gcno##libavcodec#jpeg2000.h.gcov'
+
+Lines executed:0.00% of 1782

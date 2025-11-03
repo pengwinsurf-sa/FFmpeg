@@ -1,0 +1,39 @@
+Function 'uninit'
+Lines executed:0.00% of 17
+
+Function 'init'
+Lines executed:0.00% of 13
+
+Function 'activate'
+Lines executed:0.00% of 26
+
+Function 'config_output'
+Lines executed:0.00% of 46
+
+Function 'process_frame'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'guided_word'
+Lines executed:0.00% of 1
+
+Function 'guided_byte'
+Lines executed:0.00% of 1
+
+Function 'config_input'
+Lines executed:0.00% of 20
+
+Function 'box_slice'
+Lines executed:0.00% of 28
+
+File 'libavfilter/vf_guided.c'
+Lines executed:0.00% of 180
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_guided.gcno##libavfilter#vf_guided.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_guided.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 182

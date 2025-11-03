@@ -1,0 +1,11 @@
+Function 'av_detection_bbox_create_side_data'
+Lines executed:0.00% of 14
+
+Function 'av_detection_bbox_alloc'
+Lines executed:0.00% of 16
+
+File 'libavutil/detection_bbox.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#detection_bbox.gcno##libavutil#detection_bbox.c.gcov'
+
+Lines executed:0.00% of 30

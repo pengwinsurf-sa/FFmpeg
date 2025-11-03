@@ -1,0 +1,20 @@
+Function 'ff_graph_thread_free'
+Lines executed:0.00% of 8
+
+Function 'ff_graph_thread_init'
+Lines executed:0.00% of 17
+
+Function 'thread_init_internal'
+Lines executed:0.00% of 5
+
+Function 'thread_execute'
+Lines executed:0.00% of 9
+
+Function 'worker_func'
+Lines executed:0.00% of 6
+
+File 'libavfilter/pthread.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#pthread.gcno##libavfilter#pthread.c.gcov'
+
+Lines executed:0.00% of 45

@@ -1,0 +1,26 @@
+Function 'hevc_mp4toannexb_filter'
+Lines executed:0.00% of 88
+
+Function 'hevc_mp4toannexb_init'
+Lines executed:0.00% of 13
+
+Function 'hevc_extradata_to_annexb'
+Lines executed:0.00% of 46
+
+File 'libavcodec/bsf/hevc_mp4toannexb.c'
+Lines executed:0.00% of 121
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#hevc_mp4toannexb.gcno##libavcodec#bsf#hevc_mp4toannexb.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#hevc_mp4toannexb.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#hevc_mp4toannexb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#hevc_mp4toannexb.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 147

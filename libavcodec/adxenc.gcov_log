@@ -1,0 +1,46 @@
+Function 'adx_encode_frame'
+Lines executed:0.00% of 38
+
+Function 'adx_encode_init'
+Lines executed:0.00% of 9
+
+Function 'adx_encode_header'
+Lines executed:0.00% of 28
+
+Function 'adx_encode'
+Lines executed:0.00% of 56
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 1
+
+File 'libavcodec/adxenc.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adxenc.gcno##libavcodec#adxenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adxenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adxenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adxenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adxenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adxenc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 163

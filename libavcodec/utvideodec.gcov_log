@@ -1,0 +1,76 @@
+Function 'decode_end'
+Lines executed:0.00% of 5
+
+Function 'decode_init'
+Lines executed:0.00% of 148
+
+Function 'decode_frame'
+Lines executed:0.00% of 212
+
+Function 'restore_gradient_planar_il'
+Lines executed:0.00% of 41
+
+Function 'restore_gradient_planar'
+Lines executed:0.00% of 29
+
+Function 'restore_median_planar_il'
+Lines executed:0.00% of 44
+
+Function 'restore_median_planar'
+Lines executed:0.00% of 33
+
+Function 'decode_plane'
+Lines executed:0.00% of 140
+
+Function 'decode_plane10'
+Lines executed:0.00% of 55
+
+Function 'build_huff'
+Lines executed:0.00% of 22
+
+Function 'bits_read_vlc_multi_be'
+Lines executed:0.00% of 31
+
+Function 'bits_read_vlc_be'
+Lines executed:0.00% of 13
+
+Function 'bits_priv_set_idx_be'
+Lines executed:0.00% of 6
+
+Function 'bits_init_be'
+Lines executed:0.00% of 2
+
+Function 'bits_priv_refill_32_be'
+Lines executed:0.00% of 1
+
+Function 'bits_read_le'
+No executable lines
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/utvideodec.c'
+Lines executed:0.00% of 657
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodec.gcno##libavcodec#utvideodec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/bitstream_template.h'
+Lines executed:0.00% of 104
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodec.gcno##libavcodec#bitstream_template.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 784

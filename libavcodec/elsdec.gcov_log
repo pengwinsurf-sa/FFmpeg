@@ -1,0 +1,25 @@
+Function 'ff_els_decode_unsigned'
+Lines executed:0.00% of 39
+
+Function 'ff_els_decode_bit'
+Lines executed:0.00% of 48
+
+Function 'ff_els_decoder_uninit'
+Lines executed:0.00% of 3
+
+Function 'ff_els_decoder_init'
+Lines executed:0.00% of 20
+
+File 'libavcodec/elsdec.c'
+Lines executed:0.00% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#elsdec.gcno##libavcodec#elsdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#elsdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#elsdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 110

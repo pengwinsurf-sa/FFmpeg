@@ -1,0 +1,49 @@
+Function 'evc_frame_merge_close'
+Lines executed:0.00% of 9
+
+Function 'evc_frame_merge_init'
+Lines executed:0.00% of 6
+
+Function 'evc_frame_merge_filter'
+Lines executed:0.00% of 69
+
+Function 'parse_nal_unit'
+Lines executed:0.00% of 71
+
+Function 'evc_frame_merge_flush'
+Lines executed:0.00% of 7
+
+Function 'end_of_access_unit_found'
+Lines executed:0.00% of 12
+
+Function 'evc_read_nal_unit_length'
+Lines executed:0.00% of 9
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/bsf/evc_frame_merge.c'
+Lines executed:0.00% of 137
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#evc_frame_merge.gcno##libavcodec#bsf#evc_frame_merge.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#evc_frame_merge.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#evc_frame_merge.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/evc_parse.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#evc_frame_merge.gcno##libavcodec#evc_parse.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#evc_frame_merge.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#evc_frame_merge.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 200

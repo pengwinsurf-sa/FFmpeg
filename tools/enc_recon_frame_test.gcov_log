@@ -1,0 +1,28 @@
+Function 'main'
+Lines executed:0.00% of 94
+
+Function 'frame_checksum_compare'
+Lines executed:0.00% of 5
+
+Function 'process_frame'
+Lines executed:0.00% of 70
+
+Function 'recon_frame_process'
+Lines executed:0.00% of 21
+
+Function 'frame_hash'
+Lines executed:0.00% of 22
+
+File 'tools/enc_recon_frame_test.c'
+Lines executed:0.00% of 208
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#enc_recon_frame_test.gcno##tools#enc_recon_frame_test.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#enc_recon_frame_test.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#enc_recon_frame_test.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 212

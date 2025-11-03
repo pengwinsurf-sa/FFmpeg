@@ -1,0 +1,30 @@
+Function 'kvag_write_trailer'
+Lines executed:0.00% of 12
+
+Function 'kvag_write_header'
+Lines executed:0.00% of 9
+
+Function 'kvag_write_init'
+Lines executed:0.00% of 8
+
+Function 'kvag_seek'
+Lines executed:0.00% of 3
+
+Function 'kvag_read_packet'
+Lines executed:0.00% of 8
+
+Function 'kvag_read_header'
+Lines executed:0.00% of 29
+
+Function 'kvag_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/kvag.c'
+Lines executed:0.00% of 70
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#kvag.gcno##libavformat#kvag.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#kvag.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 72

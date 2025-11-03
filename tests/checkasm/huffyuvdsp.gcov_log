@@ -1,0 +1,34 @@
+Function 'checkasm_check_huffyuvdsp'
+Lines executed:100.00% of 17
+
+Function 'check_add_hfyu_left_pred_bgr32'
+Lines executed:72.00% of 25
+
+Function 'check_add_int16'
+Lines executed:90.48% of 21
+
+File 'tests/checkasm/huffyuvdsp.c'
+Lines executed:93.75% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#huffyuvdsp.gcno##tests#checkasm#huffyuvdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#huffyuvdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#huffyuvdsp.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#huffyuvdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#huffyuvdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#huffyuvdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:85.71% of 63

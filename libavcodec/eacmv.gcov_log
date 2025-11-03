@@ -1,0 +1,34 @@
+Function 'cmv_decode_end'
+Lines executed:0.00% of 5
+
+Function 'cmv_decode_frame'
+Lines executed:0.00% of 33
+
+Function 'cmv_process_header'
+Lines executed:0.00% of 21
+
+Function 'cmv_decode_inter'
+Lines executed:0.00% of 29
+
+Function 'cmv_motcomp'
+Lines executed:0.00% of 9
+
+Function 'cmv_decode_intra'
+Lines executed:0.00% of 8
+
+Function 'cmv_decode_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/eacmv.c'
+Lines executed:0.00% of 109
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#eacmv.gcno##libavcodec#eacmv.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#eacmv.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#eacmv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 113

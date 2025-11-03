@@ -1,0 +1,17 @@
+Function 'ff_thread_video_encode_frame'
+Lines executed:0.00% of 25
+
+Function 'ff_frame_thread_encoder_free'
+Lines executed:0.00% of 15
+
+Function 'ff_frame_thread_encoder_init'
+Lines executed:0.00% of 95
+
+Function 'worker'
+Lines executed:0.00% of 30
+
+File 'libavcodec/frame_thread_encoder.c'
+Lines executed:0.00% of 165
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#frame_thread_encoder.gcno##libavcodec#frame_thread_encoder.c.gcov'
+
+Lines executed:0.00% of 165

@@ -1,0 +1,25 @@
+Function 'ff_af_queue_remove'
+Lines executed:0.00% of 36
+
+Function 'ff_af_queue_add'
+Lines executed:0.00% of 18
+
+Function 'ff_af_queue_close'
+Lines executed:0.00% of 8
+
+Function 'ff_af_queue_init'
+Lines executed:0.00% of 6
+
+File 'libavcodec/audio_frame_queue.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#audio_frame_queue.gcno##libavcodec#audio_frame_queue.c.gcov'
+
+File 'libavcodec/encode.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#audio_frame_queue.gcno##libavcodec#encode.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#audio_frame_queue.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 68

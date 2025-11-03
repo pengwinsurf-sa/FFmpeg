@@ -1,0 +1,56 @@
+Function 'ff_mov_close_hinting'
+Lines executed:0.00% of 9
+
+Function 'ff_mov_add_hinted_packet'
+Lines executed:0.00% of 38
+
+Function 'write_hint_packets'
+Lines executed:0.00% of 67
+
+Function 'describe_payload'
+Lines executed:0.00% of 12
+
+Function 'output_match'
+Lines executed:0.00% of 10
+
+Function 'output_immediate'
+Lines executed:0.00% of 12
+
+Function 'find_sample_match'
+Lines executed:0.00% of 14
+
+Function 'match_segments'
+Lines executed:0.00% of 19
+
+Function 'sample_queue_retain'
+Lines executed:0.00% of 20
+
+Function 'sample_queue_push'
+Lines executed:0.00% of 14
+
+Function 'sample_queue_free'
+Lines executed:0.00% of 9
+
+Function 'sample_queue_pop'
+Lines executed:0.00% of 6
+
+Function 'ff_mov_init_hinting'
+Lines executed:0.00% of 24
+
+File 'libavformat/movenchint.c'
+Lines executed:0.00% of 243
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenchint.gcno##libavformat#movenchint.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenchint.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenchint.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenchint.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 254

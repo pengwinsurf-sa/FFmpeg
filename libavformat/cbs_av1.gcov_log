@@ -1,0 +1,167 @@
+Function 'cbs_av1_close'
+Lines executed:0.00% of 5
+
+Function 'cbs_av1_flush'
+Lines executed:0.00% of 12
+
+Function 'cbs_av1_assemble_fragment'
+Lines executed:0.00% of 2
+
+Function 'cbs_av1_write_obu'
+Lines executed:0.00% of 2
+
+Function 'cbs_av1_read_unit'
+Lines executed:0.00% of 91
+
+Function 'cbs_av1_ref_tile_data'
+Lines executed:0.00% of 12
+
+Function 'cbs_av1_split_fragment'
+Lines executed:0.00% of 62
+
+Function 'cbs_av1_read_frame_obu'
+Lines executed:0.00% of 4
+
+Function 'cbs_av1_read_tile_group_obu'
+Lines executed:0.00% of 24
+
+Function 'cbs_av1_read_frame_header_obu'
+Lines executed:0.00% of 44
+
+Function 'cbs_av1_read_uncompressed_header'
+Lines executed:0.00% of 252
+
+Function 'cbs_av1_read_film_grain_params'
+Lines executed:0.00% of 64
+
+Function 'cbs_av1_read_global_motion_params'
+Lines executed:0.00% of 29
+
+Function 'cbs_av1_read_global_motion_param'
+Lines executed:0.00% of 3
+
+Function 'cbs_av1_read_skip_mode_params'
+Lines executed:0.00% of 28
+
+Function 'cbs_av1_read_frame_reference_mode'
+Lines executed:0.00% of 5
+
+Function 'cbs_av1_read_read_tx_mode'
+Lines executed:0.00% of 6
+
+Function 'cbs_av1_read_lr_params'
+Lines executed:0.00% of 21
+
+Function 'cbs_av1_read_cdef_params'
+Lines executed:0.00% of 21
+
+Function 'cbs_av1_read_loop_filter_params'
+Lines executed:0.00% of 51
+
+Function 'cbs_av1_read_delta_lf_params'
+Lines executed:0.00% of 14
+
+Function 'cbs_av1_read_delta_q_params'
+Lines executed:0.00% of 7
+
+Function 'cbs_av1_read_segmentation_params'
+Lines executed:0.00% of 39
+
+Function 'cbs_av1_read_quantization_params'
+Lines executed:0.00% of 28
+
+Function 'cbs_av1_read_tile_info'
+Lines executed:0.00% of 71
+
+Function 'cbs_av1_read_interpolation_filter'
+Lines executed:0.00% of 6
+
+Function 'cbs_av1_read_frame_size_with_refs'
+Lines executed:0.00% of 25
+
+Function 'cbs_av1_read_render_size'
+Lines executed:0.00% of 12
+
+Function 'cbs_av1_read_frame_size'
+Lines executed:0.00% of 12
+
+Function 'cbs_av1_read_superres_params'
+Lines executed:0.00% of 14
+
+Function 'cbs_av1_read_set_frame_refs'
+Lines executed:0.00% of 75
+
+Function 'cbs_av1_read_sequence_header_obu'
+Lines executed:0.00% of 94
+
+Function 'cbs_av1_read_decoder_model_info'
+Lines executed:0.00% of 7
+
+Function 'cbs_av1_read_timing_info'
+Lines executed:0.00% of 7
+
+Function 'cbs_av1_read_color_config'
+Lines executed:0.00% of 50
+
+Function 'cbs_av1_read_byte_alignment'
+Lines executed:0.00% of 4
+
+Function 'cbs_av1_read_trailing_bits'
+Lines executed:0.00% of 8
+
+Function 'cbs_av1_read_obu_header'
+Lines executed:0.00% of 18
+
+Function 'cbs_av1_read_subexp'
+Lines executed:0.00% of 20
+
+Function 'cbs_av1_read_increment'
+Lines executed:0.00% of 22
+
+Function 'cbs_av1_read_ns'
+Lines executed:0.00% of 18
+
+Function 'cbs_av1_read_leb128'
+Lines executed:0.00% of 17
+
+Function 'cbs_av1_read_uvlc'
+Lines executed:0.00% of 24
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/cbs_av1.c'
+Lines executed:0.00% of 264
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno##libavcodec#cbs_av1.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/cbs_av1_syntax_template.c'
+Lines executed:0.00% of 1033
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno##libavcodec#cbs_av1_syntax_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs_av1.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 1364

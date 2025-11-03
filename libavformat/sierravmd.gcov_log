@@ -1,0 +1,25 @@
+Function 'vmd_read_close'
+Lines executed:0.00% of 4
+
+Function 'vmd_read_packet'
+Lines executed:0.00% of 29
+
+Function 'vmd_read_header'
+Lines executed:0.00% of 128
+
+Function 'vmd_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/sierravmd.c'
+Lines executed:0.00% of 166
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sierravmd.gcno##libavformat#sierravmd.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sierravmd.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sierravmd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 170

@@ -1,0 +1,24 @@
+Function 'sami_flush'
+Lines executed:0.00% of 5
+
+Function 'sami_close'
+Lines executed:0.00% of 8
+
+Function 'sami_init'
+Lines executed:0.00% of 8
+
+Function 'sami_decode_frame'
+Lines executed:0.00% of 10
+
+Function 'sami_paragraph_to_ass'
+Lines executed:0.00% of 68
+
+File 'libavcodec/samidec.c'
+Lines executed:0.00% of 96
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#samidec.gcno##libavcodec#samidec.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#samidec.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 99

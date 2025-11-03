@@ -1,0 +1,35 @@
+Function 'config_output'
+Lines executed:0.00% of 47
+
+Function 'decimate_uninit'
+Lines executed:0.00% of 14
+
+Function 'decimate_init'
+Lines executed:0.00% of 16
+
+Function 'activate'
+Lines executed:0.00% of 45
+
+Function 'filter_frame'
+Lines executed:0.00% of 62
+
+Function 'calc_diffs'
+Lines executed:0.00% of 39
+
+File 'libavfilter/vf_decimate.c'
+Lines executed:0.00% of 216
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_decimate.gcno##libavfilter#vf_decimate.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_decimate.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_decimate.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_decimate.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 223

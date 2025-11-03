@@ -1,0 +1,18 @@
+Function 'gdv_read_packet'
+Lines executed:0.00% of 25
+
+Function 'gdv_read_header'
+Lines executed:0.00% of 53
+
+Function 'gdv_read_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/gdv.c'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gdv.gcno##libavformat#gdv.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gdv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 81

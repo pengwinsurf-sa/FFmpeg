@@ -1,0 +1,15 @@
+Function 'ff_mpeg12_find_best_frame_rate'
+Lines executed:0.00% of 39
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavcodec/mpeg12framerate.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12framerate.gcno##libavcodec#mpeg12framerate.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12framerate.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 44

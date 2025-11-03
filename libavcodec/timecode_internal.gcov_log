@@ -1,0 +1,15 @@
+Function 'ff_timecode_set_smpte'
+Lines executed:0.00% of 18
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavutil/timecode_internal.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#timecode_internal.gcno##libavutil#timecode_internal.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#timecode_internal.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 23

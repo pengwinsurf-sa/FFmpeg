@@ -1,0 +1,32 @@
+Function 'read_packet'
+Lines executed:0.00% of 2
+
+Function 'read_header'
+Lines executed:0.00% of 28
+
+Function 'read_tag'
+Lines executed:0.00% of 15
+
+Function 'unescape'
+Lines executed:0.00% of 11
+
+Function 'read_chapter'
+Lines executed:0.00% of 19
+
+Function 'get_line'
+Lines executed:0.00% of 15
+
+Function 'get_bprint_line'
+Lines executed:0.00% of 6
+
+Function 'read_line_to_bprint_escaped'
+Lines executed:0.00% of 23
+
+Function 'probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/ffmetadec.c'
+Lines executed:0.00% of 122
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ffmetadec.gcno##libavformat#ffmetadec.c.gcov'
+
+Lines executed:0.00% of 122

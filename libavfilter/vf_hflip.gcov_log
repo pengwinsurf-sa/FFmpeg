@@ -1,0 +1,46 @@
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'filter_slice'
+Lines executed:0.00% of 20
+
+Function 'config_props'
+Lines executed:0.00% of 14
+
+Function 'query_formats'
+Lines executed:0.00% of 11
+
+Function 'ff_hflip_init'
+Lines executed:0.00% of 12
+
+Function 'hflip_qword_c'
+Lines executed:0.00% of 6
+
+Function 'hflip_b48_c'
+Lines executed:0.00% of 7
+
+Function 'hflip_b24_c'
+Lines executed:0.00% of 7
+
+Function 'hflip_dword_c'
+Lines executed:0.00% of 6
+
+Function 'hflip_short_c'
+Lines executed:0.00% of 6
+
+Function 'hflip_byte_c'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_hflip.c'
+Lines executed:0.00% of 62
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hflip.gcno##libavfilter#vf_hflip.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hflip.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/vf_hflip_init.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hflip.gcno##libavfilter#vf_hflip_init.h.gcov'
+
+Lines executed:0.00% of 112

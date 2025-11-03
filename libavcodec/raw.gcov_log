@@ -1,0 +1,11 @@
+Function 'avpriv_pix_fmt_find'
+Lines executed:0.00% of 16
+
+Function 'avcodec_pix_fmt_to_codec_tag'
+Lines executed:0.00% of 6
+
+File 'libavcodec/raw.c'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#raw.gcno##libavcodec#raw.c.gcov'
+
+Lines executed:0.00% of 22

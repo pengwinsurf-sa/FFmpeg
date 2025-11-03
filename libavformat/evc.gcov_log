@@ -1,0 +1,63 @@
+Function 'ff_isom_write_evcc'
+Lines executed:0.00% of 54
+
+Function 'evcc_write'
+Lines executed:0.00% of 62
+
+Function 'evcc_close'
+Lines executed:0.00% of 7
+
+Function 'evcc_init'
+Lines executed:0.00% of 7
+
+Function 'evcc_array_add_nal_unit'
+Lines executed:0.00% of 13
+
+Function 'evcc_parse_sps'
+Lines executed:0.00% of 39
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 15
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/evc.c'
+Lines executed:0.00% of 151
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavformat#evc.c.gcov'
+
+File 'libavformat/evc.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavformat#evc.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#evc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 229

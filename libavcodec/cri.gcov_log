@@ -1,0 +1,37 @@
+Function 'cri_decode_close'
+Lines executed:0.00% of 6
+
+Function 'cri_decode_frame'
+Lines executed:0.00% of 207
+
+Function 'unpack_10bit'
+Lines executed:0.00% of 66
+
+Function 'cri_decode_init'
+Lines executed:0.00% of 15
+
+File 'libavcodec/cri.c'
+Lines executed:0.00% of 237
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cri.gcno##libavcodec#cri.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cri.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cri.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cri.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cri.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cri.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 294

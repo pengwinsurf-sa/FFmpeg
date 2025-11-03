@@ -1,0 +1,50 @@
+Function 'cllc_decode_init'
+Lines executed:0.00% of 7
+
+Function 'cllc_decode_close'
+Lines executed:0.00% of 4
+
+Function 'cllc_decode_frame'
+Lines executed:0.00% of 74
+
+Function 'decode_yuv_frame'
+Lines executed:0.00% of 38
+
+Function 'decode_rgb24_frame'
+Lines executed:0.00% of 25
+
+Function 'decode_argb_frame'
+Lines executed:0.00% of 25
+
+Function 'read_yuv_component_line'
+Lines executed:0.00% of 22
+
+Function 'read_rgb24_component_line'
+Lines executed:0.00% of 16
+
+Function 'read_argb_line'
+Lines executed:0.00% of 40
+
+Function 'read_code_table'
+Lines executed:0.00% of 23
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/cllc.c'
+Lines executed:0.00% of 242
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cllc.gcno##libavcodec#cllc.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cllc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cllc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cllc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 284

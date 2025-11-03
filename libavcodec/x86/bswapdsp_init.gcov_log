@@ -1,0 +1,8 @@
+Function 'ff_bswapdsp_init_x86'
+Lines executed:100.00% of 9
+
+File 'libavcodec/x86/bswapdsp_init.c'
+Lines executed:100.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#bswapdsp_init.gcno##libavcodec#x86#bswapdsp_init.c.gcov'
+
+Lines executed:100.00% of 9

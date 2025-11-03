@@ -1,0 +1,719 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="parseutils_8h" kind="file" language="C++">
+    <compoundname>parseutils.h</compoundname>
+    <includes refid="time_8h" local="no">time.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <includedby refid="scale__video_8c" local="no">doc/examples/scale_video.c</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/parseutils.h</label>
+        <link refid="parseutils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>limits.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="1">
+        <label>libavutil/parseutils.h</label>
+        <link refid="parseutils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="parseutils_8h_1a8ac8244d56fd4eeb9557038f80d60560" prot="public" static="no">
+        <name>av_parse_ratio_quiet</name>
+        <param><defname>rate</defname></param>
+        <param><defname>str</defname></param>
+        <param><defname>max</defname></param>
+        <initializer>    <ref refid="parseutils_8h_1a8535b8693aa5a188cfb1356133c0e94e" kindref="member">av_parse_ratio</ref>(rate, str, max, <ref refid="group__lavu__log__constants_1gad87b54332d00f280bf5db0fd2f56f340" kindref="member">AV_LOG_MAX_OFFSET</ref>, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="52" column="9" bodyfile="libavutil/parseutils.h" bodystart="52" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="parseutils_8h_1a8535b8693aa5a188cfb1356133c0e94e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_parse_ratio</definition>
+        <argsstring>(AVRational *q, const char *str, int max, int log_offset, void *log_ctx)</argsstring>
+        <name>av_parse_ratio</name>
+        <param>
+          <type><ref refid="structAVRational" kindref="compound">AVRational</ref> *</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_offset</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>log_ctx</declname>
+        </param>
+        <briefdescription>
+<para>Parse str and store the parsed ratio in q. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Note that a ratio with infinite (1/0) or negative value is considered valid, so you should check on the returned value if you want to exclude those values.</para>
+<para>The undefined value can be expressed using the &quot;0:0&quot; string.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to the <ref refid="structAVRational" kindref="compound">AVRational</ref> which will contain the ratio </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to parse: it has to be a string in the format num:den, a float number or an expression </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the maximum allowed numerator and denominator </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">log_offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>log level offset which is applied to the log level of log_ctx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">log_ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parent logging context </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 on success, a negative error code otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="49" column="5" declfile="libavutil/parseutils.h" declline="49" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1a4dcdb8a2792f2074ca4a1e1f4ddce2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_parse_video_size</definition>
+        <argsstring>(int *width_ptr, int *height_ptr, const char *str)</argsstring>
+        <name>av_parse_video_size</name>
+        <param>
+          <type>int *</type>
+          <declname>width_ptr</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>height_ptr</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Parse str and put in width_ptr and height_ptr the detected values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">width_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to the variable which will contain the detected width value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">height_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to the variable which will contain the detected height value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to parse: it has to be a string in the format width x height or a valid video size abbreviation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 on success, a negative error code otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="66" column="5" declfile="libavutil/parseutils.h" declline="66" declcolumn="5"/>
+        <referencedby refid="scale__video_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="scale__video_8c" startline="53" endline="141">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1abbc4de8c071538f5bbde8e5b7466b676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_parse_video_rate</definition>
+        <argsstring>(AVRational *rate, const char *str)</argsstring>
+        <name>av_parse_video_rate</name>
+        <param>
+          <type><ref refid="structAVRational" kindref="compound">AVRational</ref> *</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Parse str and store the detected values in *rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to the <ref refid="structAVRational" kindref="compound">AVRational</ref> which will contain the detected frame rate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to parse: it has to be a string in the format rate_num / rate_den, a float number or a valid video rate abbreviation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 on success, a negative error code otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="77" column="5" declfile="libavutil/parseutils.h" declline="77" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1a4be8779c7c2afd9c57c8b962bea76d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_parse_color</definition>
+        <argsstring>(uint8_t *rgba_color, const char *color_string, int slen, void *log_ctx)</argsstring>
+        <name>av_parse_color</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>rgba_color</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>color_string</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>slen</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>log_ctx</declname>
+        </param>
+        <briefdescription>
+<para>Put the RGBA values that correspond to color_string in rgba_color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rgba_color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>4-elements array of uint8_t values, where the respective red, green, blue and alpha component values are written. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color_string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a string specifying a color. It can be the name of a color (case insensitive match) or a [0x|#]RRGGBB[AA] sequence, possibly followed by &quot;@&quot; and a string representing the alpha component. The alpha component may be a string composed by &quot;0x&quot; followed by an hexadecimal number or a decimal number between 0.0 and 1.0, which represents the opacity value (0x00/0.0 means completely transparent, 0xff/1.0 completely opaque). If the alpha component is not specified then 0xff is assumed. The string &quot;random&quot; will result in a random color. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>slen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the initial part of color_string containing the color. It can be set to -1 if color_string is a null terminated string containing nothing else than the color. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>log_ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer to an arbitrary struct of which the first field is a pointer to an <ref refid="structAVClass" kindref="compound">AVClass</ref> struct (used for <ref refid="group__lavu__log_1gabd386ffd4b27637cf34e98d5d1a6e8ae" kindref="member">av_log()</ref>). Can be NULL. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 in case of success, a negative value in case of failure (for example if color_string cannot be parsed). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="102" column="5" declfile="libavutil/parseutils.h" declline="102" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1a6d8cfb62989c8dc657954b33214f599d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * av_get_known_color_name</definition>
+        <argsstring>(int color_idx, const uint8_t **rgb)</argsstring>
+        <name>av_get_known_color_name</name>
+        <param>
+          <type>int</type>
+          <declname>color_idx</declname>
+        </param>
+        <param>
+          <type>const uint8_t **</type>
+          <declname>rgb</declname>
+        </param>
+        <briefdescription>
+<para>Get the name of a color from the internal table of hard-coded named colors. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is meant to enumerate the color names recognized by <ref refid="parseutils_8h_1a4be8779c7c2afd9c57c8b962bea76d03" kindref="member">av_parse_color()</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the requested color, starting from 0 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rgb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if not NULL, will point to a 3-elements array with the color value in RGB </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the color name string or NULL if color_idx is not in the array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="116" column="12" declfile="libavutil/parseutils.h" declline="116" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1a98590feafe82e074f61f38c8faaa4cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_parse_time</definition>
+        <argsstring>(int64_t *timeval, const char *timestr, int duration)</argsstring>
+        <name>av_parse_time</name>
+        <param>
+          <type>int64_t *</type>
+          <declname>timeval</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>timestr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+<para>Parse timestr and return in *time a corresponding number of microseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>puts here the number of microseconds corresponding to the string in timestr. If the string represents a duration, it is the number of microseconds contained in the time interval. If the string is a date, is the number of microseconds since 1st of January, 1970 up to the time of the parsed date. If timestr cannot be successfully parsed, set *time to INT64_MIN.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timestr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a string representing a date or a duration.<itemizedlist>
+<listitem><para>If a date the syntax is: <programlisting><codeline><highlight class="normal">[{YYYY-MM-DD|YYYYMMDD}[T|t|<sp/>]]{{HH:MM:SS[.m...]]]}|{HHMMSS[.m...]]]}}[Z]</highlight></codeline>
+<codeline><highlight class="normal">now</highlight></codeline>
+</programlisting> If the value is &quot;now&quot; it takes the current time. Time is local time unless Z is appended, in which case it is interpreted as UTC. If the year-month-day part is not specified it takes the current year-month-day.</para>
+</listitem><listitem><para>If a duration the syntax is: <programlisting><codeline><highlight class="normal">[-][HH:]MM:SS[.m...]</highlight></codeline>
+<codeline><highlight class="normal">[-]S+[.m...]</highlight></codeline>
+</programlisting> </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag which tells how to interpret timestr, if not zero timestr is interpreted as a duration, otherwise as a date </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 in case of success, a negative value corresponding to an AVERROR code otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="150" column="5" declfile="libavutil/parseutils.h" declline="150" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1ad97f06e907c14c253c2bf3e775f51ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_find_info_tag</definition>
+        <argsstring>(char *arg, int arg_size, const char *tag1, const char *info)</argsstring>
+        <name>av_find_info_tag</name>
+        <param>
+          <type>char *</type>
+          <declname>arg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg_size</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tag1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Attempt to find a specific tag in a URL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>syntax: &apos;?tag1=val1&amp;tag2=val2...&apos;. Little URL decoding is done. Return 1 if found. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="158" column="5" declfile="libavutil/parseutils.h" declline="158" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1aa9fc9ede1311e05ea453a1de0ec4dafd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * av_small_strptime</definition>
+        <argsstring>(const char *p, const char *fmt, struct tm *dt)</argsstring>
+        <name>av_small_strptime</name>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>struct tm *</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Simplified version of strptime. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the input string p according to the format string fmt and store its results in the structure dt. This implementation supports only a subset of the formats supported by the standard strptime().</para>
+<para>The supported input field descriptors are listed below.<itemizedlist>
+<listitem><para><computeroutput>%H</computeroutput>: the hour as a decimal number, using a 24-hour clock, in the range &apos;00&apos; through &apos;23&apos;</para>
+</listitem><listitem><para><computeroutput>%J</computeroutput>: hours as a decimal number, in the range &apos;0&apos; through INT_MAX</para>
+</listitem><listitem><para><computeroutput>%M</computeroutput>: the minute as a decimal number, using a 24-hour clock, in the range &apos;00&apos; through &apos;59&apos;</para>
+</listitem><listitem><para><computeroutput>%S</computeroutput>: the second as a decimal number, using a 24-hour clock, in the range &apos;00&apos; through &apos;59&apos;</para>
+</listitem><listitem><para><computeroutput>%Y</computeroutput>: the year as a decimal number, using the Gregorian calendar</para>
+</listitem><listitem><para><computeroutput>%m</computeroutput>: the month as a decimal number, in the range &apos;1&apos; through &apos;12&apos;</para>
+</listitem><listitem><para><computeroutput>%d</computeroutput>: the day of the month as a decimal number, in the range &apos;1&apos; through &apos;31&apos;</para>
+</listitem><listitem><para><computeroutput>%T</computeroutput>: alias for <computeroutput>%H:%M:%S</computeroutput></para>
+</listitem><listitem><para><computeroutput>%%</computeroutput>: a literal <computeroutput>%</computeroutput></para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="return"><para>a pointer to the first character not processed in this function call. In case the input string contains more characters than required by the format string the return value points right after the last consumed input character. In case the whole input string is consumed the return value points to the null byte at the end of the string. On failure NULL is returned. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="190" column="6" declfile="libavutil/parseutils.h" declline="190" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="parseutils_8h_1ae9bf34b50b9762f3c733721d5210b52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t av_timegm</definition>
+        <argsstring>(struct tm *tm)</argsstring>
+        <name>av_timegm</name>
+        <param>
+          <type>struct tm *</type>
+          <declname>tm</declname>
+        </param>
+        <briefdescription>
+<para>Convert the decomposed UTC time in tm to a time_t value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/parseutils.h" line="195" column="8" declfile="libavutil/parseutils.h" declline="195" declcolumn="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>misc parsing utilities </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_PARSEUTILS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_PARSEUTILS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="time_8h" kindref="compound">time.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="26"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>misc<sp/>parsing<sp/>utilities</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>Parse<sp/>str<sp/>and<sp/>store<sp/>the<sp/>parsed<sp/>ratio<sp/>in<sp/>q.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>Note<sp/>that<sp/>a<sp/>ratio<sp/>with<sp/>infinite<sp/>(1/0)<sp/>or<sp/>negative<sp/>value<sp/>is</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>considered<sp/>valid,<sp/>so<sp/>you<sp/>should<sp/>check<sp/>on<sp/>the<sp/>returned<sp/>value<sp/>if<sp/>you</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>want<sp/>to<sp/>exclude<sp/>those<sp/>values.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>The<sp/>undefined<sp/>value<sp/>can<sp/>be<sp/>expressed<sp/>using<sp/>the<sp/>&quot;0:0&quot;<sp/>string.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>q<sp/>pointer<sp/>to<sp/>the<sp/>AVRational<sp/>which<sp/>will<sp/>contain<sp/>the<sp/>ratio</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>str<sp/>the<sp/>string<sp/>to<sp/>parse:<sp/>it<sp/>has<sp/>to<sp/>be<sp/>a<sp/>string<sp/>in<sp/>the<sp/>format</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>num:den,<sp/>a<sp/>float<sp/>number<sp/>or<sp/>an<sp/>expression</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>max<sp/>the<sp/>maximum<sp/>allowed<sp/>numerator<sp/>and<sp/>denominator</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>log_offset<sp/>log<sp/>level<sp/>offset<sp/>which<sp/>is<sp/>applied<sp/>to<sp/>the<sp/>log</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>level<sp/>of<sp/>log_ctx</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>log_ctx<sp/>parent<sp/>logging<sp/>context</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>error<sp/>code<sp/>otherwise</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="parseutils_8h_1a8535b8693aa5a188cfb1356133c0e94e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parseutils_8h_1a8535b8693aa5a188cfb1356133c0e94e" kindref="member">av_parse_ratio</ref>(<ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>*q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>max,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>log_offset,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*log_ctx);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="parseutils_8h_1a8ac8244d56fd4eeb9557038f80d60560" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>av_parse_ratio_quiet(rate,<sp/>str,<sp/>max)<sp/>\</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>av_parse_ratio(rate,<sp/>str,<sp/>max,<sp/>AV_LOG_MAX_OFFSET,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Parse<sp/>str<sp/>and<sp/>put<sp/>in<sp/>width_ptr<sp/>and<sp/>height_ptr<sp/>the<sp/>detected<sp/>values.</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>width_ptr<sp/>pointer<sp/>to<sp/>the<sp/>variable<sp/>which<sp/>will<sp/>contain<sp/>the<sp/>detected</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>width<sp/>value</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>height_ptr<sp/>pointer<sp/>to<sp/>the<sp/>variable<sp/>which<sp/>will<sp/>contain<sp/>the<sp/>detected</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>height<sp/>value</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>str<sp/>the<sp/>string<sp/>to<sp/>parse:<sp/>it<sp/>has<sp/>to<sp/>be<sp/>a<sp/>string<sp/>in<sp/>the<sp/>format</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>width<sp/>x<sp/>height<sp/>or<sp/>a<sp/>valid<sp/>video<sp/>size<sp/>abbreviation.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>error<sp/>code<sp/>otherwise</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="parseutils_8h_1a4dcdb8a2792f2074ca4a1e1f4ddce2bf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parseutils_8h_1a4dcdb8a2792f2074ca4a1e1f4ddce2bf" kindref="member">av_parse_video_size</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*width_ptr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*height_ptr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>Parse<sp/>str<sp/>and<sp/>store<sp/>the<sp/>detected<sp/>values<sp/>in<sp/>*rate.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>rate<sp/>pointer<sp/>to<sp/>the<sp/>AVRational<sp/>which<sp/>will<sp/>contain<sp/>the<sp/>detected</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>frame<sp/>rate</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>str<sp/>the<sp/>string<sp/>to<sp/>parse:<sp/>it<sp/>has<sp/>to<sp/>be<sp/>a<sp/>string<sp/>in<sp/>the<sp/>format</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>rate_num<sp/>/<sp/>rate_den,<sp/>a<sp/>float<sp/>number<sp/>or<sp/>a<sp/>valid<sp/>video<sp/>rate<sp/>abbreviation</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>error<sp/>code<sp/>otherwise</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="parseutils_8h_1abbc4de8c071538f5bbde8e5b7466b676" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parseutils_8h_1abbc4de8c071538f5bbde8e5b7466b676" kindref="member">av_parse_video_rate</ref>(<ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>*rate,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="79"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>Put<sp/>the<sp/>RGBA<sp/>values<sp/>that<sp/>correspond<sp/>to<sp/>color_string<sp/>in<sp/>rgba_color.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>@param<sp/>rgba_color<sp/>4-elements<sp/>array<sp/>of<sp/>uint8_t<sp/>values,<sp/>where<sp/>the<sp/>respective</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>red,<sp/>green,<sp/>blue<sp/>and<sp/>alpha<sp/>component<sp/>values<sp/>are<sp/>written.</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>@param<sp/>color_string<sp/>a<sp/>string<sp/>specifying<sp/>a<sp/>color.<sp/>It<sp/>can<sp/>be<sp/>the<sp/>name<sp/>of</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>a<sp/>color<sp/>(case<sp/>insensitive<sp/>match)<sp/>or<sp/>a<sp/>[0x|#]RRGGBB[AA]<sp/>sequence,</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/>possibly<sp/>followed<sp/>by<sp/>&quot;@&quot;<sp/>and<sp/>a<sp/>string<sp/>representing<sp/>the<sp/>alpha</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>component.</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>The<sp/>alpha<sp/>component<sp/>may<sp/>be<sp/>a<sp/>string<sp/>composed<sp/>by<sp/>&quot;0x&quot;<sp/>followed<sp/>by<sp/>an</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>hexadecimal<sp/>number<sp/>or<sp/>a<sp/>decimal<sp/>number<sp/>between<sp/>0.0<sp/>and<sp/>1.0,<sp/>which</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>represents<sp/>the<sp/>opacity<sp/>value<sp/>(0x00/0.0<sp/>means<sp/>completely<sp/>transparent,</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>0xff/1.0<sp/>completely<sp/>opaque).</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>alpha<sp/>component<sp/>is<sp/>not<sp/>specified<sp/>then<sp/>0xff<sp/>is<sp/>assumed.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>The<sp/>string<sp/>&quot;random&quot;<sp/>will<sp/>result<sp/>in<sp/>a<sp/>random<sp/>color.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>@param<sp/>slen<sp/>length<sp/>of<sp/>the<sp/>initial<sp/>part<sp/>of<sp/>color_string<sp/>containing<sp/>the</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>color.<sp/>It<sp/>can<sp/>be<sp/>set<sp/>to<sp/>-1<sp/>if<sp/>color_string<sp/>is<sp/>a<sp/>null<sp/>terminated<sp/>string</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>containing<sp/>nothing<sp/>else<sp/>than<sp/>the<sp/>color.</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>@param<sp/>log_ctx<sp/>a<sp/>pointer<sp/>to<sp/>an<sp/>arbitrary<sp/>struct<sp/>of<sp/>which<sp/>the<sp/>first<sp/>field</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>is<sp/>a<sp/>pointer<sp/>to<sp/>an<sp/>AVClass<sp/>struct<sp/>(used<sp/>for<sp/>av_log()).<sp/>Can<sp/>be<sp/>NULL.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>in<sp/>case<sp/>of<sp/>success,<sp/>a<sp/>negative<sp/>value<sp/>in<sp/>case<sp/>of</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>failure<sp/>(for<sp/>example<sp/>if<sp/>color_string<sp/>cannot<sp/>be<sp/>parsed).</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="parseutils_8h_1a4be8779c7c2afd9c57c8b962bea76d03" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parseutils_8h_1a4be8779c7c2afd9c57c8b962bea76d03" kindref="member">av_parse_color</ref>(uint8_t<sp/>*rgba_color,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*color_string,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slen,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*log_ctx);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="105"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>name<sp/>of<sp/>a<sp/>color<sp/>from<sp/>the<sp/>internal<sp/>table<sp/>of<sp/>hard-coded<sp/>named</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>colors.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>meant<sp/>to<sp/>enumerate<sp/>the<sp/>color<sp/>names<sp/>recognized<sp/>by</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>av_parse_color().</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*<sp/>@param<sp/>color_idx<sp/>index<sp/>of<sp/>the<sp/>requested<sp/>color,<sp/>starting<sp/>from<sp/>0</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>@param<sp/>rgb<sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>not<sp/>NULL,<sp/>will<sp/>point<sp/>to<sp/>a<sp/>3-elements<sp/>array<sp/>with<sp/>the<sp/>color<sp/>value<sp/>in<sp/>RGB</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>color<sp/>name<sp/>string<sp/>or<sp/>NULL<sp/>if<sp/>color_idx<sp/>is<sp/>not<sp/>in<sp/>the<sp/>array</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="parseutils_8h_1a6d8cfb62989c8dc657954b33214f599d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="parseutils_8h_1a6d8cfb62989c8dc657954b33214f599d" kindref="member">av_get_known_color_name</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>color_idx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>**rgb);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="118"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>Parse<sp/>timestr<sp/>and<sp/>return<sp/>in<sp/>*time<sp/>a<sp/>corresponding<sp/>number<sp/>of</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>microseconds.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>@param<sp/>timeval<sp/>puts<sp/>here<sp/>the<sp/>number<sp/>of<sp/>microseconds<sp/>corresponding</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>to<sp/>the<sp/>string<sp/>in<sp/>timestr.<sp/>If<sp/>the<sp/>string<sp/>represents<sp/>a<sp/>duration,<sp/>it</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/>is<sp/>the<sp/>number<sp/>of<sp/>microseconds<sp/>contained<sp/>in<sp/>the<sp/>time<sp/>interval.<sp/><sp/>If</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/>the<sp/>string<sp/>is<sp/>a<sp/>date,<sp/>is<sp/>the<sp/>number<sp/>of<sp/>microseconds<sp/>since<sp/>1st<sp/>of</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>January,<sp/>1970<sp/>up<sp/>to<sp/>the<sp/>time<sp/>of<sp/>the<sp/>parsed<sp/>date.<sp/><sp/>If<sp/>timestr<sp/>cannot</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>be<sp/>successfully<sp/>parsed,<sp/>set<sp/>*time<sp/>to<sp/>INT64_MIN.</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"></highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>@param<sp/>timestr<sp/>a<sp/>string<sp/>representing<sp/>a<sp/>date<sp/>or<sp/>a<sp/>duration.</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>-<sp/>If<sp/>a<sp/>date<sp/>the<sp/>syntax<sp/>is:</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>@code</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>[{YYYY-MM-DD|YYYYMMDD}[T|t|<sp/>]]{{HH:MM:SS[.m...]]]}|{HHMMSS[.m...]]]}}[Z]</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>now</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>value<sp/>is<sp/>&quot;now&quot;<sp/>it<sp/>takes<sp/>the<sp/>current<sp/>time.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/>Time<sp/>is<sp/>local<sp/>time<sp/>unless<sp/>Z<sp/>is<sp/>appended,<sp/>in<sp/>which<sp/>case<sp/>it<sp/>is</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>interpreted<sp/>as<sp/>UTC.</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>year-month-day<sp/>part<sp/>is<sp/>not<sp/>specified<sp/>it<sp/>takes<sp/>the<sp/>current</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/>year-month-day.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/>-<sp/>If<sp/>a<sp/>duration<sp/>the<sp/>syntax<sp/>is:</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*<sp/>@code</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/>*<sp/>[-][HH:]MM:SS[.m...]</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*<sp/>[-]S+[.m...]</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>@param<sp/>duration<sp/>flag<sp/>which<sp/>tells<sp/>how<sp/>to<sp/>interpret<sp/>timestr,<sp/>if<sp/>not</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>zero<sp/>timestr<sp/>is<sp/>interpreted<sp/>as<sp/>a<sp/>duration,<sp/>otherwise<sp/>as<sp/>a<sp/>date</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>in<sp/>case<sp/>of<sp/>success,<sp/>a<sp/>negative<sp/>value<sp/>corresponding<sp/>to<sp/>an</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>AVERROR<sp/>code<sp/>otherwise</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="parseutils_8h_1a98590feafe82e074f61f38c8faaa4cef" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parseutils_8h_1a98590feafe82e074f61f38c8faaa4cef" kindref="member">av_parse_time</ref>(int64_t<sp/>*timeval,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*timestr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>duration);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="152"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>Attempt<sp/>to<sp/>find<sp/>a<sp/>specific<sp/>tag<sp/>in<sp/>a<sp/>URL.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>syntax:<sp/>&apos;?tag1=val1&amp;tag2=val2...&apos;.<sp/>Little<sp/>URL<sp/>decoding<sp/>is<sp/>done.</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>Return<sp/>1<sp/>if<sp/>found.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="parseutils_8h_1ad97f06e907c14c253c2bf3e775f51ccb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parseutils_8h_1ad97f06e907c14c253c2bf3e775f51ccb" kindref="member">av_find_info_tag</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*info);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="160"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*<sp/>Simplified<sp/>version<sp/>of<sp/>strptime</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*<sp/>Parse<sp/>the<sp/>input<sp/>string<sp/>p<sp/>according<sp/>to<sp/>the<sp/>format<sp/>string<sp/>fmt<sp/>and</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*<sp/>store<sp/>its<sp/>results<sp/>in<sp/>the<sp/>structure<sp/>dt.</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/>This<sp/>implementation<sp/>supports<sp/>only<sp/>a<sp/>subset<sp/>of<sp/>the<sp/>formats<sp/>supported</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*<sp/>by<sp/>the<sp/>standard<sp/>strptime().</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*<sp/>The<sp/>supported<sp/>input<sp/>field<sp/>descriptors<sp/>are<sp/>listed<sp/>below.</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%H`:<sp/>the<sp/>hour<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>using<sp/>a<sp/>24-hour<sp/>clock,<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/><sp/><sp/>range<sp/>&apos;00&apos;<sp/>through<sp/>&apos;23&apos;</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%J`:<sp/>hours<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>in<sp/>the<sp/>range<sp/>&apos;0&apos;<sp/>through<sp/>INT_MAX</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%M`:<sp/>the<sp/>minute<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>using<sp/>a<sp/>24-hour<sp/>clock,<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/><sp/><sp/>range<sp/>&apos;00&apos;<sp/>through<sp/>&apos;59&apos;</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%S`:<sp/>the<sp/>second<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>using<sp/>a<sp/>24-hour<sp/>clock,<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>*<sp/><sp/><sp/>range<sp/>&apos;00&apos;<sp/>through<sp/>&apos;59&apos;</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%Y`:<sp/>the<sp/>year<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>using<sp/>the<sp/>Gregorian<sp/>calendar</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%m`:<sp/>the<sp/>month<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>in<sp/>the<sp/>range<sp/>&apos;1&apos;<sp/>through<sp/>&apos;12&apos;</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%d`:<sp/>the<sp/>day<sp/>of<sp/>the<sp/>month<sp/>as<sp/>a<sp/>decimal<sp/>number,<sp/>in<sp/>the<sp/>range<sp/>&apos;1&apos;</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*<sp/><sp/><sp/>through<sp/>&apos;31&apos;</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%T`:<sp/>alias<sp/>for<sp/>`%%H:%%M:%%S`</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/>*<sp/>-<sp/>`%%`:<sp/>a<sp/>literal<sp/>`%`</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>first<sp/>character<sp/>not<sp/>processed<sp/>in<sp/>this<sp/>function</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call.<sp/>In<sp/>case<sp/>the<sp/>input<sp/>string<sp/>contains<sp/>more<sp/>characters<sp/>than</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>required<sp/>by<sp/>the<sp/>format<sp/>string<sp/>the<sp/>return<sp/>value<sp/>points<sp/>right<sp/>after</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>last<sp/>consumed<sp/>input<sp/>character.<sp/>In<sp/>case<sp/>the<sp/>whole<sp/>input<sp/>string</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is<sp/>consumed<sp/>the<sp/>return<sp/>value<sp/>points<sp/>to<sp/>the<sp/>null<sp/>byte<sp/>at<sp/>the<sp/>end<sp/>of</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>string.<sp/>On<sp/>failure<sp/>NULL<sp/>is<sp/>returned.</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="parseutils_8h_1aa9fc9ede1311e05ea453a1de0ec4dafd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="parseutils_8h_1aa9fc9ede1311e05ea453a1de0ec4dafd" kindref="member">av_small_strptime</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>tm<sp/>*dt);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="192"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/>*<sp/>Convert<sp/>the<sp/>decomposed<sp/>UTC<sp/>time<sp/>in<sp/>tm<sp/>to<sp/>a<sp/>time_t<sp/>value.</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="parseutils_8h_1ae9bf34b50b9762f3c733721d5210b52d" refkind="member"><highlight class="normal">time_t<sp/><ref refid="parseutils_8h_1ae9bf34b50b9762f3c733721d5210b52d" kindref="member">av_timegm</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>tm<sp/>*tm);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_PARSEUTILS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/parseutils.h"/>
+  </compounddef>
+</doxygen>

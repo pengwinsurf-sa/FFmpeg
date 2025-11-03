@@ -1,0 +1,17 @@
+Function 'ff_get_video_buffer'
+Lines executed:0.00% of 8
+
+Function 'ff_default_get_video_buffer'
+Lines executed:0.00% of 2
+
+Function 'ff_default_get_video_buffer2'
+Lines executed:0.00% of 33
+
+Function 'ff_null_get_video_buffer'
+Lines executed:0.00% of 2
+
+File 'libavfilter/video.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#video.gcno##libavfilter#video.c.gcov'
+
+Lines executed:0.00% of 45

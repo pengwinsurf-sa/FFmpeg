@@ -1,0 +1,51 @@
+Function 'lutrgb_init'
+Lines executed:0.00% of 4
+
+Function 'lutyuv_init'
+Lines executed:0.00% of 4
+
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 33
+
+Function 'lut_planar_8bits'
+Lines executed:0.00% of 15
+
+Function 'lut_planar_16bits'
+Lines executed:0.00% of 15
+
+Function 'lut_packed_8bits'
+Lines executed:0.00% of 19
+
+Function 'lut_packed_16bits'
+Lines executed:0.00% of 19
+
+Function 'config_props'
+Lines executed:0.00% of 64
+
+Function 'compute_gammaval709'
+Lines executed:0.00% of 9
+
+Function 'compute_gammaval'
+Lines executed:0.00% of 6
+
+Function 'clip'
+Lines executed:0.00% of 5
+
+Function 'query_formats'
+Lines executed:0.00% of 5
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+File 'libavfilter/vf_lut.c'
+Lines executed:0.00% of 207
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut.gcno##libavfilter#vf_lut.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 210

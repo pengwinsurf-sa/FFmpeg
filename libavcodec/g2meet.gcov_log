@@ -1,0 +1,113 @@
+Function 'g2m_decode_end'
+Lines executed:0.00% of 13
+
+Function 'g2m_decode_init'
+Lines executed:0.00% of 10
+
+Function 'g2m_decode_frame'
+Lines executed:0.00% of 170
+
+Function 'g2m_paint_cursor'
+Lines executed:0.00% of 32
+
+Function 'g2m_load_cursor'
+Lines executed:0.00% of 82
+
+Function 'g2m_init_buffers'
+Lines executed:0.00% of 29
+
+Function 'kempf_decode_tile'
+Lines executed:0.00% of 71
+
+Function 'kempf_restore_buf'
+Lines executed:0.00% of 43
+
+Function 'epic_jb_decode_tile'
+Lines executed:0.00% of 97
+
+Function 'epic_decode_tile'
+Lines executed:0.00% of 44
+
+Function 'epic_decode_from_cache'
+Lines executed:0.00% of 16
+
+Function 'epic_predict_from_NW_NE'
+Lines executed:0.00% of 19
+
+Function 'epic_decode_run_length'
+Lines executed:0.00% of 84
+
+Function 'epic_handle_edges'
+Lines executed:0.00% of 22
+
+Function 'epic_decode_pixel_pred'
+Lines executed:0.00% of 33
+
+Function 'epic_decode_component_pred'
+Lines executed:0.00% of 7
+
+Function 'epic_free_pixel_cache'
+Lines executed:0.00% of 13
+
+Function 'epic_add_pixel_to_cache'
+Lines executed:0.00% of 11
+
+Function 'epic_hash_add'
+Lines executed:0.00% of 21
+
+Function 'epic_hash_find'
+Lines executed:0.00% of 6
+
+Function 'epic_hash_init'
+Lines executed:0.00% of 3
+
+Function 'jpg_decode_data'
+Lines executed:0.00% of 65
+
+Function 'yuv2rgb'
+Lines executed:0.00% of 8
+
+Function 'jpg_decode_block'
+Lines executed:0.00% of 44
+
+Function 'jpg_free_context'
+Lines executed:0.00% of 7
+
+Function 'jpg_init'
+Lines executed:0.00% of 15
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_xbits'
+Lines executed:0.00% of 11
+
+File 'libavcodec/g2meet.c'
+Lines executed:0.00% of 889
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno##libavcodec#g2meet.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g2meet.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 986

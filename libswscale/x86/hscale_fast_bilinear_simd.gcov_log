@@ -1,0 +1,18 @@
+Function 'ff_hcscale_fast_mmxext'
+Lines executed:0.00% of 11
+
+Function 'ff_hyscale_fast_mmxext'
+Lines executed:0.00% of 10
+
+Function 'ff_init_hscaler_mmxext'
+Lines executed:0.00% of 55
+
+File 'libswscale/x86/hscale_fast_bilinear_simd.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#x86#hscale_fast_bilinear_simd.gcno##libswscale#x86#hscale_fast_bilinear_simd.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#x86#hscale_fast_bilinear_simd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 76

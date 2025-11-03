@@ -1,0 +1,29 @@
+Function 'main'
+Lines executed:0.00% of 71
+
+Function 'display_frame'
+Lines executed:0.00% of 22
+
+Function 'init_filters'
+Lines executed:0.00% of 49
+
+Function 'open_input_file'
+Lines executed:0.00% of 20
+
+File 'doc/examples/decode_filter_video.c'
+Lines executed:0.00% of 153
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_video.gcno##doc#examples#decode_filter_video.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_video.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_video.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_video.gcno###usr#include#x86_64-linux-gnu#bits#stdio.h.gcov'
+
+Lines executed:0.00% of 162

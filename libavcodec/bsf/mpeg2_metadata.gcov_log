@@ -1,0 +1,11 @@
+Function 'mpeg2_metadata_init'
+Lines executed:0.00% of 6
+
+Function 'mpeg2_metadata_update_fragment'
+Lines executed:0.00% of 66
+
+File 'libavcodec/bsf/mpeg2_metadata.c'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#mpeg2_metadata.gcno##libavcodec#bsf#mpeg2_metadata.c.gcov'
+
+Lines executed:0.00% of 72

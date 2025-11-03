@@ -1,0 +1,11 @@
+Function 'ff_vorbisdsp_init'
+Lines executed:100.00% of 4
+
+Function 'vorbis_inverse_coupling_c'
+Lines executed:100.00% of 13
+
+File 'libavcodec/vorbisdsp.c'
+Lines executed:100.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbisdsp.gcno##libavcodec#vorbisdsp.c.gcov'
+
+Lines executed:100.00% of 17

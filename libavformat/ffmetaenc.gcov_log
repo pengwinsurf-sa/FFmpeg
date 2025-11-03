@@ -1,0 +1,20 @@
+Function 'write_packet'
+Lines executed:0.00% of 2
+
+Function 'write_trailer'
+Lines executed:0.00% of 16
+
+Function 'write_header'
+Lines executed:0.00% of 5
+
+Function 'write_tags'
+Lines executed:0.00% of 8
+
+Function 'write_escape_str'
+Lines executed:0.00% of 8
+
+File 'libavformat/ffmetaenc.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ffmetaenc.gcno##libavformat#ffmetaenc.c.gcov'
+
+Lines executed:0.00% of 39

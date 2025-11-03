@@ -1,0 +1,57 @@
+Function 'ff_av1_framerate'
+Lines executed:0.00% of 7
+
+Function 'ff_av1_packet_uninit'
+Lines executed:0.00% of 4
+
+Function 'ff_av1_packet_split'
+Lines executed:0.00% of 38
+
+Function 'ff_av1_extract_obu'
+Lines executed:0.00% of 15
+
+Function 'get_obu_bit_length'
+Lines executed:0.00% of 14
+
+Function 'parse_obu_header'
+Lines executed:0.00% of 61
+
+Function 'get_leb128'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/av1_parse.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavcodec#av1_parse.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/av1_parse.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavcodec#av1_parse.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/leb.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavcodec#leb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parse.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 165

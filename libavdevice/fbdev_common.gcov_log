@@ -1,0 +1,22 @@
+Function 'ff_fbdev_get_device_list'
+Lines executed:0.00% of 51
+
+Function 'ff_fbdev_default_device'
+Lines executed:0.00% of 5
+
+Function 'ff_get_pixfmt_from_fb_varinfo'
+Lines executed:0.00% of 9
+
+File 'libavdevice/fbdev_common.c'
+Lines executed:0.00% of 60
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#fbdev_common.gcno##libavdevice#fbdev_common.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#fbdev_common.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#fbdev_common.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 65

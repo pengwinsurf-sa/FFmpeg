@@ -1,0 +1,785 @@
+Function 'ff_h2656_put_uni_4tap_hv128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_hv128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_hv128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_v128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_v128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_8tap_h128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_8tap_h128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_hv128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_hv128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_v128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_v128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_4tap_h128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_4tap_h128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_uni_pixels128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'ff_h2656_put_pixels128_8_sse4'
+Lines executed:100.00% of 1
+
+File 'libavcodec/x86/h26x/h2656dsp.c'
+Lines executed:100.00% of 275
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#h26x#h2656dsp.gcno##libavcodec#x86#h26x#h2656dsp.c.gcov'
+
+Lines executed:100.00% of 275

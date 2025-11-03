@@ -1,0 +1,35 @@
+Function 'ff_g729_adaptive_gain_control'
+Lines executed:0.00% of 27
+
+Function 'ff_g729_postfilter'
+Lines executed:0.00% of 29
+
+Function 'apply_tilt_comp'
+Lines executed:0.00% of 25
+
+Function 'get_tilt_comp'
+Lines executed:0.00% of 22
+
+Function 'long_term_filter'
+Lines executed:0.00% of 129
+
+Function 'residual_filter'
+Lines executed:0.00% of 7
+
+File 'libavcodec/g729postfilter.c'
+Lines executed:0.00% of 227
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g729postfilter.gcno##libavcodec#g729postfilter.c.gcov'
+
+File 'libavcodec/celp_math.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g729postfilter.gcno##libavcodec#celp_math.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g729postfilter.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g729postfilter.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 239

@@ -1,0 +1,34 @@
+Function 'mmf_read_packet'
+Lines executed:0.00% of 13
+
+Function 'mmf_read_header'
+Lines executed:0.00% of 59
+
+Function 'mmf_probe'
+Lines executed:0.00% of 6
+
+Function 'mmf_write_trailer'
+Lines executed:0.00% of 21
+
+Function 'put_varlength'
+Lines executed:0.00% of 7
+
+Function 'mmf_write_header'
+Lines executed:0.00% of 50
+
+Function 'end_tag_be'
+Lines executed:0.00% of 7
+
+File 'libavformat/mmf.c'
+Lines executed:0.00% of 159
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmf.gcno##libavformat#mmf.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmf.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmf.gcno##libavformat#avio_internal.h.gcov'
+
+Lines executed:0.00% of 163

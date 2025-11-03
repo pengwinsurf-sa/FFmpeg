@@ -1,0 +1,940 @@
+Function 'tblend_filter_frame'
+Lines executed:0.00% of 14
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 31
+
+Function 'config_params'
+Lines executed:0.00% of 24
+
+Function 'uninit'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 6
+
+Function 'blend_frame_for_dualinput'
+Lines executed:0.00% of 10
+
+Function 'blend_frame'
+Lines executed:0.00% of 24
+
+Function 'filter_slice'
+Lines executed:0.00% of 26
+
+Function 'blend_expr_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_expr_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_expr_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_child_next'
+Lines executed:0.00% of 1
+
+Function 'blend_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'ff_blend_init'
+Lines executed:0.00% of 32
+
+Function 'init_blend_func_32_32bit'
+Lines executed:0.00% of 1
+
+Function 'init_blend_func_16_16bit'
+Lines executed:0.00% of 1
+
+Function 'init_blend_func_14_16bit'
+Lines executed:0.00% of 1
+
+Function 'init_blend_func_12_16bit'
+Lines executed:0.00% of 1
+
+Function 'init_blend_func_10_16bit'
+Lines executed:0.00% of 1
+
+Function 'init_blend_func_9_16bit'
+Lines executed:0.00% of 1
+
+Function 'init_blend_func_8_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_normal_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_normal_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_normal_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_copybottom_32'
+Lines executed:0.00% of 1
+
+Function 'blend_copytop_32'
+Lines executed:0.00% of 1
+
+Function 'blend_copybottom_16'
+Lines executed:0.00% of 1
+
+Function 'blend_copytop_16'
+Lines executed:0.00% of 1
+
+Function 'blend_copybottom_8'
+Lines executed:0.00% of 1
+
+Function 'blend_copytop_8'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_linearlight_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_32bit'
+Lines executed:0.00% of 9
+
+Function 'blend_or_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_32bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_16bit'
+Lines executed:0.00% of 3
+
+Function 'blend_linearlight_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_or_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_16bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_linearlight_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_or_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_14bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_linearlight_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_or_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_12bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_linearlight_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_or_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_10bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_linearlight_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_or_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_9bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardoverlay_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_interpolate_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_stain_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_bleach_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_harmonic_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_geometric_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softdifference_8bit'
+Lines executed:0.00% of 4
+
+Function 'blend_linearlight_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_vividlight_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_xor_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_or_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_and_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_glow_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_reflect_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_phoenix_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_pinlight_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_exclusion_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_softlight_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_burn_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_dodge_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_divide_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_lighten_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_darken_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_freeze_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_heat_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardmix_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_hardlight_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_overlay_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_screen_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainextract_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_difference_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_extremity_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_negation_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply128_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_multiply_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_subtract_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_average_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_grainmerge_8bit'
+Lines executed:0.00% of 1
+
+Function 'blend_addition_8bit'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_blend.c'
+Lines executed:0.00% of 158
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blend.gcno##libavfilter#vf_blend.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blend.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/vf_blend_init.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blend.gcno##libavfilter#vf_blend_init.h.gcov'
+
+File 'libavfilter/blend_modes.c'
+Lines executed:0.00% of 312
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blend.gcno##libavfilter#blend_modes.c.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blend.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blend.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 533

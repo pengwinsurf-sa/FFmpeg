@@ -1,0 +1,37 @@
+Function 'activate'
+Lines executed:0.00% of 29
+
+Function 'update_eof_pts'
+Lines executed:0.00% of 6
+
+Function 'write_frame'
+Lines executed:0.00% of 28
+
+Function 'read_frame'
+Lines executed:0.00% of 16
+
+Function 'config_props'
+Lines executed:0.00% of 38
+
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'shift_frame'
+Lines executed:0.00% of 16
+
+Function 'init'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_fps.c'
+Lines executed:0.00% of 140
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fps.gcno##libavfilter#vf_fps.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fps.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fps.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 147

@@ -1,0 +1,709 @@
+Function 'ff_sws_init_input_funcs'
+Lines executed:23.54% of 701
+
+Function 'rgbf16beToY_c'
+Lines executed:0.00% of 22
+
+Function 'rgbf16beToUV_c'
+Lines executed:0.00% of 11
+
+Function 'rgbf16beToUV_half_c'
+Lines executed:0.00% of 14
+
+Function 'rgbaf16beToA_c'
+Lines executed:0.00% of 5
+
+Function 'rgbaf16beToY_c'
+Lines executed:0.00% of 9
+
+Function 'rgbaf16beToUV_c'
+Lines executed:0.00% of 11
+
+Function 'rgbaf16beToUV_half_c'
+Lines executed:0.00% of 14
+
+Function 'read_yaf16be_alpha_c'
+Lines executed:0.00% of 5
+
+Function 'read_yaf16be_gray_c'
+Lines executed:0.00% of 5
+
+Function 'grayf16beToY16_c'
+Lines executed:0.00% of 5
+
+Function 'planar_rgbf16be_to_a'
+Lines executed:0.00% of 5
+
+Function 'planar_rgbf16be_to_uv'
+Lines executed:0.00% of 11
+
+Function 'planar_rgbf16be_to_y'
+Lines executed:0.00% of 9
+
+Function 'rgbf16leToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgbf16leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgbf16leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgbaf16leToA_c'
+Lines executed:0.00% of 1
+
+Function 'rgbaf16leToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgbaf16leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgbaf16leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'read_yaf16le_alpha_c'
+Lines executed:0.00% of 1
+
+Function 'read_yaf16le_gray_c'
+Lines executed:0.00% of 1
+
+Function 'grayf16leToY16_c'
+Lines executed:0.00% of 1
+
+Function 'planar_rgbf16le_to_a'
+Lines executed:0.00% of 1
+
+Function 'planar_rgbf16le_to_uv'
+Lines executed:0.00% of 1
+
+Function 'planar_rgbf16le_to_y'
+Lines executed:0.00% of 1
+
+Function 'read_yaf32be_alpha_c'
+Lines executed:0.00% of 9
+
+Function 'read_yaf32be_gray_c'
+Lines executed:0.00% of 7
+
+Function 'grayf32beToY16_c'
+Lines executed:0.00% of 7
+
+Function 'rgbf32be_to_uv_c'
+Lines executed:0.00% of 14
+
+Function 'rgbf32be_to_y_c'
+Lines executed:0.00% of 11
+
+Function 'planar_rgbf32be_to_a'
+Lines executed:214.29% of 7
+
+Function 'planar_rgbf32be_to_uv'
+Lines executed:100.00% of 14
+
+Function 'planar_rgbf32be_to_y'
+Lines executed:100.00% of 11
+
+Function 'read_yaf32le_alpha_c'
+Lines executed:0.00% of 1
+
+Function 'read_yaf32le_gray_c'
+Lines executed:0.00% of 1
+
+Function 'grayf32leToY16_c'
+Lines executed:0.00% of 1
+
+Function 'rgbf32le_to_uv_c'
+Lines executed:0.00% of 1
+
+Function 'rgbf32le_to_y_c'
+Lines executed:0.00% of 1
+
+Function 'planar_rgbf32le_to_a'
+Lines executed:100.00% of 1
+
+Function 'planar_rgbf32le_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgbf32le_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb16be_to_a'
+Lines executed:137.50% of 8
+
+Function 'planar_rgb16le_to_a'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb14be_to_a'
+Lines executed:0.00% of 1
+
+Function 'planar_rgb14le_to_a'
+Lines executed:0.00% of 1
+
+Function 'planar_rgb12be_to_a'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb12le_to_a'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb10be_to_a'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb10le_to_a'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb16be_to_uv'
+Lines executed:100.00% of 15
+
+Function 'planar_rgb16be_to_y'
+Lines executed:100.00% of 12
+
+Function 'planar_rgb16le_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb16le_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb14be_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb14be_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb14le_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb14le_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb12be_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb12be_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb12le_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb12le_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb10be_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb10be_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb10le_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb10le_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb9be_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb9be_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb9le_to_uv'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb9le_to_y'
+Lines executed:100.00% of 1
+
+Function 'planar_rgb_to_uv'
+Lines executed:100.00% of 13
+
+Function 'planar_rgb_to_a'
+Lines executed:100.00% of 6
+
+Function 'planar_rgb_to_y'
+Lines executed:100.00% of 10
+
+Function 'rgb24ToUV_half_c'
+Lines executed:100.00% of 14
+
+Function 'rgb24ToUV_c'
+Lines executed:100.00% of 14
+
+Function 'rgb24ToY_c'
+Lines executed:100.00% of 10
+
+Function 'bgr24ToUV_half_c'
+Lines executed:100.00% of 14
+
+Function 'bgr24ToUV_c'
+Lines executed:100.00% of 14
+
+Function 'bgr24ToY_c'
+Lines executed:100.00% of 10
+
+Function 'p016BEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'p016LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'p012BEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'p012LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'p012BEToY_c'
+Lines executed:0.00% of 1
+
+Function 'p012LEToY_c'
+Lines executed:0.00% of 1
+
+Function 'p010BEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'p010LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'p010BEToY_c'
+Lines executed:0.00% of 1
+
+Function 'p010LEToY_c'
+Lines executed:0.00% of 1
+
+Function 'nv20BEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'nv20LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'nv20BEToY_c'
+Lines executed:0.00% of 1
+
+Function 'nv20LEToY_c'
+Lines executed:0.00% of 1
+
+Function 'nv21ToUV_c'
+Lines executed:0.00% of 8
+
+Function 'nv12ToUV_c'
+Lines executed:0.00% of 3
+
+Function 'uyyvyyToUV_c'
+Lines executed:0.00% of 6
+
+Function 'uyyvyyToY_c'
+Lines executed:0.00% of 4
+
+Function 'uyvyToUV_c'
+Lines executed:0.00% of 7
+
+Function 'uyvyToY_c'
+Lines executed:0.00% of 5
+
+Function 'read_xv36be_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_xv36be_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_xv36le_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_xv36le_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_xv30le_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_xv30le_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_v30xle_UV_c'
+Lines executed:0.00% of 7
+
+Function 'read_v30xle_Y_c'
+Lines executed:0.00% of 5
+
+Function 'vyuToUV_c'
+Lines executed:0.00% of 6
+
+Function 'vyuToY_c'
+Lines executed:0.00% of 5
+
+Function 'read_uyva_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_ayuv_A_c'
+Lines executed:0.00% of 5
+
+Function 'read_ayuv_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_ayuv_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_vuya_A_c'
+Lines executed:0.00% of 5
+
+Function 'read_vuyx_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_vuyx_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_ayuv64be_A_c'
+Lines executed:0.00% of 5
+
+Function 'read_ayuv64le_A_c'
+Lines executed:0.00% of 5
+
+Function 'read_xv48be_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_xv48le_UV_c'
+Lines executed:0.00% of 6
+
+Function 'read_ayuv64be_UV_c'
+Lines executed:0.00% of 1
+
+Function 'read_ayuv64le_UV_c'
+Lines executed:0.00% of 1
+
+Function 'read_ayuv64be_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_ayuv64le_Y_c'
+Lines executed:0.00% of 5
+
+Function 'read_ya16be_alpha_c'
+Lines executed:0.00% of 5
+
+Function 'read_ya16be_gray_c'
+Lines executed:0.00% of 5
+
+Function 'read_ya16le_alpha_c'
+Lines executed:0.00% of 5
+
+Function 'read_ya16le_gray_c'
+Lines executed:0.00% of 5
+
+Function 'bswap16UV_c'
+Lines executed:0.00% of 9
+
+Function 'bswap16Y_c'
+Lines executed:0.00% of 7
+
+Function 'y216le_Y_c'
+Lines executed:0.00% of 1
+
+Function 'y216le_UV_c'
+Lines executed:0.00% of 1
+
+Function 'y212le_Y_c'
+Lines executed:0.00% of 1
+
+Function 'y212le_UV_c'
+Lines executed:0.00% of 1
+
+Function 'y210le_Y_c'
+Lines executed:0.00% of 1
+
+Function 'y210le_UV_c'
+Lines executed:0.00% of 1
+
+Function 'yvy2ToUV_c'
+Lines executed:0.00% of 7
+
+Function 'yuy2ToUV_c'
+Lines executed:0.00% of 7
+
+Function 'yuy2ToY_c'
+Lines executed:0.00% of 5
+
+Function 'monoblack2Y_c'
+Lines executed:0.00% of 13
+
+Function 'monowhite2Y_c'
+Lines executed:0.00% of 13
+
+Function 'palToUV_c'
+Lines executed:0.00% of 10
+
+Function 'palToY_c'
+Lines executed:0.00% of 7
+
+Function 'palToA_c'
+Lines executed:0.00% of 7
+
+Function 'rgbaToA_c'
+Lines executed:0.00% of 6
+
+Function 'abgrToA_c'
+Lines executed:0.00% of 6
+
+Function 'rgba64beToA_c'
+Lines executed:0.00% of 7
+
+Function 'rgba64leToA_c'
+Lines executed:0.00% of 7
+
+Function 'gbr24pToUV_half_c'
+Lines executed:0.00% of 13
+
+Function 'bgr30leToUV_half_c'
+Lines executed:0.00% of 21
+
+Function 'bgr30leToUV_c'
+Lines executed:0.00% of 13
+
+Function 'bgr30leToY_c'
+Lines executed:0.00% of 11
+
+Function 'rgb30leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb30leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb30leToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb12beToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb12beToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb12beToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb15beToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb15beToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb15beToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb16beToUV_half_c'
+Lines executed:0.00% of 2
+
+Function 'rgb16beToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb16beToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr12beToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr12beToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr12beToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr15beToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr15beToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr15beToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr16beToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr16beToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr16beToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb12leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb12leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb12leToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb15leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb15leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb15leToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb16leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb16leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb16leToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr12leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr12leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr12leToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr15leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr15leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr15leToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr16leToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr16leToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr16leToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb321ToUV_half_c'
+Lines executed:2100.00% of 1
+
+Function 'rgb321ToUV_c'
+Lines executed:1300.00% of 1
+
+Function 'rgb321ToY_c'
+Lines executed:1100.00% of 1
+
+Function 'rgb32ToUV_half_c'
+Lines executed:200.00% of 1
+
+Function 'rgb32ToUV_c'
+Lines executed:100.00% of 1
+
+Function 'rgb32ToY_c'
+Lines executed:100.00% of 1
+
+Function 'bgr321ToUV_half_c'
+Lines executed:100.00% of 1
+
+Function 'bgr321ToUV_c'
+Lines executed:100.00% of 1
+
+Function 'bgr321ToY_c'
+Lines executed:100.00% of 1
+
+Function 'bgr32ToUV_half_c'
+Lines executed:100.00% of 1
+
+Function 'bgr32ToUV_c'
+Lines executed:100.00% of 1
+
+Function 'bgr32ToY_c'
+Lines executed:100.00% of 1
+
+Function 'bgr48BEToUV_half_c'
+Lines executed:0.00% of 15
+
+Function 'bgr48BEToUV_c'
+Lines executed:0.00% of 12
+
+Function 'bgr48BEToY_c'
+Lines executed:0.00% of 9
+
+Function 'bgr48LEToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr48LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr48LEToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb48BEToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb48BEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb48BEToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb48LEToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb48LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb48LEToY_c'
+Lines executed:0.00% of 1
+
+Function 'bgr64BEToUV_half_c'
+Lines executed:0.00% of 12
+
+Function 'bgr64BEToUV_c'
+Lines executed:0.00% of 12
+
+Function 'bgr64BEToY_c'
+Lines executed:0.00% of 9
+
+Function 'bgr64LEToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'bgr64LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'bgr64LEToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb64BEToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb64BEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb64BEToY_c'
+Lines executed:0.00% of 1
+
+Function 'rgb64LEToUV_half_c'
+Lines executed:0.00% of 1
+
+Function 'rgb64LEToUV_c'
+Lines executed:0.00% of 1
+
+Function 'rgb64LEToY_c'
+Lines executed:0.00% of 1
+
+File 'libswscale/input.c'
+Lines executed:26.43% of 1623
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#input.gcno##libswscale#input.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#input.gcno##libswscale#swscale_internal.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#input.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/half2float.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#input.gcno##libavutil#half2float.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#input.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#input.gcno##libavutil#common.h.gcov'
+
+Lines executed:26.67% of 1650

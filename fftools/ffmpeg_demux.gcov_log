@@ -1,0 +1,132 @@
+Function 'ifile_open'
+Lines executed:0.00% of 216
+
+Function 'demux_alloc'
+Lines executed:0.00% of 7
+
+Function 'input_file_item_name'
+Lines executed:0.00% of 3
+
+Function 'dump_attachment'
+Lines executed:0.00% of 23
+
+Function 'ist_add'
+Lines executed:0.00% of 187
+
+Function 'demux_stream_alloc'
+Lines executed:0.00% of 16
+
+Function 'input_stream_item_name'
+Lines executed:0.00% of 3
+
+Function 'add_display_matrix_to_stream'
+Lines executed:0.00% of 24
+
+Function 'guess_input_channel_layout'
+Lines executed:0.00% of 9
+
+Function 'choose_decoder'
+Lines executed:0.00% of 28
+
+Function 'ist_filter_add'
+Lines executed:0.00% of 60
+
+Function 'ist_use'
+Lines executed:0.00% of 58
+
+Function 'ifile_close'
+Lines executed:0.00% of 12
+
+Function 'ist_free'
+Lines executed:0.00% of 13
+
+Function 'demux_final_stats'
+Lines executed:0.00% of 24
+
+Function 'input_thread'
+Lines executed:0.00% of 62
+
+Function 'demux_thread_init'
+Lines executed:0.00% of 8
+
+Function 'demux_thread_uninit'
+Lines executed:0.00% of 5
+
+Function 'thread_set_name'
+Lines executed:0.00% of 9
+
+Function 'discard_unused_programs'
+Lines executed:0.00% of 9
+
+Function 'demux_bsf_flush'
+Lines executed:0.00% of 14
+
+Function 'demux_send'
+Lines executed:0.00% of 40
+
+Function 'do_send'
+Lines executed:0.00% of 16
+
+Function 'readrate_sleep'
+Lines executed:0.00% of 33
+
+Function 'input_packet_process'
+Lines executed:0.00% of 29
+
+Function 'ts_fixup'
+Lines executed:0.00% of 45
+
+Function 'ist_dts_update'
+Lines executed:0.00% of 45
+
+Function 'ts_discontinuity_process'
+Lines executed:0.00% of 11
+
+Function 'ts_discontinuity_detect'
+Lines executed:0.00% of 43
+
+Function 'seek_to_start'
+Lines executed:0.00% of 16
+
+Function 'report_new_stream'
+Lines executed:0.00% of 8
+
+Function 'ist_find_unused'
+Lines executed:0.00% of 6
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 4
+
+File 'fftools/ffmpeg_demux.c'
+Lines executed:0.00% of 1059
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno##fftools#ffmpeg_demux.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'fftools/ffmpeg_utils.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno##fftools#ffmpeg_utils.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno##libavutil#thread.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_demux.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 1086

@@ -1,0 +1,47 @@
+Function 'lead_decode_end'
+Lines executed:0.00% of 4
+
+Function 'lead_decode_frame'
+Lines executed:0.00% of 151
+
+Function 'decode_block'
+Lines executed:0.00% of 41
+
+Function 'lead_decode_init'
+Lines executed:0.00% of 9
+
+Function 'lead_init_static_data'
+Lines executed:0.00% of 6
+
+Function 'get_xbits'
+Lines executed:0.00% of 11
+
+File 'libavcodec/leaddec.c'
+Lines executed:0.00% of 161
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno##libavcodec#leaddec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno##libavcodec#copy_block.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#leaddec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 222

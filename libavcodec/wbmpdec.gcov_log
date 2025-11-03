@@ -1,0 +1,19 @@
+Function 'wbmp_decode_frame'
+Lines executed:0.00% of 40
+
+Function 'readbits'
+Lines executed:0.00% of 8
+
+File 'libavcodec/wbmpdec.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wbmpdec.gcno##libavcodec#wbmpdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wbmpdec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wbmpdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 48

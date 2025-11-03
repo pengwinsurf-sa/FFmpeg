@@ -1,0 +1,36 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'init'
+Lines executed:0.00% of 12
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 44
+
+Function 'process_frame'
+Lines executed:0.00% of 27
+
+Function 'limitdiff_slice'
+Lines executed:0.00% of 29
+
+Function 'config_input'
+Lines executed:0.00% of 19
+
+Function 'limitdiff16'
+Lines executed:0.00% of 16
+
+Function 'limitdiff8'
+Lines executed:0.00% of 13
+
+File 'libavfilter/vf_limitdiff.c'
+Lines executed:0.00% of 162
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_limitdiff.gcno##libavfilter#vf_limitdiff.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_limitdiff.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 167

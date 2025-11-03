@@ -1,0 +1,118 @@
+Function 'aac_encode_init'
+Lines executed:0.00% of 73
+
+Function 'alloc_buffers'
+Lines executed:0.00% of 7
+
+Function 'dsp_init'
+Lines executed:0.00% of 7
+
+Function 'aac_encode_end'
+Lines executed:0.00% of 12
+
+Function 'aac_encode_frame'
+Lines executed:0.00% of 229
+
+Function 'copy_input_samples'
+Lines executed:0.00% of 13
+
+Function 'put_bitstream_info'
+Lines executed:0.00% of 17
+
+Function 'encode_individual_channel'
+Lines executed:0.00% of 13
+
+Function 'avoid_clipping'
+Lines executed:0.00% of 10
+
+Function 'encode_spectral_coeffs'
+Lines executed:0.00% of 15
+
+Function 'encode_pulses'
+Lines executed:0.00% of 9
+
+Function 'encode_scale_factors'
+Lines executed:0.00% of 22
+
+Function 'encode_band_info'
+Lines executed:0.00% of 7
+
+Function 'apply_mid_side_stereo'
+Lines executed:0.00% of 19
+
+Function 'apply_intensity_stereo'
+Lines executed:0.00% of 20
+
+Function 'adjust_frame_information'
+Lines executed:0.00% of 31
+
+Function 'encode_ms_info'
+Lines executed:0.00% of 8
+
+Function 'put_ics_info'
+Lines executed:0.00% of 12
+
+Function 'apply_window_and_mdct'
+Lines executed:0.00% of 11
+
+Function 'apply_eight_short_window'
+Lines executed:0.00% of 13
+
+Function 'apply_long_stop_window'
+Lines executed:0.00% of 9
+
+Function 'apply_long_start_window'
+Lines executed:0.00% of 9
+
+Function 'apply_only_long_window'
+Lines executed:0.00% of 7
+
+Function 'ff_quantize_band_cost_cache_init'
+Lines executed:0.00% of 6
+
+Function 'put_audio_specific_config'
+Lines executed:0.00% of 22
+
+Function 'put_pce'
+Lines executed:0.00% of 27
+
+Function 'quantize_bands'
+Lines executed:0.00% of 8
+
+Function 'abs_pow34_v'
+Lines executed:0.00% of 5
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/aacenc.c'
+Lines executed:0.00% of 598
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc.gcno##libavcodec#aacenc.c.gcov'
+
+File 'libavcodec/aacencdsp.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc.gcno##libavcodec#aacencdsp.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 676

@@ -1,0 +1,31 @@
+Function 'decode_init'
+Lines executed:0.00% of 8
+
+Function 'decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_flush'
+Lines executed:0.00% of 10
+
+Function 'decode_frame'
+Lines executed:0.00% of 44
+
+Function 'qpeg_decode_inter'
+Lines executed:0.00% of 86
+
+Function 'qpeg_decode_intra'
+Lines executed:0.00% of 67
+
+File 'libavcodec/qpeg.c'
+Lines executed:0.00% of 196
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeg.gcno##libavcodec#qpeg.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeg.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 219

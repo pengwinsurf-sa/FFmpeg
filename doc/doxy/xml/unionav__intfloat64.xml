@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="unionav__intfloat64" kind="union" language="C++" prot="public">
+    <compoundname>av_intfloat64</compoundname>
+    <includes refid="intfloat_8h" local="no">libavutil/intfloat.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionav__intfloat64_1aa87d447f2b6de18cde7e7686a59dd0f3" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t av_intfloat64::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <qualifiedname>av_intfloat64::i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/intfloat.h" line="33" column="14" bodyfile="libavutil/intfloat.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="intfloat_8h_1ae3b5f3db537273543dfcce45816ba02a" compoundref="intfloat_8h" startline="70" endline="75">av_double2int</referencedby>
+        <referencedby refid="intfloat_8h_1af4532dd95ee81d7dd271fd1bffade817" compoundref="intfloat_8h" startline="60" endline="65">av_int2double</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionav__intfloat64_1a3c64372dfad0215930e8f18cd09a8aab" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double av_intfloat64::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>av_intfloat64::f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/intfloat.h" line="34" column="14" bodyfile="libavutil/intfloat.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="intfloat_8h_1ae3b5f3db537273543dfcce45816ba02a" compoundref="intfloat_8h" startline="70" endline="75">av_double2int</referencedby>
+        <referencedby refid="intfloat_8h_1af4532dd95ee81d7dd271fd1bffade817" compoundref="intfloat_8h" startline="60" endline="65">av_int2double</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/intfloat.h" line="32" column="1" bodyfile="libavutil/intfloat.h" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="unionav__intfloat64_1a3c64372dfad0215930e8f18cd09a8aab" prot="public" virt="non-virtual"><scope>av_intfloat64</scope><name>f</name></member>
+      <member refid="unionav__intfloat64_1aa87d447f2b6de18cde7e7686a59dd0f3" prot="public" virt="non-virtual"><scope>av_intfloat64</scope><name>i</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+Function 'v4l2_get_device_list'
+Lines executed:0.00% of 56
+
+Function 'v4l2_is_v4l_dev'
+Lines executed:0.00% of 5
+
+Function 'v4l2_read_close'
+Lines executed:0.00% of 8
+
+Function 'v4l2_read_packet'
+Lines executed:0.00% of 4
+
+Function 'v4l2_read_header'
+Lines executed:0.00% of 101
+
+Function 'v4l2_read_probe'
+Lines executed:0.00% of 3
+
+Function 'device_try_init'
+Lines executed:0.00% of 29
+
+Function 'v4l2_set_parameters'
+Lines executed:0.00% of 68
+
+Function 'mmap_close'
+Lines executed:0.00% of 10
+
+Function 'mmap_start'
+Lines executed:0.00% of 22
+
+Function 'mmap_read_frame'
+Lines executed:0.00% of 65
+
+Function 'convert_timestamp'
+Lines executed:0.00% of 13
+
+Function 'init_convert_timestamp'
+Lines executed:0.00% of 22
+
+Function 'mmap_release_buffer'
+Lines executed:0.00% of 13
+
+Function 'enqueue_buffer'
+Lines executed:0.00% of 7
+
+Function 'mmap_init'
+Lines executed:0.00% of 50
+
+Function 'list_standards'
+Lines executed:0.00% of 14
+
+Function 'list_formats'
+Lines executed:0.00% of 21
+
+Function 'list_framesizes'
+Lines executed:0.00% of 12
+
+Function 'device_init'
+Lines executed:0.00% of 21
+
+Function 'device_open'
+Lines executed:0.00% of 40
+
+File 'libavdevice/v4l2.c'
+Lines executed:0.00% of 573
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2.gcno##libavdevice#v4l2.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2.gcno##libavutil#avutil.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 584

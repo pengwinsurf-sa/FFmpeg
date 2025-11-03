@@ -1,0 +1,22 @@
+Function 'ff_aac_search_for_is'
+Lines executed:0.00% of 46
+
+Function 'aac_is_encoding_err'
+Lines executed:0.00% of 66
+
+Function 'ff_init_nextband_map'
+Lines executed:0.00% of 11
+
+File 'libavcodec/aacenc_is.c'
+Lines executed:0.00% of 90
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_is.gcno##libavcodec#aacenc_is.c.gcov'
+
+File 'libavcodec/aacenc_utils.h'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_is.gcno##libavcodec#aacenc_utils.h.gcov'
+
+File 'libavcodec/aacenc_quantization.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_is.gcno##libavcodec#aacenc_quantization.h.gcov'
+
+Lines executed:0.00% of 123

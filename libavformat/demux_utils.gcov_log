@@ -1,0 +1,46 @@
+Function 'ff_find_stream_index'
+Lines executed:0.00% of 4
+
+Function 'ff_get_extradata'
+Lines executed:0.00% of 9
+
+Function 'ff_generate_avci_extradata'
+Lines executed:0.00% of 25
+
+Function 'av_read_pause'
+Lines executed:0.00% of 5
+
+Function 'av_read_play'
+Lines executed:0.00% of 5
+
+Function 'ff_add_param_change'
+Lines executed:0.00% of 20
+
+Function 'ff_add_attached_pic'
+Lines executed:0.00% of 24
+
+Function 'avformat_queue_attached_pictures'
+Lines executed:0.00% of 12
+
+Function 'avpriv_new_chapter'
+Lines executed:0.00% of 28
+
+Function 'avpriv_stream_set_need_parsing'
+Lines executed:0.00% of 3
+
+Function 'av_stream_get_parser'
+Lines executed:0.00% of 2
+
+File 'libavformat/demux_utils.c'
+Lines executed:0.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux_utils.gcno##libavformat#demux_utils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux_utils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux_utils.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 137

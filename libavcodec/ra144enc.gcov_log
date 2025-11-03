@@ -1,0 +1,56 @@
+Function 'ra144_encode_frame'
+Lines executed:0.00% of 90
+
+Function 'ra144_encode_subblock'
+Lines executed:0.00% of 58
+
+Function 'fixed_cb_search'
+Lines executed:0.00% of 20
+
+Function 'find_best_vect'
+Lines executed:0.00% of 14
+
+Function 'adaptive_cb_search'
+Lines executed:0.00% of 18
+
+Function 'create_adapt_vect'
+Lines executed:0.00% of 9
+
+Function 'get_match_score'
+Lines executed:0.00% of 17
+
+Function 'orthogonalize'
+Lines executed:0.00% of 10
+
+Function 'ra144_encode_init'
+Lines executed:0.00% of 15
+
+Function 'ra144_encode_close'
+Lines executed:0.00% of 5
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/ra144enc.c'
+Lines executed:0.00% of 240
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra144enc.gcno##libavcodec#ra144enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra144enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra144enc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra144enc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 291

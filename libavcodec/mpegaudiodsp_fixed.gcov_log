@@ -1,0 +1,38 @@
+Function 'ff_imdct36_blocks_fixed'
+Lines executed:0.00% of 10
+
+Function 'imdct36'
+Lines executed:0.00% of 63
+
+Function 'ff_mpa_synth_init_fixed'
+Lines executed:0.00% of 4
+
+Function 'mpa_synth_window_init'
+Lines executed:0.00% of 3
+
+Function 'mpa_synth_init'
+Lines executed:0.00% of 17
+
+Function 'ff_mpa_synth_filter_fixed'
+Lines executed:0.00% of 10
+
+Function 'ff_mpadsp_apply_window_fixed'
+Lines executed:0.00% of 45
+
+File 'libavcodec/mpegaudiodsp_template.c'
+Lines executed:0.00% of 145
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodsp_fixed.gcno##libavcodec#mpegaudiodsp_template.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodsp_fixed.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodsp_fixed.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodsp_fixed.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 152

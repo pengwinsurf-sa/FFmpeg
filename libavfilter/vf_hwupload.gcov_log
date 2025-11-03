@@ -1,0 +1,20 @@
+Function 'hwupload_uninit'
+Lines executed:0.00% of 5
+
+Function 'hwupload_filter_frame'
+Lines executed:0.00% of 28
+
+Function 'hwupload_config_output'
+Lines executed:0.00% of 38
+
+Function 'hwupload_query_formats'
+Lines executed:0.00% of 30
+
+Function 'hwupload_init'
+Lines executed:0.00% of 11
+
+File 'libavfilter/vf_hwupload.c'
+Lines executed:0.00% of 112
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hwupload.gcno##libavfilter#vf_hwupload.c.gcov'
+
+Lines executed:0.00% of 112

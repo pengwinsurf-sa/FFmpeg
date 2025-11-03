@@ -1,0 +1,21 @@
+Function 'idcin_decode_frame'
+Lines executed:0.00% of 15
+
+Function 'idcin_decode_vlcs'
+Lines executed:0.00% of 24
+
+Function 'idcin_decode_init'
+Lines executed:0.00% of 14
+
+Function 'huff_build_tree'
+Lines executed:0.00% of 32
+
+File 'libavcodec/idcinvideo.c'
+Lines executed:0.00% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#idcinvideo.gcno##libavcodec#idcinvideo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#idcinvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 85

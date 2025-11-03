@@ -1,0 +1,72 @@
+Function 'ff_hpeldsp_init_x86'
+Lines executed:0.00% of 60
+
+Function 'avg_approx_pixels16_xy2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_xy2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_y2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_x2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_y2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_y2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_x2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_xy2_mmx'
+Lines executed:0.00% of 1
+
+Function 'ff_put_pixels8_xy2_mmx'
+Lines executed:0.00% of 5
+
+Function 'put_no_rnd_pixels16_xy2_mmx'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels16_xy2_mmx'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_y2_mmx'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels16_y2_mmx'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels8_y2_mmx'
+Lines executed:0.00% of 4
+
+Function 'avg_no_rnd_pixels16_x2_mmx'
+Lines executed:0.00% of 4
+
+Function 'put_no_rnd_pixels8_y2_mmx'
+Lines executed:0.00% of 4
+
+Function 'put_no_rnd_pixels16_x2_mmx'
+Lines executed:0.00% of 4
+
+Function 'put_no_rnd_pixels8_x2_mmx'
+Lines executed:0.00% of 4
+
+Function 'avg_no_rnd_pixels8_xy2_mmx'
+Lines executed:0.00% of 5
+
+Function 'put_no_rnd_pixels8_xy2_mmx'
+Lines executed:0.00% of 5
+
+File 'libavcodec/x86/hpeldsp_init.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#hpeldsp_init.gcno##libavcodec#x86#hpeldsp_init.c.gcov'
+
+File 'libavcodec/x86/rnd_template.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#hpeldsp_init.gcno##libavcodec#x86#rnd_template.c.gcov'
+
+Lines executed:0.00% of 113

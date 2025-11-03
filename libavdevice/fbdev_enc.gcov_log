@@ -1,0 +1,25 @@
+Function 'fbdev_get_device_list'
+Lines executed:0.00% of 2
+
+Function 'fbdev_write_trailer'
+Lines executed:0.00% of 5
+
+Function 'fbdev_write_packet'
+Lines executed:0.00% of 56
+
+Function 'fbdev_write_header'
+Lines executed:0.00% of 36
+
+File 'libavdevice/fbdev_enc.c'
+Lines executed:0.00% of 94
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#fbdev_enc.gcno##libavdevice#fbdev_enc.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#fbdev_enc.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#fbdev_enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 99

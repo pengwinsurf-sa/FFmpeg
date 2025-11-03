@@ -1,0 +1,23 @@
+Function 'checkasm_check_diracdsp'
+Lines executed:100.00% of 6
+
+Function 'check_add_obmc'
+Lines executed:77.42% of 31
+
+File 'tests/checkasm/diracdsp.c'
+Lines executed:96.30% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#diracdsp.gcno##tests#checkasm#diracdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#diracdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#diracdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#diracdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:81.08% of 37

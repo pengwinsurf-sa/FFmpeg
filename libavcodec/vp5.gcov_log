@@ -1,0 +1,60 @@
+Function 'vp56_free'
+Lines executed:0.00% of 3
+
+Function 'vp5_decode_init'
+Lines executed:0.00% of 13
+
+Function 'vp5_default_models_init'
+Lines executed:0.00% of 15
+
+Function 'vp5_parse_coeff'
+Lines executed:0.00% of 115
+
+Function 'vp5_parse_coeff_models'
+Lines executed:0.00% of 41
+
+Function 'vp5_parse_vector_models'
+Lines executed:0.00% of 18
+
+Function 'vp5_parse_vector_adjustment'
+Lines executed:0.00% of 18
+
+Function 'vp5_parse_header'
+Lines executed:0.00% of 34
+
+Function 'vp56_rac_gets'
+Lines executed:0.00% of 5
+
+File 'libavcodec/vp5.c'
+Lines executed:0.00% of 191
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavcodec#vp5.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/vpx_rac.h'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavcodec#vpx_rac.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/vp56.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavcodec#vp56.h.gcov'
+
+File 'libavcodec/x86/vpx_arith.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavcodec#x86#vpx_arith.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp5.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 262

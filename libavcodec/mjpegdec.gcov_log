@@ -1,0 +1,159 @@
+Function 'smvjpeg_receive_frame'
+Lines executed:0.00% of 22
+
+Function 'smv_process_frame'
+Lines executed:0.00% of 13
+
+Function 'decode_flush'
+Lines executed:0.00% of 6
+
+Function 'ff_mjpeg_decode_end'
+Lines executed:0.00% of 23
+
+Function 'ff_mjpeg_decode_frame'
+Lines executed:0.00% of 3
+
+Function 'ff_mjpeg_decode_frame_from_buf'
+Lines executed:0.00% of 393
+
+Function 'reset_icc_profile'
+Lines executed:0.00% of 9
+
+Function 'ff_mjpeg_find_marker'
+Lines executed:0.00% of 92
+
+Function 'mjpeg_decode_com'
+Lines executed:0.00% of 24
+
+Function 'mjpeg_decode_app'
+Lines executed:0.00% of 227
+
+Function 'mjpeg_decode_dri'
+Lines executed:0.00% of 6
+
+Function 'ff_mjpeg_decode_sos'
+Lines executed:0.00% of 110
+
+Function 'mjpeg_idct_scan_progressive_ac'
+Lines executed:0.00% of 26
+
+Function 'mjpeg_decode_scan_progressive_ac'
+Lines executed:0.00% of 31
+
+Function 'mjpeg_decode_scan'
+Lines executed:0.00% of 102
+
+Function 'shift_output'
+Lines executed:0.00% of 11
+
+Function 'ljpeg_decode_yuv_scan'
+Lines executed:0.00% of 101
+
+Function 'ljpeg_decode_rgb_scan'
+Lines executed:0.00% of 106
+
+Function 'handle_rstn'
+Lines executed:0.00% of 25
+
+Function 'decode_block_refinement'
+Lines executed:0.00% of 49
+
+Function 'decode_block_progressive'
+Lines executed:0.00% of 44
+
+Function 'decode_dc_progressive'
+Lines executed:0.00% of 11
+
+Function 'decode_block'
+Lines executed:0.00% of 34
+
+Function 'mjpeg_decode_dc'
+Lines executed:0.00% of 15
+
+Function 'ff_mjpeg_decode_sof'
+Lines executed:0.00% of 328
+
+Function 'ff_mjpeg_decode_dht'
+Lines executed:0.00% of 38
+
+Function 'ff_mjpeg_decode_dqt'
+Lines executed:0.00% of 24
+
+Function 'ff_mjpeg_decode_init'
+Lines executed:0.00% of 47
+
+Function 'init_idct'
+Lines executed:0.00% of 6
+
+Function 'parse_avid'
+Lines executed:0.00% of 9
+
+Function 'init_default_huffman_tables'
+Lines executed:0.00% of 14
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_xbits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/mjpegdec.c'
+Lines executed:0.00% of 1836
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavcodec#mjpegdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 96
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavcodec#copy_block.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 2023

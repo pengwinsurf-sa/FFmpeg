@@ -281,6 +281,8 @@ static int encode_plane(FFV1Context *f, FFV1SliceContext *sc,
     int16_t *sample[3];
     sc->run_index = 0;
 
+    sample[2] = sc->sample_buffer; // dummy to avoid UB pointer arithmetic
+
     memset(sc->sample_buffer, 0, ring_size * (w + 6) * sizeof(*sc->sample_buffer));
 
     for (y = 0; y < h; y++) {
@@ -977,7 +979,7 @@ static av_cold int encode_init_internal(AVCodecContext *avctx)
     if ((ret = ff_ffv1_common_init(avctx, s)) < 0)
         return ret;
 
-    if (s->ac == 1) // Compatbility with common command line usage
+    if (s->ac == 1) // Compatibility with common command line usage
         s->ac = AC_RANGE_CUSTOM_TAB;
     else if (s->ac == AC_RANGE_DEFAULT_TAB_FORCE)
         s->ac = AC_RANGE_DEFAULT_TAB;
@@ -1509,6 +1511,9 @@ static int encode_float32_rgb_frame(FFV1Context *f, FFV1SliceContext *sc,
 
     sc->run_index = 0;
 
+    for (int p = 0; p < MAX_PLANES; ++p)
+        sample[p][2] = sc->sample_buffer32; // dummy to avoid UB pointer arithmetic
+
     memset(RENAME(sc->sample_buffer), 0, ring_size * MAX_PLANES *
            (w + 6) * sizeof(*RENAME(sc->sample_buffer)));
 
@@ -1679,9 +1684,11 @@ size_t ff_ffv1_encode_buffer_size(AVCodecContext *avctx)
 {
     FFV1Context *f = avctx->priv_data;
 
-    size_t maxsize = avctx->width*avctx->height * (1 + f->transparency);
+    int w = avctx->width  + f->num_h_slices;
+    int h = avctx->height + f->num_v_slices;
+    size_t maxsize = w*h * (1 + f->transparency);
     if (f->chroma_planes)
-        maxsize += AV_CEIL_RSHIFT(avctx->width, f->chroma_h_shift) * AV_CEIL_RSHIFT(f->height, f->chroma_v_shift) * 2;
+        maxsize += AV_CEIL_RSHIFT(w, f->chroma_h_shift) * AV_CEIL_RSHIFT(h, f->chroma_v_shift) * 2;
     maxsize += f->slice_count * 800; //for slice header
     if (f->version > 3) {
         maxsize *= f->bits_per_raw_sample + 1;

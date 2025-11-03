@@ -1,0 +1,26 @@
+Function 'h265_metadata_init'
+Lines executed:0.00% of 2
+
+Function 'h265_metadata_update_fragment'
+Lines executed:0.00% of 40
+
+Function 'h265_metadata_update_sps'
+Lines executed:0.00% of 66
+
+Function 'h265_metadata_deduce_crop'
+Lines executed:0.00% of 35
+
+Function 'h265_metadata_update_vps'
+Lines executed:0.00% of 16
+
+Function 'h265_metadata_update_level'
+Lines executed:0.00% of 12
+
+Function 'h265_metadata_guess_level'
+Lines executed:0.00% of 45
+
+File 'libavcodec/bsf/h265_metadata.c'
+Lines executed:0.00% of 216
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h265_metadata.gcno##libavcodec#bsf#h265_metadata.c.gcov'
+
+Lines executed:0.00% of 216

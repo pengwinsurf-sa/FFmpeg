@@ -1,0 +1,8 @@
+Function 'ff_h264_pred_init_x86'
+Lines executed:100.00% of 134
+
+File 'libavcodec/x86/h264_intrapred_init.c'
+Lines executed:100.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#h264_intrapred_init.gcno##libavcodec#x86#h264_intrapred_init.c.gcov'
+
+Lines executed:100.00% of 134

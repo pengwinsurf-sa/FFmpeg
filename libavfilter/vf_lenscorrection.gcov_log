@@ -1,0 +1,39 @@
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'filter_slice'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 35
+
+Function 'calc_correction'
+Lines executed:0.00% of 19
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'filter16_slice_bilinear'
+Lines executed:0.00% of 3
+
+Function 'filter8_slice_bilinear'
+Lines executed:0.00% of 1
+
+Function 'filter16_slice'
+Lines executed:0.00% of 1
+
+Function 'filter8_slice'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_lenscorrection.c'
+Lines executed:0.00% of 88
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lenscorrection.gcno##libavfilter#vf_lenscorrection.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lenscorrection.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 90

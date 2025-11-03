@@ -1,0 +1,63 @@
+Function 'ff_snow_common_end'
+Lines executed:0.00% of 20
+
+Function 'ff_snow_frames_prepare'
+Lines executed:0.00% of 18
+
+Function 'ff_snow_common_init_after_header'
+Lines executed:0.00% of 42
+
+Function 'ff_snow_common_init'
+Lines executed:0.00% of 31
+
+Function 'snow_static_init'
+Lines executed:0.00% of 5
+
+Function 'mc_block_hpel888'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel088'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel808'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel008'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel8816'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel0816'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel8016'
+Lines executed:0.00% of 1
+
+Function 'mc_block_hpel0016'
+Lines executed:0.00% of 1
+
+Function 'ff_snow_pred_block'
+Lines executed:0.00% of 67
+
+Function 'mc_block'
+Lines executed:0.00% of 128
+
+Function 'ff_snow_alloc_blocks'
+Lines executed:0.00% of 9
+
+Function 'ff_snow_reset_contexts'
+Lines executed:0.00% of 11
+
+Function 'ff_snow_inner_add_yblock'
+Lines executed:0.00% of 24
+
+File 'libavcodec/snow.c'
+Lines executed:0.00% of 361
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snow.gcno##libavcodec#snow.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snow.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 363

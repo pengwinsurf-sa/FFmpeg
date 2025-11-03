@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVDOVIDmLevel11" kind="struct" language="C++" prot="public">
+    <compoundname>AVDOVIDmLevel11</compoundname>
+    <includes refid="dovi__meta_8h" local="no">libavutil/dovi_meta.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1a1401eb37240264522a5b1a0fe8789fc3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::content_type</definition>
+        <argsstring></argsstring>
+        <name>content_type</name>
+        <qualifiedname>AVDOVIDmLevel11::content_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="279" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1aaf2d0b9f0a637d81ffa5e762c8d8d133" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::whitepoint</definition>
+        <argsstring></argsstring>
+        <name>whitepoint</name>
+        <qualifiedname>AVDOVIDmLevel11::whitepoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="280" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1ab2d94be0a90598c69672ff32fe0f07f6" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::reference_mode_flag</definition>
+        <argsstring></argsstring>
+        <name>reference_mode_flag</name>
+        <qualifiedname>AVDOVIDmLevel11::reference_mode_flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="281" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1a4349a3746dc855be447acb9c76da6ce3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::sharpness</definition>
+        <argsstring></argsstring>
+        <name>sharpness</name>
+        <qualifiedname>AVDOVIDmLevel11::sharpness</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="282" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1ac437bbb4cca2ed31797ab3519dfd9050" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::noise_reduction</definition>
+        <argsstring></argsstring>
+        <name>noise_reduction</name>
+        <qualifiedname>AVDOVIDmLevel11::noise_reduction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="283" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1add7c673a17c587f20ed443be5e5d80bb" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::mpeg_noise_reduction</definition>
+        <argsstring></argsstring>
+        <name>mpeg_noise_reduction</name>
+        <qualifiedname>AVDOVIDmLevel11::mpeg_noise_reduction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="284" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1aa8e0eea0b10851caba3e588005fefb59" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::frame_rate_conversion</definition>
+        <argsstring></argsstring>
+        <name>frame_rate_conversion</name>
+        <qualifiedname>AVDOVIDmLevel11::frame_rate_conversion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="285" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1aecde62f5393165197434eaed10bb36cf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::brightness</definition>
+        <argsstring></argsstring>
+        <name>brightness</name>
+        <qualifiedname>AVDOVIDmLevel11::brightness</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="286" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel11_1a65a71392ea6d9bb818ca4085e67ae6d4" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel11::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>AVDOVIDmLevel11::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="287" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/dovi_meta.h" line="278" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="278" bodyend="288"/>
+    <listofallmembers>
+      <member refid="structAVDOVIDmLevel11_1aecde62f5393165197434eaed10bb36cf" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>brightness</name></member>
+      <member refid="structAVDOVIDmLevel11_1a65a71392ea6d9bb818ca4085e67ae6d4" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>color</name></member>
+      <member refid="structAVDOVIDmLevel11_1a1401eb37240264522a5b1a0fe8789fc3" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>content_type</name></member>
+      <member refid="structAVDOVIDmLevel11_1aa8e0eea0b10851caba3e588005fefb59" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>frame_rate_conversion</name></member>
+      <member refid="structAVDOVIDmLevel11_1add7c673a17c587f20ed443be5e5d80bb" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>mpeg_noise_reduction</name></member>
+      <member refid="structAVDOVIDmLevel11_1ac437bbb4cca2ed31797ab3519dfd9050" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>noise_reduction</name></member>
+      <member refid="structAVDOVIDmLevel11_1ab2d94be0a90598c69672ff32fe0f07f6" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>reference_mode_flag</name></member>
+      <member refid="structAVDOVIDmLevel11_1a4349a3746dc855be447acb9c76da6ce3" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>sharpness</name></member>
+      <member refid="structAVDOVIDmLevel11_1aaf2d0b9f0a637d81ffa5e762c8d8d133" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel11</scope><name>whitepoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

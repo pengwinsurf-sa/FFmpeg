@@ -1,0 +1,12 @@
+Function 'ff_vpx_init_range_decoder'
+Lines executed:0.00% of 10
+
+File 'libavcodec/vpx_rac.c'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vpx_rac.gcno##libavcodec#vpx_rac.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vpx_rac.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 10

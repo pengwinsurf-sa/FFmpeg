@@ -1,0 +1,15 @@
+Function 'filter_frame'
+Lines executed:0.00% of 7
+
+Function 'config_output_props'
+Lines executed:0.00% of 12
+
+File 'libavfilter/vf_framestep.c'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_framestep.gcno##libavfilter#vf_framestep.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_framestep.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 19

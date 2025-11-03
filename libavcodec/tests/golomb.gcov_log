@@ -1,0 +1,73 @@
+Function 'main'
+Lines executed:0.00% of 82
+
+Function 'set_ue_golomb_long'
+Lines executed:0.00% of 15
+
+Function 'set_ue_golomb'
+Lines executed:0.00% of 8
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 22
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 11
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/tests/golomb.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavcodec#tests#golomb.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/put_golomb.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavcodec#put_golomb.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#golomb.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 225

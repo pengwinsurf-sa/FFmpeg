@@ -1,0 +1,17 @@
+Function 'zerocodec_decode_flush'
+Lines executed:0.00% of 4
+
+Function 'zerocodec_decode_init'
+Lines executed:0.00% of 7
+
+Function 'zerocodec_decode_close'
+Lines executed:0.00% of 5
+
+Function 'zerocodec_decode_frame'
+Lines executed:0.00% of 39
+
+File 'libavcodec/zerocodec.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#zerocodec.gcno##libavcodec#zerocodec.c.gcov'
+
+Lines executed:0.00% of 55

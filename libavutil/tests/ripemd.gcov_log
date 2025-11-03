@@ -1,0 +1,16 @@
+Function 'main'
+Lines executed:0.00% of 36
+
+File 'libavutil/tests/ripemd.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#ripemd.gcno##libavutil#tests#ripemd.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#ripemd.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#ripemd.gcno###usr#include#x86_64-linux-gnu#bits#stdio.h.gcov'
+
+Lines executed:0.00% of 36

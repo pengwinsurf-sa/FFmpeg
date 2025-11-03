@@ -1,0 +1,25 @@
+Function 'qcp_read_packet'
+Lines executed:0.00% of 37
+
+Function 'qcp_read_header'
+Lines executed:0.00% of 45
+
+Function 'qcp_probe'
+Lines executed:0.00% of 4
+
+Function 'is_qcelp_13k_guid'
+Lines executed:0.00% of 3
+
+File 'libavformat/qcp.c'
+Lines executed:0.00% of 85
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qcp.gcno##libavformat#qcp.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qcp.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qcp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 89

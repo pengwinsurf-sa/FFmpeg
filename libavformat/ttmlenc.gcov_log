@@ -1,0 +1,35 @@
+Function 'ttml_write_trailer'
+Lines executed:0.00% of 6
+
+Function 'ttml_write_packet'
+Lines executed:0.00% of 23
+
+Function 'ttml_write_header'
+Lines executed:0.00% of 21
+
+Function 'ttml_set_header_values_from_extradata'
+Lines executed:0.00% of 27
+
+Function 'ttml_write_time'
+Lines executed:0.00% of 10
+
+Function 'ff_is_ttml_stream_paragraph_based'
+Lines executed:0.00% of 4
+
+File 'libavformat/ttmlenc.c'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ttmlenc.gcno##libavformat#ttmlenc.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ttmlenc.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ttmlenc.gcno##libavutil#avstring.h.gcov'
+
+File 'libavformat/ttmlenc.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ttmlenc.gcno##libavformat#ttmlenc.h.gcov'
+
+Lines executed:0.00% of 91

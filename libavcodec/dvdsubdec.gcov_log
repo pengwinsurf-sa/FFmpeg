@@ -1,0 +1,74 @@
+Function 'dvdsub_flush'
+Lines executed:0.00% of 4
+
+Function 'dvdsub_init'
+Lines executed:0.00% of 15
+
+Function 'dvdsub_parse_extradata'
+Lines executed:0.00% of 28
+
+Function 'parse_ifo_palette'
+Lines executed:0.00% of 54
+
+Function 'dvdsub_decode'
+Lines executed:0.00% of 31
+
+Function 'append_to_cached_buf'
+Lines executed:0.00% of 10
+
+Function 'find_smallest_bounding_rectangle'
+Lines executed:0.00% of 46
+
+Function 'decode_dvd_subtitles'
+Lines executed:0.00% of 160
+
+Function 'reset_rects'
+Lines executed:0.00% of 10
+
+Function 'guess_palette'
+Lines executed:0.00% of 31
+
+Function 'decode_rle'
+Lines executed:0.00% of 54
+
+Function 'decode_run_8bit'
+Lines executed:0.00% of 20
+
+Function 'decode_run_2bit'
+Lines executed:0.00% of 8
+
+Function 'yuv_a_to_rgba'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/dvdsubdec.c'
+Lines executed:0.00% of 433
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno##libavcodec#dvdsubdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 501

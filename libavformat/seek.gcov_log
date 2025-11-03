@@ -1,0 +1,86 @@
+Function 'ff_rescale_interval'
+Lines executed:0.00% of 5
+
+Function 'avformat_flush'
+Lines executed:0.00% of 3
+
+Function 'ff_read_frame_flush'
+Lines executed:0.00% of 18
+
+Function 'avformat_seek_file'
+Lines executed:0.00% of 28
+
+Function 'av_seek_frame'
+Lines executed:0.00% of 10
+
+Function 'seek_frame_internal'
+Lines executed:0.00% of 24
+
+Function 'seek_frame_generic'
+Lines executed:0.00% of 50
+
+Function 'seek_frame_byte'
+Lines executed:0.00% of 10
+
+Function 'ff_gen_search'
+Lines executed:0.00% of 57
+
+Function 'ff_find_last_ts'
+Lines executed:0.00% of 24
+
+Function 'ff_seek_frame_binary'
+Lines executed:0.00% of 43
+
+Function 'read_timestamp'
+Lines executed:0.00% of 5
+
+Function 'avformat_index_get_entry_from_timestamp'
+Lines executed:0.00% of 6
+
+Function 'avformat_index_get_entry'
+Lines executed:0.00% of 4
+
+Function 'avformat_index_get_entries_count'
+Lines executed:0.00% of 2
+
+Function 'av_index_search_timestamp'
+Lines executed:0.00% of 3
+
+Function 'ff_configure_buffers_for_index'
+Lines executed:0.00% of 41
+
+Function 'ff_index_search_timestamp'
+Lines executed:0.00% of 26
+
+Function 'av_add_index_entry'
+Lines executed:0.00% of 4
+
+Function 'ff_add_index_entry'
+Lines executed:0.00% of 33
+
+Function 'ff_reduce_index'
+Lines executed:0.00% of 9
+
+Function 'avpriv_update_cur_dts'
+Lines executed:0.00% of 9
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavformat/seek.c'
+Lines executed:0.00% of 412
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#seek.gcno##libavformat#seek.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#seek.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#seek.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#seek.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 420

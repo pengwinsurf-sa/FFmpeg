@@ -1,0 +1,15 @@
+Function 'ff_rtp_send_h263'
+Lines executed:0.00% of 26
+
+Function 'ff_h263_find_resync_marker_reverse'
+Lines executed:0.00% of 7
+
+File 'libavformat/rtpenc_h263.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263.gcno##libavformat#rtpenc_h263.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 33

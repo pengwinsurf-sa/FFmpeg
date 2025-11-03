@@ -1,0 +1,133 @@
+Function 'dec_filter_add'
+Lines executed:0.00% of 9
+
+Function 'dec_create'
+Lines executed:0.00% of 44
+
+Function 'dec_init'
+Lines executed:0.00% of 15
+
+Function 'dec_open'
+Lines executed:0.00% of 86
+
+Function 'hw_device_setup_for_decode'
+Lines executed:0.00% of 59
+
+Function 'hw_device_match_by_codec'
+Lines executed:0.00% of 11
+
+Function 'get_buffer'
+Lines executed:0.00% of 10
+
+Function 'get_format'
+Lines executed:0.00% of 24
+
+Function 'multiview_check_manual'
+Lines executed:0.00% of 5
+
+Function 'multiview_setup'
+Lines executed:0.00% of 133
+
+Function 'dec_request_view'
+Lines executed:0.00% of 31
+
+Function 'decoder_thread'
+Lines executed:0.00% of 66
+
+Function 'dec_thread_init'
+Lines executed:0.00% of 13
+
+Function 'dec_thread_uninit'
+Lines executed:0.00% of 5
+
+Function 'dec_thread_set_name'
+Lines executed:0.00% of 14
+
+Function 'dec_standalone_open'
+Lines executed:0.00% of 20
+
+Function 'packet_decode'
+Lines executed:0.00% of 77
+
+Function 'transcode_subtitles'
+Lines executed:0.00% of 34
+
+Function 'fix_sub_duration_heartbeat'
+Lines executed:0.00% of 13
+
+Function 'process_subtitle'
+Lines executed:0.00% of 23
+
+Function 'subtitle_wrap_frame'
+Lines executed:0.00% of 20
+
+Function 'subtitle_free'
+Lines executed:0.00% of 5
+
+Function 'copy_av_subtitle'
+Lines executed:0.00% of 48
+
+Function 'video_frame_process'
+Lines executed:0.00% of 41
+
+Function 'hwaccel_retrieve_data'
+Lines executed:0.00% of 24
+
+Function 'video_duration_estimate'
+Lines executed:0.00% of 23
+
+Function 'audio_ts_process'
+Lines executed:0.00% of 20
+
+Function 'audio_samplerate_update'
+Lines executed:0.00% of 22
+
+Function 'dec_alloc'
+Lines executed:0.00% of 28
+
+Function 'dec_item_name'
+Lines executed:0.00% of 3
+
+Function 'dec_free'
+Lines executed:0.00% of 17
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 4
+
+File 'fftools/ffmpeg_dec.c'
+Lines executed:0.00% of 919
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno##fftools#ffmpeg_dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno##libavutil#error.h.gcov'
+
+File 'fftools/ffmpeg_utils.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno##fftools#ffmpeg_utils.h.gcov'
+
+File '/usr/include/stdbit.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno###usr#include#stdbit.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno##libavutil#thread.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_dec.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 947

@@ -1,0 +1,11 @@
+Function 'aura_decode_frame'
+Lines executed:0.00% of 35
+
+Function 'aura_decode_init'
+Lines executed:0.00% of 4
+
+File 'libavcodec/aura.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aura.gcno##libavcodec#aura.c.gcov'
+
+Lines executed:0.00% of 39

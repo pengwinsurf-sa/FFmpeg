@@ -1,0 +1,36 @@
+Function 'raw_read_packet'
+Lines executed:0.00% of 13
+
+Function 'dtshd_read_header'
+Lines executed:0.00% of 66
+
+Function 'dtshd_probe'
+Lines executed:0.00% of 3
+
+Function 'ff_dca_count_chs_for_mask'
+Lines executed:0.00% of 8
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavformat/dtshddec.c'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtshddec.gcno##libavformat#dtshddec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtshddec.gcno##libavformat#avio.h.gcov'
+
+File 'libavcodec/dca.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtshddec.gcno##libavcodec#dca.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtshddec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtshddec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 94

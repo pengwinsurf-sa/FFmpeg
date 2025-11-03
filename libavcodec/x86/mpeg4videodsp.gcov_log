@@ -1,0 +1,11 @@
+Function 'ff_mpeg4videodsp_init_x86'
+Lines executed:0.00% of 5
+
+Function 'gmc_mmx'
+Lines executed:0.00% of 52
+
+File 'libavcodec/x86/mpeg4videodsp.c'
+Lines executed:0.00% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpeg4videodsp.gcno##libavcodec#x86#mpeg4videodsp.c.gcov'
+
+Lines executed:0.00% of 57

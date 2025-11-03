@@ -1,0 +1,12 @@
+Function 'eac3_core_filter'
+Lines executed:0.00% of 50
+
+File 'libavcodec/bsf/eac3_core.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#eac3_core.gcno##libavcodec#bsf#eac3_core.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#eac3_core.gcno##libavcodec#get_bits.h.gcov'
+
+Lines executed:0.00% of 50

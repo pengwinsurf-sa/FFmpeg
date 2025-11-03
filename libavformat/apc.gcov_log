@@ -1,0 +1,14 @@
+Function 'apc_read_packet'
+Lines executed:0.00% of 4
+
+Function 'apc_read_header'
+Lines executed:0.00% of 22
+
+Function 'apc_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/apc.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apc.gcno##libavformat#apc.c.gcov'
+
+Lines executed:0.00% of 29

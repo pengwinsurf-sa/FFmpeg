@@ -1,0 +1,32 @@
+Function 'checkasm_check_h264pred'
+Lines executed:100.00% of 15
+
+Function 'check_pred8x8l'
+Lines executed:75.00% of 28
+
+Function 'check_pred16x16'
+Lines executed:92.31% of 13
+
+Function 'check_pred8x8'
+Lines executed:91.67% of 12
+
+Function 'check_pred4x4'
+Lines executed:92.86% of 14
+
+File 'tests/checkasm/h264pred.c'
+Lines executed:94.44% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264pred.gcno##tests#checkasm#h264pred.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264pred.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264pred.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264pred.gcno##libavutil#emms.h.gcov'
+
+Lines executed:87.80% of 82

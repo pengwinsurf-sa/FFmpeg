@@ -1,0 +1,34 @@
+Function 'request_frame'
+Lines executed:0.00% of 9
+
+Function 'draw_mandelbrot'
+Lines executed:0.00% of 109
+
+Function 'interpol'
+Lines executed:0.00% of 38
+
+Function 'fill_from_cache'
+Lines executed:0.00% of 13
+
+Function 'config_props'
+Lines executed:0.00% of 13
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 12
+
+File 'libavfilter/vsrc_mandelbrot.c'
+Lines executed:0.00% of 195
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_mandelbrot.gcno##libavfilter#vsrc_mandelbrot.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_mandelbrot.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_mandelbrot.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 200

@@ -1,0 +1,22 @@
+Function 'ast_write_trailer'
+Lines executed:0.00% of 33
+
+Function 'ast_write_packet'
+Lines executed:0.00% of 14
+
+Function 'ast_write_header'
+Lines executed:0.00% of 36
+
+File 'libavformat/astenc.c'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#astenc.gcno##libavformat#astenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#astenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#astenc.gcno##libavformat#avio_internal.h.gcov'
+
+Lines executed:0.00% of 83

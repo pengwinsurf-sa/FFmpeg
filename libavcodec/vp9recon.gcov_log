@@ -1,0 +1,41 @@
+Function 'ff_vp9_inter_recon_16bpp'
+Lines executed:0.00% of 46
+
+Function 'ff_vp9_inter_recon_8bpp'
+Lines executed:0.00% of 5
+
+Function 'inter_pred_scaled_16bpp'
+Lines executed:0.00% of 199
+
+Function 'inter_pred_scaled_8bpp'
+Lines executed:0.00% of 81
+
+Function 'inter_pred_16bpp'
+Lines executed:0.00% of 128
+
+Function 'inter_pred_8bpp'
+Lines executed:0.00% of 128
+
+Function 'ff_vp9_intra_recon_16bpp'
+Lines executed:0.00% of 119
+
+Function 'ff_vp9_intra_recon_8bpp'
+Lines executed:0.00% of 5
+
+File 'libavcodec/vp9recon.c'
+Lines executed:0.00% of 286
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9recon.gcno##libavcodec#vp9recon.c.gcov'
+
+File 'libavcodec/vp9_mc_template.c'
+Lines executed:0.00% of 546
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9recon.gcno##libavcodec#vp9_mc_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9recon.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9recon.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 839

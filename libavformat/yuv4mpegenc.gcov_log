@@ -1,0 +1,14 @@
+Function 'yuv4_init'
+Lines executed:0.00% of 17
+
+Function 'yuv4_write_packet'
+Lines executed:0.00% of 23
+
+Function 'yuv4_write_header'
+Lines executed:0.00% of 123
+
+File 'libavformat/yuv4mpegenc.c'
+Lines executed:0.00% of 163
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yuv4mpegenc.gcno##libavformat#yuv4mpegenc.c.gcov'
+
+Lines executed:0.00% of 163

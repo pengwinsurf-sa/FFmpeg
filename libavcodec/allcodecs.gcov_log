@@ -1,0 +1,39 @@
+Function 'avcodec_find_decoder_by_name'
+Lines executed:0.00% of 2
+
+Function 'avcodec_find_encoder_by_name'
+Lines executed:0.00% of 2
+
+Function 'find_codec_by_name'
+Lines executed:0.00% of 9
+
+Function 'avcodec_find_decoder'
+Lines executed:0.00% of 2
+
+Function 'avcodec_find_encoder'
+Lines executed:0.00% of 2
+
+Function 'find_codec'
+Lines executed:0.00% of 10
+
+Function 'av_codec_iterate'
+Lines executed:0.00% of 7
+
+Function 'av_codec_init_static'
+Lines executed:0.00% of 20
+
+Function 'ff_codec_is_decoder'
+Lines executed:0.00% of 3
+
+Function 'ff_codec_is_encoder'
+Lines executed:0.00% of 3
+
+File 'libavcodec/allcodecs.c'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#allcodecs.gcno##libavcodec#allcodecs.c.gcov'
+
+File 'libavcodec/codec_internal.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#allcodecs.gcno##libavcodec#codec_internal.h.gcov'
+
+Lines executed:0.00% of 60

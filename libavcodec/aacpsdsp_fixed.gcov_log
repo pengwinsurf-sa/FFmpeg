@@ -1,0 +1,32 @@
+Function 'ff_psdsp_init_fixed'
+Lines executed:0.00% of 10
+
+Function 'ps_stereo_interpolate_ipdopd_c'
+Lines executed:0.00% of 28
+
+Function 'ps_stereo_interpolate_c'
+Lines executed:0.00% of 24
+
+Function 'ps_decorrelate_c'
+Lines executed:0.00% of 27
+
+Function 'ps_hybrid_synthesis_deint_c'
+Lines executed:0.00% of 6
+
+Function 'ps_hybrid_analysis_ileave_c'
+Lines executed:0.00% of 6
+
+Function 'ps_hybrid_analysis_c'
+Lines executed:0.00% of 18
+
+Function 'ps_mul_pair_single_c'
+Lines executed:0.00% of 5
+
+Function 'ps_add_squares_c'
+Lines executed:0.00% of 4
+
+File 'libavcodec/aacpsdsp_template.c'
+Lines executed:0.00% of 128
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacpsdsp_fixed.gcno##libavcodec#aacpsdsp_template.c.gcov'
+
+Lines executed:0.00% of 128

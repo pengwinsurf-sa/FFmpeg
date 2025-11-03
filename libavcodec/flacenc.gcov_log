@@ -1,0 +1,130 @@
+Function 'flac_encode_close'
+Lines executed:0.00% of 6
+
+Function 'flac_encode_frame'
+Lines executed:0.00% of 59
+
+Function 'update_md5_sum'
+Lines executed:0.00% of 24
+
+Function 'write_frame'
+Lines executed:0.00% of 18
+
+Function 'write_frame_footer'
+Lines executed:0.00% of 14
+
+Function 'write_subframes'
+Lines executed:0.00% of 77
+
+Function 'set_sr_golomb_flac'
+Lines executed:0.00% of 12
+
+Function 'write_frame_header'
+Lines executed:0.00% of 26
+
+Function 'write_utf8'
+Lines executed:0.00% of 4
+
+Function 'channel_decorrelation'
+Lines executed:0.00% of 45
+
+Function 'estimate_stereo_mode'
+Lines executed:0.00% of 43
+
+Function 'remove_wasted_bits'
+Lines executed:0.00% of 23
+
+Function 'encode_frame'
+Lines executed:0.00% of 11
+
+Function 'count_frame_header'
+Lines executed:0.00% of 12
+
+Function 'encode_residual_ch'
+Lines executed:0.00% of 157
+
+Function 'lpc_encode_choose_datapath'
+Lines executed:0.00% of 14
+
+Function 'lpc_encode_with_residual_limit_33bps'
+Lines executed:0.00% of 2
+
+Function 'lpc_encode_with_residual_limit'
+Lines executed:0.00% of 2
+
+Function 'encode_residual_fixed_with_residual_limit_33bps'
+Lines executed:0.00% of 2
+
+Function 'encode_residual_fixed_with_residual_limit'
+Lines executed:0.00% of 2
+
+Function 'encode_residual_fixed'
+Lines executed:0.00% of 40
+
+Function 'find_subframe_rice_params'
+Lines executed:0.00% of 13
+
+Function 'calc_rice_params'
+Lines executed:0.00% of 29
+
+Function 'calc_sum_top'
+Lines executed:0.00% of 19
+
+Function 'calc_optimal_rice_params'
+Lines executed:0.00% of 23
+
+Function 'subframe_count_exact'
+Lines executed:0.00% of 34
+
+Function 'copy_samples'
+Lines executed:0.00% of 7
+
+Function 'init_frame'
+Lines executed:0.00% of 26
+
+Function 'flac_encode_init'
+Lines executed:0.00% of 125
+
+Function 'dprint_compression_options'
+Lines executed:0.00% of 42
+
+Function 'select_blocksize'
+Lines executed:0.00% of 11
+
+Function 'write_streaminfo'
+Lines executed:0.00% of 16
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/flacenc.c'
+Lines executed:0.00% of 886
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacenc.gcno##libavcodec#flacenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/encode.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacenc.gcno##libavcodec#encode.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacenc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 973

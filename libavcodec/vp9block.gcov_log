@@ -1,0 +1,61 @@
+Function 'ff_vp9_decode_block'
+Lines executed:0.00% of 217
+
+Function 'decode_coeffs_16bpp'
+Lines executed:0.00% of 59
+
+Function 'decode_coeffs_8bpp'
+Lines executed:0.00% of 2
+
+Function 'decode_coeffs_b32_16bpp'
+Lines executed:0.00% of 121
+
+Function 'decode_coeffs_b_16bpp'
+Lines executed:0.00% of 2
+
+Function 'decode_coeffs_b32_8bpp'
+Lines executed:0.00% of 2
+
+Function 'decode_coeffs_b_8bpp'
+Lines executed:0.00% of 2
+
+Function 'decode_mode'
+Lines executed:0.00% of 433
+
+File 'libavcodec/vp9block.c'
+Lines executed:0.00% of 787
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavcodec#vp9block.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File 'libavcodec/vpx_rac.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavcodec#vpx_rac.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/vpx_arith.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavcodec#x86#vpx_arith.h.gcov'
+
+File 'libavcodec/vp89_rac.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp9block.gcno##libavcodec#vp89_rac.h.gcov'
+
+Lines executed:0.00% of 838

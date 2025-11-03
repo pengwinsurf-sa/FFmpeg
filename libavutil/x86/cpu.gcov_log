@@ -1,0 +1,11 @@
+Function 'ff_get_cpu_max_align_x86'
+Lines executed:0.00% of 6
+
+Function 'ff_get_cpu_flags_x86'
+Lines executed:73.03% of 89
+
+File 'libavutil/x86/cpu.c'
+Lines executed:68.42% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#x86#cpu.gcno##libavutil#x86#cpu.c.gcov'
+
+Lines executed:68.42% of 95

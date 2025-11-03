@@ -1,0 +1,43 @@
+Function 'encode_frame'
+Lines executed:0.00% of 144
+
+Function 'encode_scanline_zip'
+Lines executed:0.00% of 55
+
+Function 'encode_scanline_rle'
+Lines executed:0.00% of 31
+
+Function 'rle_compress'
+Lines executed:0.00% of 18
+
+Function 'encode_close'
+Lines executed:0.00% of 9
+
+Function 'encode_init'
+Lines executed:0.00% of 33
+
+File 'libavcodec/exrenc.c'
+Lines executed:0.00% of 256
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exrenc.gcno##libavcodec#exrenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exrenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exrenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exrenc.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exrenc.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/float2half.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exrenc.gcno##libavutil#float2half.h.gcov'
+
+Lines executed:0.00% of 290

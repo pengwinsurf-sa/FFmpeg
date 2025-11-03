@@ -1,0 +1,38 @@
+Function 'hls_read'
+Lines executed:0.00% of 42
+
+Function 'hls_open'
+Lines executed:0.00% of 36
+
+Function 'hls_close'
+Lines executed:0.00% of 6
+
+Function 'parse_playlist'
+Lines executed:0.00% of 60
+
+Function 'handle_variant_args'
+Lines executed:0.00% of 5
+
+Function 'free_variant_list'
+Lines executed:0.00% of 7
+
+Function 'free_segment_list'
+Lines executed:0.00% of 7
+
+File 'libavformat/hlsproto.c'
+Lines executed:0.00% of 157
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsproto.gcno##libavformat#hlsproto.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsproto.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsproto.gcno###usr#include#stdlib.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsproto.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-float.h.gcov'
+
+Lines executed:0.00% of 163

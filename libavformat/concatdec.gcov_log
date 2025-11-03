@@ -1,0 +1,91 @@
+Function 'concat_seek'
+Lines executed:0.00% of 16
+
+Function 'real_seek'
+Lines executed:0.00% of 27
+
+Function 'try_seek'
+Lines executed:0.00% of 11
+
+Function 'concat_read_packet'
+Lines executed:0.00% of 63
+
+Function 'packet_after_outpoint'
+Lines executed:0.00% of 4
+
+Function 'filter_packet'
+Lines executed:0.00% of 12
+
+Function 'open_next_file'
+Lines executed:0.00% of 8
+
+Function 'concat_read_header'
+Lines executed:0.00% of 28
+
+Function 'concat_parse_script'
+Lines executed:0.00% of 141
+
+Function 'concat_read_close'
+Lines executed:0.00% of 15
+
+Function 'open_file'
+Lines executed:0.00% of 37
+
+Function 'get_best_effort_duration'
+Lines executed:0.00% of 8
+
+Function 'match_streams'
+Lines executed:0.00% of 28
+
+Function 'match_streams_exact_id'
+Lines executed:0.00% of 12
+
+Function 'match_streams_one_to_one'
+Lines executed:0.00% of 11
+
+Function 'detect_stream_specific'
+Lines executed:0.00% of 27
+
+Function 'copy_stream_props'
+Lines executed:0.00% of 18
+
+Function 'add_file'
+Lines executed:0.00% of 44
+
+Function 'safe_filename'
+Lines executed:0.00% of 9
+
+Function 'get_keyword'
+Lines executed:0.00% of 7
+
+Function 'concat_probe'
+Lines executed:0.00% of 3
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavformat/concatdec.c'
+Lines executed:0.00% of 518
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concatdec.gcno##libavformat#concatdec.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concatdec.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concatdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concatdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concatdec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concatdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 535

@@ -1,0 +1,52 @@
+Function 'checkasm_check_vf_hflip'
+Lines executed:100.00% of 6
+
+Function 'check_hflip'
+Lines executed:82.05% of 39
+
+Function 'ff_hflip_init'
+Lines executed:66.67% of 12
+
+Function 'hflip_qword_c'
+Lines executed:0.00% of 6
+
+Function 'hflip_b48_c'
+Lines executed:0.00% of 7
+
+Function 'hflip_b24_c'
+Lines executed:0.00% of 7
+
+Function 'hflip_dword_c'
+Lines executed:0.00% of 6
+
+Function 'hflip_short_c'
+Lines executed:100.00% of 6
+
+Function 'hflip_byte_c'
+Lines executed:100.00% of 4
+
+File 'tests/checkasm/vf_hflip.c'
+Lines executed:96.97% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_hflip.gcno##tests#checkasm#vf_hflip.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_hflip.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_hflip.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_hflip.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_hflip.gcno##libavutil#emms.h.gcov'
+
+File 'libavfilter/vf_hflip_init.h'
+Lines executed:37.50% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_hflip.gcno##libavfilter#vf_hflip_init.h.gcov'
+
+Lines executed:60.22% of 93

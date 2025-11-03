@@ -1,0 +1,26 @@
+Function 'areverse_request_frame'
+Lines executed:0.00% of 18
+
+Function 'reverse_samples_packed'
+Lines executed:0.00% of 34
+
+Function 'reverse_samples_planar'
+Lines executed:0.00% of 28
+
+Function 'request_frame'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'init'
+Lines executed:0.00% of 8
+
+File 'libavfilter/f_reverse.c'
+Lines executed:0.00% of 131
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_reverse.gcno##libavfilter#f_reverse.c.gcov'
+
+Lines executed:0.00% of 131

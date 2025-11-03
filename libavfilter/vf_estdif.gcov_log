@@ -1,0 +1,68 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'request_frame'
+Lines executed:0.00% of 17
+
+Function 'filter_frame'
+Lines executed:0.00% of 23
+
+Function 'config_input'
+Lines executed:0.00% of 25
+
+Function 'filter'
+Lines executed:0.00% of 17
+
+Function 'deinterlace_slice'
+Lines executed:0.00% of 67
+
+Function 'interpolate_16'
+Lines executed:0.00% of 5
+
+Function 'interpolate_8'
+Lines executed:0.00% of 2
+
+Function 'cost_16'
+Lines executed:0.00% of 2
+
+Function 'cost_8'
+Lines executed:0.00% of 2
+
+Function 'mid6_16'
+Lines executed:0.00% of 3
+
+Function 'mid6_8'
+Lines executed:0.00% of 1
+
+Function 'mid4_16'
+Lines executed:0.00% of 1
+
+Function 'mid4_8'
+Lines executed:0.00% of 1
+
+Function 'mid2_16'
+Lines executed:0.00% of 1
+
+Function 'mid2_8'
+Lines executed:0.00% of 1
+
+Function 'config_output'
+Lines executed:0.00% of 10
+
+File 'libavfilter/vf_estdif.c'
+Lines executed:0.00% of 172
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_estdif.gcno##libavfilter#vf_estdif.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_estdif.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_estdif.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_estdif.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 182

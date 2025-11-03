@@ -1,0 +1,29 @@
+Function 'config_input'
+Lines executed:0.00% of 20
+
+Function 'filter_frame'
+Lines executed:0.00% of 36
+
+Function 'filter_slice_word'
+Lines executed:0.00% of 1
+
+Function 'filter_slice_byte'
+Lines executed:0.00% of 1
+
+Function 'pre_calculate_col'
+Lines executed:0.00% of 19
+
+Function 'pre_calculate_row_word'
+Lines executed:0.00% of 1
+
+Function 'pre_calculate_row_byte'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_yaepblur.c'
+Lines executed:0.00% of 84
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_yaepblur.gcno##libavfilter#vf_yaepblur.c.gcov'
+
+Lines executed:0.00% of 84

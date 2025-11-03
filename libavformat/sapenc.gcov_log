@@ -1,0 +1,26 @@
+Function 'sap_write_packet'
+Lines executed:0.00% of 12
+
+Function 'sap_write_header'
+Lines executed:0.00% of 128
+
+Function 'sap_write_close'
+Lines executed:0.00% of 18
+
+File 'libavformat/sapenc.c'
+Lines executed:0.00% of 151
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapenc.gcno##libavformat#sapenc.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapenc.gcno##libavformat#url.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 158

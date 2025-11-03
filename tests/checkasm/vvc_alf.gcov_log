@@ -1,0 +1,33 @@
+Function 'checkasm_check_vvc_alf'
+Lines executed:100.00% of 12
+
+Function 'check_alf_classify'
+Lines executed:80.95% of 42
+
+Function 'check_alf_filter'
+Lines executed:100.00% of 39
+
+Function 'get_alf_vb_pos'
+Lines executed:100.00% of 4
+
+File 'tests/checkasm/vvc_alf.c'
+Lines executed:97.65% of 85
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_alf.gcno##tests#checkasm#vvc_alf.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_alf.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_alf.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_alf.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_alf.gcno##libavutil#emms.h.gcov'
+
+Lines executed:91.75% of 97

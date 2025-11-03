@@ -1,0 +1,47 @@
+Function 'checkasm_check_vf_sobel'
+Lines executed:100.00% of 4
+
+Function 'check_sobel'
+Lines executed:87.27% of 55
+
+Function 'ff_sobel_init'
+Lines executed:84.62% of 13
+
+Function 'filter16_sobel'
+Lines executed:0.00% of 13
+
+Function 'filter_sobel'
+Lines executed:100.00% of 15
+
+Function 'setup_3x3'
+Lines executed:100.00% of 9
+
+File 'tests/checkasm/vf_convolution.c'
+Lines executed:97.87% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno##tests#checkasm#vf_convolution.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno##libavutil#emms.h.gcov'
+
+File 'libavfilter/convolution.h'
+Lines executed:72.73% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno##libavfilter#convolution.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:50.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_convolution.gcno##libavutil#common.h.gcov'
+
+Lines executed:79.82% of 109

@@ -1,0 +1,43 @@
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'free_filter_param'
+Lines executed:0.00% of 8
+
+Function 'config_input'
+Lines executed:0.00% of 15
+
+Function 'init_filter_param'
+Lines executed:0.00% of 13
+
+Function 'init'
+Lines executed:0.00% of 6
+
+Function 'set_filter_param'
+Lines executed:0.00% of 11
+
+Function 'apply_unsharp'
+Lines executed:0.00% of 24
+
+Function 'unsharp_slice_8'
+Lines executed:0.00% of 6
+
+Function 'unsharp_slice_16'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_unsharp.c'
+Lines executed:0.00% of 99
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_unsharp.gcno##libavfilter#vf_unsharp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_unsharp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_unsharp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 107

@@ -1,0 +1,11 @@
+Function 'lrc_write_packet'
+Lines executed:0.00% of 28
+
+Function 'lrc_write_header'
+Lines executed:0.00% of 23
+
+File 'libavformat/lrcenc.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lrcenc.gcno##libavformat#lrcenc.c.gcov'
+
+Lines executed:0.00% of 51

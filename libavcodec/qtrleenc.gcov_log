@@ -1,0 +1,32 @@
+Function 'qtrle_encode_frame'
+Lines executed:0.00% of 17
+
+Function 'encode_frame'
+Lines executed:0.00% of 34
+
+Function 'qtrle_encode_line'
+Lines executed:0.00% of 97
+
+Function 'qtrle_encode_init'
+Lines executed:0.00% of 41
+
+Function 'qtrle_encode_end'
+Lines executed:0.00% of 7
+
+File 'libavcodec/qtrleenc.c'
+Lines executed:0.00% of 182
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qtrleenc.gcno##libavcodec#qtrleenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qtrleenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qtrleenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qtrleenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 196

@@ -1,0 +1,21 @@
+Function 'ff_dct_encode_init_x86'
+Lines executed:0.00% of 10
+
+Function 'denoise_dct_sse2'
+Lines executed:0.00% of 8
+
+Function 'dct_quantize_ssse3'
+Lines executed:0.00% of 172
+
+Function 'dct_quantize_sse2'
+Lines executed:0.00% of 172
+
+File 'libavcodec/x86/mpegvideoenc.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpegvideoenc.gcno##libavcodec#x86#mpegvideoenc.c.gcov'
+
+File 'libavcodec/x86/mpegvideoenc_template.c'
+Lines executed:0.00% of 516
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpegvideoenc.gcno##libavcodec#x86#mpegvideoenc_template.c.gcov'
+
+Lines executed:0.00% of 534

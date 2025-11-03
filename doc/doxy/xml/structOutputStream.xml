@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structOutputStream" kind="struct" language="C++" prot="public">
+    <compoundname>OutputStream</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structOutputStream_1ac11510a2eeed3e6a14f0fbc85db2e088" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVStream" kindref="compound">AVStream</ref> *</type>
+        <definition>AVStream* OutputStream::st</definition>
+        <argsstring></argsstring>
+        <name>st</name>
+        <qualifiedname>OutputStream::st</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="54" column="14" bodyfile="doc/examples/mux.c" bodystart="54" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a22968a15b922fd8c0c37b49beec06dbe" compoundref="mux_8c" startline="125" endline="211">add_stream</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+        <referencedby refid="mux_8c_1a1bc713c33e2d1937f2cbc34d83a3e303" compoundref="mux_8c" startline="404" endline="446">open_video</referencedby>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a435288caae5076cca3273215cb6ad395" compoundref="mux_8c" startline="516" endline="519">write_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1aefd92ac60c5cbc6d9f7f5ae7e9bec19d" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+        <definition>AVCodecContext* OutputStream::enc</definition>
+        <argsstring></argsstring>
+        <name>enc</name>
+        <qualifiedname>OutputStream::enc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="55" column="20" bodyfile="doc/examples/mux.c" bodystart="55" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a22968a15b922fd8c0c37b49beec06dbe" compoundref="mux_8c" startline="125" endline="211">add_stream</referencedby>
+        <referencedby refid="mux_8c_1a92d8b2751255677797d807161fae9d19" compoundref="mux_8c" startline="521" endline="529">close_stream</referencedby>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a21ef8534b79178d738919f5b1b14c37f" compoundref="mux_8c" startline="470" endline="510">get_video_frame</referencedby>
+        <referencedby refid="mux_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="mux_8c" startline="534" endline="643">main</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+        <referencedby refid="mux_8c_1a1bc713c33e2d1937f2cbc34d83a3e303" compoundref="mux_8c" startline="404" endline="446">open_video</referencedby>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a435288caae5076cca3273215cb6ad395" compoundref="mux_8c" startline="516" endline="519">write_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1aaa3b9001e4dac709017237c1c177cd0a" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t OutputStream::next_pts</definition>
+        <argsstring></argsstring>
+        <name>next_pts</name>
+        <qualifiedname>OutputStream::next_pts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="58" column="13" bodyfile="doc/examples/mux.c" bodystart="58" bodyend="-1"/>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a21ef8534b79178d738919f5b1b14c37f" compoundref="mux_8c" startline="470" endline="510">get_video_frame</referencedby>
+        <referencedby refid="mux_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="mux_8c" startline="534" endline="643">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a0c3b9816e5c50c0ed816343d224121e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OutputStream::samples_count</definition>
+        <argsstring></argsstring>
+        <name>samples_count</name>
+        <qualifiedname>OutputStream::samples_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="59" column="9" bodyfile="doc/examples/mux.c" bodystart="59" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a09ee2998f47d0e69c99dee8a6f71105a" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+        <definition>AVFrame* OutputStream::frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <qualifiedname>OutputStream::frame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="61" column="13" bodyfile="doc/examples/mux.c" bodystart="61" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a92d8b2751255677797d807161fae9d19" compoundref="mux_8c" startline="521" endline="529">close_stream</referencedby>
+        <referencedby refid="mux_8c_1a21ef8534b79178d738919f5b1b14c37f" compoundref="mux_8c" startline="470" endline="510">get_video_frame</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+        <referencedby refid="mux_8c_1a1bc713c33e2d1937f2cbc34d83a3e303" compoundref="mux_8c" startline="404" endline="446">open_video</referencedby>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a2ffa8b8369d869e8a440c2611ba91ae2" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+        <definition>AVFrame* OutputStream::tmp_frame</definition>
+        <argsstring></argsstring>
+        <name>tmp_frame</name>
+        <qualifiedname>OutputStream::tmp_frame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="62" column="13" bodyfile="doc/examples/mux.c" bodystart="62" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a92d8b2751255677797d807161fae9d19" compoundref="mux_8c" startline="521" endline="529">close_stream</referencedby>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a21ef8534b79178d738919f5b1b14c37f" compoundref="mux_8c" startline="470" endline="510">get_video_frame</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+        <referencedby refid="mux_8c_1a1bc713c33e2d1937f2cbc34d83a3e303" compoundref="mux_8c" startline="404" endline="446">open_video</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a749be66f8d87ff46cb458fd5c24ff27b" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+        <definition>AVPacket* OutputStream::tmp_pkt</definition>
+        <argsstring></argsstring>
+        <name>tmp_pkt</name>
+        <qualifiedname>OutputStream::tmp_pkt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="64" column="14" bodyfile="doc/examples/mux.c" bodystart="64" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a22968a15b922fd8c0c37b49beec06dbe" compoundref="mux_8c" startline="125" endline="211">add_stream</referencedby>
+        <referencedby refid="mux_8c_1a92d8b2751255677797d807161fae9d19" compoundref="mux_8c" startline="521" endline="529">close_stream</referencedby>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a435288caae5076cca3273215cb6ad395" compoundref="mux_8c" startline="516" endline="519">write_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1ab5bc1d10f171e32c5241ab23271ae765" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OutputStream::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <qualifiedname>OutputStream::t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="66" column="11" bodyfile="doc/examples/mux.c" bodystart="66" bodyend="-1"/>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1afacbd1335db05b68d2ea528c8b5d197b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OutputStream::tincr</definition>
+        <argsstring></argsstring>
+        <name>tincr</name>
+        <qualifiedname>OutputStream::tincr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="66" column="13" bodyfile="doc/examples/mux.c" bodystart="66" bodyend="-1"/>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a04fe3fc54e1a382047e501c4ce63497b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OutputStream::tincr2</definition>
+        <argsstring></argsstring>
+        <name>tincr2</name>
+        <qualifiedname>OutputStream::tincr2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="66" column="19" bodyfile="doc/examples/mux.c" bodystart="66" bodyend="-1"/>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a87e6c2172dab3143e4857aaaf6558573" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structSwsContext" kindref="compound">SwsContext</ref> *</type>
+        <definition>struct SwsContext* OutputStream::sws_ctx</definition>
+        <argsstring></argsstring>
+        <name>sws_ctx</name>
+        <qualifiedname>OutputStream::sws_ctx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="68" column="21" bodyfile="doc/examples/mux.c" bodystart="68" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a92d8b2751255677797d807161fae9d19" compoundref="mux_8c" startline="521" endline="529">close_stream</referencedby>
+        <referencedby refid="mux_8c_1a21ef8534b79178d738919f5b1b14c37f" compoundref="mux_8c" startline="470" endline="510">get_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputStream_1a1a5c19db8f6a49a4d7a14168e4b73ec1" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="group__lswr_1ga4aa775b7fba31d2c8dc14c7b7e282863" kindref="member">SwrContext</ref> *</type>
+        <definition>struct SwrContext* OutputStream::swr_ctx</definition>
+        <argsstring></argsstring>
+        <name>swr_ctx</name>
+        <qualifiedname>OutputStream::swr_ctx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/mux.c" line="69" column="21" bodyfile="doc/examples/mux.c" bodystart="69" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a92d8b2751255677797d807161fae9d19" compoundref="mux_8c" startline="521" endline="529">close_stream</referencedby>
+        <referencedby refid="mux_8c_1a5de64c6730f86a2a0c7cc3ca2bab3717" compoundref="mux_8c" startline="241" endline="303">open_audio</referencedby>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>AVBufferRef</label>
+        <link refid="structAVBufferRef"/>
+      </node>
+      <node id="10">
+        <label>AVChannelCustom</label>
+        <link refid="structAVChannelCustom"/>
+      </node>
+      <node id="9">
+        <label>AVChannelLayout</label>
+        <link refid="structAVChannelLayout"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>map</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AVClass</label>
+        <link refid="structAVClass"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>option</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>child_class_iterate</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>AVCodec</label>
+        <link refid="structAVCodec"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>supported_framerates</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>priv_class</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>profiles</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layouts</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>AVCodecContext</label>
+        <link refid="structAVCodecContext"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>av_class</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>codec</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>framerate</edgelabel>
+          <edgelabel>pkt_timebase</edgelabel>
+          <edgelabel>sample_aspect_ratio</edgelabel>
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layout</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>rc_override</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>hwaccel</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>hw_device_ctx</edgelabel>
+          <edgelabel>hw_frames_ctx</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>codec_descriptor</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>coded_side_data</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>decoded_side_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>AVCodecDescriptor</label>
+        <link refid="structAVCodecDescriptor"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>profiles</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>AVCodecParameters</label>
+        <link refid="structAVCodecParameters"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>coded_side_data</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>framerate</edgelabel>
+          <edgelabel>sample_aspect_ratio</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layout</edgelabel>
+        </childnode>
+      </node>
+      <node id="20">
+        <label>AVFrame</label>
+        <link refid="structAVFrame"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>sample_aspect_ratio</edgelabel>
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>buf</edgelabel>
+          <edgelabel>extended_buf</edgelabel>
+          <edgelabel>hw_frames_ctx</edgelabel>
+          <edgelabel>opaque_ref</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>side_data</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layout</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>AVFrameSideData</label>
+        <link refid="structAVFrameSideData"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>AVHWAccel</label>
+        <link refid="structAVHWAccel"/>
+      </node>
+      <node id="4">
+        <label>AVOption</label>
+        <link refid="structAVOption"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>q</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>arr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AVOptionArrayDef</label>
+        <link refid="structAVOptionArrayDef"/>
+      </node>
+      <node id="11">
+        <label>AVPacket</label>
+        <link refid="structAVPacket"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>buf</edgelabel>
+          <edgelabel>opaque_ref</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>side_data</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>AVPacketSideData</label>
+        <link refid="structAVPacketSideData"/>
+      </node>
+      <node id="15">
+        <label>AVProfile</label>
+        <link refid="structAVProfile"/>
+      </node>
+      <node id="5">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+      <node id="2">
+        <label>AVStream</label>
+        <link refid="structAVStream"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>av_class</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>codecpar</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>avg_frame_rate</edgelabel>
+          <edgelabel>r_frame_rate</edgelabel>
+          <edgelabel>sample_aspect_ratio</edgelabel>
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>attached_pic</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>OutputStream</label>
+        <link refid="structOutputStream"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>st</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>enc</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>frame</edgelabel>
+          <edgelabel>tmp_frame</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>tmp_pkt</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>sws_ctx</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>RcOverride</label>
+        <link refid="structRcOverride"/>
+      </node>
+      <node id="21">
+        <label>SwsContext</label>
+        <link refid="structSwsContext"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>av_class</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="doc/examples/mux.c" line="53" column="1" bodyfile="doc/examples/mux.c" bodystart="53" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structOutputStream_1aefd92ac60c5cbc6d9f7f5ae7e9bec19d" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>enc</name></member>
+      <member refid="structOutputStream_1a09ee2998f47d0e69c99dee8a6f71105a" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>frame</name></member>
+      <member refid="structOutputStream_1aaa3b9001e4dac709017237c1c177cd0a" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>next_pts</name></member>
+      <member refid="structOutputStream_1a0c3b9816e5c50c0ed816343d224121e7" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>samples_count</name></member>
+      <member refid="structOutputStream_1ac11510a2eeed3e6a14f0fbc85db2e088" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>st</name></member>
+      <member refid="structOutputStream_1a1a5c19db8f6a49a4d7a14168e4b73ec1" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>swr_ctx</name></member>
+      <member refid="structOutputStream_1a87e6c2172dab3143e4857aaaf6558573" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>sws_ctx</name></member>
+      <member refid="structOutputStream_1ab5bc1d10f171e32c5241ab23271ae765" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>t</name></member>
+      <member refid="structOutputStream_1afacbd1335db05b68d2ea528c8b5d197b" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>tincr</name></member>
+      <member refid="structOutputStream_1a04fe3fc54e1a382047e501c4ce63497b" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>tincr2</name></member>
+      <member refid="structOutputStream_1a2ffa8b8369d869e8a440c2611ba91ae2" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>tmp_frame</name></member>
+      <member refid="structOutputStream_1a749be66f8d87ff46cb458fd5c24ff27b" prot="public" virt="non-virtual"><scope>OutputStream</scope><name>tmp_pkt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

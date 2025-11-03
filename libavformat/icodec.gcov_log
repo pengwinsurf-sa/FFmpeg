@@ -1,0 +1,28 @@
+Function 'ico_read_close'
+Lines executed:0.00% of 4
+
+Function 'read_packet'
+Lines executed:0.00% of 39
+
+Function 'read_header'
+Lines executed:0.00% of 47
+
+Function 'probe'
+Lines executed:0.00% of 23
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavformat/icodec.c'
+Lines executed:0.00% of 110
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icodec.gcno##libavformat#icodec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icodec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icodec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 117

@@ -1,0 +1,11 @@
+Function 'xbm_decode_frame'
+Lines executed:0.00% of 47
+
+Function 'parse_str_int'
+Lines executed:0.00% of 12
+
+File 'libavcodec/xbmdec.c'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xbmdec.gcno##libavcodec#xbmdec.c.gcov'
+
+Lines executed:0.00% of 59

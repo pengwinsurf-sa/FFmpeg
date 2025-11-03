@@ -1,0 +1,170 @@
+Function 'biquad_init'
+Lines executed:0.00% of 1
+
+Function 'allpass_init'
+Lines executed:0.00% of 1
+
+Function 'highpass_init'
+Lines executed:0.00% of 1
+
+Function 'lowpass_init'
+Lines executed:0.00% of 1
+
+Function 'bandreject_init'
+Lines executed:0.00% of 1
+
+Function 'bandpass_init'
+Lines executed:0.00% of 1
+
+Function 'tiltshelf_init'
+Lines executed:0.00% of 1
+
+Function 'highshelf_init'
+Lines executed:0.00% of 1
+
+Function 'treble_init'
+Lines executed:0.00% of 1
+
+Function 'lowshelf_init'
+Lines executed:0.00% of 1
+
+Function 'bass_init'
+Lines executed:0.00% of 1
+
+Function 'equalizer_init'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'process_command'
+Lines executed:0.00% of 6
+
+Function 'activate'
+Lines executed:0.00% of 28
+
+Function 'filter_frame'
+Lines executed:0.00% of 47
+
+Function 'filter_channel'
+Lines executed:0.00% of 50
+
+Function 'reverse_samples'
+Lines executed:0.00% of 23
+
+Function 'config_output'
+Lines executed:0.00% of 2
+
+Function 'config_filter'
+Lines executed:0.00% of 350
+
+Function 'convert_dir2zdf'
+Lines executed:0.00% of 114
+
+Function 'convert_width2qfactor'
+Lines executed:0.00% of 19
+
+Function 'biquad_zdf_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_zdf_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_zdf_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_zdf_s16'
+Lines executed:0.00% of 1
+
+Function 'biquad_svf_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_svf_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_svf_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_svf_s16'
+Lines executed:0.00% of 1
+
+Function 'biquad_latt_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_latt_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_latt_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_latt_s16'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdii_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdii_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdii_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdii_s16'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdi_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdi_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdi_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_tdi_s16'
+Lines executed:0.00% of 1
+
+Function 'biquad_dii_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_dii_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_dii_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_dii_s16'
+Lines executed:0.00% of 1
+
+Function 'biquad_dbl'
+Lines executed:0.00% of 1
+
+Function 'biquad_flt'
+Lines executed:0.00% of 1
+
+Function 'biquad_s32'
+Lines executed:0.00% of 1
+
+Function 'biquad_s16'
+Lines executed:0.00% of 1
+
+Function 'query_formats'
+Lines executed:0.00% of 18
+
+File 'libavfilter/af_biquads.c'
+Lines executed:0.00% of 696
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_biquads.gcno##libavfilter#af_biquads.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_biquads.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_biquads.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_biquads.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 706

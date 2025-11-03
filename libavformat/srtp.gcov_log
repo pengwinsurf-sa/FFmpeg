@@ -1,0 +1,37 @@
+Function 'ff_srtp_encrypt'
+Lines executed:0.00% of 64
+
+Function 'ff_srtp_decrypt'
+Lines executed:0.00% of 70
+
+Function 'create_iv'
+Lines executed:0.00% of 13
+
+Function 'ff_srtp_set_crypto'
+Lines executed:0.00% of 29
+
+Function 'derive_key'
+Lines executed:0.00% of 7
+
+Function 'encrypt_counter'
+Lines executed:0.00% of 9
+
+Function 'ff_srtp_free'
+Lines executed:0.00% of 6
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/srtp.c'
+Lines executed:0.00% of 189
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtp.gcno##libavformat#srtp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtp.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 200

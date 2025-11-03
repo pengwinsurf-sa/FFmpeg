@@ -1,0 +1,17 @@
+Function 'ff_asfcrypt_dec'
+Lines executed:0.00% of 44
+
+Function 'multiswap_dec'
+Lines executed:0.00% of 20
+
+Function 'multiswap_enc'
+Lines executed:0.00% of 20
+
+Function 'multiswap_invert_keys'
+Lines executed:0.00% of 13
+
+File 'libavformat/asfcrypt.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfcrypt.gcno##libavformat#asfcrypt.c.gcov'
+
+Lines executed:0.00% of 97

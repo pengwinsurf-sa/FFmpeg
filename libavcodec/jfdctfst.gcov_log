@@ -1,0 +1,11 @@
+Function 'ff_fdct_ifast248'
+Lines executed:0.00% of 75
+
+Function 'ff_fdct_ifast'
+Lines executed:0.00% of 40
+
+File 'libavcodec/jfdctfst.c'
+Lines executed:0.00% of 115
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jfdctfst.gcno##libavcodec#jfdctfst.c.gcov'
+
+Lines executed:0.00% of 115

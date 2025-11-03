@@ -1,0 +1,55 @@
+Function 'checkasm_check_h264dsp'
+Lines executed:100.00% of 10
+
+Function 'check_loop_filter_intra'
+Lines executed:80.00% of 40
+
+Function 'check_loop_filter'
+Lines executed:100.00% of 31
+
+Function 'check_idct_dequant'
+Lines executed:100.00% of 26
+
+Function 'check_idct_multiple'
+Lines executed:98.73% of 79
+
+Function 'check_idct'
+Lines executed:97.87% of 47
+
+Function 'dct8x8_32'
+Lines executed:100.00% of 1
+
+Function 'dct8x8_16'
+Lines executed:100.00% of 1
+
+Function 'dct4x4_32'
+Lines executed:100.00% of 1
+
+Function 'dct4x4_16'
+Lines executed:100.00% of 1
+
+File 'tests/checkasm/h264dsp.c'
+Lines executed:99.10% of 221
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264dsp.gcno##tests#checkasm#h264dsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264dsp.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264dsp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264dsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264dsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:95.78% of 237

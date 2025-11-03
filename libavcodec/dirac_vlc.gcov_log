@@ -1,0 +1,11 @@
+Function 'ff_dirac_golomb_read_32bit'
+Lines executed:0.00% of 10
+
+Function 'ff_dirac_golomb_read_16bit'
+Lines executed:0.00% of 10
+
+File 'libavcodec/dirac_vlc.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_vlc.gcno##libavcodec#dirac_vlc.c.gcov'
+
+Lines executed:0.00% of 20

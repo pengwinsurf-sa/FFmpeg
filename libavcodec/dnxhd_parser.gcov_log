@@ -1,0 +1,15 @@
+Function 'dnxhd_parse'
+Lines executed:0.00% of 14
+
+Function 'dnxhd_find_frame_end'
+Lines executed:0.00% of 67
+
+File 'libavcodec/dnxhd_parser.c'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhd_parser.gcno##libavcodec#dnxhd_parser.c.gcov'
+
+File 'libavcodec/dnxhddata.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhd_parser.gcno##libavcodec#dnxhddata.h.gcov'
+
+Lines executed:0.00% of 81

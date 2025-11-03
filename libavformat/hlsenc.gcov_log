@@ -1,0 +1,173 @@
+Function 'hls_init'
+Lines executed:0.00% of 156
+
+Function 'hls_write_trailer'
+Lines executed:0.00% of 105
+
+Function 'hls_deinit'
+Lines executed:0.00% of 33
+
+Function 'hls_write_packet'
+Lines executed:0.00% of 188
+
+Function 'append_single_file'
+Lines executed:0.00% of 23
+
+Function 'hls_init_file_resend'
+Lines executed:0.00% of 11
+
+Function 'hls_write_header'
+Lines executed:0.00% of 36
+
+Function 'update_master_pl_info'
+Lines executed:0.00% of 24
+
+Function 'update_variant_stream_info'
+Lines executed:0.00% of 21
+
+Function 'parse_cc_stream_mapstring'
+Lines executed:0.00% of 47
+
+Function 'parse_variant_stream_mapstring'
+Lines executed:0.00% of 101
+
+Function 'format_name'
+Lines executed:0.00% of 28
+
+Function 'validate_name'
+Lines executed:0.00% of 20
+
+Function 'append_postfix'
+Lines executed:0.00% of 13
+
+Function 'get_default_pattern_localtime_fmt'
+Lines executed:0.00% of 9
+
+Function 'hls_start'
+Lines executed:0.00% of 128
+
+Function 'hls_window'
+Lines executed:0.00% of 99
+
+Function 'create_master_playlist'
+Lines executed:0.00% of 114
+
+Function 'get_stream_bit_rate'
+Lines executed:0.00% of 7
+
+Function 'get_relative_url'
+Lines executed:0.00% of 10
+
+Function 'hls_rename_temp_file'
+Lines executed:0.00% of 10
+
+Function 'parse_playlist'
+Lines executed:0.00% of 96
+
+Function 'extract_segment_number'
+Lines executed:0.00% of 8
+
+Function 'hls_append_segment'
+Lines executed:0.00% of 67
+
+Function 'sls_flag_use_localtime_filename'
+Lines executed:0.00% of 25
+
+Function 'sls_flag_file_rename'
+Lines executed:0.00% of 4
+
+Function 'sls_flag_check_duration_size'
+Lines executed:0.00% of 11
+
+Function 'sls_flag_check_duration_size_index'
+Lines executed:0.00% of 12
+
+Function 'sls_flags_filename_process'
+Lines executed:0.00% of 21
+
+Function 'hls_mux_init'
+Lines executed:0.00% of 78
+
+Function 'hls_encryption_start'
+Lines executed:0.00% of 40
+
+Function 'do_encrypt'
+Lines executed:0.00% of 46
+
+Function 'hls_delete_old_segments'
+Lines executed:0.00% of 76
+
+Function 'hls_delete_file'
+Lines executed:0.00% of 14
+
+Function 'flush_dynbuf'
+Lines executed:0.00% of 9
+
+Function 'write_styp'
+Lines executed:0.00% of 10
+
+Function 'replace_int_data_in_filename'
+Lines executed:0.00% of 29
+
+Function 'replace_str_data_in_filename'
+Lines executed:0.00% of 26
+
+Function 'write_codec_attr'
+Lines executed:0.00% of 81
+
+Function 'set_http_options'
+Lines executed:0.00% of 15
+
+Function 'hlsenc_io_close'
+Lines executed:0.00% of 11
+
+Function 'hlsenc_io_open'
+Lines executed:0.00% of 12
+
+Function 'strftime_expand'
+Lines executed:0.00% of 15
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/hlsenc.c'
+Lines executed:0.00% of 1869
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno##libavformat#hlsenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno###usr#include#stdlib.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-float.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno##libavutil#bprint.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 1891

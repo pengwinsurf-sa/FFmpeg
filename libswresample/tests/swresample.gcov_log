@@ -1,0 +1,34 @@
+Function 'main'
+Lines executed:0.00% of 129
+
+Function 'audiogen'
+Lines executed:0.00% of 48
+
+Function 'cmp'
+Lines executed:0.00% of 2
+
+Function 'setup_array'
+Lines executed:0.00% of 9
+
+Function 'shift'
+Lines executed:0.00% of 8
+
+Function 'set'
+Lines executed:0.00% of 24
+
+Function 'get'
+Lines executed:0.00% of 14
+
+File 'libswresample/tests/swresample.c'
+Lines executed:0.00% of 223
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#tests#swresample.gcno##libswresample#tests#swresample.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#tests#swresample.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#tests#swresample.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 234

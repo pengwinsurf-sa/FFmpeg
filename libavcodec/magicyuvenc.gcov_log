@@ -1,0 +1,72 @@
+Function 'magy_encode_close'
+Lines executed:0.00% of 9
+
+Function 'magy_encode_frame'
+Lines executed:0.00% of 66
+
+Function 'predict_slice'
+Lines executed:0.00% of 39
+
+Function 'encode_slice'
+Lines executed:0.00% of 10
+
+Function 'encode_plane_slice'
+Lines executed:0.00% of 26
+
+Function 'encode_plane_slice_raw'
+Lines executed:0.00% of 8
+
+Function 'generate_codes'
+Lines executed:0.00% of 15
+
+Function 'count_plane_slice'
+Lines executed:0.00% of 15
+
+Function 'magy_huffman_compute_bits'
+Lines executed:0.00% of 47
+
+Function 'calculate_codes'
+Lines executed:0.00% of 9
+
+Function 'magy_encode_init'
+Lines executed:0.00% of 87
+
+Function 'median_predict'
+Lines executed:0.00% of 14
+
+Function 'gradient_predict'
+Lines executed:0.00% of 20
+
+Function 'left_predict'
+Lines executed:0.00% of 16
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/magicyuvenc.c'
+Lines executed:0.00% of 357
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#magicyuvenc.gcno##libavcodec#magicyuvenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#magicyuvenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#magicyuvenc.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#magicyuvenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#magicyuvenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 416

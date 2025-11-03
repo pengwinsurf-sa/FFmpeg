@@ -1,0 +1,54 @@
+Function 'cdxl_decode_end'
+Lines executed:0.00% of 4
+
+Function 'cdxl_decode_frame'
+Lines executed:0.00% of 58
+
+Function 'cdxl_decode_ham8'
+Lines executed:0.00% of 35
+
+Function 'cdxl_decode_ham6'
+Lines executed:0.00% of 35
+
+Function 'cdxl_decode_rgb'
+Lines executed:0.00% of 8
+
+Function 'import_format'
+Lines executed:0.00% of 14
+
+Function 'chunky2chunky'
+Lines executed:0.00% of 19
+
+Function 'bitline2chunky'
+Lines executed:0.00% of 40
+
+Function 'bitplanar2chunky'
+Lines executed:0.00% of 10
+
+Function 'import_palette'
+Lines executed:0.00% of 12
+
+Function 'cdxl_decode_init'
+Lines executed:0.00% of 5
+
+File 'libavcodec/cdxl.c'
+Lines executed:0.00% of 193
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdxl.gcno##libavcodec#cdxl.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdxl.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdxl.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdxl.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdxl.gcno##libavcodec#get_bits.h.gcov'
+
+Lines executed:0.00% of 240

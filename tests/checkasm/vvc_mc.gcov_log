@@ -1,0 +1,48 @@
+Function 'checkasm_check_vvc_mc'
+Lines executed:100.00% of 10
+
+Function 'check_vvc_sad'
+Lines executed:80.00% of 35
+
+Function 'check_bdof'
+Lines executed:96.67% of 30
+
+Function 'check_dmvr'
+Lines executed:97.37% of 38
+
+Function 'check_avg'
+Lines executed:95.00% of 40
+
+Function 'check_put_vvc_chroma_uni'
+Lines executed:97.22% of 36
+
+Function 'check_put_vvc_chroma'
+Lines executed:97.22% of 36
+
+Function 'check_put_vvc_luma_uni'
+Lines executed:97.22% of 36
+
+Function 'check_put_vvc_luma'
+Lines executed:97.22% of 36
+
+File 'tests/checkasm/vvc_mc.c'
+Lines executed:96.84% of 285
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_mc.gcno##tests#checkasm#vvc_mc.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_mc.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_mc.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_mc.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vvc_mc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:94.95% of 297

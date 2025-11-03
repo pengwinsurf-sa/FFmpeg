@@ -1,0 +1,36 @@
+Function 'framehash_write_packet'
+Lines executed:0.00% of 26
+
+Function 'framehash_write_header'
+Lines executed:0.00% of 9
+
+Function 'framehash_init'
+Lines executed:0.00% of 8
+
+Function 'framehash_print_extradata'
+Lines executed:0.00% of 15
+
+Function 'hash_free'
+Lines executed:0.00% of 8
+
+Function 'hash_write_trailer'
+Lines executed:0.00% of 16
+
+Function 'hash_write_packet'
+Lines executed:0.00% of 4
+
+Function 'streamhash_init'
+Lines executed:0.00% of 11
+
+Function 'hash_init'
+Lines executed:0.00% of 10
+
+File 'libavformat/hashenc.c'
+Lines executed:0.00% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hashenc.gcno##libavformat#hashenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hashenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 107

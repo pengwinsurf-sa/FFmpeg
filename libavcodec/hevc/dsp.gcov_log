@@ -1,0 +1,1052 @@
+Function 'ff_hevc_dsp_init'
+Lines executed:100.00% of 17
+
+Function 'hevc_v_loop_filter_luma_12'
+Lines executed:100.00% of 3
+
+Function 'hevc_h_loop_filter_luma_12'
+Lines executed:100.00% of 3
+
+Function 'hevc_v_loop_filter_chroma_12'
+Lines executed:100.00% of 3
+
+Function 'hevc_h_loop_filter_chroma_12'
+Lines executed:100.00% of 3
+
+Function 'hevc_loop_filter_chroma_12'
+Lines executed:100.00% of 13
+
+Function 'hevc_loop_filter_luma_12'
+Lines executed:100.00% of 32
+
+Function 'loop_filter_chroma_weak_12'
+Lines executed:100.00% of 19
+
+Function 'loop_filter_luma_weak_12'
+Lines executed:100.00% of 24
+
+Function 'loop_filter_luma_strong_12'
+Lines executed:100.00% of 20
+
+Function 'put_hevc_epel_bi_w_hv_12'
+Lines executed:100.00% of 28
+
+Function 'put_hevc_epel_bi_w_v_12'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_w_h_12'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_hv_12'
+Lines executed:100.00% of 26
+
+Function 'put_hevc_epel_bi_v_12'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_epel_bi_h_12'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_w_hv_12'
+Lines executed:100.00% of 29
+
+Function 'put_hevc_qpel_bi_w_v_12'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_w_h_12'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_hv_12'
+Lines executed:100.00% of 27
+
+Function 'put_hevc_qpel_bi_v_12'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_h_12'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_pel_bi_w_pixels_12'
+Lines executed:100.00% of 17
+
+Function 'put_hevc_pel_bi_pixels_12'
+Lines executed:100.00% of 15
+
+Function 'put_hevc_epel_uni_w_hv_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_hv_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_hv_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_v_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_v_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_v_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_h_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_h_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_h_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_hv_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_hv_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_hv_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_v_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_v_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_v_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_h_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_h_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_h_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_w_pixels_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_pixels_12'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_pixels_12'
+Lines executed:100.00% of 9
+
+Function 'idct_32x32_dc_12'
+Lines executed:100.00% of 1
+
+Function 'idct_16x16_dc_12'
+Lines executed:100.00% of 1
+
+Function 'idct_8x8_dc_12'
+Lines executed:100.00% of 1
+
+Function 'idct_4x4_dc_12'
+Lines executed:100.00% of 1
+
+Function 'idct_32x32_12'
+Lines executed:100.00% of 4
+
+Function 'idct_16x16_12'
+Lines executed:100.00% of 1
+
+Function 'idct_8x8_12'
+Lines executed:100.00% of 1
+
+Function 'idct_4x4_12'
+Lines executed:100.00% of 1
+
+Function 'transform_4x4_luma_12'
+Lines executed:100.00% of 14
+
+Function 'dequant_12'
+Lines executed:0.00% of 15
+
+Function 'transform_rdpcm_12'
+Lines executed:0.00% of 15
+
+Function 'add_residual32x32_12'
+Lines executed:100.00% of 12
+
+Function 'add_residual16x16_12'
+Lines executed:100.00% of 3
+
+Function 'add_residual8x8_12'
+Lines executed:100.00% of 3
+
+Function 'add_residual4x4_12'
+Lines executed:100.00% of 3
+
+Function 'put_pcm_12'
+Lines executed:0.00% of 9
+
+Function 'put_uni_chroma_w_hv_12'
+Lines executed:100.00% of 25
+
+Function 'put_uni_chroma_w_v_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_w_h_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_hv_12'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_12'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_12'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_12'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_12'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_12'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_12'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_w_v_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_w_h_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_hv_12'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_12'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_12'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_12'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_12'
+Lines executed:100.00% of 10
+
+Function 'put_uni_w_pixels_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_pixels_12'
+Lines executed:100.00% of 12
+
+Function 'sao_edge_restore_1_12'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_12'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_12'
+Lines executed:100.00% of 20
+
+Function 'sao_band_filter_12'
+Lines executed:100.00% of 16
+
+Function 'hevc_v_loop_filter_luma_10'
+Lines executed:100.00% of 3
+
+Function 'hevc_h_loop_filter_luma_10'
+Lines executed:100.00% of 3
+
+Function 'hevc_v_loop_filter_chroma_10'
+Lines executed:100.00% of 3
+
+Function 'hevc_h_loop_filter_chroma_10'
+Lines executed:100.00% of 3
+
+Function 'hevc_loop_filter_chroma_10'
+Lines executed:100.00% of 13
+
+Function 'hevc_loop_filter_luma_10'
+Lines executed:100.00% of 32
+
+Function 'loop_filter_chroma_weak_10'
+Lines executed:100.00% of 14
+
+Function 'loop_filter_luma_weak_10'
+Lines executed:100.00% of 24
+
+Function 'loop_filter_luma_strong_10'
+Lines executed:100.00% of 20
+
+Function 'put_hevc_epel_bi_w_hv_10'
+Lines executed:100.00% of 28
+
+Function 'put_hevc_epel_bi_w_v_10'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_w_h_10'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_hv_10'
+Lines executed:100.00% of 26
+
+Function 'put_hevc_epel_bi_v_10'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_epel_bi_h_10'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_w_hv_10'
+Lines executed:100.00% of 29
+
+Function 'put_hevc_qpel_bi_w_v_10'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_w_h_10'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_hv_10'
+Lines executed:100.00% of 27
+
+Function 'put_hevc_qpel_bi_v_10'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_h_10'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_pel_bi_w_pixels_10'
+Lines executed:100.00% of 17
+
+Function 'put_hevc_pel_bi_pixels_10'
+Lines executed:100.00% of 15
+
+Function 'put_hevc_epel_uni_w_hv_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_hv_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_hv_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_v_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_v_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_v_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_h_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_h_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_h_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_hv_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_hv_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_hv_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_v_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_v_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_v_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_h_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_h_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_h_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_w_pixels_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_pixels_10'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_pixels_10'
+Lines executed:100.00% of 1
+
+Function 'idct_32x32_dc_10'
+Lines executed:100.00% of 1
+
+Function 'idct_16x16_dc_10'
+Lines executed:100.00% of 1
+
+Function 'idct_8x8_dc_10'
+Lines executed:100.00% of 1
+
+Function 'idct_4x4_dc_10'
+Lines executed:100.00% of 1
+
+Function 'idct_32x32_10'
+Lines executed:100.00% of 1
+
+Function 'idct_16x16_10'
+Lines executed:100.00% of 1
+
+Function 'idct_8x8_10'
+Lines executed:100.00% of 1
+
+Function 'idct_4x4_10'
+Lines executed:100.00% of 1
+
+Function 'transform_4x4_luma_10'
+Lines executed:100.00% of 14
+
+Function 'dequant_10'
+Lines executed:0.00% of 15
+
+Function 'transform_rdpcm_10'
+Lines executed:0.00% of 15
+
+Function 'add_residual32x32_10'
+Lines executed:100.00% of 3
+
+Function 'add_residual16x16_10'
+Lines executed:100.00% of 3
+
+Function 'add_residual8x8_10'
+Lines executed:100.00% of 3
+
+Function 'add_residual4x4_10'
+Lines executed:100.00% of 3
+
+Function 'put_pcm_10'
+Lines executed:0.00% of 9
+
+Function 'put_uni_chroma_w_hv_10'
+Lines executed:100.00% of 25
+
+Function 'put_uni_chroma_w_v_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_w_h_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_hv_10'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_10'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_10'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_10'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_10'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_10'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_10'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_w_v_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_w_h_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_hv_10'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_10'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_10'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_10'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_10'
+Lines executed:100.00% of 10
+
+Function 'put_uni_w_pixels_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_pixels_10'
+Lines executed:100.00% of 10
+
+Function 'sao_edge_restore_1_10'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_10'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_10'
+Lines executed:100.00% of 20
+
+Function 'sao_band_filter_10'
+Lines executed:100.00% of 16
+
+Function 'hevc_v_loop_filter_luma_9'
+Lines executed:0.00% of 3
+
+Function 'hevc_h_loop_filter_luma_9'
+Lines executed:0.00% of 3
+
+Function 'hevc_v_loop_filter_chroma_9'
+Lines executed:0.00% of 3
+
+Function 'hevc_h_loop_filter_chroma_9'
+Lines executed:0.00% of 3
+
+Function 'hevc_loop_filter_chroma_9'
+Lines executed:0.00% of 13
+
+Function 'hevc_loop_filter_luma_9'
+Lines executed:0.00% of 32
+
+Function 'loop_filter_chroma_weak_9'
+Lines executed:0.00% of 14
+
+Function 'loop_filter_luma_weak_9'
+Lines executed:0.00% of 24
+
+Function 'loop_filter_luma_strong_9'
+Lines executed:0.00% of 20
+
+Function 'put_hevc_epel_bi_w_hv_9'
+Lines executed:100.00% of 28
+
+Function 'put_hevc_epel_bi_w_v_9'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_w_h_9'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_hv_9'
+Lines executed:100.00% of 26
+
+Function 'put_hevc_epel_bi_v_9'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_epel_bi_h_9'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_w_hv_9'
+Lines executed:100.00% of 29
+
+Function 'put_hevc_qpel_bi_w_v_9'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_w_h_9'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_hv_9'
+Lines executed:100.00% of 27
+
+Function 'put_hevc_qpel_bi_v_9'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_h_9'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_pel_bi_w_pixels_9'
+Lines executed:100.00% of 17
+
+Function 'put_hevc_pel_bi_pixels_9'
+Lines executed:100.00% of 15
+
+Function 'put_hevc_epel_uni_w_hv_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_hv_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_hv_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_v_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_v_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_v_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_h_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_h_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_h_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_hv_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_hv_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_hv_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_v_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_v_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_v_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_h_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_h_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_h_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_w_pixels_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_pixels_9'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_pixels_9'
+Lines executed:100.00% of 1
+
+Function 'idct_32x32_dc_9'
+Lines executed:0.00% of 1
+
+Function 'idct_16x16_dc_9'
+Lines executed:0.00% of 1
+
+Function 'idct_8x8_dc_9'
+Lines executed:0.00% of 1
+
+Function 'idct_4x4_dc_9'
+Lines executed:0.00% of 1
+
+Function 'idct_32x32_9'
+Lines executed:0.00% of 1
+
+Function 'idct_16x16_9'
+Lines executed:0.00% of 1
+
+Function 'idct_8x8_9'
+Lines executed:0.00% of 1
+
+Function 'idct_4x4_9'
+Lines executed:0.00% of 1
+
+Function 'transform_4x4_luma_9'
+Lines executed:0.00% of 14
+
+Function 'dequant_9'
+Lines executed:0.00% of 15
+
+Function 'transform_rdpcm_9'
+Lines executed:0.00% of 15
+
+Function 'add_residual32x32_9'
+Lines executed:100.00% of 3
+
+Function 'add_residual16x16_9'
+Lines executed:100.00% of 3
+
+Function 'add_residual8x8_9'
+Lines executed:100.00% of 3
+
+Function 'add_residual4x4_9'
+Lines executed:100.00% of 3
+
+Function 'put_pcm_9'
+Lines executed:0.00% of 9
+
+Function 'put_uni_chroma_w_hv_9'
+Lines executed:100.00% of 25
+
+Function 'put_uni_chroma_w_v_9'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_w_h_9'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_hv_9'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_9'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_9'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_9'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_9'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_9'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_9'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_w_v_9'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_w_h_9'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_hv_9'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_9'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_9'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_9'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_9'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_9'
+Lines executed:100.00% of 10
+
+Function 'put_uni_w_pixels_9'
+Lines executed:100.00% of 15
+
+Function 'put_uni_pixels_9'
+Lines executed:100.00% of 10
+
+Function 'sao_edge_restore_1_9'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_9'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_9'
+Lines executed:0.00% of 20
+
+Function 'sao_band_filter_9'
+Lines executed:0.00% of 16
+
+Function 'hevc_v_loop_filter_luma_8'
+Lines executed:100.00% of 3
+
+Function 'hevc_h_loop_filter_luma_8'
+Lines executed:100.00% of 3
+
+Function 'hevc_v_loop_filter_chroma_8'
+Lines executed:100.00% of 3
+
+Function 'hevc_h_loop_filter_chroma_8'
+Lines executed:100.00% of 3
+
+Function 'hevc_loop_filter_chroma_8'
+Lines executed:100.00% of 13
+
+Function 'hevc_loop_filter_luma_8'
+Lines executed:100.00% of 32
+
+Function 'loop_filter_chroma_weak_8'
+Lines executed:100.00% of 17
+
+Function 'loop_filter_luma_weak_8'
+Lines executed:100.00% of 24
+
+Function 'loop_filter_luma_strong_8'
+Lines executed:100.00% of 20
+
+Function 'put_hevc_epel_bi_w_hv_8'
+Lines executed:100.00% of 28
+
+Function 'put_hevc_epel_bi_w_v_8'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_w_h_8'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_epel_bi_hv_8'
+Lines executed:100.00% of 26
+
+Function 'put_hevc_epel_bi_v_8'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_epel_bi_h_8'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_w_hv_8'
+Lines executed:100.00% of 29
+
+Function 'put_hevc_qpel_bi_w_v_8'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_w_h_8'
+Lines executed:100.00% of 18
+
+Function 'put_hevc_qpel_bi_hv_8'
+Lines executed:100.00% of 27
+
+Function 'put_hevc_qpel_bi_v_8'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_qpel_bi_h_8'
+Lines executed:100.00% of 16
+
+Function 'put_hevc_pel_bi_w_pixels_8'
+Lines executed:100.00% of 17
+
+Function 'put_hevc_pel_bi_pixels_8'
+Lines executed:100.00% of 15
+
+Function 'put_hevc_epel_uni_w_hv_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_hv_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_hv_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_v_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_v_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_v_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_w_h_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_uni_h_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_epel_h_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_hv_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_hv_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_hv_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_v_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_v_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_v_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_w_h_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_uni_h_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_qpel_h_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_uni_w_pixels_8'
+Lines executed:100.00% of 15
+
+Function 'put_hevc_pel_uni_pixels_8'
+Lines executed:100.00% of 1
+
+Function 'put_hevc_pel_pixels_8'
+Lines executed:100.00% of 1
+
+Function 'idct_32x32_dc_8'
+Lines executed:100.00% of 1
+
+Function 'idct_16x16_dc_8'
+Lines executed:100.00% of 1
+
+Function 'idct_8x8_dc_8'
+Lines executed:100.00% of 1
+
+Function 'idct_4x4_dc_8'
+Lines executed:100.00% of 1
+
+Function 'idct_32x32_8'
+Lines executed:100.00% of 1
+
+Function 'idct_16x16_8'
+Lines executed:100.00% of 1
+
+Function 'idct_8x8_8'
+Lines executed:100.00% of 1
+
+Function 'idct_4x4_8'
+Lines executed:100.00% of 1
+
+Function 'transform_4x4_luma_8'
+Lines executed:100.00% of 14
+
+Function 'dequant_8'
+Lines executed:0.00% of 15
+
+Function 'transform_rdpcm_8'
+Lines executed:0.00% of 15
+
+Function 'add_residual32x32_8'
+Lines executed:100.00% of 3
+
+Function 'add_residual16x16_8'
+Lines executed:100.00% of 3
+
+Function 'add_residual8x8_8'
+Lines executed:100.00% of 3
+
+Function 'add_residual4x4_8'
+Lines executed:100.00% of 3
+
+Function 'put_pcm_8'
+Lines executed:0.00% of 9
+
+Function 'put_uni_chroma_w_hv_8'
+Lines executed:100.00% of 24
+
+Function 'put_uni_chroma_w_v_8'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_w_h_8'
+Lines executed:100.00% of 15
+
+Function 'put_uni_chroma_hv_8'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_8'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_8'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_8'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_8'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_8'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_8'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_w_v_8'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_w_h_8'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_hv_8'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_8'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_8'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_8'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_8'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_8'
+Lines executed:100.00% of 10
+
+Function 'put_uni_pixels_8'
+Lines executed:100.00% of 10
+
+Function 'sao_edge_restore_1_8'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_8'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_8'
+Lines executed:100.00% of 20
+
+Function 'sao_band_filter_8'
+Lines executed:100.00% of 16
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/hevc/dsp.c'
+Lines executed:100.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#hevc#dsp.c.gcov'
+
+File 'libavcodec/hevc/dsp_template.c'
+Lines executed:87.21% of 2142
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#hevc#dsp_template.c.gcov'
+
+File 'libavcodec/h26x/h2656_deblock_template.c'
+Lines executed:80.00% of 290
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#h26x#h2656_deblock_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/h26x/h2656_inter_template.c'
+Lines executed:100.00% of 1577
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#h26x#h2656_inter_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/h26x/h2656_sao_template.c'
+Lines executed:23.41% of 615
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#h26x#h2656_sao_template.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#dsp.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:82.41% of 4673

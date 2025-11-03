@@ -1,0 +1,32 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'config_input'
+Lines executed:0.00% of 58
+
+Function 'freq_gain'
+Lines executed:0.00% of 7
+
+Function 'set_lp_rbj'
+Lines executed:0.00% of 11
+
+Function 'set_highshelf_rbj'
+Lines executed:0.00% of 20
+
+Function 'filter_frame'
+Lines executed:0.00% of 18
+
+Function 'filter_channels'
+Lines executed:0.00% of 18
+
+Function 'biquad_process'
+Lines executed:0.00% of 18
+
+File 'libavfilter/af_aemphasis.c'
+Lines executed:0.00% of 159
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aemphasis.gcno##libavfilter#af_aemphasis.c.gcov'
+
+Lines executed:0.00% of 159

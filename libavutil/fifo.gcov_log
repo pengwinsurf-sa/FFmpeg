@@ -1,0 +1,63 @@
+Function 'av_fifo_freep2'
+Lines executed:0.00% of 5
+
+Function 'av_fifo_reset2'
+Lines executed:0.00% of 4
+
+Function 'av_fifo_drain2'
+Lines executed:0.00% of 9
+
+Function 'av_fifo_peek_to_cb'
+Lines executed:0.00% of 2
+
+Function 'av_fifo_peek'
+Lines executed:0.00% of 2
+
+Function 'av_fifo_read_to_cb'
+Lines executed:0.00% of 4
+
+Function 'av_fifo_read'
+Lines executed:0.00% of 4
+
+Function 'fifo_peek_common'
+Lines executed:0.00% of 27
+
+Function 'av_fifo_write_from_cb'
+Lines executed:0.00% of 2
+
+Function 'av_fifo_write'
+Lines executed:0.00% of 2
+
+Function 'fifo_write_common'
+Lines executed:0.00% of 24
+
+Function 'fifo_check_space'
+Lines executed:0.00% of 10
+
+Function 'av_fifo_grow2'
+Lines executed:0.00% of 18
+
+Function 'av_fifo_can_write'
+Lines executed:0.00% of 2
+
+Function 'av_fifo_can_read'
+Lines executed:0.00% of 4
+
+Function 'av_fifo_elem_size'
+Lines executed:0.00% of 2
+
+Function 'av_fifo_auto_grow_limit'
+Lines executed:0.00% of 3
+
+Function 'av_fifo_alloc2'
+Lines executed:0.00% of 18
+
+File 'libavutil/fifo.c'
+Lines executed:0.00% of 138
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#fifo.gcno##libavutil#fifo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#fifo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 142

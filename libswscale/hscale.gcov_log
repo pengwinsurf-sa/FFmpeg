@@ -1,0 +1,39 @@
+Function 'ff_init_desc_no_chr'
+Lines executed:0.00% of 7
+
+Function 'no_chr_scale'
+Lines executed:0.00% of 6
+
+Function 'ff_init_desc_chscale'
+Lines executed:100.00% of 18
+
+Function 'ff_init_desc_cfmt_convert'
+Lines executed:100.00% of 9
+
+Function 'chr_convert'
+Lines executed:0.00% of 23
+
+Function 'chr_h_scale'
+Lines executed:0.00% of 24
+
+Function 'ff_init_desc_hscale'
+Lines executed:100.00% of 13
+
+Function 'ff_init_desc_fmt_convert'
+Lines executed:100.00% of 10
+
+Function 'lum_convert'
+Lines executed:0.00% of 28
+
+Function 'lum_h_scale'
+Lines executed:0.00% of 29
+
+File 'libswscale/hscale.c'
+Lines executed:27.78% of 162
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#hscale.gcno##libswscale#hscale.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#hscale.gcno##libswscale#swscale_internal.h.gcov'
+
+Lines executed:29.94% of 167

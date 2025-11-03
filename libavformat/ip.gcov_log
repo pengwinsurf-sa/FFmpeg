@@ -1,0 +1,37 @@
+Function 'ff_ip_reset_filters'
+Lines executed:0.00% of 6
+
+Function 'ff_ip_parse_blocks'
+Lines executed:0.00% of 2
+
+Function 'ff_ip_parse_sources'
+Lines executed:0.00% of 2
+
+Function 'ip_parse_sources_and_blocks'
+Lines executed:0.00% of 8
+
+Function 'ip_parse_addr_list'
+Lines executed:0.00% of 19
+
+Function 'ff_ip_resolve_host'
+Lines executed:0.00% of 19
+
+Function 'ff_ip_check_source_lists'
+Lines executed:0.00% of 8
+
+Function 'compare_addr'
+Lines executed:0.00% of 9
+
+File 'libavformat/ip.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ip.gcno##libavformat#ip.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ip.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ip.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 73

@@ -1,0 +1,27 @@
+Function 'dts_probe'
+Lines executed:0.00% of 89
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavformat/dtsdec.c'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtsdec.gcno##libavformat#dtsdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtsdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtsdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtsdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dtsdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 108

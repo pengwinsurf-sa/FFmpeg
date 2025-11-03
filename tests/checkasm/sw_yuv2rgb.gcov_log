@@ -1,0 +1,33 @@
+Function 'checkasm_check_sw_yuv2rgb'
+Lines executed:100.00% of 8
+
+Function 'check_yuv2rgb'
+Lines executed:87.37% of 95
+
+Function 'cmp_565_by_n'
+Lines executed:100.00% of 7
+
+Function 'cmp_555_by_n'
+Lines executed:100.00% of 7
+
+File 'tests/checkasm/sw_yuv2rgb.c'
+Lines executed:94.29% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2rgb.gcno##tests#checkasm#sw_yuv2rgb.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2rgb.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2rgb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2rgb.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2rgb.gcno##libavutil#emms.h.gcov'
+
+Lines executed:89.74% of 117

@@ -300,16 +300,15 @@ int ff_vvc_output_frame(VVCContext *s, VVCFrameContext *fc, AVFrame *out, const 
                 frame->frame->flags |= AV_FRAME_FLAG_CORRUPT;
 
             ret = av_frame_ref(out, frame->needs_fg ? frame->frame_grain : frame->frame);
-            if (ret < 0)
-                return ret;
 
-            if (!(s->avctx->export_side_data & AV_CODEC_EXPORT_DATA_FILM_GRAIN))
+            if (!ret && !(s->avctx->export_side_data & AV_CODEC_EXPORT_DATA_FILM_GRAIN))
                 av_frame_remove_side_data(out, AV_FRAME_DATA_FILM_GRAIN_PARAMS);
 
             if (frame->flags & VVC_FRAME_FLAG_BUMPING)
                 ff_vvc_unref_frame(fc, frame, VVC_FRAME_FLAG_OUTPUT | VVC_FRAME_FLAG_BUMPING);
             else
                 ff_vvc_unref_frame(fc, frame, VVC_FRAME_FLAG_OUTPUT);
+
             if (ret < 0)
                 return ret;
 
@@ -451,7 +450,8 @@ static int add_candidate_ref(VVCContext *s, VVCFrameContext *fc, RefPicList *lis
 
     if (!IS_CVSS(s)) {
         const bool ref_corrupt = !ref || (ref->flags & VVC_FRAME_FLAG_CORRUPT);
-        const bool recovering  = s->no_output_before_recovery_flag && !GDR_IS_RECOVERED(s);
+        const bool recovering  = s->no_output_before_recovery_flag &&
+            (IS_RASL(s) || !GDR_IS_RECOVERED(s));
 
         if (ref_corrupt && !recovering) {
             if (!(s->avctx->flags & AV_CODEC_FLAG_OUTPUT_CORRUPT) &&

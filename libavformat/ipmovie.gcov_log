@@ -1,0 +1,31 @@
+Function 'ipmovie_read_packet'
+Lines executed:0.00% of 12
+
+Function 'ipmovie_read_header'
+Lines executed:0.00% of 43
+
+Function 'ipmovie_probe'
+Lines executed:0.00% of 7
+
+Function 'process_ipmovie_chunk'
+Lines executed:0.00% of 199
+
+Function 'init_audio'
+Lines executed:0.00% of 17
+
+Function 'load_ipmovie_packet'
+Lines executed:0.00% of 68
+
+File 'libavformat/ipmovie.c'
+Lines executed:0.00% of 340
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ipmovie.gcno##libavformat#ipmovie.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ipmovie.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ipmovie.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 346

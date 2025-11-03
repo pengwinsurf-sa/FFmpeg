@@ -196,9 +196,9 @@ typedef struct EXRContext {
     enum AVColorTransferCharacteristic apply_trc_type;
     float gamma;
     uint16_t gamma_table[65536];
-    Float2HalfTables f2h_tables;
 #endif
 
+    Float2HalfTables f2h_tables;
     Half2FloatTables h2f_tables;
 } EXRContext;
 
@@ -992,10 +992,11 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
     int64_t version, lo_usize, lo_size;
     int64_t ac_size, dc_size, rle_usize, rle_csize, rle_raw_size;
     int64_t ac_count, dc_count, ac_compression;
-    const int dc_w = td->xsize >> 3;
-    const int dc_h = td->ysize >> 3;
+    const int dc_w = (td->xsize + 7) >> 3;
+    const int dc_h = (td->ysize + 7) >> 3;
     GetByteContext gb, agb;
     int skip, ret;
+    int have_rle = 0;
 
     if (compressed_size <= 88)
         return AVERROR_INVALIDDATA;
@@ -1003,6 +1004,11 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
     version = AV_RL64(src + 0);
     if (version != 2)
         return AVERROR_INVALIDDATA;
+
+    if (s->nb_channels < 3) {
+        avpriv_request_sample(s->avctx, "Gray DWA");
+        return AVERROR_PATCHWELCOME;
+    }
 
     lo_usize = AV_RL64(src + 8);
     lo_size = AV_RL64(src + 16);
@@ -1019,6 +1025,20 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
         || ac_count > (uint64_t)INT_MAX/2
     )
         return AVERROR_INVALIDDATA;
+
+    if (ac_size <= 0) {
+        avpriv_request_sample(s->avctx, "Zero ac_size");
+        return AVERROR_INVALIDDATA;
+    }
+
+    if ((uint64_t)rle_raw_size > INT_MAX) {
+        avpriv_request_sample(s->avctx, "Too big rle_raw_size");
+        return AVERROR_INVALIDDATA;
+    }
+
+    if (td->xsize % 8 || td->ysize % 8) {
+        avpriv_request_sample(s->avctx, "odd dimensions DWA");
+    }
 
     bytestream2_init(&gb, src + 88, compressed_size - 88);
     skip = bytestream2_get_le16(&gb);
@@ -1090,6 +1110,9 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
     if (rle_raw_size > 0 && rle_csize > 0 && rle_usize > 0) {
         unsigned long dest_len = rle_usize;
 
+        if (2LL * td->xsize * td->ysize > rle_raw_size)
+            return AVERROR_INVALIDDATA;
+
         av_fast_padded_malloc(&td->rle_data, &td->rle_size, rle_usize);
         if (!td->rle_data)
             return AVERROR(ENOMEM);
@@ -1106,6 +1129,8 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
         if (ret < 0)
             return ret;
         bytestream2_skip(&gb, rle_csize);
+
+        have_rle = 1;
     }
 
     bytestream2_init(&agb, td->ac_data, ac_count * 2);
@@ -1116,6 +1141,8 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
             float *yb = td->block[0];
             float *ub = td->block[1];
             float *vb = td->block[2];
+            int bw = FFMIN(8, td->xsize - x);
+            int bh = FFMIN(8, td->ysize - y);
 
             memset(td->block, 0, sizeof(td->block));
 
@@ -1140,8 +1167,8 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
                 uint16_t *ro = ((uint16_t *)td->uncompressed_data) +
                     y * td->xsize * s->nb_channels + td->xsize * (o + 2) + x;
 
-                for (int yy = 0; yy < 8; yy++) {
-                    for (int xx = 0; xx < 8; xx++) {
+                for (int yy = 0; yy < bh; yy++) {
+                    for (int xx = 0; xx < bw; xx++) {
                         const int idx = xx + yy * 8;
                         float b, g, r;
 
@@ -1164,8 +1191,8 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
                 float *ro = ((float *)td->uncompressed_data) +
                     y * td->xsize * s->nb_channels + td->xsize * (o + 2) + x;
 
-                for (int yy = 0; yy < 8; yy++) {
-                    for (int xx = 0; xx < 8; xx++) {
+                for (int yy = 0; yy < bh; yy++) {
+                    for (int xx = 0; xx < bw; xx++) {
                         const int idx = xx + yy * 8;
 
                         convert(yb[idx], ub[idx], vb[idx], &bo[xx], &go[xx], &ro[xx]);
@@ -1187,7 +1214,7 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
         return 0;
 
     if (s->pixel_type == EXR_HALF) {
-        for (int y = 0; y < td->ysize && td->rle_raw_data; y++) {
+        for (int y = 0; y < td->ysize && have_rle; y++) {
             uint16_t *ao = ((uint16_t *)td->uncompressed_data) + y * td->xsize * s->nb_channels;
             uint8_t *ai0 = td->rle_raw_data + y * td->xsize;
             uint8_t *ai1 = td->rle_raw_data + y * td->xsize + rle_raw_size / 2;
@@ -1196,7 +1223,7 @@ static int dwa_uncompress(const EXRContext *s, const uint8_t *src, int compresse
                 ao[x] = ai0[x] | (ai1[x] << 8);
         }
     } else {
-        for (int y = 0; y < td->ysize && td->rle_raw_data; y++) {
+        for (int y = 0; y < td->ysize && have_rle; y++) {
             uint32_t *ao = ((uint32_t *)td->uncompressed_data) + y * td->xsize * s->nb_channels;
             uint8_t *ai0 = td->rle_raw_data + y * td->xsize;
             uint8_t *ai1 = td->rle_raw_data + y * td->xsize + rle_raw_size / 2;
@@ -2073,6 +2100,17 @@ static int decode_frame(AVCodecContext *avctx, AVFrame *picture,
     if ((ret = decode_header(s, picture)) < 0)
         return ret;
 
+    if (s->compression == EXR_DWAA ||
+        s->compression == EXR_DWAB) {
+        for (int i = 0; i<s->nb_channels; i++) {
+            EXRChannel *channel = &s->channels[i];
+            if (channel->pixel_type != s->pixel_type) {
+                avpriv_request_sample(s->avctx, "mixed pixel type DWA");
+                return AVERROR_PATCHWELCOME;
+            }
+        }
+    }
+
     switch (s->pixel_type) {
     case EXR_HALF:
         if (s->channel_offsets[3] >= 0) {
@@ -2123,6 +2161,9 @@ static int decode_frame(AVCodecContext *avctx, AVFrame *picture,
         av_log(avctx, AV_LOG_ERROR, "Missing channel list.\n");
         return AVERROR_INVALIDDATA;
     }
+
+    if (s->channel_offsets[3] >= 0)
+        avctx->alpha_mode = AVALPHA_MODE_PREMULTIPLIED;
 
 #if FF_API_EXR_GAMMA
     if (s->apply_trc_type != AVCOL_TRC_UNSPECIFIED)
@@ -2259,9 +2300,9 @@ static av_cold int decode_init(AVCodecContext *avctx)
     union av_intfloat32 t;
     float one_gamma = 1.0f / s->gamma;
     av_csp_trc_function trc_func = NULL;
-    ff_init_float2half_tables(&s->f2h_tables);
 #endif
 
+    ff_init_float2half_tables(&s->f2h_tables);
     ff_init_half2float_tables(&s->h2f_tables);
 
     s->avctx              = avctx;

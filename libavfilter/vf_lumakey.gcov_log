@@ -1,0 +1,24 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 7
+
+Function 'config_input'
+Lines executed:0.00% of 23
+
+Function 'do_lumakey_slice16'
+Lines executed:0.00% of 23
+
+Function 'do_lumakey_slice8'
+Lines executed:0.00% of 22
+
+File 'libavfilter/vf_lumakey.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lumakey.gcno##libavfilter#vf_lumakey.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lumakey.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 80

@@ -1,0 +1,11 @@
+Function 'ff_aacdec_common_init_once'
+Lines executed:0.00% of 4
+
+Function 'aacdec_common_init'
+Lines executed:0.00% of 20
+
+File 'libavcodec/aac/aacdec_tab.c'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_tab.gcno##libavcodec#aac#aacdec_tab.c.gcov'
+
+Lines executed:0.00% of 24

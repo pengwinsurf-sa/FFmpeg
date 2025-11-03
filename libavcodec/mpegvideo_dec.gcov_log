@@ -1,0 +1,86 @@
+Function 'ff_mpv_reconstruct_mb'
+Lines executed:0.00% of 143
+
+Function 'lowest_referenced_row'
+Lines executed:0.00% of 19
+
+Function 'MPV_motion_lowres'
+Lines executed:0.00% of 138
+
+Function 'chroma_4mv_motion_lowres'
+Lines executed:0.00% of 39
+
+Function 'hpel_motion_lowres'
+Lines executed:0.00% of 27
+
+Function 'ff_mpeg_flush'
+Lines executed:0.00% of 8
+
+Function 'ff_mpeg_draw_horiz_band'
+Lines executed:0.00% of 4
+
+Function 'ff_mpv_export_qp_table'
+Lines executed:0.00% of 21
+
+Function 'ff_print_debug_info'
+Lines executed:0.00% of 5
+
+Function 'ff_mpv_frame_end'
+Lines executed:0.00% of 7
+
+Function 'ff_mpv_frame_start'
+Lines executed:0.00% of 27
+
+Function 'ff_mpv_alloc_dummy_frames'
+Lines executed:0.00% of 20
+
+Function 'color_frame'
+Lines executed:0.00% of 14
+
+Function 'alloc_dummy_frame'
+Lines executed:0.00% of 8
+
+Function 'alloc_picture'
+Lines executed:0.00% of 31
+
+Function 'ff_mpv_common_frame_size_change'
+Lines executed:0.00% of 27
+
+Function 'ff_mpv_decode_close'
+Lines executed:0.00% of 7
+
+Function 'ff_mpeg_update_thread_context'
+Lines executed:0.00% of 25
+
+Function 'ff_mpv_decode_init'
+Lines executed:0.00% of 16
+
+File 'libavcodec/mpegvideo_dec.c'
+Lines executed:0.00% of 568
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno##libavcodec#mpegvideo_dec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/h263.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno##libavcodec#h263.h.gcov'
+
+File 'libavutil/video_enc_params.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno##libavutil#video_enc_params.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_dec.gcno##libavutil#refstruct.h.gcov'
+
+Lines executed:0.00% of 586

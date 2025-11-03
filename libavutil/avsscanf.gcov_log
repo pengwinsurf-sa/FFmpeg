@@ -1,0 +1,43 @@
+Function 'av_sscanf'
+Lines executed:0.00% of 10
+
+Function 'ff_vfscanf'
+Lines executed:0.00% of 180
+
+Function 'arg_n'
+Lines executed:0.00% of 9
+
+Function 'fffloatscan'
+Lines executed:0.00% of 52
+
+Function 'hexfloat'
+Lines executed:0.00% of 73
+
+Function 'decfloat'
+Lines executed:0.00% of 168
+
+Function 'scanexp'
+Lines executed:0.00% of 20
+
+Function 'ffintscan'
+Lines executed:0.00% of 59
+
+Function 'ffshgetc'
+Lines executed:0.00% of 19
+
+Function 'ffstring_read'
+Lines executed:0.00% of 13
+
+File 'libavutil/avsscanf.c'
+Lines executed:0.00% of 594
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avsscanf.gcno##libavutil#avsscanf.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avsscanf.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avsscanf.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 603

@@ -1,0 +1,32 @@
+Function 'uninit'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 27
+
+Function 'blur_image'
+Lines executed:0.00% of 15
+
+Function 'blur_pixel'
+Lines executed:0.00% of 25
+
+Function 'config_props_input'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 38
+
+Function 'generate_half_size_image'
+Lines executed:0.00% of 12
+
+Function 'load_mask'
+Lines executed:0.00% of 16
+
+Function 'convert_mask_to_strength_mask'
+Lines executed:0.00% of 27
+
+File 'libavfilter/vf_removelogo.c'
+Lines executed:0.00% of 178
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_removelogo.gcno##libavfilter#vf_removelogo.c.gcov'
+
+Lines executed:0.00% of 178

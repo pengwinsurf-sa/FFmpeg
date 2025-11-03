@@ -1,0 +1,44 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 38
+
+Function 'process_frame'
+Lines executed:0.00% of 26
+
+Function 'maskedminmax_slice'
+Lines executed:0.00% of 26
+
+Function 'config_input'
+Lines executed:0.00% of 19
+
+Function 'maskedmax32'
+Lines executed:0.00% of 1
+
+Function 'maskedmin32'
+Lines executed:0.00% of 1
+
+Function 'maskedmax16'
+Lines executed:0.00% of 1
+
+Function 'maskedmin16'
+Lines executed:0.00% of 1
+
+Function 'maskedmax8'
+Lines executed:0.00% of 1
+
+Function 'maskedmin8'
+Lines executed:0.00% of 1
+
+Function 'maskedmin_init'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_maskedminmax.c'
+Lines executed:0.00% of 126
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_maskedminmax.gcno##libavfilter#vf_maskedminmax.c.gcov'
+
+Lines executed:0.00% of 126

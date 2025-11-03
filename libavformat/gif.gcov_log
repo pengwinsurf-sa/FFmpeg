@@ -1,0 +1,29 @@
+Function 'gif_write_trailer'
+Lines executed:0.00% of 9
+
+Function 'gif_write_packet'
+Lines executed:0.00% of 59
+
+Function 'gif_parse_packet'
+Lines executed:0.00% of 28
+
+Function 'gif_init'
+Lines executed:0.00% of 3
+
+File 'libavformat/gif.c'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gif.gcno##libavformat#gif.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gif.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gif.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gif.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 99

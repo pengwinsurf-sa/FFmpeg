@@ -1,0 +1,26 @@
+Function 'process_command'
+Lines executed:0.00% of 6
+
+Function 'config_input'
+Lines executed:0.00% of 25
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 45
+
+Function 'lfo_advance'
+Lines executed:0.00% of 5
+
+Function 'lfo_get'
+Lines executed:0.00% of 7
+
+Function 'bitreduction'
+Lines executed:0.00% of 40
+
+File 'libavfilter/af_acrusher.c'
+Lines executed:0.00% of 132
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_acrusher.gcno##libavfilter#af_acrusher.c.gcov'
+
+Lines executed:0.00% of 132

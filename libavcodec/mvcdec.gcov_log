@@ -1,0 +1,25 @@
+Function 'mvc_decode_frame'
+Lines executed:0.00% of 17
+
+Function 'decode_mvc2'
+Lines executed:0.00% of 77
+
+Function 'decode_mvc1'
+Lines executed:0.00% of 22
+
+Function 'mvc_decode_init'
+Lines executed:0.00% of 16
+
+File 'libavcodec/mvcdec.c'
+Lines executed:0.00% of 115
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mvcdec.gcno##libavcodec#mvcdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mvcdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mvcdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 132

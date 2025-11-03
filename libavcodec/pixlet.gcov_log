@@ -1,0 +1,85 @@
+Function 'pixlet_decode_frame'
+Lines executed:0.00% of 76
+
+Function 'decode_plane'
+Lines executed:0.00% of 73
+
+Function 'postprocess_chroma'
+Lines executed:0.00% of 21
+
+Function 'postprocess_luma'
+Lines executed:0.00% of 17
+
+Function 'reconstruction'
+Lines executed:0.00% of 28
+
+Function 'filterfn'
+Lines executed:0.00% of 40
+
+Function 'lowpass_prediction'
+Lines executed:0.00% of 15
+
+Function 'read_highpass'
+Lines executed:0.00% of 25
+
+Function 'read_high_coeffs'
+Lines executed:0.00% of 94
+
+Function 'read_low_coeffs'
+Lines executed:0.00% of 49
+
+Function 'init_decoder'
+Lines executed:0.00% of 21
+
+Function 'pixlet_close'
+Lines executed:0.00% of 6
+
+Function 'free_buffers'
+Lines executed:0.00% of 6
+
+Function 'pixlet_init'
+Lines executed:0.00% of 4
+
+Function 'show_bits'
+Lines executed:0.00% of 14
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/pixlet.c'
+Lines executed:0.00% of 398
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavcodec#pixlet.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pixlet.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 499

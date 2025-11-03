@@ -1,0 +1,21 @@
+Function 'main'
+Lines executed:0.00% of 68
+
+Function 'decode_write'
+Lines executed:0.00% of 49
+
+Function 'get_hw_format'
+Lines executed:0.00% of 7
+
+Function 'hw_decoder_init'
+Lines executed:0.00% of 7
+
+File 'doc/examples/hw_decode.c'
+Lines executed:0.00% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#hw_decode.gcno##doc#examples#hw_decode.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#hw_decode.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 131

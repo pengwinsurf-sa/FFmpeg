@@ -1,0 +1,53 @@
+Function 'ea_read_packet'
+Lines executed:0.00% of 112
+
+Function 'ea_read_header'
+Lines executed:0.00% of 35
+
+Function 'init_video_stream'
+Lines executed:0.00% of 22
+
+Function 'ea_probe'
+Lines executed:0.00% of 10
+
+Function 'process_ea_header'
+Lines executed:0.00% of 77
+
+Function 'process_video_header_cmv'
+Lines executed:0.00% of 8
+
+Function 'process_video_header_vp6'
+Lines executed:0.00% of 12
+
+Function 'process_video_header_mdec'
+Lines executed:0.00% of 9
+
+Function 'process_audio_header_sead'
+Lines executed:0.00% of 8
+
+Function 'process_audio_header_eacs'
+Lines executed:0.00% of 28
+
+Function 'process_audio_header_elements'
+Lines executed:0.00% of 115
+
+Function 'read_arbitrary'
+Lines executed:0.00% of 11
+
+File 'libavformat/electronicarts.c'
+Lines executed:0.00% of 440
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#electronicarts.gcno##libavformat#electronicarts.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#electronicarts.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#electronicarts.gcno##libavutil#rational.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#electronicarts.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 447

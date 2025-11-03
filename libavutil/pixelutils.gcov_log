@@ -1,0 +1,27 @@
+Function 'av_pixelutils_get_sad_fn'
+Lines executed:0.00% of 10
+
+Function 'block_sad_32x32_c'
+Lines executed:0.00% of 9
+
+Function 'block_sad_16x16_c'
+Lines executed:0.00% of 1
+
+Function 'block_sad_8x8_c'
+Lines executed:0.00% of 1
+
+Function 'block_sad_4x4_c'
+Lines executed:0.00% of 1
+
+Function 'block_sad_2x2_c'
+Lines executed:0.00% of 1
+
+File 'libavutil/pixelutils.c'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#pixelutils.gcno##libavutil#pixelutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#pixelutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 23

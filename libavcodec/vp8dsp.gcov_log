@@ -1,0 +1,226 @@
+Function 'ff_vp8dsp_init'
+Lines executed:100.00% of 19
+
+Function 'vp8_h_loop_filter_simple_c'
+Lines executed:100.00% of 20
+
+Function 'vp8_v_loop_filter_simple_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_h_loop_filter8uv_inner_c'
+Lines executed:100.00% of 8
+
+Function 'vp8_h_loop_filter8uv_c'
+Lines executed:100.00% of 17
+
+Function 'vp8_v_loop_filter8uv_inner_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_v_loop_filter8uv_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_h_loop_filter16_inner_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_h_loop_filter16_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_v_loop_filter16_inner_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_v_loop_filter16_c'
+Lines executed:100.00% of 1
+
+Function 'ff_vp7dsp_init'
+Lines executed:100.00% of 18
+
+Function 'vp7_h_loop_filter_simple_c'
+Lines executed:100.00% of 7
+
+Function 'vp7_v_loop_filter_simple_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_h_loop_filter8uv_inner_c'
+Lines executed:100.00% of 2
+
+Function 'vp7_h_loop_filter8uv_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_v_loop_filter8uv_inner_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_v_loop_filter8uv_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_h_loop_filter16_inner_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_h_loop_filter16_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_v_loop_filter16_inner_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_v_loop_filter16_c'
+Lines executed:100.00% of 1
+
+Function 'ff_vp78dsp_init'
+Lines executed:100.00% of 9
+
+Function 'put_vp8_bilinear4_hv_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear4_v_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear4_h_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear8_hv_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear8_v_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear8_h_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear16_hv_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear16_v_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_bilinear16_h_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_h6v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_h6v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_h6v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_h6v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_h6v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_h6v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_h4v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_h4v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_h4v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_h4v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_h4v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_h4v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_v6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_v4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_h6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_h6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_h6_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel4_h4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel8_h4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_epel16_h4_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_pixels4_c'
+Lines executed:100.00% of 3
+
+Function 'put_vp8_pixels8_c'
+Lines executed:100.00% of 1
+
+Function 'put_vp8_pixels16_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_idct_dc_add4y_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_idct_dc_add4uv_c'
+Lines executed:100.00% of 1
+
+Function 'vp8_idct_dc_add_c'
+Lines executed:100.00% of 13
+
+Function 'vp8_idct_add_c'
+Lines executed:100.00% of 27
+
+Function 'vp8_luma_dc_wht_dc_c'
+Lines executed:100.00% of 9
+
+Function 'vp8_luma_dc_wht_c'
+Lines executed:100.00% of 22
+
+Function 'vp7_idct_dc_add4y_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_idct_dc_add4uv_c'
+Lines executed:100.00% of 1
+
+Function 'vp7_idct_dc_add_c'
+Lines executed:100.00% of 10
+
+Function 'vp7_idct_add_c'
+Lines executed:100.00% of 28
+
+Function 'vp7_luma_dc_wht_dc_c'
+Lines executed:100.00% of 9
+
+Function 'vp7_luma_dc_wht_c'
+Lines executed:100.00% of 24
+
+File 'libavcodec/vp8dsp.c'
+Lines executed:100.00% of 301
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp8dsp.gcno##libavcodec#vp8dsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp8dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp8dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:100.00% of 306

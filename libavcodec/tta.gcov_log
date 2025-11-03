@@ -1,0 +1,42 @@
+Function 'tta_decode_close'
+Lines executed:0.00% of 7
+
+Function 'tta_decode_frame'
+Lines executed:0.00% of 168
+
+Function 'tta_decode_init'
+Lines executed:0.00% of 85
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 9
+
+Function 'tta_check_crc64'
+Lines executed:0.00% of 9
+
+Function 'tta_check_crc'
+Lines executed:0.00% of 7
+
+Function 'get_bits_long'
+Lines executed:0.00% of 2
+
+File 'libavcodec/tta.c'
+Lines executed:0.00% of 206
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tta.gcno##libavcodec#tta.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tta.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tta.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tta.gcno##libavcodec#unary.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tta.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 287

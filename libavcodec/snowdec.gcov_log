@@ -1,0 +1,74 @@
+Function 'decode_end'
+Lines executed:0.00% of 7
+
+Function 'decode_frame'
+Lines executed:0.00% of 303
+
+Function 'decode_blocks'
+Lines executed:0.00% of 10
+
+Function 'decode_header'
+Lines executed:0.00% of 90
+
+Function 'decode_qlogs'
+Lines executed:0.00% of 11
+
+Function 'correlate_slice_buffered'
+Lines executed:0.00% of 23
+
+Function 'dequantize_slice_buffered'
+Lines executed:0.00% of 18
+
+Function 'decode_q_branch'
+Lines executed:0.00% of 51
+
+Function 'decode_subband_slice_buffered'
+Lines executed:0.00% of 27
+
+Function 'unpack_coeffs'
+Lines executed:0.00% of 72
+
+Function 'get_symbol2'
+Lines executed:0.00% of 9
+
+Function 'get_symbol'
+Lines executed:0.00% of 10
+
+Function 'set_blocks'
+Lines executed:0.00% of 20
+
+Function 'pred_mv'
+Lines executed:0.00% of 12
+
+Function 'get_rac'
+Lines executed:0.00% of 21
+
+File 'libavcodec/snowdec.c'
+Lines executed:0.00% of 499
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno##libavcodec#snowdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/snow.h'
+Lines executed:0.00% of 151
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno##libavcodec#snow.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowdec.gcno##libavcodec#rangecoder.h.gcov'
+
+Lines executed:0.00% of 684

@@ -1,0 +1,43 @@
+Function 'read_packet'
+Lines executed:0.00% of 10
+
+Function 'idf_read_header'
+Lines executed:0.00% of 28
+
+Function 'idf_probe'
+Lines executed:0.00% of 4
+
+Function 'adf_read_header'
+Lines executed:0.00% of 28
+
+Function 'xbin_read_header'
+Lines executed:0.00% of 30
+
+Function 'xbin_probe'
+Lines executed:0.00% of 6
+
+Function 'bintext_read_header'
+Lines executed:0.00% of 24
+
+Function 'bin_probe'
+Lines executed:0.00% of 21
+
+Function 'next_tag_read'
+Lines executed:0.00% of 15
+
+Function 'init_stream'
+Lines executed:0.00% of 16
+
+File 'libavformat/bintext.c'
+Lines executed:0.00% of 178
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bintext.gcno##libavformat#bintext.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bintext.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bintext.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 182

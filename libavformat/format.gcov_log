@@ -1,0 +1,39 @@
+Function 'av_probe_input_buffer'
+Lines executed:0.00% of 3
+
+Function 'av_probe_input_buffer2'
+Lines executed:0.00% of 54
+
+Function 'av_probe_input_format'
+Lines executed:0.00% of 3
+
+Function 'av_probe_input_format2'
+Lines executed:0.00% of 6
+
+Function 'av_probe_input_format3'
+Lines executed:0.00% of 57
+
+Function 'av_find_input_format'
+Lines executed:0.00% of 6
+
+Function 'av_guess_codec'
+Lines executed:0.00% of 16
+
+Function 'av_guess_format'
+Lines executed:0.00% of 23
+
+Function 'ff_match_url_ext'
+Lines executed:0.00% of 13
+
+Function 'av_match_ext'
+Lines executed:0.00% of 6
+
+File 'libavformat/format.c'
+Lines executed:0.00% of 185
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#format.gcno##libavformat#format.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#format.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 187

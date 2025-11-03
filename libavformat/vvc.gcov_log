@@ -1,0 +1,90 @@
+Function 'ff_isom_write_vvcc'
+Lines executed:0.00% of 32
+
+Function 'ff_vvc_annexb2mp4_buf'
+Lines executed:0.00% of 11
+
+Function 'ff_vvc_annexb2mp4'
+Lines executed:0.00% of 31
+
+Function 'vvcc_write'
+Lines executed:0.00% of 131
+
+Function 'vvcc_close'
+Lines executed:0.00% of 8
+
+Function 'vvcc_init'
+Lines executed:0.00% of 8
+
+Function 'vvcc_add_nal_unit'
+Lines executed:0.00% of 47
+
+Function 'vvcc_array_add_nal_unit'
+Lines executed:0.00% of 16
+
+Function 'nal_unit_parse_header'
+Lines executed:0.00% of 9
+
+Function 'vvcc_parse_sps'
+Lines executed:0.00% of 77
+
+Function 'vvcc_parse_vps'
+Lines executed:0.00% of 58
+
+Function 'vvcc_parse_ptl'
+Lines executed:0.00% of 31
+
+Function 'vvcc_update_ptl'
+Lines executed:0.00% of 40
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 10
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/vvc.c'
+Lines executed:0.00% of 431
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavformat#vvc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 572

@@ -1,0 +1,1085 @@
+Function 'ff_h264_pred_init'
+Lines executed:87.76% of 49
+
+Function 'pred8x8_tm_vp8_c'
+Lines executed:100.00% of 16
+
+Function 'pred8x8_dc_rv40_c'
+Lines executed:100.00% of 15
+
+Function 'pred8x8_top_dc_rv40_c'
+Lines executed:100.00% of 11
+
+Function 'pred8x8_left_dc_rv40_c'
+Lines executed:100.00% of 11
+
+Function 'pred16x16_tm_vp8_c'
+Lines executed:100.00% of 24
+
+Function 'pred16x16_plane_rv40_c'
+Lines executed:100.00% of 3
+
+Function 'pred16x16_plane_svq3_c'
+Lines executed:100.00% of 3
+
+Function 'pred4x4_tm_vp8_c'
+Lines executed:100.00% of 12
+
+Function 'pred4x4_horizontal_up_rv40_nodown_c'
+Lines executed:100.00% of 21
+
+Function 'pred4x4_horizontal_up_rv40_c'
+Lines executed:100.00% of 22
+
+Function 'pred4x4_vertical_left_vp8_c'
+Lines executed:100.00% of 20
+
+Function 'pred4x4_vertical_left_rv40_nodown_c'
+Lines executed:100.00% of 4
+
+Function 'pred4x4_vertical_left_rv40_c'
+Lines executed:100.00% of 5
+
+Function 'pred4x4_vertical_left_rv40'
+Lines executed:100.00% of 20
+
+Function 'pred4x4_down_left_rv40_nodown_c'
+Lines executed:100.00% of 21
+
+Function 'pred4x4_down_left_rv40_c'
+Lines executed:100.00% of 22
+
+Function 'pred4x4_down_left_svq3_c'
+Lines executed:100.00% of 20
+
+Function 'pred4x4_horizontal_vp8_c'
+Lines executed:100.00% of 8
+
+Function 'pred4x4_vertical_vp8_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_129_dc_c'
+Lines executed:100.00% of 8
+
+Function 'pred4x4_127_dc_c'
+Lines executed:100.00% of 8
+
+Function 'pred8x16_horizontal_add_14_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_horizontal_add_14_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_vertical_add_14_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_vertical_add_14_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_horizontal_add_14_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_vertical_add_14_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x8l_horizontal_add_14_c'
+Lines executed:0.00% of 21
+
+Function 'pred8x8l_vertical_add_14_c'
+Lines executed:0.00% of 20
+
+Function 'pred4x4_horizontal_add_14_c'
+Lines executed:0.00% of 15
+
+Function 'pred4x4_vertical_add_14_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8l_horizontal_filter_add_14_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_filter_add_14_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_horizontal_up_14_c'
+Lines executed:0.00% of 23
+
+Function 'pred8x8l_vertical_left_14_c'
+Lines executed:0.00% of 28
+
+Function 'pred8x8l_horizontal_down_14_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_right_14_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_down_right_14_c'
+Lines executed:0.00% of 22
+
+Function 'pred8x8l_down_left_14_c'
+Lines executed:0.00% of 21
+
+Function 'pred8x8l_vertical_14_c'
+Lines executed:0.00% of 20
+
+Function 'pred8x8l_horizontal_14_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8l_dc_14_c'
+Lines executed:0.00% of 8
+
+Function 'pred8x8l_top_dc_14_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8l_left_dc_14_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8l_128_dc_14_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_plane_14_c'
+Lines executed:0.00% of 35
+
+Function 'pred8x8_plane_14_c'
+Lines executed:0.00% of 30
+
+Function 'pred8x16_mad_cow_dc_0l0_14'
+Lines executed:0.00% of 13
+
+Function 'pred8x8_mad_cow_dc_0l0_14'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_mad_cow_dc_l00_14'
+Lines executed:0.00% of 5
+
+Function 'pred8x8_mad_cow_dc_l00_14'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_mad_cow_dc_0lt_14'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_mad_cow_dc_0lt_14'
+Lines executed:0.00% of 4
+
+Function 'pred8x16_mad_cow_dc_l0t_14'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_mad_cow_dc_l0t_14'
+Lines executed:0.00% of 4
+
+Function 'pred8x16_dc_14_c'
+Lines executed:0.00% of 34
+
+Function 'pred8x8_dc_14_c'
+Lines executed:0.00% of 22
+
+Function 'pred8x16_top_dc_14_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8_top_dc_14_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x16_left_dc_14_c'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_left_dc_14_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x16_128_dc_14_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x8_128_dc_14_c'
+Lines executed:0.00% of 1
+
+Function 'pred8x16_horizontal_14_c'
+Lines executed:0.00% of 9
+
+Function 'pred8x8_horizontal_14_c'
+Lines executed:0.00% of 9
+
+Function 'pred8x16_vertical_14_c'
+Lines executed:0.00% of 10
+
+Function 'pred8x8_vertical_14_c'
+Lines executed:0.00% of 10
+
+Function 'pred16x16_plane_14_c'
+Lines executed:0.00% of 3
+
+Function 'pred16x16_plane_compat_14_c'
+Lines executed:0.00% of 35
+
+Function 'pred16x16_128_dc_14_c'
+Lines executed:0.00% of 1
+
+Function 'pred16x16_top_dc_14_c'
+Lines executed:0.00% of 10
+
+Function 'pred16x16_left_dc_14_c'
+Lines executed:0.00% of 10
+
+Function 'pred16x16_dc_14_c'
+Lines executed:0.00% of 12
+
+Function 'pred16x16_horizontal_14_c'
+Lines executed:0.00% of 11
+
+Function 'pred16x16_vertical_14_c'
+Lines executed:0.00% of 14
+
+Function 'pred4x4_horizontal_down_14_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_horizontal_up_14_c'
+Lines executed:0.00% of 21
+
+Function 'pred4x4_vertical_left_14_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_vertical_right_14_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_down_left_14_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_down_right_14_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_128_dc_14_c'
+Lines executed:0.00% of 9
+
+Function 'pred4x4_top_dc_14_c'
+Lines executed:0.00% of 10
+
+Function 'pred4x4_left_dc_14_c'
+Lines executed:0.00% of 10
+
+Function 'pred4x4_dc_14_c'
+Lines executed:0.00% of 11
+
+Function 'pred4x4_horizontal_14_c'
+Lines executed:0.00% of 8
+
+Function 'pred4x4_vertical_14_c'
+Lines executed:0.00% of 9
+
+Function 'pred8x16_horizontal_add_12_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_horizontal_add_12_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_vertical_add_12_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_vertical_add_12_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_horizontal_add_12_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_vertical_add_12_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x8l_horizontal_add_12_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x8l_vertical_add_12_c'
+Lines executed:0.00% of 20
+
+Function 'pred4x4_horizontal_add_12_c'
+Lines executed:0.00% of 15
+
+Function 'pred4x4_vertical_add_12_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8l_horizontal_filter_add_12_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_filter_add_12_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_horizontal_up_12_c'
+Lines executed:0.00% of 23
+
+Function 'pred8x8l_vertical_left_12_c'
+Lines executed:0.00% of 28
+
+Function 'pred8x8l_horizontal_down_12_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_right_12_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_down_right_12_c'
+Lines executed:0.00% of 22
+
+Function 'pred8x8l_down_left_12_c'
+Lines executed:0.00% of 21
+
+Function 'pred8x8l_vertical_12_c'
+Lines executed:0.00% of 20
+
+Function 'pred8x8l_horizontal_12_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8l_dc_12_c'
+Lines executed:0.00% of 8
+
+Function 'pred8x8l_top_dc_12_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8l_left_dc_12_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8l_128_dc_12_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_plane_12_c'
+Lines executed:0.00% of 33
+
+Function 'pred8x8_plane_12_c'
+Lines executed:0.00% of 30
+
+Function 'pred8x16_mad_cow_dc_0l0_12'
+Lines executed:0.00% of 5
+
+Function 'pred8x8_mad_cow_dc_0l0_12'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_mad_cow_dc_l00_12'
+Lines executed:0.00% of 5
+
+Function 'pred8x8_mad_cow_dc_l00_12'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_mad_cow_dc_0lt_12'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_mad_cow_dc_0lt_12'
+Lines executed:0.00% of 4
+
+Function 'pred8x16_mad_cow_dc_l0t_12'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_mad_cow_dc_l0t_12'
+Lines executed:0.00% of 4
+
+Function 'pred8x16_dc_12_c'
+Lines executed:0.00% of 34
+
+Function 'pred8x8_dc_12_c'
+Lines executed:0.00% of 22
+
+Function 'pred8x16_top_dc_12_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8_top_dc_12_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x16_left_dc_12_c'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_left_dc_12_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x16_128_dc_12_c'
+Lines executed:0.00% of 4
+
+Function 'pred8x8_128_dc_12_c'
+Lines executed:0.00% of 1
+
+Function 'pred8x16_horizontal_12_c'
+Lines executed:0.00% of 9
+
+Function 'pred8x8_horizontal_12_c'
+Lines executed:0.00% of 9
+
+Function 'pred8x16_vertical_12_c'
+Lines executed:0.00% of 10
+
+Function 'pred8x8_vertical_12_c'
+Lines executed:0.00% of 10
+
+Function 'pred16x16_plane_12_c'
+Lines executed:0.00% of 3
+
+Function 'pred16x16_plane_compat_12_c'
+Lines executed:0.00% of 35
+
+Function 'pred16x16_128_dc_12_c'
+Lines executed:0.00% of 1
+
+Function 'pred16x16_top_dc_12_c'
+Lines executed:0.00% of 10
+
+Function 'pred16x16_left_dc_12_c'
+Lines executed:0.00% of 10
+
+Function 'pred16x16_dc_12_c'
+Lines executed:0.00% of 12
+
+Function 'pred16x16_horizontal_12_c'
+Lines executed:0.00% of 11
+
+Function 'pred16x16_vertical_12_c'
+Lines executed:0.00% of 14
+
+Function 'pred4x4_horizontal_down_12_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_horizontal_up_12_c'
+Lines executed:0.00% of 21
+
+Function 'pred4x4_vertical_left_12_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_vertical_right_12_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_down_left_12_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_down_right_12_c'
+Lines executed:0.00% of 23
+
+Function 'pred4x4_128_dc_12_c'
+Lines executed:0.00% of 9
+
+Function 'pred4x4_top_dc_12_c'
+Lines executed:0.00% of 10
+
+Function 'pred4x4_left_dc_12_c'
+Lines executed:0.00% of 10
+
+Function 'pred4x4_dc_12_c'
+Lines executed:0.00% of 11
+
+Function 'pred4x4_horizontal_12_c'
+Lines executed:0.00% of 8
+
+Function 'pred4x4_vertical_12_c'
+Lines executed:0.00% of 9
+
+Function 'pred8x16_horizontal_add_10_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_horizontal_add_10_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_vertical_add_10_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_vertical_add_10_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_horizontal_add_10_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_vertical_add_10_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x8l_horizontal_add_10_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x8l_vertical_add_10_c'
+Lines executed:0.00% of 20
+
+Function 'pred4x4_horizontal_add_10_c'
+Lines executed:0.00% of 15
+
+Function 'pred4x4_vertical_add_10_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8l_horizontal_filter_add_10_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_filter_add_10_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_horizontal_up_10_c'
+Lines executed:100.00% of 23
+
+Function 'pred8x8l_vertical_left_10_c'
+Lines executed:100.00% of 28
+
+Function 'pred8x8l_horizontal_down_10_c'
+Lines executed:100.00% of 29
+
+Function 'pred8x8l_vertical_right_10_c'
+Lines executed:100.00% of 29
+
+Function 'pred8x8l_down_right_10_c'
+Lines executed:100.00% of 22
+
+Function 'pred8x8l_down_left_10_c'
+Lines executed:100.00% of 21
+
+Function 'pred8x8l_vertical_10_c'
+Lines executed:100.00% of 20
+
+Function 'pred8x8l_horizontal_10_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_dc_10_c'
+Lines executed:100.00% of 8
+
+Function 'pred8x8l_top_dc_10_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_left_dc_10_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_128_dc_10_c'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_plane_10_c'
+Lines executed:106.06% of 33
+
+Function 'pred8x8_plane_10_c'
+Lines executed:100.00% of 30
+
+Function 'pred8x16_mad_cow_dc_0l0_10'
+Lines executed:260.00% of 5
+
+Function 'pred8x8_mad_cow_dc_0l0_10'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_mad_cow_dc_l00_10'
+Lines executed:100.00% of 5
+
+Function 'pred8x8_mad_cow_dc_l00_10'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_mad_cow_dc_0lt_10'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_mad_cow_dc_0lt_10'
+Lines executed:100.00% of 4
+
+Function 'pred8x16_mad_cow_dc_l0t_10'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_mad_cow_dc_l0t_10'
+Lines executed:100.00% of 4
+
+Function 'pred8x16_dc_10_c'
+Lines executed:100.00% of 34
+
+Function 'pred8x8_dc_10_c'
+Lines executed:100.00% of 22
+
+Function 'pred8x16_top_dc_10_c'
+Lines executed:100.00% of 16
+
+Function 'pred8x8_top_dc_10_c'
+Lines executed:100.00% of 19
+
+Function 'pred8x16_left_dc_10_c'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_left_dc_10_c'
+Lines executed:100.00% of 19
+
+Function 'pred8x16_128_dc_10_c'
+Lines executed:125.00% of 4
+
+Function 'pred8x8_128_dc_10_c'
+Lines executed:100.00% of 1
+
+Function 'pred8x16_horizontal_10_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x8_horizontal_10_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x16_vertical_10_c'
+Lines executed:100.00% of 10
+
+Function 'pred8x8_vertical_10_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_plane_10_c'
+Lines executed:100.00% of 3
+
+Function 'pred16x16_plane_compat_10_c'
+Lines executed:85.71% of 35
+
+Function 'pred16x16_128_dc_10_c'
+Lines executed:100.00% of 1
+
+Function 'pred16x16_top_dc_10_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_left_dc_10_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_dc_10_c'
+Lines executed:100.00% of 12
+
+Function 'pred16x16_horizontal_10_c'
+Lines executed:100.00% of 11
+
+Function 'pred16x16_vertical_10_c'
+Lines executed:100.00% of 14
+
+Function 'pred4x4_horizontal_down_10_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_horizontal_up_10_c'
+Lines executed:100.00% of 21
+
+Function 'pred4x4_vertical_left_10_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_vertical_right_10_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_down_left_10_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_down_right_10_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_128_dc_10_c'
+Lines executed:100.00% of 9
+
+Function 'pred4x4_top_dc_10_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_left_dc_10_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_dc_10_c'
+Lines executed:100.00% of 11
+
+Function 'pred4x4_horizontal_10_c'
+Lines executed:100.00% of 8
+
+Function 'pred4x4_vertical_10_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x16_horizontal_add_9_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_horizontal_add_9_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_vertical_add_9_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_vertical_add_9_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_horizontal_add_9_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_vertical_add_9_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x8l_horizontal_add_9_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x8l_vertical_add_9_c'
+Lines executed:0.00% of 20
+
+Function 'pred4x4_horizontal_add_9_c'
+Lines executed:0.00% of 15
+
+Function 'pred4x4_vertical_add_9_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8l_horizontal_filter_add_9_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_filter_add_9_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_horizontal_up_9_c'
+Lines executed:100.00% of 23
+
+Function 'pred8x8l_vertical_left_9_c'
+Lines executed:100.00% of 28
+
+Function 'pred8x8l_horizontal_down_9_c'
+Lines executed:100.00% of 29
+
+Function 'pred8x8l_vertical_right_9_c'
+Lines executed:100.00% of 29
+
+Function 'pred8x8l_down_right_9_c'
+Lines executed:100.00% of 22
+
+Function 'pred8x8l_down_left_9_c'
+Lines executed:100.00% of 21
+
+Function 'pred8x8l_vertical_9_c'
+Lines executed:100.00% of 20
+
+Function 'pred8x8l_horizontal_9_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_dc_9_c'
+Lines executed:100.00% of 8
+
+Function 'pred8x8l_top_dc_9_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_left_dc_9_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_128_dc_9_c'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_plane_9_c'
+Lines executed:100.00% of 33
+
+Function 'pred8x8_plane_9_c'
+Lines executed:100.00% of 30
+
+Function 'pred8x16_mad_cow_dc_0l0_9'
+Lines executed:100.00% of 5
+
+Function 'pred8x8_mad_cow_dc_0l0_9'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_mad_cow_dc_l00_9'
+Lines executed:100.00% of 5
+
+Function 'pred8x8_mad_cow_dc_l00_9'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_mad_cow_dc_0lt_9'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_mad_cow_dc_0lt_9'
+Lines executed:100.00% of 4
+
+Function 'pred8x16_mad_cow_dc_l0t_9'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_mad_cow_dc_l0t_9'
+Lines executed:100.00% of 4
+
+Function 'pred8x16_dc_9_c'
+Lines executed:100.00% of 34
+
+Function 'pred8x8_dc_9_c'
+Lines executed:100.00% of 22
+
+Function 'pred8x16_top_dc_9_c'
+Lines executed:100.00% of 16
+
+Function 'pred8x8_top_dc_9_c'
+Lines executed:100.00% of 19
+
+Function 'pred8x16_left_dc_9_c'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_left_dc_9_c'
+Lines executed:100.00% of 19
+
+Function 'pred8x16_128_dc_9_c'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_128_dc_9_c'
+Lines executed:100.00% of 1
+
+Function 'pred8x16_horizontal_9_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x8_horizontal_9_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x16_vertical_9_c'
+Lines executed:100.00% of 10
+
+Function 'pred8x8_vertical_9_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_plane_9_c'
+Lines executed:100.00% of 3
+
+Function 'pred16x16_plane_compat_9_c'
+Lines executed:85.71% of 35
+
+Function 'pred16x16_128_dc_9_c'
+Lines executed:100.00% of 1
+
+Function 'pred16x16_top_dc_9_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_left_dc_9_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_dc_9_c'
+Lines executed:100.00% of 12
+
+Function 'pred16x16_horizontal_9_c'
+Lines executed:100.00% of 11
+
+Function 'pred16x16_vertical_9_c'
+Lines executed:100.00% of 14
+
+Function 'pred4x4_horizontal_down_9_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_horizontal_up_9_c'
+Lines executed:100.00% of 21
+
+Function 'pred4x4_vertical_left_9_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_vertical_right_9_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_down_left_9_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_down_right_9_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_128_dc_9_c'
+Lines executed:100.00% of 9
+
+Function 'pred4x4_top_dc_9_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_left_dc_9_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_dc_9_c'
+Lines executed:100.00% of 11
+
+Function 'pred4x4_horizontal_9_c'
+Lines executed:100.00% of 8
+
+Function 'pred4x4_vertical_9_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x16_horizontal_add_8_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_horizontal_add_8_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x16_vertical_add_8_c'
+Lines executed:0.00% of 7
+
+Function 'pred8x8_vertical_add_8_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_horizontal_add_8_c'
+Lines executed:0.00% of 5
+
+Function 'pred16x16_vertical_add_8_c'
+Lines executed:0.00% of 5
+
+Function 'pred8x8l_horizontal_add_8_c'
+Lines executed:0.00% of 19
+
+Function 'pred8x8l_vertical_add_8_c'
+Lines executed:0.00% of 20
+
+Function 'pred4x4_horizontal_add_8_c'
+Lines executed:0.00% of 15
+
+Function 'pred4x4_vertical_add_8_c'
+Lines executed:0.00% of 16
+
+Function 'pred8x8l_horizontal_filter_add_8_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_vertical_filter_add_8_c'
+Lines executed:0.00% of 29
+
+Function 'pred8x8l_horizontal_up_8_c'
+Lines executed:100.00% of 23
+
+Function 'pred8x8l_vertical_left_8_c'
+Lines executed:100.00% of 28
+
+Function 'pred8x8l_horizontal_down_8_c'
+Lines executed:100.00% of 29
+
+Function 'pred8x8l_vertical_right_8_c'
+Lines executed:100.00% of 29
+
+Function 'pred8x8l_down_right_8_c'
+Lines executed:100.00% of 22
+
+Function 'pred8x8l_down_left_8_c'
+Lines executed:100.00% of 21
+
+Function 'pred8x8l_vertical_8_c'
+Lines executed:100.00% of 20
+
+Function 'pred8x8l_horizontal_8_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_dc_8_c'
+Lines executed:100.00% of 8
+
+Function 'pred8x8l_top_dc_8_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_left_dc_8_c'
+Lines executed:100.00% of 7
+
+Function 'pred8x8l_128_dc_8_c'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_plane_8_c'
+Lines executed:100.00% of 36
+
+Function 'pred8x8_plane_8_c'
+Lines executed:100.00% of 30
+
+Function 'pred8x16_mad_cow_dc_0l0_8'
+Lines executed:100.00% of 5
+
+Function 'pred8x8_mad_cow_dc_0l0_8'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_mad_cow_dc_l00_8'
+Lines executed:100.00% of 5
+
+Function 'pred8x8_mad_cow_dc_l00_8'
+Lines executed:100.00% of 5
+
+Function 'pred8x16_mad_cow_dc_0lt_8'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_mad_cow_dc_0lt_8'
+Lines executed:100.00% of 4
+
+Function 'pred8x16_mad_cow_dc_l0t_8'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_mad_cow_dc_l0t_8'
+Lines executed:100.00% of 4
+
+Function 'pred8x16_dc_8_c'
+Lines executed:100.00% of 34
+
+Function 'pred8x8_dc_8_c'
+Lines executed:100.00% of 22
+
+Function 'pred8x16_top_dc_8_c'
+Lines executed:100.00% of 16
+
+Function 'pred8x8_top_dc_8_c'
+Lines executed:100.00% of 19
+
+Function 'pred8x16_left_dc_8_c'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_left_dc_8_c'
+Lines executed:100.00% of 19
+
+Function 'pred8x16_128_dc_8_c'
+Lines executed:100.00% of 4
+
+Function 'pred8x8_129_dc_8_c'
+Lines executed:100.00% of 1
+
+Function 'pred8x8_127_dc_8_c'
+Lines executed:100.00% of 1
+
+Function 'pred8x8_128_dc_8_c'
+Lines executed:100.00% of 1
+
+Function 'pred8x16_horizontal_8_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x8_horizontal_8_c'
+Lines executed:100.00% of 9
+
+Function 'pred8x16_vertical_8_c'
+Lines executed:100.00% of 10
+
+Function 'pred8x8_vertical_8_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_plane_8_c'
+Lines executed:100.00% of 3
+
+Function 'pred16x16_plane_compat_8_c'
+Lines executed:100.00% of 35
+
+Function 'pred16x16_129_dc_8_c'
+Lines executed:100.00% of 1
+
+Function 'pred16x16_127_dc_8_c'
+Lines executed:100.00% of 1
+
+Function 'pred16x16_128_dc_8_c'
+Lines executed:100.00% of 1
+
+Function 'pred16x16_top_dc_8_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_left_dc_8_c'
+Lines executed:100.00% of 10
+
+Function 'pred16x16_dc_8_c'
+Lines executed:100.00% of 12
+
+Function 'pred16x16_horizontal_8_c'
+Lines executed:100.00% of 11
+
+Function 'pred16x16_vertical_8_c'
+Lines executed:100.00% of 14
+
+Function 'pred4x4_horizontal_down_8_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_horizontal_up_8_c'
+Lines executed:100.00% of 21
+
+Function 'pred4x4_vertical_left_8_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_vertical_right_8_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_down_left_8_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_down_right_8_c'
+Lines executed:100.00% of 23
+
+Function 'pred4x4_128_dc_8_c'
+Lines executed:100.00% of 9
+
+Function 'pred4x4_top_dc_8_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_left_dc_8_c'
+Lines executed:100.00% of 10
+
+Function 'pred4x4_dc_8_c'
+Lines executed:100.00% of 11
+
+Function 'pred4x4_horizontal_8_c'
+Lines executed:100.00% of 8
+
+Function 'pred4x4_vertical_8_c'
+Lines executed:100.00% of 9
+
+File 'libavcodec/h264pred.c'
+Lines executed:98.20% of 333
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264pred.gcno##libavcodec#h264pred.c.gcov'
+
+File 'libavcodec/h264pred_template.c'
+Lines executed:54.69% of 5482
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264pred.gcno##libavcodec#h264pred_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264pred.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264pred.gcno##libavutil#common.h.gcov'
+
+Lines executed:57.20% of 5822

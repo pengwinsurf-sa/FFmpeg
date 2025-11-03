@@ -1,0 +1,28 @@
+Function 'avcodec_default_get_buffer2'
+Lines executed:0.00% of 21
+
+Function 'video_get_buffer'
+Lines executed:0.00% of 24
+
+Function 'audio_get_buffer'
+Lines executed:0.00% of 30
+
+Function 'update_frame_pool'
+Lines executed:0.00% of 71
+
+Function 'frame_pool_free'
+Lines executed:0.00% of 6
+
+File 'libavcodec/get_buffer.c'
+Lines executed:0.00% of 148
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#get_buffer.gcno##libavcodec#get_buffer.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#get_buffer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#get_buffer.gcno##libavutil#refstruct.h.gcov'
+
+Lines executed:0.00% of 152

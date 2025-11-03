@@ -1,0 +1,29 @@
+Function 'main'
+Lines executed:0.00% of 26
+
+Function 'check'
+Lines executed:0.00% of 35
+
+Function 'finish'
+Lines executed:0.00% of 9
+
+Function 'usage'
+Lines executed:0.00% of 13
+
+File 'tools/ffhash.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffhash.gcno##tools#ffhash.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffhash.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/fcntl2.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffhash.gcno###usr#include#x86_64-linux-gnu#bits#fcntl2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/unistd.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffhash.gcno###usr#include#x86_64-linux-gnu#bits#unistd.h.gcov'
+
+Lines executed:0.00% of 83

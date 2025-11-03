@@ -1,0 +1,31 @@
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'filter_frame'
+Lines executed:0.00% of 95
+
+Function 'config_output'
+Lines executed:0.00% of 21
+
+Function 'config_input'
+Lines executed:0.00% of 15
+
+Function 'query_formats'
+Lines executed:0.00% of 3
+
+Function 'init'
+Lines executed:0.00% of 35
+
+File 'libavfilter/vf_detelecine.c'
+Lines executed:0.00% of 170
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_detelecine.gcno##libavfilter#vf_detelecine.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_detelecine.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_detelecine.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 175

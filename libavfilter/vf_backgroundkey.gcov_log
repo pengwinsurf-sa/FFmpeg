@@ -1,0 +1,24 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 17
+
+Function 'filter_frame'
+Lines executed:0.00% of 26
+
+Function 'do_backgroundkey16_slice'
+Lines executed:0.00% of 34
+
+Function 'do_backgroundkey_slice'
+Lines executed:0.00% of 31
+
+File 'libavfilter/vf_backgroundkey.c'
+Lines executed:0.00% of 111
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_backgroundkey.gcno##libavfilter#vf_backgroundkey.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_backgroundkey.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 113

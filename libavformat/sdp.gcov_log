@@ -1,0 +1,56 @@
+Function 'av_sdp_create'
+Lines executed:0.00% of 50
+
+Function 'ff_sdp_write_media'
+Lines executed:0.00% of 18
+
+Function 'sdp_write_media_attributes'
+Lines executed:0.00% of 195
+
+Function 'latm_context2config'
+Lines executed:0.00% of 23
+
+Function 'xiph_extradata2config'
+Lines executed:0.00% of 48
+
+Function 'extradata2config'
+Lines executed:0.00% of 14
+
+Function 'extradata2psets_hevc'
+Lines executed:0.00% of 84
+
+Function 'extradata2psets'
+Lines executed:0.00% of 55
+
+Function 'extradata2psets_av1'
+Lines executed:0.00% of 12
+
+Function 'sdp_get_address'
+Lines executed:0.00% of 14
+
+Function 'resolve_destination'
+Lines executed:0.00% of 12
+
+Function 'sdp_write_header'
+Lines executed:0.00% of 5
+
+Function 'sdp_write_address'
+Lines executed:0.00% of 8
+
+File 'libavformat/sdp.c'
+Lines executed:0.00% of 529
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdp.gcno##libavformat#sdp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdp.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdp.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 538

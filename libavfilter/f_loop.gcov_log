@@ -1,0 +1,55 @@
+Function 'activate'
+Lines executed:0.00% of 33
+
+Function 'filter_frame'
+Lines executed:0.00% of 30
+
+Function 'push_frame'
+Lines executed:0.00% of 17
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'free_frames'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 7
+
+Function 'aactivate'
+Lines executed:0.00% of 28
+
+Function 'arequest_frame'
+Lines executed:0.00% of 20
+
+Function 'afilter_frame'
+Lines executed:0.00% of 37
+
+Function 'push_samples'
+Lines executed:0.00% of 22
+
+Function 'auninit'
+Lines executed:0.00% of 5
+
+Function 'aconfig_input'
+Lines executed:0.00% of 9
+
+Function 'update_time'
+Lines executed:0.00% of 7
+
+Function 'check_size'
+Lines executed:0.00% of 6
+
+File 'libavfilter/f_loop.c'
+Lines executed:0.00% of 227
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_loop.gcno##libavfilter#f_loop.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_loop.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_loop.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 232

@@ -1,0 +1,29 @@
+Function 'sunrast_encode_frame'
+Lines executed:0.00% of 24
+
+Function 'sunrast_encode_init'
+Lines executed:0.00% of 21
+
+Function 'sunrast_image_write_image'
+Lines executed:0.00% of 78
+
+Function 'sunrast_image_write_header'
+Lines executed:0.00% of 12
+
+File 'libavcodec/sunrastenc.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sunrastenc.gcno##libavcodec#sunrastenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sunrastenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sunrastenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sunrastenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 135

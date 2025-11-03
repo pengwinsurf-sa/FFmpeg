@@ -1,0 +1,149 @@
+Function 'ff_ac3_encode_init'
+Lines executed:0.00% of 31
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 41
+
+Function 'set_bandwidth'
+Lines executed:0.00% of 44
+
+Function 'validate_options'
+Lines executed:0.00% of 71
+
+Function 'set_channel_info'
+Lines executed:0.00% of 22
+
+Function 'ff_ac3_encode_close'
+Lines executed:0.00% of 18
+
+Function 'ff_ac3_encode_frame'
+Lines executed:0.00% of 27
+
+Function 'ac3_output_frame'
+Lines executed:0.00% of 18
+
+Function 'output_frame_end'
+Lines executed:0.00% of 44
+
+Function 'pow_poly'
+Lines executed:0.00% of 9
+
+Function 'output_audio_block'
+Lines executed:0.00% of 126
+
+Function 'ac3_output_frame_header'
+Lines executed:0.00% of 46
+
+Function 'ac3_quantize_mantissas'
+Lines executed:0.00% of 17
+
+Function 'quantize_mantissas_blk_ch'
+Lines executed:0.00% of 73
+
+Function 'ac3_compute_bit_allocation'
+Lines executed:0.00% of 5
+
+Function 'cbr_bit_allocation'
+Lines executed:0.00% of 24
+
+Function 'bit_alloc'
+Lines executed:0.00% of 10
+
+Function 'count_mantissa_bits'
+Lines executed:0.00% of 8
+
+Function 'count_mantissa_bits_update_ch'
+Lines executed:0.00% of 10
+
+Function 'count_mantissa_bits_init'
+Lines executed:0.00% of 7
+
+Function 'reset_block_bap'
+Lines executed:0.00% of 9
+
+Function 'bit_alloc_masking'
+Lines executed:0.00% of 11
+
+Function 'count_frame_bits'
+Lines executed:0.00% of 92
+
+Function 'bit_alloc_init'
+Lines executed:0.00% of 19
+
+Function 'count_frame_bits_fixed'
+Lines executed:0.00% of 51
+
+Function 'ac3_process_exponents'
+Lines executed:0.00% of 13
+
+Function 'ac3_group_exponents'
+Lines executed:0.00% of 36
+
+Function 'count_exponent_bits'
+Lines executed:0.00% of 15
+
+Function 'encode_exponents'
+Lines executed:0.00% of 28
+
+Function 'encode_exponents_blk_ch'
+Lines executed:0.00% of 38
+
+Function 'compute_exp_strategy'
+Lines executed:0.00% of 39
+
+Function 'exponent_init'
+Lines executed:0.00% of 9
+
+Function 'ac3_apply_rematrixing'
+Lines executed:0.00% of 20
+
+Function 'ff_ac3_compute_coupling_strategy'
+Lines executed:0.00% of 39
+
+Function 'ac3_adjust_frame_size'
+Lines executed:0.00% of 9
+
+Function 'ac3_validate_metadata'
+Lines executed:0.00% of 87
+
+Function 'validate_mix_level'
+Lines executed:0.00% of 17
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/ac3enc.c'
+Lines executed:0.00% of 1146
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno##libavcodec#ac3enc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/encode.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno##libavcodec#encode.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc.gcno##libavutil#emms.h.gcov'
+
+Lines executed:0.00% of 1218

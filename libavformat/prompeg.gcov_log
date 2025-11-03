@@ -1,0 +1,38 @@
+Function 'prompeg_close'
+Lines executed:0.00% of 12
+
+Function 'prompeg_write'
+Lines executed:0.00% of 48
+
+Function 'prompeg_init'
+Lines executed:0.00% of 48
+
+Function 'prompeg_open'
+Lines executed:0.00% of 33
+
+Function 'prompeg_write_fec'
+Lines executed:0.00% of 29
+
+Function 'prompeg_create_bitstring'
+Lines executed:0.00% of 23
+
+Function 'xor_fast'
+Lines executed:0.00% of 16
+
+File 'libavformat/prompeg.c'
+Lines executed:0.00% of 198
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#prompeg.gcno##libavformat#prompeg.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#prompeg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#prompeg.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#prompeg.gcno##libavformat#url.h.gcov'
+
+Lines executed:0.00% of 209

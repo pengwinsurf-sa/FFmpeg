@@ -1,0 +1,56 @@
+Function 'process_command'
+Lines executed:0.00% of 9
+
+Function 'uninit'
+Lines executed:0.00% of 24
+
+Function 'activate'
+Lines executed:0.00% of 28
+
+Function 'filter_frame'
+Lines executed:0.00% of 24
+
+Function 'drc_channels'
+Lines executed:0.00% of 9
+
+Function 'drc_channel'
+Lines executed:0.00% of 19
+
+Function 'feed'
+Lines executed:0.00% of 44
+
+Function 'get_factors'
+Lines executed:0.00% of 6
+
+Function 'get_envelope'
+Lines executed:0.00% of 13
+
+Function 'get_target_gain'
+Lines executed:0.00% of 10
+
+Function 'get_energy'
+Lines executed:0.00% of 8
+
+Function 'config_input'
+Lines executed:0.00% of 40
+
+Function 'generate_hann_window'
+Lines executed:0.00% of 5
+
+File 'libavfilter/af_adrc.c'
+Lines executed:0.00% of 229
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adrc.gcno##libavfilter#af_adrc.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adrc.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adrc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adrc.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 239

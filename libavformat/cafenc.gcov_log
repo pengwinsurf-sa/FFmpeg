@@ -1,0 +1,29 @@
+Function 'caf_write_trailer'
+Lines executed:0.00% of 28
+
+Function 'caf_write_packet'
+Lines executed:0.00% of 19
+
+Function 'caf_write_header'
+Lines executed:0.00% of 89
+
+Function 'samples_per_packet'
+Lines executed:0.00% of 31
+
+File 'libavformat/cafenc.c'
+Lines executed:0.00% of 158
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cafenc.gcno##libavformat#cafenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cafenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cafenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cafenc.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 167

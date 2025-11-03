@@ -1,0 +1,43 @@
+Function 'decode_flush'
+Lines executed:0.00% of 5
+
+Function 'binkaudio_receive_frame'
+Lines executed:0.00% of 83
+
+Function 'decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_block'
+Lines executed:0.00% of 107
+
+Function 'get_float'
+Lines executed:0.00% of 6
+
+Function 'decode_init'
+Lines executed:0.00% of 52
+
+File 'libavcodec/binkaudio.c'
+Lines executed:0.00% of 184
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkaudio.gcno##libavcodec#binkaudio.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 60
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkaudio.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkaudio.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkaudio.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkaudio.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkaudio.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 257

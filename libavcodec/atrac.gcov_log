@@ -1,0 +1,24 @@
+Function 'ff_atrac_iqmf'
+Lines executed:0.00% of 23
+
+Function 'ff_atrac_gain_compensation'
+Lines executed:0.00% of 23
+
+Function 'ff_atrac_init_gain_compensation'
+Lines executed:0.00% of 10
+
+Function 'ff_atrac_generate_tables'
+Lines executed:0.00% of 4
+
+Function 'atrac_generate_tables'
+Lines executed:0.00% of 7
+
+File 'libavcodec/atrac.c'
+Lines executed:0.00% of 65
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac.gcno##libavcodec#atrac.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 67

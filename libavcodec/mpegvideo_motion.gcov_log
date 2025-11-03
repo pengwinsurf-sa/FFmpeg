@@ -1,0 +1,46 @@
+Function 'ff_mpv_motion'
+Lines executed:0.00% of 63
+
+Function 'apply_8x8'
+Lines executed:0.00% of 46
+
+Function 'apply_obmc'
+Lines executed:0.00% of 49
+
+Function 'prefetch_motion'
+Lines executed:0.00% of 9
+
+Function 'chroma_4mv_motion'
+Lines executed:0.00% of 36
+
+Function 'qpel_motion'
+Lines executed:0.00% of 63
+
+Function 'obmc_motion'
+Lines executed:0.00% of 13
+
+Function 'put_obmc'
+Lines executed:0.00% of 42
+
+Function 'mpeg_motion_field'
+Lines executed:0.00% of 85
+
+Function 'mpeg_motion'
+Lines executed:0.00% of 5
+
+Function 'hpel_motion'
+Lines executed:0.00% of 19
+
+File 'libavcodec/mpegvideo_motion.c'
+Lines executed:0.00% of 424
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_motion.gcno##libavcodec#mpegvideo_motion.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_motion.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/h263.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo_motion.gcno##libavcodec#h263.h.gcov'
+
+Lines executed:0.00% of 430

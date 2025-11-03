@@ -1,0 +1,55 @@
+Function 'ff_jpeg2000_cleanup'
+Lines executed:0.00% of 35
+
+Function 'ff_jpeg2000_reinit'
+Lines executed:0.00% of 15
+
+Function 'ff_jpeg2000_init_component'
+Lines executed:0.00% of 59
+
+Function 'init_band'
+Lines executed:0.00% of 36
+
+Function 'init_prec'
+Lines executed:0.00% of 59
+
+Function 'init_band_stepsize'
+Lines executed:0.00% of 38
+
+Function 'ff_jpeg2000_set_significance'
+Lines executed:0.00% of 18
+
+Function 'ff_jpeg2000_init_tier1_luts'
+Lines executed:0.00% of 4
+
+Function 'jpeg2000_init_tier1_luts'
+Lines executed:0.00% of 10
+
+Function 'getsgnctxno'
+Lines executed:0.00% of 8
+
+Function 'getsigctxno'
+Lines executed:0.00% of 32
+
+Function 'ff_tag_tree_zero'
+Lines executed:0.00% of 7
+
+Function 'ff_jpeg2000_tag_tree_init'
+Lines executed:0.00% of 19
+
+Function 'tag_tree_size'
+Lines executed:0.00% of 8
+
+File 'libavcodec/jpeg2000.c'
+Lines executed:0.00% of 342
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000.gcno##libavcodec#jpeg2000.c.gcov'
+
+File 'libavcodec/jpeg2000.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000.gcno##libavcodec#jpeg2000.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 348

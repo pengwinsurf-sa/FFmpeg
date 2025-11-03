@@ -1,0 +1,57 @@
+Function 'ff_framesync_dualinput_get_writable'
+Lines executed:0.00% of 9
+
+Function 'ff_framesync_dualinput_get'
+Lines executed:0.00% of 15
+
+Function 'ff_framesync_init_dualinput'
+Lines executed:0.00% of 13
+
+Function 'ff_framesync_activate'
+Lines executed:0.00% of 11
+
+Function 'consume_from_fifos'
+Lines executed:0.00% of 27
+
+Function 'ff_framesync_uninit'
+Lines executed:0.00% of 7
+
+Function 'ff_framesync_get_frame'
+Lines executed:0.00% of 20
+
+Function 'framesync_inject_status'
+Lines executed:0.00% of 11
+
+Function 'framesync_inject_frame'
+Lines executed:0.00% of 10
+
+Function 'framesync_advance'
+Lines executed:0.00% of 47
+
+Function 'ff_framesync_configure'
+Lines executed:0.00% of 31
+
+Function 'framesync_sync_level_update'
+Lines executed:0.00% of 17
+
+Function 'ff_framesync_init'
+Lines executed:0.00% of 9
+
+Function 'ff_framesync_preinit'
+Lines executed:0.00% of 4
+
+Function 'ff_framesync_child_class_iterate'
+Lines executed:0.00% of 4
+
+Function 'framesync_name'
+Lines executed:0.00% of 2
+
+File 'libavfilter/framesync.c'
+Lines executed:0.00% of 235
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#framesync.gcno##libavfilter#framesync.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#framesync.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 237

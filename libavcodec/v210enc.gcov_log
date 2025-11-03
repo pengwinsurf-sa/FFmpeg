@@ -1,0 +1,42 @@
+Function 'encode_frame'
+Lines executed:0.00% of 29
+
+Function 'encode_init'
+Lines executed:0.00% of 9
+
+Function 'v210_enc_10'
+Lines executed:0.00% of 48
+
+Function 'v210_enc_8'
+Lines executed:0.00% of 44
+
+Function 'ff_v210enc_init'
+Lines executed:0.00% of 7
+
+Function 'v210_planar_pack_10_c'
+Lines executed:0.00% of 8
+
+Function 'v210_planar_pack_8_c'
+Lines executed:0.00% of 12
+
+File 'libavcodec/v210enc.c'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v210enc.gcno##libavcodec#v210enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v210enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/v210_template.c'
+Lines executed:0.00% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v210enc.gcno##libavcodec#v210_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v210enc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/v210enc_init.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v210enc.gcno##libavcodec#v210enc_init.h.gcov'
+
+Lines executed:0.00% of 200

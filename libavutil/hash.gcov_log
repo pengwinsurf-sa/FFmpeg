@@ -1,0 +1,50 @@
+Function 'av_hash_freep'
+Lines executed:0.00% of 5
+
+Function 'av_hash_final_b64'
+Lines executed:0.00% of 12
+
+Function 'av_hash_final_hex'
+Lines executed:0.00% of 9
+
+Function 'av_hash_final_bin'
+Lines executed:0.00% of 10
+
+Function 'av_hash_final'
+Lines executed:0.00% of 15
+
+Function 'av_hash_update'
+Lines executed:0.00% of 13
+
+Function 'av_hash_init'
+Lines executed:0.00% of 18
+
+Function 'av_hash_alloc'
+Lines executed:0.00% of 25
+
+Function 'av_hash_get_size'
+Lines executed:0.00% of 2
+
+Function 'av_hash_get_name'
+Lines executed:0.00% of 2
+
+Function 'av_hash_names'
+Lines executed:0.00% of 3
+
+File 'libavutil/hash.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hash.gcno##libavutil#hash.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hash.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hash.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hash.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 114

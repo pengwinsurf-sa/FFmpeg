@@ -1,0 +1,80 @@
+Function 'process_command'
+Lines executed:0.00% of 12
+
+Function 'uninit'
+Lines executed:0.00% of 30
+
+Function 'activate'
+Lines executed:0.00% of 18
+
+Function 'output_frame'
+Lines executed:0.00% of 110
+
+Function 'filter_channel'
+Lines executed:0.00% of 32
+
+Function 'set_noise_profile'
+Lines executed:0.00% of 31
+
+Function 'finish_sample_noise'
+Lines executed:0.00% of 13
+
+Function 'sample_noise_block'
+Lines executed:0.00% of 59
+
+Function 'config_input'
+Lines executed:0.00% of 189
+
+Function 'set_parameters'
+Lines executed:0.00% of 27
+
+Function 'read_custom_noise'
+Lines executed:0.00% of 20
+
+Function 'set_band_parameters'
+Lines executed:0.00% of 29
+
+Function 'get_band_edge'
+Lines executed:0.00% of 6
+
+Function 'freq2bark'
+Lines executed:0.00% of 3
+
+Function 'process_frame'
+Lines executed:0.00% of 89
+
+Function 'floor_offset'
+Lines executed:0.00% of 6
+
+Function 'spectral_flatness'
+Lines executed:0.00% of 16
+
+Function 'process_get_band_noise'
+Lines executed:0.00% of 12
+
+Function 'solve'
+Lines executed:0.00% of 12
+
+Function 'factor'
+Lines executed:0.00% of 8
+
+Function 'get_band_noise'
+Lines executed:0.00% of 9
+
+File 'libavfilter/af_afftdn.c'
+Lines executed:0.00% of 721
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftdn.gcno##libavfilter#af_afftdn.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftdn.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftdn.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftdn.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 731

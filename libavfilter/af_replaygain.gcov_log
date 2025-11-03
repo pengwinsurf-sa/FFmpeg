@@ -1,0 +1,40 @@
+Function 'request_frame'
+Lines executed:0.00% of 10
+
+Function 'filter_frame'
+Lines executed:0.00% of 23
+
+Function 'calc_replaygain'
+Lines executed:0.00% of 12
+
+Function 'yule_filter_stereo_samples'
+Lines executed:0.00% of 50
+
+Function 'butter_filter_stereo_samples'
+Lines executed:0.00% of 29
+
+Function 'calc_stereo_rms'
+Lines executed:0.00% of 7
+
+Function 'calc_stereo_peak'
+Lines executed:0.00% of 12
+
+Function 'config_input'
+Lines executed:0.00% of 17
+
+Function 'query_formats'
+Lines executed:0.00% of 14
+
+File 'libavfilter/af_replaygain.c'
+Lines executed:0.00% of 165
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_replaygain.gcno##libavfilter#af_replaygain.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_replaygain.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_replaygain.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 174

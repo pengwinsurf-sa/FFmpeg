@@ -1,0 +1,43 @@
+Function 'r3d_seek'
+Lines executed:0.00% of 14
+
+Function 'r3d_probe'
+Lines executed:0.00% of 3
+
+Function 'r3d_read_packet'
+Lines executed:0.00% of 18
+
+Function 'r3d_read_reda'
+Lines executed:0.00% of 45
+
+Function 'r3d_read_redv'
+Lines executed:0.00% of 39
+
+Function 'r3d_read_header'
+Lines executed:0.00% of 36
+
+Function 'r3d_read_reos'
+Lines executed:0.00% of 13
+
+Function 'r3d_read_rdvo'
+Lines executed:0.00% of 15
+
+Function 'r3d_read_red1'
+Lines executed:0.00% of 42
+
+Function 'read_atom'
+Lines executed:0.00% of 8
+
+File 'libavformat/r3d.c'
+Lines executed:0.00% of 228
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#r3d.gcno##libavformat#r3d.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#r3d.gcno##libavutil#rational.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#r3d.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 233

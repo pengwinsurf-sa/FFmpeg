@@ -1,0 +1,14 @@
+Function 'mtaf_read_packet'
+Lines executed:0.00% of 3
+
+Function 'mtaf_read_header'
+Lines executed:0.00% of 18
+
+Function 'mtaf_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/mtaf.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mtaf.gcno##libavformat#mtaf.c.gcov'
+
+Lines executed:0.00% of 26

@@ -1,0 +1,418 @@
+Function 'get_video_buffer'
+Lines executed:0.00% of 5
+
+Function 'xfade_activate'
+Lines executed:0.00% of 55
+
+Function 'forward_frame'
+Lines executed:0.00% of 18
+
+Function 'xfade_frame'
+Lines executed:0.00% of 16
+
+Function 'xfade_slice'
+Lines executed:0.00% of 8
+
+Function 'config_output'
+Lines executed:0.00% of 109
+
+Function 'b3'
+Lines executed:0.00% of 1
+
+Function 'b2'
+Lines executed:0.00% of 1
+
+Function 'b1'
+Lines executed:0.00% of 1
+
+Function 'b0'
+Lines executed:0.00% of 1
+
+Function 'a3'
+Lines executed:0.00% of 1
+
+Function 'a2'
+Lines executed:0.00% of 1
+
+Function 'a1'
+Lines executed:0.00% of 1
+
+Function 'a0'
+Lines executed:0.00% of 1
+
+Function 'getpix'
+Lines executed:0.00% of 17
+
+Function 'revealdown16_transition'
+Lines executed:0.00% of 1
+
+Function 'revealdown8_transition'
+Lines executed:0.00% of 1
+
+Function 'revealup16_transition'
+Lines executed:0.00% of 1
+
+Function 'revealup8_transition'
+Lines executed:0.00% of 1
+
+Function 'revealright16_transition'
+Lines executed:0.00% of 1
+
+Function 'revealright8_transition'
+Lines executed:0.00% of 1
+
+Function 'revealleft16_transition'
+Lines executed:0.00% of 1
+
+Function 'revealleft8_transition'
+Lines executed:0.00% of 1
+
+Function 'coverdown16_transition'
+Lines executed:0.00% of 1
+
+Function 'coverdown8_transition'
+Lines executed:0.00% of 1
+
+Function 'coverup16_transition'
+Lines executed:0.00% of 1
+
+Function 'coverup8_transition'
+Lines executed:0.00% of 1
+
+Function 'coverright16_transition'
+Lines executed:0.00% of 1
+
+Function 'coverright8_transition'
+Lines executed:0.00% of 1
+
+Function 'coverleft16_transition'
+Lines executed:0.00% of 1
+
+Function 'coverleft8_transition'
+Lines executed:0.00% of 1
+
+Function 'vdwind16_transition'
+Lines executed:0.00% of 7
+
+Function 'vdwind8_transition'
+Lines executed:0.00% of 1
+
+Function 'vuwind16_transition'
+Lines executed:0.00% of 1
+
+Function 'vuwind8_transition'
+Lines executed:0.00% of 1
+
+Function 'hrwind16_transition'
+Lines executed:0.00% of 1
+
+Function 'hrwind8_transition'
+Lines executed:0.00% of 1
+
+Function 'hlwind16_transition'
+Lines executed:0.00% of 1
+
+Function 'hlwind8_transition'
+Lines executed:0.00% of 1
+
+Function 'fadeslow16_transition'
+Lines executed:0.00% of 1
+
+Function 'fadeslow8_transition'
+Lines executed:0.00% of 1
+
+Function 'fadefast16_transition'
+Lines executed:0.00% of 1
+
+Function 'fadefast8_transition'
+Lines executed:0.00% of 1
+
+Function 'zoomin16_transition'
+Lines executed:0.00% of 4
+
+Function 'zoomin8_transition'
+Lines executed:0.00% of 1
+
+Function 'squeezev16_transition'
+Lines executed:0.00% of 1
+
+Function 'squeezev8_transition'
+Lines executed:0.00% of 1
+
+Function 'squeezeh16_transition'
+Lines executed:0.00% of 1
+
+Function 'squeezeh8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipebr16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipebr8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipebl16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipebl8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipetr16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipetr8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipetl16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipetl8_transition'
+Lines executed:0.00% of 1
+
+Function 'fadegrays16_transition'
+Lines executed:0.00% of 1
+
+Function 'fadegrays8_transition'
+Lines executed:0.00% of 1
+
+Function 'hblur16_transition'
+Lines executed:0.00% of 1
+
+Function 'hblur8_transition'
+Lines executed:0.00% of 1
+
+Function 'vdslice16_transition'
+Lines executed:0.00% of 3
+
+Function 'vdslice8_transition'
+Lines executed:0.00% of 1
+
+Function 'vuslice16_transition'
+Lines executed:0.00% of 1
+
+Function 'vuslice8_transition'
+Lines executed:0.00% of 1
+
+Function 'hrslice16_transition'
+Lines executed:0.00% of 1
+
+Function 'hrslice8_transition'
+Lines executed:0.00% of 1
+
+Function 'hlslice16_transition'
+Lines executed:0.00% of 1
+
+Function 'hlslice8_transition'
+Lines executed:0.00% of 1
+
+Function 'diagbr16_transition'
+Lines executed:0.00% of 1
+
+Function 'diagbr8_transition'
+Lines executed:0.00% of 1
+
+Function 'diagbl16_transition'
+Lines executed:0.00% of 1
+
+Function 'diagbl8_transition'
+Lines executed:0.00% of 1
+
+Function 'diagtr16_transition'
+Lines executed:0.00% of 1
+
+Function 'diagtr8_transition'
+Lines executed:0.00% of 1
+
+Function 'diagtl16_transition'
+Lines executed:0.00% of 1
+
+Function 'diagtl8_transition'
+Lines executed:0.00% of 1
+
+Function 'pixelize16_transition'
+Lines executed:0.00% of 1
+
+Function 'pixelize8_transition'
+Lines executed:0.00% of 1
+
+Function 'dissolve16_transition'
+Lines executed:0.00% of 1
+
+Function 'dissolve8_transition'
+Lines executed:0.00% of 1
+
+Function 'frand'
+Lines executed:0.00% of 3
+
+Function 'horzclose16_transition'
+Lines executed:0.00% of 1
+
+Function 'horzclose8_transition'
+Lines executed:0.00% of 1
+
+Function 'horzopen16_transition'
+Lines executed:0.00% of 1
+
+Function 'horzopen8_transition'
+Lines executed:0.00% of 1
+
+Function 'vertclose16_transition'
+Lines executed:0.00% of 1
+
+Function 'vertclose8_transition'
+Lines executed:0.00% of 1
+
+Function 'vertopen16_transition'
+Lines executed:0.00% of 1
+
+Function 'vertopen8_transition'
+Lines executed:0.00% of 1
+
+Function 'circleclose16_transition'
+Lines executed:0.00% of 1
+
+Function 'circleclose8_transition'
+Lines executed:0.00% of 1
+
+Function 'circleopen16_transition'
+Lines executed:0.00% of 1
+
+Function 'circleopen8_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothdown16_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothdown8_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothup16_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothup8_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothright16_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothright8_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothleft16_transition'
+Lines executed:0.00% of 1
+
+Function 'smoothleft8_transition'
+Lines executed:0.00% of 1
+
+Function 'radial16_transition'
+Lines executed:0.00% of 1
+
+Function 'radial8_transition'
+Lines executed:0.00% of 1
+
+Function 'fadewhite16_transition'
+Lines executed:0.00% of 1
+
+Function 'fadewhite8_transition'
+Lines executed:0.00% of 1
+
+Function 'fadeblack16_transition'
+Lines executed:0.00% of 1
+
+Function 'fadeblack8_transition'
+Lines executed:0.00% of 1
+
+Function 'distance16_transition'
+Lines executed:0.00% of 1
+
+Function 'distance8_transition'
+Lines executed:0.00% of 1
+
+Function 'rectcrop16_transition'
+Lines executed:0.00% of 1
+
+Function 'rectcrop8_transition'
+Lines executed:0.00% of 1
+
+Function 'circlecrop16_transition'
+Lines executed:0.00% of 1
+
+Function 'circlecrop8_transition'
+Lines executed:0.00% of 1
+
+Function 'slidedown16_transition'
+Lines executed:0.00% of 1
+
+Function 'slidedown8_transition'
+Lines executed:0.00% of 1
+
+Function 'slideup16_transition'
+Lines executed:0.00% of 1
+
+Function 'slideup8_transition'
+Lines executed:0.00% of 1
+
+Function 'slideright16_transition'
+Lines executed:0.00% of 1
+
+Function 'slideright8_transition'
+Lines executed:0.00% of 1
+
+Function 'slideleft16_transition'
+Lines executed:0.00% of 1
+
+Function 'slideleft8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipedown16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipedown8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipeup16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipeup8_transition'
+Lines executed:0.00% of 1
+
+Function 'wiperight16_transition'
+Lines executed:0.00% of 1
+
+Function 'wiperight8_transition'
+Lines executed:0.00% of 1
+
+Function 'wipeleft16_transition'
+Lines executed:0.00% of 1
+
+Function 'wipeleft8_transition'
+Lines executed:0.00% of 1
+
+Function 'fade16_transition'
+Lines executed:0.00% of 1
+
+Function 'fade8_transition'
+Lines executed:0.00% of 1
+
+Function 'custom16_transition'
+Lines executed:0.00% of 1
+
+Function 'custom8_transition'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_xfade.c'
+Lines executed:0.00% of 366
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xfade.gcno##libavfilter#vf_xfade.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xfade.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xfade.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 372

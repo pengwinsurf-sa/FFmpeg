@@ -1,0 +1,106 @@
+Function 'flush'
+Lines executed:0.00% of 4
+
+Function 'decode_end'
+Lines executed:0.00% of 7
+
+Function 'decode_init'
+Lines executed:0.00% of 29
+
+Function 'binkb_calc_quant'
+Lines executed:0.00% of 14
+
+Function 'bink_init_vlcs'
+Lines executed:0.00% of 9
+
+Function 'decode_frame'
+Lines executed:0.00% of 55
+
+Function 'bink_decode_plane'
+Lines executed:0.00% of 215
+
+Function 'bink_put_pixels'
+Lines executed:0.00% of 10
+
+Function 'binkb_decode_plane'
+Lines executed:0.00% of 119
+
+Function 'put_pixels8x8_overlapped'
+Lines executed:0.00% of 8
+
+Function 'read_residue'
+Lines executed:0.00% of 56
+
+Function 'unquantize_dct_coeffs'
+Lines executed:0.00% of 7
+
+Function 'read_dct_coeffs'
+Lines executed:0.00% of 64
+
+Function 'binkb_read_bundle'
+Lines executed:0.00% of 21
+
+Function 'binkb_init_bundles'
+Lines executed:0.00% of 5
+
+Function 'binkb_init_bundle'
+Lines executed:0.00% of 5
+
+Function 'read_dcs'
+Lines executed:0.00% of 32
+
+Function 'read_colors'
+Lines executed:0.00% of 36
+
+Function 'read_patterns'
+Lines executed:0.00% of 13
+
+Function 'read_block_types'
+Lines executed:0.00% of 29
+
+Function 'read_motion_values'
+Lines executed:0.00% of 22
+
+Function 'read_runs'
+Lines executed:0.00% of 15
+
+Function 'read_bundle'
+Lines executed:0.00% of 14
+
+Function 'read_tree'
+Lines executed:0.00% of 25
+
+Function 'merge'
+Lines executed:0.00% of 15
+
+Function 'init_bundles'
+Lines executed:0.00% of 13
+
+Function 'init_lengths'
+Lines executed:0.00% of 12
+
+File 'libavcodec/bink.c'
+Lines executed:0.00% of 796
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bink.gcno##libavcodec#bink.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bink.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bink.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bink.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bink.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bink.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 854

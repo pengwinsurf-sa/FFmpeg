@@ -1,0 +1,14 @@
+Function 'ff_calculate_bounding_box'
+Lines executed:0.00% of 4
+
+Function 'bbox_16'
+Lines executed:0.00% of 1
+
+Function 'bbox_8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/bbox.c'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#bbox.gcno##libavfilter#bbox.c.gcov'
+
+Lines executed:0.00% of 6

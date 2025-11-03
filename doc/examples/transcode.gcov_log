@@ -1,0 +1,41 @@
+Function 'main'
+Lines executed:0.00% of 94
+
+Function 'flush_encoder'
+Lines executed:0.00% of 4
+
+Function 'filter_encode_write_frame'
+Lines executed:0.00% of 19
+
+Function 'encode_write_frame'
+Lines executed:0.00% of 22
+
+Function 'init_filters'
+Lines executed:0.00% of 22
+
+Function 'init_filter'
+Lines executed:0.00% of 108
+
+Function 'open_output_file'
+Lines executed:0.00% of 80
+
+Function 'open_input_file'
+Lines executed:0.00% of 41
+
+File 'doc/examples/transcode.c'
+Lines executed:0.00% of 382
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode.gcno##doc#examples#transcode.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 390

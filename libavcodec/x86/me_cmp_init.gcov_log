@@ -1,0 +1,23 @@
+Function 'ff_me_cmp_init_x86'
+Lines executed:86.36% of 44
+
+Function 'sad16_xy2_mmx'
+Lines executed:100.00% of 5
+
+Function 'sad8_xy2_mmx'
+Lines executed:100.00% of 1
+
+Function 'sad8_4_mmx'
+Lines executed:100.00% of 5
+
+Function 'nsse8_mmx'
+Lines executed:85.71% of 7
+
+Function 'nsse16_mmx'
+Lines executed:80.00% of 10
+
+File 'libavcodec/x86/me_cmp_init.c'
+Lines executed:87.67% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#me_cmp_init.gcno##libavcodec#x86#me_cmp_init.c.gcov'
+
+Lines executed:87.67% of 73

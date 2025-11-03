@@ -1,0 +1,51 @@
+Function 'async_seek'
+Lines executed:0.00% of 53
+
+Function 'async_read'
+Lines executed:0.00% of 2
+
+Function 'async_read_internal'
+Lines executed:0.00% of 29
+
+Function 'async_close'
+Lines executed:0.00% of 21
+
+Function 'async_open'
+Lines executed:0.00% of 46
+
+Function 'async_buffer_task'
+Lines executed:0.00% of 63
+
+Function 'async_check_interrupt'
+Lines executed:0.00% of 7
+
+Function 'wrapped_url_read'
+Lines executed:0.00% of 10
+
+Function 'ring_read'
+Lines executed:0.00% of 10
+
+Function 'ring_init'
+Lines executed:0.00% of 8
+
+File 'libavformat/async.c'
+Lines executed:0.00% of 236
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#async.gcno##libavformat#async.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#async.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#async.gcno##libavutil#thread.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#async.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#async.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 249

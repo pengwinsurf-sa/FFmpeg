@@ -1,0 +1,39 @@
+Function 'av_aes_init'
+Lines executed:100.00% of 34
+
+Function 'aes_init_static'
+Lines executed:100.00% of 19
+
+Function 'init_multbl2'
+Lines executed:100.00% of 16
+
+Function 'av_aes_crypt'
+Lines executed:0.00% of 3
+
+Function 'aes_decrypt'
+Lines executed:100.00% of 17
+
+Function 'aes_encrypt'
+Lines executed:100.00% of 13
+
+Function 'aes_crypt'
+Lines executed:100.00% of 10
+
+Function 'mix'
+Lines executed:100.00% of 9
+
+Function 'subshift'
+Lines executed:100.00% of 22
+
+Function 'av_aes_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/aes.c'
+Lines executed:96.50% of 143
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#aes.gcno##libavutil#aes.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#aes.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:96.55% of 145

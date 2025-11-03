@@ -1,0 +1,75 @@
+Function 'alac_decode_init'
+Lines executed:0.00% of 34
+
+Function 'alac_set_info'
+Lines executed:0.00% of 33
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 14
+
+Function 'alac_decode_close'
+Lines executed:0.00% of 9
+
+Function 'alac_decode_frame'
+Lines executed:0.00% of 55
+
+Function 'decode_element'
+Lines executed:0.00% of 120
+
+Function 'lpc_prediction'
+Lines executed:0.00% of 38
+
+Function 'rice_decompress'
+Lines executed:0.00% of 32
+
+Function 'decode_scalar'
+Lines executed:0.00% of 19
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/alac.c'
+Lines executed:0.00% of 288
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavcodec#alac.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alac.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 409

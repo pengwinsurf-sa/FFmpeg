@@ -1,0 +1,33 @@
+Function 'ff_intel_h263_decode_picture_header'
+Lines executed:0.00% of 85
+
+Function 'check_marker'
+Lines executed:0.00% of 6
+
+Function 'skip_1stop_8data_bits'
+Lines executed:0.00% of 5
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/intelh263dec.c'
+Lines executed:0.00% of 65
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intelh263dec.gcno##libavcodec#intelh263dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intelh263dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mpegvideodec.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intelh263dec.gcno##libavcodec#mpegvideodec.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intelh263dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intelh263dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 115

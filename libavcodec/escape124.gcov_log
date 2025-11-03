@@ -1,0 +1,38 @@
+Function 'escape124_decode_frame'
+Lines executed:0.00% of 152
+
+Function 'copy_superblock'
+Lines executed:0.00% of 12
+
+Function 'decode_macroblock'
+Lines executed:0.00% of 16
+
+Function 'decode_skip_count'
+Lines executed:0.00% of 10
+
+Function 'unpack_codebook'
+Lines executed:0.00% of 16
+
+Function 'escape124_decode_close'
+Lines executed:0.00% of 7
+
+Function 'escape124_decode_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/escape124.c'
+Lines executed:0.00% of 161
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape124.gcno##libavcodec#escape124.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape124.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape124.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape124.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 221

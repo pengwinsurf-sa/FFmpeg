@@ -1,0 +1,36 @@
+Function 'ff_nal_unit_extract_rbsp'
+Lines executed:0.00% of 20
+
+Function 'ff_nal_mp4_find_startcode'
+Lines executed:0.00% of 7
+
+Function 'ff_nal_parse_units_buf'
+Lines executed:0.00% of 7
+
+Function 'ff_nal_units_write_list'
+Lines executed:0.00% of 5
+
+Function 'ff_nal_units_create_list'
+Lines executed:0.00% of 3
+
+Function 'ff_nal_parse_units'
+Lines executed:0.00% of 2
+
+Function 'nal_parse_units'
+Lines executed:0.00% of 23
+
+Function 'ff_nal_find_startcode'
+Lines executed:0.00% of 4
+
+Function 'nal_find_startcode_internal'
+Lines executed:0.00% of 21
+
+File 'libavformat/nal.c'
+Lines executed:0.00% of 90
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nal.gcno##libavformat#nal.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nal.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 92

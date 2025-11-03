@@ -1,0 +1,27 @@
+Function 'avtextwriter_create_avio'
+Lines executed:0.00% of 10
+
+Function 'avtextwriter_create_file'
+Lines executed:0.00% of 19
+
+Function 'io_vprintf'
+Lines executed:0.00% of 4
+
+Function 'io_put_str'
+Lines executed:0.00% of 4
+
+Function 'io_w8'
+Lines executed:0.00% of 4
+
+Function 'iowriter_uninit'
+Lines executed:0.00% of 6
+
+File 'fftools/textformat/tw_avio.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tw_avio.gcno##fftools#textformat#tw_avio.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tw_avio.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 47

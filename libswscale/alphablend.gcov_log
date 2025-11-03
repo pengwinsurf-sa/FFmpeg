@@ -1,0 +1,20 @@
+Function 'ff_sws_alphablendaway'
+Lines executed:0.00% of 123
+
+File 'libswscale/alphablend.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#alphablend.gcno##libswscale#alphablend.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#alphablend.gcno##libswscale#swscale_internal.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#alphablend.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#alphablend.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 123

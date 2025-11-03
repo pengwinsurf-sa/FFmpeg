@@ -1,0 +1,26 @@
+Function 'ff_nut_free_sp'
+Lines executed:0.00% of 5
+
+Function 'enu_free'
+Lines executed:0.00% of 3
+
+Function 'ff_nut_add_sp'
+Lines executed:0.00% of 15
+
+Function 'ff_nut_sp_pts_cmp'
+Lines executed:0.00% of 3
+
+Function 'ff_nut_sp_pos_cmp'
+Lines executed:0.00% of 3
+
+Function 'ff_lsb2full'
+Lines executed:0.00% of 4
+
+Function 'ff_nut_reset_ts'
+Lines executed:0.00% of 8
+
+File 'libavformat/nut.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nut.gcno##libavformat#nut.c.gcov'
+
+Lines executed:0.00% of 41

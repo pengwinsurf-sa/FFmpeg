@@ -1,0 +1,244 @@
+Function 'x2rgb10tobgr64_bswap'
+Lines executed:0.00% of 4
+
+Function 'x2rgb10tobgr64_nobswap'
+Lines executed:0.00% of 1
+
+Function 'x2rgb10tobgr48_bswap'
+Lines executed:0.00% of 1
+
+Function 'x2rgb10tobgr48_nobswap'
+Lines executed:0.00% of 1
+
+Function 'x2rgb10to64_bswap'
+Lines executed:0.00% of 1
+
+Function 'x2rgb10to64_nobswap'
+Lines executed:0.00% of 1
+
+Function 'x2rgb10to48_bswap'
+Lines executed:0.00% of 1
+
+Function 'x2rgb10to48_nobswap'
+Lines executed:0.00% of 1
+
+Function 'rgb48to64_bswap'
+Lines executed:0.00% of 1
+
+Function 'rgb48to64_nobswap'
+Lines executed:0.00% of 1
+
+Function 'rgb48tobgr64_bswap'
+Lines executed:0.00% of 1
+
+Function 'rgb48tobgr64_nobswap'
+Lines executed:0.00% of 1
+
+Function 'rgb64to48_bswap'
+Lines executed:0.00% of 1
+
+Function 'rgb64to48_nobswap'
+Lines executed:0.00% of 1
+
+Function 'rgb64tobgr48_bswap'
+Lines executed:0.00% of 1
+
+Function 'rgb64tobgr48_nobswap'
+Lines executed:0.00% of 1
+
+Function 'rgb48tobgr48_bswap'
+Lines executed:0.00% of 1
+
+Function 'rgb48tobgr48_nobswap'
+Lines executed:0.00% of 1
+
+Function 'rgb12tobgr12'
+Lines executed:0.00% of 8
+
+Function 'rgb15tobgr15'
+Lines executed:0.00% of 7
+
+Function 'rgb15tobgr16'
+Lines executed:0.00% of 6
+
+Function 'rgb15to24'
+Lines executed:0.00% of 10
+
+Function 'rgb15tobgr32'
+Lines executed:0.00% of 11
+
+Function 'rgb16tobgr15'
+Lines executed:0.00% of 6
+
+Function 'rgb16tobgr16'
+Lines executed:0.00% of 6
+
+Function 'rgb16to24'
+Lines executed:0.00% of 10
+
+Function 'rgb12to15'
+Lines executed:0.00% of 15
+
+Function 'rgb16tobgr32'
+Lines executed:0.00% of 11
+
+Function 'rgb24to32'
+Lines executed:0.00% of 8
+
+Function 'rgb32to24'
+Lines executed:0.00% of 7
+
+Function 'ff_sws_rgb2rgb_init'
+Lines executed:100.00% of 4
+
+Function 'rgb2rgb_init_c'
+Lines executed:100.00% of 43
+
+Function 'uyvytoyuv422_c'
+Lines executed:100.00% of 27
+
+Function 'uyvytoyuv420_c'
+Lines executed:0.00% of 12
+
+Function 'yuyvtoyuv422_c'
+Lines executed:0.00% of 21
+
+Function 'yuyvtoyuv420_c'
+Lines executed:0.00% of 12
+
+Function 'extract_odd2avg_c'
+Lines executed:0.00% of 13
+
+Function 'extract_even2avg_c'
+Lines executed:0.00% of 11
+
+Function 'yvu9_to_yuy2_c'
+Lines executed:0.00% of 20
+
+Function 'vu9_to_vu12_c'
+Lines executed:0.00% of 15
+
+Function 'deinterleaveBytes_c'
+Lines executed:100.00% of 10
+
+Function 'interleaveBytes_c'
+Lines executed:100.00% of 10
+
+Function 'ff_rgb24toyv12_c'
+Lines executed:96.00% of 50
+
+Function 'planar2x_c'
+Lines executed:0.00% of 27
+
+Function 'yuy2toyv12_c'
+Lines executed:0.00% of 19
+
+Function 'yuv422ptoyuy2_c'
+Lines executed:0.00% of 3
+
+Function 'yuv422ptouyvy_c'
+Lines executed:0.00% of 3
+
+Function 'yv12touyvy_c'
+Lines executed:0.00% of 3
+
+Function 'yuvPlanartouyvy_c'
+Lines executed:0.00% of 19
+
+Function 'yv12toyuy2_c'
+Lines executed:0.00% of 3
+
+Function 'yuvPlanartoyuy2_c'
+Lines executed:0.00% of 19
+
+Function 'rgb24tobgr24_c'
+Lines executed:0.00% of 8
+
+Function 'shuffle_bytes_1203_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_2130_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_2013_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_3102_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_3210_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_3012_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_1230_c'
+Lines executed:100.00% of 1
+
+Function 'shuffle_bytes_0321_c'
+Lines executed:100.00% of 9
+
+Function 'shuffle_bytes_2103_c'
+Lines executed:100.00% of 9
+
+Function 'rgb16to32_c'
+Lines executed:0.00% of 11
+
+Function 'rgb15to32_c'
+Lines executed:0.00% of 11
+
+Function 'rgb16tobgr24_c'
+Lines executed:0.00% of 10
+
+Function 'rgb15tobgr24_c'
+Lines executed:0.00% of 10
+
+Function 'rgb24to15_c'
+Lines executed:0.00% of 10
+
+Function 'rgb24tobgr15_c'
+Lines executed:0.00% of 10
+
+Function 'rgb24to16_c'
+Lines executed:0.00% of 10
+
+Function 'rgb24tobgr16_c'
+Lines executed:0.00% of 10
+
+Function 'rgb32tobgr15_c'
+Lines executed:0.00% of 11
+
+Function 'rgb32to15_c'
+Lines executed:0.00% of 11
+
+Function 'rgb32tobgr16_c'
+Lines executed:0.00% of 11
+
+Function 'rgb32to16_c'
+Lines executed:0.00% of 11
+
+Function 'rgb16to15_c'
+Lines executed:0.00% of 14
+
+Function 'rgb15to16_c'
+Lines executed:0.00% of 14
+
+Function 'rgb32tobgr24_c'
+Lines executed:0.00% of 10
+
+Function 'rgb24tobgr32_c'
+Lines executed:0.00% of 10
+
+File 'libswscale/rgb2rgb.c'
+Lines executed:3.15% of 127
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#rgb2rgb.gcno##libswscale#rgb2rgb.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#rgb2rgb.gcno##libavutil#bswap.h.gcov'
+
+File 'libswscale/rgb2rgb_template.c'
+Lines executed:29.80% of 547
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#rgb2rgb.gcno##libswscale#rgb2rgb_template.c.gcov'
+
+Lines executed:24.67% of 677

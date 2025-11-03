@@ -1,0 +1,39 @@
+Function 'config_input'
+Lines executed:0.00% of 17
+
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'rgbawrap_slice16'
+Lines executed:0.00% of 1
+
+Function 'rgbawrap_slice8'
+Lines executed:0.00% of 1
+
+Function 'rgbasmear_slice16'
+Lines executed:0.00% of 4
+
+Function 'rgbasmear_slice8'
+Lines executed:0.00% of 1
+
+Function 'wrap_slice16'
+Lines executed:0.00% of 1
+
+Function 'wrap_slice8'
+Lines executed:0.00% of 1
+
+Function 'smear_slice16'
+Lines executed:0.00% of 1
+
+Function 'smear_slice8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_chromashift.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_chromashift.gcno##libavfilter#vf_chromashift.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_chromashift.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 47

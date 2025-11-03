@@ -1,0 +1,23 @@
+Function 'checkasm_check_fdctdsp'
+Lines executed:100.00% of 4
+
+Function 'check_fdct'
+Lines executed:75.00% of 28
+
+File 'tests/checkasm/fdctdsp.c'
+Lines executed:95.45% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#fdctdsp.gcno##tests#checkasm#fdctdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#fdctdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#fdctdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#fdctdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:78.12% of 32

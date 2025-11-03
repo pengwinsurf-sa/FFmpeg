@@ -1,0 +1,36 @@
+Function 'filter_frame'
+Lines executed:0.00% of 24
+
+Function 'set_meta'
+Lines executed:0.00% of 7
+
+Function 'std_deviation'
+Lines executed:0.00% of 14
+
+Function 'calculate_motion'
+Lines executed:0.00% of 11
+
+Function 'convolve_sobel'
+Lines executed:0.00% of 16
+
+Function 'convert_full_range'
+Lines executed:0.00% of 10
+
+Function 'config_input'
+Lines executed:0.00% of 25
+
+Function 'uninit'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_siti.c'
+Lines executed:0.00% of 121
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_siti.gcno##libavfilter#vf_siti.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_siti.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 123

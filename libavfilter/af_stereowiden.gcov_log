@@ -1,0 +1,17 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 33
+
+Function 'config_input'
+Lines executed:0.00% of 10
+
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_stereowiden.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_stereowiden.gcno##libavfilter#af_stereowiden.c.gcov'
+
+Lines executed:0.00% of 55

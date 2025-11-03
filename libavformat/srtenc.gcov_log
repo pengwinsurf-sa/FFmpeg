@@ -1,0 +1,11 @@
+Function 'srt_write_packet'
+Lines executed:0.00% of 28
+
+Function 'srt_write_header'
+Lines executed:0.00% of 8
+
+File 'libavformat/srtenc.c'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtenc.gcno##libavformat#srtenc.c.gcov'
+
+Lines executed:0.00% of 36

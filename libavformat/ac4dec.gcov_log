@@ -1,0 +1,18 @@
+Function 'ac4_read_packet'
+Lines executed:0.00% of 18
+
+Function 'ac4_read_header'
+Lines executed:0.00% of 7
+
+Function 'ac4_probe'
+Lines executed:0.00% of 19
+
+File 'libavformat/ac4dec.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ac4dec.gcno##libavformat#ac4dec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ac4dec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 44

@@ -1,0 +1,50 @@
+Function 'ra288_decode_frame'
+Lines executed:0.00% of 60
+
+Function 'backward_filter'
+Lines executed:0.00% of 9
+
+Function 'decode'
+Lines executed:0.00% of 22
+
+Function 'ra288_decode_init'
+Lines executed:0.00% of 14
+
+Function 'do_hybrid_window'
+Lines executed:0.00% of 14
+
+Function 'convolve'
+Lines executed:0.00% of 4
+
+Function 'compute_lpc_coefs'
+Lines executed:0.00% of 28
+
+File 'libavcodec/ra288.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno##libavcodec#ra288.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/g728_template.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno##libavcodec#g728_template.c.gcov'
+
+File 'libavcodec/lpc_functions.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ra288.gcno##libavcodec#lpc_functions.h.gcov'
+
+Lines executed:0.00% of 151

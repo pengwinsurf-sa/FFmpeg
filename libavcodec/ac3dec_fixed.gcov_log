@@ -1,0 +1,138 @@
+Function 'ac3_decode_end'
+Lines executed:0.00% of 7
+
+Function 'ac3_decode_frame'
+Lines executed:0.00% of 273
+
+Function 'decode_audio_block'
+Lines executed:0.00% of 239
+
+Function 'coupling_coordinates'
+Lines executed:0.00% of 26
+
+Function 'coupling_strategy'
+Lines executed:0.00% of 39
+
+Function 'spx_coordinates'
+Lines executed:0.00% of 56
+
+Function 'spx_strategy'
+Lines executed:0.00% of 33
+
+Function 'decode_band_structure'
+Lines executed:0.00% of 25
+
+Function 'ac3_upmix_delay'
+Lines executed:0.00% of 20
+
+Function 'do_imdct'
+Lines executed:0.00% of 19
+
+Function 'do_rematrixing'
+Lines executed:0.00% of 12
+
+Function 'decode_transform_coeffs'
+Lines executed:0.00% of 19
+
+Function 'decode_transform_coeffs_ch'
+Lines executed:0.00% of 9
+
+Function 'remove_dithering'
+Lines executed:0.00% of 8
+
+Function 'ac3_decode_transform_coeffs_ch'
+Lines executed:0.00% of 60
+
+Function 'calc_transform_coeffs_cpl'
+Lines executed:0.00% of 19
+
+Function 'decode_exponents'
+Lines executed:0.00% of 24
+
+Function 'set_downmix_coeffs'
+Lines executed:0.00% of 37
+
+Function 'parse_frame_header'
+Lines executed:0.00% of 60
+
+Function 'ac3_decode_flush'
+Lines executed:0.00% of 6
+
+Function 'ac3_decode_init'
+Lines executed:0.00% of 22
+
+Function 'ac3_downmix'
+Lines executed:0.00% of 13
+
+Function 'ff_eac3_parse_header'
+Lines executed:0.00% of 118
+
+Function 'ff_eac3_decode_transform_coeffs_aht_ch'
+Lines executed:0.00% of 57
+
+Function 'idct6'
+Lines executed:0.00% of 22
+
+Function 'ff_eac3_apply_spectral_extension'
+Lines executed:0.00% of 62
+
+Function 'ac3_downmix_c_fixed16'
+Lines executed:0.00% of 16
+
+Function 'scale_coefs'
+Lines executed:0.00% of 49
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/ac3dec.c'
+Lines executed:0.00% of 952
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavcodec#ac3dec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/fixed_dsp.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavutil#fixed_dsp.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavutil#lfg.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/eac3dec.c'
+Lines executed:0.00% of 259
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavcodec#eac3dec.c.gcov'
+
+File 'libavcodec/ac3dec_fixed.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavcodec#ac3dec_fixed.c.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3dec_fixed.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1396

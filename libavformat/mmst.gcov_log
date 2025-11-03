@@ -1,0 +1,78 @@
+Function 'mms_read'
+Lines executed:0.00% of 22
+
+Function 'mms_open'
+Lines executed:0.00% of 63
+
+Function 'send_media_packet_request'
+Lines executed:0.00% of 20
+
+Function 'mms_close'
+Lines executed:0.00% of 9
+
+Function 'send_close_packet'
+Lines executed:0.00% of 4
+
+Function 'send_stream_selection_request'
+Lines executed:0.00% of 11
+
+Function 'send_startup_packet'
+Lines executed:0.00% of 13
+
+Function 'send_media_header_request'
+Lines executed:0.00% of 15
+
+Function 'mms_safe_send_recv'
+Lines executed:0.00% of 10
+
+Function 'get_tcp_server_response'
+Lines executed:0.00% of 79
+
+Function 'pad_media_packet'
+Lines executed:0.00% of 8
+
+Function 'send_keepalive_packet'
+Lines executed:0.00% of 4
+
+Function 'handle_packet_stream_changing_type'
+Lines executed:0.00% of 6
+
+Function 'send_media_file_request'
+Lines executed:0.00% of 9
+
+Function 'send_protocol_select'
+Lines executed:0.00% of 12
+
+Function 'send_time_test_data'
+Lines executed:0.00% of 4
+
+Function 'mms_put_utf16'
+Lines executed:0.00% of 10
+
+Function 'send_command_packet'
+Lines executed:0.00% of 18
+
+Function 'start_command_packet'
+Lines executed:0.00% of 14
+
+File 'libavformat/mmst.c'
+Lines executed:0.00% of 319
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmst.gcno##libavformat#mmst.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmst.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmst.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmst.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mmst.gcno##libavformat#url.h.gcov'
+
+Lines executed:0.00% of 331

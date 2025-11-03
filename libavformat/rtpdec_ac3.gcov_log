@@ -1,0 +1,15 @@
+Function 'ac3_handle_packet'
+Lines executed:0.00% of 54
+
+Function 'ac3_close_context'
+Lines executed:0.00% of 3
+
+File 'libavformat/rtpdec_ac3.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_ac3.gcno##libavformat#rtpdec_ac3.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_ac3.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 57

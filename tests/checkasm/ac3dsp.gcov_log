@@ -1,0 +1,39 @@
+Function 'checkasm_check_ac3dsp'
+Lines executed:100.00% of 9
+
+Function 'check_ac3_sum_square_butterfly_float'
+Lines executed:73.08% of 26
+
+Function 'check_ac3_sum_square_butterfly_int32'
+Lines executed:93.75% of 16
+
+Function 'check_float_to_fixed24'
+Lines executed:92.86% of 14
+
+Function 'check_ac3_extract_exponents'
+Lines executed:93.75% of 16
+
+Function 'check_ac3_exponent_min'
+Lines executed:95.00% of 20
+
+File 'tests/checkasm/ac3dsp.c'
+Lines executed:94.38% of 89
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#ac3dsp.gcno##tests#checkasm#ac3dsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#ac3dsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#ac3dsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#ac3dsp.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#ac3dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:89.11% of 101

@@ -1,0 +1,30 @@
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'config_output'
+Lines executed:0.00% of 142
+
+Function 'process_frame'
+Lines executed:0.00% of 19
+
+Function 'process_slice'
+Lines executed:0.00% of 13
+
+Function 'init'
+Lines executed:0.00% of 38
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_stack.c'
+Lines executed:0.00% of 226
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_stack.gcno##libavfilter#vf_stack.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_stack.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 227

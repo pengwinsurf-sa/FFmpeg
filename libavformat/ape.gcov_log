@@ -1,0 +1,24 @@
+Function 'ape_read_seek'
+Lines executed:0.00% of 10
+
+Function 'ape_read_close'
+Lines executed:0.00% of 4
+
+Function 'ape_read_packet'
+Lines executed:0.00% of 30
+
+Function 'ape_read_header'
+Lines executed:0.00% of 156
+
+Function 'ape_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/ape.c'
+Lines executed:0.00% of 203
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ape.gcno##libavformat#ape.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ape.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 205

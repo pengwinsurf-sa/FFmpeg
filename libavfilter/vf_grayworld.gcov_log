@@ -1,0 +1,32 @@
+Function 'filter_frame'
+Lines executed:0.00% of 28
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'config_input'
+Lines executed:0.00% of 7
+
+Function 'correct_frame'
+Lines executed:0.00% of 26
+
+Function 'compute_correction'
+Lines executed:0.00% of 10
+
+Function 'convert_frame'
+Lines executed:0.00% of 31
+
+Function 'lab2rgb'
+Lines executed:0.00% of 8
+
+Function 'rgb2lab'
+Lines executed:0.00% of 8
+
+Function 'apply_matrix'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_grayworld.c'
+Lines executed:0.00% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_grayworld.gcno##libavfilter#vf_grayworld.c.gcov'
+
+Lines executed:0.00% of 129

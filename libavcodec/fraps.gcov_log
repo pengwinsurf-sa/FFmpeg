@@ -1,0 +1,51 @@
+Function 'decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_frame'
+Lines executed:0.00% of 117
+
+Function 'fraps2_decode_plane'
+Lines executed:0.00% of 31
+
+Function 'huff_cmp'
+Lines executed:0.00% of 3
+
+Function 'decode_init'
+Lines executed:0.00% of 6
+
+Function 'bits_read_vlc_be'
+Lines executed:0.00% of 28
+
+Function 'bits_priv_set_idx_be'
+Lines executed:0.00% of 6
+
+Function 'bits_init_be'
+Lines executed:0.00% of 21
+
+Function 'bits_priv_refill_32_be'
+Lines executed:0.00% of 7
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/fraps.c'
+Lines executed:0.00% of 153
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fraps.gcno##libavcodec#fraps.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fraps.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fraps.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/bitstream_template.h'
+Lines executed:0.00% of 65
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fraps.gcno##libavcodec#bitstream_template.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fraps.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 225

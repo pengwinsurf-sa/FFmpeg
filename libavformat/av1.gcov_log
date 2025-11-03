@@ -1,0 +1,82 @@
+Function 'ff_isom_write_av1c'
+Lines executed:0.00% of 75
+
+Function 'ff_av1_parse_seq_header'
+Lines executed:0.00% of 61
+
+Function 'parse_sequence_header'
+Lines executed:0.00% of 94
+
+Function 'parse_color_config'
+Lines executed:0.00% of 46
+
+Function 'uvlc'
+Lines executed:0.00% of 11
+
+Function 'ff_av1_filter_obus_buf'
+Lines executed:0.00% of 21
+
+Function 'ff_av1_filter_obus'
+Lines executed:0.00% of 2
+
+Function 'av1_filter_obus'
+Lines executed:0.00% of 29
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_obu_bit_length'
+Lines executed:0.00% of 14
+
+Function 'parse_obu_header'
+Lines executed:0.00% of 24
+
+Function 'get_leb128'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/av1.c'
+Lines executed:0.00% of 283
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavformat#av1.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/av1_parse.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavcodec#av1_parse.h.gcov'
+
+File 'libavcodec/leb.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavcodec#leb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 436

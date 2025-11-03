@@ -1,0 +1,18 @@
+Function 'avcodec_dct_init'
+Lines executed:0.00% of 21
+
+Function 'avcodec_dct_alloc'
+Lines executed:0.00% of 6
+
+Function 'avcodec_dct_get_class'
+Lines executed:0.00% of 2
+
+File 'libavcodec/avdct.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avdct.gcno##libavcodec#avdct.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avdct.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 29

@@ -1,0 +1,73 @@
+Function 'lag_decode_init'
+Lines executed:0.00% of 7
+
+Function 'lag_decode_frame'
+Lines executed:0.00% of 115
+
+Function 'lag_decode_arith_plane'
+Lines executed:0.00% of 75
+
+Function 'lag_decode_zero_run_line'
+Lines executed:0.00% of 41
+
+Function 'lag_decode_line'
+Lines executed:0.00% of 25
+
+Function 'lag_pred_line_yuy2'
+Lines executed:0.00% of 29
+
+Function 'lag_pred_line'
+Lines executed:0.00% of 10
+
+Function 'add_lag_median_prediction'
+Lines executed:0.00% of 12
+
+Function 'lag_read_prob_header'
+Lines executed:0.00% of 76
+
+Function 'lag_decode_prob'
+Lines executed:0.00% of 26
+
+Function 'lag_init_static_data'
+Lines executed:0.00% of 3
+
+Function 'lag_get_rac'
+Lines executed:0.00% of 17
+
+Function 'lag_rac_refill'
+Lines executed:0.00% of 12
+
+Function 'get_bits_long'
+Lines executed:0.00% of 16
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/lagarith.c'
+Lines executed:0.00% of 376
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarith.gcno##libavcodec#lagarith.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarith.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarith.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarith.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarith.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/lagarithrac.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarith.gcno##libavcodec#lagarithrac.h.gcov'
+
+Lines executed:0.00% of 476

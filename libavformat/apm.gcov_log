@@ -1,0 +1,34 @@
+Function 'apm_write_trailer'
+Lines executed:0.00% of 13
+
+Function 'apm_write_header'
+Lines executed:0.00% of 18
+
+Function 'apm_write_init'
+Lines executed:0.00% of 14
+
+Function 'apm_read_packet'
+Lines executed:0.00% of 8
+
+Function 'apm_read_header'
+Lines executed:0.00% of 42
+
+Function 'apm_probe'
+Lines executed:0.00% of 6
+
+Function 'apm_parse_extradata'
+Lines executed:0.00% of 17
+
+File 'libavformat/apm.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apm.gcno##libavformat#apm.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apm.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 118

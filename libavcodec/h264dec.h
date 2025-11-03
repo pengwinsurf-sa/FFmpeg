@@ -28,7 +28,6 @@
 #ifndef AVCODEC_H264DEC_H
 #define AVCODEC_H264DEC_H
 
-#include "libavutil/buffer.h"
 #include "libavutil/mem_internal.h"
 
 #include "cabac.h"
@@ -41,7 +40,6 @@
 #include "h264dsp.h"
 #include "h264pred.h"
 #include "h264qpel.h"
-#include "h274.h"
 #include "mpegutils.h"
 #include "threadframe.h"
 #include "videodsp.h"
@@ -344,7 +342,6 @@ typedef struct H264Context {
     H264DSPContext h264dsp;
     H264ChromaContext h264chroma;
     H264QpelContext h264qpel;
-    H274FilmGrainDatabase h274db;
 
     H264Picture DPB[H264_MAX_PICTURE_COUNT];
     H264Picture *cur_pic_ptr;
@@ -541,7 +538,7 @@ typedef struct H264Context {
      * all subsequently output fraames are also marked as recovered
      *
      * In effect, if you want all subsequent DECODED frames marked as recovered, set frame_recovered
-     * If you want all subsequent DISPAYED frames marked as recovered, set the frame->recovered
+     * If you want all subsequent DISPLAYED frames marked as recovered, set the frame->recovered
      */
     int frame_recovered;
 

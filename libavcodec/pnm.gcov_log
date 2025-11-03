@@ -1,0 +1,15 @@
+Function 'ff_pnm_decode_header'
+Lines executed:0.00% of 126
+
+Function 'pnm_get'
+Lines executed:0.00% of 17
+
+File 'libavcodec/pnm.c'
+Lines executed:0.00% of 141
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnm.gcno##libavcodec#pnm.c.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnm.gcno###usr#include#stdlib.h.gcov'
+
+Lines executed:0.00% of 143

@@ -1,0 +1,67 @@
+Function 'uninit'
+Lines executed:0.00% of 10
+
+Function 'request_frame'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 22
+
+Function 'filter'
+Lines executed:0.00% of 24
+
+Function 'deinterlace_slice'
+Lines executed:0.00% of 5
+
+Function 'deinterlace_plane_slice'
+Lines executed:0.00% of 76
+
+Function 'config_output'
+Lines executed:0.00% of 10
+
+Function 'config_input'
+Lines executed:0.00% of 34
+
+Function 'filter16_scale'
+Lines executed:0.00% of 10
+
+Function 'filter16_complex_high'
+Lines executed:0.00% of 17
+
+Function 'filter16_simple_high'
+Lines executed:0.00% of 13
+
+Function 'filter16_complex_low'
+Lines executed:0.00% of 10
+
+Function 'filter16_simple_low'
+Lines executed:0.00% of 8
+
+Function 'filter_scale'
+Lines executed:0.00% of 5
+
+Function 'filter_complex_high'
+Lines executed:0.00% of 14
+
+Function 'filter_simple_high'
+Lines executed:0.00% of 10
+
+Function 'filter_complex_low'
+Lines executed:0.00% of 8
+
+Function 'filter_simple_low'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_w3fdif.c'
+Lines executed:0.00% of 290
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_w3fdif.gcno##libavfilter#vf_w3fdif.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_w3fdif.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_w3fdif.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 295

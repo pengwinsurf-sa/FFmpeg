@@ -1,0 +1,102 @@
+Function 'ff_thread_get_packet'
+Lines executed:0.00% of 6
+
+Function 'ff_thread_sync_ref'
+Lines executed:0.00% of 14
+
+Function 'ff_thread_release_ext_buffer'
+Lines executed:0.00% of 6
+
+Function 'ff_thread_get_ext_buffer'
+Lines executed:0.00% of 16
+
+Function 'ff_thread_get_buffer'
+Lines executed:0.00% of 5
+
+Function 'thread_get_buffer_internal'
+Lines executed:0.00% of 14
+
+Function 'ff_thread_can_start_frame'
+Lines executed:0.00% of 5
+
+Function 'ff_thread_flush'
+Lines executed:0.00% of 17
+
+Function 'ff_frame_thread_init'
+Lines executed:0.00% of 38
+
+Function 'init_thread'
+Lines executed:0.00% of 60
+
+Function 'ff_frame_thread_free'
+Lines executed:0.00% of 43
+
+Function 'park_frame_worker_threads'
+Lines executed:0.00% of 12
+
+Function 'ff_thread_finish_setup'
+Lines executed:0.00% of 26
+
+Function 'ff_thread_await_progress'
+Lines executed:0.00% of 13
+
+Function 'ff_thread_report_progress'
+Lines executed:0.00% of 13
+
+Function 'ff_thread_receive_frame'
+Lines executed:0.00% of 36
+
+Function 'submit_packet'
+Lines executed:0.00% of 38
+
+Function 'update_context_from_user'
+Lines executed:0.00% of 17
+
+Function 'update_context_from_thread'
+Lines executed:0.00% of 68
+
+Function 'frame_worker_thread'
+Lines executed:0.00% of 48
+
+Function 'decoded_frames_free'
+Lines executed:0.00% of 7
+
+Function 'decoded_frames_flush'
+Lines executed:0.00% of 5
+
+Function 'decoded_frames_pop'
+Lines executed:0.00% of 8
+
+Function 'decoded_frames_get_free'
+Lines executed:0.00% of 9
+
+Function 'thread_set_name'
+Lines executed:0.00% of 13
+
+Function 'async_unlock'
+Lines executed:0.00% of 7
+
+Function 'async_lock'
+Lines executed:0.00% of 7
+
+File 'libavcodec/pthread_frame.c'
+Lines executed:0.00% of 537
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pthread_frame.gcno##libavcodec#pthread_frame.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pthread_frame.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pthread_frame.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pthread_frame.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pthread_frame.gcno##libavutil#thread.h.gcov'
+
+Lines executed:0.00% of 551

@@ -1,0 +1,27 @@
+Function 'ff_llviddsp_init'
+Lines executed:100.00% of 8
+
+Function 'add_gradient_pred_c'
+Lines executed:100.00% of 8
+
+Function 'add_left_pred_int16_c'
+Lines executed:83.33% of 12
+
+Function 'add_left_pred_c'
+Lines executed:83.33% of 12
+
+Function 'add_median_pred_c'
+Lines executed:100.00% of 16
+
+Function 'add_bytes_c'
+Lines executed:88.89% of 9
+
+File 'libavcodec/lossless_videodsp.c'
+Lines executed:91.80% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lossless_videodsp.gcno##libavcodec#lossless_videodsp.c.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lossless_videodsp.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:92.31% of 65

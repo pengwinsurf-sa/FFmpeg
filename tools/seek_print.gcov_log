@@ -1,0 +1,26 @@
+Function 'main'
+Lines executed:0.00% of 52
+
+Function 'usage'
+Lines executed:0.00% of 3
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'tools/seek_print.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#seek_print.gcno##tools#seek_print.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#seek_print.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#seek_print.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#seek_print.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 61

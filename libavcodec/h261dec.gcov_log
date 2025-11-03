@@ -1,0 +1,62 @@
+Function 'h261_decode_frame'
+Lines executed:0.00% of 50
+
+Function 'h261_decode_gob'
+Lines executed:0.00% of 15
+
+Function 'h261_decode_picture_header'
+Lines executed:0.00% of 44
+
+Function 'h261_decode_mb'
+Lines executed:0.00% of 81
+
+Function 'h261_decode_block'
+Lines executed:0.00% of 64
+
+Function 'decode_mv_component'
+Lines executed:0.00% of 10
+
+Function 'h261_decode_mb_skipped'
+Lines executed:0.00% of 26
+
+Function 'h261_decode_gob_header'
+Lines executed:0.00% of 22
+
+Function 'h261_init_dest'
+Lines executed:0.00% of 7
+
+Function 'h261_decode_init'
+Lines executed:0.00% of 15
+
+Function 'h261_decode_init_static'
+Lines executed:0.00% of 7
+
+Function 'skip_1stop_8data_bits'
+Lines executed:0.00% of 5
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/h261dec.c'
+Lines executed:0.00% of 287
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261dec.gcno##libavcodec#h261dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 363

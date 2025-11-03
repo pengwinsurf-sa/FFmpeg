@@ -1,0 +1,15 @@
+Function 'hcom_read_header'
+Lines executed:0.00% of 39
+
+Function 'hcom_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/hcom.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hcom.gcno##libavformat#hcom.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hcom.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 44

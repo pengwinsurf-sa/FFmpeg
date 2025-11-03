@@ -61,6 +61,7 @@ OBJS-$(CONFIG_MLP_DECODER)             += x86/mlpdsp_init.o
 OBJS-$(CONFIG_MPEG4_DECODER)           += x86/mpeg4videodsp.o x86/xvididct_init.o
 OBJS-$(CONFIG_PNG_DECODER)             += x86/pngdsp_init.o
 OBJS-$(CONFIG_PRORES_DECODER)          += x86/proresdsp_init.o
+OBJS-$(CONFIG_PRORES_RAW_DECODER)      += x86/proresdsp_init.o
 OBJS-$(CONFIG_RV40_DECODER)            += x86/rv40dsp_init.o
 OBJS-$(CONFIG_SBC_ENCODER)             += x86/sbcdsp_init.o
 OBJS-$(CONFIG_SVQ1_ENCODER)            += x86/svq1enc_init.o
@@ -131,7 +132,7 @@ X86ASM-OBJS-$(CONFIG_QPELDSP)          += x86/qpeldsp.o                 \
                                           x86/qpel.o
 X86ASM-OBJS-$(CONFIG_RV34DSP)          += x86/rv34dsp.o
 X86ASM-OBJS-$(CONFIG_VC1DSP)           += x86/vc1dsp_loopfilter.o       \
-                                          x86/vc1dsp_mc.o
+                                          x86/vc1dsp_mc.o x86/fpel.o
 ifdef ARCH_X86_64
 X86ASM-OBJS-$(CONFIG_IDCTDSP)          += x86/simple_idct10.o
 else
@@ -151,7 +152,7 @@ X86ASM-OBJS-$(CONFIG_ADPCM_G722_ENCODER) += x86/g722dsp.o
 X86ASM-OBJS-$(CONFIG_ALAC_DECODER)     += x86/alacdsp.o
 X86ASM-OBJS-$(CONFIG_APNG_DECODER)     += x86/pngdsp.o
 X86ASM-OBJS-$(CONFIG_APV_DECODER)      += x86/apv_dsp.o
-X86ASM-OBJS-$(CONFIG_CAVS_DECODER)     += x86/cavsidct.o
+X86ASM-OBJS-$(CONFIG_CAVS_DECODER)     += x86/cavsidct.o x86/cavs_qpel.o
 X86ASM-OBJS-$(CONFIG_CFHD_ENCODER)     += x86/cfhdencdsp.o
 X86ASM-OBJS-$(CONFIG_CFHD_DECODER)     += x86/cfhddsp.o
 X86ASM-OBJS-$(CONFIG_DCA_DECODER)      += x86/dcadsp.o x86/synth_filter.o
@@ -169,6 +170,7 @@ X86ASM-OBJS-$(CONFIG_MLP_DECODER)      += x86/mlpdsp.o
 X86ASM-OBJS-$(CONFIG_MPEG4_DECODER)    += x86/xvididct.o
 X86ASM-OBJS-$(CONFIG_PNG_DECODER)      += x86/pngdsp.o
 X86ASM-OBJS-$(CONFIG_PRORES_DECODER)   += x86/proresdsp.o
+X86ASM-OBJS-$(CONFIG_PRORES_RAW_DECODER) += x86/proresdsp.o
 X86ASM-OBJS-$(CONFIG_RV40_DECODER)     += x86/rv40dsp.o
 X86ASM-OBJS-$(CONFIG_SBC_ENCODER)      += x86/sbcdsp.o
 X86ASM-OBJS-$(CONFIG_SVQ1_ENCODER)     += x86/svq1enc.o
@@ -184,6 +186,7 @@ X86ASM-OBJS-$(CONFIG_VP6_DECODER)      += x86/vp6dsp.o
 X86ASM-OBJS-$(CONFIG_VP9_DECODER)      += x86/vp9intrapred.o            \
                                           x86/vp9intrapred_16bpp.o      \
                                           x86/vp9itxfm.o                \
+                                          x86/vp9itxfm_avx2.o           \
                                           x86/vp9itxfm_avx512.o         \
                                           x86/vp9itxfm_16bpp.o          \
                                           x86/vp9itxfm_16bpp_avx512.o   \

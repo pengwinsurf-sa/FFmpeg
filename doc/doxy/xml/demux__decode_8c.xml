@@ -1,0 +1,1390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="demux__decode_8c" kind="file" language="C++">
+    <compoundname>demux_decode.c</compoundname>
+    <includes refid="imgutils_8h" local="no">libavutil/imgutils.h</includes>
+    <includes refid="samplefmt_8h" local="no">libavutil/samplefmt.h</includes>
+    <includes refid="timestamp_8h" local="no">libavutil/timestamp.h</includes>
+    <includes refid="avcodec_8h" local="no">libavcodec/avcodec.h</includes>
+    <includes refid="avformat_8h" local="no">libavformat/avformat.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>defs.h</label>
+        <link refid="defs_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>packet.h</label>
+        <link refid="packet_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>version.h</label>
+        <link refid="libavcodec_2version_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>version_major.h</label>
+        <link refid="libavcodec_2version__major_8h"/>
+      </node>
+      <node id="43">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>avio.h</label>
+        <link refid="avio_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>libavformat/version.h</label>
+        <link refid="libavformat_2version_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>libavformat/version_major.h</label>
+        <link refid="libavformat_2version__major_8h"/>
+      </node>
+      <node id="7">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="16">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>libavutil/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>libavutil/channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>libavutil/dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>libavutil/imgutils.h</label>
+        <link refid="imgutils_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>pixdesc.h</label>
+        <link refid="pixdesc_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>libavutil/samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>libavutil/timestamp.h</label>
+        <link refid="timestamp_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>errno.h</label>
+      </node>
+      <node id="6">
+        <label>inttypes.h</label>
+      </node>
+      <node id="9">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="13">
+        <label>limits.h</label>
+      </node>
+      <node id="19">
+        <label>math.h</label>
+      </node>
+      <node id="28">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="20">
+        <label>stdio.h</label>
+      </node>
+      <node id="21">
+        <label>stdlib.h</label>
+      </node>
+      <node id="22">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="demux__decode_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref> *</type>
+        <definition>AVFormatContext* fmt_ctx</definition>
+        <argsstring></argsstring>
+        <name>fmt_ctx</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="38" column="24" bodyfile="doc/examples/demux_decode.c" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+        <definition>AVCodecContext* video_dec_ctx</definition>
+        <argsstring></argsstring>
+        <name>video_dec_ctx</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="39" column="23" bodyfile="doc/examples/demux_decode.c" bodystart="39" bodyend="-1"/>
+        <referencedby refid="extract__mvs_8c_1a3740a789b55da53dea5861e772d684a3" compoundref="extract__mvs_8c" startline="45" endline="84">decode_packet</referencedby>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="extract__mvs_8c_1a08a44e4ddfb699cb1a263e34948d05c3" compoundref="extract__mvs_8c" startline="86" endline="131">open_codec_context</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+        <definition>AVCodecContext * audio_dec_ctx</definition>
+        <argsstring></argsstring>
+        <name>audio_dec_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="39" column="38" bodyfile="doc/examples/demux_decode.c" bodystart="39" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" compoundref="demux__decode_8c" startline="90" endline="108">output_audio_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="40" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="40" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a8436a3ec342b666f3e92660278c51eca" compoundref="mux_8c" startline="381" endline="402">alloc_frame</referencedby>
+        <referencedby refid="group__lavu__picture_1ga911cb7d723163b88bdbbdacbeeaacf2d" compoundref="imgutils_8h" startline="184" endline="191">av_image_copy2</referencedby>
+        <referencedby refid="mux_8c_1acc346658c36a422fc9ab42bbb976138e" compoundref="mux_8c" startline="449" endline="468">fill_yuv_image</referencedby>
+        <referencedby refid="scale__video_8c_1aa900f1f8fe783be800a3caea221d8917" compoundref="scale__video_8c" startline="34" endline="51">fill_yuv_image</referencedby>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="40" column="18" bodyfile="doc/examples/demux_decode.c" bodystart="40" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a8436a3ec342b666f3e92660278c51eca" compoundref="mux_8c" startline="381" endline="402">alloc_frame</referencedby>
+        <referencedby refid="group__lavu__picture_1ga911cb7d723163b88bdbbdacbeeaacf2d" compoundref="imgutils_8h" startline="184" endline="191">av_image_copy2</referencedby>
+        <referencedby refid="mux_8c_1acc346658c36a422fc9ab42bbb976138e" compoundref="mux_8c" startline="449" endline="468">fill_yuv_image</referencedby>
+        <referencedby refid="scale__video_8c_1aa900f1f8fe783be800a3caea221d8917" compoundref="scale__video_8c" startline="34" endline="51">fill_yuv_image</referencedby>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" prot="public" static="yes" mutable="no">
+        <type>enum <ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref></type>
+        <definition>enum AVPixelFormat pix_fmt</definition>
+        <argsstring></argsstring>
+        <name>pix_fmt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="41" column="26" bodyfile="doc/examples/demux_decode.c" bodystart="41" bodyend="-1"/>
+        <referencedby refid="mux_8c_1a8436a3ec342b666f3e92660278c51eca" compoundref="mux_8c" startline="381" endline="402">alloc_frame</referencedby>
+        <referencedby refid="group__lavu__picture_1ga911cb7d723163b88bdbbdacbeeaacf2d" compoundref="imgutils_8h" startline="184" endline="191">av_image_copy2</referencedby>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a9decdb9a2529baa6bd2a855a12f1f0fc" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVStream" kindref="compound">AVStream</ref> *</type>
+        <definition>AVStream* video_stream</definition>
+        <argsstring></argsstring>
+        <name>video_stream</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="42" column="17" bodyfile="doc/examples/demux_decode.c" bodystart="42" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="hw__decode_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="hw__decode_8c" startline="149" endline="256">main</referencedby>
+        <referencedby refid="extract__mvs_8c_1a08a44e4ddfb699cb1a263e34948d05c3" compoundref="extract__mvs_8c" startline="86" endline="131">open_codec_context</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVStream" kindref="compound">AVStream</ref> *</type>
+        <definition>AVStream * audio_stream</definition>
+        <argsstring></argsstring>
+        <name>audio_stream</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="42" column="31" bodyfile="doc/examples/demux_decode.c" bodystart="42" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* src_filename</definition>
+        <argsstring></argsstring>
+        <name>src_filename</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="43" column="19" bodyfile="doc/examples/demux_decode.c" bodystart="43" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="extract__mvs_8c_1a08a44e4ddfb699cb1a263e34948d05c3" compoundref="extract__mvs_8c" startline="86" endline="131">open_codec_context</referencedby>
+        <referencedby refid="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" compoundref="demux__decode_8c" startline="146" endline="195">open_codec_context</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* video_dst_filename</definition>
+        <argsstring></argsstring>
+        <name>video_dst_filename</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="44" column="19" bodyfile="doc/examples/demux_decode.c" bodystart="44" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* audio_dst_filename</definition>
+        <argsstring></argsstring>
+        <name>audio_dst_filename</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="45" column="19" bodyfile="doc/examples/demux_decode.c" bodystart="45" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" prot="public" static="yes" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* video_dst_file</definition>
+        <argsstring></argsstring>
+        <name>video_dst_file</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="46" column="13" bodyfile="doc/examples/demux_decode.c" bodystart="46" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" prot="public" static="yes" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* audio_dst_file</definition>
+        <argsstring></argsstring>
+        <name>audio_dst_file</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="47" column="13" bodyfile="doc/examples/demux_decode.c" bodystart="47" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" compoundref="demux__decode_8c" startline="90" endline="108">output_audio_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" prot="public" static="yes" mutable="no">
+        <type>uint8_t *</type>
+        <definition>uint8_t* video_dst_data[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>video_dst_data</name>
+        <initializer>= {NULL}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="49" column="16" bodyfile="doc/examples/demux_decode.c" bodystart="49" bodyend="49"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a8dbcd4dc85b9345bde18395026d0ffe4" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int video_dst_linesize[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>video_dst_linesize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="50" column="17" bodyfile="doc/examples/demux_decode.c" bodystart="50" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a849609cb135f2d344ff03e99610b43df" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int video_dst_bufsize</definition>
+        <argsstring></argsstring>
+        <name>video_dst_bufsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="51" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="51" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1af35f69f407b98b5244f837e25813bc11" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int video_stream_idx</definition>
+        <argsstring></argsstring>
+        <name>video_stream_idx</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="53" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="53" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+        <referencedby refid="extract__mvs_8c_1a08a44e4ddfb699cb1a263e34948d05c3" compoundref="extract__mvs_8c" startline="86" endline="131">open_codec_context</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a16cd83c72f483b9fa2844c5516452798" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int audio_stream_idx</definition>
+        <argsstring></argsstring>
+        <name>audio_stream_idx</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="53" column="30" bodyfile="doc/examples/demux_decode.c" bodystart="53" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+        <definition>AVFrame* frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="54" column="16" bodyfile="doc/examples/demux_decode.c" bodystart="54" bodyend="-1"/>
+        <referencedby refid="mux_8c_1ad09eda99489f30c7d2d9adda00fd4444" compoundref="mux_8c" startline="216" endline="239">alloc_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a8436a3ec342b666f3e92660278c51eca" compoundref="mux_8c" startline="381" endline="402">alloc_frame</referencedby>
+        <referencedby refid="decode__video_8c_1afb211466e5ff14e81d05689d449533e3" compoundref="decode__video_8c" startline="52" endline="82">decode</referencedby>
+        <referencedby refid="decode__audio_8c_1a1704ae53d7f426e1b67341785b5b2b58" compoundref="decode__audio_8c" startline="72" endline="104">decode</referencedby>
+        <referencedby refid="transcode__aac_8c_1a5c320cc89448244f68daee53092da98c" compoundref="transcode__aac_8c" startline="370" endline="430">decode_audio_frame</referencedby>
+        <referencedby refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" compoundref="demux__decode_8c" startline="110" endline="144">decode_packet</referencedby>
+        <referencedby refid="extract__mvs_8c_1a3740a789b55da53dea5861e772d684a3" compoundref="extract__mvs_8c" startline="45" endline="84">decode_packet</referencedby>
+        <referencedby refid="hw__decode_8c_1aa376d8bc0bb004de4856e8920e0f6217" compoundref="hw__decode_8c" startline="77" endline="147">decode_write</referencedby>
+        <referencedby refid="decode__filter__video_8c_1a87e98983e21f6a1e2056fd8ea0407ff4" compoundref="decode__filter__video_8c" startline="185" endline="214">display_frame</referencedby>
+        <referencedby refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" compoundref="encode__audio_8c" startline="94" endline="120">encode</referencedby>
+        <referencedby refid="encode__video_8c_1a56739f6d2e501c2388279fcde2078ac6" compoundref="encode__video_8c" startline="39" endline="67">encode</referencedby>
+        <referencedby refid="transcode__aac_8c_1a3d408f21612691f8c93a7aa24ea554ef" compoundref="transcode__aac_8c" startline="655" endline="717">encode_audio_frame</referencedby>
+        <referencedby refid="transcode_8c_1a255192428438daf73b9f8060c0815712" compoundref="transcode_8c" startline="504" endline="542">filter_encode_write_frame</referencedby>
+        <referencedby refid="mux_8c_1ab69ba368d3500fd5e1a5d22c82bd933a" compoundref="mux_8c" startline="307" endline="330">get_audio_frame</referencedby>
+        <referencedby refid="filter__audio_8c_1a4209191767f4a5779718e9f691a6de53" compoundref="filter__audio_8c" startline="239" endline="265">get_input</referencedby>
+        <referencedby refid="transcode__aac_8c_1a399b9ea45bcc6b114a3e0bef1c743a60" compoundref="transcode__aac_8c" startline="268" endline="275">init_input_frame</referencedby>
+        <referencedby refid="transcode__aac_8c_1a72741423006b4ab38bf924fa567e7081" compoundref="transcode__aac_8c" startline="609" endline="641">init_output_frame</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__filter__audio_8c" startline="223" endline="321">main</referencedby>
+        <referencedby refid="filter__audio_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="filter__audio_8c" startline="267" endline="358">main</referencedby>
+        <referencedby refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" compoundref="demux__decode_8c" startline="90" endline="108">output_audio_frame</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1ae40014386d1dccaf72cf121e15641e66" compoundref="decode__filter__audio_8c" startline="209" endline="221">print_frame</referencedby>
+        <referencedby refid="filter__audio_8c_1a6a52930eb2ed533366ebb43a038baa36" compoundref="filter__audio_8c" startline="212" endline="235">process_output</referencedby>
+        <referencedby refid="mux_8c_1a789f35413429ab70610c90c22fc7a4d3" compoundref="mux_8c" startline="336" endline="376">write_audio_frame</referencedby>
+        <referencedby refid="mux_8c_1a7bdbb3cdac2b8aeadf731768bb193c38" compoundref="mux_8c" startline="83" endline="122">write_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" prot="public" static="yes" mutable="no">
+        <type><ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+        <definition>AVPacket* pkt</definition>
+        <argsstring></argsstring>
+        <name>pkt</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="55" column="17" bodyfile="doc/examples/demux_decode.c" bodystart="55" bodyend="-1"/>
+        <referencedby refid="decode__video_8c_1afb211466e5ff14e81d05689d449533e3" compoundref="decode__video_8c" startline="52" endline="82">decode</referencedby>
+        <referencedby refid="decode__audio_8c_1a1704ae53d7f426e1b67341785b5b2b58" compoundref="decode__audio_8c" startline="72" endline="104">decode</referencedby>
+        <referencedby refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" compoundref="demux__decode_8c" startline="110" endline="144">decode_packet</referencedby>
+        <referencedby refid="extract__mvs_8c_1a3740a789b55da53dea5861e772d684a3" compoundref="extract__mvs_8c" startline="45" endline="84">decode_packet</referencedby>
+        <referencedby refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" compoundref="encode__audio_8c" startline="94" endline="120">encode</referencedby>
+        <referencedby refid="encode__video_8c_1a56739f6d2e501c2388279fcde2078ac6" compoundref="encode__video_8c" startline="39" endline="67">encode</referencedby>
+        <referencedby refid="mux_8c_1ac7a1319852323152629ce60c4ef04ed5" compoundref="mux_8c" startline="72" endline="81">log_packet</referencedby>
+        <referencedby refid="remux_8c_1ae9433a5041497371569e7f9a3c84a6e6" compoundref="remux_8c" startline="35" endline="45">log_packet</referencedby>
+        <referencedby refid="decode__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__audio_8c" startline="106" endline="237">main</referencedby>
+        <referencedby refid="mux_8c_1a7bdbb3cdac2b8aeadf731768bb193c38" compoundref="mux_8c" startline="83" endline="122">write_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1ac9f496a4d3575928c5b94568bbedd753" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int video_frame_count</definition>
+        <argsstring></argsstring>
+        <name>video_frame_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="56" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="56" bodyend="-1"/>
+        <referencedby refid="extract__mvs_8c_1a3740a789b55da53dea5861e772d684a3" compoundref="extract__mvs_8c" startline="45" endline="84">decode_packet</referencedby>
+        <referencedby refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" compoundref="demux__decode_8c" startline="59" endline="88">output_video_frame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="demux__decode_8c_1a48eccd48ea840bc45254f44995320463" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int audio_frame_count</definition>
+        <argsstring></argsstring>
+        <name>audio_frame_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="57" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="57" bodyend="-1"/>
+        <referencedby refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" compoundref="demux__decode_8c" startline="90" endline="108">output_audio_frame</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int output_video_frame</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>output_video_frame</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="59" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="59" bodyend="88"/>
+        <referencedby refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" compoundref="demux__decode_8c" startline="110" endline="144">decode_packet</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int output_audio_frame</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>output_audio_frame</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="90" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="90" bodyend="108"/>
+        <referencedby refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" compoundref="demux__decode_8c" startline="110" endline="144">decode_packet</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int decode_packet</definition>
+        <argsstring>(AVCodecContext *dec, const AVPacket *pkt)</argsstring>
+        <name>decode_packet</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>dec</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+          <declname>pkt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="110" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="110" bodyend="144"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int open_codec_context</definition>
+        <argsstring>(int *stream_idx, AVCodecContext **dec_ctx, AVFormatContext *fmt_ctx, enum AVMediaType type)</argsstring>
+        <name>open_codec_context</name>
+        <param>
+          <type>int *</type>
+          <declname>stream_idx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> **</type>
+          <declname>dec_ctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref> *</type>
+          <declname>fmt_ctx</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="146" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="146" bodyend="195"/>
+        <referencedby refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="demux__decode_8c" startline="226" endline="380">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="demux__decode_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int get_format_from_sample_fmt</definition>
+        <argsstring>(const char **fmt, enum AVSampleFormat sample_fmt)</argsstring>
+        <name>get_format_from_sample_fmt</name>
+        <param>
+          <type>const char **</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="197" column="12" bodyfile="doc/examples/demux_decode.c" bodystart="197" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/demux_decode.c" line="226" column="5" bodyfile="doc/examples/demux_decode.c" bodystart="226" bodyend="380"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2012<sp/>Stefano<sp/>Sabatini</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>THE<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>@file<sp/>libavformat<sp/>and<sp/>libavcodec<sp/>demuxing<sp/>and<sp/>decoding<sp/>API<sp/>usage<sp/>example</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@example<sp/>demux_decode.c</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>Show<sp/>how<sp/>to<sp/>use<sp/>the<sp/>libavformat<sp/>and<sp/>libavcodec<sp/>API<sp/>to<sp/>demux<sp/>and<sp/>decode<sp/>audio</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>and<sp/>video<sp/>data.<sp/>Write<sp/>the<sp/>output<sp/>as<sp/>raw<sp/>audio<sp/>and<sp/>input<sp/>files<sp/>to<sp/>be<sp/>played<sp/>by</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>ffplay.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="imgutils_8h" kindref="compound">libavutil/imgutils.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="samplefmt_8h" kindref="compound">libavutil/samplefmt.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="timestamp_8h" kindref="compound">libavutil/timestamp.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="avcodec_8h" kindref="compound">libavcodec/avcodec.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="avformat_8h" kindref="compound">libavformat/avformat.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="demux__decode_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref><sp/>*<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="39" refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*<ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref><sp/>=<sp/>NULL,<sp/>*<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>;</highlight></codeline>
+<codeline lineno="40" refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="41" refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>;</highlight></codeline>
+<codeline lineno="42" refid="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structAVStream" kindref="compound">AVStream</ref><sp/>*<ref refid="demux__decode_8c_1a9decdb9a2529baa6bd2a855a12f1f0fc" kindref="member">video_stream</ref><sp/>=<sp/>NULL,<sp/>*<ref refid="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" kindref="member">audio_stream</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="43" refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="44" refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" kindref="member">video_dst_filename</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="45" refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" kindref="member">audio_dst_filename</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="46" refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FILE<sp/>*<ref refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" kindref="member">video_dst_file</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="47" refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FILE<sp/>*<ref refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" kindref="member">audio_dst_file</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint8_t<sp/>*<ref refid="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" kindref="member">video_dst_data</ref>[4]<sp/>=<sp/>{NULL};</highlight></codeline>
+<codeline lineno="50" refid="demux__decode_8c_1a8dbcd4dc85b9345bde18395026d0ffe4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a8dbcd4dc85b9345bde18395026d0ffe4" kindref="member">video_dst_linesize</ref>[4];</highlight></codeline>
+<codeline lineno="51" refid="demux__decode_8c_1a849609cb135f2d344ff03e99610b43df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a849609cb135f2d344ff03e99610b43df" kindref="member">video_dst_bufsize</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="demux__decode_8c_1a16cd83c72f483b9fa2844c5516452798" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1af35f69f407b98b5244f837e25813bc11" kindref="member">video_stream_idx</ref><sp/>=<sp/>-1,<sp/><ref refid="demux__decode_8c_1a16cd83c72f483b9fa2844c5516452798" kindref="member">audio_stream_idx</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="54" refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55" refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structAVPacket" kindref="compound">AVPacket</ref><sp/>*<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="56" refid="demux__decode_8c_1ac9f496a4d3575928c5b94568bbedd753" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1ac9f496a4d3575928c5b94568bbedd753" kindref="member">video_frame_count</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57" refid="demux__decode_8c_1a48eccd48ea840bc45254f44995320463" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a48eccd48ea840bc45254f44995320463" kindref="member">audio_frame_count</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" kindref="member">output_video_frame</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1e71ce60cedd5f3b6811714a9f7f9e0a" kindref="member">width</ref><sp/>!=<sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref><sp/>||<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a3f89733f429c98ba5bc64373fb0a3f13" kindref="member">height</ref><sp/>!=<sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref><sp/>||</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aed14fa772ce46881020fd1545c86432c" kindref="member">format</ref><sp/>!=<sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>To<sp/>handle<sp/>this<sp/>change,<sp/>one<sp/>could<sp/>call<sp/>av_image_alloc<sp/>again<sp/>and</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>decode<sp/>the<sp/>following<sp/>frames<sp/>into<sp/>another<sp/>rawvideo<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>Width,<sp/>height<sp/>and<sp/>pixel<sp/>format<sp/>have<sp/>to<sp/>be<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;constant<sp/>in<sp/>a<sp/>rawvideo<sp/>file,<sp/>but<sp/>the<sp/>width,<sp/>height<sp/>or<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;pixel<sp/>format<sp/>of<sp/>the<sp/>input<sp/>video<sp/>changed:\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;old:<sp/>width<sp/>=<sp/>%d,<sp/>height<sp/>=<sp/>%d,<sp/>format<sp/>=<sp/>%s\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;new:<sp/>width<sp/>=<sp/>%d,<sp/>height<sp/>=<sp/>%d,<sp/>format<sp/>=<sp/>%s\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>,<sp/><ref refid="pixdesc_8h_1a8526f80ba2f0bb50e3606e5866df522c" kindref="member">av_get_pix_fmt_name</ref>(<ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>),</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1e71ce60cedd5f3b6811714a9f7f9e0a" kindref="member">width</ref>,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a3f89733f429c98ba5bc64373fb0a3f13" kindref="member">height</ref>,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pixdesc_8h_1a8526f80ba2f0bb50e3606e5866df522c" kindref="member">av_get_pix_fmt_name</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aed14fa772ce46881020fd1545c86432c" kindref="member">format</ref>));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;video_frame<sp/>n:%d\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ac9f496a4d3575928c5b94568bbedd753" kindref="member">video_frame_count</ref>++);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>copy<sp/>decoded<sp/>frame<sp/>to<sp/>destination<sp/>buffer:</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>this<sp/>is<sp/>required<sp/>since<sp/>rawvideo<sp/>expects<sp/>non<sp/>aligned<sp/>data<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__picture_1ga911cb7d723163b88bdbbdacbeeaacf2d" kindref="member">av_image_copy2</ref>(<ref refid="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" kindref="member">video_dst_data</ref>,<sp/><ref refid="demux__decode_8c_1a8dbcd4dc85b9345bde18395026d0ffe4" kindref="member">video_dst_linesize</ref>,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a1d0f65014a8d1bf78cec8cbed2304992" kindref="member">data</ref>,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aa52bfc6605f6a3059a0c3226cc0f6567" kindref="member">linesize</ref>,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>,<sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>write<sp/>to<sp/>rawvideo<sp/>file<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>fwrite(<ref refid="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" kindref="member">video_dst_data</ref>[0],<sp/>1,<sp/><ref refid="demux__decode_8c_1a849609cb135f2d344ff03e99610b43df" kindref="member">video_dst_bufsize</ref>,<sp/><ref refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" kindref="member">video_dst_file</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" kindref="member">output_audio_frame</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>unpadded_linesize<sp/>=<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a02f45ab8191aea1660159f1e464237ea" kindref="member">nb_samples</ref><sp/>*<sp/><ref refid="group__lavu__sampfmts_1ga0c3c218e1dd570ad4917c69a35a6c77d" kindref="member">av_get_bytes_per_sample</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1aed14fa772ce46881020fd1545c86432c" kindref="member">format</ref>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;audio_frame<sp/>n:%d<sp/>nb_samples:%d<sp/>pts:%s\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a48eccd48ea840bc45254f44995320463" kindref="member">audio_frame_count</ref>++,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a02f45ab8191aea1660159f1e464237ea" kindref="member">nb_samples</ref>,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="timestamp_8h_1ad344b91ede6b86fc0a530611293f42da" kindref="member">av_ts2timestr</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1a0452833e3ab6ddd7acbf82817a7818a4" kindref="member">pts</ref>,<sp/>&amp;<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1ab7bfeb9fa5840aac090e2b0bd0ef7589" kindref="member">time_base</ref>));</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Write<sp/>the<sp/>raw<sp/>audio<sp/>data<sp/>samples<sp/>of<sp/>the<sp/>first<sp/>plane.<sp/>This<sp/>works</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>fine<sp/>for<sp/>packed<sp/>formats<sp/>(e.g.<sp/>AV_SAMPLE_FMT_S16).<sp/>However,</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>most<sp/>audio<sp/>decoders<sp/>output<sp/>planar<sp/>audio,<sp/>which<sp/>uses<sp/>a<sp/>separate</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>plane<sp/>of<sp/>audio<sp/>samples<sp/>for<sp/>each<sp/>channel<sp/>(e.g.<sp/>AV_SAMPLE_FMT_S16P).</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>In<sp/>other<sp/>words,<sp/>this<sp/>code<sp/>will<sp/>write<sp/>only<sp/>the<sp/>first<sp/>audio<sp/>channel</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>these<sp/>cases.</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>You<sp/>should<sp/>use<sp/>libswresample<sp/>or<sp/>libavfilter<sp/>to<sp/>convert<sp/>the<sp/>frame</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>packed<sp/>data.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>fwrite(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>-&gt;<ref refid="structAVFrame_1afca04d808393822625e09b5ba91c6756" kindref="member">extended_data</ref>[0],<sp/>1,<sp/>unpadded_linesize,<sp/><ref refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" kindref="member">audio_dst_file</ref>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" kindref="member">decode_packet</ref>(<ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*dec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVPacket" kindref="compound">AVPacket</ref><sp/>*<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>submit<sp/>the<sp/>packet<sp/>to<sp/>the<sp/>decoder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavc__decoding_1ga58bc4bf1e0ac59e27362597e467efff3" kindref="member">avcodec_send_packet</ref>(dec,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>submitting<sp/>a<sp/>packet<sp/>for<sp/>decoding<sp/>(%s)\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="group__lavu__error_1gac4f6e109c242c81aeee21868d3f35e12" kindref="member">av_err2str</ref>(ret));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>all<sp/>the<sp/>available<sp/>frames<sp/>from<sp/>the<sp/>decoder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(ret<sp/>&gt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavc__decoding_1ga11e6542c4e66d3028668788a1a74217c" kindref="member">avcodec_receive_frame</ref>(dec,<sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>those<sp/>two<sp/>return<sp/>values<sp/>are<sp/>special<sp/>and<sp/>mean<sp/>there<sp/>is<sp/>no<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>frame<sp/>available,<sp/>but<sp/>there<sp/>were<sp/>no<sp/>errors<sp/>during<sp/>decoding</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>==<sp/><ref refid="group__lavu__error_1gab4faa0afdf35076914824200331defff" kindref="member">AVERROR_EOF</ref><sp/>||<sp/>ret<sp/>==<sp/><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR</ref>(EAGAIN))</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>during<sp/>decoding<sp/>(%s)\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="group__lavu__error_1gac4f6e109c242c81aeee21868d3f35e12" kindref="member">av_err2str</ref>(ret));</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>write<sp/>the<sp/>frame<sp/>data<sp/>to<sp/>output<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dec-&gt;<ref refid="structAVCodecContext_1a6e606effa68724cae2ef5cc05f7fd9cb" kindref="member">codec</ref>-&gt;<ref refid="structAVCodec_1ab539ca86026d043803c24ba06fa84197" kindref="member">type</ref><sp/>==<sp/><ref refid="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48ac1a46f59be5c6c2d3412ab172d6b8cf5" kindref="member">AVMEDIA_TYPE_VIDEO</ref>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="demux__decode_8c_1a62690f6eca6ce700ad0d17121eb50a57" kindref="member">output_video_frame</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" kindref="member">output_audio_frame</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__frame_1ga0a2b687f9c1c5ed0089b01fd61227108" kindref="member">av_frame_unref</ref>(<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" kindref="member">open_codec_context</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*stream_idx,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>**<ref refid="decode__filter__audio_8c_1ac2bf6798f37e95d3d2ff2d44e4ab3c12" kindref="member">dec_ctx</ref>,<sp/><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref><sp/>*<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref><sp/>type)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ret,<sp/>stream_index;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVStream" kindref="compound">AVStream</ref><sp/>*st;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*dec<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavf__decoding_1ga757780d38f482deb4d809c6c521fbcc2" kindref="member">av_find_best_stream</ref>(<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/>type,<sp/>-1,<sp/>-1,<sp/>NULL,<sp/>0);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>find<sp/>%s<sp/>stream<sp/>in<sp/>input<sp/>file<sp/>&apos;%s&apos;\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__misc_1ga1eb76ac28a60793459c55c102dfcf816" kindref="member">av_get_media_type_string</ref>(type),<sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream_index<sp/>=<sp/>ret;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>st<sp/>=<sp/><ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>-&gt;<ref refid="structAVFormatContext_1acfefb6b6cf21e87a0dcbd1a547ba2348" kindref="member">streams</ref>[stream_index];</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>find<sp/>decoder<sp/>for<sp/>the<sp/>stream<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dec<sp/>=<sp/><ref refid="group__lavc__core_1ga89204045c00a7c3216481431e0160753" kindref="member">avcodec_find_decoder</ref>(st-&gt;<ref refid="structAVStream_1a12826d21779289356722971d362c583c" kindref="member">codecpar</ref>-&gt;<ref refid="structAVCodecParameters_1a9f76f2475ef24ff4c9771dd53072d040" kindref="member">codec_id</ref>);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dec)<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>find<sp/>%s<sp/>codec\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__misc_1ga1eb76ac28a60793459c55c102dfcf816" kindref="member">av_get_media_type_string</ref>(type));</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR</ref>(EINVAL);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Allocate<sp/>a<sp/>codec<sp/>context<sp/>for<sp/>the<sp/>decoder<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="decode__filter__audio_8c_1ac2bf6798f37e95d3d2ff2d44e4ab3c12" kindref="member">dec_ctx</ref><sp/>=<sp/><ref refid="group__lavc__core_1ga3ad781acd35536a58863ed31ef94ccf0" kindref="member">avcodec_alloc_context3</ref>(dec);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!*<ref refid="decode__filter__audio_8c_1ac2bf6798f37e95d3d2ff2d44e4ab3c12" kindref="member">dec_ctx</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>allocate<sp/>the<sp/>%s<sp/>codec<sp/>context\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__misc_1ga1eb76ac28a60793459c55c102dfcf816" kindref="member">av_get_media_type_string</ref>(type));</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR</ref>(ENOMEM);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Copy<sp/>codec<sp/>parameters<sp/>from<sp/>input<sp/>stream<sp/>to<sp/>output<sp/>codec<sp/>context<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((ret<sp/>=<sp/><ref refid="group__lavc__core_1ga8a4998c9d1695abb01d379539d313227" kindref="member">avcodec_parameters_to_context</ref>(*<ref refid="decode__filter__audio_8c_1ac2bf6798f37e95d3d2ff2d44e4ab3c12" kindref="member">dec_ctx</ref>,<sp/>st-&gt;<ref refid="structAVStream_1a12826d21779289356722971d362c583c" kindref="member">codecpar</ref>))<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>copy<sp/>%s<sp/>codec<sp/>parameters<sp/>to<sp/>decoder<sp/>context\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__misc_1ga1eb76ac28a60793459c55c102dfcf816" kindref="member">av_get_media_type_string</ref>(type));</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Init<sp/>the<sp/>decoders<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((ret<sp/>=<sp/><ref refid="group__lavc__core_1ga11f785a188d7d9df71621001465b0f1d" kindref="member">avcodec_open2</ref>(*<ref refid="decode__filter__audio_8c_1ac2bf6798f37e95d3d2ff2d44e4ab3c12" kindref="member">dec_ctx</ref>,<sp/>dec,<sp/>NULL))<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>open<sp/>%s<sp/>codec\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__misc_1ga1eb76ac28a60793459c55c102dfcf816" kindref="member">av_get_media_type_string</ref>(type));</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*stream_idx<sp/>=<sp/>stream_index;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="demux__decode_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="decode__audio_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" kindref="member">get_format_from_sample_fmt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**fmt,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref><sp/>sample_fmt)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">sample_fmt_entry<sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref><sp/>sample_fmt;<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt_be,<sp/>*fmt_le;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>sample_fmt_entries[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5adf0f66f21492f8fd5db6debb8b3f932a" kindref="member">AV_SAMPLE_FMT_U8</ref>,<sp/><sp/></highlight><highlight class="stringliteral">&quot;u8&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;u8&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5aea6132df57aebc3f76e10665395c46af" kindref="member">AV_SAMPLE_FMT_S16</ref>,<sp/></highlight><highlight class="stringliteral">&quot;s16be&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;s16le&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5ab7ae6bb6718c07cd316778783a57a63b" kindref="member">AV_SAMPLE_FMT_S32</ref>,<sp/></highlight><highlight class="stringliteral">&quot;s32be&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;s32le&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a5251d62cc3c7f18e56bc8e0c48a27903" kindref="member">AV_SAMPLE_FMT_FLT</ref>,<sp/></highlight><highlight class="stringliteral">&quot;f32be&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;f32le&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5ae35a2a6a7593723d9fe4bcefb2876606" kindref="member">AV_SAMPLE_FMT_DBL</ref>,<sp/></highlight><highlight class="stringliteral">&quot;f64be&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;f64le&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>*fmt<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="macros_8h_1a3508a98d3ee7e2c9a4841fe264cf70f7" kindref="member">FF_ARRAY_ELEMS</ref>(sample_fmt_entries);<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">sample_fmt_entry<sp/>*entry<sp/>=<sp/>&amp;sample_fmt_entries[i];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sample_fmt<sp/>==<sp/>entry-&gt;sample_fmt)<sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*fmt<sp/>=<sp/><ref refid="macros_8h_1a309bdca20f6a78431379fc69442d98ea" kindref="member">AV_NE</ref>(entry-&gt;fmt_be,<sp/>entry-&gt;fmt_le);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(stderr,</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;sample<sp/>format<sp/>%s<sp/>is<sp/>not<sp/>supported<sp/>as<sp/>output<sp/>format\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__sampfmts_1gadc5fce5ceabec01026645c7c160ca82f" kindref="member">av_get_sample_fmt_name</ref>(sample_fmt));</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="demux__decode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="avio__list__dir_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**argv)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>!=<sp/>4)<sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;usage:<sp/>%s<sp/><sp/>input_file<sp/>video_output_file<sp/>audio_output_file\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;API<sp/>example<sp/>program<sp/>to<sp/>show<sp/>how<sp/>to<sp/>read<sp/>frames<sp/>from<sp/>an<sp/>input<sp/>file.\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;This<sp/>program<sp/>reads<sp/>frames<sp/>from<sp/>a<sp/>file,<sp/>decodes<sp/>them,<sp/>and<sp/>writes<sp/>decoded\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;video<sp/>frames<sp/>to<sp/>a<sp/>rawvideo<sp/>file<sp/>named<sp/>video_output_file,<sp/>and<sp/>decoded\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;audio<sp/>frames<sp/>to<sp/>a<sp/>rawaudio<sp/>file<sp/>named<sp/>audio_output_file.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>argv[0]);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref><sp/>=<sp/>argv[1];</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" kindref="member">video_dst_filename</ref><sp/>=<sp/>argv[2];</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" kindref="member">audio_dst_filename</ref><sp/>=<sp/>argv[3];</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>open<sp/>input<sp/>file,<sp/>and<sp/>allocate<sp/>format<sp/>context<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__lavf__decoding_1gac05d61a2b492ae3985c658f34622c19d" kindref="member">avformat_open_input</ref>(&amp;<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref>,<sp/>NULL,<sp/>NULL)<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>open<sp/>source<sp/>file<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref>);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>retrieve<sp/>stream<sp/>information<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__lavf__decoding_1gad42172e27cddafb81096939783b157bb" kindref="member">avformat_find_stream_info</ref>(<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/>NULL)<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>find<sp/>stream<sp/>information\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" kindref="member">open_codec_context</ref>(&amp;<ref refid="demux__decode_8c_1af35f69f407b98b5244f837e25813bc11" kindref="member">video_stream_idx</ref>,<sp/>&amp;<ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>,<sp/><ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/><ref refid="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48ac1a46f59be5c6c2d3412ab172d6b8cf5" kindref="member">AVMEDIA_TYPE_VIDEO</ref>)<sp/>&gt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a9decdb9a2529baa6bd2a855a12f1f0fc" kindref="member">video_stream</ref><sp/>=<sp/><ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>-&gt;<ref refid="structAVFormatContext_1acfefb6b6cf21e87a0dcbd1a547ba2348" kindref="member">streams</ref>[<ref refid="demux__decode_8c_1af35f69f407b98b5244f837e25813bc11" kindref="member">video_stream_idx</ref>];</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" kindref="member">video_dst_file</ref><sp/>=<sp/>fopen(<ref refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" kindref="member">video_dst_filename</ref>,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" kindref="member">video_dst_file</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>open<sp/>destination<sp/>file<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" kindref="member">video_dst_filename</ref>);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>image<sp/>where<sp/>the<sp/>decoded<sp/>image<sp/>will<sp/>be<sp/>put<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref><sp/>=<sp/><ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1a0d8f46461754e8abea0847dcbc41b956" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref><sp/>=<sp/><ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1a0449afd803eb107bd4dbc8b5ea22e363" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref><sp/>=<sp/><ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1a0425c77b3d06d71e5db88b1d7e1b37f2" kindref="member">pix_fmt</ref>;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavu__picture_1ga841e0a89a642e24141af1918a2c10448" kindref="member">av_image_alloc</ref>(<ref refid="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" kindref="member">video_dst_data</ref>,<sp/><ref refid="demux__decode_8c_1a8dbcd4dc85b9345bde18395026d0ffe4" kindref="member">video_dst_linesize</ref>,</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>,<sp/><ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>,<sp/>1);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>allocate<sp/>raw<sp/>video<sp/>buffer\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a849609cb135f2d344ff03e99610b43df" kindref="member">video_dst_bufsize</ref><sp/>=<sp/>ret;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" kindref="member">open_codec_context</ref>(&amp;<ref refid="demux__decode_8c_1a16cd83c72f483b9fa2844c5516452798" kindref="member">audio_stream_idx</ref>,<sp/>&amp;<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>,<sp/><ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/><ref refid="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48a7b4e33b8f30ac94d34ce8d9f7c33927a" kindref="member">AVMEDIA_TYPE_AUDIO</ref>)<sp/>&gt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" kindref="member">audio_stream</ref><sp/>=<sp/><ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>-&gt;<ref refid="structAVFormatContext_1acfefb6b6cf21e87a0dcbd1a547ba2348" kindref="member">streams</ref>[<ref refid="demux__decode_8c_1a16cd83c72f483b9fa2844c5516452798" kindref="member">audio_stream_idx</ref>];</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" kindref="member">audio_dst_file</ref><sp/>=<sp/>fopen(<ref refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" kindref="member">audio_dst_filename</ref>,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" kindref="member">audio_dst_file</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>open<sp/>destination<sp/>file<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" kindref="member">audio_dst_filename</ref>);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>dump<sp/>input<sp/>information<sp/>to<sp/>stderr<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavf__misc_1gae2645941f2dc779c307eb6314fd39f10" kindref="member">av_dump_format</ref>(<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/>0,<sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" kindref="member">audio_stream</ref><sp/>&amp;&amp;<sp/>!<ref refid="demux__decode_8c_1a9decdb9a2529baa6bd2a855a12f1f0fc" kindref="member">video_stream</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>find<sp/>audio<sp/>or<sp/>video<sp/>stream<sp/>in<sp/>the<sp/>input,<sp/>aborting\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref><sp/>=<sp/><ref refid="group__lavu__frame_1gac778d9609ac0c42d0a9445e549de172e" kindref="member">av_frame_alloc</ref>();</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>allocate<sp/>frame\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR</ref>(ENOMEM);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref><sp/>=<sp/><ref refid="group__lavc__packet_1gad56057568fb51504e5b4aafcb44f9a03" kindref="member">av_packet_alloc</ref>();</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>allocate<sp/>packet\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR</ref>(ENOMEM);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1a9decdb9a2529baa6bd2a855a12f1f0fc" kindref="member">video_stream</ref>)</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Demuxing<sp/>video<sp/>from<sp/>file<sp/>&apos;%s&apos;<sp/>into<sp/>&apos;%s&apos;\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref>,<sp/><ref refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" kindref="member">video_dst_filename</ref>);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" kindref="member">audio_stream</ref>)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Demuxing<sp/>audio<sp/>from<sp/>file<sp/>&apos;%s&apos;<sp/>into<sp/>&apos;%s&apos;\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="demux__decode_8c_1ad3e56268ab4ce7a25e7a17c2e088a3c1" kindref="member">src_filename</ref>,<sp/><ref refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" kindref="member">audio_dst_filename</ref>);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>read<sp/>frames<sp/>from<sp/>the<sp/>file<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="group__lavf__decoding_1ga4fdb3084415a82e3810de6ee60e46a61" kindref="member">av_read_frame</ref>(<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>)<sp/>&gt;=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>check<sp/>if<sp/>the<sp/>packet<sp/>belongs<sp/>to<sp/>a<sp/>stream<sp/>we<sp/>are<sp/>interested<sp/>in,<sp/>otherwise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>skip<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>-&gt;<ref refid="structAVPacket_1a0d1cb9b5a32b00fb6edc81ea3aae2a49" kindref="member">stream_index</ref><sp/>==<sp/><ref refid="demux__decode_8c_1af35f69f407b98b5244f837e25813bc11" kindref="member">video_stream_idx</ref>)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" kindref="member">decode_packet</ref>(<ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>-&gt;<ref refid="structAVPacket_1a0d1cb9b5a32b00fb6edc81ea3aae2a49" kindref="member">stream_index</ref><sp/>==<sp/><ref refid="demux__decode_8c_1a16cd83c72f483b9fa2844c5516452798" kindref="member">audio_stream_idx</ref>)</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" kindref="member">decode_packet</ref>(<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>,<sp/><ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavc__packet_1ga63d5a489b419bd5d45cfd09091cbcbc2" kindref="member">av_packet_unref</ref>(<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>flush<sp/>the<sp/>decoders<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>)</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" kindref="member">decode_packet</ref>(<ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>)</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" kindref="member">decode_packet</ref>(<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Demuxing<sp/>succeeded.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1a9decdb9a2529baa6bd2a855a12f1f0fc" kindref="member">video_stream</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Play<sp/>the<sp/>output<sp/>video<sp/>file<sp/>with<sp/>the<sp/>command:\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ffplay<sp/>-f<sp/>rawvideo<sp/>-pix_fmt<sp/>%s<sp/>-video_size<sp/>%dx%d<sp/>%s\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pixdesc_8h_1a8526f80ba2f0bb50e3606e5866df522c" kindref="member">av_get_pix_fmt_name</ref>(<ref refid="demux__decode_8c_1a7331e302ea7bb48e0b605a069576e135" kindref="member">pix_fmt</ref>),<sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>,</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a780830fc3afc836feb64d80eef4185b5" kindref="member">video_dst_filename</ref>);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ab269038fe8cd6f8fa4ccec9eaf939345" kindref="member">audio_stream</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref><sp/>sfmt<sp/>=<sp/><ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1a1bdba69ea111e2a9d03fdaa7a46a4c45" kindref="member">sample_fmt</ref>;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_channels<sp/>=<sp/><ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1a167ff73c67960acf2d5ca73d93e13f64" kindref="member">ch_layout</ref>.<ref refid="structAVChannelLayout_1adfd3f460a8ea1575baa32852d9248d3c" kindref="member">nb_channels</ref>;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__lavu__sampfmts_1ga06ba8a64dc4382c422789a5d0b6bf592" kindref="member">av_sample_fmt_is_planar</ref>(sfmt))<sp/>{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*packed<sp/>=<sp/><ref refid="group__lavu__sampfmts_1gadc5fce5ceabec01026645c7c160ca82f" kindref="member">av_get_sample_fmt_name</ref>(sfmt);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Warning:<sp/>the<sp/>sample<sp/>format<sp/>the<sp/>decoder<sp/>produced<sp/>is<sp/>planar<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;(%s).<sp/>This<sp/>example<sp/>will<sp/>output<sp/>the<sp/>first<sp/>channel<sp/>only.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>packed<sp/>?<sp/>packed<sp/>:<sp/></highlight><highlight class="stringliteral">&quot;?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sfmt<sp/>=<sp/><ref refid="group__lavu__sampfmts_1ga7817ec0eff4dc6fc0962f31e6d138bca" kindref="member">av_get_packed_sample_fmt</ref>(sfmt);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_channels<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((ret<sp/>=<sp/><ref refid="decode__audio_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" kindref="member">get_format_from_sample_fmt</ref>(&amp;fmt,<sp/>sfmt))<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>end;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Play<sp/>the<sp/>output<sp/>audio<sp/>file<sp/>with<sp/>the<sp/>command:\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ffplay<sp/>-f<sp/>%s<sp/>-ac<sp/>%d<sp/>-ar<sp/>%d<sp/>%s\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fmt,<sp/>n_channels,<sp/><ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>-&gt;<ref refid="structAVCodecContext_1a8ff0b000c463361e234af48d03aadfc0" kindref="member">sample_rate</ref>,</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="demux__decode_8c_1a9f79f9440c018d4eb8448d849f35f467" kindref="member">audio_dst_filename</ref>);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal">end:</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1gaf869d0829ed607cec3a4a02a1c7026b3" kindref="member">avcodec_free_context</ref>(&amp;<ref refid="demux__decode_8c_1a2e10f5f24d4c8dd311b8eedc376accf5" kindref="member">video_dec_ctx</ref>);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1gaf869d0829ed607cec3a4a02a1c7026b3" kindref="member">avcodec_free_context</ref>(&amp;<ref refid="demux__decode_8c_1adecce4fda9b9d4fc0d6713d461755cfd" kindref="member">audio_dec_ctx</ref>);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavf__decoding_1gae804b99aec044690162b8b9b110236a4" kindref="member">avformat_close_input</ref>(&amp;<ref refid="decode__filter__audio_8c_1a409462acdf7aebe5bfbe1bcd811efa5d" kindref="member">fmt_ctx</ref>);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" kindref="member">video_dst_file</ref>)</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(<ref refid="demux__decode_8c_1ac3ad9da7180c9a9baa85e968eb6937e3" kindref="member">video_dst_file</ref>);</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" kindref="member">audio_dst_file</ref>)</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(<ref refid="demux__decode_8c_1af0d7c67df6575ed6b3b7de4d843ed7a6" kindref="member">audio_dst_file</ref>);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__packet_1ga1066464e7cdd1f215df6940db94e5d8e" kindref="member">av_packet_free</ref>(&amp;<ref refid="demux__decode_8c_1a388d8cab6f2f3b9eb6d66f159c3810c4" kindref="member">pkt</ref>);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__frame_1ga979d73f3228814aee56aeca0636e37cc" kindref="member">av_frame_free</ref>(&amp;<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__mem__funcs_1ga0c9096f498624c525aa2315b8a20c411" kindref="member">av_free</ref>(<ref refid="demux__decode_8c_1a0b39e94f88658412ecadb5e2116baccc" kindref="member">video_dst_data</ref>[0]);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret<sp/>&lt;<sp/>0;</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="doc/examples/demux_decode.c"/>
+  </compounddef>
+</doxygen>

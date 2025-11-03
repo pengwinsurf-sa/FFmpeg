@@ -1,0 +1,20 @@
+Function 'txd_decode_frame'
+Lines executed:0.00% of 104
+
+File 'libavcodec/txd.c'
+Lines executed:0.00% of 82
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#txd.gcno##libavcodec#txd.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#txd.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#txd.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#txd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 104

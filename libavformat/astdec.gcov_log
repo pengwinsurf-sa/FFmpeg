@@ -1,0 +1,22 @@
+Function 'ast_read_packet'
+Lines executed:0.00% of 21
+
+Function 'ast_read_header'
+Lines executed:0.00% of 26
+
+Function 'ast_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/astdec.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#astdec.gcno##libavformat#astdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#astdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#astdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 58

@@ -1,0 +1,18 @@
+Function 'av_lfg_init_from_data'
+Lines executed:0.00% of 13
+
+Function 'av_bmg_get'
+Lines executed:100.00% of 15
+
+Function 'av_lfg_init'
+Lines executed:100.00% of 13
+
+File 'libavutil/lfg.c'
+Lines executed:64.86% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#lfg.gcno##libavutil#lfg.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#lfg.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:68.29% of 41

@@ -1,0 +1,61 @@
+Function 'msad_child_next'
+Lines executed:0.00% of 1
+
+Function 'msad_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'identity_child_next'
+Lines executed:0.00% of 1
+
+Function 'identity_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 16
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'config_input_ref'
+Lines executed:0.00% of 34
+
+Function 'init'
+Lines executed:0.00% of 4
+
+Function 'do_identity'
+Lines executed:0.00% of 46
+
+Function 'set_meta'
+Lines executed:0.00% of 15
+
+Function 'compute_images_identity'
+Lines executed:0.00% of 20
+
+Function 'compute_images_msad'
+Lines executed:0.00% of 18
+
+Function 'identity_line_16bit'
+Lines executed:0.00% of 7
+
+Function 'identity_line_8bit'
+Lines executed:0.00% of 5
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_identity.c'
+Lines executed:0.00% of 192
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_identity.gcno##libavfilter#vf_identity.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_identity.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_identity.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 199

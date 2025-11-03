@@ -1,0 +1,86 @@
+Function 'ff_vp56_free_context'
+Lines executed:0.00% of 8
+
+Function 'ff_vp56_init_context'
+Lines executed:0.00% of 30
+
+Function 'ff_vp56_decode_mbs'
+Lines executed:0.00% of 83
+
+Function 'ff_vp56_decode_frame'
+Lines executed:0.00% of 60
+
+Function 'vp56_size_changed'
+Lines executed:0.00% of 26
+
+Function 'vp56_conceal_mb'
+Lines executed:0.00% of 53
+
+Function 'vp56_decode_mb'
+Lines executed:0.00% of 47
+
+Function 'vp56_idct_add'
+Lines executed:0.00% of 7
+
+Function 'vp56_idct_put'
+Lines executed:0.00% of 5
+
+Function 'vp56_mc'
+Lines executed:0.00% of 50
+
+Function 'vp56_deblock_filter'
+Lines executed:0.00% of 11
+
+Function 'vp56_add_predictors_dc'
+Lines executed:0.00% of 32
+
+Function 'vp56_decode_mv'
+Lines executed:0.00% of 37
+
+Function 'vp56_decode_4mv'
+Lines executed:0.00% of 28
+
+Function 'vp56_parse_mb_type'
+Lines executed:0.00% of 22
+
+Function 'vp56_parse_mb_type_models'
+Lines executed:0.00% of 56
+
+Function 'vp56_get_vectors_predictors'
+Lines executed:0.00% of 23
+
+Function 'ff_vp56_init_dequant'
+Lines executed:0.00% of 7
+
+Function 'vp56_rac_gets'
+Lines executed:0.00% of 5
+
+File 'libavcodec/vp56.c'
+Lines executed:0.00% of 528
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno##libavcodec#vp56.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/x86/vpx_arith.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno##libavcodec#x86#vpx_arith.h.gcov'
+
+File 'libavcodec/vpx_rac.h'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno##libavcodec#vpx_rac.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/vp56.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vp56.gcno##libavcodec#vp56.h.gcov'
+
+Lines executed:0.00% of 590

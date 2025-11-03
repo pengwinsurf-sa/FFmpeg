@@ -1,0 +1,77 @@
+Function 'amrnb_decode_frame'
+Lines executed:0.00% of 75
+
+Function 'postfilter'
+Lines executed:0.00% of 22
+
+Function 'tilt_factor'
+Lines executed:0.00% of 10
+
+Function 'update_state'
+Lines executed:0.00% of 9
+
+Function 'synthesis'
+Lines executed:0.00% of 20
+
+Function 'anti_sparseness'
+Lines executed:0.00% of 30
+
+Function 'apply_ir_filter'
+Lines executed:0.00% of 21
+
+Function 'decode_gains'
+Lines executed:0.00% of 15
+
+Function 'fixed_gain_smooth'
+Lines executed:0.00% of 21
+
+Function 'decode_fixed_sparse'
+Lines executed:0.00% of 36
+
+Function 'decode_8_pulses_31bits'
+Lines executed:0.00% of 27
+
+Function 'decode_pitch_vector'
+Lines executed:0.00% of 18
+
+Function 'decode_pitch_lag_1_6'
+Lines executed:0.00% of 14
+
+Function 'lsf2lsp_3'
+Lines executed:0.00% of 23
+
+Function 'lsf2lsp_5'
+Lines executed:0.00% of 22
+
+Function 'lsf2lsp_for_mode12k2'
+Lines executed:0.00% of 18
+
+Function 'interpolate_lsf'
+Lines executed:0.00% of 6
+
+Function 'unpack_bitstream'
+Lines executed:0.00% of 8
+
+Function 'amrnb_decode_init'
+Lines executed:0.00% of 24
+
+Function 'ff_amr_bit_reorder'
+Lines executed:0.00% of 12
+
+File 'libavcodec/amrnbdec.c'
+Lines executed:0.00% of 408
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrnbdec.gcno##libavcodec#amrnbdec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrnbdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrnbdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/amr.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrnbdec.gcno##libavcodec#amr.h.gcov'
+
+Lines executed:0.00% of 431

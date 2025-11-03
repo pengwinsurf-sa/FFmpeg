@@ -1,0 +1,46 @@
+Function 'cdg_decode_end'
+Lines executed:0.00% of 4
+
+Function 'cdg_decode_flush'
+Lines executed:0.00% of 9
+
+Function 'cdg_decode_frame'
+Lines executed:0.00% of 80
+
+Function 'cdg_scroll'
+Lines executed:0.00% of 38
+
+Function 'cdg_fill_wrapper'
+Lines executed:0.00% of 5
+
+Function 'cdg_fill_rect_preset'
+Lines executed:0.00% of 5
+
+Function 'cdg_copy_rect_buf'
+Lines executed:0.00% of 7
+
+Function 'cdg_tile_block'
+Lines executed:0.00% of 20
+
+Function 'cdg_load_palette'
+Lines executed:0.00% of 13
+
+Function 'cdg_border_preset'
+Lines executed:0.00% of 13
+
+Function 'cdg_decode_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/cdgraphics.c'
+Lines executed:0.00% of 185
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdgraphics.gcno##libavcodec#cdgraphics.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdgraphics.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cdgraphics.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 202

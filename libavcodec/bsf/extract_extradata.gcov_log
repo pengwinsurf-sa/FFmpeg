@@ -1,0 +1,65 @@
+Function 'extract_extradata_close'
+Lines executed:0.00% of 5
+
+Function 'extract_extradata_filter'
+Lines executed:0.00% of 21
+
+Function 'extract_extradata_init'
+Lines executed:0.00% of 9
+
+Function 'extract_extradata_mpeg4'
+Lines executed:0.00% of 17
+
+Function 'extract_extradata_mpeg12'
+Lines executed:0.00% of 15
+
+Function 'extract_extradata_vc1'
+Lines executed:0.00% of 19
+
+Function 'extract_extradata_h2645'
+Lines executed:0.00% of 76
+
+Function 'extract_extradata_av1'
+Lines executed:0.00% of 43
+
+Function 'obu_is_global'
+Lines executed:0.00% of 6
+
+Function 'metadata_is_global'
+Lines executed:0.00% of 21
+
+Function 'get_leb'
+Lines executed:0.00% of 12
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/bsf/extract_extradata.c'
+Lines executed:0.00% of 203
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno##libavcodec#bsf#extract_extradata.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/leb.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno##libavcodec#leb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#extract_extradata.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 263

@@ -1,0 +1,28 @@
+Function 'ff_affine_transform'
+Lines executed:0.00% of 40
+
+Function 'ff_get_matrix'
+Lines executed:0.00% of 11
+
+Function 'interpolate_biquadratic'
+Lines executed:0.00% of 18
+
+Function 'interpolate_bilinear'
+Lines executed:0.00% of 14
+
+Function 'interpolate_nearest'
+Lines executed:0.00% of 2
+
+File 'libavfilter/transform.c'
+Lines executed:0.00% of 77
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#transform.gcno##libavfilter#transform.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#transform.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/internal.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#transform.gcno##libavutil#internal.h.gcov'
+
+Lines executed:0.00% of 85

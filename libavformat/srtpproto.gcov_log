@@ -1,0 +1,27 @@
+Function 'srtp_get_multi_file_handle'
+Lines executed:0.00% of 3
+
+Function 'srtp_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'srtp_write'
+Lines executed:0.00% of 9
+
+Function 'srtp_read'
+Lines executed:0.00% of 11
+
+Function 'srtp_open'
+Lines executed:0.00% of 21
+
+Function 'srtp_close'
+Lines executed:0.00% of 6
+
+File 'libavformat/srtpproto.c'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtpproto.gcno##libavformat#srtpproto.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtpproto.gcno##libavformat#url.h.gcov'
+
+Lines executed:0.00% of 53

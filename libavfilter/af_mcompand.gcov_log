@@ -1,0 +1,32 @@
+Function 'request_frame'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 35
+
+Function 'mcompand_channel'
+Lines executed:0.00% of 29
+
+Function 'crossover'
+Lines executed:0.00% of 16
+
+Function 'config_output'
+Lines executed:0.00% of 103
+
+Function 'crossover_setup'
+Lines executed:0.00% of 29
+
+Function 'parse_points'
+Lines executed:0.00% of 67
+
+Function 'get_volume'
+Lines executed:0.00% of 13
+
+Function 'uninit'
+Lines executed:0.00% of 16
+
+File 'libavfilter/af_mcompand.c'
+Lines executed:0.00% of 313
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_mcompand.gcno##libavfilter#af_mcompand.c.gcov'
+
+Lines executed:0.00% of 313

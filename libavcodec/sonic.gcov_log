@@ -1,0 +1,57 @@
+Function 'sonic_decode_frame'
+Lines executed:0.00% of 59
+
+Function 'sonic_decode_close'
+Lines executed:0.00% of 8
+
+Function 'sonic_decode_init'
+Lines executed:0.00% of 105
+
+Function 'predictor_calc_error'
+Lines executed:0.00% of 14
+
+Function 'predictor_init_state'
+Lines executed:0.00% of 9
+
+Function 'get_symbol'
+Lines executed:0.00% of 32
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/sonic.c'
+Lines executed:0.00% of 169
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavcodec#sonic.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavcodec#rangecoder.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sonic.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 257

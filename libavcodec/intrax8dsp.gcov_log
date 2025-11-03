@@ -1,0 +1,60 @@
+Function 'ff_intrax8dsp_init'
+Lines executed:0.00% of 17
+
+Function 'x8_v_loop_filter'
+Lines executed:0.00% of 3
+
+Function 'x8_h_loop_filter'
+Lines executed:0.00% of 3
+
+Function 'x8_loop_filter'
+Lines executed:0.00% of 68
+
+Function 'spatial_compensation_11'
+Lines executed:0.00% of 7
+
+Function 'spatial_compensation_10'
+Lines executed:0.00% of 7
+
+Function 'spatial_compensation_9'
+Lines executed:0.00% of 7
+
+Function 'spatial_compensation_8'
+Lines executed:0.00% of 7
+
+Function 'spatial_compensation_7'
+Lines executed:0.00% of 9
+
+Function 'spatial_compensation_6'
+Lines executed:0.00% of 5
+
+Function 'spatial_compensation_5'
+Lines executed:0.00% of 9
+
+Function 'spatial_compensation_4'
+Lines executed:0.00% of 7
+
+Function 'spatial_compensation_3'
+Lines executed:0.00% of 5
+
+Function 'spatial_compensation_2'
+Lines executed:0.00% of 5
+
+Function 'spatial_compensation_1'
+Lines executed:0.00% of 7
+
+Function 'spatial_compensation_0'
+Lines executed:0.00% of 37
+
+Function 'x8_setup_spatial_compensation'
+Lines executed:0.00% of 53
+
+File 'libavcodec/intrax8dsp.c'
+Lines executed:0.00% of 252
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8dsp.gcno##libavcodec#intrax8dsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 256

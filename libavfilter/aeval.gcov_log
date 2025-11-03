@@ -1,0 +1,43 @@
+Function 'filter_frame'
+Lines executed:0.00% of 26
+
+Function 'aeval_config_output'
+Lines executed:0.00% of 16
+
+Function 'aeval_query_formats'
+Lines executed:0.00% of 13
+
+Function 'activate'
+Lines executed:0.00% of 31
+
+Function 'query_formats'
+Lines executed:0.00% of 11
+
+Function 'config_props'
+Lines executed:0.00% of 11
+
+Function 'uninit'
+Lines executed:0.00% of 10
+
+Function 'init'
+Lines executed:0.00% of 19
+
+Function 'parse_channel_expressions'
+Lines executed:0.00% of 33
+
+Function 'val'
+Lines executed:0.00% of 3
+
+File 'libavfilter/aeval.c'
+Lines executed:0.00% of 169
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#aeval.gcno##libavfilter#aeval.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#aeval.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#aeval.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 173

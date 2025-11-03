@@ -1,0 +1,53 @@
+Function 'main'
+Lines executed:0.00% of 341
+
+Function 'finish'
+Lines executed:0.00% of 6
+
+Function 'signal_init_ts'
+Lines executed:0.00% of 10
+
+Function 'mux_id3'
+Lines executed:0.00% of 14
+
+Function 'mux_frames'
+Lines executed:0.00% of 51
+
+Function 'init_fps'
+Lines executed:0.00% of 68
+
+Function 'check_func'
+Lines executed:0.00% of 12
+
+Function 'close_out'
+Lines executed:0.00% of 10
+
+Function 'init_out'
+Lines executed:0.00% of 13
+
+Function 'io_write_data_type'
+Lines executed:0.00% of 19
+
+Function 'io_write'
+Lines executed:0.00% of 6
+
+Function 'count_warnings'
+Lines executed:0.00% of 4
+
+File 'libavformat/tests/movenc.c'
+Lines executed:0.00% of 544
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#movenc.gcno##libavformat#tests#movenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#movenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#movenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#movenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 554

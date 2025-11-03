@@ -1,0 +1,11 @@
+Function 'ff_sobel_init_x86'
+Lines executed:85.71% of 7
+
+Function 'ff_convolution_init_x86'
+Lines executed:0.00% of 9
+
+File 'libavfilter/x86/vf_convolution_init.c'
+Lines executed:37.50% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_convolution_init.gcno##libavfilter#x86#vf_convolution_init.c.gcov'
+
+Lines executed:37.50% of 16

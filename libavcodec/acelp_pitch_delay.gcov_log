@@ -1,0 +1,29 @@
+Function 'ff_decode_pitch_lag'
+Lines executed:0.00% of 22
+
+Function 'ff_amr_set_fixed_gain'
+Lines executed:0.00% of 13
+
+Function 'ff_acelp_decode_gain_code'
+Lines executed:0.00% of 8
+
+Function 'ff_acelp_update_past_gain'
+Lines executed:0.00% of 10
+
+File 'libavcodec/acelp_pitch_delay.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_pitch_delay.gcno##libavcodec#acelp_pitch_delay.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_pitch_delay.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_pitch_delay.gcno##libavutil#ffmath.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_pitch_delay.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 53

@@ -1,0 +1,87 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'filter_slice'
+Lines executed:0.00% of 18
+
+Function 'config_input'
+Lines executed:0.00% of 152
+
+Function 'poly_eval'
+Lines executed:0.00% of 5
+
+Function 'pseudocolor_filter_16_11d'
+Lines executed:0.00% of 17
+
+Function 'pseudocolor_filter_16_11'
+Lines executed:0.00% of 15
+
+Function 'pseudocolor_filter_16_10d'
+Lines executed:0.00% of 13
+
+Function 'pseudocolor_filter_16_10'
+Lines executed:0.00% of 13
+
+Function 'pseudocolor_filter_16'
+Lines executed:0.00% of 13
+
+Function 'pseudocolor_filter_10d'
+Lines executed:0.00% of 10
+
+Function 'pseudocolor_filter_10'
+Lines executed:0.00% of 10
+
+Function 'pseudocolor_filter_11d'
+Lines executed:0.00% of 9
+
+Function 'pseudocolor_filter_11'
+Lines executed:0.00% of 9
+
+Function 'pseudocolor_filter'
+Lines executed:0.00% of 10
+
+Function 'helixfunv'
+Lines executed:0.00% of 2
+
+Function 'helixfunu'
+Lines executed:0.00% of 2
+
+Function 'fieryfunv'
+Lines executed:0.00% of 2
+
+Function 'fieryfunu'
+Lines executed:0.00% of 2
+
+Function 'heatfunv'
+Lines executed:0.00% of 2
+
+Function 'heatfunu'
+Lines executed:0.00% of 2
+
+Function 'coolfunv'
+Lines executed:0.00% of 2
+
+Function 'coolfunu'
+Lines executed:0.00% of 2
+
+Function 'solarfun'
+Lines executed:0.00% of 2
+
+Function 'limit'
+Lines executed:0.00% of 2
+
+File 'libavfilter/vf_pseudocolor.c'
+Lines executed:0.00% of 339
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_pseudocolor.gcno##libavfilter#vf_pseudocolor.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_pseudocolor.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 341

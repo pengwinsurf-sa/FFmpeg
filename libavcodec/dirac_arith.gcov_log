@@ -1,0 +1,19 @@
+Function 'ff_dirac_init_arith_decoder'
+Lines executed:0.00% of 39
+
+Function 'ff_dirac_init_arith_tables'
+Lines executed:0.00% of 6
+
+File 'libavcodec/dirac_arith.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_arith.gcno##libavcodec#dirac_arith.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_arith.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_arith.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 45

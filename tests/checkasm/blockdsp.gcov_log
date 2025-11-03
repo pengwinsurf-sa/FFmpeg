@@ -1,0 +1,27 @@
+Function 'checkasm_check_blockdsp'
+Lines executed:70.00% of 20
+
+Function 'check_fill'
+Lines executed:95.00% of 20
+
+File 'tests/checkasm/blockdsp.c'
+Lines executed:96.43% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#blockdsp.gcno##tests#checkasm#blockdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#blockdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#blockdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#blockdsp.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#blockdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:82.50% of 40

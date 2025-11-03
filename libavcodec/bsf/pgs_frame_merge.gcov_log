@@ -1,0 +1,25 @@
+Function 'frame_merge_close'
+Lines executed:0.00% of 5
+
+Function 'frame_merge_init'
+Lines executed:0.00% of 6
+
+Function 'frame_merge_filter'
+Lines executed:0.00% of 73
+
+Function 'frame_merge_flush'
+Lines executed:0.00% of 6
+
+File 'libavcodec/bsf/pgs_frame_merge.c'
+Lines executed:0.00% of 85
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#pgs_frame_merge.gcno##libavcodec#bsf#pgs_frame_merge.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#pgs_frame_merge.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#pgs_frame_merge.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 90

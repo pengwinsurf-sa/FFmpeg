@@ -1,0 +1,858 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="codec_8h" kind="file" language="C++">
+    <compoundname>codec.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="avutil_8h" local="yes">libavutil/avutil.h</includes>
+    <includes refid="hwcontext_8h" local="yes">libavutil/hwcontext.h</includes>
+    <includes refid="log_8h" local="yes">libavutil/log.h</includes>
+    <includes refid="pixfmt_8h" local="yes">libavutil/pixfmt.h</includes>
+    <includes refid="rational_8h" local="yes">libavutil/rational.h</includes>
+    <includes refid="samplefmt_8h" local="yes">libavutil/samplefmt.h</includes>
+    <includes refid="codec__id_8h" local="yes">libavcodec/codec_id.h</includes>
+    <includes refid="libavcodec_2version__major_8h" local="yes">libavcodec/version_major.h</includes>
+    <includedby refid="avcodec_8h" local="yes">libavcodec/avcodec.h</includedby>
+    <includedby refid="avformat_8h" local="yes">libavformat/avformat.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>version_major.h</label>
+        <link refid="libavcodec_2version__major_8h"/>
+      </node>
+      <node id="12">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="3">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>errno.h</label>
+      </node>
+      <node id="6">
+        <label>inttypes.h</label>
+      </node>
+      <node id="16">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="7">
+        <label>limits.h</label>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="23">
+        <label>stdarg.h</label>
+      </node>
+      <node id="14">
+        <label>stddef.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>stdlib.h</label>
+      </node>
+      <node id="11">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="4">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="5">
+        <label>doc/examples/decode_audio.c</label>
+        <link refid="decode__audio_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/decode_video.c</label>
+        <link refid="decode__video_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/encode_audio.c</label>
+        <link refid="encode__audio_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="21">
+        <label>doc/examples/remux.c</label>
+        <link refid="remux_8c"/>
+      </node>
+      <node id="22">
+        <label>doc/examples/show_metadata.c</label>
+        <link refid="show__metadata_8c"/>
+      </node>
+      <node id="15">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="16">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="2">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>libavcodec/mediacodec.h</label>
+        <link refid="mediacodec_8h"/>
+      </node>
+      <node id="18">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+      </node>
+      <node id="19">
+        <label>libavcodec/videotoolbox.h</label>
+        <link refid="videotoolbox_8h"/>
+      </node>
+      <node id="23">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+      </node>
+      <node id="20">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structAVProfile" prot="public">AVProfile</innerclass>
+    <innerclass refid="structAVCodec" prot="public">AVCodec</innerclass>
+    <innerclass refid="structAVCodecHWConfig" prot="public">AVCodecHWConfig</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__lavc__core_1ga01fbdf31e076d8902d8f4118c0aea6ea" kind="define"><name>AV_CODEC_CAP_DRAW_HORIZ_BAND</name></member>
+      <member refid="group__lavc__core_1ga5f35425595395c76cfa406c883f78aed" kind="define"><name>AV_CODEC_CAP_DR1</name></member>
+      <member refid="group__lavc__core_1ga3f55f5bcfbb12e06c7cb1195028855e6" kind="define"><name>AV_CODEC_CAP_DELAY</name></member>
+      <member refid="group__lavc__core_1gaded181844ec3ab19897704086dc2ee03" kind="define"><name>AV_CODEC_CAP_SMALL_LAST_FRAME</name></member>
+      <member refid="group__lavc__core_1gafbc01f68af47e3c5ce96211a93927996" kind="define"><name>AV_CODEC_CAP_EXPERIMENTAL</name></member>
+      <member refid="group__lavc__core_1gad05360700b6c9a9523710d627bfb818e" kind="define"><name>AV_CODEC_CAP_CHANNEL_CONF</name></member>
+      <member refid="group__lavc__core_1gae21e6310b40920cd61f54e9c320d8e6c" kind="define"><name>AV_CODEC_CAP_FRAME_THREADS</name></member>
+      <member refid="group__lavc__core_1ga7c4f386d1d6df0214eb35f2be1c82779" kind="define"><name>AV_CODEC_CAP_SLICE_THREADS</name></member>
+      <member refid="group__lavc__core_1gad15ae1ecff401c3d2dc5ac44030a9900" kind="define"><name>AV_CODEC_CAP_PARAM_CHANGE</name></member>
+      <member refid="group__lavc__core_1ga2ca424035bd572809bff31e30eea45ed" kind="define"><name>AV_CODEC_CAP_OTHER_THREADS</name></member>
+      <member refid="group__lavc__core_1ga38b16ee9a8fd4c57ffd4fef0db3481c6" kind="define"><name>AV_CODEC_CAP_VARIABLE_FRAME_SIZE</name></member>
+      <member refid="group__lavc__core_1ga2fbf0ffd269bdc9cc3a22ebacc9bcc59" kind="define"><name>AV_CODEC_CAP_AVOID_PROBING</name></member>
+      <member refid="group__lavc__core_1gad4cbd44018d5bf16beefd73b465327c2" kind="define"><name>AV_CODEC_CAP_HARDWARE</name></member>
+      <member refid="group__lavc__core_1gaf5e6384d20ff620bbc6d7a2fe0796c32" kind="define"><name>AV_CODEC_CAP_HYBRID</name></member>
+      <member refid="group__lavc__core_1ga1448da872d104265cbfbdcb6b1291e78" kind="define"><name>AV_CODEC_CAP_ENCODER_REORDERED_OPAQUE</name></member>
+      <member refid="group__lavc__core_1ga2106a51d1e8bf51b9e6d2a5ec6d2f86f" kind="define"><name>AV_CODEC_CAP_ENCODER_FLUSH</name></member>
+      <member refid="group__lavc__core_1gae0f1eadc6ca34740d99115086db61493" kind="define"><name>AV_CODEC_CAP_ENCODER_RECON_FRAME</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__lavc__core_1gadc29c2ff13d900c2f185ee95427fb06c" kind="enum"><name></name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavc__core_1gaecde133103295e7d5418234089aa2d7f" kind="function"><name>av_codec_iterate</name></member>
+      <member refid="group__lavc__core_1ga89204045c00a7c3216481431e0160753" kind="function"><name>avcodec_find_decoder</name></member>
+      <member refid="group__lavc__core_1ga8e72f32e219e560db6be06045e2ec32c" kind="function"><name>avcodec_find_decoder_by_name</name></member>
+      <member refid="group__lavc__core_1ga9e7a88299f4c869b03c5393aee6ebbba" kind="function"><name>avcodec_find_encoder</name></member>
+      <member refid="group__lavc__core_1gacde808c8f768d6ea0cceb9c6913202d0" kind="function"><name>avcodec_find_encoder_by_name</name></member>
+      <member refid="group__lavc__core_1ga2b665824e4d9144f8d4f6c01e3e85aa3" kind="function"><name>av_codec_is_encoder</name></member>
+      <member refid="group__lavc__core_1ga6dc18eef1afca3610644a52565cf8a31" kind="function"><name>av_codec_is_decoder</name></member>
+      <member refid="group__lavc__core_1gaf94924e4132bfde3ec08f94ef8671503" kind="function"><name>av_get_profile_name</name></member>
+      <member refid="group__lavc__core_1gaba0ae8dd2a26f7733becf1b4367ae6f5" kind="function"><name>avcodec_get_hw_config</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>AVCodec<sp/>public<sp/>API</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVCODEC_CODEC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVCODEC_CODEC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avutil_8h" kindref="compound">libavutil/avutil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hwcontext_8h" kindref="compound">libavutil/hwcontext.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="log_8h" kindref="compound">libavutil/log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pixfmt_8h" kindref="compound">libavutil/pixfmt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">libavutil/rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="samplefmt_8h" kindref="compound">libavutil/samplefmt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="codec__id_8h" kindref="compound">libavcodec/codec_id.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libavcodec_2version__major_8h" kindref="compound">libavcodec/version_major.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="36"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavc_core</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="41"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>Decoder<sp/>can<sp/>use<sp/>draw_horiz_band<sp/>callback.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="group__lavc__core_1ga01fbdf31e076d8902d8f4118c0aea6ea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_DRAW_HORIZ_BAND<sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>0)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="45"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>Codec<sp/>uses<sp/>get_buffer()<sp/>or<sp/>get_encode_buffer()<sp/>for<sp/>allocating<sp/>buffers<sp/>and</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>supports<sp/>custom<sp/>allocators.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>If<sp/>not<sp/>set,<sp/>it<sp/>might<sp/>not<sp/>use<sp/>get_buffer()<sp/>or<sp/>get_encode_buffer()<sp/>at<sp/>all,<sp/>or</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>use<sp/>operations<sp/>that<sp/>assume<sp/>the<sp/>buffer<sp/>was<sp/>allocated<sp/>by</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>avcodec_default_get_buffer2<sp/>or<sp/>avcodec_default_get_encode_buffer.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__lavc__core_1ga5f35425595395c76cfa406c883f78aed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_DR1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>1)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="53"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Encoder<sp/>or<sp/>decoder<sp/>requires<sp/>flushing<sp/>with<sp/>NULL<sp/>input<sp/>at<sp/>the<sp/>end<sp/>in<sp/>order<sp/>to</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>give<sp/>the<sp/>complete<sp/>and<sp/>correct<sp/>output.</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>NOTE:<sp/>If<sp/>this<sp/>flag<sp/>is<sp/>not<sp/>set,<sp/>the<sp/>codec<sp/>is<sp/>guaranteed<sp/>to<sp/>never<sp/>be<sp/>fed<sp/>with</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>with<sp/>NULL<sp/>data.<sp/>The<sp/>user<sp/>can<sp/>still<sp/>send<sp/>NULL<sp/>data<sp/>to<sp/>the<sp/>public<sp/>encode</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>or<sp/>decode<sp/>function,<sp/>but<sp/>libavcodec<sp/>will<sp/>not<sp/>pass<sp/>it<sp/>along<sp/>to<sp/>the<sp/>codec</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>unless<sp/>this<sp/>flag<sp/>is<sp/>set.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>Decoders:</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>The<sp/>decoder<sp/>has<sp/>a<sp/>non-zero<sp/>delay<sp/>and<sp/>needs<sp/>to<sp/>be<sp/>fed<sp/>with<sp/>avpkt-&gt;data=NULL,</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>avpkt-&gt;size=0<sp/>at<sp/>the<sp/>end<sp/>to<sp/>get<sp/>the<sp/>delayed<sp/>data<sp/>until<sp/>the<sp/>decoder<sp/>no<sp/>longer</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*<sp/>returns<sp/>frames.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>Encoders:</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>The<sp/>encoder<sp/>needs<sp/>to<sp/>be<sp/>fed<sp/>with<sp/>NULL<sp/>data<sp/>at<sp/>the<sp/>end<sp/>of<sp/>encoding<sp/>until<sp/>the</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>encoder<sp/>no<sp/>longer<sp/>returns<sp/>data.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>NOTE:<sp/>For<sp/>encoders<sp/>implementing<sp/>the<sp/>AVCodec.encode2()<sp/>function,<sp/>setting<sp/>this</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>also<sp/>means<sp/>that<sp/>the<sp/>encoder<sp/>must<sp/>set<sp/>the<sp/>pts<sp/>and<sp/>duration<sp/>for</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>each<sp/>output<sp/>packet.<sp/>If<sp/>this<sp/>flag<sp/>is<sp/>not<sp/>set,<sp/>the<sp/>pts<sp/>and<sp/>duration<sp/>will</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>determined<sp/>by<sp/>libavcodec<sp/>from<sp/>the<sp/>input<sp/>frame.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="group__lavc__core_1ga3f55f5bcfbb12e06c7cb1195028855e6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_DELAY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>5)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="77"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/>Codec<sp/>can<sp/>be<sp/>fed<sp/>a<sp/>final<sp/>frame<sp/>with<sp/>a<sp/>smaller<sp/>size.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/>This<sp/>can<sp/>be<sp/>used<sp/>to<sp/>prevent<sp/>truncation<sp/>of<sp/>the<sp/>last<sp/>audio<sp/>samples.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="group__lavc__core_1gaded181844ec3ab19897704086dc2ee03" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_SMALL_LAST_FRAME<sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>6)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="83"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>Codec<sp/>is<sp/>experimental<sp/>and<sp/>is<sp/>thus<sp/>avoided<sp/>in<sp/>favor<sp/>of<sp/>non<sp/>experimental</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>encoders</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="group__lavc__core_1gafbc01f68af47e3c5ce96211a93927996" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_EXPERIMENTAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>9)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="88"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>Codec<sp/>should<sp/>fill<sp/>in<sp/>channel<sp/>configuration<sp/>and<sp/>samplerate<sp/>instead<sp/>of<sp/>container</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__lavc__core_1gad05360700b6c9a9523710d627bfb818e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_CHANNEL_CONF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>10)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="92"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>frame-level<sp/>multithreading.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="group__lavc__core_1gae21e6310b40920cd61f54e9c320d8e6c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_FRAME_THREADS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>12)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="96"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>slice-based<sp/>(or<sp/>partition-based)<sp/>multithreading.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="group__lavc__core_1ga7c4f386d1d6df0214eb35f2be1c82779" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_SLICE_THREADS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>13)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="100"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>changed<sp/>parameters<sp/>at<sp/>any<sp/>point.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="group__lavc__core_1gad15ae1ecff401c3d2dc5ac44030a9900" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_PARAM_CHANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>14)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="104"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>multithreading<sp/>through<sp/>a<sp/>method<sp/>other<sp/>than<sp/>slice-<sp/>or</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>frame-level<sp/>multithreading.<sp/>Typically<sp/>this<sp/>marks<sp/>wrappers<sp/>around</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>multithreading-capable<sp/>external<sp/>libraries.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="group__lavc__core_1ga2ca424035bd572809bff31e30eea45ed" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_OTHER_THREADS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>15)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="110"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>Audio<sp/>encoder<sp/>supports<sp/>receiving<sp/>a<sp/>different<sp/>number<sp/>of<sp/>samples<sp/>in<sp/>each<sp/>call.</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="group__lavc__core_1ga38b16ee9a8fd4c57ffd4fef0db3481c6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_VARIABLE_FRAME_SIZE<sp/>(1<sp/>&lt;&lt;<sp/>16)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="114"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>Decoder<sp/>is<sp/>not<sp/>a<sp/>preferred<sp/>choice<sp/>for<sp/>probing.</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*<sp/>This<sp/>indicates<sp/>that<sp/>the<sp/>decoder<sp/>is<sp/>not<sp/>a<sp/>good<sp/>choice<sp/>for<sp/>probing.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*<sp/>It<sp/>could<sp/>for<sp/>example<sp/>be<sp/>an<sp/>expensive<sp/>to<sp/>spin<sp/>up<sp/>hardware<sp/>decoder,</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>or<sp/>it<sp/>could<sp/>simply<sp/>not<sp/>provide<sp/>a<sp/>lot<sp/>of<sp/>useful<sp/>information<sp/>about</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>the<sp/>stream.</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>A<sp/>decoder<sp/>marked<sp/>with<sp/>this<sp/>flag<sp/>should<sp/>only<sp/>be<sp/>used<sp/>as<sp/>last<sp/>resort</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>choice<sp/>for<sp/>probing.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="group__lavc__core_1ga2fbf0ffd269bdc9cc3a22ebacc9bcc59" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_AVOID_PROBING<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>17)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="125"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>Codec<sp/>is<sp/>backed<sp/>by<sp/>a<sp/>hardware<sp/>implementation.<sp/>Typically<sp/>used<sp/>to</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>identify<sp/>a<sp/>non-hwaccel<sp/>hardware<sp/>decoder.<sp/>For<sp/>information<sp/>about<sp/>hwaccels,<sp/>use</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>avcodec_get_hw_config()<sp/>instead.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="group__lavc__core_1gad4cbd44018d5bf16beefd73b465327c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_HARDWARE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>18)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="132"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>Codec<sp/>is<sp/>potentially<sp/>backed<sp/>by<sp/>a<sp/>hardware<sp/>implementation,<sp/>but<sp/>not</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/>necessarily.<sp/>This<sp/>is<sp/>used<sp/>instead<sp/>of<sp/>AV_CODEC_CAP_HARDWARE,<sp/>if<sp/>the</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/>implementation<sp/>provides<sp/>some<sp/>sort<sp/>of<sp/>internal<sp/>fallback.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="group__lavc__core_1gaf5e6384d20ff620bbc6d7a2fe0796c32" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_HYBRID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>19)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="139"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/>This<sp/>encoder<sp/>can<sp/>reorder<sp/>user<sp/>opaque<sp/>values<sp/>from<sp/>input<sp/>AVFrames<sp/>and<sp/>return</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*<sp/>them<sp/>with<sp/>corresponding<sp/>output<sp/>packets.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/>*<sp/>@see<sp/>AV_CODEC_FLAG_COPY_OPAQUE</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="group__lavc__core_1ga1448da872d104265cbfbdcb6b1291e78" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_ENCODER_REORDERED_OPAQUE<sp/>(1<sp/>&lt;&lt;<sp/>20)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="146"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>This<sp/>encoder<sp/>can<sp/>be<sp/>flushed<sp/>using<sp/>avcodec_flush_buffers().<sp/>If<sp/>this<sp/>flag<sp/>is</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>not<sp/>set,<sp/>the<sp/>encoder<sp/>must<sp/>be<sp/>closed<sp/>and<sp/>reopened<sp/>to<sp/>ensure<sp/>that<sp/>no<sp/>frames</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*<sp/>remain<sp/>pending.</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="group__lavc__core_1ga2106a51d1e8bf51b9e6d2a5ec6d2f86f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_ENCODER_FLUSH<sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>21)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="153"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*<sp/>The<sp/>encoder<sp/>is<sp/>able<sp/>to<sp/>output<sp/>reconstructed<sp/>frame<sp/>data,<sp/>i.e.<sp/>raw<sp/>frames<sp/>that</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>would<sp/>be<sp/>produced<sp/>by<sp/>decoding<sp/>the<sp/>encoded<sp/>bitstream.</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*<sp/>Reconstructed<sp/>frame<sp/>output<sp/>is<sp/>enabled<sp/>by<sp/>the<sp/>AV_CODEC_FLAG_RECON_FRAME<sp/>flag.</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="group__lavc__core_1gae0f1eadc6ca34740d99115086db61493" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_CAP_ENCODER_RECON_FRAME<sp/>(1<sp/>&lt;&lt;<sp/>22)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="161"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*<sp/>AVProfile.</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="structAVProfile" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVProfile" kindref="compound">AVProfile</ref><sp/>{</highlight></codeline>
+<codeline lineno="165" refid="structAVProfile_1a3f7b83013dedfe74c8886eed84b65795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVProfile_1a3f7b83013dedfe74c8886eed84b65795" kindref="member">profile</ref>;</highlight></codeline>
+<codeline lineno="166" refid="structAVProfile_1aae85c56975b715b70102c71efac935fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVProfile_1aae85c56975b715b70102c71efac935fc" kindref="member">name</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>short<sp/>name<sp/>for<sp/>the<sp/>profile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}<sp/><ref refid="structAVProfile" kindref="compound">AVProfile</ref>;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="169"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/>AVCodec.</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="structAVCodec" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Name<sp/>of<sp/>the<sp/>codec<sp/>implementation.</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>name<sp/>is<sp/>globally<sp/>unique<sp/>among<sp/>encoders<sp/>and<sp/>among<sp/>decoders<sp/>(but<sp/>an</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>encoder<sp/>and<sp/>a<sp/>decoder<sp/>can<sp/>share<sp/>the<sp/>same<sp/>name).</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>the<sp/>primary<sp/>way<sp/>to<sp/>find<sp/>a<sp/>codec<sp/>from<sp/>the<sp/>user<sp/>perspective.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="structAVCodec_1ad3daa3e729850b573c139a83be8938ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVCodec_1ad3daa3e729850b573c139a83be8938ca" kindref="member">name</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Descriptive<sp/>name<sp/>for<sp/>the<sp/>codec,<sp/>meant<sp/>to<sp/>be<sp/>more<sp/>human<sp/>readable<sp/>than<sp/>name.</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>You<sp/>should<sp/>use<sp/>the<sp/>NULL_IF_CONFIG_SMALL()<sp/>macro<sp/>to<sp/>define<sp/>it.</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="structAVCodec_1acb4afcfce3b6541ed70aa7f21d507422" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVCodec_1acb4afcfce3b6541ed70aa7f21d507422" kindref="member">long_name</ref>;</highlight></codeline>
+<codeline lineno="185" refid="structAVCodec_1ab539ca86026d043803c24ba06fa84197" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref><sp/><ref refid="structAVCodec_1ab539ca86026d043803c24ba06fa84197" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="186" refid="structAVCodec_1a01a53d07936f4c7ee280444793b6967b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1gaadca229ad2c20e060a14fec08a5cc7ce" kindref="member">AVCodecID</ref><sp/><ref refid="structAVCodec_1a01a53d07936f4c7ee280444793b6967b" kindref="member">id</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Codec<sp/>capabilities.</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>see<sp/>AV_CODEC_CAP_*</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="structAVCodec_1af51f7ff3dac8b730f46b9713e49a2518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVCodec_1af51f7ff3dac8b730f46b9713e49a2518" kindref="member">capabilities</ref>;</highlight></codeline>
+<codeline lineno="192" refid="structAVCodec_1afc51006d374ca72dfa3b0e29cbb1d981" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVCodec_1afc51006d374ca72dfa3b0e29cbb1d981" kindref="member">max_lowres</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>maximum<sp/>value<sp/>for<sp/>lowres<sp/>supported<sp/>by<sp/>the<sp/>decoder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deprecated<sp/>codec<sp/>capabilities.</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="198" refid="structAVCodec_1a443e9ed8ca3cefcf0a518ab856df94aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>*<ref refid="structAVCodec_1a443e9ed8ca3cefcf0a518ab856df94aa" kindref="member">supported_framerates</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>@deprecated<sp/>use<sp/>avcodec_get_supported_config()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="200" refid="structAVCodec_1a1bbb0e2b9dfb22d311cbc66730b86626" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>*<ref refid="structAVCodec_1a1bbb0e2b9dfb22d311cbc66730b86626" kindref="member">pix_fmts</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>@deprecated<sp/>use<sp/>avcodec_get_supported_config()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="202" refid="structAVCodec_1a5795bf22dc477bda4f95c76ee4075c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="structAVCodec_1a5795bf22dc477bda4f95c76ee4075c12" kindref="member">supported_samplerates</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>@deprecated<sp/>use<sp/>avcodec_get_supported_config()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="204" refid="structAVCodec_1aa9d17e53b4b3e27e741b97f0cdb43c69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref><sp/>*<ref refid="structAVCodec_1aa9d17e53b4b3e27e741b97f0cdb43c69" kindref="member">sample_fmts</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>@deprecated<sp/>use<sp/>avcodec_get_supported_config()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="structAVCodec_1a4ded9f7ec1fa1a73ea3e831428c100fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVClass" kindref="compound">AVClass</ref><sp/>*<ref refid="structAVCodec_1a4ded9f7ec1fa1a73ea3e831428c100fa" kindref="member">priv_class</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>AVClass<sp/>for<sp/>the<sp/>private<sp/>context</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="structAVCodec_1ac832350f2bac582fe3d174e2e3b1eb5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVProfile" kindref="compound">AVProfile</ref><sp/>*<ref refid="structAVCodec_1ac832350f2bac582fe3d174e2e3b1eb5e" kindref="member">profiles</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>array<sp/>of<sp/>recognized<sp/>profiles,<sp/>or<sp/>NULL<sp/>if<sp/>unknown,<sp/>array<sp/>is<sp/>terminated<sp/>by<sp/>{AV_PROFILE_UNKNOWN}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Group<sp/>name<sp/>of<sp/>the<sp/>codec<sp/>implementation.</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>a<sp/>short<sp/>symbolic<sp/>name<sp/>of<sp/>the<sp/>wrapper<sp/>backing<sp/>this<sp/>codec.<sp/>A</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>wrapper<sp/>uses<sp/>some<sp/>kind<sp/>of<sp/>external<sp/>implementation<sp/>for<sp/>the<sp/>codec,<sp/>such</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>as<sp/>an<sp/>external<sp/>library,<sp/>or<sp/>a<sp/>codec<sp/>implementation<sp/>provided<sp/>by<sp/>the<sp/>OS<sp/>or</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>hardware.</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>this<sp/>field<sp/>is<sp/>NULL,<sp/>this<sp/>is<sp/>a<sp/>builtin,<sp/>libavcodec<sp/>native<sp/>codec.</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>non-NULL,<sp/>this<sp/>will<sp/>be<sp/>the<sp/>suffix<sp/>in<sp/>AVCodec.name<sp/>in<sp/>most<sp/>cases</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>(usually<sp/>AVCodec.name<sp/>will<sp/>be<sp/>of<sp/>the<sp/>form<sp/>&quot;&lt;codec_name&gt;_&lt;wrapper_name&gt;&quot;).</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="structAVCodec_1ad2f26d22c4dc49710bebc0fceda4d125" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVCodec_1ad2f26d22c4dc49710bebc0fceda4d125" kindref="member">wrapper_name</ref>;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Array<sp/>of<sp/>supported<sp/>channel<sp/>layouts,<sp/>terminated<sp/>with<sp/>a<sp/>zeroed<sp/>layout.</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@deprecated<sp/>use<sp/>avcodec_get_supported_config()</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="226" refid="structAVCodec_1a41e0031e9dc197ab5915f59d7d9c8dd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVChannelLayout" kindref="compound">AVChannelLayout</ref><sp/>*<ref refid="structAVCodec_1a41e0031e9dc197ab5915f59d7d9c8dd3" kindref="member">ch_layouts</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}<sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref>;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="229"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/>*<sp/>Iterate<sp/>over<sp/>all<sp/>registered<sp/>codecs.</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*<sp/>@param<sp/>opaque<sp/>a<sp/>pointer<sp/>where<sp/>libavcodec<sp/>will<sp/>store<sp/>the<sp/>iteration<sp/>state.<sp/>Must</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>point<sp/>to<sp/>NULL<sp/>to<sp/>start<sp/>the<sp/>iteration.</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>next<sp/>registered<sp/>codec<sp/>or<sp/>NULL<sp/>when<sp/>the<sp/>iteration<sp/>is</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>finished</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="group__lavc__core_1gaecde133103295e7d5418234089aa2d7f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*<ref refid="group__lavc__core_1gaecde133103295e7d5418234089aa2d7f" kindref="member">av_codec_iterate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**opaque);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="240"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*<sp/>Find<sp/>a<sp/>registered<sp/>decoder<sp/>with<sp/>a<sp/>matching<sp/>codec<sp/>ID.</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/>*<sp/>@param<sp/>id<sp/>AVCodecID<sp/>of<sp/>the<sp/>requested<sp/>decoder</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>decoder<sp/>if<sp/>one<sp/>was<sp/>found,<sp/>NULL<sp/>otherwise.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="group__lavc__core_1ga89204045c00a7c3216481431e0160753" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*<ref refid="group__lavc__core_1ga89204045c00a7c3216481431e0160753" kindref="member">avcodec_find_decoder</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1gaadca229ad2c20e060a14fec08a5cc7ce" kindref="member">AVCodecID</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="248"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/>*<sp/>Find<sp/>a<sp/>registered<sp/>decoder<sp/>with<sp/>the<sp/>specified<sp/>name.</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/>*<sp/>@param<sp/>name<sp/>name<sp/>of<sp/>the<sp/>requested<sp/>decoder</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>decoder<sp/>if<sp/>one<sp/>was<sp/>found,<sp/>NULL<sp/>otherwise.</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="group__lavc__core_1ga8e72f32e219e560db6be06045e2ec32c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*<ref refid="group__lavc__core_1ga8e72f32e219e560db6be06045e2ec32c" kindref="member">avcodec_find_decoder_by_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="256"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/>*<sp/>Find<sp/>a<sp/>registered<sp/>encoder<sp/>with<sp/>a<sp/>matching<sp/>codec<sp/>ID.</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/>*<sp/>@param<sp/>id<sp/>AVCodecID<sp/>of<sp/>the<sp/>requested<sp/>encoder</highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>encoder<sp/>if<sp/>one<sp/>was<sp/>found,<sp/>NULL<sp/>otherwise.</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="group__lavc__core_1ga9e7a88299f4c869b03c5393aee6ebbba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*<ref refid="group__lavc__core_1ga9e7a88299f4c869b03c5393aee6ebbba" kindref="member">avcodec_find_encoder</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1gaadca229ad2c20e060a14fec08a5cc7ce" kindref="member">AVCodecID</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="264"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/>*<sp/>Find<sp/>a<sp/>registered<sp/>encoder<sp/>with<sp/>the<sp/>specified<sp/>name.</highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/>*<sp/>@param<sp/>name<sp/>name<sp/>of<sp/>the<sp/>requested<sp/>encoder</highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>encoder<sp/>if<sp/>one<sp/>was<sp/>found,<sp/>NULL<sp/>otherwise.</highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="group__lavc__core_1gacde808c8f768d6ea0cceb9c6913202d0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*<ref refid="group__lavc__core_1gacde808c8f768d6ea0cceb9c6913202d0" kindref="member">avcodec_find_encoder_by_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="271"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>non-zero<sp/>number<sp/>if<sp/>codec<sp/>is<sp/>an<sp/>encoder,<sp/>zero<sp/>otherwise</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="group__lavc__core_1ga2b665824e4d9144f8d4f6c01e3e85aa3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1ga2b665824e4d9144f8d4f6c01e3e85aa3" kindref="member">av_codec_is_encoder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*codec);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="276"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>non-zero<sp/>number<sp/>if<sp/>codec<sp/>is<sp/>a<sp/>decoder,<sp/>zero<sp/>otherwise</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="group__lavc__core_1ga6dc18eef1afca3610644a52565cf8a31" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1ga6dc18eef1afca3610644a52565cf8a31" kindref="member">av_codec_is_decoder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*codec);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="281"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="282"><highlight class="comment"><sp/>*<sp/>Return<sp/>a<sp/>name<sp/>for<sp/>the<sp/>specified<sp/>profile,<sp/>if<sp/>available.</highlight></codeline>
+<codeline lineno="283"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"><sp/>*<sp/>@param<sp/>codec<sp/>the<sp/>codec<sp/>that<sp/>is<sp/>searched<sp/>for<sp/>the<sp/>given<sp/>profile</highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/>*<sp/>@param<sp/>profile<sp/>the<sp/>profile<sp/>value<sp/>for<sp/>which<sp/>a<sp/>name<sp/>is<sp/>requested</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>name<sp/>for<sp/>the<sp/>profile<sp/>if<sp/>found,<sp/>NULL<sp/>otherwise.</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="group__lavc__core_1gaf94924e4132bfde3ec08f94ef8671503" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavc__core_1gaf94924e4132bfde3ec08f94ef8671503" kindref="member">av_get_profile_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*codec,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>profile);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="291"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>codec<sp/>supports<sp/>this<sp/>format<sp/>via<sp/>the<sp/>hw_device_ctx<sp/>interface.</highlight></codeline>
+<codeline lineno="293"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>When<sp/>selecting<sp/>this<sp/>format,<sp/>AVCodecContext.hw_device_ctx<sp/>should</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>have<sp/>been<sp/>set<sp/>to<sp/>a<sp/>device<sp/>of<sp/>the<sp/>specified<sp/>type<sp/>before<sp/>calling</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>avcodec_open2().</highlight></codeline>
+<codeline lineno="297"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06ca680870b80f0ed65e9ba97ea0905eb2fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06ca680870b80f0ed65e9ba97ea0905eb2fa" kindref="member">AV_CODEC_HW_CONFIG_METHOD_HW_DEVICE_CTX</ref><sp/>=<sp/>0x01,</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="299"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="300"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>codec<sp/>supports<sp/>this<sp/>format<sp/>via<sp/>the<sp/>hw_frames_ctx<sp/>interface.</highlight></codeline>
+<codeline lineno="301"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="302"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>When<sp/>selecting<sp/>this<sp/>format<sp/>for<sp/>a<sp/>decoder,</highlight></codeline>
+<codeline lineno="303"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>AVCodecContext.hw_frames_ctx<sp/>should<sp/>be<sp/>set<sp/>to<sp/>a<sp/>suitable<sp/>frames</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>context<sp/>inside<sp/>the<sp/>get_format()<sp/>callback.<sp/><sp/>The<sp/>frames<sp/>context</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>must<sp/>have<sp/>been<sp/>created<sp/>on<sp/>a<sp/>device<sp/>of<sp/>the<sp/>specified<sp/>type.</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>When<sp/>selecting<sp/>this<sp/>format<sp/>for<sp/>an<sp/>encoder,</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>AVCodecContext.hw_frames_ctx<sp/>should<sp/>be<sp/>set<sp/>to<sp/>the<sp/>context<sp/>which</highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>will<sp/>be<sp/>used<sp/>for<sp/>the<sp/>input<sp/>frames<sp/>before<sp/>calling<sp/>avcodec_open2().</highlight></codeline>
+<codeline lineno="310"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311" refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06ca5a73dc7ff24a0b8ed69e2673d026ca11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06ca5a73dc7ff24a0b8ed69e2673d026ca11" kindref="member">AV_CODEC_HW_CONFIG_METHOD_HW_FRAMES_CTX</ref><sp/>=<sp/>0x02,</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="312"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="313"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>codec<sp/>supports<sp/>this<sp/>format<sp/>by<sp/>some<sp/>internal<sp/>method.</highlight></codeline>
+<codeline lineno="314"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="315"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>format<sp/>can<sp/>be<sp/>selected<sp/>without<sp/>any<sp/>additional<sp/>configuration<sp/>-</highlight></codeline>
+<codeline lineno="316"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>no<sp/>device<sp/>or<sp/>frames<sp/>context<sp/>is<sp/>required.</highlight></codeline>
+<codeline lineno="317"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06caa7386da6a6a78eb809d838053e4035ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06caa7386da6a6a78eb809d838053e4035ee" kindref="member">AV_CODEC_HW_CONFIG_METHOD_INTERNAL</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x04,</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>codec<sp/>supports<sp/>this<sp/>format<sp/>by<sp/>some<sp/>ad-hoc<sp/>method.</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="322"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Additional<sp/>settings<sp/>and/or<sp/>function<sp/>calls<sp/>are<sp/>required.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="323"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>codec-specific<sp/>documentation<sp/>for<sp/>details.<sp/><sp/>(Methods<sp/>requiring</highlight></codeline>
+<codeline lineno="324"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>this<sp/>sort<sp/>of<sp/>configuration<sp/>are<sp/>deprecated<sp/>and<sp/>others<sp/>should<sp/>be</highlight></codeline>
+<codeline lineno="325"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>used<sp/>in<sp/>preference.)</highlight></codeline>
+<codeline lineno="326"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06ca2b3109af838e7432ddafd5f9058a7f9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__core_1ggadc29c2ff13d900c2f185ee95427fb06ca2b3109af838e7432ddafd5f9058a7f9b" kindref="member">AV_CODEC_HW_CONFIG_METHOD_AD_HOC</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x08,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330" refid="structAVCodecHWConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVCodecHWConfig" kindref="compound">AVCodecHWConfig</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>For<sp/>decoders,<sp/>a<sp/>hardware<sp/>pixel<sp/>format<sp/>which<sp/>that<sp/>decoder<sp/>may<sp/>be</highlight></codeline>
+<codeline lineno="333"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>able<sp/>to<sp/>decode<sp/>to<sp/>if<sp/>suitable<sp/>hardware<sp/>is<sp/>available.</highlight></codeline>
+<codeline lineno="334"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="335"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>For<sp/>encoders,<sp/>a<sp/>pixel<sp/>format<sp/>which<sp/>the<sp/>encoder<sp/>may<sp/>be<sp/>able<sp/>to</highlight></codeline>
+<codeline lineno="336"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>accept.<sp/><sp/>If<sp/>set<sp/>to<sp/>AV_PIX_FMT_NONE,<sp/>this<sp/>applies<sp/>to<sp/>all<sp/>pixel</highlight></codeline>
+<codeline lineno="337"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>formats<sp/>supported<sp/>by<sp/>the<sp/>codec.</highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="structAVCodecHWConfig_1a9352b11d6d6b315fe3c61b65447d5174" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/><ref refid="structAVCodecHWConfig_1a9352b11d6d6b315fe3c61b65447d5174" kindref="member">pix_fmt</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="341"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Bit<sp/>set<sp/>of<sp/>AV_CODEC_HW_CONFIG_METHOD_*<sp/>flags,<sp/>describing<sp/>the<sp/>possible</highlight></codeline>
+<codeline lineno="342"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>setup<sp/>methods<sp/>which<sp/>can<sp/>be<sp/>used<sp/>with<sp/>this<sp/>configuration.</highlight></codeline>
+<codeline lineno="343"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="structAVCodecHWConfig_1a208c924c3f626b01bf2020eef9eb4905" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVCodecHWConfig_1a208c924c3f626b01bf2020eef9eb4905" kindref="member">methods</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="345"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="346"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>device<sp/>type<sp/>associated<sp/>with<sp/>the<sp/>configuration.</highlight></codeline>
+<codeline lineno="347"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="348"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Must<sp/>be<sp/>set<sp/>for<sp/>AV_CODEC_HW_CONFIG_METHOD_HW_DEVICE_CTX<sp/>and</highlight></codeline>
+<codeline lineno="349"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>AV_CODEC_HW_CONFIG_METHOD_HW_FRAMES_CTX,<sp/>otherwise<sp/>unused.</highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="structAVCodecHWConfig_1a1474cb73c1f41e377dc5070ae373ac40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="hwcontext_8h_1acf25724be4b066a51ad86aa9214b0d34" kindref="member">AVHWDeviceType</ref><sp/><ref refid="structAVCodecHWConfig_1a1474cb73c1f41e377dc5070ae373ac40" kindref="member">device_type</ref>;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">}<sp/><ref refid="structAVCodecHWConfig" kindref="compound">AVCodecHWConfig</ref>;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="354"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="355"><highlight class="comment"><sp/>*<sp/>Retrieve<sp/>supported<sp/>hardware<sp/>configurations<sp/>for<sp/>a<sp/>codec.</highlight></codeline>
+<codeline lineno="356"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="357"><highlight class="comment"><sp/>*<sp/>Values<sp/>of<sp/>index<sp/>from<sp/>zero<sp/>to<sp/>some<sp/>maximum<sp/>return<sp/>the<sp/>indexed<sp/>configuration</highlight></codeline>
+<codeline lineno="358"><highlight class="comment"><sp/>*<sp/>descriptor;<sp/>all<sp/>other<sp/>values<sp/>return<sp/>NULL.<sp/><sp/>If<sp/>the<sp/>codec<sp/>does<sp/>not<sp/>support</highlight></codeline>
+<codeline lineno="359"><highlight class="comment"><sp/>*<sp/>any<sp/>hardware<sp/>configurations<sp/>then<sp/>it<sp/>will<sp/>always<sp/>return<sp/>NULL.</highlight></codeline>
+<codeline lineno="360"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="group__lavc__core_1gaba0ae8dd2a26f7733becf1b4367ae6f5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodecHWConfig" kindref="compound">AVCodecHWConfig</ref><sp/>*<ref refid="group__lavc__core_1gaba0ae8dd2a26f7733becf1b4367ae6f5" kindref="member">avcodec_get_hw_config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodec" kindref="compound">AVCodec</ref><sp/>*codec,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="363"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="364"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="365"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVCODEC_CODEC_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavcodec/codec.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,63 @@
+Function 'decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_frame'
+Lines executed:0.00% of 40
+
+Function 'decode_slices'
+Lines executed:0.00% of 8
+
+Function 'decode_slice'
+Lines executed:0.00% of 27
+
+Function 'decode_dcac'
+Lines executed:0.00% of 43
+
+Function 'decode_init'
+Lines executed:0.00% of 10
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 22
+
+Function 'bits_align_be'
+Lines executed:0.00% of 7
+
+Function 'bits_skip_be'
+Lines executed:0.00% of 18
+
+Function 'bits_read_nz_be'
+Lines executed:0.00% of 12
+
+Function 'bits_init_be'
+Lines executed:0.00% of 16
+
+Function 'bits_priv_refill_32_be'
+Lines executed:0.00% of 8
+
+Function 'bits_priv_refill_64_be'
+Lines executed:0.00% of 6
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/vmixdec.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmixdec.gcno##libavcodec#vmixdec.c.gcov'
+
+File 'libavcodec/bitstream_template.h'
+Lines executed:0.00% of 86
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmixdec.gcno##libavcodec#bitstream_template.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmixdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmixdec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmixdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 223

@@ -1,0 +1,20 @@
+Function 'ff_mqc_decode'
+Lines executed:0.00% of 10
+
+Function 'mqc_decode_bypass'
+Lines executed:0.00% of 7
+
+Function 'ff_mqc_initdec'
+Lines executed:0.00% of 10
+
+Function 'exchange'
+Lines executed:0.00% of 19
+
+Function 'bytein'
+Lines executed:0.00% of 9
+
+File 'libavcodec/mqcdec.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mqcdec.gcno##libavcodec#mqcdec.c.gcov'
+
+Lines executed:0.00% of 55

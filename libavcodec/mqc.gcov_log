@@ -1,0 +1,12 @@
+Function 'ff_mqc_init_contexts'
+Lines executed:0.00% of 8
+
+File 'libavcodec/mqc.c'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mqc.gcno##libavcodec#mqc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mqc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 8

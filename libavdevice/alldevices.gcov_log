@@ -1,0 +1,26 @@
+Function 'av_output_video_device_next'
+Lines executed:0.00% of 2
+
+Function 'av_output_audio_device_next'
+Lines executed:0.00% of 2
+
+Function 'av_input_video_device_next'
+Lines executed:0.00% of 2
+
+Function 'av_input_audio_device_next'
+Lines executed:0.00% of 2
+
+Function 'next_output'
+Lines executed:0.00% of 18
+
+Function 'next_input'
+Lines executed:0.00% of 18
+
+Function 'avdevice_register_all'
+Lines executed:0.00% of 3
+
+File 'libavdevice/alldevices.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#alldevices.gcno##libavdevice#alldevices.c.gcov'
+
+Lines executed:0.00% of 47

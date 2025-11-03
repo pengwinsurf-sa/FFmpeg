@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavu__sampfmts" kind="group">
+    <compoundname>lavu_sampfmts</compoundname>
+    <title>Audio sample formats</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVSampleFormat</name>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5ac5d4bb5b0fb0dc7316fb3c7a73029912" prot="public">
+          <name>AV_SAMPLE_FMT_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5adf0f66f21492f8fd5db6debb8b3f932a" prot="public">
+          <name>AV_SAMPLE_FMT_U8</name>
+          <briefdescription>
+<para>unsigned 8 bits </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5aea6132df57aebc3f76e10665395c46af" prot="public">
+          <name>AV_SAMPLE_FMT_S16</name>
+          <briefdescription>
+<para>signed 16 bits </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5ab7ae6bb6718c07cd316778783a57a63b" prot="public">
+          <name>AV_SAMPLE_FMT_S32</name>
+          <briefdescription>
+<para>signed 32 bits </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a5251d62cc3c7f18e56bc8e0c48a27903" prot="public">
+          <name>AV_SAMPLE_FMT_FLT</name>
+          <briefdescription>
+<para>float </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5ae35a2a6a7593723d9fe4bcefb2876606" prot="public">
+          <name>AV_SAMPLE_FMT_DBL</name>
+          <briefdescription>
+<para>double </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a6ab0109a23af37e29ea3a7282c00d311" prot="public">
+          <name>AV_SAMPLE_FMT_U8P</name>
+          <briefdescription>
+<para>unsigned 8 bits, planar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a35eaaad9da207aa4e63fa02fd67fae68" prot="public">
+          <name>AV_SAMPLE_FMT_S16P</name>
+          <briefdescription>
+<para>signed 16 bits, planar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5aa215d25dfbf927aa362c837fed4b15a8" prot="public">
+          <name>AV_SAMPLE_FMT_S32P</name>
+          <briefdescription>
+<para>signed 32 bits, planar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a2d21c520e4ab21100b6440ec2d81ba1b" prot="public">
+          <name>AV_SAMPLE_FMT_FLTP</name>
+          <briefdescription>
+<para>float, planar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5adf1348382a7c7473a425e05530989ae5" prot="public">
+          <name>AV_SAMPLE_FMT_DBLP</name>
+          <briefdescription>
+<para>double, planar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a59a56ed0ec7b70ecda41c5ae943f256e" prot="public">
+          <name>AV_SAMPLE_FMT_S64</name>
+          <briefdescription>
+<para>signed 64 bits </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5ae65e3ba3ffdf813b45fccab87f3588a1" prot="public">
+          <name>AV_SAMPLE_FMT_S64P</name>
+          <briefdescription>
+<para>signed 64 bits, planar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__sampfmts_1ggaf9a51ca15301871723577c730b5865c5a8c2ef4962274b33e2828fb9629c104fd" prot="public">
+          <name>AV_SAMPLE_FMT_NB</name>
+          <briefdescription>
+<para>Number of sample formats. DO NOT USE if linking dynamically. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Audio sample formats. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>The data described by the sample format is always in native-endian order. Sample values can be expressed by native C types, hence the lack of a signed 24-bit sample format even though it is a common raw audio data format.</para>
+</listitem><listitem><para>The floating-point formats are based on full volume being in the range [-1.0, 1.0]. Any values outside this range are beyond full volume level.</para>
+</listitem><listitem><para>The data layout as used in <ref refid="group__lavu__sampmanip_1ga673254a62fa75dab3211caf17c73c6eb" kindref="member">av_samples_fill_arrays()</ref> and elsewhere in FFmpeg (such as <ref refid="structAVFrame" kindref="compound">AVFrame</ref> in libavcodec) is as follows:</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="par"><title></title><para>For planar sample formats, each audio channel is in a separate data plane, and linesize is the buffer size, in bytes, for a single plane. All data planes must be the same size. For packed sample formats, only the first data plane is used, and samples for each channel are interleaved. In this case, linesize is the buffer size, in bytes, for the 1 plane. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="55" column="1" bodyfile="libavutil/samplefmt.h" bodystart="55" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__lavu__sampfmts_1gadc5fce5ceabec01026645c7c160ca82f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * av_get_sample_fmt_name</definition>
+        <argsstring>(enum AVSampleFormat sample_fmt)</argsstring>
+        <name>av_get_sample_fmt_name</name>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+<para>Return the name of sample_fmt, or NULL if sample_fmt is not recognized. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="78" column="12" declfile="libavutil/samplefmt.h" declline="78" declcolumn="12"/>
+        <referencedby refid="decode__audio_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" compoundref="decode__audio_8c" startline="43" endline="70">get_format_from_sample_fmt</referencedby>
+        <referencedby refid="demux__decode_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" compoundref="demux__decode_8c" startline="197" endline="224">get_format_from_sample_fmt</referencedby>
+        <referencedby refid="resample__audio_8c_1a5e068fc5e6dc5c59638ec235f7f6db89" compoundref="resample__audio_8c" startline="37" endline="64">get_format_from_sample_fmt</referencedby>
+        <referencedby refid="transcode_8c_1a54ad76df48ef886861a2f12bc7a9e7e4" compoundref="transcode_8c" startline="260" endline="423">init_filter</referencedby>
+        <referencedby refid="filter__audio_8c_1a73cf1c341378e03c975e1f9f03a71870" compoundref="filter__audio_8c" startline="60" endline="208">init_filter_graph</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1ac25a104c80c6a7d21fb06a438a6965ba" compoundref="decode__filter__audio_8c" startline="91" endline="207">init_filters</referencedby>
+        <referencedby refid="decode__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__audio_8c" startline="106" endline="237">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1ga655c989b749667468e5e839e26fe63db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+        <definition>enum AVSampleFormat av_get_sample_fmt</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>av_get_sample_fmt</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Return a sample format corresponding to name, or AV_SAMPLE_FMT_NONE on error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="84" column="20" declfile="libavutil/samplefmt.h" declline="84" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1ga8e66c3f813ea02afcaa56a8a964c749a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+        <definition>enum AVSampleFormat av_get_alt_sample_fmt</definition>
+        <argsstring>(enum AVSampleFormat sample_fmt, int planar)</argsstring>
+        <name>av_get_alt_sample_fmt</name>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>planar</declname>
+        </param>
+        <briefdescription>
+<para>Return the planar&lt;-&gt;packed alternative form of the given sample format, or AV_SAMPLE_FMT_NONE on error. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the passed sample_fmt is already in the requested planar/packed format, the format returned is the same as the input. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="92" column="20" declfile="libavutil/samplefmt.h" declline="92" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1ga7817ec0eff4dc6fc0962f31e6d138bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+        <definition>enum AVSampleFormat av_get_packed_sample_fmt</definition>
+        <argsstring>(enum AVSampleFormat sample_fmt)</argsstring>
+        <name>av_get_packed_sample_fmt</name>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+<para>Get the packed alternative form of the given sample format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the passed sample_fmt is already in packed format, the format returned is the same as the input.</para>
+<para><simplesect kind="return"><para>the packed alternative form of the given sample format or AV_SAMPLE_FMT_NONE on error. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="103" column="20" declfile="libavutil/samplefmt.h" declline="103" declcolumn="20"/>
+        <referencedby refid="decode__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__audio_8c" startline="106" endline="237">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1ga82caf838259d95cc6c4fd87633bb0e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+        <definition>enum AVSampleFormat av_get_planar_sample_fmt</definition>
+        <argsstring>(enum AVSampleFormat sample_fmt)</argsstring>
+        <name>av_get_planar_sample_fmt</name>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+<para>Get the planar alternative form of the given sample format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the passed sample_fmt is already in planar format, the format returned is the same as the input.</para>
+<para><simplesect kind="return"><para>the planar alternative form of the given sample format or AV_SAMPLE_FMT_NONE on error. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="114" column="20" declfile="libavutil/samplefmt.h" declline="114" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1gacf7a32f84e3508ee52ab30d85b8237bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * av_get_sample_fmt_string</definition>
+        <argsstring>(char *buf, int buf_size, enum AVSampleFormat sample_fmt)</argsstring>
+        <name>av_get_sample_fmt_string</name>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buf_size</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+<para>Generate a string corresponding to the sample format with sample_fmt, or a header if sample_fmt is negative. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the buffer where to write the string </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the size of buf </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sample_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of the sample format to print the corresponding info string, or a negative value to print the corresponding header. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the pointer to the filled buffer or NULL if sample_fmt is unknown or in case of other errors </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="128" column="6" declfile="libavutil/samplefmt.h" declline="128" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1ga0c3c218e1dd570ad4917c69a35a6c77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_get_bytes_per_sample</definition>
+        <argsstring>(enum AVSampleFormat sample_fmt)</argsstring>
+        <name>av_get_bytes_per_sample</name>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+<para>Return number of bytes per sample. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sample_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample format </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of bytes per sample or zero if unknown for the given sample format </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="137" column="5" declfile="libavutil/samplefmt.h" declline="137" declcolumn="5"/>
+        <referencedby refid="decode__audio_8c_1a1704ae53d7f426e1b67341785b5b2b58" compoundref="decode__audio_8c" startline="72" endline="104">decode</referencedby>
+        <referencedby refid="demux__decode_8c_1a2dadb97c4c6e23923373204870deda3f" compoundref="demux__decode_8c" startline="90" endline="108">output_audio_frame</referencedby>
+        <referencedby refid="filter__audio_8c_1a6a52930eb2ed533366ebb43a038baa36" compoundref="filter__audio_8c" startline="212" endline="235">process_output</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1ga06ba8a64dc4382c422789a5d0b6bf592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_sample_fmt_is_planar</definition>
+        <argsstring>(enum AVSampleFormat sample_fmt)</argsstring>
+        <name>av_sample_fmt_is_planar</name>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <briefdescription>
+<para>Check if the sample format is planar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sample_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample format to inspect </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 if the sample format is planar, 0 if it is interleaved </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="145" column="5" declfile="libavutil/samplefmt.h" declline="145" declcolumn="5"/>
+        <referencedby refid="decode__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__audio_8c" startline="106" endline="237">main</referencedby>
+        <referencedby refid="filter__audio_8c_1a6a52930eb2ed533366ebb43a038baa36" compoundref="filter__audio_8c" startline="212" endline="235">process_output</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__sampfmts_1gaa7368bc4e3a366b688e81938ed55eb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_samples_get_buffer_size</definition>
+        <argsstring>(int *linesize, int nb_channels, int nb_samples, enum AVSampleFormat sample_fmt, int align)</argsstring>
+        <name>av_samples_get_buffer_size</name>
+        <param>
+          <type>int *</type>
+          <declname>linesize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_channels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_samples</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref></type>
+          <declname>sample_fmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>align</declname>
+        </param>
+        <briefdescription>
+<para>Get the required buffer size for the given audio parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">linesize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>calculated linesize, may be NULL </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nb_channels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of channels </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nb_samples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of samples in a single channel </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sample_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample format </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>align</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size alignment (0 = default, 1 = no alignment) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>required buffer size, or negative error code on failure </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/samplefmt.h" line="157" column="5" declfile="libavutil/samplefmt.h" declline="157" declcolumn="5"/>
+        <referencedby refid="resample__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="resample__audio_8c" startline="85" endline="220">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Audio sample format enumeration and related convenience functions. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

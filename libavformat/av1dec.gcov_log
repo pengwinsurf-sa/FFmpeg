@@ -1,0 +1,69 @@
+Function 'obu_read_packet'
+Lines executed:0.00% of 18
+
+Function 'obu_get_packet'
+Lines executed:0.00% of 21
+
+Function 'obu_probe'
+Lines executed:0.00% of 20
+
+Function 'read_obu_with_size'
+Lines executed:0.00% of 60
+
+Function 'annexb_read_packet'
+Lines executed:0.00% of 46
+
+Function 'annexb_probe'
+Lines executed:0.00% of 42
+
+Function 'leb'
+Lines executed:0.00% of 17
+
+Function 'av1_read_close'
+Lines executed:0.00% of 4
+
+Function 'av1_read_header'
+Lines executed:0.00% of 23
+
+Function 'parse_obu_header'
+Lines executed:0.00% of 23
+
+Function 'get_leb128'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavformat/av1dec.c'
+Lines executed:0.00% of 209
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavformat#av1dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavformat#avio.h.gcov'
+
+File 'libavcodec/av1_parse.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavcodec#av1_parse.h.gcov'
+
+File 'libavcodec/leb.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavcodec#leb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#av1dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 300

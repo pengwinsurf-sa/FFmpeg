@@ -1,0 +1,28 @@
+Function 'pdv_read_seek'
+Lines executed:0.00% of 8
+
+Function 'pdv_read_close'
+Lines executed:0.00% of 5
+
+Function 'pdv_read_packet'
+Lines executed:0.00% of 23
+
+Function 'pdv_read_header'
+Lines executed:0.00% of 44
+
+Function 'pdv_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/pdvdec.c'
+Lines executed:0.00% of 77
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#pdvdec.gcno##libavformat#pdvdec.c.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#pdvdec.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#pdvdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 83

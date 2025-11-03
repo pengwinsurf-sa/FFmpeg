@@ -1,0 +1,28 @@
+Function 'ff_mss2dsp_init'
+Lines executed:0.00% of 6
+
+Function 'upsample_plane_c'
+Lines executed:0.00% of 30
+
+Function 'mss2_gray_fill_masked_c'
+Lines executed:0.00% of 15
+
+Function 'mss2_blit_wmv9_masked_c'
+Lines executed:0.00% of 12
+
+Function 'mss2_blit_wmv9_c'
+Lines executed:0.00% of 3
+
+File 'libavcodec/mss2dsp.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss2dsp.gcno##libavcodec#mss2dsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss2dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss2dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 66

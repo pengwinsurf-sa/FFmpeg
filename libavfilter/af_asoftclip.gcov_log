@@ -1,0 +1,30 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 26
+
+Function 'filter_channels'
+Lines executed:0.00% of 11
+
+Function 'config_input'
+Lines executed:0.00% of 12
+
+Function 'filter_dbl'
+Lines executed:0.00% of 71
+
+Function 'filter_flt'
+Lines executed:0.00% of 71
+
+Function 'get_lowpass'
+Lines executed:0.00% of 27
+
+File 'libavfilter/af_asoftclip.c'
+Lines executed:0.00% of 219
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asoftclip.gcno##libavfilter#af_asoftclip.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asoftclip.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 223

@@ -1,0 +1,25 @@
+Function 'av_tea_crypt'
+Lines executed:0.00% of 19
+
+Function 'tea_crypt_ecb'
+Lines executed:0.00% of 29
+
+Function 'av_tea_init'
+Lines executed:0.00% of 6
+
+Function 'av_tea_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/tea.c'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tea.gcno##libavutil#tea.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tea.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tea.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 56

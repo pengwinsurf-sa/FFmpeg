@@ -1,0 +1,14 @@
+Function 'apv_metadata_init'
+Lines executed:0.00% of 2
+
+Function 'apv_metadata_update_fragment'
+Lines executed:0.00% of 8
+
+Function 'apv_metadata_update_frame_header'
+Lines executed:0.00% of 16
+
+File 'libavcodec/bsf/apv_metadata.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#apv_metadata.gcno##libavcodec#bsf#apv_metadata.c.gcov'
+
+Lines executed:0.00% of 26

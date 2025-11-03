@@ -1,0 +1,677 @@
+Function 'mov_read_seek'
+Lines executed:0.00% of 56
+
+Function 'mov_get_skip_samples'
+Lines executed:0.00% of 10
+
+Function 'mov_seek_stream'
+Lines executed:0.00% of 35
+
+Function 'can_seek_to_key_sample'
+Lines executed:0.00% of 15
+
+Function 'mov_seek_fragment'
+Lines executed:0.00% of 10
+
+Function 'mov_read_packet'
+Lines executed:0.00% of 127
+
+Function 'mov_finalize_packet'
+Lines executed:0.00% of 44
+
+Function 'get_eia608_packet'
+Lines executed:0.00% of 30
+
+Function 'mov_change_extradata'
+Lines executed:0.00% of 11
+
+Function 'mov_switch_root'
+Lines executed:0.00% of 25
+
+Function 'mov_find_next_sample'
+Lines executed:0.00% of 24
+
+Function 'mov_read_header'
+Lines executed:0.00% of 135
+
+Function 'fix_stream_ids'
+Lines executed:0.00% of 18
+
+Function 'mov_parse_lcevc_streams'
+Lines executed:0.00% of 36
+
+Function 'mov_parse_heif_items'
+Lines executed:0.00% of 38
+
+Function 'mov_parse_tiles'
+Lines executed:0.00% of 61
+
+Function 'read_image_iovl'
+Lines executed:0.00% of 47
+
+Function 'read_image_grid'
+Lines executed:0.00% of 53
+
+Function 'set_display_matrix_from_item'
+Lines executed:0.00% of 8
+
+Function 'set_icc_profile_from_item'
+Lines executed:0.00% of 6
+
+Function 'mov_read_mfra'
+Lines executed:0.00% of 36
+
+Function 'read_tfra'
+Lines executed:0.00% of 42
+
+Function 'export_orphan_timecode'
+Lines executed:0.00% of 18
+
+Function 'mov_read_close'
+Lines executed:0.00% of 36
+
+Function 'mov_free_stream_context'
+Lines executed:0.00% of 46
+
+Function 'mov_free_encryption_index'
+Lines executed:0.00% of 9
+
+Function 'mov_read_timecode_track'
+Lines executed:0.00% of 24
+
+Function 'mov_read_rtmd_track'
+Lines executed:0.00% of 20
+
+Function 'parse_timecode_in_framenum_format'
+Lines executed:0.00% of 9
+
+Function 'mov_read_chapters'
+Lines executed:0.00% of 69
+
+Function 'mov_probe'
+Lines executed:0.00% of 49
+
+Function 'mov_read_default'
+Lines executed:0.00% of 82
+
+Function 'mov_read_iprp'
+Lines executed:0.00% of 73
+
+Function 'mov_read_imir'
+Lines executed:0.00% of 16
+
+Function 'mov_read_irot'
+Lines executed:0.00% of 9
+
+Function 'mov_read_ispe'
+Lines executed:0.00% of 13
+
+Function 'mov_read_iref'
+Lines executed:0.00% of 25
+
+Function 'mov_read_iref_thmb'
+Lines executed:0.00% of 12
+
+Function 'mov_read_iref_dimg'
+Lines executed:0.00% of 38
+
+Function 'mov_read_iinf'
+Lines executed:0.00% of 44
+
+Function 'mov_read_infe'
+Lines executed:0.00% of 42
+
+Function 'mov_read_iloc'
+Lines executed:0.00% of 58
+
+Function 'mov_read_idat'
+Lines executed:0.00% of 3
+
+Function 'mov_read_pitm'
+Lines executed:0.00% of 5
+
+Function 'rb_size'
+Lines executed:0.00% of 8
+
+Function 'mov_read_SAND'
+Lines executed:0.00% of 14
+
+Function 'mov_read_SA3D'
+Lines executed:0.00% of 53
+
+Function 'mov_read_kind'
+Lines executed:0.00% of 46
+
+Function 'mov_read_lhvc'
+Lines executed:0.00% of 28
+
+Function 'mov_read_dvcc_dvvc'
+Lines executed:0.00% of 10
+
+Function 'mov_read_dmlp'
+Lines executed:0.00% of 30
+
+Function 'mov_read_dops'
+Lines executed:0.00% of 27
+
+Function 'cenc_filter'
+Lines executed:0.00% of 43
+
+Function 'get_frag_stream_info_from_pkt'
+Lines executed:0.00% of 13
+
+Function 'cenc_decrypt'
+Lines executed:0.00% of 11
+
+Function 'cbcs_scheme_decrypt'
+Lines executed:0.00% of 37
+
+Function 'cens_scheme_decrypt'
+Lines executed:0.00% of 35
+
+Function 'cbc1_scheme_decrypt'
+Lines executed:0.00% of 30
+
+Function 'cenc_scheme_decrypt'
+Lines executed:0.00% of 25
+
+Function 'mov_read_dfla'
+Lines executed:0.00% of 28
+
+Function 'mov_read_tenc'
+Lines executed:0.00% of 40
+
+Function 'mov_read_schm'
+Lines executed:0.00% of 16
+
+Function 'mov_read_pssh'
+Lines executed:0.00% of 76
+
+Function 'mov_read_saio'
+Lines executed:0.00% of 55
+
+Function 'mov_read_saiz'
+Lines executed:0.00% of 51
+
+Function 'mov_parse_auxiliary_info'
+Lines executed:0.00% of 40
+
+Function 'mov_read_senc'
+Lines executed:0.00% of 33
+
+Function 'mov_read_sample_encryption_info'
+Lines executed:0.00% of 34
+
+Function 'get_current_encryption_info'
+Lines executed:0.00% of 33
+
+Function 'mov_read_frma'
+Lines executed:0.00% of 21
+
+Function 'mov_read_free'
+Lines executed:0.00% of 11
+
+Function 'mov_read_uuid'
+Lines executed:0.00% of 65
+
+Function 'mov_parse_uuid_spherical'
+Lines executed:0.00% of 42
+
+Function 'mov_read_hfov'
+Lines executed:0.00% of 15
+
+Function 'mov_read_vexu'
+Lines executed:0.00% of 35
+
+Function 'mov_read_eyes'
+Lines executed:0.00% of 110
+
+Function 'mov_read_vexu_proj'
+Lines executed:0.00% of 40
+
+Function 'mov_read_sv3d'
+Lines executed:0.00% of 88
+
+Function 'mov_read_st3d'
+Lines executed:0.00% of 22
+
+Function 'mov_read_amve'
+Lines executed:0.00% of 19
+
+Function 'mov_read_clli'
+Lines executed:0.00% of 15
+
+Function 'mov_read_coll'
+Lines executed:0.00% of 21
+
+Function 'mov_read_mdcv'
+Lines executed:0.00% of 27
+
+Function 'mov_read_smdm'
+Lines executed:0.00% of 28
+
+Function 'mov_read_vpcc'
+Lines executed:0.00% of 30
+
+Function 'mov_read_tmcd'
+Lines executed:0.00% of 6
+
+Function 'mov_read_elst'
+Lines executed:0.00% of 49
+
+Function 'mov_read_cmov'
+Lines executed:0.00% of 36
+
+Function 'mov_read_wide'
+Lines executed:0.00% of 17
+
+Function 'mov_read_sidx'
+Lines executed:0.00% of 88
+
+Function 'mov_read_trun'
+Lines executed:0.00% of 185
+
+Function 'mov_read_tfdt'
+Lines executed:0.00% of 25
+
+Function 'mov_read_trex'
+Lines executed:0.00% of 17
+
+Function 'mov_read_chap'
+Lines executed:0.00% of 12
+
+Function 'mov_read_tfhd'
+Lines executed:0.00% of 32
+
+Function 'mov_read_tkhd'
+Lines executed:0.00% of 62
+
+Function 'mov_read_meta'
+Lines executed:0.00% of 10
+
+Function 'heif_add_stream'
+Lines executed:0.00% of 41
+
+Function 'mov_read_custom'
+Lines executed:0.00% of 48
+
+Function 'mov_read_keys'
+Lines executed:0.00% of 27
+
+Function 'mov_read_ilst'
+Lines executed:0.00% of 6
+
+Function 'mov_read_trak'
+Lines executed:0.00% of 87
+
+Function 'sanity_checks'
+Lines executed:0.00% of 9
+
+Function 'mov_update_iamf_streams'
+Lines executed:0.00% of 27
+
+Function 'fix_timescale'
+Lines executed:0.00% of 7
+
+Function 'mov_open_dref'
+Lines executed:0.00% of 33
+
+Function 'test_same_origin'
+Lines executed:0.00% of 21
+
+Function 'mov_build_index'
+Lines executed:0.00% of 198
+
+Function 'mov_merge_tts_data'
+Lines executed:0.00% of 41
+
+Function 'build_open_gop_key_points'
+Lines executed:0.00% of 39
+
+Function 'mov_fix_index'
+Lines executed:0.00% of 174
+
+Function 'mov_estimate_video_delay'
+Lines executed:0.00% of 34
+
+Function 'add_tts_entry'
+Lines executed:0.00% of 15
+
+Function 'fix_index_entry_timestamps'
+Lines executed:0.00% of 8
+
+Function 'add_index_entry'
+Lines executed:0.00% of 20
+
+Function 'find_prev_closest_index'
+Lines executed:0.00% of 41
+
+Function 'get_edit_list_entry'
+Lines executed:0.00% of 10
+
+Function 'mov_read_sbgp'
+Lines executed:0.00% of 37
+
+Function 'mov_read_sgpd'
+Lines executed:0.00% of 34
+
+Function 'mov_read_ctts'
+Lines executed:0.00% of 46
+
+Function 'mov_update_dts_shift'
+Lines executed:0.00% of 7
+
+Function 'mov_read_sdtp'
+Lines executed:0.00% of 22
+
+Function 'mov_read_stts'
+Lines executed:0.00% of 72
+
+Function 'mov_read_stsz'
+Lines executed:0.00% of 75
+
+Function 'mov_read_stss'
+Lines executed:0.00% of 34
+
+Function 'mov_read_stps'
+Lines executed:0.00% of 24
+
+Function 'mov_get_stsc_samples'
+Lines executed:0.00% of 7
+
+Function 'mov_read_stsc'
+Lines executed:0.00% of 53
+
+Function 'mov_read_stsd'
+Lines executed:0.00% of 39
+
+Function 'ff_mov_read_stsd_entries'
+Lines executed:0.00% of 67
+
+Function 'mov_skip_multiple_stsd'
+Lines executed:0.00% of 10
+
+Function 'mov_finalize_stsd_codec'
+Lines executed:0.00% of 59
+
+Function 'mov_parse_stsd_data'
+Lines executed:0.00% of 27
+
+Function 'mov_parse_stsd_subtitle'
+Lines executed:0.00% of 7
+
+Function 'mov_parse_stsd_audio'
+Lines executed:0.00% of 89
+
+Function 'mov_parse_stsd_video'
+Lines executed:0.00% of 38
+
+Function 'mov_codec_id'
+Lines executed:0.00% of 25
+
+Function 'mov_read_stco'
+Lines executed:0.00% of 37
+
+Function 'mov_read_strf'
+Lines executed:0.00% of 10
+
+Function 'mov_read_sbas'
+Lines executed:0.00% of 12
+
+Function 'mov_read_dvc1'
+Lines executed:0.00% of 12
+
+Function 'mov_read_glbl'
+Lines executed:0.00% of 23
+
+Function 'mov_read_wave'
+Lines executed:0.00% of 33
+
+Function 'mov_read_svq3'
+Lines executed:0.00% of 2
+
+Function 'mov_read_aclr'
+Lines executed:0.00% of 27
+
+Function 'mov_read_ares'
+Lines executed:0.00% of 30
+
+Function 'mov_read_targa_y216'
+Lines executed:0.00% of 8
+
+Function 'mov_read_avid'
+Lines executed:0.00% of 5
+
+Function 'mov_read_dpxe'
+Lines executed:0.00% of 2
+
+Function 'mov_read_jp2h'
+Lines executed:0.00% of 2
+
+Function 'mov_read_avss'
+Lines executed:0.00% of 2
+
+Function 'mov_read_alac'
+Lines executed:0.00% of 2
+
+Function 'mov_read_extradata'
+Lines executed:0.00% of 12
+
+Function 'mov_read_atom_into_extradata'
+Lines executed:0.00% of 15
+
+Function 'mov_realloc_extradata'
+Lines executed:0.00% of 9
+
+Function 'mov_read_fiel'
+Lines executed:0.00% of 22
+
+Function 'mov_read_colr'
+Lines executed:0.00% of 55
+
+Function 'mov_read_pcmc'
+Lines executed:0.00% of 54
+
+Function 'mov_read_enda'
+Lines executed:0.00% of 6
+
+Function 'set_last_stream_little_endian'
+Lines executed:0.00% of 20
+
+Function 'mov_read_mvhd'
+Lines executed:0.00% of 26
+
+Function 'mov_read_mdhd'
+Lines executed:0.00% of 31
+
+Function 'mov_metadata_creation_time'
+Lines executed:0.00% of 19
+
+Function 'mov_read_moof'
+Lines executed:0.00% of 14
+
+Function 'fix_frag_index_entries'
+Lines executed:0.00% of 8
+
+Function 'update_frag_index'
+Lines executed:0.00% of 39
+
+Function 'search_frag_timestamp'
+Lines executed:0.00% of 13
+
+Function 'get_frag_time'
+Lines executed:0.00% of 23
+
+Function 'get_stream_info_time'
+Lines executed:0.00% of 5
+
+Function 'search_frag_moof_offset'
+Lines executed:0.00% of 12
+
+Function 'set_frag_stream'
+Lines executed:0.00% of 11
+
+Function 'mov_read_moov'
+Lines executed:0.00% of 9
+
+Function 'mov_read_ftyp'
+Lines executed:0.00% of 29
+
+Function 'aax_filter'
+Lines executed:0.00% of 8
+
+Function 'mov_aaxc_crypto'
+Lines executed:0.00% of 13
+
+Function 'mov_read_adrm'
+Lines executed:0.00% of 73
+
+Function 'mov_read_mdat'
+No executable lines
+
+Function 'mov_read_pasp'
+Lines executed:0.00% of 12
+
+Function 'mov_read_clap'
+Lines executed:0.00% of 74
+
+Function 'mov_read_wfex'
+Lines executed:0.00% of 7
+
+Function 'mov_read_chnl'
+Lines executed:0.00% of 18
+
+Function 'mov_read_chan'
+Lines executed:0.00% of 8
+
+Function 'mov_read_ddts'
+Lines executed:0.00% of 42
+
+Function 'mov_read_dec3'
+Lines executed:0.00% of 25
+
+Function 'mov_read_iacb'
+Lines executed:0.00% of 120
+
+Function 'mov_read_dac3'
+Lines executed:0.00% of 24
+
+Function 'mov_read_esds'
+Lines executed:0.00% of 2
+
+Function 'mov_read_hdlr'
+Lines executed:0.00% of 43
+
+Function 'mov_read_dref'
+Lines executed:0.00% of 98
+
+Function 'mov_read_chpl'
+Lines executed:0.00% of 23
+
+Function 'mov_read_udta_string'
+Lines executed:0.00% of 211
+
+Function 'mov_metadata_hmmt'
+Lines executed:0.00% of 10
+
+Function 'mov_metadata_loci'
+Lines executed:0.00% of 35
+
+Function 'mov_read_covr'
+Lines executed:0.00% of 27
+
+Function 'get_curr_st'
+Lines executed:0.00% of 9
+
+Function 'mov_read_mac_string'
+Lines executed:0.00% of 14
+
+Function 'mov_metadata_gnre'
+Lines executed:0.00% of 8
+
+Function 'mov_metadata_int8_no_padding'
+Lines executed:0.00% of 4
+
+Function 'mov_metadata_int8_bypass_padding'
+Lines executed:0.00% of 7
+
+Function 'mov_metadata_track_or_disc_number'
+Lines executed:0.00% of 13
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavformat/mov.c'
+Lines executed:0.00% of 6649
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavformat#mov.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mpegaudiodecheader.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavcodec#mpegaudiodecheader.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavutil#common.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/mlp_parse.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavcodec#mlp_parse.h.gcov'
+
+File 'libavcodec/flac.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavcodec#flac.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/uuid.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavutil#uuid.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavformat/isom.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavformat#isom.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 6773

@@ -1,0 +1,25 @@
+Function 'idcin_read_seek'
+Lines executed:0.00% of 10
+
+Function 'idcin_read_packet'
+Lines executed:0.00% of 66
+
+Function 'idcin_read_header'
+Lines executed:0.00% of 69
+
+Function 'idcin_probe'
+Lines executed:0.00% of 20
+
+File 'libavformat/idcin.c'
+Lines executed:0.00% of 161
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#idcin.gcno##libavformat#idcin.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#idcin.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#idcin.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 165

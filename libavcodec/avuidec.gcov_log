@@ -1,0 +1,15 @@
+Function 'avui_decode_frame'
+Lines executed:0.00% of 60
+
+Function 'avui_decode_init'
+Lines executed:0.00% of 3
+
+File 'libavcodec/avuidec.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avuidec.gcno##libavcodec#avuidec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avuidec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 63

@@ -1,0 +1,87 @@
+Function 'mss3_decode_init'
+Lines executed:0.00% of 23
+
+Function 'mss3_decode_end'
+Lines executed:0.00% of 7
+
+Function 'mss3_decode_frame'
+Lines executed:0.00% of 122
+
+Function 'init_coders'
+Lines executed:0.00% of 20
+
+Function 'reset_coders'
+Lines executed:0.00% of 37
+
+Function 'decode_haar_block'
+Lines executed:0.00% of 32
+
+Function 'decode_dct_block'
+Lines executed:0.00% of 13
+
+Function 'decode_dct'
+Lines executed:0.00% of 48
+
+Function 'decode_image_block'
+Lines executed:0.00% of 23
+
+Function 'decode_fill_block'
+Lines executed:0.00% of 6
+
+Function 'decode_coeff'
+Lines executed:0.00% of 11
+
+Function 'rac_get_model256_sym'
+Lines executed:0.00% of 25
+
+Function 'rac_get_model_sym'
+Lines executed:0.00% of 23
+
+Function 'rac_get_model2_sym'
+Lines executed:0.00% of 12
+
+Function 'rac_get_bit'
+Lines executed:0.00% of 9
+
+Function 'rac_normalise'
+Lines executed:0.00% of 14
+
+Function 'model256_init'
+Lines executed:0.00% of 5
+
+Function 'model256_reset'
+Lines executed:0.00% of 12
+
+Function 'model256_update'
+Lines executed:0.00% of 27
+
+Function 'model_reset'
+Lines executed:0.00% of 12
+
+Function 'model_update'
+Lines executed:0.00% of 20
+
+Function 'model2_update'
+Lines executed:0.00% of 19
+
+File 'libavcodec/mss3.c'
+Lines executed:0.00% of 498
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss3.gcno##libavcodec#mss3.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss3.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss3.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss3.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss3.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 520

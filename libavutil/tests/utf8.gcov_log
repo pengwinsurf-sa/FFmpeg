@@ -1,0 +1,15 @@
+Function 'main'
+Lines executed:0.00% of 29
+
+Function 'print_sequence'
+Lines executed:0.00% of 6
+
+File 'libavutil/tests/utf8.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#utf8.gcno##libavutil#tests#utf8.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#utf8.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 35

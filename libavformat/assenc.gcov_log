@@ -1,0 +1,20 @@
+Function 'write_trailer'
+Lines executed:0.00% of 6
+
+Function 'write_packet'
+Lines executed:0.00% of 38
+
+Function 'insert_dialogue'
+Lines executed:0.00% of 24
+
+Function 'purge_dialogues'
+Lines executed:0.00% of 23
+
+Function 'write_header'
+Lines executed:0.00% of 21
+
+File 'libavformat/assenc.c'
+Lines executed:0.00% of 112
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#assenc.gcno##libavformat#assenc.c.gcov'
+
+Lines executed:0.00% of 112

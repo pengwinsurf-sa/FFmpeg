@@ -1,0 +1,19 @@
+Function 'ff_dash_fill_tmpl_params'
+Lines executed:0.00% of 44
+
+Function 'dash_read_tmpl_id'
+Lines executed:0.00% of 28
+
+File 'libavformat/dash.c'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dash.gcno##libavformat#dash.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dash.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dash.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 72

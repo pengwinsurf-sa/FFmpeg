@@ -1,0 +1,17 @@
+Function 'ff_fdct248_islow_10'
+Lines executed:0.00% of 81
+
+Function 'ff_jpeg_fdct_islow_10'
+Lines executed:0.00% of 46
+
+Function 'ff_fdct248_islow_8'
+Lines executed:0.00% of 36
+
+Function 'ff_jpeg_fdct_islow_8'
+Lines executed:197.83% of 46
+
+File 'libavcodec/jfdctint_template.c'
+Lines executed:47.08% of 291
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jfdctint.gcno##libavcodec#jfdctint_template.c.gcov'
+
+Lines executed:47.08% of 291

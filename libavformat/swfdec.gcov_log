@@ -1,0 +1,55 @@
+Function 'swf_read_close'
+Lines executed:0.00% of 7
+
+Function 'swf_read_packet'
+Lines executed:0.00% of 245
+
+Function 'create_new_audio_stream'
+Lines executed:0.00% of 16
+
+Function 'swf_read_header'
+Lines executed:0.00% of 27
+
+Function 'zlib_refill'
+Lines executed:0.00% of 20
+
+Function 'swf_probe'
+Lines executed:0.00% of 36
+
+Function 'get_swf_tag'
+Lines executed:0.00% of 10
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/swfdec.c'
+Lines executed:0.00% of 335
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#swfdec.gcno##libavformat#swfdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#swfdec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#swfdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#swfdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#swfdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#swfdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 393

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="libavformat_2version_8h" kind="file" language="C++">
+    <compoundname>version.h</compoundname>
+    <includes refid="libavutil_2version_8h" local="yes">libavutil/version.h</includes>
+    <includes refid="libavformat_2version__major_8h" local="yes">version_major.h</includes>
+    <includedby refid="avformat_8h" local="yes">libavformat/avformat.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>libavformat/version.h</label>
+        <link refid="libavformat_2version_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>version_major.h</label>
+        <link refid="libavformat_2version__major_8h"/>
+      </node>
+      <node id="3">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>libavutil/version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>libavutil/avconfig.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="4">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="5">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/remux.c</label>
+        <link refid="remux_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/show_metadata.c</label>
+        <link refid="show__metadata_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="15">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+      </node>
+      <node id="2">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavformat/version.h</label>
+        <link refid="libavformat_2version_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="libavformat_2version_8h_1aa45868b1be1d747ba7f836a67eff1df5" prot="public" static="no">
+        <name>LIBAVFORMAT_VERSION_MINOR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavformat/version.h" line="34" column="9" bodyfile="libavformat/version.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="libavformat_2version_8h_1a3224be1c325e29c7ed5c1f69f5a4d343" prot="public" static="no">
+        <name>LIBAVFORMAT_VERSION_MICRO</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavformat/version.h" line="35" column="9" bodyfile="libavformat/version.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="libavformat_2version_8h_1ae3aaee0c8eeba298abf02cfcb9f71a69" prot="public" static="no">
+        <name>LIBAVFORMAT_VERSION_INT</name>
+        <initializer>                                               <ref refid="group__version__utils_1gaaab323b60e1a6e38ec939efe881474c7" kindref="member">AV_VERSION_INT</ref>(<ref refid="libavformat_2version__major_8h_1a0d89981a751ac1abca0f9a08ec7e043f" kindref="member">LIBAVFORMAT_VERSION_MAJOR</ref>, \
+                                               <ref refid="libavformat_2version_8h_1aa45868b1be1d747ba7f836a67eff1df5" kindref="member">LIBAVFORMAT_VERSION_MINOR</ref>, \
+                                               <ref refid="libavformat_2version_8h_1a3224be1c325e29c7ed5c1f69f5a4d343" kindref="member">LIBAVFORMAT_VERSION_MICRO</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavformat/version.h" line="37" column="9" bodyfile="libavformat/version.h" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="define" id="libavformat_2version_8h_1a82f92d7f1617b4f78bf94942c664dead" prot="public" static="no">
+        <name>LIBAVFORMAT_VERSION</name>
+        <initializer>                                           <ref refid="group__version__utils_1ga544629c436701faf48e33d650ace1289" kindref="member">AV_VERSION</ref>(<ref refid="libavformat_2version__major_8h_1a0d89981a751ac1abca0f9a08ec7e043f" kindref="member">LIBAVFORMAT_VERSION_MAJOR</ref>,   \
+                                           <ref refid="libavformat_2version_8h_1aa45868b1be1d747ba7f836a67eff1df5" kindref="member">LIBAVFORMAT_VERSION_MINOR</ref>,   \
+                                           <ref refid="libavformat_2version_8h_1a3224be1c325e29c7ed5c1f69f5a4d343" kindref="member">LIBAVFORMAT_VERSION_MICRO</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavformat/version.h" line="40" column="9" bodyfile="libavformat/version.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="define" id="libavformat_2version_8h_1a4c9c6d8bb8df8d694adcf01300294b44" prot="public" static="no">
+        <name>LIBAVFORMAT_BUILD</name>
+        <initializer><ref refid="libavformat_2version_8h_1ae3aaee0c8eeba298abf02cfcb9f71a69" kindref="member">LIBAVFORMAT_VERSION_INT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavformat/version.h" line="43" column="9" bodyfile="libavformat/version.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="libavformat_2version_8h_1a052e19399c636f5fe37639a6625f03ae" prot="public" static="no">
+        <name>LIBAVFORMAT_IDENT</name>
+        <initializer>&quot;Lavf&quot; <ref refid="group__preproc__misc_1ga700cb39b719fc7069d15c134129b1ca0" kindref="member">AV_STRINGIFY</ref>(<ref refid="libavformat_2version_8h_1a82f92d7f1617b4f78bf94942c664dead" kindref="member">LIBAVFORMAT_VERSION</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavformat/version.h" line="45" column="9" bodyfile="libavformat/version.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Libavformat version macros. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Version<sp/>macros.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVFORMAT_VERSION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVFORMAT_VERSION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>libavf</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>Libavformat<sp/>version<sp/>macros</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libavutil_2version_8h" kindref="compound">libavutil/version.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libswscale_2version__major_8h" kindref="compound">version_major.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="libavformat_2version_8h_1aa45868b1be1d747ba7f836a67eff1df5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFORMAT_VERSION_MINOR<sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="libavformat_2version_8h_1a3224be1c325e29c7ed5c1f69f5a4d343" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFORMAT_VERSION_MICRO<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="libavformat_2version_8h_1ae3aaee0c8eeba298abf02cfcb9f71a69" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFORMAT_VERSION_INT<sp/>AV_VERSION_INT(LIBAVFORMAT_VERSION_MAJOR,<sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LIBAVFORMAT_VERSION_MINOR,<sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LIBAVFORMAT_VERSION_MICRO)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="libavformat_2version_8h_1a82f92d7f1617b4f78bf94942c664dead" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFORMAT_VERSION<sp/><sp/><sp/><sp/><sp/>AV_VERSION(LIBAVFORMAT_VERSION_MAJOR,<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LIBAVFORMAT_VERSION_MINOR,<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LIBAVFORMAT_VERSION_MICRO)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="libavformat_2version_8h_1a4c9c6d8bb8df8d694adcf01300294b44" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFORMAT_BUILD<sp/><sp/><sp/><sp/><sp/><sp/><sp/>LIBAVFORMAT_VERSION_INT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="libavformat_2version_8h_1a052e19399c636f5fe37639a6625f03ae" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFORMAT_IDENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Lavf&quot;<sp/>AV_STRINGIFY(LIBAVFORMAT_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVFORMAT_VERSION_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavformat/version.h"/>
+  </compounddef>
+</doxygen>

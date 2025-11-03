@@ -1,0 +1,22 @@
+Function 'pgx_decode_frame'
+Lines executed:0.00% of 40
+
+Function 'pgx_decode_header'
+Lines executed:0.00% of 31
+
+Function 'pgx_get_number'
+Lines executed:0.00% of 14
+
+File 'libavcodec/pgxdec.c'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgxdec.gcno##libavcodec#pgxdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgxdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgxdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 85

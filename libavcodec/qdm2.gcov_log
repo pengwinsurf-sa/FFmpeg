@@ -1,0 +1,131 @@
+Function 'qdm2_decode_frame'
+Lines executed:0.00% of 17
+
+Function 'qdm2_decode'
+Lines executed:0.00% of 35
+
+Function 'qdm2_decode_close'
+Lines executed:0.00% of 4
+
+Function 'qdm2_decode_init'
+Lines executed:0.00% of 89
+
+Function 'qdm2_init_static_data'
+Lines executed:0.00% of 7
+
+Function 'qdm2_synthesis_filter'
+Lines executed:0.00% of 20
+
+Function 'qdm2_calculate_fft'
+Lines executed:0.00% of 13
+
+Function 'qdm2_fft_tone_synthesizer'
+Lines executed:0.00% of 44
+
+Function 'qdm2_fft_generate_tone'
+Lines executed:0.00% of 34
+
+Function 'qdm2_decode_fft_packets'
+Lines executed:0.00% of 67
+
+Function 'qdm2_fft_decode_tones'
+Lines executed:0.00% of 81
+
+Function 'qdm2_decode_super_block'
+Lines executed:0.00% of 99
+
+Function 'process_synthesis_subpackets'
+Lines executed:0.00% of 24
+
+Function 'process_subpacket_12'
+Lines executed:0.00% of 2
+
+Function 'process_subpacket_11'
+Lines executed:0.00% of 7
+
+Function 'process_subpacket_10'
+Lines executed:0.00% of 3
+
+Function 'process_subpacket_9'
+Lines executed:0.00% of 20
+
+Function 'init_tone_level_dequantization'
+Lines executed:0.00% of 34
+
+Function 'init_quantized_coeffs_elem0'
+Lines executed:0.00% of 15
+
+Function 'synthfilt_build_sb_samples'
+Lines executed:0.00% of 117
+
+Function 'fill_coding_method_array'
+Lines executed:0.00% of 12
+
+Function 'fill_tone_level_array'
+Lines executed:0.00% of 52
+
+Function 'fix_coding_method_array'
+Lines executed:0.00% of 21
+
+Function 'build_sb_samples_from_noise'
+Lines executed:0.00% of 10
+
+Function 'average_quantized_coeffs'
+Lines executed:0.00% of 13
+
+Function 'qdm2_decode_sub_packet_header'
+Lines executed:0.00% of 16
+
+Function 'qdm2_get_se_vlc'
+Lines executed:0.00% of 3
+
+Function 'qdm2_get_vlc'
+Lines executed:0.00% of 20
+
+Function 'qdm2_init_vlc'
+Lines executed:0.00% of 19
+
+Function 'build_vlc'
+Lines executed:0.00% of 7
+
+Function 'init_noise_samples'
+Lines executed:0.00% of 8
+
+Function 'rnd_table_init'
+Lines executed:0.00% of 23
+
+Function 'softclip_table_init'
+Lines executed:0.00% of 7
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/qdm2.c'
+Lines executed:0.00% of 808
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno##libavcodec#qdm2.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/qdm2_tablegen.h'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdm2.gcno##libavcodec#qdm2_tablegen.h.gcov'
+
+Lines executed:0.00% of 945

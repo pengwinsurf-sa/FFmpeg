@@ -1,0 +1,114 @@
+Function 'process_command'
+Lines executed:0.00% of 22
+
+Function 'activate'
+Lines executed:0.00% of 33
+
+Function 'flush'
+Lines executed:0.00% of 13
+
+Function 'flush_buffer'
+Lines executed:0.00% of 11
+
+Function 'filter_frame'
+Lines executed:0.00% of 45
+
+Function 'amplify_channels'
+Lines executed:0.00% of 12
+
+Function 'amplify_channel'
+Lines executed:0.00% of 19
+
+Function 'analyze_frame'
+Lines executed:0.00% of 52
+
+Function 'perform_compression'
+Lines executed:0.00% of 36
+
+Function 'compute_frame_std_dev'
+Lines executed:0.00% of 15
+
+Function 'setup_compress_thresh'
+Lines executed:0.00% of 8
+
+Function 'perform_dc_correction'
+Lines executed:0.00% of 15
+
+Function 'update_value'
+Lines executed:0.00% of 3
+
+Function 'update_gain_histories'
+Lines executed:0.00% of 9
+
+Function 'update_gain_history'
+Lines executed:0.00% of 44
+
+Function 'minimum_filter'
+Lines executed:0.00% of 5
+
+Function 'get_max_local_gain'
+Lines executed:0.00% of 15
+
+Function 'compute_frame_rms'
+Lines executed:0.00% of 13
+
+Function 'find_peak_magnitude'
+Lines executed:0.00% of 11
+
+Function 'config_input'
+Lines executed:0.00% of 38
+
+Function 'uninit'
+Lines executed:0.00% of 27
+
+Function 'init_gaussian_filter'
+Lines executed:0.00% of 15
+
+Function 'cqueue_resize'
+Lines executed:0.00% of 14
+
+Function 'cqueue_pop'
+Lines executed:0.00% of 5
+
+Function 'cqueue_dequeue'
+Lines executed:0.00% of 6
+
+Function 'cqueue_free'
+Lines executed:0.00% of 5
+
+Function 'cqueue_create'
+Lines executed:0.00% of 12
+
+Function 'init'
+Lines executed:0.00% of 6
+
+Function 'ff_bufqueue_discard_all'
+Lines executed:0.00% of 5
+
+Function 'ff_bufqueue_get'
+Lines executed:0.00% of 7
+
+Function 'ff_bufqueue_add'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_dynaudnorm.c'
+Lines executed:0.00% of 498
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dynaudnorm.gcno##libavfilter#af_dynaudnorm.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dynaudnorm.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dynaudnorm.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dynaudnorm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/bufferqueue.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dynaudnorm.gcno##libavfilter#bufferqueue.h.gcov'
+
+Lines executed:0.00% of 529

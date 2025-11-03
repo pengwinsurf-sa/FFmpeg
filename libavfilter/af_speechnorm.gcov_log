@@ -1,0 +1,71 @@
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'process_command'
+Lines executed:0.00% of 8
+
+Function 'config_input'
+Lines executed:0.00% of 22
+
+Function 'activate'
+Lines executed:0.00% of 31
+
+Function 'filter_frame'
+Lines executed:0.00% of 38
+
+Function 'filter_link_channels_flt'
+Lines executed:0.00% of 7
+
+Function 'filter_link_channels_dbl'
+Lines executed:0.00% of 3
+
+Function 'filter_channels_flt'
+Lines executed:0.00% of 1
+
+Function 'filter_channels_dbl'
+Lines executed:0.00% of 1
+
+Function 'analyze_channel_flt'
+Lines executed:0.00% of 1
+
+Function 'analyze_channel_dbl'
+Lines executed:0.00% of 1
+
+Function 'min_gain'
+Lines executed:0.00% of 16
+
+Function 'next_pi'
+Lines executed:0.00% of 17
+
+Function 'next_gain'
+Lines executed:0.00% of 11
+
+Function 'available_samples'
+Lines executed:0.00% of 19
+
+Function 'ff_bufqueue_discard_all'
+Lines executed:0.00% of 5
+
+Function 'ff_bufqueue_get'
+Lines executed:0.00% of 7
+
+Function 'ff_bufqueue_add'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_speechnorm.c'
+Lines executed:0.00% of 175
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_speechnorm.gcno##libavfilter#af_speechnorm.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_speechnorm.gcno##libavfilter#filters.h.gcov'
+
+File 'libavfilter/bufferqueue.h'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_speechnorm.gcno##libavfilter#bufferqueue.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_speechnorm.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 202

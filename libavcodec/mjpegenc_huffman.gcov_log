@@ -1,0 +1,18 @@
+Function 'ff_mjpeg_encode_huffman_close'
+Lines executed:0.00% of 17
+
+Function 'ff_mjpeg_encode_huffman_init'
+Lines executed:0.00% of 5
+
+Function 'mjpegenc_huffman_compute_bits'
+Lines executed:0.00% of 47
+
+File 'libavcodec/mjpegenc_huffman.c'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_huffman.gcno##libavcodec#mjpegenc_huffman.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_huffman.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 69

@@ -1,0 +1,30 @@
+Function 'main'
+Lines executed:0.00% of 193
+
+Function 'channel_layout_retype'
+Lines executed:0.00% of 26
+
+Function 'describe_type'
+Lines executed:0.00% of 7
+
+Function 'channel_layout_from_string'
+Lines executed:0.00% of 8
+
+Function 'channel_layout_from_mask'
+Lines executed:0.00% of 8
+
+Function 'channel_description'
+Lines executed:0.00% of 4
+
+Function 'channel_name'
+Lines executed:0.00% of 4
+
+File 'libavutil/tests/channel_layout.c'
+Lines executed:0.00% of 248
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#channel_layout.gcno##libavutil#tests#channel_layout.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#channel_layout.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 250

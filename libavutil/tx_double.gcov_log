@@ -1,0 +1,294 @@
+Function 'ff_tx_mdct_gen_exp_double'
+Lines executed:0.00% of 17
+
+Function 'ff_tx_dstI_double_c'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_dctI_double_c'
+Lines executed:0.00% of 11
+
+Function 'ff_tx_dcstI_init_double_c'
+Lines executed:0.00% of 13
+
+Function 'ff_tx_dctIII_double_c'
+Lines executed:0.00% of 23
+
+Function 'ff_tx_dctII_double_c'
+Lines executed:0.00% of 26
+
+Function 'ff_tx_dct_init_double_c'
+Lines executed:0.00% of 21
+
+Function 'ff_tx_rdft_r2i_mod2_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2i_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2r_mod2_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2r_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_c2r_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2c_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_init_double_c'
+Lines executed:0.00% of 29
+
+Function 'ff_tx_mdct_pfa_15xM_fwd_double_c'
+Lines executed:0.00% of 27
+
+Function 'ff_tx_mdct_pfa_9xM_fwd_double_c'
+Lines executed:0.00% of 67
+
+Function 'ff_tx_mdct_pfa_7xM_fwd_double_c'
+Lines executed:0.00% of 43
+
+Function 'ff_tx_mdct_pfa_5xM_fwd_double_c'
+Lines executed:0.00% of 2
+
+Function 'ff_tx_mdct_pfa_3xM_fwd_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_15xM_inv_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_9xM_inv_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_7xM_inv_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_5xM_inv_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_3xM_inv_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_init_double_c'
+Lines executed:0.00% of 22
+
+Function 'ff_tx_mdct_inv_full_double_c'
+Lines executed:0.00% of 11
+
+Function 'ff_tx_mdct_inv_full_init_double_c'
+Lines executed:0.00% of 6
+
+Function 'ff_tx_mdct_inv_double_c'
+Lines executed:0.00% of 22
+
+Function 'ff_tx_mdct_fwd_double_c'
+Lines executed:0.00% of 25
+
+Function 'ff_tx_mdct_init_double_c'
+Lines executed:0.00% of 22
+
+Function 'ff_tx_mdct_naive_inv_double_c'
+Lines executed:0.00% of 23
+
+Function 'ff_tx_mdct_naive_fwd_double_c'
+Lines executed:0.00% of 13
+
+Function 'ff_tx_mdct_naive_init_double_c'
+Lines executed:0.00% of 4
+
+Function 'ff_tx_fft_pfa_ns_double_c'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_fft_pfa_double_c'
+Lines executed:100.00% of 16
+
+Function 'ff_tx_fft_pfa_init_double_c'
+Lines executed:77.36% of 53
+
+Function 'ff_tx_fft_naive_small_double_c'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_fft_naive_double_c'
+Lines executed:0.00% of 18
+
+Function 'ff_tx_fft_init_naive_small_double_c'
+Lines executed:0.00% of 9
+
+Function 'ff_tx_fft_inplace_double_c'
+Lines executed:0.00% of 19
+
+Function 'ff_tx_fft_double_c'
+Lines executed:100.00% of 10
+
+Function 'ff_tx_fft_inplace_small_init_double_c'
+Lines executed:0.00% of 4
+
+Function 'ff_tx_fft_init_double_c'
+Lines executed:100.00% of 10
+
+Function 'ff_tx_fft2097152_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft1048576_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft524288_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft262144_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft131072_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft65536_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft32768_ns_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft16384_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft8192_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft4096_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft2048_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft1024_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft512_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft256_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft128_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft64_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft32_ns_double_c'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_fft16_ns_double_c'
+Lines executed:100.00% of 20
+
+Function 'ff_tx_fft8_ns_double_c'
+Lines executed:100.00% of 13
+
+Function 'ff_tx_fft4_ns_double_c'
+Lines executed:100.00% of 13
+
+Function 'ff_tx_fft2_ns_double_c'
+Lines executed:100.00% of 8
+
+Function 'ff_tx_fft_sr_codelet_init_double_c'
+Lines executed:100.00% of 3
+
+Function 'ff_tx_fft_sr_combine_double_c'
+Lines executed:100.00% of 19
+
+Function 'ff_tx_fft15_double_c'
+Lines executed:2700.00% of 1
+
+Function 'ff_tx_fft9_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft7_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft5_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft3_double_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft_factor_init_double_c'
+Lines executed:75.00% of 8
+
+Function 'ff_tx_init_tabs_double'
+Lines executed:93.75% of 16
+
+Function 'ff_tx_init_tab_9_double'
+Lines executed:0.00% of 10
+
+Function 'ff_tx_init_tab_7_double'
+Lines executed:0.00% of 8
+
+Function 'ff_tx_init_tab_53_double'
+Lines executed:100.00% of 14
+
+Function 'ff_tx_init_tab_2097152_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_1048576_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_524288_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_262144_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_131072_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_65536_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_32768_double'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_16384_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_8192_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_4096_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_2048_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_1024_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_512_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_256_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_128_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_64_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_32_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_16_double'
+Lines executed:100.00% of 1
+
+Function 'ff_tx_init_tab_8_double'
+Lines executed:100.00% of 1
+
+File 'libavutil/tx_template.c'
+Lines executed:29.80% of 792
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx_double.gcno##libavutil#tx_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx_double.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:29.97% of 794

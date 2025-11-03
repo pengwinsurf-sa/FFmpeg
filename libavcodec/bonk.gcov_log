@@ -1,0 +1,42 @@
+Function 'bonk_decode'
+Lines executed:0.00% of 123
+
+Function 'predictor_init_state'
+Lines executed:0.00% of 10
+
+Function 'predictor_calc_error'
+Lines executed:0.00% of 14
+
+Function 'intlist_read'
+Lines executed:0.00% of 72
+
+Function 'read_uint_max'
+Lines executed:0.00% of 7
+
+Function 'bonk_init'
+Lines executed:0.00% of 33
+
+Function 'bonk_close'
+Lines executed:0.00% of 9
+
+File 'libavcodec/bonk.c'
+Lines executed:0.00% of 209
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bonk.gcno##libavcodec#bonk.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bonk.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bonk.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bonk.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bonk.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 268

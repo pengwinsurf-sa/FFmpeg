@@ -1,0 +1,14 @@
+Function 'ff_opus_dsp_init'
+Lines executed:100.00% of 5
+
+Function 'deemphasis_c'
+Lines executed:100.00% of 5
+
+Function 'postfilter_c'
+Lines executed:100.00% of 18
+
+File 'libavcodec/opus/dsp.c'
+Lines executed:100.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dsp.gcno##libavcodec#opus#dsp.c.gcov'
+
+Lines executed:100.00% of 28

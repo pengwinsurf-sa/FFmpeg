@@ -1,0 +1,76 @@
+Function 'prores_encode_close'
+Lines executed:0.00% of 5
+
+Function 'prores_encode_init'
+Lines executed:0.00% of 73
+
+Function 'prores_encode_frame'
+Lines executed:0.00% of 66
+
+Function 'prores_encode_picture'
+Lines executed:0.00% of 41
+
+Function 'encode_slice'
+Lines executed:0.00% of 131
+
+Function 'subimage_with_fill_template'
+Lines executed:0.00% of 31
+
+Function 'put_alpha_run'
+Lines executed:0.00% of 12
+
+Function 'put_alpha_diff'
+Lines executed:0.00% of 15
+
+Function 'encode_slice_plane'
+Lines executed:0.00% of 9
+
+Function 'calc_plane_dct'
+Lines executed:0.00% of 36
+
+Function 'encode_acs'
+Lines executed:0.00% of 23
+
+Function 'encode_dcs'
+Lines executed:0.00% of 18
+
+Function 'encode_vlc_codeword'
+Lines executed:0.00% of 22
+
+Function 'int_from_list_or_default'
+Lines executed:0.00% of 9
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/proresenc_anatoliy.c'
+Lines executed:0.00% of 455
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresenc_anatoliy.gcno##libavcodec#proresenc_anatoliy.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresenc_anatoliy.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresenc_anatoliy.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresenc_anatoliy.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresenc_anatoliy.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresenc_anatoliy.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 524

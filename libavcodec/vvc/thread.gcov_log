@@ -1,0 +1,120 @@
+Function 'ff_vvc_frame_wait'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_frame_submit'
+Lines executed:0.00% of 24
+
+Function 'ff_vvc_frame_thread_init'
+Lines executed:0.00% of 44
+
+Function 'frame_thread_init_score'
+Lines executed:0.00% of 17
+
+Function 'ff_vvc_frame_thread_free'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_executor_free'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_executor_alloc'
+Lines executed:0.00% of 3
+
+Function 'task_run'
+Lines executed:0.00% of 14
+
+Function 'task_run_stage'
+Lines executed:0.00% of 17
+
+Function 'run_alf'
+Lines executed:0.00% of 11
+
+Function 'run_sao'
+Lines executed:0.00% of 12
+
+Function 'run_deblock_h'
+Lines executed:0.00% of 12
+
+Function 'run_deblock_v'
+Lines executed:0.00% of 10
+
+Function 'run_lmcs'
+Lines executed:0.00% of 8
+
+Function 'run_recon'
+Lines executed:0.00% of 2
+
+Function 'run_inter'
+Lines executed:0.00% of 8
+
+Function 'run_deblock_bs'
+Lines executed:0.00% of 4
+
+Function 'run_parse'
+Lines executed:0.00% of 10
+
+Function 'report_frame_progress'
+Lines executed:0.00% of 17
+
+Function 'run_init'
+Lines executed:0.00% of 14
+
+Function 'submit_entry_point'
+Lines executed:0.00% of 5
+
+Function 'check_colocation'
+Lines executed:0.00% of 10
+
+Function 'task_is_stage_ready'
+Lines executed:0.00% of 8
+
+Function 'task_stage_done'
+Lines executed:0.00% of 30
+
+Function 'parse_task_done'
+Lines executed:0.00% of 9
+
+Function 'schedule_inter'
+Lines executed:0.00% of 14
+
+Function 'schedule_next_parse'
+Lines executed:0.00% of 23
+
+Function 'ep_init_wpp'
+Lines executed:0.00% of 7
+
+Function 'add_progress_listener'
+Lines executed:0.00% of 15
+
+Function 'mv_done'
+Lines executed:0.00% of 3
+
+Function 'pixel_done'
+Lines executed:0.00% of 3
+
+Function 'progress_done'
+Lines executed:0.00% of 7
+
+Function 'sheduled_done'
+Lines executed:0.00% of 6
+
+Function 'frame_thread_add_score'
+Lines executed:0.00% of 11
+
+Function 'task_has_target_score'
+Lines executed:0.00% of 15
+
+Function 'task_init'
+Lines executed:0.00% of 11
+
+Function 'add_task'
+Lines executed:0.00% of 8
+
+File 'libavcodec/vvc/thread.c'
+Lines executed:0.00% of 429
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#thread.gcno##libavcodec#vvc#thread.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#thread.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 433

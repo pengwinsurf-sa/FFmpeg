@@ -1,0 +1,23 @@
+Function 'checkasm_check_idctdsp'
+Lines executed:100.00% of 4
+
+Function 'check_add_put_clamped'
+Lines executed:76.67% of 30
+
+File 'tests/checkasm/idctdsp.c'
+Lines executed:95.83% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#idctdsp.gcno##tests#checkasm#idctdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#idctdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#idctdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#idctdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:79.41% of 34

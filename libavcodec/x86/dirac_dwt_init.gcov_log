@@ -1,0 +1,32 @@
+Function 'ff_spatial_idwt_init_x86'
+Lines executed:0.00% of 29
+
+Function 'horizontal_compose_dd97i_ssse3'
+Lines executed:0.00% of 10
+
+Function 'horizontal_compose_haar1i_sse2'
+Lines executed:0.00% of 1
+
+Function 'horizontal_compose_haar0i_sse2'
+Lines executed:0.00% of 1
+
+Function 'vertical_compose_haar_sse2'
+Lines executed:0.00% of 1
+
+Function 'vertical_compose_dd97iH0_sse2'
+Lines executed:0.00% of 1
+
+Function 'vertical_compose_dd137iL0_sse2'
+Lines executed:0.00% of 1
+
+Function 'vertical_compose_dirac53iH0_sse2'
+Lines executed:0.00% of 1
+
+Function 'vertical_compose53iL0_sse2'
+Lines executed:0.00% of 1
+
+File 'libavcodec/x86/dirac_dwt_init.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#dirac_dwt_init.gcno##libavcodec#x86#dirac_dwt_init.c.gcov'
+
+Lines executed:0.00% of 47

@@ -1,0 +1,72 @@
+Function 'av_tx_init'
+Lines executed:95.00% of 20
+
+Function 'ff_tx_init_subtx'
+Lines executed:82.73% of 110
+
+Function 'check_cd_factors'
+Lines executed:95.65% of 23
+
+Function 'print_tx_structure'
+Lines executed:100.00% of 8
+
+Function 'print_cd_info'
+Lines executed:96.97% of 33
+
+Function 'print_type'
+Lines executed:100.00% of 3
+
+Function 'print_flags'
+Lines executed:89.29% of 28
+
+Function 'ff_tx_gen_default_map'
+Lines executed:0.00% of 11
+
+Function 'ff_tx_decompose_length'
+Lines executed:95.45% of 66
+
+Function 'get_codelet_prio'
+Lines executed:94.12% of 17
+
+Function 'ff_tx_null'
+Lines executed:166.67% of 3
+
+Function 'ff_tx_null_init'
+Lines executed:66.67% of 3
+
+Function 'av_tx_uninit'
+Lines executed:100.00% of 4
+
+Function 'ff_tx_clear_ctx'
+Lines executed:100.00% of 3
+
+Function 'reset_ctx'
+Lines executed:94.12% of 17
+
+Function 'ff_tx_gen_split_radix_parity_revtab'
+Lines executed:100.00% of 10
+
+Function 'parity_revtab_generator'
+Lines executed:100.00% of 32
+
+Function 'ff_tx_gen_inplace_map'
+Lines executed:0.00% of 19
+
+Function 'ff_tx_gen_ptwo_revtab'
+Lines executed:100.00% of 10
+
+Function 'ff_tx_gen_compound_mapping'
+Lines executed:84.38% of 32
+
+Function 'ff_tx_gen_pfa_input_map'
+Lines executed:70.59% of 17
+
+File 'libavutil/tx.c'
+Lines executed:84.95% of 465
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx.gcno##libavutil#tx.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:75.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:84.86% of 469

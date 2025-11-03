@@ -1,0 +1,1136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mathematics_8h" kind="file" language="C++">
+    <compoundname>mathematics.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="attributes_8h" local="yes">attributes.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <includes refid="intfloat_8h" local="yes">intfloat.h</includes>
+    <includedby refid="mux_8c" local="no">doc/examples/mux.c</includedby>
+    <includedby refid="avutil_8h" local="yes">libavutil/avutil.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="7">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>limits.h</label>
+      </node>
+      <node id="3">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/decode_audio.c</label>
+        <link refid="decode__audio_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/decode_video.c</label>
+        <link refid="decode__video_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/encode_audio.c</label>
+        <link refid="encode__audio_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="31">
+        <label>doc/examples/filter_audio.c</label>
+        <link refid="filter__audio_8c"/>
+      </node>
+      <node id="15">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="2">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="23">
+        <label>doc/examples/remux.c</label>
+        <link refid="remux_8c"/>
+      </node>
+      <node id="51">
+        <label>doc/examples/resample_audio.c</label>
+        <link refid="resample__audio_8c"/>
+      </node>
+      <node id="53">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="24">
+        <label>doc/examples/show_metadata.c</label>
+        <link refid="show__metadata_8c"/>
+      </node>
+      <node id="16">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="17">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="4">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>libavcodec/avdct.h</label>
+        <link refid="avdct_8h"/>
+      </node>
+      <node id="28">
+        <label>libavcodec/bsf.h</label>
+        <link refid="bsf_8h"/>
+      </node>
+      <node id="21">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>libavcodec/codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libavcodec/codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>libavcodec/mediacodec.h</label>
+        <link refid="mediacodec_8h"/>
+      </node>
+      <node id="19">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+      </node>
+      <node id="20">
+        <label>libavcodec/videotoolbox.h</label>
+        <link refid="videotoolbox_8h"/>
+      </node>
+      <node id="25">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+      </node>
+      <node id="30">
+        <label>libavfilter/avfilter.h</label>
+        <link refid="avfilter_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>libavfilter/buffersrc.h</label>
+        <link refid="buffersrc_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>libavutil/ambient_viewing_environment.h</label>
+        <link refid="ambient__viewing__environment_8h"/>
+      </node>
+      <node id="3">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>libavutil/detection_bbox.h</label>
+        <link refid="detection__bbox_8h"/>
+      </node>
+      <node id="37">
+        <label>libavutil/downmix_info.h</label>
+        <link refid="downmix__info_8h"/>
+      </node>
+      <node id="38">
+        <label>libavutil/film_grain_params.h</label>
+        <link refid="film__grain__params_8h"/>
+      </node>
+      <node id="34">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>libavutil/hdr_dynamic_metadata.h</label>
+        <link refid="hdr__dynamic__metadata_8h"/>
+      </node>
+      <node id="40">
+        <label>libavutil/hdr_dynamic_vivid_metadata.h</label>
+        <link refid="hdr__dynamic__vivid__metadata_8h"/>
+      </node>
+      <node id="41">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>libavutil/hwcontext_amf.h</label>
+        <link refid="hwcontext__amf_8h"/>
+      </node>
+      <node id="44">
+        <label>libavutil/hwcontext_opencl.h</label>
+        <link refid="hwcontext__opencl_8h"/>
+      </node>
+      <node id="45">
+        <label>libavutil/hwcontext_videotoolbox.h</label>
+        <link refid="hwcontext__videotoolbox_8h"/>
+      </node>
+      <node id="43">
+        <label>libavutil/hwcontext_vulkan.h</label>
+        <link refid="hwcontext__vulkan_8h"/>
+      </node>
+      <node id="46">
+        <label>libavutil/mastering_display_metadata.h</label>
+        <link refid="mastering__display__metadata_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>libavutil/opt.h</label>
+        <link refid="opt_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>libavutil/stereo3d.h</label>
+        <link refid="stereo3d_8h"/>
+      </node>
+      <node id="56">
+        <label>libavutil/timestamp.h</label>
+        <link refid="timestamp_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>libavutil/video_enc_params.h</label>
+        <link refid="video__enc__params_8h"/>
+      </node>
+      <node id="49">
+        <label>libavutil/video_hint.h</label>
+        <link refid="video__hint_8h"/>
+      </node>
+      <node id="50">
+        <label>libswresample/swresample.h</label>
+        <link refid="swresample_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>libswscale/swscale.h</label>
+        <link refid="swscale_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mathematics_8h_1a9bf5d952c5c93c70f9e66c9794d406c9" prot="public" static="no">
+        <name>M_E</name>
+        <initializer>2.7182818284590452354   /* e */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="37" column="9" bodyfile="libavutil/mathematics.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a684f12386ff5c830e067304ed743f74e" prot="public" static="no">
+        <name>M_Ef</name>
+        <initializer>2.7182818284590452354f  /* e */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="40" column="9" bodyfile="libavutil/mathematics.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a92428112a5d24721208748774a4f23e6" prot="public" static="no">
+        <name>M_LN2</name>
+        <initializer>0.69314718055994530942  /* log_e 2 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="43" column="9" bodyfile="libavutil/mathematics.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1acaee8ea501d30f1e0e5142fea72b9a65" prot="public" static="no">
+        <name>M_LN2f</name>
+        <initializer>0.69314718055994530942f /* log_e 2 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="46" column="9" bodyfile="libavutil/mathematics.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a0a53871497a155afe91424c28a8ec3c4" prot="public" static="no">
+        <name>M_LN10</name>
+        <initializer>2.30258509299404568402  /* log_e 10 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="49" column="9" bodyfile="libavutil/mathematics.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1af0d421d6bcc5f450bb55d84eaf0100a6" prot="public" static="no">
+        <name>M_LN10f</name>
+        <initializer>2.30258509299404568402f /* log_e 10 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="52" column="9" bodyfile="libavutil/mathematics.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1acff9e2147736afc56953d382f2627a7f" prot="public" static="no">
+        <name>M_LOG2_10</name>
+        <initializer>3.32192809488736234787  /* log_2 10 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="55" column="9" bodyfile="libavutil/mathematics.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a5e11ef8cd473509936bce509a6117100" prot="public" static="no">
+        <name>M_LOG2_10f</name>
+        <initializer>3.32192809488736234787f /* log_2 10 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="58" column="9" bodyfile="libavutil/mathematics.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a0b670a815abc4a54faea56cb74b9723e" prot="public" static="no">
+        <name>M_PHI</name>
+        <initializer>1.61803398874989484820   /* phi / golden ratio */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="61" column="9" bodyfile="libavutil/mathematics.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1ad1fb1fca15e583f13de7f4b6b93fe22a" prot="public" static="no">
+        <name>M_PHIf</name>
+        <initializer>1.61803398874989484820f  /* phi / golden ratio */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="64" column="9" bodyfile="libavutil/mathematics.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1ae71449b1cc6e6250b91f539153a7a0d3" prot="public" static="no">
+        <name>M_PI</name>
+        <initializer>3.14159265358979323846  /* pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="67" column="9" bodyfile="libavutil/mathematics.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1acbb42dc053fedc161079f0a4d20a64e8" prot="public" static="no">
+        <name>M_PIf</name>
+        <initializer>3.14159265358979323846f /* pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="70" column="9" bodyfile="libavutil/mathematics.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a958e4508ed28ee5cc04249144312c15f" prot="public" static="no">
+        <name>M_PI_2</name>
+        <initializer>1.57079632679489661923  /* pi/2 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="73" column="9" bodyfile="libavutil/mathematics.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a777ba8065498a31f7a3c11c5aac8aa2f" prot="public" static="no">
+        <name>M_PI_2f</name>
+        <initializer>1.57079632679489661923f /* pi/2 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="76" column="9" bodyfile="libavutil/mathematics.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1aeb24420b096a677f3a2dc5a72b36bf22" prot="public" static="no">
+        <name>M_PI_4</name>
+        <initializer>0.78539816339744830962  /* pi/4 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="79" column="9" bodyfile="libavutil/mathematics.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a3456dcadffd6d1c2106877ae572e0d95" prot="public" static="no">
+        <name>M_PI_4f</name>
+        <initializer>0.78539816339744830962f /* pi/4 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="82" column="9" bodyfile="libavutil/mathematics.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a08dfac3cca9601a02fc88356cc078e1d" prot="public" static="no">
+        <name>M_1_PI</name>
+        <initializer>0.31830988618379067154  /* 1/pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="85" column="9" bodyfile="libavutil/mathematics.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1ac1d95533cc25fb1e588f74ffdd15a99c" prot="public" static="no">
+        <name>M_1_PIf</name>
+        <initializer>0.31830988618379067154f /* 1/pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="88" column="9" bodyfile="libavutil/mathematics.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a97f6d6514d3d3dd50c3a2a6d622673db" prot="public" static="no">
+        <name>M_2_PI</name>
+        <initializer>0.63661977236758134308  /* 2/pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="91" column="9" bodyfile="libavutil/mathematics.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1ac49c40082a93d5bf7244721597ff55f6" prot="public" static="no">
+        <name>M_2_PIf</name>
+        <initializer>0.63661977236758134308f /* 2/pi */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="94" column="9" bodyfile="libavutil/mathematics.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a631ff334c4a1a6db2e8a7ff4acbe48a5" prot="public" static="no">
+        <name>M_2_SQRTPI</name>
+        <initializer>1.12837916709551257390  /* 2/sqrt(pi) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="97" column="9" bodyfile="libavutil/mathematics.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a9e28ebca167c870dee28ed556d0823f9" prot="public" static="no">
+        <name>M_2_SQRTPIf</name>
+        <initializer>1.12837916709551257390f /* 2/sqrt(pi) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="100" column="9" bodyfile="libavutil/mathematics.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1acdbb2c2f9429f08916f03c8786d2d2d7" prot="public" static="no">
+        <name>M_SQRT1_2</name>
+        <initializer>0.70710678118654752440  /* 1/sqrt(2) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="103" column="9" bodyfile="libavutil/mathematics.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a5330d4737f89cfaec639a6e07202b0e0" prot="public" static="no">
+        <name>M_SQRT1_2f</name>
+        <initializer>0.70710678118654752440f /* 1/sqrt(2) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="106" column="9" bodyfile="libavutil/mathematics.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a66b3ab30f1332874326ed93969e496e0" prot="public" static="no">
+        <name>M_SQRT2</name>
+        <initializer>1.41421356237309504880  /* sqrt(2) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="109" column="9" bodyfile="libavutil/mathematics.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1adcd469193a884030dcec679e5a77c4bf" prot="public" static="no">
+        <name>M_SQRT2f</name>
+        <initializer>1.41421356237309504880f /* sqrt(2) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="112" column="9" bodyfile="libavutil/mathematics.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a8abfcc76130f3f991d124dd22d7e69bc" prot="public" static="no">
+        <name>NAN</name>
+        <initializer><ref refid="intfloat_8h_1a2dc216ec0441d07d650e42d7bdb94b00" kindref="member">av_int2float</ref>(0x7fc00000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="115" column="9" bodyfile="libavutil/mathematics.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mathematics_8h_1a956e2723d559858d08644ac99146e910" prot="public" static="no">
+        <name>INFINITY</name>
+        <initializer><ref refid="intfloat_8h_1a2dc216ec0441d07d650e42d7bdb94b00" kindref="member">av_int2float</ref>(0x7f800000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mathematics.h" line="118" column="9" bodyfile="libavutil/mathematics.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__lavu__math_1ga921d656eaf2c4d6800a734a13af021d0" kind="enum"><name>AVRounding</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__math_1ga952147c7a40c48a05c39e918b153ba99" kind="function"><name>av_gcd</name></member>
+      <member refid="group__lavu__math_1ga3daf97178dd1b08b5e916be381cd33e4" kind="function"><name>av_rescale</name></member>
+      <member refid="group__lavu__math_1ga82d40664213508918093822461cc597e" kind="function"><name>av_rescale_rnd</name></member>
+      <member refid="group__lavu__math_1gaf02994a8bbeaa91d4757df179cbe567f" kind="function"><name>av_rescale_q</name></member>
+      <member refid="group__lavu__math_1gab706bfec9bf56534e02ca9564cb968f6" kind="function"><name>av_rescale_q_rnd</name></member>
+      <member refid="group__lavu__math_1ga151744358fff630942b926e67e67c415" kind="function"><name>av_compare_ts</name></member>
+      <member refid="group__lavu__math_1gaf268a1dde957d04da846e026e2ebe6e8" kind="function"><name>av_compare_mod</name></member>
+      <member refid="group__lavu__math_1ga29b7c3d60d68ef678ee1f4adc61a25dc" kind="function"><name>av_rescale_delta</name></member>
+      <member refid="group__lavu__math_1ga0c4f9ed3f4102125be7451ad4d848a2f" kind="function"><name>av_add_stable</name></member>
+      <member refid="group__lavu__math_1gac6df8ff9fa00f5daf9f16cc46038f064" kind="function"><name>av_bessel_i0</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>copyright<sp/>(c)<sp/>2005-2012<sp/>Michael<sp/>Niedermayer<sp/>&lt;michaelni@gmx.at&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavu_math</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Mathematical<sp/>utilities<sp/>for<sp/>working<sp/>with<sp/>timestamp<sp/>and<sp/>time<sp/>base.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_MATHEMATICS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_MATHEMATICS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="attributes_8h" kindref="compound">attributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="intfloat_8h" kindref="compound">intfloat.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_E</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="mathematics_8h_1a9bf5d952c5c93c70f9e66c9794d406c9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_E<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2.7182818284590452354<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>e<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_Ef</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="mathematics_8h_1a684f12386ff5c830e067304ed743f74e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_Ef<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2.7182818284590452354f<sp/><sp/></highlight><highlight class="comment">/*<sp/>e<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_LN2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="mathematics_8h_1a92428112a5d24721208748774a4f23e6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_LN2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.69314718055994530942<sp/><sp/></highlight><highlight class="comment">/*<sp/>log_e<sp/>2<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_LN2f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="mathematics_8h_1acaee8ea501d30f1e0e5142fea72b9a65" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_LN2f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.69314718055994530942f<sp/></highlight><highlight class="comment">/*<sp/>log_e<sp/>2<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_LN10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="mathematics_8h_1a0a53871497a155afe91424c28a8ec3c4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_LN10<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2.30258509299404568402<sp/><sp/></highlight><highlight class="comment">/*<sp/>log_e<sp/>10<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_LN10f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="mathematics_8h_1af0d421d6bcc5f450bb55d84eaf0100a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_LN10f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2.30258509299404568402f<sp/></highlight><highlight class="comment">/*<sp/>log_e<sp/>10<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_LOG2_10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="mathematics_8h_1acff9e2147736afc56953d382f2627a7f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_LOG2_10<sp/><sp/><sp/><sp/><sp/><sp/>3.32192809488736234787<sp/><sp/></highlight><highlight class="comment">/*<sp/>log_2<sp/>10<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_LOG2_10f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="mathematics_8h_1a5e11ef8cd473509936bce509a6117100" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_LOG2_10f<sp/><sp/><sp/><sp/><sp/>3.32192809488736234787f<sp/></highlight><highlight class="comment">/*<sp/>log_2<sp/>10<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PHI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="mathematics_8h_1a0b670a815abc4a54faea56cb74b9723e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PHI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.61803398874989484820<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>phi<sp/>/<sp/>golden<sp/>ratio<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PHIf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="mathematics_8h_1ad1fb1fca15e583f13de7f4b6b93fe22a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PHIf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.61803398874989484820f<sp/><sp/></highlight><highlight class="comment">/*<sp/>phi<sp/>/<sp/>golden<sp/>ratio<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="mathematics_8h_1ae71449b1cc6e6250b91f539153a7a0d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3.14159265358979323846<sp/><sp/></highlight><highlight class="comment">/*<sp/>pi<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PIf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="mathematics_8h_1acbb42dc053fedc161079f0a4d20a64e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PIf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3.14159265358979323846f<sp/></highlight><highlight class="comment">/*<sp/>pi<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI_2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="mathematics_8h_1a958e4508ed28ee5cc04249144312c15f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PI_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.57079632679489661923<sp/><sp/></highlight><highlight class="comment">/*<sp/>pi/2<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI_2f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="mathematics_8h_1a777ba8065498a31f7a3c11c5aac8aa2f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PI_2f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.57079632679489661923f<sp/></highlight><highlight class="comment">/*<sp/>pi/2<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI_4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="mathematics_8h_1aeb24420b096a677f3a2dc5a72b36bf22" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PI_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.78539816339744830962<sp/><sp/></highlight><highlight class="comment">/*<sp/>pi/4<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_PI_4f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="mathematics_8h_1a3456dcadffd6d1c2106877ae572e0d95" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_PI_4f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.78539816339744830962f<sp/></highlight><highlight class="comment">/*<sp/>pi/4<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_1_PI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="mathematics_8h_1a08dfac3cca9601a02fc88356cc078e1d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_1_PI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.31830988618379067154<sp/><sp/></highlight><highlight class="comment">/*<sp/>1/pi<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_1_PIf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="mathematics_8h_1ac1d95533cc25fb1e588f74ffdd15a99c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_1_PIf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.31830988618379067154f<sp/></highlight><highlight class="comment">/*<sp/>1/pi<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_2_PI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="mathematics_8h_1a97f6d6514d3d3dd50c3a2a6d622673db" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_2_PI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.63661977236758134308<sp/><sp/></highlight><highlight class="comment">/*<sp/>2/pi<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_2_PIf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="mathematics_8h_1ac49c40082a93d5bf7244721597ff55f6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_2_PIf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.63661977236758134308f<sp/></highlight><highlight class="comment">/*<sp/>2/pi<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_2_SQRTPI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="mathematics_8h_1a631ff334c4a1a6db2e8a7ff4acbe48a5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_2_SQRTPI<sp/><sp/><sp/><sp/><sp/>1.12837916709551257390<sp/><sp/></highlight><highlight class="comment">/*<sp/>2/sqrt(pi)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_2_SQRTPIf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="mathematics_8h_1a9e28ebca167c870dee28ed556d0823f9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_2_SQRTPIf<sp/><sp/><sp/><sp/>1.12837916709551257390f<sp/></highlight><highlight class="comment">/*<sp/>2/sqrt(pi)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_SQRT1_2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="mathematics_8h_1acdbb2c2f9429f08916f03c8786d2d2d7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_SQRT1_2<sp/><sp/><sp/><sp/><sp/><sp/>0.70710678118654752440<sp/><sp/></highlight><highlight class="comment">/*<sp/>1/sqrt(2)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_SQRT1_2f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="mathematics_8h_1a5330d4737f89cfaec639a6e07202b0e0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_SQRT1_2f<sp/><sp/><sp/><sp/><sp/>0.70710678118654752440f<sp/></highlight><highlight class="comment">/*<sp/>1/sqrt(2)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_SQRT2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="mathematics_8h_1a66b3ab30f1332874326ed93969e496e0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_SQRT2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.41421356237309504880<sp/><sp/></highlight><highlight class="comment">/*<sp/>sqrt(2)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>M_SQRT2f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="mathematics_8h_1adcd469193a884030dcec679e5a77c4bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M_SQRT2f<sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.41421356237309504880f<sp/></highlight><highlight class="comment">/*<sp/>sqrt(2)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>NAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="mathematics_8h_1a8abfcc76130f3f991d124dd22d7e69bc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_int2float(0x7fc00000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INFINITY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="mathematics_8h_1a956e2723d559858d08644ac99146e910" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INFINITY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_int2float(0x7f800000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="121"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavu_math</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="127"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>Rounding<sp/>methods.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="group__lavu__math_1ga921d656eaf2c4d6800a734a13af021d0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__math_1ga921d656eaf2c4d6800a734a13af021d0" kindref="member">AVRounding</ref><sp/>{</highlight></codeline>
+<codeline lineno="131" refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a35e291756025351803b97f7522b56eab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a35e291756025351803b97f7522b56eab" kindref="member">AV_ROUND_ZERO</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0,<sp/></highlight><highlight class="comment">///&lt;<sp/>Round<sp/>toward<sp/>zero.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a0ac08aede35de739ec5d0c1ba6217126" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a0ac08aede35de739ec5d0c1ba6217126" kindref="member">AV_ROUND_INF</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1,<sp/></highlight><highlight class="comment">///&lt;<sp/>Round<sp/>away<sp/>from<sp/>zero.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a4a4b2c2c77b7e20884440f7e57cfdb98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a4a4b2c2c77b7e20884440f7e57cfdb98" kindref="member">AV_ROUND_DOWN</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>2,<sp/></highlight><highlight class="comment">///&lt;<sp/>Round<sp/>toward<sp/>-infinity.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0aa1d28e08e2f8b49b256e056f93038c1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0aa1d28e08e2f8b49b256e056f93038c1a" kindref="member">AV_ROUND_UP</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3,<sp/></highlight><highlight class="comment">///&lt;<sp/>Round<sp/>toward<sp/>+infinity.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0aea95b00154ff83c740b46376dfa06e11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0aea95b00154ff83c740b46376dfa06e11" kindref="member">AV_ROUND_NEAR_INF</ref><sp/>=<sp/>5,<sp/></highlight><highlight class="comment">///&lt;<sp/>Round<sp/>to<sp/>nearest<sp/>and<sp/>halfway<sp/>cases<sp/>away<sp/>from<sp/>zero.</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Flag<sp/>telling<sp/>rescaling<sp/>functions<sp/>to<sp/>pass<sp/>`INT64_MIN`/`MAX`<sp/>through</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>unchanged,<sp/>avoiding<sp/>special<sp/>cases<sp/>for<sp/>#AV_NOPTS_VALUE.</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Unlike<sp/>other<sp/>values<sp/>of<sp/>the<sp/>enumeration<sp/>AVRounding,<sp/>this<sp/>value<sp/>is<sp/>a</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>bitmask<sp/>that<sp/>must<sp/>be<sp/>used<sp/>in<sp/>conjunction<sp/>with<sp/>another<sp/>value<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>enumeration<sp/>through<sp/>a<sp/>bitwise<sp/>OR,<sp/>in<sp/>order<sp/>to<sp/>set<sp/>behavior<sp/>for<sp/>normal</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>cases.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@code{.c}</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>av_rescale_rnd(3,<sp/>1,<sp/>2,<sp/>AV_ROUND_UP<sp/>|<sp/>AV_ROUND_PASS_MINMAX);</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/>Rescaling<sp/>3:</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/><sp/><sp/><sp/><sp/>Calculating<sp/>3<sp/>*<sp/>1<sp/>/<sp/>2</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/><sp/><sp/><sp/><sp/>3<sp/>/<sp/>2<sp/>is<sp/>rounded<sp/>up<sp/>to<sp/>2</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>2</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>av_rescale_rnd(AV_NOPTS_VALUE,<sp/>1,<sp/>2,<sp/>AV_ROUND_UP<sp/>|<sp/>AV_ROUND_PASS_MINMAX);</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/>Rescaling<sp/>AV_NOPTS_VALUE:</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/><sp/><sp/><sp/><sp/>AV_NOPTS_VALUE<sp/>==<sp/>INT64_MIN</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/><sp/><sp/><sp/><sp/>AV_NOPTS_VALUE<sp/>is<sp/>passed<sp/>through</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>//<sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>AV_NOPTS_VALUE</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a7fcb56631d6898b282d6c78ce6c14a43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__math_1gga921d656eaf2c4d6800a734a13af021d0a7fcb56631d6898b282d6c78ce6c14a43" kindref="member">AV_ROUND_PASS_MINMAX</ref><sp/>=<sp/>8192,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="162"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*<sp/>Compute<sp/>the<sp/>greatest<sp/>common<sp/>divisor<sp/>of<sp/>two<sp/>integer<sp/>operands.</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/>@param<sp/>a<sp/>Operand</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*<sp/>@param<sp/>b<sp/>Operand</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*<sp/>@return<sp/>GCD<sp/>of<sp/>a<sp/>and<sp/>b<sp/>up<sp/>to<sp/>sign;<sp/>if<sp/>a<sp/>&gt;=<sp/>0<sp/>and<sp/>b<sp/>&gt;=<sp/>0,<sp/>return<sp/>value<sp/>is<sp/>&gt;=<sp/>0;</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*<sp/>if<sp/>a<sp/>==<sp/>0<sp/>and<sp/>b<sp/>==<sp/>0,<sp/>returns<sp/>0.</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="group__lavu__math_1ga952147c7a40c48a05c39e918b153ba99" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" kindref="member">av_const</ref><sp/><ref refid="group__lavu__math_1ga952147c7a40c48a05c39e918b153ba99" kindref="member">av_gcd</ref>(int64_t<sp/>a,<sp/>int64_t<sp/>b);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="172"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/>Rescale<sp/>a<sp/>64-bit<sp/>integer<sp/>with<sp/>rounding<sp/>to<sp/>nearest.</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>*<sp/>The<sp/>operation<sp/>is<sp/>mathematically<sp/>equivalent<sp/>to<sp/>`a<sp/>*<sp/>b<sp/>/<sp/>c`,<sp/>but<sp/>writing<sp/>that</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>*<sp/>directly<sp/>can<sp/>overflow.</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>equivalent<sp/>to<sp/>av_rescale_rnd()<sp/>with<sp/>#AV_ROUND_NEAR_INF.</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_rescale_rnd(),<sp/>av_rescale_q(),<sp/>av_rescale_q_rnd()</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="group__lavu__math_1ga3daf97178dd1b08b5e916be381cd33e4" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1ga3daf97178dd1b08b5e916be381cd33e4" kindref="member">av_rescale</ref>(int64_t<sp/>a,<sp/>int64_t<sp/>b,<sp/>int64_t<sp/>c)<sp/><ref refid="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" kindref="member">av_const</ref>;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="184"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/>Rescale<sp/>a<sp/>64-bit<sp/>integer<sp/>with<sp/>specified<sp/>rounding.</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/>*<sp/>The<sp/>operation<sp/>is<sp/>mathematically<sp/>equivalent<sp/>to<sp/>`a<sp/>*<sp/>b<sp/>/<sp/>c`,<sp/>but<sp/>writing<sp/>that</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*<sp/>directly<sp/>can<sp/>overflow,<sp/>and<sp/>does<sp/>not<sp/>support<sp/>different<sp/>rounding<sp/>methods.</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>result<sp/>is<sp/>not<sp/>representable<sp/>then<sp/>INT64_MIN<sp/>is<sp/>returned.</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_rescale(),<sp/>av_rescale_q(),<sp/>av_rescale_q_rnd()</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="group__lavu__math_1ga82d40664213508918093822461cc597e" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1ga82d40664213508918093822461cc597e" kindref="member">av_rescale_rnd</ref>(int64_t<sp/>a,<sp/>int64_t<sp/>b,<sp/>int64_t<sp/>c,<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__math_1ga921d656eaf2c4d6800a734a13af021d0" kindref="member">AVRounding</ref><sp/>rnd)<sp/><ref refid="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" kindref="member">av_const</ref>;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="195"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>*<sp/>Rescale<sp/>a<sp/>64-bit<sp/>integer<sp/>by<sp/>2<sp/>rational<sp/>numbers.</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*<sp/>The<sp/>operation<sp/>is<sp/>mathematically<sp/>equivalent<sp/>to<sp/>`a<sp/>*<sp/>bq<sp/>/<sp/>cq`.</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>equivalent<sp/>to<sp/>av_rescale_q_rnd()<sp/>with<sp/>#AV_ROUND_NEAR_INF.</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_rescale(),<sp/>av_rescale_rnd(),<sp/>av_rescale_q_rnd()</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="group__lavu__math_1gaf02994a8bbeaa91d4757df179cbe567f" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1gaf02994a8bbeaa91d4757df179cbe567f" kindref="member">av_rescale_q</ref>(int64_t<sp/>a,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>bq,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>cq)<sp/><ref refid="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" kindref="member">av_const</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="206"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>*<sp/>Rescale<sp/>a<sp/>64-bit<sp/>integer<sp/>by<sp/>2<sp/>rational<sp/>numbers<sp/>with<sp/>specified<sp/>rounding.</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*<sp/>The<sp/>operation<sp/>is<sp/>mathematically<sp/>equivalent<sp/>to<sp/>`a<sp/>*<sp/>bq<sp/>/<sp/>cq`.</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_rescale(),<sp/>av_rescale_rnd(),<sp/>av_rescale_q()</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="group__lavu__math_1gab706bfec9bf56534e02ca9564cb968f6" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1gab706bfec9bf56534e02ca9564cb968f6" kindref="member">av_rescale_q_rnd</ref>(int64_t<sp/>a,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>bq,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>cq,</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__math_1ga921d656eaf2c4d6800a734a13af021d0" kindref="member">AVRounding</ref><sp/>rnd)<sp/><ref refid="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" kindref="member">av_const</ref>;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="216"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/>*<sp/>Compare<sp/>two<sp/>timestamps<sp/>each<sp/>in<sp/>its<sp/>own<sp/>time<sp/>base.</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/>*<sp/>@return<sp/>One<sp/>of<sp/>the<sp/>following<sp/>values:</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>-1<sp/>if<sp/>`ts_a`<sp/>is<sp/>before<sp/>`ts_b`</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>1<sp/>if<sp/>`ts_a`<sp/>is<sp/>after<sp/>`ts_b`</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>0<sp/>if<sp/>they<sp/>represent<sp/>the<sp/>same<sp/>position</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*<sp/>@warning</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*<sp/>The<sp/>result<sp/>of<sp/>the<sp/>function<sp/>is<sp/>undefined<sp/>if<sp/>one<sp/>of<sp/>the<sp/>timestamps<sp/>is<sp/>outside</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*<sp/>the<sp/>`int64_t`<sp/>range<sp/>when<sp/>represented<sp/>in<sp/>the<sp/>other&apos;s<sp/>timebase.</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="group__lavu__math_1ga151744358fff630942b926e67e67c415" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__math_1ga151744358fff630942b926e67e67c415" kindref="member">av_compare_ts</ref>(int64_t<sp/>ts_a,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>tb_a,<sp/>int64_t<sp/>ts_b,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>tb_b);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="230"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*<sp/>Compare<sp/>the<sp/>remainders<sp/>of<sp/>two<sp/>integer<sp/>operands<sp/>divided<sp/>by<sp/>a<sp/>common<sp/>divisor.</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*<sp/>In<sp/>other<sp/>words,<sp/>compare<sp/>the<sp/>least<sp/>significant<sp/>`log2(mod)`<sp/>bits<sp/>of<sp/>integers</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*<sp/>`a`<sp/>and<sp/>`b`.</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/>*<sp/>@code{.c}</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/>*<sp/>av_compare_mod(0x11,<sp/>0x02,<sp/>0x10)<sp/>&lt;<sp/>0<sp/>//<sp/>since<sp/>0x11<sp/>%<sp/>0x10<sp/><sp/>(0x1)<sp/>&lt;<sp/>0x02<sp/>%<sp/>0x10<sp/><sp/>(0x2)</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/>*<sp/>av_compare_mod(0x11,<sp/>0x02,<sp/>0x20)<sp/>&gt;<sp/>0<sp/>//<sp/>since<sp/>0x11<sp/>%<sp/>0x20<sp/>(0x11)<sp/>&gt;<sp/>0x02<sp/>%<sp/>0x20<sp/>(0x02)</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*<sp/>@param<sp/>a<sp/>Operand</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>*<sp/>@param<sp/>b<sp/>Operand</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/>*<sp/>@param<sp/>mod<sp/>Divisor;<sp/>must<sp/>be<sp/>a<sp/>power<sp/>of<sp/>2</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/>*<sp/>@return</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>a<sp/>negative<sp/>value<sp/>if<sp/>`a<sp/>%<sp/>mod<sp/>&lt;<sp/>b<sp/>%<sp/>mod`</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>a<sp/>positive<sp/>value<sp/>if<sp/>`a<sp/>%<sp/>mod<sp/>&gt;<sp/>b<sp/>%<sp/>mod`</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>zero<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>`a<sp/>%<sp/>mod<sp/>==<sp/>b<sp/>%<sp/>mod`</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="group__lavu__math_1gaf268a1dde957d04da846e026e2ebe6e8" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1gaf268a1dde957d04da846e026e2ebe6e8" kindref="member">av_compare_mod</ref>(uint64_t<sp/>a,<sp/>uint64_t<sp/>b,<sp/>uint64_t<sp/>mod);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="251"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/>*<sp/>Rescale<sp/>a<sp/>timestamp<sp/>while<sp/>preserving<sp/>known<sp/>durations.</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="254"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>designed<sp/>to<sp/>be<sp/>called<sp/>per<sp/>audio<sp/>packet<sp/>to<sp/>scale<sp/>the<sp/>input</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/>*<sp/>timestamp<sp/>to<sp/>a<sp/>different<sp/>time<sp/>base.<sp/>Compared<sp/>to<sp/>a<sp/>simple<sp/>av_rescale_q()</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/>*<sp/>call,<sp/>this<sp/>function<sp/>is<sp/>robust<sp/>against<sp/>possible<sp/>inconsistent<sp/>frame<sp/>durations.</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/>*<sp/>The<sp/>`last`<sp/>parameter<sp/>is<sp/>a<sp/>state<sp/>variable<sp/>that<sp/>must<sp/>be<sp/>preserved<sp/>for<sp/>all</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/>*<sp/>subsequent<sp/>calls<sp/>for<sp/>the<sp/>same<sp/>stream.<sp/>For<sp/>the<sp/>first<sp/>call,<sp/>`*last`<sp/>should<sp/>be</highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/>*<sp/>initialized<sp/>to<sp/>#AV_NOPTS_VALUE.</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>in_tb<sp/><sp/><sp/><sp/>Input<sp/>time<sp/>base</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>in_ts<sp/><sp/><sp/><sp/>Input<sp/>timestamp</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>fs_tb<sp/><sp/><sp/><sp/>Duration<sp/>time<sp/>base;<sp/>typically<sp/>this<sp/>is<sp/>finer-grained</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(greater)<sp/>than<sp/>`in_tb`<sp/>and<sp/>`out_tb`</highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>duration<sp/>Duration<sp/>till<sp/>the<sp/>next<sp/>call<sp/>to<sp/>this<sp/>function<sp/>(i.e.</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>duration<sp/>of<sp/>the<sp/>current<sp/>packet/frame)</highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>last<sp/><sp/><sp/><sp/><sp/>Pointer<sp/>to<sp/>a<sp/>timestamp<sp/>expressed<sp/>in<sp/>terms<sp/>of</highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>`fs_tb`,<sp/>acting<sp/>as<sp/>a<sp/>state<sp/>variable</highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>out_tb<sp/><sp/><sp/>Output<sp/>timebase</highlight></codeline>
+<codeline lineno="271"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Timestamp<sp/>expressed<sp/>in<sp/>terms<sp/>of<sp/>`out_tb`</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/>*<sp/>@note<sp/>In<sp/>the<sp/>context<sp/>of<sp/>this<sp/>function,<sp/>&quot;duration&quot;<sp/>is<sp/>in<sp/>term<sp/>of<sp/>samples,<sp/>not</highlight></codeline>
+<codeline lineno="274"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>seconds.</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="group__lavu__math_1ga29b7c3d60d68ef678ee1f4adc61a25dc" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1ga29b7c3d60d68ef678ee1f4adc61a25dc" kindref="member">av_rescale_delta</ref>(<ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>in_tb,<sp/>int64_t<sp/>in_ts,<sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>fs_tb,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>duration,<sp/>int64_t<sp/>*last,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>out_tb);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="278"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/>*<sp/>Add<sp/>a<sp/>value<sp/>to<sp/>a<sp/>timestamp.</highlight></codeline>
+<codeline lineno="280"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="281"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>guarantees<sp/>that<sp/>when<sp/>the<sp/>same<sp/>value<sp/>is<sp/>repeatly<sp/>added<sp/>that</highlight></codeline>
+<codeline lineno="282"><highlight class="comment"><sp/>*<sp/>no<sp/>accumulation<sp/>of<sp/>rounding<sp/>errors<sp/>occurs.</highlight></codeline>
+<codeline lineno="283"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>ts<sp/><sp/><sp/><sp/><sp/>Input<sp/>timestamp</highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>ts_tb<sp/><sp/>Input<sp/>timestamp<sp/>time<sp/>base</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>inc<sp/><sp/><sp/><sp/>Value<sp/>to<sp/>be<sp/>added</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>inc_tb<sp/>Time<sp/>base<sp/>of<sp/>`inc`</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="group__lavu__math_1ga0c4f9ed3f4102125be7451ad4d848a2f" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="group__lavu__math_1ga0c4f9ed3f4102125be7451ad4d848a2f" kindref="member">av_add_stable</ref>(<ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>ts_tb,<sp/>int64_t<sp/>ts,<sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/>inc_tb,<sp/>int64_t<sp/>inc);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="291"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/>*<sp/>0th<sp/>order<sp/>modified<sp/>bessel<sp/>function<sp/>of<sp/>the<sp/>first<sp/>kind.</highlight></codeline>
+<codeline lineno="293"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="group__lavu__math_1gac6df8ff9fa00f5daf9f16cc46038f064" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__lavu__math_1gac6df8ff9fa00f5daf9f16cc46038f064" kindref="member">av_bessel_i0</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="296"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="297"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="298"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_MATHEMATICS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/mathematics.h"/>
+  </compounddef>
+</doxygen>

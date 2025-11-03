@@ -1,0 +1,42 @@
+Function 'main'
+Lines executed:0.00% of 21
+
+Function 'clean_tracks'
+Lines executed:0.00% of 7
+
+Function 'output_mpd'
+Lines executed:0.00% of 83
+
+Function 'write_time'
+Lines executed:0.00% of 15
+
+Function 'handle_file'
+Lines executed:0.00% of 65
+
+Function 'find_sidx'
+Lines executed:0.00% of 27
+
+Function 'set_codec_str'
+Lines executed:0.00% of 21
+
+File 'tools/sidxindex.c'
+Lines executed:0.00% of 227
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#sidxindex.gcno##tools#sidxindex.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#sidxindex.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#sidxindex.gcno##libavutil#error.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#sidxindex.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#sidxindex.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 239

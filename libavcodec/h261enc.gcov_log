@@ -1,0 +1,48 @@
+Function 'h261_encode_init'
+Lines executed:0.00% of 21
+
+Function 'h261_encode_init_static'
+Lines executed:0.00% of 26
+
+Function 'h261_encode_mb'
+Lines executed:0.00% of 71
+
+Function 'h261_encode_block'
+Lines executed:0.00% of 41
+
+Function 'ff_h261_reorder_mb_index'
+Lines executed:0.00% of 32
+
+Function 'h261_encode_gob_header'
+Lines executed:0.00% of 13
+
+Function 'h261_encode_picture_header'
+Lines executed:0.00% of 21
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/h261enc.c'
+Lines executed:0.00% of 200
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261enc.gcno##libavcodec#h261enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261enc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/mpegvideo.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261enc.gcno##libavcodec#mpegvideo.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h261enc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 249

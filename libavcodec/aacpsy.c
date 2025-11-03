@@ -168,7 +168,7 @@ typedef struct AacPsyContext{
  * LAME psy model preset struct
  */
 typedef struct PsyLamePreset {
-    int   quality;  ///< Quality to map the rest of the vaules to.
+    int   quality;  ///< Quality to map the rest of the values to.
      /* This is overloaded to be both kbps per channel in ABR mode, and
       * requested quality in constant quality mode.
       */
@@ -402,7 +402,7 @@ static const uint8_t window_grouping[9] = {
  * Tell encoder which window types to use.
  * @see 3GPP TS26.403 5.4.1 "Blockswitching"
  */
-static av_unused FFPsyWindowInfo psy_3gpp_window(FFPsyContext *ctx,
+av_unused static FFPsyWindowInfo psy_3gpp_window(FFPsyContext *ctx,
                                                  const int16_t *audio,
                                                  const int16_t *la,
                                                  int channel, int prev_type)

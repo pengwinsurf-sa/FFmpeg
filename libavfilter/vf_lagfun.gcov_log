@@ -1,0 +1,32 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'lagfun_framed32'
+Lines executed:0.00% of 1
+
+Function 'lagfun_framed16'
+Lines executed:0.00% of 1
+
+Function 'lagfun_framed8'
+Lines executed:0.00% of 1
+
+Function 'lagfun_frame32'
+Lines executed:0.00% of 1
+
+Function 'lagfun_frame16'
+Lines executed:0.00% of 1
+
+Function 'lagfun_frame8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_lagfun.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lagfun.gcno##libavfilter#vf_lagfun.c.gcov'
+
+Lines executed:0.00% of 48

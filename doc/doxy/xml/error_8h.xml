@@ -1,0 +1,663 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="error_8h" kind="file" language="C++">
+    <compoundname>error.h</compoundname>
+    <includes local="no">errno.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includes refid="macros_8h" local="yes">macros.h</includes>
+    <includedby refid="common_8h" local="yes">libavutil/common.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>errno.h</label>
+      </node>
+      <node id="5">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/decode_audio.c</label>
+        <link refid="decode__audio_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/decode_video.c</label>
+        <link refid="decode__video_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="3">
+        <label>doc/examples/encode_audio.c</label>
+        <link refid="encode__audio_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="32">
+        <label>doc/examples/filter_audio.c</label>
+        <link refid="filter__audio_8c"/>
+      </node>
+      <node id="15">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="16">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="24">
+        <label>doc/examples/remux.c</label>
+        <link refid="remux_8c"/>
+      </node>
+      <node id="52">
+        <label>doc/examples/resample_audio.c</label>
+        <link refid="resample__audio_8c"/>
+      </node>
+      <node id="54">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="25">
+        <label>doc/examples/show_metadata.c</label>
+        <link refid="show__metadata_8c"/>
+      </node>
+      <node id="17">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="18">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="5">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>libavcodec/avdct.h</label>
+        <link refid="avdct_8h"/>
+      </node>
+      <node id="29">
+        <label>libavcodec/bsf.h</label>
+        <link refid="bsf_8h"/>
+      </node>
+      <node id="22">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>libavcodec/codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>libavcodec/codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>libavcodec/mediacodec.h</label>
+        <link refid="mediacodec_8h"/>
+      </node>
+      <node id="20">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+      </node>
+      <node id="21">
+        <label>libavcodec/videotoolbox.h</label>
+        <link refid="videotoolbox_8h"/>
+      </node>
+      <node id="26">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+      </node>
+      <node id="31">
+        <label>libavfilter/avfilter.h</label>
+        <link refid="avfilter_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>libavfilter/buffersrc.h</label>
+        <link refid="buffersrc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>libavutil/ambient_viewing_environment.h</label>
+        <link refid="ambient__viewing__environment_8h"/>
+      </node>
+      <node id="4">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>libavutil/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>libavutil/detection_bbox.h</label>
+        <link refid="detection__bbox_8h"/>
+      </node>
+      <node id="38">
+        <label>libavutil/downmix_info.h</label>
+        <link refid="downmix__info_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>libavutil/film_grain_params.h</label>
+        <link refid="film__grain__params_8h"/>
+      </node>
+      <node id="35">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>libavutil/hdr_dynamic_metadata.h</label>
+        <link refid="hdr__dynamic__metadata_8h"/>
+      </node>
+      <node id="41">
+        <label>libavutil/hdr_dynamic_vivid_metadata.h</label>
+        <link refid="hdr__dynamic__vivid__metadata_8h"/>
+      </node>
+      <node id="42">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>libavutil/hwcontext_amf.h</label>
+        <link refid="hwcontext__amf_8h"/>
+      </node>
+      <node id="45">
+        <label>libavutil/hwcontext_opencl.h</label>
+        <link refid="hwcontext__opencl_8h"/>
+      </node>
+      <node id="46">
+        <label>libavutil/hwcontext_videotoolbox.h</label>
+        <link refid="hwcontext__videotoolbox_8h"/>
+      </node>
+      <node id="44">
+        <label>libavutil/hwcontext_vulkan.h</label>
+        <link refid="hwcontext__vulkan_8h"/>
+      </node>
+      <node id="47">
+        <label>libavutil/mastering_display_metadata.h</label>
+        <link refid="mastering__display__metadata_8h"/>
+      </node>
+      <node id="55">
+        <label>libavutil/opt.h</label>
+        <link refid="opt_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>libavutil/stereo3d.h</label>
+        <link refid="stereo3d_8h"/>
+      </node>
+      <node id="57">
+        <label>libavutil/timestamp.h</label>
+        <link refid="timestamp_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>libavutil/video_enc_params.h</label>
+        <link refid="video__enc__params_8h"/>
+      </node>
+      <node id="50">
+        <label>libavutil/video_hint.h</label>
+        <link refid="video__hint_8h"/>
+      </node>
+      <node id="51">
+        <label>libswresample/swresample.h</label>
+        <link refid="swresample_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>libswscale/swscale.h</label>
+        <link refid="swscale_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <member refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kind="define"><name>AVERROR</name></member>
+      <member refid="group__lavu__error_1ga025dbb21a4a9789dfb37a2b78f241026" kind="define"><name>AVUNERROR</name></member>
+      <member refid="group__lavu__error_1gacfc46235e91e0770b94f7918013a1034" kind="define"><name>FFERRTAG</name></member>
+      <member refid="group__lavu__error_1ga586e134e9dad8f57a218b2cd8734b601" kind="define"><name>AVERROR_BSF_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gaa102cde7ec5acbc099c3bcbb58556a18" kind="define"><name>AVERROR_BUG</name></member>
+      <member refid="group__lavu__error_1ga76077a6d42ee211f59712485bd977e40" kind="define"><name>AVERROR_BUFFER_TOO_SMALL</name></member>
+      <member refid="group__lavu__error_1ga28f845c3efcf791fdf3b2b3907330bf5" kind="define"><name>AVERROR_DECODER_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gaf7cbadf2ff7121084d2cde763f4e06b9" kind="define"><name>AVERROR_DEMUXER_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1ga3fad023a4fafed6b6ec9148606a61979" kind="define"><name>AVERROR_ENCODER_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gab4faa0afdf35076914824200331defff" kind="define"><name>AVERROR_EOF</name></member>
+      <member refid="group__lavu__error_1ga334ea23fd9e492cd0e718330f2353b6b" kind="define"><name>AVERROR_EXIT</name></member>
+      <member refid="group__lavu__error_1ga9c520e483ba8648495620ffdb4c491f2" kind="define"><name>AVERROR_EXTERNAL</name></member>
+      <member refid="group__lavu__error_1ga2c3b3ab0404e827aeba274b571368e95" kind="define"><name>AVERROR_FILTER_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gaa6e5781e75b15ce44b0baea170c98a45" kind="define"><name>AVERROR_INVALIDDATA</name></member>
+      <member refid="group__lavu__error_1ga7ef1e1f3183e34e731185967d416911d" kind="define"><name>AVERROR_MUXER_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gaf5a8745befceddae26f2dc11ecf21679" kind="define"><name>AVERROR_OPTION_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1ga67a27567a9e5b7037fee072fbcc34dbf" kind="define"><name>AVERROR_PATCHWELCOME</name></member>
+      <member refid="group__lavu__error_1ga474b367d2654695a79c07998329c7896" kind="define"><name>AVERROR_PROTOCOL_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gab15683efe944a563b5c90dc6c5d5c17b" kind="define"><name>AVERROR_STREAM_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gafdd5fd9898cc229e1856f858308d956e" kind="define"><name>AVERROR_BUG2</name></member>
+      <member refid="group__lavu__error_1ga4ebaa288c7684a26a591c501208910e4" kind="define"><name>AVERROR_UNKNOWN</name></member>
+      <member refid="group__lavu__error_1ga3d2f16ec410d409c19e3547673b8469b" kind="define"><name>AVERROR_EXPERIMENTAL</name></member>
+      <member refid="group__lavu__error_1gaa2999fcae06d67e3b9374f6c2c0ed559" kind="define"><name>AVERROR_INPUT_CHANGED</name></member>
+      <member refid="group__lavu__error_1ga67501c4d8521285b405f555d2de71214" kind="define"><name>AVERROR_OUTPUT_CHANGED</name></member>
+      <member refid="group__lavu__error_1ga2a19ca30d1962b51488a7210e8b68919" kind="define"><name>AVERROR_HTTP_BAD_REQUEST</name></member>
+      <member refid="group__lavu__error_1gacaebaf711c31f8ada97f87b42b58b794" kind="define"><name>AVERROR_HTTP_UNAUTHORIZED</name></member>
+      <member refid="group__lavu__error_1ga114337140a3fec85cf76736f8e779659" kind="define"><name>AVERROR_HTTP_FORBIDDEN</name></member>
+      <member refid="group__lavu__error_1gafa8673dfcb9f0359bb6f7dda408952c4" kind="define"><name>AVERROR_HTTP_NOT_FOUND</name></member>
+      <member refid="group__lavu__error_1gab155d14e2e9102491083482889543e61" kind="define"><name>AVERROR_HTTP_TOO_MANY_REQUESTS</name></member>
+      <member refid="group__lavu__error_1ga696de4031a2188bdd1ee330a6c11cd0c" kind="define"><name>AVERROR_HTTP_OTHER_4XX</name></member>
+      <member refid="group__lavu__error_1ga47662fddadd1c84284b85154f5553afa" kind="define"><name>AVERROR_HTTP_SERVER_ERROR</name></member>
+      <member refid="group__lavu__error_1ga326c3f741a7adb148cdeaad68eea713d" kind="define"><name>AV_ERROR_MAX_STRING_SIZE</name></member>
+      <member refid="group__lavu__error_1gac4f6e109c242c81aeee21868d3f35e12" kind="define"><name>av_err2str</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__error_1ga5792b4a2d18d7d9cb0efbcfc335dce24" kind="function"><name>av_strerror</name></member>
+      <member refid="group__lavu__error_1ga2173054c6376a4577c6883e31dc38ac4" kind="function"><name>av_make_error_string</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>error code definitions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>error<sp/>code<sp/>definitions</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_ERROR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_ERROR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;errno.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="macros_8h" kindref="compound">macros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavu_error</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>error<sp/>handling<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>EDOM<sp/>&gt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR(e)<sp/>(-(e))<sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Returns<sp/>a<sp/>negative<sp/>error<sp/>code<sp/>from<sp/>a<sp/>POSIX<sp/>error<sp/>code,<sp/>to<sp/>return<sp/>from<sp/>library<sp/>functions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUNERROR(e)<sp/>(-(e))<sp/></highlight><highlight class="comment">///&lt;<sp/>Returns<sp/>a<sp/>POSIX<sp/>error<sp/>code<sp/>from<sp/>a<sp/>library<sp/>function<sp/>error<sp/>return<sp/>value.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Some<sp/>platforms<sp/>have<sp/>E*<sp/>and<sp/>errno<sp/>already<sp/>negated.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR(e)<sp/>(e)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="group__lavu__error_1ga025dbb21a4a9789dfb37a2b78f241026" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUNERROR(e)<sp/>(e)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="group__lavu__error_1gacfc46235e91e0770b94f7918013a1034" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FFERRTAG(a,<sp/>b,<sp/>c,<sp/>d)<sp/>(-(int)MKTAG(a,<sp/>b,<sp/>c,<sp/>d))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="group__lavu__error_1ga586e134e9dad8f57a218b2cd8734b601" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_BSF_NOT_FOUND<sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(0xF8,&apos;B&apos;,&apos;S&apos;,&apos;F&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Bitstream<sp/>filter<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__lavu__error_1gaa102cde7ec5acbc099c3bcbb58556a18" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_BUG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;B&apos;,&apos;U&apos;,&apos;G&apos;,&apos;!&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Internal<sp/>bug,<sp/>also<sp/>see<sp/>AVERROR_BUG2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="group__lavu__error_1ga76077a6d42ee211f59712485bd977e40" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_BUFFER_TOO_SMALL<sp/><sp/><sp/>FFERRTAG(<sp/>&apos;B&apos;,&apos;U&apos;,&apos;F&apos;,&apos;S&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Buffer<sp/>too<sp/>small</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="group__lavu__error_1ga28f845c3efcf791fdf3b2b3907330bf5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_DECODER_NOT_FOUND<sp/><sp/>FFERRTAG(0xF8,&apos;D&apos;,&apos;E&apos;,&apos;C&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Decoder<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__lavu__error_1gaf7cbadf2ff7121084d2cde763f4e06b9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_DEMUXER_NOT_FOUND<sp/><sp/>FFERRTAG(0xF8,&apos;D&apos;,&apos;E&apos;,&apos;M&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Demuxer<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="group__lavu__error_1ga3fad023a4fafed6b6ec9148606a61979" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_ENCODER_NOT_FOUND<sp/><sp/>FFERRTAG(0xF8,&apos;E&apos;,&apos;N&apos;,&apos;C&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Encoder<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="group__lavu__error_1gab4faa0afdf35076914824200331defff" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_EOF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;E&apos;,&apos;O&apos;,&apos;F&apos;,&apos;<sp/>&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>End<sp/>of<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="group__lavu__error_1ga334ea23fd9e492cd0e718330f2353b6b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_EXIT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;E&apos;,&apos;X&apos;,&apos;I&apos;,&apos;T&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Immediate<sp/>exit<sp/>was<sp/>requested;<sp/>the<sp/>called<sp/>function<sp/>should<sp/>not<sp/>be<sp/>restarted</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="group__lavu__error_1ga9c520e483ba8648495620ffdb4c491f2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_EXTERNAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;E&apos;,&apos;X&apos;,&apos;T&apos;,&apos;<sp/>&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Generic<sp/>error<sp/>in<sp/>an<sp/>external<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="group__lavu__error_1ga2c3b3ab0404e827aeba274b571368e95" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_FILTER_NOT_FOUND<sp/><sp/><sp/>FFERRTAG(0xF8,&apos;F&apos;,&apos;I&apos;,&apos;L&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Filter<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="group__lavu__error_1gaa6e5781e75b15ce44b0baea170c98a45" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_INVALIDDATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;I&apos;,&apos;N&apos;,&apos;D&apos;,&apos;A&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Invalid<sp/>data<sp/>found<sp/>when<sp/>processing<sp/>input</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__lavu__error_1ga7ef1e1f3183e34e731185967d416911d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_MUXER_NOT_FOUND<sp/><sp/><sp/><sp/>FFERRTAG(0xF8,&apos;M&apos;,&apos;U&apos;,&apos;X&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Muxer<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="group__lavu__error_1gaf5a8745befceddae26f2dc11ecf21679" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_OPTION_NOT_FOUND<sp/><sp/><sp/>FFERRTAG(0xF8,&apos;O&apos;,&apos;P&apos;,&apos;T&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Option<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="group__lavu__error_1ga67a27567a9e5b7037fee072fbcc34dbf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_PATCHWELCOME<sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;P&apos;,&apos;A&apos;,&apos;W&apos;,&apos;E&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Not<sp/>yet<sp/>implemented<sp/>in<sp/>FFmpeg,<sp/>patches<sp/>welcome</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="group__lavu__error_1ga474b367d2654695a79c07998329c7896" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_PROTOCOL_NOT_FOUND<sp/>FFERRTAG(0xF8,&apos;P&apos;,&apos;R&apos;,&apos;O&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Protocol<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="group__lavu__error_1gab15683efe944a563b5c90dc6c5d5c17b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_STREAM_NOT_FOUND<sp/><sp/><sp/>FFERRTAG(0xF8,&apos;S&apos;,&apos;T&apos;,&apos;R&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Stream<sp/>not<sp/>found</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>semantically<sp/>identical<sp/>to<sp/>AVERROR_BUG</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>it<sp/>has<sp/>been<sp/>introduced<sp/>in<sp/>Libav<sp/>after<sp/>our<sp/>AVERROR_BUG<sp/>and<sp/>with<sp/>a<sp/>modified<sp/>value.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__lavu__error_1gafdd5fd9898cc229e1856f858308d956e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_BUG2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;B&apos;,&apos;U&apos;,&apos;G&apos;,&apos;<sp/>&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="group__lavu__error_1ga4ebaa288c7684a26a591c501208910e4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_UNKNOWN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FFERRTAG(<sp/>&apos;U&apos;,&apos;N&apos;,&apos;K&apos;,&apos;N&apos;)<sp/></highlight><highlight class="comment">///&lt;<sp/>Unknown<sp/>error,<sp/>typically<sp/>from<sp/>an<sp/>external<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="group__lavu__error_1ga3d2f16ec410d409c19e3547673b8469b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_EXPERIMENTAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(-0x2bb2afa8)<sp/></highlight><highlight class="comment">///&lt;<sp/>Requested<sp/>feature<sp/>is<sp/>flagged<sp/>experimental.<sp/>Set<sp/>strict_std_compliance<sp/>if<sp/>you<sp/>really<sp/>want<sp/>to<sp/>use<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="group__lavu__error_1gaa2999fcae06d67e3b9374f6c2c0ed559" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_INPUT_CHANGED<sp/><sp/><sp/><sp/><sp/><sp/>(-0x636e6701)<sp/></highlight><highlight class="comment">///&lt;<sp/>Input<sp/>changed<sp/>between<sp/>calls.<sp/>Reconfiguration<sp/>is<sp/>required.<sp/>(can<sp/>be<sp/>OR-ed<sp/>with<sp/>AVERROR_OUTPUT_CHANGED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="group__lavu__error_1ga67501c4d8521285b405f555d2de71214" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_OUTPUT_CHANGED<sp/><sp/><sp/><sp/><sp/>(-0x636e6702)<sp/></highlight><highlight class="comment">///&lt;<sp/>Output<sp/>changed<sp/>between<sp/>calls.<sp/>Reconfiguration<sp/>is<sp/>required.<sp/>(can<sp/>be<sp/>OR-ed<sp/>with<sp/>AVERROR_INPUT_CHANGED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>HTTP<sp/>&amp;<sp/>RTSP<sp/>errors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="group__lavu__error_1ga2a19ca30d1962b51488a7210e8b68919" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_BAD_REQUEST<sp/><sp/><sp/>FFERRTAG(0xF8,&apos;4&apos;,&apos;0&apos;,&apos;0&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="group__lavu__error_1gacaebaf711c31f8ada97f87b42b58b794" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_UNAUTHORIZED<sp/><sp/>FFERRTAG(0xF8,&apos;4&apos;,&apos;0&apos;,&apos;1&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="group__lavu__error_1ga114337140a3fec85cf76736f8e779659" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_FORBIDDEN<sp/><sp/><sp/><sp/><sp/>FFERRTAG(0xF8,&apos;4&apos;,&apos;0&apos;,&apos;3&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="group__lavu__error_1gafa8673dfcb9f0359bb6f7dda408952c4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_NOT_FOUND<sp/><sp/><sp/><sp/><sp/>FFERRTAG(0xF8,&apos;4&apos;,&apos;0&apos;,&apos;4&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="group__lavu__error_1gab155d14e2e9102491083482889543e61" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_TOO_MANY_REQUESTS<sp/>FFERRTAG(0xF8,&apos;4&apos;,&apos;2&apos;,&apos;9&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__lavu__error_1ga696de4031a2188bdd1ee330a6c11cd0c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_OTHER_4XX<sp/><sp/><sp/><sp/><sp/>FFERRTAG(0xF8,&apos;4&apos;,&apos;X&apos;,&apos;X&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="group__lavu__error_1ga47662fddadd1c84284b85154f5553afa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVERROR_HTTP_SERVER_ERROR<sp/><sp/>FFERRTAG(0xF8,&apos;5&apos;,&apos;X&apos;,&apos;X&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="group__lavu__error_1ga326c3f741a7adb148cdeaad68eea713d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_ERROR_MAX_STRING_SIZE<sp/>64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="88"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>Put<sp/>a<sp/>description<sp/>of<sp/>the<sp/>AVERROR<sp/>code<sp/>errnum<sp/>in<sp/>errbuf.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>In<sp/>case<sp/>of<sp/>failure<sp/>the<sp/>global<sp/>variable<sp/>errno<sp/>is<sp/>set<sp/>to<sp/>indicate<sp/>the</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>error.<sp/>Even<sp/>in<sp/>case<sp/>of<sp/>failure<sp/>av_strerror()<sp/>will<sp/>print<sp/>a<sp/>generic</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>error<sp/>message<sp/>indicating<sp/>the<sp/>errnum<sp/>provided<sp/>to<sp/>errbuf.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>@param<sp/>errnum<sp/><sp/><sp/><sp/><sp/><sp/>error<sp/>code<sp/>to<sp/>describe</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>@param<sp/>errbuf<sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>to<sp/>which<sp/>description<sp/>is<sp/>written</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>@param<sp/>errbuf_size<sp/>the<sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>errbuf</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>@return<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>value<sp/>if<sp/>a<sp/>description<sp/>for<sp/>errnum</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>cannot<sp/>be<sp/>found</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__lavu__error_1ga5792b4a2d18d7d9cb0efbcfc335dce24" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__error_1ga5792b4a2d18d7d9cb0efbcfc335dce24" kindref="member">av_strerror</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>errnum,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*errbuf,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>errbuf_size);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="102"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>Fill<sp/>the<sp/>provided<sp/>buffer<sp/>with<sp/>a<sp/>string<sp/>containing<sp/>an<sp/>error<sp/>string</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>corresponding<sp/>to<sp/>the<sp/>AVERROR<sp/>code<sp/>errnum.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>@param<sp/>errbuf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>buffer</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>@param<sp/>errbuf_size<sp/><sp/><sp/><sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>errbuf</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*<sp/>@param<sp/>errnum<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error<sp/>code<sp/>to<sp/>describe</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>buffer<sp/>in<sp/>input,<sp/>filled<sp/>with<sp/>the<sp/>error<sp/>description</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_strerror()</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="group__lavu__error_1ga2173054c6376a4577c6883e31dc38ac4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavu__error_1ga2173054c6376a4577c6883e31dc38ac4" kindref="member">av_make_error_string</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*errbuf,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>errbuf_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>errnum)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__error_1ga5792b4a2d18d7d9cb0efbcfc335dce24" kindref="member">av_strerror</ref>(errnum,<sp/>errbuf,<sp/>errbuf_size);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>errbuf;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="118"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>Convenience<sp/>macro,<sp/>the<sp/>return<sp/>value<sp/>should<sp/>be<sp/>used<sp/>only<sp/>directly<sp/>in</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>function<sp/>arguments<sp/>but<sp/>never<sp/>stand-alone.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="group__lavu__error_1gac4f6e109c242c81aeee21868d3f35e12" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>av_err2str(errnum)<sp/>\</highlight></codeline>
+<codeline lineno="123"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>av_make_error_string((char[AV_ERROR_MAX_STRING_SIZE]){0},<sp/>AV_ERROR_MAX_STRING_SIZE,<sp/>errnum)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="125"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_ERROR_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/error.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+Function 'is_planar_yuv'
+Lines executed:0.00% of 9
+
+Function 'filter_frame'
+Lines executed:0.00% of 7
+
+Function 'get_video_buffer'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_swapuv.c'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_swapuv.gcno##libavfilter#vf_swapuv.c.gcov'
+
+Lines executed:0.00% of 28

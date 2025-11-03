@@ -1,0 +1,396 @@
+Function 'ff_h264dsp_init'
+Lines executed:100.00% of 24
+
+Function 'ff_h264_add_pixels8_16_c'
+Lines executed:100.00% of 20
+
+Function 'ff_h264_add_pixels4_16_c'
+Lines executed:100.00% of 14
+
+Function 'ff_h264_add_pixels8_8_c'
+Lines executed:100.00% of 18
+
+Function 'ff_h264_add_pixels4_8_c'
+Lines executed:100.00% of 14
+
+Function 'h264_h_loop_filter_chroma422_mbaff_intra_14_c'
+Lines executed:0.00% of 21
+
+Function 'h264_h_loop_filter_chroma422_intra_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_intra_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_intra_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_chroma_intra_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_mbaff_14_c'
+Lines executed:0.00% of 32
+
+Function 'h264_h_loop_filter_chroma422_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_chroma_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_intra_14_c'
+Lines executed:0.00% of 36
+
+Function 'h264_h_loop_filter_luma_intra_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_luma_intra_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_14_c'
+Lines executed:0.00% of 39
+
+Function 'h264_h_loop_filter_luma_14_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_luma_14_c'
+Lines executed:0.00% of 3
+
+Function 'biweight_h264_pixels2_14_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels2_14_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels4_14_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels4_14_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels8_14_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels8_14_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels16_14_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels16_14_c'
+Lines executed:0.00% of 1
+
+Function 'h264_h_loop_filter_chroma422_mbaff_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_chroma_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_mbaff_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_chroma_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_chroma_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_luma_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_luma_intra_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_h_loop_filter_luma_12_c'
+Lines executed:0.00% of 3
+
+Function 'h264_v_loop_filter_luma_12_c'
+Lines executed:0.00% of 3
+
+Function 'biweight_h264_pixels2_12_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels2_12_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels4_12_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels4_12_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels8_12_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels8_12_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels16_12_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels16_12_c'
+Lines executed:0.00% of 1
+
+Function 'h264_h_loop_filter_chroma422_mbaff_intra_10_c'
+Lines executed:700.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_intra_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_intra_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_intra_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_chroma_intra_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_mbaff_10_c'
+Lines executed:1033.33% of 3
+
+Function 'h264_h_loop_filter_chroma422_10_c'
+Lines executed:133.33% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_chroma_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_intra_10_c'
+Lines executed:1100.00% of 3
+
+Function 'h264_h_loop_filter_luma_intra_10_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_luma_intra_10_c'
+Lines executed:200.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_10_c'
+Lines executed:1133.33% of 3
+
+Function 'h264_h_loop_filter_luma_10_c'
+Lines executed:200.00% of 3
+
+Function 'h264_v_loop_filter_luma_10_c'
+Lines executed:100.00% of 3
+
+Function 'biweight_h264_pixels2_10_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels2_10_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels4_10_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels4_10_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels8_10_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels8_10_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels16_10_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels16_10_c'
+Lines executed:0.00% of 1
+
+Function 'h264_h_loop_filter_chroma422_mbaff_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_chroma_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_mbaff_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_chroma_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_luma_intra_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_9_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_luma_9_c'
+Lines executed:100.00% of 3
+
+Function 'biweight_h264_pixels2_9_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels2_9_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels4_9_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels4_9_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels8_9_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels8_9_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels16_9_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels16_9_c'
+Lines executed:0.00% of 1
+
+Function 'h264_h_loop_filter_chroma422_mbaff_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_chroma_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma422_mbaff_8_c'
+Lines executed:100.00% of 6
+
+Function 'h264_h_loop_filter_chroma422_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_mbaff_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_chroma_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_chroma_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_luma_intra_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_mbaff_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_h_loop_filter_luma_8_c'
+Lines executed:100.00% of 3
+
+Function 'h264_v_loop_filter_luma_8_c'
+Lines executed:100.00% of 3
+
+Function 'biweight_h264_pixels2_8_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels2_8_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels4_8_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels4_8_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels8_8_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels8_8_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_h264_pixels16_8_c'
+Lines executed:0.00% of 1
+
+Function 'weight_h264_pixels16_8_c'
+Lines executed:0.00% of 1
+
+File 'libavcodec/h264dsp.c'
+Lines executed:100.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264dsp.gcno##libavcodec#h264dsp.c.gcov'
+
+File 'libavcodec/h264addpx_template.c'
+Lines executed:100.00% of 96
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264dsp.gcno##libavcodec#h264addpx_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/h264dsp_template.c'
+Lines executed:67.95% of 443
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264dsp.gcno##libavcodec#h264dsp_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:75.22% of 573

@@ -1,0 +1,11 @@
+Function 'yuv4_decode_frame'
+Lines executed:0.00% of 24
+
+Function 'yuv4_decode_init'
+Lines executed:0.00% of 3
+
+File 'libavcodec/yuv4dec.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#yuv4dec.gcno##libavcodec#yuv4dec.c.gcov'
+
+Lines executed:0.00% of 27

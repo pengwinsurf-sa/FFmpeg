@@ -1,0 +1,11 @@
+Function 'daud_write_packet'
+Lines executed:0.00% of 5
+
+Function 'daud_init'
+Lines executed:0.00% of 11
+
+File 'libavformat/daudenc.c'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#daudenc.gcno##libavformat#daudenc.c.gcov'
+
+Lines executed:0.00% of 16

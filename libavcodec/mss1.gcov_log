@@ -1,0 +1,54 @@
+Function 'mss1_decode_end'
+Lines executed:0.00% of 5
+
+Function 'mss1_decode_init'
+Lines executed:0.00% of 10
+
+Function 'mss1_decode_frame'
+Lines executed:0.00% of 55
+
+Function 'decode_pal'
+Lines executed:0.00% of 10
+
+Function 'arith_get_model_sym'
+Lines executed:0.00% of 1
+
+Function 'arith_get_prob'
+Lines executed:0.00% of 9
+
+Function 'arith_get_number'
+Lines executed:0.00% of 8
+
+Function 'arith_get_bits'
+Lines executed:0.00% of 8
+
+Function 'arith_get_bit'
+Lines executed:0.00% of 1
+
+Function 'arith_normalise'
+Lines executed:0.00% of 32
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/mss1.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss1.gcno##libavcodec#mss1.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss1.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss1.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss1.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss1.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 158

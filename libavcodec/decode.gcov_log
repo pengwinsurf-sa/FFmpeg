@@ -1,0 +1,232 @@
+Function 'ff_decode_internal_uninit'
+Lines executed:0.00% of 5
+
+Function 'ff_decode_internal_sync'
+Lines executed:0.00% of 5
+
+Function 'ff_decode_internal_alloc'
+Lines executed:0.00% of 2
+
+Function 'ff_decode_flush_buffers'
+Lines executed:0.00% of 12
+
+Function 'ff_hwaccel_frame_priv_alloc'
+Lines executed:0.00% of 16
+
+Function 'ff_copy_palette'
+Lines executed:0.00% of 10
+
+Function 'ff_decode_content_light_new'
+Lines executed:0.00% of 6
+
+Function 'ff_decode_content_light_new_ext'
+Lines executed:0.00% of 16
+
+Function 'ff_decode_mastering_display_new'
+Lines executed:0.00% of 6
+
+Function 'ff_decode_mastering_display_new_ext'
+Lines executed:0.00% of 16
+
+Function 'ff_frame_new_side_data_from_buf'
+Lines executed:0.00% of 2
+
+Function 'ff_frame_new_side_data_from_buf_ext'
+Lines executed:0.00% of 9
+
+Function 'ff_frame_new_side_data'
+Lines executed:0.00% of 10
+
+Function 'side_data_pref'
+Lines executed:0.00% of 7
+
+Function 'ff_decode_preinit'
+Lines executed:0.00% of 68
+
+Function 'progress_frame_pool_free_entry_cb'
+Lines executed:0.00% of 5
+
+Function 'progress_frame_pool_reset_cb'
+Lines executed:0.00% of 7
+
+Function 'progress_frame_pool_init_cb'
+Lines executed:0.00% of 9
+
+Function 'ff_progress_frame_await'
+Lines executed:0.00% of 3
+
+Function 'ff_progress_frame_report'
+Lines executed:0.00% of 3
+
+Function 'ff_progress_frame_replace'
+Lines executed:0.00% of 6
+
+Function 'ff_progress_frame_unref'
+Lines executed:0.00% of 5
+
+Function 'ff_progress_frame_ref'
+Lines executed:0.00% of 6
+
+Function 'ff_progress_frame_get_buffer'
+Lines executed:0.00% of 8
+
+Function 'ff_progress_frame_alloc'
+Lines executed:0.00% of 7
+
+Function 'ff_reget_buffer'
+Lines executed:0.00% of 5
+
+Function 'reget_buffer_internal'
+Lines executed:0.00% of 24
+
+Function 'ff_get_buffer'
+Lines executed:0.00% of 56
+
+Function 'attach_post_process_data'
+Lines executed:0.00% of 29
+
+Function 'update_frame_props'
+Lines executed:0.00% of 11
+
+Function 'ff_attach_decode_data'
+Lines executed:0.00% of 8
+
+Function 'decode_data_free'
+Lines executed:0.00% of 7
+
+Function 'validate_avframe_allocation'
+Lines executed:0.00% of 15
+
+Function 'ff_decode_frame_props'
+Lines executed:0.00% of 23
+
+Function 'ff_decode_frame_props_from_pkt'
+Lines executed:0.00% of 16
+
+Function 'add_metadata_from_side_data'
+Lines executed:0.00% of 6
+
+Function 'side_data_map'
+Lines executed:0.00% of 22
+
+Function 'side_data_stereo3d_merge'
+Lines executed:0.00% of 21
+
+Function 'ff_get_coded_side_data'
+Lines executed:0.00% of 2
+
+Function 'ff_get_format'
+Lines executed:0.00% of 78
+
+Function 'ff_hwaccel_uninit'
+Lines executed:0.00% of 7
+
+Function 'hwaccel_init'
+Lines executed:0.00% of 20
+
+Function 'avcodec_get_hw_frames_parameters'
+Lines executed:0.00% of 32
+
+Function 'ff_decode_get_hw_frames_ctx'
+Lines executed:0.00% of 23
+
+Function 'avcodec_default_get_format'
+Lines executed:0.00% of 29
+
+Function 'avcodec_decode_subtitle2'
+Lines executed:0.00% of 45
+
+Function 'utf8_check'
+Lines executed:0.00% of 11
+
+Function 'recode_subtitle'
+Lines executed:0.00% of 42
+
+Function 'get_subtitle_defaults'
+Lines executed:0.00% of 4
+
+Function 'ff_decode_receive_frame'
+Lines executed:0.00% of 19
+
+Function 'frame_validate'
+Lines executed:0.00% of 15
+
+Function 'apply_cropping'
+Lines executed:0.00% of 13
+
+Function 'avcodec_send_packet'
+Lines executed:0.00% of 16
+
+Function 'decode_receive_frame_internal'
+Lines executed:0.00% of 30
+
+Function 'ff_decode_receive_frame_internal'
+Lines executed:0.00% of 25
+
+Function 'decode_simple_receive_frame'
+Lines executed:0.00% of 8
+
+Function 'fill_frame_props'
+Lines executed:0.00% of 23
+
+Function 'decode_simple_internal'
+Lines executed:0.00% of 56
+
+Function 'discard_samples'
+Lines executed:0.00% of 62
+
+Function 'guess_correct_pts'
+Lines executed:0.00% of 16
+
+Function 'ff_decode_get_packet'
+Lines executed:0.00% of 16
+
+Function 'decode_get_packet'
+Lines executed:0.00% of 15
+
+Function 'decode_bsfs_init'
+Lines executed:0.00% of 24
+
+Function 'extract_packet_props'
+Lines executed:0.00% of 6
+
+Function 'apply_param_change'
+Lines executed:0.00% of 42
+
+File 'libavcodec/decode.c'
+Lines executed:0.00% of 1148
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavcodec#decode.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/frame.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavutil#frame.h.gcov'
+
+File 'libavcodec/threadprogress.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavcodec#threadprogress.h.gcov'
+
+File 'libavcodec/codec_internal.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavcodec#codec_internal.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavutil#error.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#decode.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 1171

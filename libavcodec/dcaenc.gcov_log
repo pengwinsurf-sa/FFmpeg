@@ -1,0 +1,162 @@
+Function 'encode_frame'
+Lines executed:0.00% of 45
+
+Function 'put_subframe'
+Lines executed:0.00% of 50
+
+Function 'put_subframe_samples'
+Lines executed:0.00% of 24
+
+Function 'put_primary_audio_header'
+Lines executed:0.00% of 24
+
+Function 'put_frame_header'
+Lines executed:0.00% of 29
+
+Function 'calc_lfe_scales'
+Lines executed:0.00% of 4
+
+Function 'fill_in_adpcm_bufer'
+Lines executed:0.00% of 31
+
+Function 'assign_bits'
+Lines executed:0.00% of 31
+
+Function 'init_quantization_noise'
+Lines executed:0.00% of 49
+
+Function 'set_best_abits_code'
+Lines executed:0.00% of 20
+
+Function 'set_best_code'
+Lines executed:0.00% of 23
+
+Function 'accumulate_huff_bit_consumption'
+Lines executed:0.00% of 9
+
+Function 'quantize_pcm'
+Lines executed:0.00% of 9
+
+Function 'quantize_adpcm'
+Lines executed:0.00% of 7
+
+Function 'quantize_adpcm_subband'
+Lines executed:0.00% of 11
+
+Function 'calc_one_scale'
+Lines executed:0.00% of 20
+
+Function 'adpcm_analysis'
+Lines executed:0.00% of 26
+
+Function 'find_peaks'
+Lines executed:0.00% of 8
+
+Function 'calc_masking'
+Lines executed:0.00% of 23
+
+Function 'update_band_masking'
+Lines executed:0.00% of 5
+
+Function 'walk_band_high'
+Lines executed:0.00% of 9
+
+Function 'walk_band_low'
+Lines executed:0.00% of 9
+
+Function 'adjust_jnd'
+Lines executed:0.00% of 25
+
+Function 'calc_power'
+Lines executed:0.00% of 14
+
+Function 'dca_vlc_enc_quant'
+Lines executed:0.00% of 5
+
+Function 'dca_vlc_enc_alloc'
+Lines executed:0.00% of 5
+
+Function 'lfe_downsample'
+Lines executed:0.00% of 19
+
+Function 'subband_transform'
+Lines executed:0.00% of 30
+
+Function 'encode_close'
+Lines executed:0.00% of 11
+
+Function 'encode_init'
+Lines executed:0.00% of 99
+
+Function 'dcaenc_init_static_tables'
+Lines executed:0.00% of 11
+
+Function 'create_enc_table'
+Lines executed:0.00% of 10
+
+Function 'subband_bufer_alloc'
+Lines executed:0.00% of 9
+
+Function 'gammafilter'
+Lines executed:0.00% of 5
+
+Function 'hom'
+Lines executed:0.00% of 6
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'ff_dca_core_dequantize'
+Lines executed:0.00% of 17
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/dcaenc.c'
+Lines executed:0.00% of 670
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavcodec#dcaenc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/dcaenc.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavcodec#dcaenc.h.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavcodec#dcamath.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavutil#ffmath.h.gcov'
+
+File 'libavcodec/dca_core.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavcodec#dca_core.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 767

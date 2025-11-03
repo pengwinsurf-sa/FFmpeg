@@ -1,0 +1,35 @@
+Function 'crypto_close'
+Lines executed:0.00% of 18
+
+Function 'crypto_write'
+Lines executed:0.00% of 26
+
+Function 'crypto_seek'
+Lines executed:0.00% of 56
+
+Function 'crypto_read'
+Lines executed:0.00% of 39
+
+Function 'crypto_open2'
+Lines executed:0.00% of 46
+
+Function 'set_aes_arg'
+Lines executed:0.00% of 14
+
+File 'libavformat/crypto.c'
+Lines executed:0.00% of 184
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#crypto.gcno##libavformat#crypto.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#crypto.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#crypto.gcno##libavformat#url.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#crypto.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 199

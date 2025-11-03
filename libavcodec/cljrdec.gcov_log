@@ -1,0 +1,26 @@
+Function 'decode_init'
+Lines executed:0.00% of 3
+
+Function 'decode_frame'
+Lines executed:0.00% of 41
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/cljrdec.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cljrdec.gcno##libavcodec#cljrdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cljrdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cljrdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cljrdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 63

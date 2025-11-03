@@ -1,0 +1,58 @@
+Function 'flush'
+Lines executed:0.00% of 7
+
+Function 'wma_decode_superframe'
+Lines executed:0.00% of 134
+
+Function 'wma_decode_frame'
+Lines executed:0.00% of 16
+
+Function 'wma_decode_block'
+Lines executed:0.00% of 231
+
+Function 'wma_window'
+Lines executed:0.00% of 26
+
+Function 'decode_exp_vlc'
+Lines executed:0.00% of 42
+
+Function 'decode_exp_lsp'
+Lines executed:0.00% of 10
+
+Function 'wma_lsp_to_curve'
+Lines executed:0.00% of 31
+
+Function 'wma_lsp_to_curve_init'
+Lines executed:0.00% of 17
+
+Function 'wma_decode_init'
+Lines executed:0.00% of 40
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/wmadec.c'
+Lines executed:0.00% of 493
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmadec.gcno##libavcodec#wmadec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmadec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmadec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmadec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmadec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmadec.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 564

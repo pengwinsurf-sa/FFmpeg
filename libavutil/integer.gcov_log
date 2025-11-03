@@ -1,0 +1,39 @@
+Function 'av_i2int'
+Lines executed:0.00% of 5
+
+Function 'av_int2i'
+Lines executed:0.00% of 7
+
+Function 'av_div_i'
+Lines executed:0.00% of 4
+
+Function 'av_mod_i'
+Lines executed:0.00% of 22
+
+Function 'av_shr_i'
+Lines executed:0.00% of 10
+
+Function 'av_cmp_i'
+Lines executed:0.00% of 7
+
+Function 'av_mul_i'
+Lines executed:0.00% of 13
+
+Function 'av_log2_i'
+Lines executed:0.00% of 5
+
+Function 'av_sub_i'
+Lines executed:0.00% of 6
+
+Function 'av_add_i'
+Lines executed:0.00% of 6
+
+File 'libavutil/integer.c'
+Lines executed:0.00% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#integer.gcno##libavutil#integer.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#integer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 85

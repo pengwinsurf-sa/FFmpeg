@@ -1,0 +1,27 @@
+Function 'phm_enc_init'
+Lines executed:0.00% of 4
+
+Function 'pnm_encode_frame'
+Lines executed:0.00% of 144
+
+File 'libavcodec/pnmenc.c'
+Lines executed:0.00% of 136
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnmenc.gcno##libavcodec#pnmenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnmenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnmenc.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/float2half.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnmenc.gcno##libavutil#float2half.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pnmenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 148

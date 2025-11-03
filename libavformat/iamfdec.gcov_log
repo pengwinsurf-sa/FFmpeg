@@ -1,0 +1,24 @@
+Function 'iamf_read_close'
+Lines executed:0.00% of 4
+
+Function 'iamf_read_packet'
+Lines executed:0.00% of 5
+
+Function 'iamf_read_header'
+Lines executed:0.00% of 69
+
+Function 'iamf_probe'
+Lines executed:0.00% of 13
+
+Function 'get_score'
+Lines executed:0.00% of 11
+
+File 'libavformat/iamfdec.c'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamfdec.gcno##libavformat#iamfdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamfdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 102

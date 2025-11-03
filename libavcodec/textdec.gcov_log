@@ -1,0 +1,14 @@
+Function 'linebreak_init'
+Lines executed:0.00% of 4
+
+Function 'text_flush'
+Lines executed:0.00% of 5
+
+Function 'text_decode_frame'
+Lines executed:0.00% of 13
+
+File 'libavcodec/textdec.c'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#textdec.gcno##libavcodec#textdec.c.gcov'
+
+Lines executed:0.00% of 22

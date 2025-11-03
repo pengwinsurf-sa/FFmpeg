@@ -1,0 +1,21 @@
+Function 'rl2_decode_end'
+Lines executed:0.00% of 4
+
+Function 'rl2_decode_frame'
+Lines executed:0.00% of 12
+
+Function 'rl2_decode_init'
+Lines executed:0.00% of 26
+
+Function 'rl2_rle_decode'
+Lines executed:0.00% of 54
+
+File 'libavcodec/rl2.c'
+Lines executed:0.00% of 94
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rl2.gcno##libavcodec#rl2.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rl2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 96

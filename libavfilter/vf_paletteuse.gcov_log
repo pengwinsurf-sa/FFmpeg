@@ -1,0 +1,110 @@
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'init'
+Lines executed:0.00% of 10
+
+Function 'dither_value'
+Lines executed:0.00% of 5
+
+Function 'set_frame_atkinson'
+Lines executed:0.00% of 67
+
+Function 'set_frame_burkes'
+Lines executed:0.00% of 14
+
+Function 'set_frame_sierra3'
+Lines executed:0.00% of 18
+
+Function 'set_frame_sierra2_4a'
+Lines executed:0.00% of 8
+
+Function 'set_frame_sierra2'
+Lines executed:0.00% of 14
+
+Function 'set_frame_floyd_steinberg'
+Lines executed:0.00% of 9
+
+Function 'set_frame_heckbert'
+Lines executed:0.00% of 8
+
+Function 'set_frame_bayer'
+Lines executed:0.00% of 14
+
+Function 'set_frame_none'
+Lines executed:0.00% of 5
+
+Function 'load_apply_palette'
+Lines executed:0.00% of 17
+
+Function 'load_palette'
+Lines executed:0.00% of 24
+
+Function 'config_input_palette'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 13
+
+Function 'apply_palette'
+Lines executed:0.00% of 30
+
+Function 'set_processing_window'
+Lines executed:0.00% of 58
+
+Function 'load_colormap'
+Lines executed:0.00% of 23
+
+Function 'cmp_pal_entry'
+Lines executed:0.00% of 4
+
+Function 'colormap_insert'
+Lines executed:0.00% of 28
+
+Function 'get_next_color'
+Lines executed:0.00% of 37
+
+Function 'cmp_b'
+Lines executed:0.00% of 1
+
+Function 'cmp_a'
+Lines executed:0.00% of 1
+
+Function 'cmp_L'
+Lines executed:0.00% of 1
+
+Function 'disp_tree'
+Lines executed:0.00% of 20
+
+Function 'disp_node'
+Lines executed:0.00% of 17
+
+Function 'colormap_nearest_node'
+Lines executed:0.00% of 26
+
+Function 'get_color_from_srgb'
+No executable lines
+
+Function 'query_formats'
+Lines executed:0.00% of 12
+
+File 'libavfilter/vf_paletteuse.c'
+Lines executed:0.00% of 490
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_paletteuse.gcno##libavfilter#vf_paletteuse.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_paletteuse.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_paletteuse.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_paletteuse.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 500

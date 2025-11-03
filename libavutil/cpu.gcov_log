@@ -1,0 +1,23 @@
+Function 'av_cpu_max_align'
+Lines executed:0.00% of 2
+
+Function 'av_cpu_force_count'
+Lines executed:0.00% of 3
+
+Function 'av_cpu_count'
+Lines executed:0.00% of 15
+
+Function 'av_parse_cpu_caps'
+Lines executed:0.00% of 5
+
+Function 'av_get_cpu_flags'
+Lines executed:100.00% of 8
+
+Function 'av_force_cpu_flags'
+Lines executed:75.00% of 8
+
+File 'libavutil/cpu.c'
+Lines executed:34.15% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#cpu.gcno##libavutil#cpu.c.gcov'
+
+Lines executed:34.15% of 41

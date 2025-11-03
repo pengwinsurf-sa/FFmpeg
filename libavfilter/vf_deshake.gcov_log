@@ -1,0 +1,40 @@
+Function 'filter_frame'
+Lines executed:0.00% of 80
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'config_props'
+Lines executed:0.00% of 8
+
+Function 'init'
+Lines executed:0.00% of 23
+
+Function 'deshake_transform_c'
+Lines executed:0.00% of 14
+
+Function 'find_motion'
+Lines executed:0.00% of 57
+
+Function 'block_angle'
+Lines executed:0.00% of 7
+
+Function 'find_block_motion'
+Lines executed:0.00% of 36
+
+Function 'clean_mean'
+Lines executed:0.00% of 10
+
+File 'libavfilter/vf_deshake.c'
+Lines executed:0.00% of 235
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deshake.gcno##libavfilter#vf_deshake.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deshake.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deshake.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 243

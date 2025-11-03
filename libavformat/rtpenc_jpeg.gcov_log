@@ -1,0 +1,20 @@
+Function 'ff_rtp_send_jpeg'
+Lines executed:0.00% of 140
+
+File 'libavformat/rtpenc_jpeg.c'
+Lines executed:0.00% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_jpeg.gcno##libavformat#rtpenc_jpeg.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_jpeg.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_jpeg.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_jpeg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 140

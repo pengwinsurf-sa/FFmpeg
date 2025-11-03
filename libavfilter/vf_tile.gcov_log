@@ -1,0 +1,33 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'request_frame'
+Lines executed:0.00% of 9
+
+Function 'filter_frame'
+Lines executed:0.00% of 40
+
+Function 'end_last_frame'
+Lines executed:0.00% of 14
+
+Function 'draw_blank_frame'
+Lines executed:0.00% of 9
+
+Function 'config_props'
+Lines executed:0.00% of 28
+
+Function 'query_formats'
+Lines executed:0.00% of 2
+
+Function 'init'
+Lines executed:0.00% of 21
+
+File 'libavfilter/vf_tile.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tile.gcno##libavfilter#vf_tile.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tile.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 128

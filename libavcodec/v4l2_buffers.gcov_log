@@ -1,0 +1,69 @@
+Function 'ff_v4l2_buffer_enqueue'
+Lines executed:0.00% of 8
+
+Function 'ff_v4l2_buffer_initialize'
+Lines executed:0.00% of 38
+
+Function 'ff_v4l2_buffer_avpkt_to_buf'
+Lines executed:0.00% of 7
+
+Function 'ff_v4l2_buffer_buf_to_avpkt'
+Lines executed:0.00% of 16
+
+Function 'ff_v4l2_buffer_buf_to_avframe'
+Lines executed:0.00% of 29
+
+Function 'ff_v4l2_buffer_avframe_to_buf'
+Lines executed:0.00% of 3
+
+Function 'v4l2_buffer_swframe_to_buf'
+Lines executed:0.00% of 28
+
+Function 'v4l2_buffer_buf_to_swframe'
+Lines executed:0.00% of 22
+
+Function 'v4l2_bufref_to_buf'
+Lines executed:0.00% of 13
+
+Function 'v4l2_buf_to_bufref'
+Lines executed:0.00% of 8
+
+Function 'v4l2_buf_increase_ref'
+Lines executed:0.00% of 9
+
+Function 'v4l2_free_buffer'
+Lines executed:0.00% of 14
+
+Function 'v4l2_get_interlacing'
+Lines executed:0.00% of 11
+
+Function 'v4l2_get_color_trc'
+Lines executed:0.00% of 24
+
+Function 'v4l2_get_color_space'
+Lines executed:0.00% of 20
+
+Function 'v4l2_get_color_primaries'
+Lines executed:0.00% of 14
+
+Function 'v4l2_get_pts'
+Lines executed:0.00% of 5
+
+Function 'v4l2_set_pts'
+Lines executed:0.00% of 8
+
+Function 'v4l2_get_timebase'
+Lines executed:0.00% of 5
+
+Function 'buf_to_m2mctx'
+Lines executed:0.00% of 4
+
+File 'libavcodec/v4l2_buffers.c'
+Lines executed:0.00% of 284
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_buffers.gcno##libavcodec#v4l2_buffers.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_buffers.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 286

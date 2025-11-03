@@ -1,0 +1,30 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 18
+
+Function 'config_props'
+Lines executed:0.00% of 57
+
+Function 'query_formats'
+Lines executed:0.00% of 9
+
+Function 'init'
+Lines executed:0.00% of 89
+
+Function 'are_gains_pure'
+Lines executed:0.00% of 7
+
+Function 'parse_channel_name'
+Lines executed:0.00% of 17
+
+File 'libavfilter/af_pan.c'
+Lines executed:0.00% of 200
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_pan.gcno##libavfilter#af_pan.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_pan.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 202

@@ -1,0 +1,42 @@
+Function 'filter_frame'
+Lines executed:0.00% of 42
+
+Function 'config_input'
+Lines executed:0.00% of 25
+
+Function 'filter_slice_alpha16'
+Lines executed:0.00% of 14
+
+Function 'filter_slice_alpha'
+Lines executed:0.00% of 14
+
+Function 'filter_slice_chroma16'
+Lines executed:0.00% of 17
+
+Function 'filter_slice_chroma'
+Lines executed:0.00% of 15
+
+Function 'filter_slice_luma16'
+Lines executed:0.00% of 13
+
+Function 'filter_slice_luma'
+Lines executed:0.00% of 13
+
+Function 'filter_slice_rgb'
+Lines executed:0.00% of 44
+
+Function 'query_formats'
+Lines executed:0.00% of 13
+
+Function 'init'
+Lines executed:0.00% of 15
+
+File 'libavfilter/vf_fade.c'
+Lines executed:0.00% of 219
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fade.gcno##libavfilter#vf_fade.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fade.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 225

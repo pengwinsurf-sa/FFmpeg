@@ -1,0 +1,21 @@
+Function 'wsd_read_header'
+Lines executed:0.00% of 51
+
+Function 'get_metadata'
+Lines executed:0.00% of 16
+
+Function 'wsd_to_av_channel_layoyt'
+Lines executed:0.00% of 19
+
+Function 'wsd_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/wsddec.c'
+Lines executed:0.00% of 91
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wsddec.gcno##libavformat#wsddec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wsddec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 93

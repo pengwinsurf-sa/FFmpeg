@@ -36,6 +36,7 @@
 #include "libavutil/opt.h"
 #include "libavutil/pixdesc.h"
 #include "libavutil/stereo3d.h"
+#include "libavutil/tdrdi.h"
 #include "libavutil/timecode.h"
 
 #include "aom_film_grain.h"
@@ -44,6 +45,7 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include "golomb.h"
+#include "h274.h"
 #include "hevc.h"
 #include "parse.h"
 #include "hevcdec.h"
@@ -151,10 +153,10 @@ static int pic_arrays_init(HEVCLayerContext *l, const HEVCSPS *sps)
             int w = sps->width >> sps->hshift[c_idx];
             int h = sps->height >> sps->vshift[c_idx];
             l->sao_pixel_buffer_h[c_idx] =
-                av_malloc((w * 2 * sps->ctb_height) <<
+                av_mallocz((w * 2 * sps->ctb_height) <<
                           sps->pixel_shift);
             l->sao_pixel_buffer_v[c_idx] =
-                av_malloc((h * 2 * sps->ctb_width) <<
+                av_mallocz((h * 2 * sps->ctb_width) <<
                           sps->pixel_shift);
             if (!l->sao_pixel_buffer_h[c_idx] ||
                 !l->sao_pixel_buffer_v[c_idx])
@@ -2095,7 +2097,7 @@ static void hls_prediction_unit(HEVCLocalContext *lc,
                                 int log2_cb_size, int partIdx, int idx)
 {
 #define POS(c_idx, x, y)                                                          \
-    &s->cur_frame->f->data[c_idx] ?                                               \
+    s->cur_frame->f->data[c_idx] ?                                                \
     &s->cur_frame->f->data[c_idx][((y) >> sps->vshift[c_idx]) * linesize[c_idx] + \
                            (((x) >> sps->hshift[c_idx]) << sps->pixel_shift)] : NULL
     const HEVCContext *const s = lc->parent;
@@ -2751,7 +2753,7 @@ static int hls_decode_entry(HEVCContext *s, GetBitContext *gb)
     const HEVCPPS   *const pps = s->pps;
     const HEVCSPS   *const sps = pps->sps;
     const uint8_t *slice_data = gb->buffer + s->sh.data_offset;
-    const size_t   slice_size = gb->buffer_end - gb->buffer - s->sh.data_offset;
+    const size_t   slice_size = get_bits_bytesize(gb, 1) - s->sh.data_offset;
     int ctb_size    = 1 << sps->log2_ctb_size;
     int more_data   = 1;
     int x_ctb       = 0;
@@ -3495,8 +3497,7 @@ static int hevc_frame_end(HEVCContext *s, HEVCLayerContext *l)
             av_assert0(0);
             return AVERROR_BUG;
         case AV_FILM_GRAIN_PARAMS_H274:
-            ret = ff_h274_apply_film_grain(out->frame_grain, out->f,
-                                           &s->h274db, fgp);
+            ret = ff_h274_apply_film_grain(out->frame_grain, out->f, fgp);
             break;
         case AV_FILM_GRAIN_PARAMS_AV1:
             ret = ff_aom_apply_film_grain(out->frame_grain, out->f, fgp);
@@ -3543,7 +3544,7 @@ static int decode_slice(HEVCContext *s, unsigned nal_idx, GetBitContext *gb)
 
     ret = hls_slice_header(&s->sh, s, gb);
     if (ret < 0) {
-        // hls_slice_header() does not cleanup on failure thus the state now is inconsistant so we cannot use it on depandant slices
+        // hls_slice_header() does not cleanup on failure thus the state now is inconsistent so we cannot use it on dependent slices
         s->slice_initialized = 0;
         return ret;
     }
@@ -3746,8 +3747,10 @@ static int decode_nal_units(HEVCContext *s, const uint8_t *buf, int length)
         }
 
         s->rpu_buf = av_buffer_alloc(nal->raw_size - 2);
-        if (!s->rpu_buf)
-            return AVERROR(ENOMEM);
+        if (!s->rpu_buf) {
+            ret = AVERROR(ENOMEM);
+            goto fail;
+        }
         memcpy(s->rpu_buf->data, nal->raw_data + 2, nal->raw_size - 2);
 
         ret = ff_dovi_rpu_parse(&s->dovi_ctx, nal->data + 2, nal->size - 2,
@@ -4099,6 +4102,55 @@ static int hevc_update_thread_context(AVCodecContext *dst,
 }
 #endif
 
+static int hevc_sei_to_context(AVCodecContext *avctx, HEVCSEI *sei)
+{
+    int ret;
+
+    if (sei->tdrdi.present) {
+        AVBufferRef *buf;
+        size_t size;
+        AV3DReferenceDisplaysInfo *tdrdi = av_tdrdi_alloc(sei->tdrdi.num_ref_displays, &size);
+
+        if (!tdrdi)
+            return AVERROR(ENOMEM);
+
+        buf = av_buffer_create((uint8_t *)tdrdi, size, NULL, NULL, 0);
+        if (!buf) {
+            av_free(tdrdi);
+            return AVERROR(ENOMEM);
+        }
+
+        tdrdi->prec_ref_display_width = sei->tdrdi.prec_ref_display_width;
+        tdrdi->ref_viewing_distance_flag = sei->tdrdi.ref_viewing_distance_flag;
+        tdrdi->prec_ref_viewing_dist = sei->tdrdi.prec_ref_viewing_dist;
+        tdrdi->num_ref_displays = sei->tdrdi.num_ref_displays;
+        for (int i = 0; i < sei->tdrdi.num_ref_displays; i++) {
+            AV3DReferenceDisplay *display = av_tdrdi_get_display(tdrdi, i);
+
+            display->left_view_id                  = sei->tdrdi.left_view_id[i];
+            display->right_view_id                 = sei->tdrdi.right_view_id[i];
+            display->exponent_ref_display_width    = sei->tdrdi.exponent_ref_display_width[i];
+            display->mantissa_ref_display_width    = sei->tdrdi.mantissa_ref_display_width[i];
+            display->exponent_ref_viewing_distance = sei->tdrdi.exponent_ref_viewing_distance[i];
+            display->mantissa_ref_viewing_distance = sei->tdrdi.mantissa_ref_viewing_distance[i];
+            display->additional_shift_present_flag = sei->tdrdi.additional_shift_present_flag[i];
+            display->num_sample_shift              = sei->tdrdi.num_sample_shift[i];
+        }
+        ret = ff_frame_new_side_data_from_buf_ext(avctx, &avctx->decoded_side_data, &avctx->nb_decoded_side_data,
+                                                  AV_FRAME_DATA_3D_REFERENCE_DISPLAYS, &buf);
+        if (ret < 0) {
+            av_buffer_unref(&buf);
+            return ret;
+        }
+    }
+
+    ret = ff_h2645_sei_to_context(avctx, &sei->common);
+    if (ret < 0)
+        return ret;
+
+    return 0;
+}
+
 static av_cold int hevc_decode_init(AVCodecContext *avctx)
 {
     HEVCContext *s = avctx->priv_data;
@@ -4122,7 +4174,7 @@ static av_cold int hevc_decode_init(AVCodecContext *avctx)
                 return ret;
             }
 
-            ret = ff_h2645_sei_to_context(avctx, &s->sei.common);
+            ret = hevc_sei_to_context(avctx, &s->sei);
             if (ret < 0)
                 return ret;
         }
@@ -4135,7 +4187,7 @@ static av_cold int hevc_decode_init(AVCodecContext *avctx)
     return 0;
 }
 
-static void hevc_decode_flush(AVCodecContext *avctx)
+static av_cold void hevc_decode_flush(AVCodecContext *avctx)
 {
     HEVCContext *s = avctx->priv_data;
     ff_hevc_flush_dpb(s);
@@ -4154,7 +4206,7 @@ static void hevc_decode_flush(AVCodecContext *avctx)
 static const AVOption options[] = {
     { "apply_defdispwin", "Apply default display window from VUI", OFFSET(apply_defdispwin),
         AV_OPT_TYPE_BOOL, {.i64 = 0}, 0, 1, PAR },
-    { "strict-displaywin", "stricly apply default display window size", OFFSET(apply_defdispwin),
+    { "strict-displaywin", "strictly apply default display window size", OFFSET(apply_defdispwin),
         AV_OPT_TYPE_BOOL, {.i64 = 0}, 0, 1, PAR },
     { "view_ids", "Array of view IDs that should be decoded and output; a single -1 to decode all views",
         .offset = OFFSET(view_ids), .type = AV_OPT_TYPE_INT | AV_OPT_TYPE_FLAG_ARRAY,

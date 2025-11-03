@@ -1,0 +1,11 @@
+Function 'vcr1_decode_frame'
+Lines executed:0.00% of 46
+
+Function 'vcr1_decode_init'
+Lines executed:0.00% of 5
+
+File 'libavcodec/vcr1.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vcr1.gcno##libavcodec#vcr1.c.gcov'
+
+Lines executed:0.00% of 51

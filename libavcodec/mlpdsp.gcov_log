@@ -1,0 +1,20 @@
+Function 'ff_mlpdsp_init'
+Lines executed:0.00% of 6
+
+Function 'ff_mlp_pack_output'
+Lines executed:0.00% of 14
+
+Function 'mlp_select_pack_output'
+Lines executed:0.00% of 2
+
+Function 'ff_mlp_rematrix_channel'
+Lines executed:0.00% of 14
+
+Function 'mlp_filter_channel'
+Lines executed:0.00% of 22
+
+File 'libavcodec/mlpdsp.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdsp.gcno##libavcodec#mlpdsp.c.gcov'
+
+Lines executed:0.00% of 58

@@ -1,0 +1,23 @@
+Function 'ff_diracdsp_init_x86'
+Lines executed:100.00% of 17
+
+Function 'dirac_hpel_filter_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_dirac_pixels32_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_dirac_pixels16_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_dirac_pixels32_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_dirac_pixels16_sse2'
+Lines executed:0.00% of 1
+
+File 'libavcodec/x86/diracdsp_init.c'
+Lines executed:70.83% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#diracdsp_init.gcno##libavcodec#x86#diracdsp_init.c.gcov'
+
+Lines executed:70.83% of 24

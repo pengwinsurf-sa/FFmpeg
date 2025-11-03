@@ -1,0 +1,12 @@
+Function 'ff_voc_get_packet'
+Lines executed:0.00% of 99
+
+File 'libavformat/voc_packet.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#voc_packet.gcno##libavformat#voc_packet.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#voc_packet.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 99

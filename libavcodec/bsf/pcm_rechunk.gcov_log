@@ -1,0 +1,31 @@
+Function 'rechunk_filter'
+Lines executed:0.00% of 61
+
+Function 'set_silence'
+Lines executed:0.00% of 7
+
+Function 'get_next_nb_samples'
+Lines executed:0.00% of 9
+
+Function 'flush'
+Lines executed:0.00% of 6
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 17
+
+File 'libavcodec/bsf/pcm_rechunk.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#pcm_rechunk.gcno##libavcodec#bsf#pcm_rechunk.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#pcm_rechunk.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#pcm_rechunk.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 105

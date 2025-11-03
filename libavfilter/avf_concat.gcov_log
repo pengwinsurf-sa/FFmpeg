@@ -1,0 +1,52 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'activate'
+Lines executed:0.00% of 49
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'init'
+Lines executed:0.00% of 24
+
+Function 'flush_segment'
+Lines executed:0.00% of 16
+
+Function 'send_silence'
+Lines executed:0.00% of 25
+
+Function 'find_next_delta_ts'
+Lines executed:0.00% of 11
+
+Function 'close_input'
+Lines executed:0.00% of 7
+
+Function 'get_audio_buffer'
+Lines executed:0.00% of 5
+
+Function 'get_video_buffer'
+Lines executed:0.00% of 5
+
+Function 'push_frame'
+Lines executed:0.00% of 19
+
+Function 'config_output'
+Lines executed:0.00% of 33
+
+Function 'query_formats'
+Lines executed:0.00% of 29
+
+File 'libavfilter/avf_concat.c'
+Lines executed:0.00% of 226
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_concat.gcno##libavfilter#avf_concat.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_concat.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_concat.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 232

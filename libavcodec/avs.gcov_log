@@ -1,0 +1,18 @@
+Function 'avs_decode_end'
+Lines executed:0.00% of 4
+
+Function 'avs_decode_init'
+Lines executed:0.00% of 6
+
+Function 'avs_decode_frame'
+Lines executed:0.00% of 96
+
+File 'libavcodec/avs.c'
+Lines executed:0.00% of 76
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avs.gcno##libavcodec#avs.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avs.gcno##libavcodec#get_bits.h.gcov'
+
+Lines executed:0.00% of 106

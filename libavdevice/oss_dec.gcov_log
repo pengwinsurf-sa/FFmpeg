@@ -1,0 +1,18 @@
+Function 'audio_read_close'
+Lines executed:0.00% of 4
+
+Function 'audio_read_packet'
+Lines executed:0.00% of 26
+
+Function 'audio_read_header'
+Lines executed:0.00% of 14
+
+File 'libavdevice/oss_dec.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#oss_dec.gcno##libavdevice#oss_dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/unistd.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#oss_dec.gcno###usr#include#x86_64-linux-gnu#bits#unistd.h.gcov'
+
+Lines executed:0.00% of 44

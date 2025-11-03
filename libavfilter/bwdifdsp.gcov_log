@@ -1,0 +1,30 @@
+Function 'ff_bwdif_init_filter_line'
+Lines executed:100.00% of 11
+
+Function 'filter_edge_16bit'
+Lines executed:0.00% of 14
+
+Function 'filter_line_c_16bit'
+Lines executed:127.27% of 11
+
+Function 'filter_intra_16bit'
+Lines executed:0.00% of 6
+
+Function 'ff_bwdif_filter_edge_c'
+Lines executed:100.00% of 11
+
+Function 'ff_bwdif_filter_line_c'
+Lines executed:100.00% of 11
+
+Function 'ff_bwdif_filter_intra_c'
+Lines executed:100.00% of 6
+
+File 'libavfilter/bwdifdsp.c'
+Lines executed:74.63% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#bwdifdsp.gcno##libavfilter#bwdifdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#bwdifdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:75.71% of 70

@@ -1,0 +1,20 @@
+Function 'setsar_config_props'
+Lines executed:0.00% of 13
+
+Function 'setdar_config_props'
+Lines executed:0.00% of 20
+
+Function 'get_aspect_ratio'
+Lines executed:0.00% of 24
+
+Function 'compute_dar'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_aspect.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_aspect.gcno##libavfilter#vf_aspect.c.gcov'
+
+Lines executed:0.00% of 66

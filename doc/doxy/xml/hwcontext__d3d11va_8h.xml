@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hwcontext__d3d11va_8h" kind="file" language="C++">
+    <compoundname>hwcontext_d3d11va.h</compoundname>
+    <includes local="no">d3d11.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/hwcontext_d3d11va.h</label>
+        <link refid="hwcontext__d3d11va_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>d3d11.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVD3D11VADeviceContext" prot="public">AVD3D11VADeviceContext</innerclass>
+    <innerclass refid="structAVD3D11FrameDescriptor" prot="public">AVD3D11FrameDescriptor</innerclass>
+    <innerclass refid="structAVD3D11VAFramesContext" prot="public">AVD3D11VAFramesContext</innerclass>
+    <briefdescription>
+<para>An API-specific header for AV_HWDEVICE_TYPE_D3D11VA. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The default pool implementation will be fixed-size if initial_pool_size is set (and allocate elements from an array texture). Otherwise it will allocate individual textures. Be aware that decoding requires a single array texture.</para>
+<para>Using sw_format==AV_PIX_FMT_YUV420P has special semantics, and maps to DXGI_FORMAT_420_OPAQUE. <ref refid="hwcontext_8h_1abf1b1664b8239d953ae2cac8b643815a" kindref="member">av_hwframe_transfer_data()</ref> is not supported for this format. Refer to MSDN for details.</para>
+<para><ref refid="hwcontext_8h_1ac085a5abc44c5330b64489416a42482d" kindref="member">av_hwdevice_ctx_create()</ref> for this device type supports a key named &quot;debug&quot; for the AVDictionary entry. If this is set to any value, the device creation code will try to load various supported D3D debugging layers. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HWCONTEXT_D3D11VA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HWCONTEXT_D3D11VA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="22"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>An<sp/>API-specific<sp/>header<sp/>for<sp/>AV_HWDEVICE_TYPE_D3D11VA.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>The<sp/>default<sp/>pool<sp/>implementation<sp/>will<sp/>be<sp/>fixed-size<sp/>if<sp/>initial_pool_size<sp/>is</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>set<sp/>(and<sp/>allocate<sp/>elements<sp/>from<sp/>an<sp/>array<sp/>texture).<sp/>Otherwise<sp/>it<sp/>will<sp/>allocate</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>individual<sp/>textures.<sp/>Be<sp/>aware<sp/>that<sp/>decoding<sp/>requires<sp/>a<sp/>single<sp/>array<sp/>texture.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>Using<sp/>sw_format==AV_PIX_FMT_YUV420P<sp/>has<sp/>special<sp/>semantics,<sp/>and<sp/>maps<sp/>to</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>DXGI_FORMAT_420_OPAQUE.<sp/>av_hwframe_transfer_data()<sp/>is<sp/>not<sp/>supported<sp/>for</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>this<sp/>format.<sp/>Refer<sp/>to<sp/>MSDN<sp/>for<sp/>details.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>av_hwdevice_ctx_create()<sp/>for<sp/>this<sp/>device<sp/>type<sp/>supports<sp/>a<sp/>key<sp/>named<sp/>&quot;debug&quot;</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>for<sp/>the<sp/>AVDictionary<sp/>entry.<sp/>If<sp/>this<sp/>is<sp/>set<sp/>to<sp/>any<sp/>value,<sp/>the<sp/>device<sp/>creation</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>code<sp/>will<sp/>try<sp/>to<sp/>load<sp/>various<sp/>supported<sp/>D3D<sp/>debugging<sp/>layers.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;d3d11.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="42"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>is<sp/>allocated<sp/>as<sp/>AVHWDeviceContext.hwctx</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structAVD3D11VADeviceContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVD3D11VADeviceContext" kindref="compound">AVD3D11VADeviceContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>used<sp/>for<sp/>texture<sp/>creation<sp/>and<sp/>access.<sp/>This<sp/>can<sp/>also<sp/>be<sp/>used<sp/>to</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>set<sp/>the<sp/>libavcodec<sp/>decoding<sp/>device.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Must<sp/>be<sp/>set<sp/>by<sp/>the<sp/>user.<sp/>This<sp/>is<sp/>the<sp/>only<sp/>mandatory<sp/>field<sp/>-<sp/>the<sp/>other</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>device<sp/>context<sp/>fields<sp/>are<sp/>set<sp/>from<sp/>this<sp/>and<sp/>are<sp/>available<sp/>for<sp/>convenience.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deallocating<sp/>the<sp/>AVHWDeviceContext<sp/>will<sp/>always<sp/>release<sp/>this<sp/>interface,</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>it<sp/>does<sp/>not<sp/>matter<sp/>whether<sp/>it<sp/>was<sp/>user-allocated.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structAVD3D11VADeviceContext_1a846ae4cb1f91302845776cc843dc2808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ID3D11Device<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="structAVD3D11VADeviceContext_1a846ae4cb1f91302845776cc843dc2808" kindref="member">device</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset,<sp/>this<sp/>will<sp/>be<sp/>set<sp/>from<sp/>the<sp/>device<sp/>field<sp/>on<sp/>init.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deallocating<sp/>the<sp/>AVHWDeviceContext<sp/>will<sp/>always<sp/>release<sp/>this<sp/>interface,</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>it<sp/>does<sp/>not<sp/>matter<sp/>whether<sp/>it<sp/>was<sp/>user-allocated.</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="structAVD3D11VADeviceContext_1a895db1e8e6a1178000baae147afbd5ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ID3D11DeviceContext<sp/>*<ref refid="structAVD3D11VADeviceContext_1a895db1e8e6a1178000baae147afbd5ca" kindref="member">device_context</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset,<sp/>this<sp/>will<sp/>be<sp/>set<sp/>from<sp/>the<sp/>device<sp/>field<sp/>on<sp/>init.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deallocating<sp/>the<sp/>AVHWDeviceContext<sp/>will<sp/>always<sp/>release<sp/>this<sp/>interface,</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>it<sp/>does<sp/>not<sp/>matter<sp/>whether<sp/>it<sp/>was<sp/>user-allocated.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="structAVD3D11VADeviceContext_1ad5d8ffc06a83aa1dab48d6d2fe314718" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ID3D11VideoDevice<sp/><sp/><sp/>*<ref refid="structAVD3D11VADeviceContext_1ad5d8ffc06a83aa1dab48d6d2fe314718" kindref="member">video_device</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset,<sp/>this<sp/>will<sp/>be<sp/>set<sp/>from<sp/>the<sp/>device_context<sp/>field<sp/>on<sp/>init.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deallocating<sp/>the<sp/>AVHWDeviceContext<sp/>will<sp/>always<sp/>release<sp/>this<sp/>interface,</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>it<sp/>does<sp/>not<sp/>matter<sp/>whether<sp/>it<sp/>was<sp/>user-allocated.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="structAVD3D11VADeviceContext_1a6f7ad9f3193e51307a158a4c02d9241d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ID3D11VideoContext<sp/><sp/>*<ref refid="structAVD3D11VADeviceContext_1a6f7ad9f3193e51307a158a4c02d9241d" kindref="member">video_context</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Callbacks<sp/>for<sp/>locking.<sp/>They<sp/>protect<sp/>accesses<sp/>to<sp/>device_context<sp/>and</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>video_context<sp/>calls.<sp/>They<sp/>also<sp/>protect<sp/>access<sp/>to<sp/>the<sp/>internal<sp/>staging</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>texture<sp/>(for<sp/>av_hwframe_transfer_data()<sp/>calls).<sp/>They<sp/>do<sp/>NOT<sp/>protect</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>access<sp/>to<sp/>hwcontext<sp/>or<sp/>decoder<sp/>state<sp/>in<sp/>general.</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset<sp/>on<sp/>init,<sp/>the<sp/>hwcontext<sp/>implementation<sp/>will<sp/>set<sp/>them<sp/>to<sp/>use<sp/>an</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>internal<sp/>mutex.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>underlying<sp/>lock<sp/>must<sp/>be<sp/>recursive.<sp/>lock_ctx<sp/>is<sp/>for<sp/>free<sp/>use<sp/>by<sp/>the</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>locking<sp/>implementation.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="structAVD3D11VADeviceContext_1a39fcd941aac702ab4733374d2377757f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="structAVD3D11VADeviceContext_1a39fcd941aac702ab4733374d2377757f" kindref="member">lock</ref>)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVD3D11VADeviceContext_1abb2a51b8df82bf9ddba852b41fe32170" kindref="member">lock_ctx</ref>);</highlight></codeline>
+<codeline lineno="95" refid="structAVD3D11VADeviceContext_1a646c40b40f9faeacb10245586d0f129b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="structAVD3D11VADeviceContext_1a646c40b40f9faeacb10245586d0f129b" kindref="member">unlock</ref>)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVD3D11VADeviceContext_1abb2a51b8df82bf9ddba852b41fe32170" kindref="member">lock_ctx</ref>);</highlight></codeline>
+<codeline lineno="96" refid="structAVD3D11VADeviceContext_1abb2a51b8df82bf9ddba852b41fe32170" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVD3D11VADeviceContext_1abb2a51b8df82bf9ddba852b41fe32170" kindref="member">lock_ctx</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}<sp/><ref refid="structAVD3D11VADeviceContext" kindref="compound">AVD3D11VADeviceContext</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="99"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>D3D11<sp/>frame<sp/>descriptor<sp/>for<sp/>pool<sp/>allocation.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>In<sp/>user-allocated<sp/>pools,<sp/>AVHWFramesContext.pool<sp/>must<sp/>return<sp/>AVBufferRefs</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>with<sp/>the<sp/>data<sp/>pointer<sp/>pointing<sp/>at<sp/>an<sp/>object<sp/>of<sp/>this<sp/>type<sp/>describing<sp/>the</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>planes<sp/>of<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>This<sp/>has<sp/>no<sp/>use<sp/>outside<sp/>of<sp/>custom<sp/>allocation,<sp/>and<sp/>AVFrame<sp/>AVBufferRef<sp/>do<sp/>not</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>necessarily<sp/>point<sp/>to<sp/>an<sp/>instance<sp/>of<sp/>this<sp/>struct.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="structAVD3D11FrameDescriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVD3D11FrameDescriptor" kindref="compound">AVD3D11FrameDescriptor</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>texture<sp/>in<sp/>which<sp/>the<sp/>frame<sp/>is<sp/>located.<sp/>The<sp/>reference<sp/>count<sp/>is</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>managed<sp/>by<sp/>the<sp/>AVBufferRef,<sp/>and<sp/>destroying<sp/>the<sp/>reference<sp/>will<sp/>release</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>interface.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Normally<sp/>stored<sp/>in<sp/>AVFrame.data[0].</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="structAVD3D11FrameDescriptor_1a30434ef069883c1de0a54b8ca250d850" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ID3D11Texture2D<sp/>*<ref refid="structAVD3D11FrameDescriptor_1a30434ef069883c1de0a54b8ca250d850" kindref="member">texture</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>index<sp/>into<sp/>the<sp/>array<sp/>texture<sp/>element<sp/>representing<sp/>the<sp/>frame,<sp/>or<sp/>0</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>if<sp/>the<sp/>texture<sp/>is<sp/>not<sp/>an<sp/>array<sp/>texture.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Normally<sp/>stored<sp/>in<sp/>AVFrame.data[1]<sp/>(cast<sp/>from<sp/>intptr_t).</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="structAVD3D11FrameDescriptor_1a6051f3c25136efeec43b2a62abb10126" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>intptr_t<sp/><ref refid="structAVD3D11FrameDescriptor_1a6051f3c25136efeec43b2a62abb10126" kindref="member">index</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}<sp/><ref refid="structAVD3D11FrameDescriptor" kindref="compound">AVD3D11FrameDescriptor</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="128"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>is<sp/>allocated<sp/>as<sp/>AVHWFramesContext.hwctx</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="structAVD3D11VAFramesContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVD3D11VAFramesContext" kindref="compound">AVD3D11VAFramesContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>canonical<sp/>texture<sp/>used<sp/>for<sp/>pool<sp/>allocation.<sp/>If<sp/>this<sp/>is<sp/>set<sp/>to<sp/>NULL</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>on<sp/>init,<sp/>the<sp/>hwframes<sp/>implementation<sp/>will<sp/>allocate<sp/>and<sp/>set<sp/>an<sp/>array</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>texture<sp/>if<sp/>initial_pool_size<sp/>&gt;<sp/>0.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>only<sp/>situation<sp/>when<sp/>the<sp/>API<sp/>user<sp/>should<sp/>set<sp/>this<sp/>is:</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>the<sp/>user<sp/>wants<sp/>to<sp/>do<sp/>manual<sp/>pool<sp/>allocation<sp/>(setting</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>AVHWFramesContext.pool),<sp/>instead<sp/>of<sp/>letting<sp/>AVHWFramesContext</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>allocate<sp/>the<sp/>pool</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>of<sp/>an<sp/>array<sp/>texture</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>and<sp/>wants<sp/>it<sp/>to<sp/>use<sp/>it<sp/>for<sp/>decoding</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>this<sp/>has<sp/>to<sp/>be<sp/>done<sp/>before<sp/>calling<sp/>av_hwframe_ctx_init()</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Deallocating<sp/>the<sp/>AVHWFramesContext<sp/>will<sp/>always<sp/>release<sp/>this<sp/>interface,</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>it<sp/>does<sp/>not<sp/>matter<sp/>whether<sp/>it<sp/>was<sp/>user-allocated.</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>in<sp/>particular<sp/>used<sp/>by<sp/>the<sp/>libavcodec<sp/>D3D11VA<sp/>hwaccel,<sp/>which</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>requires<sp/>a<sp/>single<sp/>array<sp/>texture.<sp/>It<sp/>will<sp/>create<sp/>ID3D11VideoDecoderOutputView</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>objects<sp/>for<sp/>each<sp/>array<sp/>texture<sp/>element<sp/>on<sp/>decoder<sp/>initialization.</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="structAVD3D11VAFramesContext_1a359e4ccfa46c05a225947aea7ce7ac17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ID3D11Texture2D<sp/>*<ref refid="structAVD3D11VAFramesContext_1a359e4ccfa46c05a225947aea7ce7ac17" kindref="member">texture</ref>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>D3D11_TEXTURE2D_DESC.BindFlags<sp/>used<sp/>for<sp/>texture<sp/>creation.<sp/>The<sp/>user<sp/>must</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>at<sp/>least<sp/>set<sp/>D3D11_BIND_DECODER<sp/>if<sp/>the<sp/>frames<sp/>context<sp/>is<sp/>to<sp/>be<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>video<sp/>decoding.</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>field<sp/>is<sp/>ignored/invalid<sp/>if<sp/>a<sp/>user-allocated<sp/>texture<sp/>is<sp/>provided.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="structAVD3D11VAFramesContext_1aec047f8d786efadffc38c558e8792884" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT<sp/><ref refid="structAVD3D11VAFramesContext_1aec047f8d786efadffc38c558e8792884" kindref="member">BindFlags</ref>;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>D3D11_TEXTURE2D_DESC.MiscFlags<sp/>used<sp/>for<sp/>texture<sp/>creation.</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>field<sp/>is<sp/>ignored/invalid<sp/>if<sp/>a<sp/>user-allocated<sp/>texture<sp/>is<sp/>provided.</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="structAVD3D11VAFramesContext_1a0dd15f99a1112be3fa04d08b57775bd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT<sp/><ref refid="structAVD3D11VAFramesContext_1a0dd15f99a1112be3fa04d08b57775bd6" kindref="member">MiscFlags</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>In<sp/>case<sp/>if<sp/>texture<sp/>structure<sp/>member<sp/>above<sp/>is<sp/>not<sp/>NULL<sp/>contains<sp/>the<sp/>same<sp/>texture</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>pointer<sp/>for<sp/>all<sp/>elements<sp/>and<sp/>different<sp/>indexes<sp/>into<sp/>the<sp/>array<sp/>texture.</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>In<sp/>case<sp/>if<sp/>texture<sp/>structure<sp/>member<sp/>above<sp/>is<sp/>NULL,<sp/>all<sp/>elements<sp/>contains</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>pointers<sp/>to<sp/>separate<sp/>non-array<sp/>textures<sp/>and<sp/>0<sp/>indexes.</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>field<sp/>is<sp/>ignored/invalid<sp/>if<sp/>a<sp/>user-allocated<sp/>texture<sp/>is<sp/>provided.</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="structAVD3D11VAFramesContext_1ac3922d497a5869e2e40a5b08ab2477dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVD3D11FrameDescriptor" kindref="compound">AVD3D11FrameDescriptor</ref><sp/>*<ref refid="structAVD3D11VAFramesContext_1ac3922d497a5869e2e40a5b08ab2477dc" kindref="member">texture_infos</ref>;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}<sp/><ref refid="structAVD3D11VAFramesContext" kindref="compound">AVD3D11VAFramesContext</ref>;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HWCONTEXT_D3D11VA_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hwcontext_d3d11va.h"/>
+  </compounddef>
+</doxygen>

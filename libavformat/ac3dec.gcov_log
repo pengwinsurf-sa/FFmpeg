@@ -1,0 +1,14 @@
+Function 'eac3_probe'
+Lines executed:0.00% of 2
+
+Function 'ac3_probe'
+Lines executed:0.00% of 2
+
+Function 'ac3_eac3_probe'
+Lines executed:0.00% of 45
+
+File 'libavformat/ac3dec.c'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ac3dec.gcno##libavformat#ac3dec.c.gcov'
+
+Lines executed:0.00% of 49

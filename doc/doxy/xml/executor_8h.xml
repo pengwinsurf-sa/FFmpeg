@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="executor_8h" kind="file" language="C++">
+    <compoundname>executor.h</compoundname>
+    <innerclass refid="structAVTask" prot="public">AVTask</innerclass>
+    <innerclass refid="structAVTaskCallbacks" prot="public">AVTaskCallbacks</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" prot="public" static="no">
+        <type>struct <ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref></type>
+        <definition>typedef struct AVExecutor AVExecutor</definition>
+        <argsstring></argsstring>
+        <name>AVExecutor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/executor.h" line="24" column="25" bodyfile="libavutil/executor.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="executor_8h_1a9f1adf84d1562afc2fafb10bc1ef7265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref> *</type>
+        <definition>AVExecutor * av_executor_alloc</definition>
+        <argsstring>(const AVTaskCallbacks *callbacks, int thread_count)</argsstring>
+        <name>av_executor_alloc</name>
+        <param>
+          <type>const <ref refid="structAVTaskCallbacks" kindref="compound">AVTaskCallbacks</ref> *</type>
+          <declname>callbacks</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>thread_count</declname>
+        </param>
+        <briefdescription>
+<para>Alloc executor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callbacks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>callback structure for executor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>worker thread number, 0 for run on caller&apos;s thread directly </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>return the executor </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/executor.h" line="52" column="12" declfile="libavutil/executor.h" declline="52" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="executor_8h_1a8e88dd5795cd47dfb7b912fe3dadb318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_executor_free</definition>
+        <argsstring>(AVExecutor **e)</argsstring>
+        <name>av_executor_free</name>
+        <param>
+          <type><ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref> **</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Free executor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to executor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/executor.h" line="58" column="6" declfile="libavutil/executor.h" declline="58" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="executor_8h_1aedf4b97bc28f7efed558416d69d9e7a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_executor_execute</definition>
+        <argsstring>(AVExecutor *e, AVTask *t)</argsstring>
+        <name>av_executor_execute</name>
+        <param>
+          <type><ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVTask" kindref="compound">AVTask</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Add task to executor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to executor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to task. If NULL, it will wakeup one work thread </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/executor.h" line="65" column="6" declfile="libavutil/executor.h" declline="65" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2023<sp/>Nuo<sp/>Mi</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_EXECUTOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_EXECUTOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref><sp/><ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/><ref refid="structAVTask" kindref="compound">AVTask</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structAVTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>{</highlight></codeline>
+<codeline lineno="28" refid="structAVTask_1a08116562fb8b34a5ce0ad58bf5f789c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>*<ref refid="structAVTask_1a08116562fb8b34a5ce0ad58bf5f789c3" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="structAVTaskCallbacks" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVTaskCallbacks" kindref="compound">AVTaskCallbacks</ref><sp/>{</highlight></codeline>
+<codeline lineno="32" refid="structAVTaskCallbacks_1af91335271e1014ea24b0159a48977e62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVTaskCallbacks_1af91335271e1014ea24b0159a48977e62" kindref="member">user_data</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structAVTaskCallbacks_1a657daaa05ceaccaecc3f0c88471ebed4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVTaskCallbacks_1a657daaa05ceaccaecc3f0c88471ebed4" kindref="member">local_context_size</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>1<sp/>if<sp/>a&apos;s<sp/>priority<sp/>&gt;<sp/>b&apos;s<sp/>priority</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="structAVTaskCallbacks_1a33bb58291ba86ec3a9dee4871e193113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>(*<ref refid="structAVTaskCallbacks_1a33bb58291ba86ec3a9dee4871e193113" kindref="member">priority_higher</ref>)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>task<sp/>is<sp/>ready<sp/>for<sp/>run</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="structAVTaskCallbacks_1ac456c713c592b378e74f6733c0839a83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>(*<ref refid="structAVTaskCallbacks_1ac456c713c592b378e74f6733c0839a83" kindref="member">ready</ref>)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>*t,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVTaskCallbacks_1af91335271e1014ea24b0159a48977e62" kindref="member">user_data</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>run<sp/>the<sp/>task</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="structAVTaskCallbacks_1ae9d7885f948272ce4f0d2b79720f98e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>(*<ref refid="structAVTaskCallbacks_1ae9d7885f948272ce4f0d2b79720f98e5" kindref="member">run</ref>)(<ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>*t,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*local_context,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVTaskCallbacks_1af91335271e1014ea24b0159a48977e62" kindref="member">user_data</ref>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}<sp/><ref refid="structAVTaskCallbacks" kindref="compound">AVTaskCallbacks</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="46"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>Alloc<sp/>executor</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>@param<sp/>callbacks<sp/>callback<sp/>structure<sp/>for<sp/>executor</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>@param<sp/>thread_count<sp/>worker<sp/>thread<sp/>number,<sp/>0<sp/>for<sp/>run<sp/>on<sp/>caller&apos;s<sp/>thread<sp/>directly</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>@return<sp/>return<sp/>the<sp/>executor</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="executor_8h_1a9f1adf84d1562afc2fafb10bc1ef7265" refkind="member"><highlight class="normal"><ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref>*<sp/><ref refid="executor_8h_1a9f1adf84d1562afc2fafb10bc1ef7265" kindref="member">av_executor_alloc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVTaskCallbacks" kindref="compound">AVTaskCallbacks</ref><sp/>*callbacks,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>thread_count);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="54"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>Free<sp/>executor</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>@param<sp/>e<sp/><sp/>pointer<sp/>to<sp/>executor</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="executor_8h_1a8e88dd5795cd47dfb7b912fe3dadb318" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="executor_8h_1a8e88dd5795cd47dfb7b912fe3dadb318" kindref="member">av_executor_free</ref>(<ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref><sp/>**e);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>Add<sp/>task<sp/>to<sp/>executor</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>@param<sp/>e<sp/>pointer<sp/>to<sp/>executor</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>@param<sp/>t<sp/>pointer<sp/>to<sp/>task.<sp/>If<sp/>NULL,<sp/>it<sp/>will<sp/>wakeup<sp/>one<sp/>work<sp/>thread</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="executor_8h_1aedf4b97bc28f7efed558416d69d9e7a3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="executor_8h_1aedf4b97bc28f7efed558416d69d9e7a3" kindref="member">av_executor_execute</ref>(<ref refid="executor_8h_1ac1cecfa93feb47218970a3d9f3c5dc43" kindref="member">AVExecutor</ref><sp/>*e,<sp/><ref refid="structAVTask" kindref="compound">AVTask</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//AVUTIL_EXECUTOR_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/executor.h"/>
+  </compounddef>
+</doxygen>

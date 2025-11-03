@@ -1,0 +1,17 @@
+Function 'avutil_license'
+Lines executed:0.00% of 2
+
+Function 'avutil_configuration'
+Lines executed:0.00% of 2
+
+Function 'avutil_version'
+Lines executed:0.00% of 4
+
+Function 'av_version_info'
+Lines executed:0.00% of 2
+
+File 'libavutil/version.c'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#version.gcno##libavutil#version.c.gcov'
+
+Lines executed:0.00% of 10

@@ -1,0 +1,62 @@
+Function 'sga_decode_end'
+Lines executed:0.00% of 7
+
+Function 'sga_decode_frame'
+Lines executed:0.00% of 159
+
+Function 'decode_tiledata'
+Lines executed:0.00% of 38
+
+Function 'decode_palmapdata'
+Lines executed:0.00% of 15
+
+Function 'lzss_decompress'
+Lines executed:0.00% of 26
+
+Function 'decode_index'
+Lines executed:0.00% of 11
+
+Function 'decode_index_tilemap'
+Lines executed:0.00% of 33
+
+Function 'decode_index_palmap'
+Lines executed:0.00% of 12
+
+Function 'decode_palette'
+Lines executed:0.00% of 32
+
+Function 'sga_decode_init'
+Lines executed:0.00% of 3
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/sga.c'
+Lines executed:0.00% of 274
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno##libavcodec#sga.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sga.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 355

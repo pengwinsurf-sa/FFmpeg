@@ -1,0 +1,112 @@
+Function 'av1_decode_flush'
+Lines executed:0.00% of 19
+
+Function 'av1_receive_frame'
+Lines executed:0.00% of 18
+
+Function 'av1_receive_frame_internal'
+Lines executed:0.00% of 145
+
+Function 'get_current_frame'
+Lines executed:0.00% of 38
+
+Function 'update_reference_list'
+Lines executed:0.00% of 7
+
+Function 'set_output_frame'
+Lines executed:0.00% of 22
+
+Function 'export_film_grain'
+Lines executed:0.00% of 52
+
+Function 'export_metadata'
+Lines executed:0.00% of 32
+
+Function 'export_itut_t35'
+Lines executed:0.00% of 52
+
+Function 'av1_frame_alloc'
+Lines executed:0.00% of 32
+
+Function 'av1_decode_init'
+Lines executed:0.00% of 35
+
+Function 'update_context_with_frame_header'
+Lines executed:0.00% of 16
+
+Function 'set_context_with_sequence'
+Lines executed:0.00% of 29
+
+Function 'av1_decode_free'
+Lines executed:0.00% of 19
+
+Function 'av1_frame_replace'
+Lines executed:0.00% of 25
+
+Function 'av1_frame_unref'
+Lines executed:0.00% of 12
+
+Function 'get_pixel_format'
+Lines executed:0.00% of 21
+
+Function 'get_sw_pixel_format'
+Lines executed:0.00% of 28
+
+Function 'get_tiles_info'
+Lines executed:0.00% of 33
+
+Function 'init_tile_data'
+Lines executed:0.00% of 10
+
+Function 'load_grain_params'
+Lines executed:0.00% of 11
+
+Function 'order_hint_info'
+Lines executed:0.00% of 20
+
+Function 'coded_lossless_param'
+Lines executed:0.00% of 21
+
+Function 'skip_mode_params'
+Lines executed:0.00% of 37
+
+Function 'global_motion_params'
+Lines executed:0.00% of 28
+
+Function 'get_shear_params_valid'
+Lines executed:0.00% of 36
+
+Function 'read_global_param'
+Lines executed:0.00% of 28
+
+Function 'decode_unsigned_subexp_with_ref'
+Lines executed:0.00% of 9
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavcodec/av1dec.c'
+Lines executed:0.00% of 806
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1dec.gcno##libavcodec#av1dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1dec.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1dec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1dec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 840

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="libavfilter_2version__major_8h" kind="file" language="C++">
+    <compoundname>version_major.h</compoundname>
+    <includedby refid="avfilter_8h" local="yes">libavfilter/avfilter.h</includedby>
+    <includedby refid="libavfilter_2version_8h" local="yes">libavfilter/version.h</includedby>
+    <invincdepgraph>
+      <node id="5">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="3">
+        <label>doc/examples/filter_audio.c</label>
+        <link refid="filter__audio_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="2">
+        <label>libavfilter/avfilter.h</label>
+        <link refid="avfilter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>libavfilter/buffersrc.h</label>
+        <link refid="buffersrc_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>libavfilter/version.h</label>
+        <link refid="libavfilter_2version_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavfilter/version_major.h</label>
+        <link refid="libavfilter_2version__major_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="libavfilter_2version__major_8h_1af61942164bb86281f95a5ff2fb9711d4" prot="public" static="no">
+        <name>LIBAVFILTER_VERSION_MAJOR</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/version_major.h" line="30" column="9" bodyfile="libavfilter/version_major.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="libavfilter_2version__major_8h_1acc33062c1b7a0e655bc7e12ab0b60e34" prot="public" static="no">
+        <name>FF_API_BUFFERSINK_OPTS</name>
+        <initializer>(<ref refid="libavfilter_2version__major_8h_1af61942164bb86281f95a5ff2fb9711d4" kindref="member">LIBAVFILTER_VERSION_MAJOR</ref> &lt; 12)</initializer>
+        <briefdescription>
+<para>FF_API_* defines may be placed below to indicate public API that will be dropped at a future version bump. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The defines themselves are not part of the public API and may change, break or disappear at any time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/version_major.h" line="38" column="9" bodyfile="libavfilter/version_major.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="libavfilter_2version__major_8h_1a92b59e3b12966537fd3b73dbd0b50825" prot="public" static="no">
+        <name>FF_API_CONTEXT_PUBLIC</name>
+        <initializer>(<ref refid="libavfilter_2version__major_8h_1af61942164bb86281f95a5ff2fb9711d4" kindref="member">LIBAVFILTER_VERSION_MAJOR</ref> &lt; 12)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/version_major.h" line="39" column="9" bodyfile="libavfilter/version_major.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Libavfilter version macros. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Version<sp/>macros.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVFILTER_VERSION_MAJOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVFILTER_VERSION_MAJOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavfi</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>Libavfilter<sp/>version<sp/>macros</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="libavfilter_2version__major_8h_1af61942164bb86281f95a5ff2fb9711d4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBAVFILTER_VERSION_MAJOR<sp/><sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>FF_API_*<sp/>defines<sp/>may<sp/>be<sp/>placed<sp/>below<sp/>to<sp/>indicate<sp/>public<sp/>API<sp/>that<sp/>will<sp/>be</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>dropped<sp/>at<sp/>a<sp/>future<sp/>version<sp/>bump.<sp/>The<sp/>defines<sp/>themselves<sp/>are<sp/>not<sp/>part<sp/>of</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>the<sp/>public<sp/>API<sp/>and<sp/>may<sp/>change,<sp/>break<sp/>or<sp/>disappear<sp/>at<sp/>any<sp/>time.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="libavfilter_2version__major_8h_1acc33062c1b7a0e655bc7e12ab0b60e34" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FF_API_BUFFERSINK_OPTS<sp/>(LIBAVFILTER_VERSION_MAJOR<sp/>&lt;<sp/>12)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="libavfilter_2version__major_8h_1a92b59e3b12966537fd3b73dbd0b50825" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FF_API_CONTEXT_PUBLIC<sp/><sp/>(LIBAVFILTER_VERSION_MAJOR<sp/>&lt;<sp/>12)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVFILTER_VERSION_MAJOR_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavfilter/version_major.h"/>
+  </compounddef>
+</doxygen>

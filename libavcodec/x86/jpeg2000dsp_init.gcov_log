@@ -1,0 +1,8 @@
+Function 'ff_jpeg2000dsp_init_x86'
+Lines executed:93.33% of 15
+
+File 'libavcodec/x86/jpeg2000dsp_init.c'
+Lines executed:93.33% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#jpeg2000dsp_init.gcno##libavcodec#x86#jpeg2000dsp_init.c.gcov'
+
+Lines executed:93.33% of 15

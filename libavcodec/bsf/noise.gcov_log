@@ -1,0 +1,18 @@
+Function 'noise_close'
+Lines executed:0.00% of 6
+
+Function 'noise'
+Lines executed:0.00% of 48
+
+Function 'noise_init'
+Lines executed:0.00% of 30
+
+File 'libavcodec/bsf/noise.c'
+Lines executed:0.00% of 82
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#noise.gcno##libavcodec#bsf#noise.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#noise.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 84

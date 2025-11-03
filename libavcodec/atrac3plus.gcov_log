@@ -1,0 +1,122 @@
+Function 'ff_atrac3p_decode_channel_unit'
+Lines executed:0.00% of 36
+
+Function 'decode_tones_info'
+Lines executed:0.00% of 53
+
+Function 'decode_tones_phase'
+Lines executed:0.00% of 11
+
+Function 'decode_tones_amplitude'
+Lines executed:0.00% of 64
+
+Function 'decode_tones_frequency'
+Lines executed:0.00% of 35
+
+Function 'decode_band_numwavs'
+Lines executed:0.00% of 28
+
+Function 'decode_tones_envelope'
+Lines executed:0.00% of 22
+
+Function 'decode_gainc_data'
+Lines executed:0.00% of 18
+
+Function 'decode_gainc_loc_codes'
+Lines executed:0.00% of 88
+
+Function 'gainc_loc_mode1'
+Lines executed:0.00% of 11
+
+Function 'gainc_loc_mode0'
+Lines executed:0.00% of 10
+
+Function 'decode_gainc_levels'
+Lines executed:0.00% of 51
+
+Function 'gainc_level_mode1m'
+Lines executed:0.00% of 8
+
+Function 'decode_gainc_npoints'
+Lines executed:0.00% of 32
+
+Function 'get_subband_flags'
+Lines executed:0.00% of 10
+
+Function 'decode_spectrum'
+Lines executed:0.00% of 30
+
+Function 'decode_qu_spectra'
+Lines executed:0.00% of 23
+
+Function 'decode_code_table_indexes'
+Lines executed:0.00% of 8
+
+Function 'decode_channel_code_tab'
+Lines executed:0.00% of 26
+
+Function 'get_num_ct_values'
+Lines executed:0.00% of 8
+
+Function 'decode_scale_factors'
+Lines executed:0.00% of 7
+
+Function 'decode_quant_wordlen'
+Lines executed:0.00% of 11
+
+Function 'decode_channel_sf_idx'
+Lines executed:0.00% of 80
+
+Function 'decode_channel_wordlen'
+Lines executed:0.00% of 85
+
+Function 'subtract_sf_weights'
+Lines executed:0.00% of 8
+
+Function 'add_wordlen_weights'
+Lines executed:0.00% of 9
+
+Function 'num_coded_units'
+Lines executed:0.00% of 10
+
+Function 'ff_atrac3p_init_vlcs'
+Lines executed:0.00% of 22
+
+Function 'build_canonical_huff'
+Lines executed:0.00% of 16
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/atrac3plus.c'
+Lines executed:0.00% of 783
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno##libavcodec#atrac3plus.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac3plus.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 830

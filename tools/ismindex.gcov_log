@@ -1,0 +1,79 @@
+Function 'main'
+Lines executed:0.00% of 44
+
+Function 'clean_tracks'
+Lines executed:0.00% of 9
+
+Function 'output_client_manifest'
+Lines executed:0.00% of 52
+
+Function 'print_track_chunks'
+Lines executed:0.00% of 22
+
+Function 'output_server_manifest'
+Lines executed:0.00% of 26
+
+Function 'handle_file'
+Lines executed:0.00% of 83
+
+Function 'get_video_private_data'
+Lines executed:0.00% of 28
+
+Function 'get_private_data'
+Lines executed:0.00% of 9
+
+Function 'read_mfra'
+Lines executed:0.00% of 28
+
+Function 'read_tfra'
+Lines executed:0.00% of 65
+
+Function 'read_moof_duration'
+Lines executed:0.00% of 39
+
+Function 'read_trun_duration'
+Lines executed:0.00% of 32
+
+Function 'write_fragments'
+Lines executed:0.00% of 38
+
+Function 'skip_fragment'
+Lines executed:0.00% of 6
+
+Function 'write_fragment'
+Lines executed:0.00% of 12
+
+Function 'skip_tag'
+Lines executed:0.00% of 8
+
+Function 'copy_tag'
+Lines executed:0.00% of 17
+
+Function 'expect_tag'
+Lines executed:0.00% of 9
+
+File 'tools/ismindex.c'
+Lines executed:0.00% of 511
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ismindex.gcno##tools#ismindex.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ismindex.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ismindex.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ismindex.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ismindex.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ismindex.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 527

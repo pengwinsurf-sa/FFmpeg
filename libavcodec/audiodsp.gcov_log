@@ -1,0 +1,21 @@
+Function 'ff_audiodsp_init'
+Lines executed:100.00% of 6
+
+Function 'vector_clip_int32_c'
+Lines executed:100.00% of 16
+
+Function 'scalarproduct_int16_c'
+Lines executed:100.00% of 5
+
+Function 'vector_clipf_c'
+Lines executed:100.00% of 9
+
+File 'libavcodec/audiodsp.c'
+Lines executed:100.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#audiodsp.gcno##libavcodec#audiodsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#audiodsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:100.00% of 36

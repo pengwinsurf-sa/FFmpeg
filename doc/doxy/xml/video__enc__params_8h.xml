@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="video__enc__params_8h" kind="file" language="C++">
+    <compoundname>video_enc_params.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes refid="avassert_8h" local="yes">libavutil/avassert.h</includes>
+    <includes refid="frame_8h" local="yes">libavutil/frame.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4">
+        <label>libavutil/avassert.h</label>
+        <link refid="avassert_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/video_enc_params.h</label>
+        <link refid="video__enc__params_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>errno.h</label>
+      </node>
+      <node id="16">
+        <label>inttypes.h</label>
+      </node>
+      <node id="11">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="17">
+        <label>limits.h</label>
+      </node>
+      <node id="18">
+        <label>math.h</label>
+      </node>
+      <node id="8">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="19">
+        <label>stdio.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="20">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVVideoEncParams" prot="public">AVVideoEncParams</innerclass>
+    <innerclass refid="structAVVideoBlockParams" prot="public">AVVideoBlockParams</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVVideoEncParamsType</name>
+        <enumvalue id="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaa1fc2a0bc467915dfb9fb711a4e5f9d5d" prot="public">
+          <name>AV_VIDEO_ENC_PARAMS_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaaa51a0f14f0e005937252e9b5c623a244" prot="public">
+          <name>AV_VIDEO_ENC_PARAMS_VP9</name>
+          <briefdescription>
+<para>VP9 stores: </para>
+          </briefdescription>
+          <detaileddescription>
+<para><itemizedlist>
+<listitem><para>per-frame base (luma AC) quantizer index, exported as <ref refid="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" kindref="member">AVVideoEncParams.qp</ref></para>
+</listitem><listitem><para>deltas for luma DC, chroma AC and chroma DC, exported in the corresponding entries in <ref refid="structAVVideoEncParams_1a01d00c4d7b75e7962795f747956ee53b" kindref="member">AVVideoEncParams.delta_qp</ref></para>
+</listitem><listitem><para>per-segment delta, exported as for each block as <ref refid="structAVVideoBlockParams_1ae126d6a1b80fbabf268245fbf589a3fa" kindref="member">AVVideoBlockParams.delta_qp</ref></para>
+</listitem></itemizedlist>
+</para>
+<para>To compute the resulting quantizer index for a block:<itemizedlist>
+<listitem><para>for luma AC, add the base qp and the per-block delta_qp, saturating to unsigned 8-bit.</para>
+</listitem><listitem><para>for luma DC and chroma AC/DC, add the corresponding <ref refid="structAVVideoBlockParams_1ae126d6a1b80fbabf268245fbf589a3fa" kindref="member">AVVideoBlockParams.delta_qp</ref> to the luma AC index, again saturating to unsigned 8-bit. </para>
+</listitem></itemizedlist>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaae889e046f90ffc8499a0804133ce34cd" prot="public">
+          <name>AV_VIDEO_ENC_PARAMS_H264</name>
+          <briefdescription>
+<para>H.264 stores: </para>
+          </briefdescription>
+          <detaileddescription>
+<para><itemizedlist>
+<listitem><para>in PPS (per-picture):<itemizedlist>
+<listitem><para>initial QP_Y (luma) value, exported as <ref refid="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" kindref="member">AVVideoEncParams.qp</ref></para>
+</listitem><listitem><para>delta(s) for chroma QP values (same for both, or each separately), exported as in the corresponding entries in <ref refid="structAVVideoEncParams_1a01d00c4d7b75e7962795f747956ee53b" kindref="member">AVVideoEncParams.delta_qp</ref></para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>per-slice QP delta, not exported directly, added to the per-MB value</para>
+</listitem><listitem><para>per-MB delta; not exported directly; the final per-MB quantizer parameter - QP_Y - minus the value in <ref refid="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" kindref="member">AVVideoEncParams.qp</ref> is exported as AVVideoBlockParams.qp_delta. </para>
+</listitem></itemizedlist>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaac8a674e43b28c4a872a4b3276acb9cd5" prot="public">
+          <name>AV_VIDEO_ENC_PARAMS_MPEG2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="28" column="1" bodyfile="libavutil/video_enc_params.h" bodystart="28" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="video__enc__params_8h_1a8c60988cd15689aaeffa365d97a82c90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref> <ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref> *</type>
+        <definition>static av_always_inline AVVideoBlockParams * av_video_enc_params_block</definition>
+        <argsstring>(AVVideoEncParams *par, unsigned int idx)</argsstring>
+        <name>av_video_enc_params_block</name>
+        <param>
+          <type><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref> *</type>
+          <declname>par</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Get the block at the specified <javadoccode>idx</javadoccode>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be between 0 and nb_blocks - 1. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="143" column="1" bodyfile="libavutil/video_enc_params.h" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="video__enc__params_8h_1ad545c6225e84060f462e392033fa635c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref> *</type>
+        <definition>AVVideoEncParams * av_video_enc_params_alloc</definition>
+        <argsstring>(enum AVVideoEncParamsType type, unsigned int nb_blocks, size_t *out_size)</argsstring>
+        <name>av_video_enc_params_alloc</name>
+        <param>
+          <type>enum <ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nb_blocks</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>out_size</declname>
+        </param>
+        <briefdescription>
+<para>Allocates memory for <ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref> of the given type, plus an array of <javadoccode>nb_blocks</javadoccode> <ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref> and initializes the variables. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Can be freed with a normal <ref refid="group__lavu__mem__funcs_1ga0c9096f498624c525aa2315b8a20c411" kindref="member">av_free()</ref> call.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>out_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if non-NULL, the size in bytes of the resulting data array is written here. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="158" column="18" declfile="libavutil/video_enc_params.h" declline="158" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="video__enc__params_8h_1a2a46d2136a349ed1c2664bb180e21c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref> *</type>
+        <definition>AVVideoEncParams * av_video_enc_params_create_side_data</definition>
+        <argsstring>(AVFrame *frame, enum AVVideoEncParamsType type, unsigned int nb_blocks)</argsstring>
+        <name>av_video_enc_params_create_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nb_blocks</declname>
+        </param>
+        <briefdescription>
+<para>Allocates memory for AVEncodeInfoFrame plus an array of <javadoccode>nb_blocks</javadoccode> AVEncodeInfoBlock in the given <ref refid="structAVFrame" kindref="compound">AVFrame</ref> <javadoccode>frame</javadoccode> as <ref refid="structAVFrameSideData" kindref="compound">AVFrameSideData</ref> of type AV_FRAME_DATA_VIDEO_ENC_PARAMS and initializes the variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="168" column="1" declfile="libavutil/video_enc_params.h" declline="168" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_VIDEO_ENC_PARAMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_VIDEO_ENC_PARAMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avassert_8h" kindref="compound">libavutil/avassert.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">libavutil/frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref><sp/>{</highlight></codeline>
+<codeline lineno="29" refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaa1fc2a0bc467915dfb9fb711a4e5f9d5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaa1fc2a0bc467915dfb9fb711a4e5f9d5d" kindref="member">AV_VIDEO_ENC_PARAMS_NONE</ref><sp/>=<sp/>-1,</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>VP9<sp/>stores:</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>per-frame<sp/>base<sp/>(luma<sp/>AC)<sp/>quantizer<sp/>index,<sp/>exported<sp/>as<sp/>AVVideoEncParams.qp</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>deltas<sp/>for<sp/>luma<sp/>DC,<sp/>chroma<sp/>AC<sp/>and<sp/>chroma<sp/>DC,<sp/>exported<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>corresponding<sp/>entries<sp/>in<sp/>AVVideoEncParams.delta_qp</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>per-segment<sp/>delta,<sp/>exported<sp/>as<sp/>for<sp/>each<sp/>block<sp/>as<sp/>AVVideoBlockParams.delta_qp</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>To<sp/>compute<sp/>the<sp/>resulting<sp/>quantizer<sp/>index<sp/>for<sp/>a<sp/>block:</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>for<sp/>luma<sp/>AC,<sp/>add<sp/>the<sp/>base<sp/>qp<sp/>and<sp/>the<sp/>per-block<sp/>delta_qp,<sp/>saturating<sp/>to</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>unsigned<sp/>8-bit.</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>for<sp/>luma<sp/>DC<sp/>and<sp/>chroma<sp/>AC/DC,<sp/>add<sp/>the<sp/>corresponding</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>AVVideoBlockParams.delta_qp<sp/>to<sp/>the<sp/>luma<sp/>AC<sp/>index,<sp/>again<sp/>saturating<sp/>to</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>unsigned<sp/>8-bit.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaaa51a0f14f0e005937252e9b5c623a244" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaaa51a0f14f0e005937252e9b5c623a244" kindref="member">AV_VIDEO_ENC_PARAMS_VP9</ref>,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>H.264<sp/>stores:</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>in<sp/>PPS<sp/>(per-picture):</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>*<sp/>initial<sp/>QP_Y<sp/>(luma)<sp/>value,<sp/>exported<sp/>as<sp/>AVVideoEncParams.qp</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>*<sp/>delta(s)<sp/>for<sp/>chroma<sp/>QP<sp/>values<sp/>(same<sp/>for<sp/>both,<sp/>or<sp/>each<sp/>separately),</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>exported<sp/>as<sp/>in<sp/>the<sp/>corresponding<sp/>entries<sp/>in<sp/>AVVideoEncParams.delta_qp</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>per-slice<sp/>QP<sp/>delta,<sp/>not<sp/>exported<sp/>directly,<sp/>added<sp/>to<sp/>the<sp/>per-MB<sp/>value</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>per-MB<sp/>delta;<sp/>not<sp/>exported<sp/>directly;<sp/>the<sp/>final<sp/>per-MB<sp/>quantizer</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>parameter<sp/>-<sp/>QP_Y<sp/>-<sp/>minus<sp/>the<sp/>value<sp/>in<sp/>AVVideoEncParams.qp<sp/>is<sp/>exported</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>as<sp/>AVVideoBlockParams.qp_delta.</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaae889e046f90ffc8499a0804133ce34cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaae889e046f90ffc8499a0804133ce34cd" kindref="member">AV_VIDEO_ENC_PARAMS_H264</ref>,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>MPEG-2-compatible<sp/>quantizer.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Summing<sp/>the<sp/>frame-level<sp/>qp<sp/>with<sp/>the<sp/>per-block<sp/>delta_qp<sp/>gives<sp/>the</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>resulting<sp/>quantizer<sp/>for<sp/>the<sp/>block.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaac8a674e43b28c4a872a4b3276acb9cd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154feaac8a674e43b28c4a872a4b3276acb9cd5" kindref="member">AV_VIDEO_ENC_PARAMS_MPEG2</ref>,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>Video<sp/>encoding<sp/>parameters<sp/>for<sp/>a<sp/>given<sp/>frame.<sp/>This<sp/>struct<sp/>is<sp/>allocated<sp/>along</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>with<sp/>an<sp/>optional<sp/>array<sp/>of<sp/>per-block<sp/>AVVideoBlockParams<sp/>descriptors.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>Must<sp/>be<sp/>allocated<sp/>with<sp/>av_video_enc_params_alloc().</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="structAVVideoEncParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>blocks<sp/>in<sp/>the<sp/>array.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>May<sp/>be<sp/>0,<sp/>in<sp/>which<sp/>case<sp/>no<sp/>per-block<sp/>information<sp/>is<sp/>present.<sp/>In<sp/>this<sp/>case</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>values<sp/>of<sp/>blocks_offset<sp/>/<sp/>block_size<sp/>are<sp/>unspecified<sp/>and<sp/>should<sp/>not</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>be<sp/>accessed.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="structAVVideoEncParams_1aca5b6334196a79c8987334e7dac931c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVideoEncParams_1aca5b6334196a79c8987334e7dac931c9" kindref="member">nb_blocks</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Offset<sp/>in<sp/>bytes<sp/>from<sp/>the<sp/>beginning<sp/>of<sp/>this<sp/>structure<sp/>at<sp/>which<sp/>the<sp/>array</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>blocks<sp/>starts.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="structAVVideoEncParams_1af30a1b920629802802567ae233065f39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVVideoEncParams_1af30a1b920629802802567ae233065f39" kindref="member">blocks_offset</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Size<sp/>of<sp/>each<sp/>block<sp/>in<sp/>bytes.<sp/>May<sp/>not<sp/>match<sp/>sizeof(AVVideoBlockParams).</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="structAVVideoEncParams_1a61424e76b2d8ec3d6d80de6ef9efe975" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVVideoEncParams_1a61424e76b2d8ec3d6d80de6ef9efe975" kindref="member">block_size</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Type<sp/>of<sp/>the<sp/>parameters<sp/>(the<sp/>codec<sp/>they<sp/>are<sp/>used<sp/>with).</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="structAVVideoEncParams_1a6445e5af228fd8349a7ac83d69705364" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref><sp/><ref refid="structAVVideoEncParams_1a6445e5af228fd8349a7ac83d69705364" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Base<sp/>quantisation<sp/>parameter<sp/>for<sp/>the<sp/>frame.<sp/>The<sp/>final<sp/>quantiser<sp/>for<sp/>a</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>given<sp/>block<sp/>in<sp/>a<sp/>given<sp/>plane<sp/>is<sp/>obtained<sp/>from<sp/>this<sp/>value,<sp/>possibly</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>combined<sp/>with<sp/>{@code<sp/>delta_qp}<sp/>and<sp/>the<sp/>per-block<sp/>delta<sp/>in<sp/>a<sp/>manner</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>documented<sp/>for<sp/>each<sp/>type.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" kindref="member">qp</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Quantisation<sp/>parameter<sp/>offset<sp/>from<sp/>the<sp/>base<sp/>(per-frame)<sp/>qp<sp/>for<sp/>a<sp/>given</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>plane<sp/>(first<sp/>index)<sp/>and<sp/>AC/DC<sp/>coefficients<sp/>(second<sp/>index).</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="structAVVideoEncParams_1a01d00c4d7b75e7962795f747956ee53b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="structAVVideoEncParams_1a01d00c4d7b75e7962795f747956ee53b" kindref="member">delta_qp</ref>[4][2];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}<sp/><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="112"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>Data<sp/>structure<sp/>for<sp/>storing<sp/>block-level<sp/>encoding<sp/>information.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>allocated<sp/>as<sp/>a<sp/>part<sp/>of<sp/>AVVideoEncParams<sp/>and<sp/>should<sp/>be<sp/>retrieved<sp/>with</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>av_video_enc_params_block().</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*<sp/>sizeof(AVVideoBlockParams)<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>ABI<sp/>and<sp/>new<sp/>fields<sp/>may<sp/>be</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>added<sp/>to<sp/>it.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="structAVVideoBlockParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Distance<sp/>in<sp/>luma<sp/>pixels<sp/>from<sp/>the<sp/>top-left<sp/>corner<sp/>of<sp/>the<sp/>visible<sp/>frame</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>the<sp/>top-left<sp/>corner<sp/>of<sp/>the<sp/>block.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Can<sp/>be<sp/>negative<sp/>if<sp/>top/right<sp/>padding<sp/>is<sp/>present<sp/>on<sp/>the<sp/>coded<sp/>frame.</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="structAVVideoBlockParams_1a37deac45760c78df344517c038449f09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVideoBlockParams_1a37deac45760c78df344517c038449f09" kindref="member">src_x</ref>,<sp/><ref refid="structAVVideoBlockParams_1a328ac9726b83f9e0f501c81a57c9984d" kindref="member">src_y</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Width<sp/>and<sp/>height<sp/>of<sp/>the<sp/>block<sp/>in<sp/>luma<sp/>pixels.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="structAVVideoBlockParams_1a1cd722cf2f7ea97287da8fc33c7dc3de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVideoBlockParams_1a7f89b04da2c30fdde7e43e8942f63195" kindref="member">w</ref>,<sp/><ref refid="structAVVideoBlockParams_1a1cd722cf2f7ea97287da8fc33c7dc3de" kindref="member">h</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Difference<sp/>between<sp/>this<sp/>block&apos;s<sp/>final<sp/>quantization<sp/>parameter<sp/>and<sp/>the</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>corresponding<sp/>per-frame<sp/>value.</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="structAVVideoBlockParams_1ae126d6a1b80fbabf268245fbf589a3fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="structAVVideoBlockParams_1ae126d6a1b80fbabf268245fbf589a3fa" kindref="member">delta_qp</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}<sp/><ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="139"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>block<sp/>at<sp/>the<sp/>specified<sp/>{@code<sp/>idx}.<sp/>Must<sp/>be<sp/>between<sp/>0<sp/>and<sp/>nb_blocks<sp/>-<sp/>1.</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref><sp/><ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref>*</highlight></codeline>
+<codeline lineno="143" refid="video__enc__params_8h_1a8c60988cd15689aaeffa365d97a82c90" refkind="member"><highlight class="normal"><ref refid="video__enc__params_8h_1a8c60988cd15689aaeffa365d97a82c90" kindref="member">av_video_enc_params_block</ref>(<ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref><sp/>*par,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idx)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="avassert_8h_1aae204192396f78cc8c5cd7ad5c57c23f" kindref="member">av_assert0</ref>(idx<sp/>&lt;<sp/>par-&gt;nb_blocks);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref><sp/>*)((uint8_t<sp/>*)par<sp/>+<sp/>par-&gt;<ref refid="structAVVideoEncParams_1af30a1b920629802802567ae233065f39" kindref="member">blocks_offset</ref><sp/>+</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>idx<sp/>*<sp/>par-&gt;<ref refid="structAVVideoEncParams_1a61424e76b2d8ec3d6d80de6ef9efe975" kindref="member">block_size</ref>);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="150"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*<sp/>Allocates<sp/>memory<sp/>for<sp/>AVVideoEncParams<sp/>of<sp/>the<sp/>given<sp/>type,<sp/>plus<sp/>an<sp/>array<sp/>of</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>{@code<sp/>nb_blocks}<sp/>AVVideoBlockParams<sp/>and<sp/>initializes<sp/>the<sp/>variables.<sp/>Can<sp/>be</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>freed<sp/>with<sp/>a<sp/>normal<sp/>av_free()<sp/>call.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>@param<sp/>out_size<sp/>if<sp/>non-NULL,<sp/>the<sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>the<sp/>resulting<sp/>data<sp/>array<sp/>is</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>written<sp/>here.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="video__enc__params_8h_1ad545c6225e84060f462e392033fa635c" refkind="member"><highlight class="normal"><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref><sp/>*<ref refid="video__enc__params_8h_1ad545c6225e84060f462e392033fa635c" kindref="member">av_video_enc_params_alloc</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref><sp/>type,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_blocks,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*out_size);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="161"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*<sp/>Allocates<sp/>memory<sp/>for<sp/>AVEncodeInfoFrame<sp/>plus<sp/>an<sp/>array<sp/>of</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*<sp/>{@code<sp/>nb_blocks}<sp/>AVEncodeInfoBlock<sp/>in<sp/>the<sp/>given<sp/>AVFrame<sp/>{@code<sp/>frame}</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*<sp/>as<sp/>AVFrameSideData<sp/>of<sp/>type<sp/>AV_FRAME_DATA_VIDEO_ENC_PARAMS</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/>and<sp/>initializes<sp/>the<sp/>variables.</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><ref refid="structAVVideoEncParams" kindref="compound">AVVideoEncParams</ref>*</highlight></codeline>
+<codeline lineno="168" refid="video__enc__params_8h_1a2a46d2136a349ed1c2664bb180e21c2c" refkind="member"><highlight class="normal"><ref refid="video__enc__params_8h_1a2a46d2136a349ed1c2664bb180e21c2c" kindref="member">av_video_enc_params_create_side_data</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref><sp/>type,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_blocks);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_VIDEO_ENC_PARAMS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/video_enc_params.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+Function 'main'
+Lines executed:0.00% of 214
+
+Function 'log_callback_help'
+Lines executed:0.00% of 5
+
+Function 'test_child_next'
+Lines executed:0.00% of 4
+
+Function 'child_get_name'
+Lines executed:0.00% of 2
+
+Function 'test_get_name'
+Lines executed:0.00% of 2
+
+File 'libavutil/tests/opt.c'
+Lines executed:0.00% of 218
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#opt.gcno##libavutil#tests#opt.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#opt.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#opt.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#opt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 227

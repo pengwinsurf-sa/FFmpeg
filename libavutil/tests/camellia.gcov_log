@@ -1,0 +1,12 @@
+Function 'main'
+Lines executed:0.00% of 35
+
+File 'libavutil/tests/camellia.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#camellia.gcno##libavutil#tests#camellia.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#camellia.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 35

@@ -1,0 +1,137 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'config_output'
+Lines executed:0.00% of 100
+
+Function 'filter_slice_gbrap32_pl'
+Lines executed:0.00% of 73
+
+Function 'filter_slice_gbrp32_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap32'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp32'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgb0_pl'
+Lines executed:0.00% of 55
+
+Function 'filter_slice_rgb24_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgba_pl'
+Lines executed:0.00% of 9
+
+Function 'filter_slice_rgb0'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgb24'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgba'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgb48_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgba64_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgb48'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_rgba64'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap16_pl'
+Lines executed:0.00% of 24
+
+Function 'filter_slice_gbrp16_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp14_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap12_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp12_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap10_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp10_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp9_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap16'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp16'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp14'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap12'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp12'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap10'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp10'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp9'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp_pl'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrap'
+Lines executed:0.00% of 2
+
+Function 'filter_slice_gbrp'
+Lines executed:0.00% of 2
+
+Function 'preserve_color'
+Lines executed:0.00% of 31
+
+Function 'power'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_colorchannelmixer.c'
+Lines executed:0.00% of 205
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorchannelmixer.gcno##libavfilter#vf_colorchannelmixer.c.gcov'
+
+File 'libavfilter/colorchannelmixer_template.c'
+Lines executed:0.00% of 141
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorchannelmixer.gcno##libavfilter#colorchannelmixer_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorchannelmixer.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/preserve_color.h'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorchannelmixer.gcno##libavfilter#preserve_color.h.gcov'
+
+Lines executed:0.00% of 386

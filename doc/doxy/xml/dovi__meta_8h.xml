@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dovi__meta_8h" kind="file" language="C++">
+    <compoundname>dovi_meta.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <includes refid="csp_8h" local="yes">csp.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="7">
+        <label>csp.h</label>
+        <link refid="csp_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/dovi_meta.h</label>
+        <link refid="dovi__meta_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="5">
+        <label>limits.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVDOVIDecoderConfigurationRecord" prot="public">AVDOVIDecoderConfigurationRecord</innerclass>
+    <innerclass refid="structAVDOVIRpuDataHeader" prot="public">AVDOVIRpuDataHeader</innerclass>
+    <innerclass refid="structAVDOVIReshapingCurve" prot="public">AVDOVIReshapingCurve</innerclass>
+    <innerclass refid="structAVDOVINLQParams" prot="public">AVDOVINLQParams</innerclass>
+    <innerclass refid="structAVDOVIDataMapping" prot="public">AVDOVIDataMapping</innerclass>
+    <innerclass refid="structAVDOVIColorMetadata" prot="public">AVDOVIColorMetadata</innerclass>
+    <innerclass refid="structAVDOVIDmLevel1" prot="public">AVDOVIDmLevel1</innerclass>
+    <innerclass refid="structAVDOVIDmLevel2" prot="public">AVDOVIDmLevel2</innerclass>
+    <innerclass refid="structAVDOVIDmLevel3" prot="public">AVDOVIDmLevel3</innerclass>
+    <innerclass refid="structAVDOVIDmLevel4" prot="public">AVDOVIDmLevel4</innerclass>
+    <innerclass refid="structAVDOVIDmLevel5" prot="public">AVDOVIDmLevel5</innerclass>
+    <innerclass refid="structAVDOVIDmLevel6" prot="public">AVDOVIDmLevel6</innerclass>
+    <innerclass refid="structAVDOVIDmLevel8" prot="public">AVDOVIDmLevel8</innerclass>
+    <innerclass refid="structAVDOVIDmLevel9" prot="public">AVDOVIDmLevel9</innerclass>
+    <innerclass refid="structAVDOVIDmLevel10" prot="public">AVDOVIDmLevel10</innerclass>
+    <innerclass refid="structAVDOVIDmLevel11" prot="public">AVDOVIDmLevel11</innerclass>
+    <innerclass refid="structAVDOVIDmLevel254" prot="public">AVDOVIDmLevel254</innerclass>
+    <innerclass refid="structAVDOVIDmLevel255" prot="public">AVDOVIDmLevel255</innerclass>
+    <innerclass refid="structAVDOVIDmData" prot="public">AVDOVIDmData</innerclass>
+    <innerclass refid="structAVDOVIMetadata" prot="public">AVDOVIMetadata</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" prot="public" static="no">
+        <name>AV_DOVI_MAX_PIECES</name>
+        <initializer>8</initializer>
+        <briefdescription>
+<para>Coefficients of a piece-wise function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The pieces of the function span the value ranges between two adjacent pivot values. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="116" column="9" bodyfile="libavutil/dovi_meta.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dovi__meta_8h_1af6c482cdf66809d67d68102c129d7154" prot="public" static="no">
+        <name>AV_DOVI_MAX_EXT_BLOCKS</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="351" column="9" bodyfile="libavutil/dovi_meta.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVDOVICompression</name>
+        <enumvalue id="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929cabd73803ccd15e6771bb9b5e2ff703153" prot="public">
+          <name>AV_DOVI_COMPRESSION_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929ca8c41694cf4ff26839740f836c35f47ed" prot="public">
+          <name>AV_DOVI_COMPRESSION_LIMITED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929cadebde02621d42d2d3e39164cfdf01e8c" prot="public">
+          <name>AV_DOVI_COMPRESSION_RESERVED</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929ca71d3022ba9cec1138add4e98a2aa40d7" prot="public">
+          <name>AV_DOVI_COMPRESSION_EXTENDED</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="67" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="enum" id="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVDOVIMappingMethod</name>
+        <enumvalue id="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708ca5795da6b0e2bd044c3996af556b486d2" prot="public">
+          <name>AV_DOVI_MAPPING_POLYNOMIAL</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708ca467db90897a0acd0291874bb34690b45" prot="public">
+          <name>AV_DOVI_MAPPING_MMR</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="107" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="enum" id="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5faf" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVDOVINLQMethod</name>
+        <enumvalue id="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5fafa63f48d918414d38c386b67a784688b43" prot="public">
+          <name>AV_DOVI_NLQ_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5fafab90dd2d3afc4ca5136f0cabdebaa6208" prot="public">
+          <name>AV_DOVI_NLQ_LINEAR_DZ</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="130" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="130" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dovi__meta_8h_1a2c7f63457d7a3ea79abd608035ac44b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDOVIDecoderConfigurationRecord" kindref="compound">AVDOVIDecoderConfigurationRecord</ref> *</type>
+        <definition>AVDOVIDecoderConfigurationRecord * av_dovi_alloc</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_dovi_alloc</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a <ref refid="structAVDOVIDecoderConfigurationRecord" kindref="compound">AVDOVIDecoderConfigurationRecord</ref> structure and initialize its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the newly allocated struct or NULL on failure </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="80" column="34" declfile="libavutil/dovi_meta.h" declline="80" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="dovi__meta_8h_1a3b1d3962bfa66505dfa9867df064366d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref> <ref refid="structAVDOVIRpuDataHeader" kindref="compound">AVDOVIRpuDataHeader</ref> *</type>
+        <definition>static av_always_inline AVDOVIRpuDataHeader * av_dovi_get_header</definition>
+        <argsstring>(const AVDOVIMetadata *data)</argsstring>
+        <name>av_dovi_get_header</name>
+        <param>
+          <type>const <ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="355" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="dovi__meta_8h_1acaf80fa20d1d6bfcedab7d8a4b7ec637" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref> <ref refid="structAVDOVIDataMapping" kindref="compound">AVDOVIDataMapping</ref> *</type>
+        <definition>static av_always_inline AVDOVIDataMapping * av_dovi_get_mapping</definition>
+        <argsstring>(const AVDOVIMetadata *data)</argsstring>
+        <name>av_dovi_get_mapping</name>
+        <param>
+          <type>const <ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="361" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="361" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="dovi__meta_8h_1a05f1fe6583270fe394dc9abecddd20e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref> <ref refid="structAVDOVIColorMetadata" kindref="compound">AVDOVIColorMetadata</ref> *</type>
+        <definition>static av_always_inline AVDOVIColorMetadata * av_dovi_get_color</definition>
+        <argsstring>(const AVDOVIMetadata *data)</argsstring>
+        <name>av_dovi_get_color</name>
+        <param>
+          <type>const <ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="367" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="367" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="dovi__meta_8h_1a7ad90980c4a558c3faae5c9a4951996f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref> <ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref> *</type>
+        <definition>static av_always_inline AVDOVIDmData * av_dovi_get_ext</definition>
+        <argsstring>(const AVDOVIMetadata *data, int index)</argsstring>
+        <name>av_dovi_get_ext</name>
+        <param>
+          <type>const <ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="373" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="373" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="dovi__meta_8h_1a10835a6f62098fa25bbf78fb4b3320a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref> *</type>
+        <definition>AVDOVIDmData * av_dovi_find_level</definition>
+        <argsstring>(const AVDOVIMetadata *data, uint8_t level)</argsstring>
+        <name>av_dovi_find_level</name>
+        <param>
+          <type>const <ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Find an extension block with a given level, or NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In the case of multiple extension blocks, only the first is returned. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="383" column="14" declfile="libavutil/dovi_meta.h" declline="383" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="dovi__meta_8h_1aa43a4759247a0913376d744b0799256b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> *</type>
+        <definition>AVDOVIMetadata * av_dovi_metadata_alloc</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_dovi_metadata_alloc</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref> structure and initialize its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this parameter is non-NULL, the size in bytes of the allocated struct will be written here on success</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the newly allocated struct or NULL on failure </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="394" column="16" declfile="libavutil/dovi_meta.h" declline="394" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>DOVI configuration. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2020<sp/>Vacing<sp/>Fang<sp/>&lt;vacingfang@tencent.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>DOVI<sp/>configuration</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_DOVI_META_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_DOVI_META_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="csp_8h" kindref="compound">csp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>DOVI<sp/>configuration</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>ref:<sp/>dolby-vision-bitstreams-within-the-iso-base-media-file-format-v2.1.2</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dolby-vision-bitstreams-in-mpeg-2-transport-stream-multiplex-v1.2</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>@code</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>dv_version_major,<sp/>the<sp/>major<sp/>version<sp/>number<sp/>that<sp/>the<sp/>stream<sp/>complies<sp/>with</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>dv_version_minor,<sp/>the<sp/>minor<sp/>version<sp/>number<sp/>that<sp/>the<sp/>stream<sp/>complies<sp/>with</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>dv_profile,<sp/>the<sp/>Dolby<sp/>Vision<sp/>profile</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>dv_level,<sp/>the<sp/>Dolby<sp/>Vision<sp/>level</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>rpu_present_flag</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>el_present_flag</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>bl_present_flag</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>dv_bl_signal_compatibility_id</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/><sp/>dv_md_compression,<sp/>the<sp/>compression<sp/>method<sp/>in<sp/>use</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>must<sp/>be<sp/>allocated<sp/>with<sp/>av_dovi_alloc()<sp/>and</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structAVDOVIDecoderConfigurationRecord" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDecoderConfigurationRecord" kindref="compound">AVDOVIDecoderConfigurationRecord</ref><sp/>{</highlight></codeline>
+<codeline lineno="56" refid="structAVDOVIDecoderConfigurationRecord_1a3182af2d5d6ca0c10ad6cb0e5aa5c71f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1a3182af2d5d6ca0c10ad6cb0e5aa5c71f" kindref="member">dv_version_major</ref>;</highlight></codeline>
+<codeline lineno="57" refid="structAVDOVIDecoderConfigurationRecord_1ae1009dfc633097df6b5c7074b684b9b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1ae1009dfc633097df6b5c7074b684b9b5" kindref="member">dv_version_minor</ref>;</highlight></codeline>
+<codeline lineno="58" refid="structAVDOVIDecoderConfigurationRecord_1a8d7472a76d55b201759e0883e425b036" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1a8d7472a76d55b201759e0883e425b036" kindref="member">dv_profile</ref>;</highlight></codeline>
+<codeline lineno="59" refid="structAVDOVIDecoderConfigurationRecord_1afaa0a5ee8c693f26132e86c85d38c029" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1afaa0a5ee8c693f26132e86c85d38c029" kindref="member">dv_level</ref>;</highlight></codeline>
+<codeline lineno="60" refid="structAVDOVIDecoderConfigurationRecord_1a7cba91fd0ce51a45be253de043e976d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1a7cba91fd0ce51a45be253de043e976d4" kindref="member">rpu_present_flag</ref>;</highlight></codeline>
+<codeline lineno="61" refid="structAVDOVIDecoderConfigurationRecord_1ae30e3c4307f76277af0d35eacc869af8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1ae30e3c4307f76277af0d35eacc869af8" kindref="member">el_present_flag</ref>;</highlight></codeline>
+<codeline lineno="62" refid="structAVDOVIDecoderConfigurationRecord_1af212117847425270d1da7ff88e28efb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1af212117847425270d1da7ff88e28efb0" kindref="member">bl_present_flag</ref>;</highlight></codeline>
+<codeline lineno="63" refid="structAVDOVIDecoderConfigurationRecord_1af0c03dc377375d8a61e74a44de462a73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1af0c03dc377375d8a61e74a44de462a73" kindref="member">dv_bl_signal_compatibility_id</ref>;</highlight></codeline>
+<codeline lineno="64" refid="structAVDOVIDecoderConfigurationRecord_1a761acee1797809764fd821e97e4c4f07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDecoderConfigurationRecord_1a761acee1797809764fd821e97e4c4f07" kindref="member">dv_md_compression</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/><ref refid="structAVDOVIDecoderConfigurationRecord" kindref="compound">AVDOVIDecoderConfigurationRecord</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929c" kindref="member">AVDOVICompression</ref><sp/>{</highlight></codeline>
+<codeline lineno="68" refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929cabd73803ccd15e6771bb9b5e2ff703153" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929cabd73803ccd15e6771bb9b5e2ff703153" kindref="member">AV_DOVI_COMPRESSION_NONE</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="69" refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929ca8c41694cf4ff26839740f836c35f47ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929ca8c41694cf4ff26839740f836c35f47ed" kindref="member">AV_DOVI_COMPRESSION_LIMITED</ref><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="70" refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929cadebde02621d42d2d3e39164cfdf01e8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929cadebde02621d42d2d3e39164cfdf01e8c" kindref="member">AV_DOVI_COMPRESSION_RESERVED</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="71" refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929ca71d3022ba9cec1138add4e98a2aa40d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1a47ed565e9870e3d47850fda37576929ca71d3022ba9cec1138add4e98a2aa40d7" kindref="member">AV_DOVI_COMPRESSION_EXTENDED</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>AVDOVIDecoderConfigurationRecord<sp/>structure<sp/>and<sp/>initialize<sp/>its</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>fields<sp/>to<sp/>default<sp/>values.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>newly<sp/>allocated<sp/>struct<sp/>or<sp/>NULL<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="dovi__meta_8h_1a2c7f63457d7a3ea79abd608035ac44b3" refkind="member"><highlight class="normal"><ref refid="structAVDOVIDecoderConfigurationRecord" kindref="compound">AVDOVIDecoderConfigurationRecord</ref><sp/>*<ref refid="dovi__meta_8h_1a2c7f63457d7a3ea79abd608035ac44b3" kindref="member">av_dovi_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="82"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>Dolby<sp/>Vision<sp/>RPU<sp/>data<sp/>header.</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>@note<sp/>sizeof(AVDOVIRpuDataHeader)<sp/>is<sp/>not<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="structAVDOVIRpuDataHeader" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIRpuDataHeader" kindref="compound">AVDOVIRpuDataHeader</ref><sp/>{</highlight></codeline>
+<codeline lineno="88" refid="structAVDOVIRpuDataHeader_1a163811691ada640fed6d15024ed52b11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a163811691ada640fed6d15024ed52b11" kindref="member">rpu_type</ref>;</highlight></codeline>
+<codeline lineno="89" refid="structAVDOVIRpuDataHeader_1a9b581b9fe2bc5a5aa5c3b367322def69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a9b581b9fe2bc5a5aa5c3b367322def69" kindref="member">rpu_format</ref>;</highlight></codeline>
+<codeline lineno="90" refid="structAVDOVIRpuDataHeader_1a2c0c8f785d01499e9ba093a3439afb4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a2c0c8f785d01499e9ba093a3439afb4e" kindref="member">vdr_rpu_profile</ref>;</highlight></codeline>
+<codeline lineno="91" refid="structAVDOVIRpuDataHeader_1af071e6aa59b7d5ca4b7a86a2c5807ee7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1af071e6aa59b7d5ca4b7a86a2c5807ee7" kindref="member">vdr_rpu_level</ref>;</highlight></codeline>
+<codeline lineno="92" refid="structAVDOVIRpuDataHeader_1aba108818ea1ba0a4ae556a954adc2a2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1aba108818ea1ba0a4ae556a954adc2a2d" kindref="member">chroma_resampling_explicit_filter_flag</ref>;</highlight></codeline>
+<codeline lineno="93" refid="structAVDOVIRpuDataHeader_1ad847f004e8082986ba1278e326b143a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1ad847f004e8082986ba1278e326b143a8" kindref="member">coef_data_type</ref>;<sp/></highlight><highlight class="comment">/*<sp/>informative,<sp/>lavc<sp/>always<sp/>converts<sp/>to<sp/>fixed<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="structAVDOVIRpuDataHeader_1ab0488daa5670609c9d9a6684f474e81d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1ab0488daa5670609c9d9a6684f474e81d" kindref="member">coef_log2_denom</ref>;</highlight></codeline>
+<codeline lineno="95" refid="structAVDOVIRpuDataHeader_1aaf65f4f9068ecd4f9a075821f8a9b7f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1aaf65f4f9068ecd4f9a075821f8a9b7f4" kindref="member">vdr_rpu_normalized_idc</ref>;</highlight></codeline>
+<codeline lineno="96" refid="structAVDOVIRpuDataHeader_1a9a674b804fa1b135b45839769809ba8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a9a674b804fa1b135b45839769809ba8d" kindref="member">bl_video_full_range_flag</ref>;</highlight></codeline>
+<codeline lineno="97" refid="structAVDOVIRpuDataHeader_1a2c41713e96f601fed818a7d52d3f93a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a2c41713e96f601fed818a7d52d3f93a5" kindref="member">bl_bit_depth</ref>;<sp/></highlight><highlight class="comment">/*<sp/>[8,<sp/>16]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="structAVDOVIRpuDataHeader_1abecfd62010e66fab0da9fad1f7180145" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1abecfd62010e66fab0da9fad1f7180145" kindref="member">el_bit_depth</ref>;<sp/></highlight><highlight class="comment">/*<sp/>[8,<sp/>16]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="structAVDOVIRpuDataHeader_1a5ff395637927ce1bffb6d09e3a1255d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a5ff395637927ce1bffb6d09e3a1255d5" kindref="member">vdr_bit_depth</ref>;<sp/></highlight><highlight class="comment">/*<sp/>[8,<sp/>16]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="structAVDOVIRpuDataHeader_1a5ecac6dbbbbb777b38437526445e6744" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a5ecac6dbbbbb777b38437526445e6744" kindref="member">spatial_resampling_filter_flag</ref>;</highlight></codeline>
+<codeline lineno="101" refid="structAVDOVIRpuDataHeader_1a9512bdee2c0b150f04fcd829ef3374a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a9512bdee2c0b150f04fcd829ef3374a2" kindref="member">el_spatial_resampling_filter_flag</ref>;</highlight></codeline>
+<codeline lineno="102" refid="structAVDOVIRpuDataHeader_1aa1dbf55ec764269295db1752ac4988ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1aa1dbf55ec764269295db1752ac4988ae" kindref="member">disable_residual_flag</ref>;</highlight></codeline>
+<codeline lineno="103" refid="structAVDOVIRpuDataHeader_1a5e7fc9e6750ca4075a497d574dc7cb6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1a5e7fc9e6750ca4075a497d574dc7cb6d" kindref="member">ext_mapping_idc_0_4</ref>;<sp/></highlight><highlight class="comment">/*<sp/>extended<sp/>base<sp/>layer<sp/>inverse<sp/>mapping<sp/>indicator<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="structAVDOVIRpuDataHeader_1ae9317bd4849353df8bf957916dbfae65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIRpuDataHeader_1ae9317bd4849353df8bf957916dbfae65" kindref="member">ext_mapping_idc_5_7</ref>;<sp/></highlight><highlight class="comment">/*<sp/>reserved<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}<sp/><ref refid="structAVDOVIRpuDataHeader" kindref="compound">AVDOVIRpuDataHeader</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708c" kindref="member">AVDOVIMappingMethod</ref><sp/>{</highlight></codeline>
+<codeline lineno="108" refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708ca5795da6b0e2bd044c3996af556b486d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708ca5795da6b0e2bd044c3996af556b486d2" kindref="member">AV_DOVI_MAPPING_POLYNOMIAL</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="109" refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708ca467db90897a0acd0291874bb34690b45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708ca467db90897a0acd0291874bb34690b45" kindref="member">AV_DOVI_MAPPING_MMR</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="112"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>Coefficients<sp/>of<sp/>a<sp/>piece-wise<sp/>function.<sp/>The<sp/>pieces<sp/>of<sp/>the<sp/>function<sp/>span<sp/>the</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>value<sp/>ranges<sp/>between<sp/>two<sp/>adjacent<sp/>pivot<sp/>values.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DOVI_MAX_PIECES<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="structAVDOVIReshapingCurve" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIReshapingCurve" kindref="compound">AVDOVIReshapingCurve</ref><sp/>{</highlight></codeline>
+<codeline lineno="118" refid="structAVDOVIReshapingCurve_1a0ff877118d30e51e8bbba2b7e89584b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIReshapingCurve_1a0ff877118d30e51e8bbba2b7e89584b4" kindref="member">num_pivots</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>[2,<sp/>9]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="structAVDOVIReshapingCurve_1acfe56823c75118fc2616afa251e18aa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIReshapingCurve_1acfe56823c75118fc2616afa251e18aa2" kindref="member">pivots</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref><sp/>+<sp/>1];<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>sorted<sp/>ascending<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="structAVDOVIReshapingCurve_1a4e53db44aea940779c4a2c7edd5aaad6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dovi__meta_8h_1a89a406ae480e2b91c06e50c7cf83708c" kindref="member">AVDOVIMappingMethod</ref><sp/><ref refid="structAVDOVIReshapingCurve_1a4e53db44aea940779c4a2c7edd5aaad6" kindref="member">mapping_idc</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref>];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>AV_DOVI_MAPPING_POLYNOMIAL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structAVDOVIReshapingCurve_1a0c29cb9eeeb0c4c50f17eb0cbb9147b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIReshapingCurve_1a0c29cb9eeeb0c4c50f17eb0cbb9147b9" kindref="member">poly_order</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref>];<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>[1,<sp/>2]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="structAVDOVIReshapingCurve_1aaf38e895c08eb2904050d313e8e91638" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structAVDOVIReshapingCurve_1aaf38e895c08eb2904050d313e8e91638" kindref="member">poly_coef</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref>][3];<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>x^0,<sp/>x^1,<sp/>x^2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>AV_DOVI_MAPPING_MMR<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="structAVDOVIReshapingCurve_1aeafd477e76320e41a9f81c41faaef8bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIReshapingCurve_1aeafd477e76320e41a9f81c41faaef8bf" kindref="member">mmr_order</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref>];<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>[1,<sp/>3]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="structAVDOVIReshapingCurve_1a69d99b58b33124c7b3285f2a118ffd24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structAVDOVIReshapingCurve_1a69d99b58b33124c7b3285f2a118ffd24" kindref="member">mmr_constant</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref>];</highlight></codeline>
+<codeline lineno="127" refid="structAVDOVIReshapingCurve_1a8d36038a59bbb085b2eeee905a5381ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structAVDOVIReshapingCurve_1a8d36038a59bbb085b2eeee905a5381ca" kindref="member">mmr_coef</ref>[<ref refid="dovi__meta_8h_1ad37d10cf6fe33ae3556302a6e422c3c3" kindref="member">AV_DOVI_MAX_PIECES</ref>][3</highlight><highlight class="comment">/*<sp/>order<sp/>-<sp/>1<sp/>*/</highlight><highlight class="normal">][7];</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}<sp/><ref refid="structAVDOVIReshapingCurve" kindref="compound">AVDOVIReshapingCurve</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5faf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5faf" kindref="member">AVDOVINLQMethod</ref><sp/>{</highlight></codeline>
+<codeline lineno="131" refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5fafa63f48d918414d38c386b67a784688b43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5fafa63f48d918414d38c386b67a784688b43" kindref="member">AV_DOVI_NLQ_NONE</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="132" refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5fafab90dd2d3afc4ca5136f0cabdebaa6208" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5fafab90dd2d3afc4ca5136f0cabdebaa6208" kindref="member">AV_DOVI_NLQ_LINEAR_DZ</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="135"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/>Coefficients<sp/>of<sp/>the<sp/>non-linear<sp/>inverse<sp/>quantization.<sp/>For<sp/>the<sp/>interpretation</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>of<sp/>these,<sp/>see<sp/>ETSI<sp/>GS<sp/>CCM<sp/>001.</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="structAVDOVINLQParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVINLQParams" kindref="compound">AVDOVINLQParams</ref><sp/>{</highlight></codeline>
+<codeline lineno="140" refid="structAVDOVINLQParams_1ae60f17577a5ba470ab41ee13210c42f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVINLQParams_1ae60f17577a5ba470ab41ee13210c42f1" kindref="member">nlq_offset</ref>;</highlight></codeline>
+<codeline lineno="141" refid="structAVDOVINLQParams_1af2b3e58d4584afd6c0faf44535a0bd6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structAVDOVINLQParams_1af2b3e58d4584afd6c0faf44535a0bd6e" kindref="member">vdr_in_max</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>AV_DOVI_NLQ_LINEAR_DZ<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="structAVDOVINLQParams_1a3f67a9c134686102fc2c737c11779417" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structAVDOVINLQParams_1a3f67a9c134686102fc2c737c11779417" kindref="member">linear_deadzone_slope</ref>;</highlight></codeline>
+<codeline lineno="144" refid="structAVDOVINLQParams_1a67b06224b6022d2786bdaa263a7b432d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structAVDOVINLQParams_1a67b06224b6022d2786bdaa263a7b432d" kindref="member">linear_deadzone_threshold</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}<sp/><ref refid="structAVDOVINLQParams" kindref="compound">AVDOVINLQParams</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="147"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>Dolby<sp/>Vision<sp/>RPU<sp/>data<sp/>mapping<sp/>parameters.</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*<sp/>@note<sp/>sizeof(AVDOVIDataMapping)<sp/>is<sp/>not<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="structAVDOVIDataMapping" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDataMapping" kindref="compound">AVDOVIDataMapping</ref><sp/>{</highlight></codeline>
+<codeline lineno="153" refid="structAVDOVIDataMapping_1a27a3dc0fc7e5a5ea3df526f8a9eadb27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDataMapping_1a27a3dc0fc7e5a5ea3df526f8a9eadb27" kindref="member">vdr_rpu_id</ref>;</highlight></codeline>
+<codeline lineno="154" refid="structAVDOVIDataMapping_1a80919963f6b922c712cebac0215bb1df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDataMapping_1a80919963f6b922c712cebac0215bb1df" kindref="member">mapping_color_space</ref>;</highlight></codeline>
+<codeline lineno="155" refid="structAVDOVIDataMapping_1a826dbae7687464ab81f2f54f36a3879b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDataMapping_1a826dbae7687464ab81f2f54f36a3879b" kindref="member">mapping_chroma_format_idc</ref>;</highlight></codeline>
+<codeline lineno="156" refid="structAVDOVIDataMapping_1ac9fc8973f1f02e9e36567e6a4c1f9ec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVDOVIReshapingCurve" kindref="compound">AVDOVIReshapingCurve</ref><sp/><ref refid="structAVDOVIDataMapping_1ac9fc8973f1f02e9e36567e6a4c1f9ec8" kindref="member">curves</ref>[3];<sp/></highlight><highlight class="comment">/*<sp/>per<sp/>component<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Non-linear<sp/>inverse<sp/>quantization<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="structAVDOVIDataMapping_1ada5a851324e770e85638791f55575e30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dovi__meta_8h_1aa068b221d3d1f4ba2fbe31ca924f5faf" kindref="member">AVDOVINLQMethod</ref><sp/><ref refid="structAVDOVIDataMapping_1ada5a851324e770e85638791f55575e30" kindref="member">nlq_method_idc</ref>;</highlight></codeline>
+<codeline lineno="160" refid="structAVDOVIDataMapping_1a0ede79f5f8f75cffcebbe8a28c0815b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVDOVIDataMapping_1a0ede79f5f8f75cffcebbe8a28c0815b2" kindref="member">num_x_partitions</ref>;</highlight></codeline>
+<codeline lineno="161" refid="structAVDOVIDataMapping_1af13842dc9a97ac2048851ce87b8feaf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVDOVIDataMapping_1af13842dc9a97ac2048851ce87b8feaf2" kindref="member">num_y_partitions</ref>;</highlight></codeline>
+<codeline lineno="162" refid="structAVDOVIDataMapping_1a805b24c9e20a6c110eefff7ca4daff1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVDOVINLQParams" kindref="compound">AVDOVINLQParams</ref><sp/><ref refid="structAVDOVIDataMapping_1a805b24c9e20a6c110eefff7ca4daff1f" kindref="member">nlq</ref>[3];<sp/></highlight><highlight class="comment">/*<sp/>per<sp/>component<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="structAVDOVIDataMapping_1ab8e5b42e5822312a0047c8f8e61c679a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDataMapping_1ab8e5b42e5822312a0047c8f8e61c679a" kindref="member">nlq_pivots</ref>[2];</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}<sp/><ref refid="structAVDOVIDataMapping" kindref="compound">AVDOVIDataMapping</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="166"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*<sp/>Dolby<sp/>Vision<sp/>RPU<sp/>colorspace<sp/>metadata<sp/>parameters.</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*<sp/>@note<sp/>sizeof(AVDOVIColorMetadata)<sp/>is<sp/>not<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="structAVDOVIColorMetadata" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIColorMetadata" kindref="compound">AVDOVIColorMetadata</ref><sp/>{</highlight></codeline>
+<codeline lineno="172" refid="structAVDOVIColorMetadata_1aca621d178fb68cb939e4af82227d0718" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIColorMetadata_1aca621d178fb68cb939e4af82227d0718" kindref="member">dm_metadata_id</ref>;</highlight></codeline>
+<codeline lineno="173" refid="structAVDOVIColorMetadata_1a71652428c605e8f9a1171edd2532be00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIColorMetadata_1a71652428c605e8f9a1171edd2532be00" kindref="member">scene_refresh_flag</ref>;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Coefficients<sp/>of<sp/>the<sp/>custom<sp/>Dolby<sp/>Vision<sp/>IPT-PQ<sp/>matrices.<sp/>These<sp/>are<sp/>to<sp/>be</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>used<sp/>instead<sp/>of<sp/>the<sp/>matrices<sp/>indicated<sp/>by<sp/>the<sp/>frame&apos;s<sp/>colorspace<sp/>tags.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>output<sp/>of<sp/>rgb_to_lms_matrix<sp/>is<sp/>to<sp/>be<sp/>fed<sp/>into<sp/>a<sp/>BT.2020<sp/>LMS-&gt;RGB</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>matrix<sp/>based<sp/>on<sp/>a<sp/>Hunt-Pointer-Estevez<sp/>transform,<sp/>but<sp/>without<sp/>any</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>crosstalk.<sp/>(See<sp/>the<sp/>definition<sp/>of<sp/>the<sp/>ICtCp<sp/>colorspace<sp/>for<sp/>more</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>information.)</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="structAVDOVIColorMetadata_1a471ed5ab32427d9019b8d7b3836faf89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVDOVIColorMetadata_1a471ed5ab32427d9019b8d7b3836faf89" kindref="member">ycc_to_rgb_matrix</ref>[9];<sp/></highlight><highlight class="comment">/*<sp/>before<sp/>PQ<sp/>linearization<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="structAVDOVIColorMetadata_1affb4d14ac293bec5b5f8519c3becef0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVDOVIColorMetadata_1affb4d14ac293bec5b5f8519c3becef0a" kindref="member">ycc_to_rgb_offset</ref>[3];<sp/></highlight><highlight class="comment">/*<sp/>input<sp/>offset<sp/>of<sp/>neutral<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="structAVDOVIColorMetadata_1a244baef64e9b7f7f2e3169a35ae847a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVDOVIColorMetadata_1a244baef64e9b7f7f2e3169a35ae847a4" kindref="member">rgb_to_lms_matrix</ref>[9];<sp/></highlight><highlight class="comment">/*<sp/>after<sp/>PQ<sp/>linearization<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Extra<sp/>signal<sp/>metadata<sp/>(see<sp/>Dolby<sp/>patents<sp/>for<sp/>more<sp/>info).</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="structAVDOVIColorMetadata_1a139e51cd0facab097aa1cea908c24dfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIColorMetadata_1a139e51cd0facab097aa1cea908c24dfc" kindref="member">signal_eotf</ref>;</highlight></codeline>
+<codeline lineno="191" refid="structAVDOVIColorMetadata_1a4afaf14f361f18e6a9665f584c46dc74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIColorMetadata_1a4afaf14f361f18e6a9665f584c46dc74" kindref="member">signal_eotf_param0</ref>;</highlight></codeline>
+<codeline lineno="192" refid="structAVDOVIColorMetadata_1a51f560ffec34402545d6982e4e86507f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIColorMetadata_1a51f560ffec34402545d6982e4e86507f" kindref="member">signal_eotf_param1</ref>;</highlight></codeline>
+<codeline lineno="193" refid="structAVDOVIColorMetadata_1ad1c34758316abceb089a8b68d75ba497" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVDOVIColorMetadata_1ad1c34758316abceb089a8b68d75ba497" kindref="member">signal_eotf_param2</ref>;</highlight></codeline>
+<codeline lineno="194" refid="structAVDOVIColorMetadata_1a4603f110372964c255783071a5316b60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIColorMetadata_1a4603f110372964c255783071a5316b60" kindref="member">signal_bit_depth</ref>;</highlight></codeline>
+<codeline lineno="195" refid="structAVDOVIColorMetadata_1ad6bf3f5b663f50d685829e0a07deee90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIColorMetadata_1ad6bf3f5b663f50d685829e0a07deee90" kindref="member">signal_color_space</ref>;</highlight></codeline>
+<codeline lineno="196" refid="structAVDOVIColorMetadata_1aaffbdf4a09caa5593019f449010156ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIColorMetadata_1aaffbdf4a09caa5593019f449010156ab" kindref="member">signal_chroma_format</ref>;</highlight></codeline>
+<codeline lineno="197" refid="structAVDOVIColorMetadata_1af721a7f8a3dff0456eb1c8f75764c5d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIColorMetadata_1af721a7f8a3dff0456eb1c8f75764c5d5" kindref="member">signal_full_range_flag</ref>;<sp/></highlight><highlight class="comment">/*<sp/>[0,<sp/>3]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="structAVDOVIColorMetadata_1a725112652cdfb7159c9ead7c79d91f20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIColorMetadata_1a725112652cdfb7159c9ead7c79d91f20" kindref="member">source_min_pq</ref>;</highlight></codeline>
+<codeline lineno="199" refid="structAVDOVIColorMetadata_1acd3da9a63c9a53fbc407d23ae267d102" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIColorMetadata_1acd3da9a63c9a53fbc407d23ae267d102" kindref="member">source_max_pq</ref>;</highlight></codeline>
+<codeline lineno="200" refid="structAVDOVIColorMetadata_1abf552ca732bc981ba9950c11d03b4115" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIColorMetadata_1abf552ca732bc981ba9950c11d03b4115" kindref="member">source_diagonal</ref>;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}<sp/><ref refid="structAVDOVIColorMetadata" kindref="compound">AVDOVIColorMetadata</ref>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="structAVDOVIDmLevel1" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel1" kindref="compound">AVDOVIDmLevel1</ref><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Per-frame<sp/>brightness<sp/>metadata<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="structAVDOVIDmLevel1_1a78e17598874703261d781b7e64c22a6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel1_1a78e17598874703261d781b7e64c22a6a" kindref="member">min_pq</ref>;</highlight></codeline>
+<codeline lineno="206" refid="structAVDOVIDmLevel1_1ae552be4f9f594e8a7eb67f38489913b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel1_1ae552be4f9f594e8a7eb67f38489913b5" kindref="member">max_pq</ref>;</highlight></codeline>
+<codeline lineno="207" refid="structAVDOVIDmLevel1_1a4a36cbfe95534878b1605560f75b7b26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel1_1a4a36cbfe95534878b1605560f75b7b26" kindref="member">avg_pq</ref>;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel1" kindref="compound">AVDOVIDmLevel1</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="structAVDOVIDmLevel2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel2" kindref="compound">AVDOVIDmLevel2</ref><sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Usually<sp/>derived<sp/>from<sp/>level<sp/>8<sp/>(at<sp/>different<sp/>levels)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="structAVDOVIDmLevel2_1a59d80d2961c720b388758bc2a1ef13b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel2_1a59d80d2961c720b388758bc2a1ef13b2" kindref="member">target_max_pq</ref>;</highlight></codeline>
+<codeline lineno="213" refid="structAVDOVIDmLevel2_1aa1f069cbcf33e196750e39a2bdb3baf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel2_1aa1f069cbcf33e196750e39a2bdb3baf6" kindref="member">trim_slope</ref>;</highlight></codeline>
+<codeline lineno="214" refid="structAVDOVIDmLevel2_1adec1ab260fb9ecbed389999dc553dd4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel2_1adec1ab260fb9ecbed389999dc553dd4b" kindref="member">trim_offset</ref>;</highlight></codeline>
+<codeline lineno="215" refid="structAVDOVIDmLevel2_1af543c42961d4c5ed205ef9d360ce9d98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel2_1af543c42961d4c5ed205ef9d360ce9d98" kindref="member">trim_power</ref>;</highlight></codeline>
+<codeline lineno="216" refid="structAVDOVIDmLevel2_1abde8a7f66a062ecba03bd6c9aaf1b1d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel2_1abde8a7f66a062ecba03bd6c9aaf1b1d4" kindref="member">trim_chroma_weight</ref>;</highlight></codeline>
+<codeline lineno="217" refid="structAVDOVIDmLevel2_1abe276f3d5630c2d80205d38e2f372d52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel2_1abe276f3d5630c2d80205d38e2f372d52" kindref="member">trim_saturation_gain</ref>;</highlight></codeline>
+<codeline lineno="218" refid="structAVDOVIDmLevel2_1a4126e35b438e07677d56357f3250fd07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="structAVDOVIDmLevel2_1a4126e35b438e07677d56357f3250fd07" kindref="member">ms_weight</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel2" kindref="compound">AVDOVIDmLevel2</ref>;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="structAVDOVIDmLevel3" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel3" kindref="compound">AVDOVIDmLevel3</ref><sp/>{</highlight></codeline>
+<codeline lineno="222" refid="structAVDOVIDmLevel3_1ae068fb11458df2f4f5c2124cc4ebee3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel3_1ae068fb11458df2f4f5c2124cc4ebee3b" kindref="member">min_pq_offset</ref>;</highlight></codeline>
+<codeline lineno="223" refid="structAVDOVIDmLevel3_1a5f28c97436ae40084a7cbd65c3a7d292" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel3_1a5f28c97436ae40084a7cbd65c3a7d292" kindref="member">max_pq_offset</ref>;</highlight></codeline>
+<codeline lineno="224" refid="structAVDOVIDmLevel3_1a94696b60f0a7394784073eb231fd9313" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel3_1a94696b60f0a7394784073eb231fd9313" kindref="member">avg_pq_offset</ref>;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel3" kindref="compound">AVDOVIDmLevel3</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="structAVDOVIDmLevel4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel4" kindref="compound">AVDOVIDmLevel4</ref><sp/>{</highlight></codeline>
+<codeline lineno="228" refid="structAVDOVIDmLevel4_1a03b6234b3fda9af35f68c56cae2caab7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel4_1a03b6234b3fda9af35f68c56cae2caab7" kindref="member">anchor_pq</ref>;</highlight></codeline>
+<codeline lineno="229" refid="structAVDOVIDmLevel4_1aa44ff533b3c613f987218b208aa6208d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel4_1aa44ff533b3c613f987218b208aa6208d" kindref="member">anchor_power</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel4" kindref="compound">AVDOVIDmLevel4</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="structAVDOVIDmLevel5" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel5" kindref="compound">AVDOVIDmLevel5</ref><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Active<sp/>area<sp/>definition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="structAVDOVIDmLevel5_1a5abc8f32cbe84922bc14c98a23d093c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel5_1a5abc8f32cbe84922bc14c98a23d093c1" kindref="member">left_offset</ref>;</highlight></codeline>
+<codeline lineno="235" refid="structAVDOVIDmLevel5_1a5c4048b8c53e5f4968f94d5744d2c5cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel5_1a5c4048b8c53e5f4968f94d5744d2c5cb" kindref="member">right_offset</ref>;</highlight></codeline>
+<codeline lineno="236" refid="structAVDOVIDmLevel5_1a561679ffa4d8290aa486cb9d0c5a2bb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel5_1a561679ffa4d8290aa486cb9d0c5a2bb5" kindref="member">top_offset</ref>;</highlight></codeline>
+<codeline lineno="237" refid="structAVDOVIDmLevel5_1a021c2cf7cc498d02c7ab47e213cc282a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel5_1a021c2cf7cc498d02c7ab47e213cc282a" kindref="member">bottom_offset</ref>;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel5" kindref="compound">AVDOVIDmLevel5</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="structAVDOVIDmLevel6" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel6" kindref="compound">AVDOVIDmLevel6</ref><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Static<sp/>HDR10<sp/>metadata<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="structAVDOVIDmLevel6_1a5f35c2d08f5a85c6ab37c31ea090445d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel6_1a5f35c2d08f5a85c6ab37c31ea090445d" kindref="member">max_luminance</ref>;</highlight></codeline>
+<codeline lineno="243" refid="structAVDOVIDmLevel6_1a35573912297a87fe2d0d23715a321f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel6_1a35573912297a87fe2d0d23715a321f71" kindref="member">min_luminance</ref>;</highlight></codeline>
+<codeline lineno="244" refid="structAVDOVIDmLevel6_1ac64eb84a714e90092a70faa42e34cb90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel6_1ac64eb84a714e90092a70faa42e34cb90" kindref="member">max_cll</ref>;</highlight></codeline>
+<codeline lineno="245" refid="structAVDOVIDmLevel6_1ab575aa9a17eda5a54706d75114f607bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel6_1ab575aa9a17eda5a54706d75114f607bb" kindref="member">max_fall</ref>;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel6" kindref="compound">AVDOVIDmLevel6</ref>;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="structAVDOVIDmLevel8" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel8" kindref="compound">AVDOVIDmLevel8</ref><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extended<sp/>version<sp/>of<sp/>level<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="structAVDOVIDmLevel8_1a1c25cf722c75a51f6d52a6eab8fac03b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel8_1a1c25cf722c75a51f6d52a6eab8fac03b" kindref="member">target_display_index</ref>;</highlight></codeline>
+<codeline lineno="251" refid="structAVDOVIDmLevel8_1ad740cf4c3ebfb0eddf953f21716487c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1ad740cf4c3ebfb0eddf953f21716487c6" kindref="member">trim_slope</ref>;</highlight></codeline>
+<codeline lineno="252" refid="structAVDOVIDmLevel8_1a18b00aff55448ce746526e92b770e846" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1a18b00aff55448ce746526e92b770e846" kindref="member">trim_offset</ref>;</highlight></codeline>
+<codeline lineno="253" refid="structAVDOVIDmLevel8_1a3975616304665f2545c8fdaa4a48a003" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1a3975616304665f2545c8fdaa4a48a003" kindref="member">trim_power</ref>;</highlight></codeline>
+<codeline lineno="254" refid="structAVDOVIDmLevel8_1a77864545c7c8b8c5a34b08c06f75a787" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1a77864545c7c8b8c5a34b08c06f75a787" kindref="member">trim_chroma_weight</ref>;</highlight></codeline>
+<codeline lineno="255" refid="structAVDOVIDmLevel8_1a56a570d71fee61b04e297b171c78110e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1a56a570d71fee61b04e297b171c78110e" kindref="member">trim_saturation_gain</ref>;</highlight></codeline>
+<codeline lineno="256" refid="structAVDOVIDmLevel8_1aac89084fcb1963eab888b4438711b424" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1aac89084fcb1963eab888b4438711b424" kindref="member">ms_weight</ref>;</highlight></codeline>
+<codeline lineno="257" refid="structAVDOVIDmLevel8_1a24763546c0dbe57ea9312624d6fe0934" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1a24763546c0dbe57ea9312624d6fe0934" kindref="member">target_mid_contrast</ref>;</highlight></codeline>
+<codeline lineno="258" refid="structAVDOVIDmLevel8_1aaf33ca347f0e3422edfccdf149a5af3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel8_1aaf33ca347f0e3422edfccdf149a5af3d" kindref="member">clip_trim</ref>;</highlight></codeline>
+<codeline lineno="259" refid="structAVDOVIDmLevel8_1a2dd11dab989ab2cf8bbcd1ce8298d7f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel8_1a2dd11dab989ab2cf8bbcd1ce8298d7f0" kindref="member">saturation_vector_field</ref>[6];</highlight></codeline>
+<codeline lineno="260" refid="structAVDOVIDmLevel8_1a3d76f63b379b7b32862f2f4c1abc7f2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel8_1a3d76f63b379b7b32862f2f4c1abc7f2c" kindref="member">hue_vector_field</ref>[6];</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel8" kindref="compound">AVDOVIDmLevel8</ref>;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="structAVDOVIDmLevel9" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel9" kindref="compound">AVDOVIDmLevel9</ref><sp/>{</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Source<sp/>display<sp/>characteristics<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="structAVDOVIDmLevel9_1a3fb4bc3bdbc2bee28ebff429bf339226" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel9_1a3fb4bc3bdbc2bee28ebff429bf339226" kindref="member">source_primary_index</ref>;</highlight></codeline>
+<codeline lineno="266" refid="structAVDOVIDmLevel9_1a0cfa13fbd3005a82de95f24e5148e1ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVColorPrimariesDesc" kindref="compound">AVColorPrimariesDesc</ref><sp/><ref refid="structAVDOVIDmLevel9_1a0cfa13fbd3005a82de95f24e5148e1ba" kindref="member">source_display_primaries</ref>;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel9" kindref="compound">AVDOVIDmLevel9</ref>;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="structAVDOVIDmLevel10" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel10" kindref="compound">AVDOVIDmLevel10</ref><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Target<sp/>display<sp/>characteristics<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="structAVDOVIDmLevel10_1aff6d397a4adac7e52d244f38c50af224" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel10_1aff6d397a4adac7e52d244f38c50af224" kindref="member">target_display_index</ref>;</highlight></codeline>
+<codeline lineno="272" refid="structAVDOVIDmLevel10_1ababa27049770154330f323eeed7ba5b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel10_1ababa27049770154330f323eeed7ba5b2" kindref="member">target_max_pq</ref>;</highlight></codeline>
+<codeline lineno="273" refid="structAVDOVIDmLevel10_1a3338a1f9c94ecc237bafc0a168f0c3b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVDOVIDmLevel10_1a3338a1f9c94ecc237bafc0a168f0c3b3" kindref="member">target_min_pq</ref>;</highlight></codeline>
+<codeline lineno="274" refid="structAVDOVIDmLevel10_1afd6c3f8e8c7d33c581f7b9408cf030f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel10_1afd6c3f8e8c7d33c581f7b9408cf030f4" kindref="member">target_primary_index</ref>;</highlight></codeline>
+<codeline lineno="275" refid="structAVDOVIDmLevel10_1afded1ac468baaff4a4e3a7a1f340d644" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVColorPrimariesDesc" kindref="compound">AVColorPrimariesDesc</ref><sp/><ref refid="structAVDOVIDmLevel10_1afded1ac468baaff4a4e3a7a1f340d644" kindref="member">target_display_primaries</ref>;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel10" kindref="compound">AVDOVIDmLevel10</ref>;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="structAVDOVIDmLevel11" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel11" kindref="compound">AVDOVIDmLevel11</ref><sp/>{</highlight></codeline>
+<codeline lineno="279" refid="structAVDOVIDmLevel11_1a1401eb37240264522a5b1a0fe8789fc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1a1401eb37240264522a5b1a0fe8789fc3" kindref="member">content_type</ref>;</highlight></codeline>
+<codeline lineno="280" refid="structAVDOVIDmLevel11_1aaf2d0b9f0a637d81ffa5e762c8d8d133" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1aaf2d0b9f0a637d81ffa5e762c8d8d133" kindref="member">whitepoint</ref>;</highlight></codeline>
+<codeline lineno="281" refid="structAVDOVIDmLevel11_1ab2d94be0a90598c69672ff32fe0f07f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1ab2d94be0a90598c69672ff32fe0f07f6" kindref="member">reference_mode_flag</ref>;</highlight></codeline>
+<codeline lineno="282" refid="structAVDOVIDmLevel11_1a4349a3746dc855be447acb9c76da6ce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1a4349a3746dc855be447acb9c76da6ce3" kindref="member">sharpness</ref>;</highlight></codeline>
+<codeline lineno="283" refid="structAVDOVIDmLevel11_1ac437bbb4cca2ed31797ab3519dfd9050" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1ac437bbb4cca2ed31797ab3519dfd9050" kindref="member">noise_reduction</ref>;</highlight></codeline>
+<codeline lineno="284" refid="structAVDOVIDmLevel11_1add7c673a17c587f20ed443be5e5d80bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1add7c673a17c587f20ed443be5e5d80bb" kindref="member">mpeg_noise_reduction</ref>;</highlight></codeline>
+<codeline lineno="285" refid="structAVDOVIDmLevel11_1aa8e0eea0b10851caba3e588005fefb59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1aa8e0eea0b10851caba3e588005fefb59" kindref="member">frame_rate_conversion</ref>;</highlight></codeline>
+<codeline lineno="286" refid="structAVDOVIDmLevel11_1aecde62f5393165197434eaed10bb36cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1aecde62f5393165197434eaed10bb36cf" kindref="member">brightness</ref>;</highlight></codeline>
+<codeline lineno="287" refid="structAVDOVIDmLevel11_1a65a71392ea6d9bb818ca4085e67ae6d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel11_1a65a71392ea6d9bb818ca4085e67ae6d4" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel11" kindref="compound">AVDOVIDmLevel11</ref>;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="structAVDOVIDmLevel254" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel254" kindref="compound">AVDOVIDmLevel254</ref><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>DMv2<sp/>info<sp/>block,<sp/>always<sp/>present<sp/>in<sp/>samples<sp/>with<sp/>DMv2<sp/>metadata<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="structAVDOVIDmLevel254_1a7ce57f2630c539c8c627d9b20d513908" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel254_1a7ce57f2630c539c8c627d9b20d513908" kindref="member">dm_mode</ref>;</highlight></codeline>
+<codeline lineno="293" refid="structAVDOVIDmLevel254_1a2ebf5eee7ed56d1ad5cabe106db315cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel254_1a2ebf5eee7ed56d1ad5cabe106db315cf" kindref="member">dm_version_index</ref>;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel254" kindref="compound">AVDOVIDmLevel254</ref>;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="structAVDOVIDmLevel255" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmLevel255" kindref="compound">AVDOVIDmLevel255</ref><sp/>{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Debug<sp/>block,<sp/>not<sp/>really<sp/>used<sp/>in<sp/>samples<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="structAVDOVIDmLevel255_1aba5fd8d03e271cc5dbcb51df9eb5d505" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel255_1aba5fd8d03e271cc5dbcb51df9eb5d505" kindref="member">dm_run_mode</ref>;</highlight></codeline>
+<codeline lineno="299" refid="structAVDOVIDmLevel255_1a9c9bce6b28865f9bf0e804d95a73cd54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel255_1a9c9bce6b28865f9bf0e804d95a73cd54" kindref="member">dm_run_version</ref>;</highlight></codeline>
+<codeline lineno="300" refid="structAVDOVIDmLevel255_1a46bbd1b1bdc1c76d8ff8bdec14238800" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmLevel255_1a46bbd1b1bdc1c76d8ff8bdec14238800" kindref="member">dm_debug</ref>[4];</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmLevel255" kindref="compound">AVDOVIDmLevel255</ref>;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="303"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/>*<sp/>Dolby<sp/>Vision<sp/>metadata<sp/>extension<sp/>block.<sp/>Dynamic<sp/>extension<sp/>blocks<sp/>may<sp/>change</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/>*<sp/>from<sp/>frame<sp/>to<sp/>frame,<sp/>while<sp/>static<sp/>blocks<sp/>are<sp/>constant<sp/>throughout<sp/>the<sp/>entire</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/>*<sp/>sequence.</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/>*<sp/>@note<sp/>sizeof(AVDOVIDmData)<sp/>is<sp/>not<sp/>part<sp/>of<sp/>the<sp/>public<sp/>API.</highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="structAVDOVIDmData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref><sp/>{</highlight></codeline>
+<codeline lineno="311" refid="structAVDOVIDmData_1a1d572c8947f63e5147486cab79228f1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDOVIDmData_1a1d572c8947f63e5147486cab79228f1e" kindref="member">level</ref>;<sp/></highlight><highlight class="comment">/*<sp/>[1,<sp/>255]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="313" refid="structAVDOVIDmData_1ab181109559ba955f3c0c5fb29bcafad2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel1" kindref="compound">AVDOVIDmLevel1</ref><sp/><ref refid="structAVDOVIDmData_1ab181109559ba955f3c0c5fb29bcafad2" kindref="member">l1</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="structAVDOVIDmData_1af98b6aab9af29c5661f1394e860ef3fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel2" kindref="compound">AVDOVIDmLevel2</ref><sp/><ref refid="structAVDOVIDmData_1af98b6aab9af29c5661f1394e860ef3fb" kindref="member">l2</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic,<sp/>may<sp/>appear<sp/>multiple<sp/>times<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="structAVDOVIDmData_1a084ab3e92742ec9803084b6f49e947d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel3" kindref="compound">AVDOVIDmLevel3</ref><sp/><ref refid="structAVDOVIDmData_1a084ab3e92742ec9803084b6f49e947d5" kindref="member">l3</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="structAVDOVIDmData_1aa387c0ba3595e011ffe68ccc3084dd70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel4" kindref="compound">AVDOVIDmLevel4</ref><sp/><ref refid="structAVDOVIDmData_1aa387c0ba3595e011ffe68ccc3084dd70" kindref="member">l4</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="structAVDOVIDmData_1adca5a31020aaa472e79d8555489aaea6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel5" kindref="compound">AVDOVIDmLevel5</ref><sp/><ref refid="structAVDOVIDmData_1adca5a31020aaa472e79d8555489aaea6" kindref="member">l5</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="structAVDOVIDmData_1a8343ac3f05cd2bc253f97ee8cf05374f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel6" kindref="compound">AVDOVIDmLevel6</ref><sp/><ref refid="structAVDOVIDmData_1a8343ac3f05cd2bc253f97ee8cf05374f" kindref="member">l6</ref>;<sp/></highlight><highlight class="comment">/*<sp/>static<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>level<sp/>7<sp/>is<sp/>currently<sp/>unused<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="structAVDOVIDmData_1a2b8fc2770037412b43eabd0c7dfa144e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel8" kindref="compound">AVDOVIDmLevel8</ref><sp/><ref refid="structAVDOVIDmData_1a2b8fc2770037412b43eabd0c7dfa144e" kindref="member">l8</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic,<sp/>may<sp/>appear<sp/>multiple<sp/>times<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="structAVDOVIDmData_1a043586cf7b63b9ef3bffa77643f424f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel9" kindref="compound">AVDOVIDmLevel9</ref><sp/><ref refid="structAVDOVIDmData_1a043586cf7b63b9ef3bffa77643f424f4" kindref="member">l9</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="structAVDOVIDmData_1ae4787ecbd0e81db2ad2ba8b9be3229f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel10" kindref="compound">AVDOVIDmLevel10</ref><sp/><ref refid="structAVDOVIDmData_1ae4787ecbd0e81db2ad2ba8b9be3229f2" kindref="member">l10</ref>;<sp/></highlight><highlight class="comment">/*<sp/>static,<sp/>may<sp/>appear<sp/>multiple<sp/>times<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="structAVDOVIDmData_1ab9e54f6036f44d8db9180ae2fed68b39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel11" kindref="compound">AVDOVIDmLevel11</ref><sp/><ref refid="structAVDOVIDmData_1ab9e54f6036f44d8db9180ae2fed68b39" kindref="member">l11</ref>;<sp/></highlight><highlight class="comment">/*<sp/>dynamic<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324" refid="structAVDOVIDmData_1a6f7446a8543900f258c0845e5e3d03d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel254" kindref="compound">AVDOVIDmLevel254</ref><sp/><ref refid="structAVDOVIDmData_1a6f7446a8543900f258c0845e5e3d03d7" kindref="member">l254</ref>;<sp/></highlight><highlight class="comment">/*<sp/>static<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="structAVDOVIDmData_1ae56c59fe93b63c8cd847f6c09aa8f0ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVDOVIDmLevel255" kindref="compound">AVDOVIDmLevel255</ref><sp/><ref refid="structAVDOVIDmData_1ae56c59fe93b63c8cd847f6c09aa8f0ce" kindref="member">l255</ref>;<sp/></highlight><highlight class="comment">/*<sp/>static<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="327"><highlight class="normal">}<sp/><ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref>;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="329"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="330"><highlight class="comment"><sp/>*<sp/>Combined<sp/>struct<sp/>representing<sp/>a<sp/>combination<sp/>of<sp/>header,<sp/>mapping<sp/>and<sp/>color</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/>*<sp/>metadata,<sp/>for<sp/>attaching<sp/>to<sp/>frames<sp/>as<sp/>side<sp/>data.</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="333"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>must<sp/>be<sp/>allocated<sp/>with<sp/>av_dovi_metadata_alloc()<sp/>and</highlight></codeline>
+<codeline lineno="334"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="335"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="structAVDOVIMetadata" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Offset<sp/>in<sp/>bytes<sp/>from<sp/>the<sp/>beginning<sp/>of<sp/>this<sp/>structure<sp/>at<sp/>which<sp/>the</highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>respective<sp/>structs<sp/>start.</highlight></codeline>
+<codeline lineno="341"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="structAVDOVIMetadata_1ad7483f8bc480ecd811691ae490731c7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata_1ad7483f8bc480ecd811691ae490731c7d" kindref="member">header_offset</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>AVDOVIRpuDataHeader<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="structAVDOVIMetadata_1a75a1fb714b5a73c82a392fe1d7ce10a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata_1a75a1fb714b5a73c82a392fe1d7ce10a2" kindref="member">mapping_offset</ref>;<sp/><sp/></highlight><highlight class="comment">/*<sp/>AVDOVIDataMapping<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="structAVDOVIMetadata_1a7965a62301844dfa8fafa5a5b41da752" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata_1a7965a62301844dfa8fafa5a5b41da752" kindref="member">color_offset</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>AVDOVIColorMetadata<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="structAVDOVIMetadata_1a5b05a5fdba4965c6015d2acde55310e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata_1a5b05a5fdba4965c6015d2acde55310e7" kindref="member">ext_block_offset</ref>;<sp/></highlight><highlight class="comment">/*<sp/>offset<sp/>to<sp/>start<sp/>of<sp/>ext<sp/>blocks<sp/>array<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="structAVDOVIMetadata_1ae3ea44b681b05a3a43db4e97b8389b0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata_1ae3ea44b681b05a3a43db4e97b8389b0d" kindref="member">ext_block_size</ref>;<sp/></highlight><highlight class="comment">/*<sp/>size<sp/>per<sp/>element<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="structAVDOVIMetadata_1a8ae715a91ead16d08ed5cb55e64e0344" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata_1a8ae715a91ead16d08ed5cb55e64e0344" kindref="member">num_ext_blocks</ref>;<sp/></highlight><highlight class="comment">/*<sp/>number<sp/>of<sp/>extension<sp/>blocks<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>static<sp/>limit<sp/>on<sp/>num_ext_blocks,<sp/>derived<sp/>from<sp/>bitstream<sp/>limitations<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="dovi__meta_8h_1af6c482cdf66809d67d68102c129d7154" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DOVI_MAX_EXT_BLOCKS<sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal">}<sp/><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref>;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref><sp/><ref refid="structAVDOVIRpuDataHeader" kindref="compound">AVDOVIRpuDataHeader</ref><sp/>*</highlight></codeline>
+<codeline lineno="355" refid="dovi__meta_8h_1a3b1d3962bfa66505dfa9867df064366d" refkind="member"><highlight class="normal"><ref refid="dovi__meta_8h_1a3b1d3962bfa66505dfa9867df064366d" kindref="member">av_dovi_get_header</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>*data)</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="structAVDOVIRpuDataHeader" kindref="compound">AVDOVIRpuDataHeader</ref><sp/>*)((uint8_t<sp/>*)<sp/>data<sp/>+<sp/>data-&gt;<ref refid="structAVDOVIMetadata_1ad7483f8bc480ecd811691ae490731c7d" kindref="member">header_offset</ref>);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref><sp/><ref refid="structAVDOVIDataMapping" kindref="compound">AVDOVIDataMapping</ref><sp/>*</highlight></codeline>
+<codeline lineno="361" refid="dovi__meta_8h_1acaf80fa20d1d6bfcedab7d8a4b7ec637" refkind="member"><highlight class="normal"><ref refid="dovi__meta_8h_1acaf80fa20d1d6bfcedab7d8a4b7ec637" kindref="member">av_dovi_get_mapping</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>*data)</highlight></codeline>
+<codeline lineno="362"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="structAVDOVIDataMapping" kindref="compound">AVDOVIDataMapping</ref><sp/>*)((uint8_t<sp/>*)<sp/>data<sp/>+<sp/>data-&gt;<ref refid="structAVDOVIMetadata_1a75a1fb714b5a73c82a392fe1d7ce10a2" kindref="member">mapping_offset</ref>);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref><sp/><ref refid="structAVDOVIColorMetadata" kindref="compound">AVDOVIColorMetadata</ref><sp/>*</highlight></codeline>
+<codeline lineno="367" refid="dovi__meta_8h_1a05f1fe6583270fe394dc9abecddd20e4" refkind="member"><highlight class="normal"><ref refid="dovi__meta_8h_1a05f1fe6583270fe394dc9abecddd20e4" kindref="member">av_dovi_get_color</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>*data)</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="structAVDOVIColorMetadata" kindref="compound">AVDOVIColorMetadata</ref><sp/>*)((uint8_t<sp/>*)<sp/>data<sp/>+<sp/>data-&gt;<ref refid="structAVDOVIMetadata_1a7965a62301844dfa8fafa5a5b41da752" kindref="member">color_offset</ref>);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" kindref="member">av_always_inline</ref><sp/><ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref><sp/>*</highlight></codeline>
+<codeline lineno="373" refid="dovi__meta_8h_1a7ad90980c4a558c3faae5c9a4951996f" refkind="member"><highlight class="normal"><ref refid="dovi__meta_8h_1a7ad90980c4a558c3faae5c9a4951996f" kindref="member">av_dovi_get_ext</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref><sp/>*)((uint8_t<sp/>*)<sp/>data<sp/>+<sp/>data-&gt;<ref refid="structAVDOVIMetadata_1a5b05a5fdba4965c6015d2acde55310e7" kindref="member">ext_block_offset</ref><sp/>+</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data-&gt;<ref refid="structAVDOVIMetadata_1ae3ea44b681b05a3a43db4e97b8389b0d" kindref="member">ext_block_size</ref><sp/>*<sp/>index);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="379"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="380"><highlight class="comment"><sp/>*<sp/>Find<sp/>an<sp/>extension<sp/>block<sp/>with<sp/>a<sp/>given<sp/>level,<sp/>or<sp/>NULL.<sp/>In<sp/>the<sp/>case<sp/>of</highlight></codeline>
+<codeline lineno="381"><highlight class="comment"><sp/>*<sp/>multiple<sp/>extension<sp/>blocks,<sp/>only<sp/>the<sp/>first<sp/>is<sp/>returned.</highlight></codeline>
+<codeline lineno="382"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="383" refid="dovi__meta_8h_1a10835a6f62098fa25bbf78fb4b3320a7" refkind="member"><highlight class="normal"><ref refid="structAVDOVIDmData" kindref="compound">AVDOVIDmData</ref><sp/>*<ref refid="dovi__meta_8h_1a10835a6f62098fa25bbf78fb4b3320a7" kindref="member">av_dovi_find_level</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>*data,<sp/>uint8_t<sp/>level);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="385"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="386"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVDOVIMetadata<sp/>structure<sp/>and<sp/>initialize<sp/>its</highlight></codeline>
+<codeline lineno="387"><highlight class="comment"><sp/>*<sp/>fields<sp/>to<sp/>default<sp/>values.</highlight></codeline>
+<codeline lineno="388"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="389"><highlight class="comment"><sp/>*<sp/>@param<sp/>size<sp/>If<sp/>this<sp/>parameter<sp/>is<sp/>non-NULL,<sp/>the<sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="390"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allocated<sp/>struct<sp/>will<sp/>be<sp/>written<sp/>here<sp/>on<sp/>success</highlight></codeline>
+<codeline lineno="391"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="392"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>newly<sp/>allocated<sp/>struct<sp/>or<sp/>NULL<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="393"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394" refid="dovi__meta_8h_1aa43a4759247a0913376d744b0799256b" refkind="member"><highlight class="normal"><ref refid="structAVDOVIMetadata" kindref="compound">AVDOVIMetadata</ref><sp/>*<ref refid="dovi__meta_8h_1aa43a4759247a0913376d744b0799256b" kindref="member">av_dovi_metadata_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_DOVI_META_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/dovi_meta.h"/>
+  </compounddef>
+</doxygen>

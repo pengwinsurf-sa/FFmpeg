@@ -1,0 +1,31 @@
+Function 'checkasm_check_vf_bwdif'
+Lines executed:88.89% of 90
+
+Function 'ff_bwdif_filter_line3_c'
+Lines executed:100.00% of 14
+
+File 'tests/checkasm/vf_bwdif.c'
+Lines executed:94.87% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_bwdif.gcno##tests#checkasm#vf_bwdif.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_bwdif.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_bwdif.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_bwdif.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_bwdif.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/bwdifdsp.h'
+Lines executed:100.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_bwdif.gcno##libavfilter#bwdifdsp.h.gcov'
+
+Lines executed:90.38% of 104

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="unionunaligned__64" kind="union" language="C++" prot="public">
+    <compoundname>unaligned_64</compoundname>
+    <includes refid="intreadwrite_8h" local="no">libavutil/intreadwrite.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionunaligned__64_1a0a7f7157d678ef4911032959d5482600" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t unaligned_64::l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <qualifiedname>unaligned_64::l</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/intreadwrite.h" line="216" column="28" bodyfile="libavutil/intreadwrite.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/intreadwrite.h" line="216" column="1" bodyfile="libavutil/intreadwrite.h" bodystart="216" bodyend="216"/>
+    <listofallmembers>
+      <member refid="unionunaligned__64_1a0a7f7157d678ef4911032959d5482600" prot="public" virt="non-virtual"><scope>unaligned_64</scope><name>l</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+Function 'g722_decode_frame'
+Lines executed:0.00% of 64
+
+Function 'g722_decode_init'
+Lines executed:0.00% of 10
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/g722dec.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dec.gcno##libavcodec#g722dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 93

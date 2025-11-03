@@ -1,0 +1,198 @@
+Function 'latm_decode_init'
+Lines executed:0.00% of 6
+
+Function 'latm_decode_frame'
+Lines executed:0.00% of 56
+
+Function 'read_audio_mux_element'
+Lines executed:0.00% of 20
+
+Function 'read_payload_length_info'
+Lines executed:0.00% of 16
+
+Function 'read_stream_mux_config'
+Lines executed:0.00% of 42
+
+Function 'latm_decode_audio_specific_config'
+Lines executed:0.00% of 49
+
+Function 'latm_get_value'
+Lines executed:0.00% of 3
+
+Function 'aac_decode_frame'
+Lines executed:0.00% of 35
+
+Function 'aac_decode_frame_int'
+Lines executed:0.00% of 30
+
+Function 'decode_frame_ga'
+Lines executed:0.00% of 106
+
+Function 'aac_decode_er_frame'
+Lines executed:0.00% of 48
+
+Function 'parse_adts_frame_header'
+Lines executed:0.00% of 35
+
+Function 'spectral_to_sample'
+Lines executed:0.00% of 51
+
+Function 'apply_channel_coupling'
+Lines executed:0.00% of 16
+
+Function 'decode_extension_payload'
+Lines executed:0.00% of 48
+
+Function 'decode_fill'
+Lines executed:0.00% of 16
+
+Function 'decode_dynamic_range'
+Lines executed:0.00% of 38
+
+Function 'decode_drc_channel_exclusions'
+Lines executed:0.00% of 8
+
+Function 'decode_cpe'
+Lines executed:0.00% of 29
+
+Function 'ff_aac_decode_ics'
+Lines executed:0.00% of 53
+
+Function 'decode_gain_control'
+Lines executed:0.00% of 12
+
+Function 'decode_mid_side_stereo'
+Lines executed:0.00% of 10
+
+Function 'ff_aac_decode_tns'
+Lines executed:0.00% of 30
+
+Function 'decode_pulses'
+Lines executed:0.00% of 13
+
+Function 'decode_scalefactors'
+Lines executed:0.00% of 48
+
+Function 'decode_band_types'
+Lines executed:0.00% of 23
+
+Function 'decode_ics_info'
+Lines executed:0.00% of 78
+
+Function 'decode_ltp'
+Lines executed:0.00% of 10
+
+Function 'decode_prediction'
+Lines executed:0.00% of 9
+
+Function 'skip_data_stream_element'
+Lines executed:0.00% of 17
+
+Function 'ff_aac_decode_init'
+Lines executed:0.00% of 35
+
+Function 'init_dsp'
+Lines executed:0.00% of 18
+
+Function 'decode_close'
+Lines executed:0.00% of 25
+
+Function 'decode_audio_specific_config'
+Lines executed:0.00% of 10
+
+Function 'decode_audio_specific_config_gb'
+Lines executed:0.00% of 31
+
+Function 'decode_eld_specific_config'
+Lines executed:0.00% of 31
+
+Function 'decode_ga_specific_config'
+Lines executed:0.00% of 51
+
+Function 'decode_pce'
+Lines executed:0.00% of 46
+
+Function 'decode_channel_map'
+Lines executed:0.00% of 15
+
+Function 'ff_aac_get_che'
+Lines executed:0.00% of 73
+
+Function 'ff_aac_set_default_channel_config'
+Lines executed:0.00% of 13
+
+Function 'flush'
+Lines executed:0.00% of 11
+
+Function 'ff_aac_output_configure'
+Lines executed:0.00% of 39
+
+Function 'pop_output_configuration'
+Lines executed:0.00% of 6
+
+Function 'sniff_channel_order'
+Lines executed:0.00% of 37
+
+Function 'assign_channels'
+Lines executed:0.00% of 48
+
+Function 'count_paired_channels'
+Lines executed:0.00% of 17
+
+Function 'assign_pair'
+Lines executed:0.00% of 17
+
+Function 'frame_configure_elements'
+Lines executed:0.00% of 16
+
+Function 'che_configure'
+Lines executed:0.00% of 18
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+Function 'ff_aac_sample_rate_idx'
+Lines executed:0.00% of 13
+
+File 'libavcodec/aac/aacdec_latm.h'
+Lines executed:0.00% of 150
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavcodec#aac#aacdec_latm.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 84
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/aac/aacdec.c'
+Lines executed:0.00% of 1292
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavcodec#aac#aacdec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/aac.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec.gcno##libavcodec#aac.h.gcov'
+
+Lines executed:0.00% of 1557

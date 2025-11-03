@@ -1,0 +1,51 @@
+Function 'atrac1_decode_init'
+Lines executed:0.00% of 33
+
+Function 'atrac1_decode_end'
+Lines executed:0.00% of 6
+
+Function 'atrac1_decode_frame'
+Lines executed:0.00% of 41
+
+Function 'at1_subband_synthesis'
+Lines executed:0.00% of 10
+
+Function 'at1_unpack_dequant'
+Lines executed:0.00% of 30
+
+Function 'at1_parse_bsm'
+Lines executed:0.00% of 15
+
+Function 'at1_imdct_block'
+Lines executed:0.00% of 27
+
+Function 'at1_imdct'
+Lines executed:0.00% of 9
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+File 'libavcodec/atrac1.c'
+Lines executed:0.00% of 149
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac1.gcno##libavcodec#atrac1.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac1.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac1.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac1.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac1.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 206

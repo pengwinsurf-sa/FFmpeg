@@ -1,0 +1,18 @@
+Function 'filter_frame'
+Lines executed:0.00% of 8
+
+Function 'config_props'
+Lines executed:0.00% of 16
+
+Function 'query_formats'
+Lines executed:0.00% of 7
+
+File 'libavfilter/af_asetrate.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asetrate.gcno##libavfilter#af_asetrate.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asetrate.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 31

@@ -1,0 +1,90 @@
+Function 'ff_sws_tone_map_generate'
+Lines executed:0.00% of 34
+
+Function 'ff_sws_color_map_generate_dynamic'
+Lines executed:0.00% of 27
+
+Function 'ff_sws_color_map_generate_static'
+Lines executed:0.00% of 2
+
+Function 'generate_slice'
+Lines executed:0.00% of 107
+
+Function 'saturation'
+Lines executed:0.00% of 3
+
+Function 'absolute'
+Lines executed:0.00% of 6
+
+Function 'relative'
+Lines executed:0.00% of 2
+
+Function 'perceptual'
+Lines executed:0.00% of 27
+
+Function 'tone_map_setup'
+Lines executed:0.00% of 39
+
+Function 'st2094_pick_knee'
+Lines executed:0.00% of 21
+
+Function 'clip_gamma'
+Lines executed:0.00% of 28
+
+Function 'scale_gamma'
+Lines executed:0.00% of 4
+
+Function 'softclip'
+Lines executed:0.00% of 11
+
+Function 'saturate'
+Lines executed:0.00% of 22
+
+Function 'desat_bounded'
+Lines executed:0.00% of 13
+
+Function 'ingamut'
+Lines executed:0.00% of 25
+
+Function 'gamut_from_colorspace'
+Lines executed:0.00% of 17
+
+Function 'ff_sws_color_map_noop'
+Lines executed:0.00% of 11
+
+Function 'ff_prim_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_q_equal'
+Lines executed:0.00% of 4
+
+Function 'pq_oetf'
+Lines executed:0.00% of 4
+
+Function 'pq_eotf'
+Lines executed:0.00% of 5
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libswscale/cms.c'
+Lines executed:0.00% of 387
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#cms.gcno##libswscale#cms.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#cms.gcno##libavutil#common.h.gcov'
+
+File 'libswscale/csputils.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#cms.gcno##libswscale#csputils.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#cms.gcno##libavutil#rational.h.gcov'
+
+File 'libswscale/format.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#cms.gcno##libswscale#format.h.gcov'
+
+Lines executed:0.00% of 423

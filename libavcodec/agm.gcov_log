@@ -1,0 +1,94 @@
+Function 'decode_close'
+Lines executed:0.00% of 13
+
+Function 'decode_flush'
+Lines executed:0.00% of 4
+
+Function 'decode_init'
+Lines executed:0.00% of 16
+
+Function 'decode_frame'
+Lines executed:0.00% of 93
+
+Function 'decode_huffman2'
+Lines executed:0.00% of 81
+
+Function 'build_huff'
+Lines executed:0.00% of 16
+
+Function 'make_new_tree'
+Lines executed:0.00% of 57
+
+Function 'get_tree_codes'
+Lines executed:0.00% of 7
+
+Function 'decode_inter'
+Lines executed:0.00% of 21
+
+Function 'decode_motion_vectors'
+Lines executed:0.00% of 27
+
+Function 'decode_intra'
+Lines executed:0.00% of 18
+
+Function 'decode_raw_intra'
+Lines executed:0.00% of 26
+
+Function 'decode_runlen'
+Lines executed:0.00% of 66
+
+Function 'decode_runlen_rgb'
+Lines executed:0.00% of 32
+
+Function 'decode_raw_intra_rgb'
+Lines executed:0.00% of 13
+
+Function 'compute_quant_matrix'
+Lines executed:0.00% of 23
+
+Function 'decode_inter_plane'
+Lines executed:0.00% of 114
+
+Function 'decode_inter_block'
+Lines executed:0.00% of 16
+
+Function 'decode_intra_plane'
+Lines executed:0.00% of 28
+
+Function 'decode_intra_block'
+Lines executed:0.00% of 23
+
+Function 'decode_inter_blocks'
+Lines executed:0.00% of 20
+
+Function 'decode_intra_blocks'
+Lines executed:0.00% of 24
+
+Function 'read_code'
+Lines executed:0.00% of 73
+
+File 'libavcodec/agm.c'
+Lines executed:0.00% of 721
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#agm.gcno##libavcodec#agm.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#agm.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#agm.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#agm.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#agm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#agm.gcno##libavcodec#copy_block.h.gcov'
+
+Lines executed:0.00% of 811

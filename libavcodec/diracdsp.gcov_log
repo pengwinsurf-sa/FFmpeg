@@ -1,0 +1,78 @@
+Function 'ff_diracdsp_init'
+Lines executed:100.00% of 25
+
+Function 'dequant_subband_int32_t_c'
+Lines executed:0.00% of 1
+
+Function 'dequant_subband_int16_t_c'
+Lines executed:0.00% of 1
+
+Function 'add_rect_clamped_c'
+Lines executed:0.00% of 13
+
+Function 'put_signed_rect_clamped_12bit_c'
+Lines executed:0.00% of 3
+
+Function 'put_signed_rect_clamped_10bit_c'
+Lines executed:0.00% of 1
+
+Function 'put_signed_rect_clamped_8bit_c'
+Lines executed:0.00% of 12
+
+Function 'add_obmc32_c'
+Lines executed:100.00% of 1
+
+Function 'add_obmc16_c'
+Lines executed:100.00% of 1
+
+Function 'add_obmc8_c'
+Lines executed:100.00% of 1
+
+Function 'biweight_dirac_pixels32_c'
+Lines executed:0.00% of 1
+
+Function 'weight_dirac_pixels32_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_dirac_pixels16_c'
+Lines executed:0.00% of 1
+
+Function 'weight_dirac_pixels16_c'
+Lines executed:0.00% of 1
+
+Function 'biweight_dirac_pixels8_c'
+Lines executed:0.00% of 1
+
+Function 'weight_dirac_pixels8_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels32_bilinear_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels16_bilinear_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels8_bilinear_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels32_bilinear_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels16_bilinear_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels8_bilinear_c'
+Lines executed:0.00% of 1
+
+Function 'dirac_hpel_filter'
+Lines executed:0.00% of 14
+
+File 'libavcodec/diracdsp.c'
+Lines executed:33.73% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdsp.gcno##libavcodec#diracdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:31.82% of 88

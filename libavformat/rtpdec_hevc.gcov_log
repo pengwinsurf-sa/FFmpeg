@@ -1,0 +1,22 @@
+Function 'hevc_handle_packet'
+Lines executed:0.00% of 66
+
+Function 'hevc_parse_sdp_line'
+Lines executed:0.00% of 33
+
+Function 'hevc_sdp_parse_fmtp_config'
+Lines executed:0.00% of 33
+
+File 'libavformat/rtpdec_hevc.c'
+Lines executed:0.00% of 128
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_hevc.gcno##libavformat#rtpdec_hevc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_hevc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_hevc.gcno###usr#include#stdlib.h.gcov'
+
+Lines executed:0.00% of 132

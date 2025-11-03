@@ -1,0 +1,15 @@
+Function 'ff_oss_audio_close'
+Lines executed:0.00% of 3
+
+Function 'ff_oss_audio_open'
+Lines executed:0.00% of 55
+
+File 'libavdevice/oss.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#oss.gcno##libavdevice#oss.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#oss.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 58

@@ -1,0 +1,18 @@
+Function 'gsm_read_header'
+Lines executed:0.00% of 11
+
+Function 'gsm_read_packet'
+Lines executed:0.00% of 13
+
+Function 'gsm_probe'
+Lines executed:0.00% of 10
+
+File 'libavformat/gsmdec.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gsmdec.gcno##libavformat#gsmdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gsmdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 34

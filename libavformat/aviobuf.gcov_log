@@ -1,0 +1,280 @@
+Function 'ffio_close_null_buf'
+Lines executed:0.00% of 7
+
+Function 'ffio_open_null_buf'
+Lines executed:0.00% of 6
+
+Function 'null_buf_write'
+Lines executed:0.00% of 6
+
+Function 'ffio_free_dyn_buf'
+Lines executed:0.00% of 6
+
+Function 'avio_close_dyn_buf'
+Lines executed:0.00% of 16
+
+Function 'ffio_reset_dyn_buf'
+Lines executed:0.00% of 7
+
+Function 'avio_get_dyn_buf'
+Lines executed:0.00% of 12
+
+Function 'ffio_open_dyn_packet_buf'
+Lines executed:0.00% of 3
+
+Function 'avio_open_dyn_buf'
+Lines executed:0.00% of 2
+
+Function 'url_open_dyn_buf_internal'
+Lines executed:0.00% of 13
+
+Function 'dyn_buf_seek'
+Lines executed:0.00% of 10
+
+Function 'dyn_packet_buf_write'
+Lines executed:0.00% of 9
+
+Function 'dyn_buf_write'
+Lines executed:0.00% of 22
+
+Function 'avio_read_to_bprint'
+Lines executed:0.00% of 13
+
+Function 'avio_seek_time'
+Lines executed:0.00% of 12
+
+Function 'avio_pause'
+Lines executed:0.00% of 3
+
+Function 'avio_print_string_array'
+Lines executed:0.00% of 4
+
+Function 'avio_printf'
+Lines executed:0.00% of 7
+
+Function 'avio_vprintf'
+Lines executed:0.00% of 11
+
+Function 'ffio_rewind_with_probe_data'
+Lines executed:0.00% of 27
+
+Function 'ffio_realloc_buf'
+Lines executed:0.00% of 20
+
+Function 'set_buf_size'
+Lines executed:0.00% of 17
+
+Function 'ffio_limit'
+Lines executed:0.00% of 20
+
+Function 'ffio_ensure_seekback'
+Lines executed:0.00% of 30
+
+Function 'ffio_copy_url_options'
+Lines executed:0.00% of 13
+
+Function 'ffio_write_lines'
+Lines executed:0.00% of 17
+
+Function 'ffio_write_leb'
+Lines executed:0.00% of 10
+
+Function 'ffio_read_leb'
+Lines executed:0.00% of 12
+
+Function 'ffio_read_varlen'
+Lines executed:0.00% of 8
+
+Function 'avio_rb64'
+Lines executed:0.00% of 5
+
+Function 'avio_get_str16be'
+Lines executed:0.00% of 1
+
+Function 'avio_get_str16le'
+Lines executed:0.00% of 1
+
+Function 'avio_get_str'
+Lines executed:0.00% of 11
+
+Function 'ff_read_string_to_bprint_overwrite'
+Lines executed:0.00% of 2
+
+Function 'ff_read_line_to_bprint_overwrite'
+Lines executed:0.00% of 2
+
+Function 'read_string_to_bprint_overwrite'
+Lines executed:0.00% of 7
+
+Function 'read_string_to_bprint'
+Lines executed:0.00% of 24
+
+Function 'ff_get_chomp_line'
+Lines executed:0.00% of 8
+
+Function 'ff_get_line'
+Lines executed:0.00% of 12
+
+Function 'avio_rb32'
+Lines executed:0.00% of 5
+
+Function 'avio_rb24'
+Lines executed:0.00% of 5
+
+Function 'avio_rb16'
+Lines executed:0.00% of 5
+
+Function 'avio_rl64'
+Lines executed:0.00% of 5
+
+Function 'avio_rl32'
+Lines executed:0.00% of 5
+
+Function 'avio_rl24'
+Lines executed:0.00% of 5
+
+Function 'avio_rl16'
+Lines executed:0.00% of 5
+
+Function 'avio_read_partial'
+Lines executed:0.00% of 24
+
+Function 'ffio_read_indirect'
+Lines executed:0.00% of 7
+
+Function 'ffio_read_size'
+Lines executed:0.00% of 5
+
+Function 'avio_read'
+Lines executed:0.00% of 33
+
+Function 'avio_r8'
+Lines executed:0.00% of 5
+
+Function 'ffio_init_checksum'
+Lines executed:0.00% of 6
+
+Function 'ffio_get_checksum'
+Lines executed:0.00% of 5
+
+Function 'ff_crcA001_update'
+Lines executed:0.00% of 2
+
+Function 'ff_crcEDB88320_update'
+Lines executed:0.00% of 2
+
+Function 'ff_crc04C11DB7_update'
+Lines executed:0.00% of 2
+
+Function 'fill_buffer'
+Lines executed:0.00% of 33
+
+Function 'avio_write_marker'
+Lines executed:0.00% of 16
+
+Function 'avio_wb24'
+Lines executed:0.00% of 4
+
+Function 'avio_wl24'
+Lines executed:0.00% of 4
+
+Function 'avio_wb16'
+Lines executed:0.00% of 4
+
+Function 'avio_wl16'
+Lines executed:0.00% of 4
+
+Function 'avio_wb64'
+Lines executed:0.00% of 4
+
+Function 'avio_wl64'
+Lines executed:0.00% of 4
+
+Function 'avio_put_str16be'
+Lines executed:0.00% of 1
+
+Function 'avio_put_str16le'
+Lines executed:0.00% of 1
+
+Function 'put_str16'
+Lines executed:0.00% of 20
+
+Function 'avio_put_str'
+Lines executed:0.00% of 7
+
+Function 'avio_wb32'
+Lines executed:0.00% of 6
+
+Function 'avio_wl32'
+Lines executed:0.00% of 6
+
+Function 'avio_feof'
+Lines executed:0.00% of 6
+
+Function 'avio_size'
+Lines executed:0.00% of 11
+
+Function 'avio_skip'
+Lines executed:0.00% of 2
+
+Function 'avio_seek'
+Lines executed:0.00% of 59
+
+Function 'avio_flush'
+Lines executed:0.00% of 6
+
+Function 'avio_write'
+Lines executed:0.00% of 15
+
+Function 'ffio_fill'
+Lines executed:0.00% of 11
+
+Function 'avio_w8'
+Lines executed:0.00% of 6
+
+Function 'flush_buffer'
+Lines executed:0.00% of 12
+
+Function 'writeout'
+Lines executed:0.00% of 20
+
+Function 'avio_context_free'
+Lines executed:0.00% of 3
+
+Function 'avio_alloc_context'
+Lines executed:0.00% of 5
+
+Function 'ffio_init_write_context'
+Lines executed:0.00% of 3
+
+Function 'ffio_init_read_context'
+Lines executed:0.00% of 3
+
+Function 'ffio_init_context'
+Lines executed:0.00% of 34
+
+File 'libavformat/aviobuf.c'
+Lines executed:0.00% of 837
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aviobuf.gcno##libavformat#aviobuf.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aviobuf.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aviobuf.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aviobuf.gcno##libavutil#bprint.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aviobuf.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aviobuf.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 852

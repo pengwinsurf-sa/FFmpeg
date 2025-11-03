@@ -1,0 +1,41 @@
+Function 'h264_mp4toannexb_flush'
+Lines executed:0.00% of 6
+
+Function 'h264_mp4toannexb_close'
+Lines executed:0.00% of 5
+
+Function 'h264_mp4toannexb_filter'
+Lines executed:0.00% of 101
+
+Function 'h264_mp4toannexb_init'
+Lines executed:0.00% of 10
+
+Function 'h264_mp4toannexb_filter_ps'
+Lines executed:0.00% of 21
+
+Function 'h264_mp4toannexb_save_ps'
+Lines executed:0.00% of 18
+
+Function 'h264_extradata_to_annexb'
+Lines executed:0.00% of 86
+
+Function 'count_or_copy'
+Lines executed:0.00% of 16
+
+File 'libavcodec/bsf/h264_mp4toannexb.c'
+Lines executed:0.00% of 239
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_mp4toannexb.gcno##libavcodec#bsf#h264_mp4toannexb.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_mp4toannexb.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_mp4toannexb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_mp4toannexb.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 263

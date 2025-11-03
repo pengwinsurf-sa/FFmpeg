@@ -1,0 +1,48 @@
+Function 'uninit'
+Lines executed:0.00% of 28
+
+Function 'activate'
+Lines executed:0.00% of 19
+
+Function 'filter_frame'
+Lines executed:0.00% of 48
+
+Function 'filter_channel'
+Lines executed:0.00% of 36
+
+Function 'tx_channel'
+Lines executed:0.00% of 10
+
+Function 'config_input'
+Lines executed:0.00% of 79
+
+Function 'imagf'
+Lines executed:0.00% of 10
+
+Function 'realf'
+Lines executed:0.00% of 7
+
+Function 'generate_window_func'
+Lines executed:0.00% of 124
+
+File 'libavfilter/af_afftfilt.c'
+Lines executed:0.00% of 226
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftfilt.gcno##libavfilter#af_afftfilt.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftfilt.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftfilt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftfilt.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/window_func.h'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afftfilt.gcno##libavfilter#window_func.h.gcov'
+
+Lines executed:0.00% of 361

@@ -1,0 +1,64 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'config_input'
+Lines executed:0.00% of 56
+
+Function 'filter_frame'
+Lines executed:0.00% of 4
+
+Function 'margins_borders16'
+Lines executed:0.00% of 32
+
+Function 'margins_borders8'
+Lines executed:0.00% of 32
+
+Function 'fade_borders16'
+Lines executed:0.00% of 31
+
+Function 'fade_borders8'
+Lines executed:0.00% of 31
+
+Function 'wrap_borders16'
+Lines executed:0.00% of 20
+
+Function 'wrap_borders8'
+Lines executed:0.00% of 20
+
+Function 'reflect_borders16'
+Lines executed:0.00% of 20
+
+Function 'reflect_borders8'
+Lines executed:0.00% of 20
+
+Function 'fixed_borders16'
+Lines executed:0.00% of 18
+
+Function 'fixed_borders8'
+Lines executed:0.00% of 15
+
+Function 'mirror_borders16'
+Lines executed:0.00% of 20
+
+Function 'mirror_borders8'
+Lines executed:0.00% of 20
+
+Function 'smear_borders16'
+Lines executed:0.00% of 19
+
+Function 'smear_borders8'
+Lines executed:0.00% of 20
+
+File 'libavfilter/vf_fillborders.c'
+Lines executed:0.00% of 374
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fillborders.gcno##libavfilter#vf_fillborders.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fillborders.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fillborders.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 383

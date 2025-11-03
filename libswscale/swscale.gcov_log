@@ -1,0 +1,166 @@
+Function 'ff_sws_slice_worker'
+Lines executed:0.00% of 21
+
+Function 'sws_scale'
+Lines executed:0.00% of 6
+
+Function 'sws_frame_setup'
+Lines executed:0.00% of 41
+
+Function 'validate_params'
+Lines executed:0.00% of 4
+
+Function 'sws_scale_frame'
+Lines executed:0.00% of 31
+
+Function 'frame_ref'
+Lines executed:0.00% of 11
+
+Function 'get_frame_pointers'
+Lines executed:0.00% of 12
+
+Function 'sws_receive_slice'
+Lines executed:0.00% of 31
+
+Function 'sws_receive_slice_alignment'
+Lines executed:0.00% of 5
+
+Function 'sws_send_slice'
+Lines executed:0.00% of 5
+
+Function 'sws_frame_start'
+Lines executed:0.00% of 16
+
+Function 'sws_frame_end'
+Lines executed:0.00% of 6
+
+Function 'scale_internal'
+Lines executed:0.00% of 128
+
+Function 'scale_cascaded'
+Lines executed:0.00% of 7
+
+Function 'scale_gamma'
+Lines executed:0.00% of 13
+
+Function 'ff_update_palette'
+Lines executed:0.00% of 45
+
+Function 'ff_rgb48Toxyz12'
+Lines executed:0.00% of 43
+
+Function 'ff_xyz12Torgb48'
+Lines executed:0.00% of 37
+
+Function 'check_image_pointers'
+Lines executed:0.00% of 7
+
+Function 'reset_ptr'
+Lines executed:0.00% of 12
+
+Function 'ff_sws_init_scale'
+Lines executed:100.00% of 4
+
+Function 'sws_init_swscale'
+Lines executed:91.67% of 24
+
+Function 'ff_sws_init_range_convert'
+Lines executed:100.00% of 23
+
+Function 'init_range_convert_constants'
+Lines executed:100.00% of 28
+
+Function 'ff_swscale'
+Lines executed:0.00% of 225
+
+Function 'lumRangeFromJpeg16_c'
+Lines executed:100.00% of 6
+
+Function 'lumRangeToJpeg16_c'
+Lines executed:100.00% of 7
+
+Function 'chrRangeFromJpeg16_c'
+Lines executed:100.00% of 8
+
+Function 'chrRangeToJpeg16_c'
+Lines executed:100.00% of 10
+
+Function 'lumRangeFromJpeg_c'
+Lines executed:100.00% of 7
+
+Function 'lumRangeToJpeg_c'
+Lines executed:100.00% of 8
+
+Function 'chrRangeFromJpeg_c'
+Lines executed:100.00% of 8
+
+Function 'chrRangeToJpeg_c'
+Lines executed:100.00% of 10
+
+Function 'hScale8To19_c'
+Lines executed:100.00% of 11
+
+Function 'hScale8To15_c'
+Lines executed:100.00% of 10
+
+Function 'hScale16To15_c'
+Lines executed:0.00% of 17
+
+Function 'hScale16To19_c'
+Lines executed:0.00% of 18
+
+Function 'fillPlane32'
+Lines executed:0.00% of 16
+
+Function 'ff_props_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_color_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_prim_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_q_equal'
+Lines executed:0.00% of 4
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libswscale/swscale.c'
+Lines executed:18.12% of 828
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libswscale#swscale.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:16.44% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libswscale#swscale_internal.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libavutil#emms.h.gcov'
+
+File 'libswscale/format.h'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libswscale#format.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale.gcno##libavutil#rational.h.gcov'
+
+Lines executed:17.09% of 948

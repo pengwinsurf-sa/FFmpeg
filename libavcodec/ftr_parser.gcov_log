@@ -1,0 +1,15 @@
+Function 'ftr_parse'
+Lines executed:0.00% of 39
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/ftr_parser.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ftr_parser.gcno##libavcodec#ftr_parser.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ftr_parser.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 43

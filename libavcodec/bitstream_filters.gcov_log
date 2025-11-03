@@ -1,0 +1,14 @@
+Function 'ff_bsf_child_class_iterate'
+Lines executed:0.00% of 5
+
+Function 'av_bsf_get_by_name'
+Lines executed:0.00% of 7
+
+Function 'av_bsf_iterate'
+Lines executed:0.00% of 6
+
+File 'libavcodec/bitstream_filters.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bitstream_filters.gcno##libavcodec#bitstream_filters.c.gcov'
+
+Lines executed:0.00% of 18

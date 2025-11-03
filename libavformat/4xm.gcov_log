@@ -1,0 +1,35 @@
+Function 'fourxm_read_close'
+Lines executed:0.00% of 4
+
+Function 'fourxm_read_packet'
+Lines executed:0.00% of 64
+
+Function 'fourxm_read_header'
+Lines executed:0.00% of 56
+
+Function 'parse_strk'
+Lines executed:0.00% of 51
+
+Function 'parse_vtrk'
+Lines executed:0.00% of 16
+
+Function 'fourxm_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/4xm.c'
+Lines executed:0.00% of 185
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#4xm.gcno##libavformat#4xm.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#4xm.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#4xm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#4xm.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 195

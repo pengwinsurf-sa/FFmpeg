@@ -1,0 +1,58 @@
+Function 'uninit'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 50
+
+Function 'filter_slice'
+Lines executed:0.00% of 36
+
+Function 'init'
+Lines executed:0.00% of 20
+
+Function 'config_input'
+Lines executed:0.00% of 58
+
+Function 'color_correlation_gbrp'
+Lines executed:0.00% of 23
+
+Function 'color_decorrelation_gbrp'
+Lines executed:0.00% of 20
+
+Function 'color_correlation_bgr'
+Lines executed:0.00% of 17
+
+Function 'color_decorrelation_bgr'
+Lines executed:0.00% of 17
+
+Function 'color_correlation_rgb'
+Lines executed:0.00% of 1
+
+Function 'color_decorrelation_rgb'
+Lines executed:0.00% of 1
+
+Function 'filter_freq_expr_16'
+Lines executed:0.00% of 163
+
+Function 'filter_freq_sigma_16'
+Lines executed:0.00% of 1
+
+Function 'filter_freq_expr_8'
+Lines executed:0.00% of 65
+
+Function 'filter_freq_sigma_8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_dctdnoiz.c'
+Lines executed:0.00% of 482
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dctdnoiz.gcno##libavfilter#vf_dctdnoiz.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dctdnoiz.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dctdnoiz.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 489

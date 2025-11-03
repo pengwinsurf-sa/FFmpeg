@@ -1,0 +1,58 @@
+Function 'decode_flush'
+Lines executed:0.00% of 5
+
+Function 'decode_close'
+Lines executed:0.00% of 10
+
+Function 'decode_init'
+Lines executed:0.00% of 6
+
+Function 'decode_frame'
+Lines executed:0.00% of 64
+
+Function 'draw_cursor'
+Lines executed:0.00% of 52
+
+Function 'decode_mpos'
+Lines executed:0.00% of 12
+
+Function 'decode_mous'
+Lines executed:0.00% of 23
+
+Function 'decode_kfrm'
+Lines executed:0.00% of 38
+
+Function 'decode_dlta'
+Lines executed:0.00% of 92
+
+Function 'decode_move'
+Lines executed:0.00% of 76
+
+Function 'decode_zlib'
+Lines executed:0.00% of 19
+
+Function 'decode_fint'
+Lines executed:0.00% of 38
+
+Function 'init_frames'
+Lines executed:0.00% of 10
+
+Function 'copy_plane'
+Lines executed:0.00% of 9
+
+Function 'clear_plane'
+Lines executed:0.00% of 7
+
+File 'libavcodec/rasc.c'
+Lines executed:0.00% of 442
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rasc.gcno##libavcodec#rasc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rasc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rasc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 461

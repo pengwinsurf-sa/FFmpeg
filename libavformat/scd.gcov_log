@@ -1,0 +1,36 @@
+Function 'scd_read_close'
+Lines executed:0.00% of 7
+
+Function 'scd_seek'
+Lines executed:0.00% of 5
+
+Function 'scd_read_packet'
+Lines executed:0.00% of 34
+
+Function 'scd_read_header'
+Lines executed:0.00% of 31
+
+Function 'scd_read_track'
+Lines executed:0.00% of 53
+
+Function 'scd_read_offsets'
+Lines executed:0.00% of 17
+
+Function 'scd_read_table'
+Lines executed:0.00% of 12
+
+Function 'scd_probe'
+Lines executed:0.00% of 3
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/scd.c'
+Lines executed:0.00% of 157
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#scd.gcno##libavformat#scd.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#scd.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 164

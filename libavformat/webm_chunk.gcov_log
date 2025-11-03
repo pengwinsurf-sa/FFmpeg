@@ -1,0 +1,26 @@
+Function 'webm_chunk_deinit'
+Lines executed:0.00% of 8
+
+Function 'webm_chunk_write_trailer'
+Lines executed:0.00% of 18
+
+Function 'webm_chunk_write_packet'
+Lines executed:0.00% of 18
+
+Function 'chunk_end'
+Lines executed:0.00% of 29
+
+Function 'webm_chunk_write_header'
+Lines executed:0.00% of 11
+
+Function 'get_chunk_filename'
+Lines executed:0.00% of 7
+
+Function 'webm_chunk_init'
+Lines executed:0.00% of 51
+
+File 'libavformat/webm_chunk.c'
+Lines executed:0.00% of 142
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#webm_chunk.gcno##libavformat#webm_chunk.c.gcov'
+
+Lines executed:0.00% of 142

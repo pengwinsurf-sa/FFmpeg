@@ -1,0 +1,39 @@
+Function 'v4l2_encode_close'
+Lines executed:0.00% of 2
+
+Function 'v4l2_encode_init'
+Lines executed:0.00% of 31
+
+Function 'v4l2_receive_packet'
+Lines executed:0.00% of 29
+
+Function 'v4l2_send_frame'
+Lines executed:0.00% of 6
+
+Function 'v4l2_prepare_encoder'
+Lines executed:0.00% of 59
+
+Function 'v4l2_subscribe_eos_event'
+Lines executed:0.00% of 9
+
+Function 'v4l2_check_b_frame_support'
+Lines executed:0.00% of 8
+
+Function 'v4l2_get_ext_ctrl'
+Lines executed:0.00% of 14
+
+Function 'v4l2_set_ext_ctrl'
+Lines executed:0.00% of 13
+
+Function 'v4l2_set_timeperframe'
+Lines executed:0.00% of 8
+
+File 'libavcodec/v4l2_m2m_enc.c'
+Lines executed:0.00% of 177
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m_enc.gcno##libavcodec#v4l2_m2m_enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m_enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 179

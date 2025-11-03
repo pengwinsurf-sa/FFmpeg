@@ -1,0 +1,111 @@
+Function 'flac_decode_close'
+Lines executed:0.00% of 5
+
+Function 'flac_decode_frame'
+Lines executed:0.00% of 63
+
+Function 'decorrelate_33bps'
+Lines executed:0.00% of 16
+
+Function 'decode_frame'
+Lines executed:0.00% of 62
+
+Function 'decode_subframe'
+Lines executed:0.00% of 82
+
+Function 'decode_subframe_lpc_33bps'
+Lines executed:0.00% of 19
+
+Function 'decode_subframe_lpc'
+Lines executed:0.00% of 24
+
+Function 'lpc_analyze_remodulate'
+Lines executed:0.00% of 15
+
+Function 'decode_subframe_fixed_33bps'
+Lines executed:0.00% of 4
+
+Function 'decode_subframe_fixed_wide'
+Lines executed:0.00% of 4
+
+Function 'decode_subframe_fixed'
+Lines executed:0.00% of 28
+
+Function 'decode_residuals'
+Lines executed:0.00% of 40
+
+Function 'get_metadata_size'
+Lines executed:0.00% of 19
+
+Function 'parse_streaminfo'
+Lines executed:0.00% of 14
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 16
+
+Function 'dump_headers'
+Lines executed:0.00% of 7
+
+Function 'flac_decode_init'
+Lines executed:0.00% of 15
+
+Function 'flac_set_bps'
+Lines executed:0.00% of 15
+
+Function 'get_ur_golomb_jpegls'
+Lines executed:0.00% of 49
+
+Function 'show_bits_long'
+Lines executed:0.00% of 5
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/flacdec.c'
+Lines executed:0.00% of 378
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#flacdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 96
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/flac.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#flac.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 555

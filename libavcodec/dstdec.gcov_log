@@ -1,0 +1,56 @@
+Function 'decode_frame'
+Lines executed:0.00% of 134
+
+Function 'build_filter'
+Lines executed:0.00% of 14
+
+Function 'read_table'
+Lines executed:0.00% of 29
+
+Function 'read_uncoded_coeff'
+Lines executed:0.00% of 5
+
+Function 'read_map'
+Lines executed:0.00% of 13
+
+Function 'decode_init'
+Lines executed:0.00% of 13
+
+Function 'get_ur_golomb_jpegls'
+Lines executed:0.00% of 51
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+File 'libavcodec/dstdec.c'
+Lines executed:0.00% of 164
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno##libavcodec#dstdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dstdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 285

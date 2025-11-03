@@ -1,0 +1,19 @@
+Function 'main'
+Lines executed:0.00% of 30
+
+Function 'process_frame'
+Lines executed:0.00% of 22
+
+File 'tools/venc_data_dump.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#venc_data_dump.gcno##tools#venc_data_dump.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#venc_data_dump.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/video_enc_params.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#venc_data_dump.gcno##libavutil#video_enc_params.h.gcov'
+
+Lines executed:0.00% of 52

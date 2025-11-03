@@ -1,0 +1,101 @@
+Function 'asink_query_formats'
+Lines executed:0.00% of 29
+
+Function 'vsink_query_formats'
+Lines executed:0.00% of 32
+
+Function 'av_buffersink_get_side_data'
+Lines executed:0.00% of 4
+
+Function 'av_buffersink_get_ch_layout'
+Lines executed:0.00% of 8
+
+Function 'av_buffersink_get_channels'
+Lines executed:0.00% of 3
+
+Function 'av_buffersink_get_hw_frames_ctx'
+Lines executed:0.00% of 4
+
+Function 'av_buffersink_get_frame_rate'
+Lines executed:0.00% of 4
+
+Function 'av_buffersink_get_sample_rate'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_color_range'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_colorspace'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_sample_aspect_ratio'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_h'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_w'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_format'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_time_base'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_get_type'
+Lines executed:0.00% of 1
+
+Function 'av_buffersink_set_frame_size'
+Lines executed:0.00% of 7
+
+Function 'config_input_audio'
+Lines executed:0.00% of 5
+
+Function 'activate'
+Lines executed:0.00% of 13
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'init_audio'
+Lines executed:0.00% of 6
+
+Function 'init_video'
+Lines executed:0.00% of 6
+
+Function 'common_init'
+Lines executed:0.00% of 41
+
+Function 'av_buffersink_get_samples'
+Lines executed:0.00% of 2
+
+Function 'av_buffersink_get_frame_flags'
+Lines executed:0.00% of 3
+
+Function 'get_frame_internal'
+Lines executed:0.00% of 24
+
+Function 'return_or_keep_frame'
+Lines executed:0.00% of 9
+
+Function 'av_buffersink_get_frame'
+Lines executed:0.00% of 2
+
+File 'libavfilter/buffersink.c'
+Lines executed:0.00% of 209
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersink.gcno##libavfilter#buffersink.c.gcov'
+
+File 'libavfilter/framequeue.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersink.gcno##libavfilter#framequeue.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersink.gcno##libavutil#avutil.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersink.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 215

@@ -1,0 +1,62 @@
+Function 'psy_lame_window'
+Lines executed:0.00% of 87
+
+Function 'psy_3gpp_end'
+Lines executed:0.00% of 6
+
+Function 'psy_3gpp_analyze'
+Lines executed:0.00% of 6
+
+Function 'psy_3gpp_analyze_channel'
+Lines executed:0.00% of 119
+
+Function 'psy_hp_filter'
+Lines executed:0.00% of 11
+
+Function 'calc_thr_3gpp'
+Lines executed:0.00% of 19
+
+Function 'calc_reduced_thr_3gpp'
+Lines executed:0.00% of 11
+
+Function 'calc_reduction_3gpp'
+Lines executed:0.00% of 6
+
+Function 'calc_pe_3gpp'
+Lines executed:0.00% of 16
+
+Function 'calc_bit_demand'
+Lines executed:0.00% of 25
+
+Function 'psy_3gpp_init'
+Lines executed:0.00% of 62
+
+Function 'ath'
+Lines executed:0.00% of 6
+
+Function 'calc_bark'
+Lines executed:0.00% of 2
+
+Function 'lame_window_init'
+Lines executed:0.00% of 11
+
+Function 'lame_calc_attack_threshold'
+Lines executed:0.00% of 15
+
+File 'libavcodec/aacpsy.c'
+Lines executed:0.00% of 392
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacpsy.gcno##libavcodec#aacpsy.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacpsy.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacpsy.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacpsy.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 402

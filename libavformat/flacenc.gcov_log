@@ -1,0 +1,54 @@
+Function 'flac_write_packet'
+Lines executed:0.00% of 25
+
+Function 'flac_deinit'
+Lines executed:0.00% of 6
+
+Function 'flac_write_trailer'
+Lines executed:0.00% of 16
+
+Function 'flac_queue_flush'
+Lines executed:0.00% of 13
+
+Function 'flac_write_audio_packet'
+Lines executed:0.00% of 13
+
+Function 'flac_write_header'
+Lines executed:0.00% of 9
+
+Function 'flac_init'
+Lines executed:0.00% of 40
+
+Function 'flac_finish_header'
+Lines executed:0.00% of 21
+
+Function 'flac_write_picture'
+Lines executed:0.00% of 54
+
+Function 'flac_write_block_comment'
+Lines executed:0.00% of 10
+
+Function 'flac_write_block_padding'
+Lines executed:0.00% of 5
+
+File 'libavformat/flacenc.c'
+Lines executed:0.00% of 204
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacenc.gcno##libavformat#flacenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacenc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacenc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 212

@@ -1,0 +1,15 @@
+Function 'read_packet'
+Lines executed:0.00% of 19
+
+Function 'read_header'
+Lines executed:0.00% of 51
+
+File 'libavformat/mvi.c'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mvi.gcno##libavformat#mvi.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mvi.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 70

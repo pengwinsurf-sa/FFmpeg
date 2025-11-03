@@ -1,0 +1,72 @@
+Function 'uninit'
+Lines executed:0.00% of 22
+
+Function 'activate'
+Lines executed:0.00% of 19
+
+Function 'filter_frame'
+Lines executed:0.00% of 30
+
+Function 'filter_channel'
+Lines executed:0.00% of 87
+
+Function 'spectral_rolloff'
+Lines executed:0.00% of 11
+
+Function 'spectral_slope'
+Lines executed:0.00% of 11
+
+Function 'spectral_flux'
+Lines executed:0.00% of 5
+
+Function 'spectral_crest'
+Lines executed:0.00% of 8
+
+Function 'spectral_flatness'
+Lines executed:0.00% of 11
+
+Function 'spectral_entropy'
+Lines executed:0.00% of 7
+
+Function 'spectral_kurtosis'
+Lines executed:0.00% of 9
+
+Function 'spectral_skewness'
+Lines executed:0.00% of 11
+
+Function 'spectral_spread'
+Lines executed:0.00% of 8
+
+Function 'set_metadata'
+Lines executed:0.00% of 30
+
+Function 'set_meta'
+Lines executed:0.00% of 11
+
+Function 'config_output'
+Lines executed:0.00% of 38
+
+Function 'generate_window_func'
+Lines executed:0.00% of 124
+
+File 'libavfilter/af_aspectralstats.c'
+Lines executed:0.00% of 308
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aspectralstats.gcno##libavfilter#af_aspectralstats.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aspectralstats.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aspectralstats.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aspectralstats.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavfilter/window_func.h'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aspectralstats.gcno##libavfilter#window_func.h.gcov'
+
+Lines executed:0.00% of 442

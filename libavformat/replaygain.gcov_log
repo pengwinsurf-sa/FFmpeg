@@ -1,0 +1,18 @@
+Function 'ff_replaygain_export'
+Lines executed:0.00% of 9
+
+Function 'ff_replaygain_export_raw'
+Lines executed:0.00% of 13
+
+Function 'parse_value'
+Lines executed:0.00% of 20
+
+File 'libavformat/replaygain.c'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#replaygain.gcno##libavformat#replaygain.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#replaygain.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 42

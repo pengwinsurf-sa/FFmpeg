@@ -1,0 +1,22 @@
+Function 'rsd_read_packet'
+Lines executed:0.00% of 25
+
+Function 'rsd_read_header'
+Lines executed:0.00% of 81
+
+Function 'rsd_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/rsd.c'
+Lines executed:0.00% of 107
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rsd.gcno##libavformat#rsd.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rsd.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rsd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 111

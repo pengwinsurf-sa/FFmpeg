@@ -1,0 +1,41 @@
+Function 'av_thread_message_flush'
+Lines executed:0.00% of 9
+
+Function 'free_func_wrap'
+Lines executed:0.00% of 6
+
+Function 'av_thread_message_queue_set_err_recv'
+Lines executed:0.00% of 6
+
+Function 'av_thread_message_queue_set_err_send'
+Lines executed:0.00% of 6
+
+Function 'av_thread_message_queue_recv'
+Lines executed:0.00% of 6
+
+Function 'av_thread_message_queue_send'
+Lines executed:0.00% of 6
+
+Function 'av_thread_message_queue_recv_locked'
+Lines executed:0.00% of 9
+
+Function 'av_thread_message_queue_send_locked'
+Lines executed:0.00% of 8
+
+Function 'av_thread_message_queue_nb_elems'
+Lines executed:0.00% of 6
+
+Function 'av_thread_message_queue_free'
+Lines executed:0.00% of 9
+
+Function 'av_thread_message_queue_set_free_func'
+Lines executed:0.00% of 3
+
+Function 'av_thread_message_queue_alloc'
+Lines executed:0.00% of 26
+
+File 'libavutil/threadmessage.c'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#threadmessage.gcno##libavutil#threadmessage.c.gcov'
+
+Lines executed:0.00% of 100

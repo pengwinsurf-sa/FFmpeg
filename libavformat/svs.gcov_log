@@ -1,0 +1,14 @@
+Function 'svs_read_packet'
+Lines executed:0.00% of 9
+
+Function 'svs_read_header'
+Lines executed:0.00% of 19
+
+Function 'svs_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/svs.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#svs.gcno##libavformat#svs.c.gcov'
+
+Lines executed:0.00% of 33

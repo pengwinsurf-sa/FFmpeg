@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavu__mem__attrs" kind="group">
+    <compoundname>lavu_mem_attrs</compoundname>
+    <title>Function Attributes</title>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__lavu__mem__attrs_1gad48ff724186ef4e602ae7a2547e4287c" prot="public" static="no">
+        <name>av_malloc_attrib</name>
+        <initializer>__attribute__((__malloc__))</initializer>
+        <briefdescription>
+<para>Function attribute denoting a malloc-like function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ulink url="https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-g_t_0040code_007bmalloc_007d-function-attribute-3251">Function attribute <computeroutput>malloc</computeroutput> in GCC&apos;s documentation</ulink> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mem.h" line="69" column="13" bodyfile="libavutil/mem.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__lavu__mem__attrs_1gad7ff928d462d1a61b37baa70bf13e0e3" prot="public" static="no">
+        <name>av_alloc_size</name>
+        <param><defname>...</defname></param>
+        <initializer>__attribute__((alloc_size(__VA_ARGS__)))</initializer>
+        <briefdescription>
+<para>Function attribute used on a function that allocates memory, whose size is given by the specified parameter(s). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><programlisting filename=".c"><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__lavu__mem__funcs_1gaafef95f25208665371057f89fb5a11b8" kindref="member">av_malloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)<sp/><ref refid="group__lavu__mem__attrs_1gad7ff928d462d1a61b37baa70bf13e0e3" kindref="member">av_alloc_size</ref>(1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__lavu__mem__funcs_1gaf324b11824b95e09d83c7e9f5511e815" kindref="member">av_calloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nmemb,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)<sp/><ref refid="group__lavu__mem__attrs_1gad7ff928d462d1a61b37baa70bf13e0e3" kindref="member">av_alloc_size</ref>(1,<sp/>2);</highlight></codeline>
+</programlisting></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>...</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>One or two parameter indexes, separated by a comma</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ulink url="https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-g_t_0040code_007balloc_005fsize_007d-function-attribute-3220">Function attribute <computeroutput>alloc_size</computeroutput> in GCC&apos;s documentation</ulink> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mem.h" line="90" column="13" bodyfile="libavutil/mem.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Function attributes applicable to memory handling functions. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>These function attributes can help compilers emit more useful warnings, or generate better code. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

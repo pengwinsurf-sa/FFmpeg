@@ -1,0 +1,83 @@
+Function 'ff_dcadsp_init'
+Lines executed:0.00% of 23
+
+Function 'lfe_iir_c'
+Lines executed:0.00% of 14
+
+Function 'lbr_bank_c'
+Lines executed:0.00% of 32
+
+Function 'assemble_freq_bands_c'
+Lines executed:0.00% of 29
+
+Function 'dmix_scale_inv_c'
+Lines executed:0.00% of 6
+
+Function 'dmix_scale_c'
+Lines executed:0.00% of 6
+
+Function 'dmix_add_c'
+Lines executed:0.00% of 5
+
+Function 'dmix_sub_c'
+Lines executed:0.00% of 5
+
+Function 'dmix_sub_xch_c'
+Lines executed:0.00% of 7
+
+Function 'decor_c'
+Lines executed:0.00% of 5
+
+Function 'sub_qmf64_fixed_c'
+Lines executed:0.00% of 18
+
+Function 'sub_qmf32_fixed_c'
+Lines executed:0.00% of 9
+
+Function 'lfe_x96_fixed_c'
+Lines executed:0.00% of 16
+
+Function 'lfe_fir_fixed_c'
+Lines executed:0.00% of 13
+
+Function 'sub_qmf64_float_c'
+Lines executed:0.00% of 22
+
+Function 'sub_qmf32_float_c'
+Lines executed:0.00% of 11
+
+Function 'lfe_x96_float_c'
+Lines executed:0.00% of 11
+
+Function 'lfe_fir1_float_c'
+Lines executed:0.00% of 3
+
+Function 'lfe_fir0_float_c'
+Lines executed:0.00% of 3
+
+Function 'lfe_fir_float_c'
+Lines executed:0.00% of 15
+
+Function 'decode_joint_c'
+Lines executed:0.00% of 8
+
+Function 'decode_hf_c'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dcadsp.c'
+Lines executed:0.00% of 252
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadsp.gcno##libavcodec#dcadsp.c.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadsp.gcno##libavcodec#dcamath.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 269

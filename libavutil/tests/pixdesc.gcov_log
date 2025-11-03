@@ -1,0 +1,119 @@
+Function 'main'
+Lines executed:0.00% of 14
+
+Function 'av_chroma_location_pos_to_enum'
+Lines executed:0.00% of 5
+
+Function 'av_chroma_location_enum_to_pos'
+Lines executed:0.00% of 6
+
+Function 'av_chroma_location_from_name'
+Lines executed:0.00% of 7
+
+Function 'av_chroma_location_name'
+Lines executed:0.00% of 3
+
+Function 'av_color_space_from_name'
+Lines executed:0.00% of 7
+
+Function 'av_color_space_name'
+Lines executed:0.00% of 3
+
+Function 'av_color_transfer_from_name'
+Lines executed:0.00% of 7
+
+Function 'av_color_transfer_name'
+Lines executed:0.00% of 3
+
+Function 'av_color_primaries_from_name'
+Lines executed:0.00% of 7
+
+Function 'av_color_primaries_name'
+Lines executed:0.00% of 3
+
+Function 'av_color_range_from_name'
+Lines executed:0.00% of 5
+
+Function 'av_color_range_name'
+Lines executed:0.00% of 3
+
+Function 'av_find_best_pix_fmt_of_2'
+Lines executed:0.00% of 21
+
+Function 'av_get_pix_fmt_loss'
+Lines executed:0.00% of 5
+
+Function 'get_pix_fmt_score'
+Lines executed:0.00% of 83
+
+Function 'get_pix_fmt_depth'
+Lines executed:0.00% of 10
+
+Function 'get_color_type'
+Lines executed:0.00% of 9
+
+Function 'av_pix_fmt_swap_endianness'
+Lines executed:0.00% of 10
+
+Function 'av_pix_fmt_count_planes'
+Lines executed:0.00% of 8
+
+Function 'av_pix_fmt_get_chroma_sub_sample'
+Lines executed:0.00% of 6
+
+Function 'av_pix_fmt_desc_get_id'
+Lines executed:0.00% of 3
+
+Function 'av_pix_fmt_desc_next'
+Lines executed:0.00% of 6
+
+Function 'av_pix_fmt_desc_get'
+Lines executed:0.00% of 3
+
+Function 'av_get_pix_fmt_string'
+Lines executed:0.00% of 9
+
+Function 'av_get_padded_bits_per_pixel'
+Lines executed:0.00% of 13
+
+Function 'av_get_bits_per_pixel'
+Lines executed:0.00% of 7
+
+Function 'av_get_pix_fmt'
+Lines executed:0.00% of 11
+
+Function 'av_get_pix_fmt_name'
+Lines executed:0.00% of 3
+
+Function 'get_pix_fmt_internal'
+Lines executed:0.00% of 7
+
+Function 'av_write_image_line'
+Lines executed:0.00% of 3
+
+Function 'av_write_image_line2'
+Lines executed:0.00% of 55
+
+Function 'av_read_image_line'
+Lines executed:0.00% of 3
+
+Function 'av_read_image_line2'
+Lines executed:0.00% of 53
+
+File 'libavutil/tests/pixdesc.c'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixdesc.gcno##libavutil#tests#pixdesc.c.gcov'
+
+File 'libavutil/pixdesc.c'
+Lines executed:0.00% of 380
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixdesc.gcno##libavutil#pixdesc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixdesc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixdesc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 401

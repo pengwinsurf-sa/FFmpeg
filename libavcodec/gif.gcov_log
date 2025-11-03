@@ -1,0 +1,37 @@
+Function 'gif_encode_close'
+Lines executed:0.00% of 9
+
+Function 'gif_encode_frame'
+Lines executed:0.00% of 41
+
+Function 'gif_encode_init'
+Lines executed:0.00% of 13
+
+Function 'gif_image_write_image'
+Lines executed:0.00% of 121
+
+Function 'gif_crop_opaque'
+Lines executed:0.00% of 29
+
+Function 'gif_crop_translucent'
+Lines executed:0.00% of 36
+
+Function 'pick_palette_entry'
+Lines executed:0.00% of 10
+
+Function 'shrink_palette'
+Lines executed:0.00% of 12
+
+File 'libavcodec/gif.c'
+Lines executed:0.00% of 261
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gif.gcno##libavcodec#gif.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gif.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gif.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 271

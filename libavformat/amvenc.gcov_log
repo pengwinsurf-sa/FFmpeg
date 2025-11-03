@@ -1,0 +1,50 @@
+Function 'amv_write_trailer'
+Lines executed:0.00% of 26
+
+Function 'amv_write_packet'
+Lines executed:0.00% of 8
+
+Function 'amv_pad'
+Lines executed:0.00% of 10
+
+Function 'amv_write_packet_internal'
+Lines executed:0.00% of 15
+
+Function 'amv_write_header'
+Lines executed:0.00% of 30
+
+Function 'amv_write_alist'
+Lines executed:0.00% of 23
+
+Function 'amv_write_vlist'
+Lines executed:0.00% of 13
+
+Function 'amv_deinit'
+Lines executed:0.00% of 4
+
+Function 'amv_init'
+Lines executed:0.00% of 57
+
+Function 'amv_end_tag'
+Lines executed:0.00% of 7
+
+Function 'amv_start_tag'
+Lines executed:0.00% of 4
+
+File 'libavformat/amvenc.c'
+Lines executed:0.00% of 190
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#amvenc.gcno##libavformat#amvenc.c.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#amvenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#amvenc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#amvenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 197

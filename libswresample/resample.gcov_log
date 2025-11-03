@@ -1,0 +1,43 @@
+Function 'invert_initial_buffer'
+Lines executed:0.00% of 27
+
+Function 'resample_flush'
+Lines executed:0.00% of 13
+
+Function 'get_out_samples'
+Lines executed:0.00% of 9
+
+Function 'get_delay'
+Lines executed:0.00% of 8
+
+Function 'multiple_resample'
+Lines executed:0.00% of 39
+
+Function 'set_compensation'
+Lines executed:0.00% of 12
+
+Function 'rebuild_filter_bank_with_compensation'
+Lines executed:0.00% of 33
+
+Function 'resample_init'
+Lines executed:0.00% of 70
+
+Function 'resample_free'
+Lines executed:0.00% of 5
+
+Function 'build_filter'
+Lines executed:0.00% of 76
+
+File 'libswresample/resample.c'
+Lines executed:0.00% of 284
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#resample.gcno##libswresample#resample.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#resample.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#resample.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 292

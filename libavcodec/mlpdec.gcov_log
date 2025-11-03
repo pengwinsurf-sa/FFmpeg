@@ -1,0 +1,95 @@
+Function 'mlp_decode_flush'
+Lines executed:0.00% of 8
+
+Function 'read_access_unit'
+Lines executed:0.00% of 181
+
+Function 'output_data'
+Lines executed:0.00% of 52
+
+Function 'generate_2_noise_channels'
+Lines executed:0.00% of 12
+
+Function 'read_block_data'
+Lines executed:0.00% of 24
+
+Function 'filter_channel'
+Lines executed:0.00% of 21
+
+Function 'read_decoding_params'
+Lines executed:0.00% of 49
+
+Function 'read_channel_params'
+Lines executed:0.00% of 30
+
+Function 'read_matrix_params'
+Lines executed:0.00% of 38
+
+Function 'read_filter_params'
+Lines executed:0.00% of 38
+
+Function 'read_restart_header'
+Lines executed:0.00% of 100
+
+Function 'read_major_sync'
+Lines executed:0.00% of 106
+
+Function 'mlp_decode_init'
+Lines executed:0.00% of 22
+
+Function 'read_huff_channels'
+Lines executed:0.00% of 33
+
+Function 'calculate_sign_huff'
+Lines executed:0.00% of 11
+
+Function 'init_static'
+Lines executed:0.00% of 8
+
+Function 'thd_channel_layout_extract_channel'
+Lines executed:0.00% of 14
+
+Function 'mlp_channel_layout_subset'
+Lines executed:0.00% of 4
+
+Function 'get_bits_long'
+Lines executed:0.00% of 16
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/mlpdec.c'
+Lines executed:0.00% of 683
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno##libavcodec#mlpdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mlp.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno##libavcodec#mlp.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpdec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 795

@@ -1,0 +1,73 @@
+Function 'ff_msmpeg4_encode_init'
+Lines executed:0.00% of 12
+
+Function 'ff_msmpeg4_encode_block'
+Lines executed:0.00% of 97
+
+Function 'msmpeg4_encode_dc'
+Lines executed:0.00% of 31
+
+Function 'msmpeg4_encode_mb'
+Lines executed:0.00% of 87
+
+Function 'msmpeg4v2_encode_motion'
+Lines executed:0.00% of 20
+
+Function 'ff_msmpeg4_handle_slices'
+Lines executed:0.00% of 8
+
+Function 'ff_msmpeg4_encode_motion'
+Lines executed:0.00% of 17
+
+Function 'ff_msmpeg4_encode_ext_header'
+Lines executed:0.00% of 12
+
+Function 'msmpeg4_encode_picture_header'
+Lines executed:0.00% of 44
+
+Function 'find_best_tables'
+Lines executed:0.00% of 45
+
+Function 'msmpeg4_encode_init_static'
+Lines executed:0.00% of 9
+
+Function 'get_size_of_code'
+Lines executed:0.00% of 28
+
+Function 'ff_msmpeg4_code012'
+Lines executed:0.00% of 5
+
+Function 'init_mv_table'
+Lines executed:0.00% of 12
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/msmpeg4enc.c'
+Lines executed:0.00% of 402
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4enc.gcno##libavcodec#msmpeg4enc.c.gcov'
+
+File 'libavcodec/rl.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4enc.gcno##libavcodec#rl.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4enc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/mpegvideoenc.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4enc.gcno##libavcodec#mpegvideoenc.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4enc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 451

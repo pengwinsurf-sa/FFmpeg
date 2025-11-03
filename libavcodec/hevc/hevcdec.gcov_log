@@ -1,0 +1,226 @@
+Function 'hevc_decode_flush'
+Lines executed:0.00% of 12
+
+Function 'hevc_decode_init'
+Lines executed:0.00% of 18
+
+Function 'hevc_update_thread_context'
+Lines executed:0.00% of 58
+
+Function 'hevc_init_context'
+Lines executed:0.00% of 23
+
+Function 'hevc_decode_free'
+Lines executed:0.00% of 26
+
+Function 'hevc_ref_frame'
+Lines executed:0.00% of 21
+
+Function 'hevc_receive_frame'
+Lines executed:0.00% of 37
+
+Function 'hevc_decode_extradata'
+Lines executed:0.00% of 13
+
+Function 'decode_nal_units'
+Lines executed:0.00% of 65
+
+Function 'decode_nal_unit'
+Lines executed:0.00% of 43
+
+Function 'decode_slice'
+Lines executed:0.00% of 35
+
+Function 'hevc_frame_end'
+Lines executed:0.00% of 29
+
+Function 'verify_md5'
+Lines executed:0.00% of 28
+
+Function 'hevc_frame_start'
+Lines executed:0.00% of 131
+
+Function 'find_finish_setup_nal'
+Lines executed:0.00% of 22
+
+Function 'set_side_data'
+Lines executed:0.00% of 45
+
+Function 'decode_slice_data'
+Lines executed:0.00% of 32
+
+Function 'hls_slice_data_wpp'
+Lines executed:0.00% of 62
+
+Function 'wpp_progress_init'
+Lines executed:0.00% of 16
+
+Function 'hls_decode_entry_wpp'
+Lines executed:0.00% of 60
+
+Function 'hls_decode_entry'
+Lines executed:0.00% of 37
+
+Function 'hls_decode_neighbour'
+Lines executed:0.00% of 36
+
+Function 'hls_coding_quadtree'
+Lines executed:0.00% of 52
+
+Function 'hls_coding_unit'
+Lines executed:0.00% of 131
+
+Function 'intra_prediction_unit_default_value'
+Lines executed:0.00% of 18
+
+Function 'intra_prediction_unit'
+Lines executed:0.00% of 44
+
+Function 'luma_intra_pred_mode'
+Lines executed:0.00% of 53
+
+Function 'hls_prediction_unit'
+Lines executed:0.00% of 80
+
+Function 'hevc_luma_mv_mvp_mode'
+Lines executed:0.00% of 29
+
+Function 'chroma_mc_bi'
+Lines executed:0.00% of 57
+
+Function 'chroma_mc_uni'
+Lines executed:0.00% of 32
+
+Function 'luma_mc_bi'
+Lines executed:0.00% of 47
+
+Function 'luma_mc_uni'
+Lines executed:0.00% of 29
+
+Function 'hls_pcm_sample'
+Lines executed:0.00% of 45
+
+Function 'hls_transform_tree'
+Lines executed:0.00% of 69
+
+Function 'set_deblocking_bypass'
+Lines executed:0.00% of 11
+
+Function 'hls_transform_unit'
+Lines executed:0.00% of 139
+
+Function 'hls_cross_component_pred'
+Lines executed:0.00% of 8
+
+Function 'hls_sao_param'
+Lines executed:0.00% of 45
+
+Function 'hls_slice_header'
+Lines executed:0.00% of 288
+
+Function 'set_sps'
+Lines executed:0.00% of 19
+
+Function 'get_format'
+Lines executed:0.00% of 19
+
+Function 'map_to_alpha_format'
+Lines executed:0.00% of 19
+
+Function 'setup_multilayer'
+Lines executed:0.00% of 36
+
+Function 'ff_hevc_is_alpha_video'
+Lines executed:0.00% of 7
+
+Function 'export_multilayer'
+Lines executed:0.00% of 21
+
+Function 'export_stream_params_from_sei'
+Lines executed:0.00% of 12
+
+Function 'export_stream_params'
+Lines executed:0.00% of 40
+
+Function 'decode_lt_rps'
+Lines executed:0.00% of 32
+
+Function 'pred_weight_table'
+Lines executed:0.00% of 68
+
+Function 'pic_arrays_init'
+Lines executed:0.00% of 52
+
+Function 'pic_arrays_free'
+Lines executed:0.00% of 21
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 22
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 9
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 12
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+Function 'skip_bytes'
+Lines executed:0.00% of 8
+
+File 'libavcodec/hevc/hevcdec.c'
+Lines executed:0.00% of 2314
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#hevc#hevcdec.c.gcov'
+
+File 'libavcodec/hevc/sei.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#hevc#sei.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/hevc/hevcdec.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#hevc#hevcdec.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/threadprogress.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#threadprogress.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/cabac_functions.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#hevcdec.gcno##libavcodec#cabac_functions.h.gcov'
+
+Lines executed:0.00% of 2455

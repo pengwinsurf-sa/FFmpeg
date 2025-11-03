@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="threadmessage_8h" kind="file" language="C++">
+    <compoundname>threadmessage.h</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVThreadMessageFlags</name>
+        <enumvalue id="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5adc72c40671a489c761960bafc41b1699" prot="public">
+          <name>AV_THREAD_MESSAGE_NONBLOCK</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Perform non-blocking operation. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>If this flag is set, send and recv operations are non-blocking and return <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref> immediately if they can not proceed. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="24" column="1" bodyfile="libavutil/threadmessage.h" bodystart="24" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" prot="public" static="no">
+        <type>struct <ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref></type>
+        <definition>typedef struct AVThreadMessageQueue AVThreadMessageQueue</definition>
+        <argsstring></argsstring>
+        <name>AVThreadMessageQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="22" column="35" bodyfile="libavutil/threadmessage.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="threadmessage_8h_1a1734b65da48a88e7c78e8a29b1eee139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_thread_message_queue_alloc</definition>
+        <argsstring>(AVThreadMessageQueue **mq, unsigned nelem, unsigned elsize)</argsstring>
+        <name>av_thread_message_queue_alloc</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> **</type>
+          <declname>mq</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>nelem</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>elsize</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a new message queue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to the message queue </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nelem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum number of elements in the queue </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elsize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of each element in the queue </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;=0 for success; &lt;0 for error, in particular <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(ENOSYS)</ref> if lavu was built without thread support </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="44" column="5" declfile="libavutil/threadmessage.h" declline="44" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a95727669f1ebba16a6a49ea8b9f2276e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_thread_message_queue_free</definition>
+        <argsstring>(AVThreadMessageQueue **mq)</argsstring>
+        <name>av_thread_message_queue_free</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> **</type>
+          <declname>mq</declname>
+        </param>
+        <briefdescription>
+<para>Free a message queue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The message queue must no longer be in use by another thread. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="53" column="6" declfile="libavutil/threadmessage.h" declline="53" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a873d588ed106d8dde339c4a16411e0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_thread_message_queue_send</definition>
+        <argsstring>(AVThreadMessageQueue *mq, void *msg, unsigned flags)</argsstring>
+        <name>av_thread_message_queue_send</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Send a message on the queue. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="58" column="5" declfile="libavutil/threadmessage.h" declline="58" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a0fb9f4909ad77c541f8ba4409b253111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_thread_message_queue_recv</definition>
+        <argsstring>(AVThreadMessageQueue *mq, void *msg, unsigned flags)</argsstring>
+        <name>av_thread_message_queue_recv</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Receive a message from the queue. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="65" column="5" declfile="libavutil/threadmessage.h" declline="65" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a01981ed85e713e682912ee6e063403ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_thread_message_queue_set_err_send</definition>
+        <argsstring>(AVThreadMessageQueue *mq, int err)</argsstring>
+        <name>av_thread_message_queue_set_err_send</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+<para>Set the sending error code. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the error code is set to non-zero, <ref refid="threadmessage_8h_1a873d588ed106d8dde339c4a16411e0b8" kindref="member">av_thread_message_queue_send()</ref> will return it immediately. Conventional values, such as AVERROR_EOF or <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref>, can be used to cause the sending thread to stop or suspend its operation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="77" column="6" declfile="libavutil/threadmessage.h" declline="77" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a6b2b6c47728e7d442b31a49ca8f9f971" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_thread_message_queue_set_err_recv</definition>
+        <argsstring>(AVThreadMessageQueue *mq, int err)</argsstring>
+        <name>av_thread_message_queue_set_err_recv</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+<para>Set the receiving error code. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the error code is set to non-zero, <ref refid="threadmessage_8h_1a0fb9f4909ad77c541f8ba4409b253111" kindref="member">av_thread_message_queue_recv()</ref> will return it immediately when there are no longer available messages. Conventional values, such as AVERROR_EOF or <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref>, can be used to cause the receiving thread to stop or suspend its operation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="88" column="6" declfile="libavutil/threadmessage.h" declline="88" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a55878238c793830dc7de601042873ee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_thread_message_queue_set_free_func</definition>
+        <argsstring>(AVThreadMessageQueue *mq, void(*free_func)(void *msg))</argsstring>
+        <name>av_thread_message_queue_set_free_func</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <param>
+          <type>void(*)(void *msg)</type>
+          <declname>free_func</declname>
+        </param>
+        <briefdescription>
+<para>Set the optional free message callback function which will be called if an operation is removing messages from the queue. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="95" column="6" declfile="libavutil/threadmessage.h" declline="95" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a716d595b7b6bf5eeeab63e3400868eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_thread_message_queue_nb_elems</definition>
+        <argsstring>(AVThreadMessageQueue *mq)</argsstring>
+        <name>av_thread_message_queue_nb_elems</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <briefdescription>
+<para>Return the current number of messages in the queue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the current number of messages or <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(ENOSYS)</ref> if lavu was built without thread support </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="104" column="5" declfile="libavutil/threadmessage.h" declline="104" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="threadmessage_8h_1a8dc5df5158d3098303cdd48e7e3d4ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_thread_message_flush</definition>
+        <argsstring>(AVThreadMessageQueue *mq)</argsstring>
+        <name>av_thread_message_flush</name>
+        <param>
+          <type><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref> *</type>
+          <declname>mq</declname>
+        </param>
+        <briefdescription>
+<para>Flush the message queue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is mostly equivalent to reading and free-ing every message except that it will be done in a single operation (no lock/unlock between reads). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/threadmessage.h" line="113" column="6" declfile="libavutil/threadmessage.h" declline="113" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_THREADMESSAGE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_THREADMESSAGE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/><ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5" kindref="member">AVThreadMessageFlags</ref><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Perform<sp/>non-blocking<sp/>operation.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>this<sp/>flag<sp/>is<sp/>set,<sp/>send<sp/>and<sp/>recv<sp/>operations<sp/>are<sp/>non-blocking<sp/>and</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>return<sp/>AVERROR(EAGAIN)<sp/>immediately<sp/>if<sp/>they<sp/>can<sp/>not<sp/>proceed.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5adc72c40671a489c761960bafc41b1699" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5adc72c40671a489c761960bafc41b1699" kindref="member">AV_THREAD_MESSAGE_NONBLOCK</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/><ref refid="threadmessage_8h_1a7fb8bd4d2b779ab5e2044a1b5a5b22f5" kindref="member">AVThreadMessageFlags</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>new<sp/>message<sp/>queue.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>@param<sp/>mq<sp/><sp/><sp/><sp/><sp/><sp/>pointer<sp/>to<sp/>the<sp/>message<sp/>queue</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>@param<sp/>nelem<sp/><sp/><sp/>maximum<sp/>number<sp/>of<sp/>elements<sp/>in<sp/>the<sp/>queue</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>@param<sp/>elsize<sp/><sp/>size<sp/>of<sp/>each<sp/>element<sp/>in<sp/>the<sp/>queue</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/>&gt;=0<sp/>for<sp/>success;<sp/>&lt;0<sp/>for<sp/>error,<sp/>in<sp/>particular<sp/>AVERROR(ENOSYS)<sp/>if</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lavu<sp/>was<sp/>built<sp/>without<sp/>thread<sp/>support</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="threadmessage_8h_1a1734b65da48a88e7c78e8a29b1eee139" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a1734b65da48a88e7c78e8a29b1eee139" kindref="member">av_thread_message_queue_alloc</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>**mq,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>nelem,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>elsize);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="48"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>Free<sp/>a<sp/>message<sp/>queue.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>The<sp/>message<sp/>queue<sp/>must<sp/>no<sp/>longer<sp/>be<sp/>in<sp/>use<sp/>by<sp/>another<sp/>thread.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="threadmessage_8h_1a95727669f1ebba16a6a49ea8b9f2276e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a95727669f1ebba16a6a49ea8b9f2276e" kindref="member">av_thread_message_queue_free</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>**mq);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Send<sp/>a<sp/>message<sp/>on<sp/>the<sp/>queue.</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="threadmessage_8h_1a873d588ed106d8dde339c4a16411e0b8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a873d588ed106d8dde339c4a16411e0b8" kindref="member">av_thread_message_queue_send</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*msg,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="62"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>Receive<sp/>a<sp/>message<sp/>from<sp/>the<sp/>queue.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="threadmessage_8h_1a0fb9f4909ad77c541f8ba4409b253111" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a0fb9f4909ad77c541f8ba4409b253111" kindref="member">av_thread_message_queue_recv</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*msg,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>Set<sp/>the<sp/>sending<sp/>error<sp/>code.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>error<sp/>code<sp/>is<sp/>set<sp/>to<sp/>non-zero,<sp/>av_thread_message_queue_send()<sp/>will</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>return<sp/>it<sp/>immediately.<sp/>Conventional<sp/>values,<sp/>such<sp/>as<sp/>AVERROR_EOF<sp/>or</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>AVERROR(EAGAIN),<sp/>can<sp/>be<sp/>used<sp/>to<sp/>cause<sp/>the<sp/>sending<sp/>thread<sp/>to<sp/>stop<sp/>or</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>suspend<sp/>its<sp/>operation.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="threadmessage_8h_1a01981ed85e713e682912ee6e063403ad" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a01981ed85e713e682912ee6e063403ad" kindref="member">av_thread_message_queue_set_err_send</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="80"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>Set<sp/>the<sp/>receiving<sp/>error<sp/>code.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>error<sp/>code<sp/>is<sp/>set<sp/>to<sp/>non-zero,<sp/>av_thread_message_queue_recv()<sp/>will</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>return<sp/>it<sp/>immediately<sp/>when<sp/>there<sp/>are<sp/>no<sp/>longer<sp/>available<sp/>messages.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>Conventional<sp/>values,<sp/>such<sp/>as<sp/>AVERROR_EOF<sp/>or<sp/>AVERROR(EAGAIN),<sp/>can<sp/>be<sp/>used</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/>to<sp/>cause<sp/>the<sp/>receiving<sp/>thread<sp/>to<sp/>stop<sp/>or<sp/>suspend<sp/>its<sp/>operation.</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="threadmessage_8h_1a6b2b6c47728e7d442b31a49ca8f9f971" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a6b2b6c47728e7d442b31a49ca8f9f971" kindref="member">av_thread_message_queue_set_err_recv</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="91"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>Set<sp/>the<sp/>optional<sp/>free<sp/>message<sp/>callback<sp/>function<sp/>which<sp/>will<sp/>be<sp/>called<sp/>if<sp/>an</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>operation<sp/>is<sp/>removing<sp/>messages<sp/>from<sp/>the<sp/>queue.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="threadmessage_8h_1a55878238c793830dc7de601042873ee6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a55878238c793830dc7de601042873ee6" kindref="member">av_thread_message_queue_set_free_func</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*free_func)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*msg));</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="98"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>current<sp/>number<sp/>of<sp/>messages<sp/>in<sp/>the<sp/>queue.</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>current<sp/>number<sp/>of<sp/>messages<sp/>or<sp/>AVERROR(ENOSYS)<sp/>if<sp/>lavu<sp/>was<sp/>built</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>without<sp/>thread<sp/>support</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="threadmessage_8h_1a716d595b7b6bf5eeeab63e3400868eb6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a716d595b7b6bf5eeeab63e3400868eb6" kindref="member">av_thread_message_queue_nb_elems</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="106"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>Flush<sp/>the<sp/>message<sp/>queue</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>mostly<sp/>equivalent<sp/>to<sp/>reading<sp/>and<sp/>free-ing<sp/>every<sp/>message</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>except<sp/>that<sp/>it<sp/>will<sp/>be<sp/>done<sp/>in<sp/>a<sp/>single<sp/>operation<sp/>(no<sp/>lock/unlock<sp/>between</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>reads).</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="threadmessage_8h_1a8dc5df5158d3098303cdd48e7e3d4ea4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="threadmessage_8h_1a8dc5df5158d3098303cdd48e7e3d4ea4" kindref="member">av_thread_message_flush</ref>(<ref refid="threadmessage_8h_1afe2b529ed869d4b672f1a4547dd160af" kindref="member">AVThreadMessageQueue</ref><sp/>*mq);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_THREADMESSAGE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/threadmessage.h"/>
+  </compounddef>
+</doxygen>

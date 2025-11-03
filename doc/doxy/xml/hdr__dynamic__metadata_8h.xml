@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hdr__dynamic__metadata_8h" kind="file" language="C++">
+    <compoundname>hdr_dynamic_metadata.h</compoundname>
+    <includes refid="frame_8h" local="yes">frame.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="5">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/hdr_dynamic_metadata.h</label>
+        <link refid="hdr__dynamic__metadata_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>errno.h</label>
+      </node>
+      <node id="8">
+        <label>inttypes.h</label>
+      </node>
+      <node id="17">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="24">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVHDRPlusPercentile" prot="public">AVHDRPlusPercentile</innerclass>
+    <innerclass refid="structAVHDRPlusColorTransformParams" prot="public">AVHDRPlusColorTransformParams</innerclass>
+    <innerclass refid="structAVDynamicHDRPlus" prot="public">AVDynamicHDRPlus</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="hdr__dynamic__metadata_8h_1ae3a00755268c57d476c46ea483b7ca9e" prot="public" static="no">
+        <name>AV_HDR_PLUS_MAX_PAYLOAD_SIZE</name>
+        <initializer>907</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_metadata.h" line="356" column="9" bodyfile="libavutil/hdr_dynamic_metadata.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVHDRPlusOverlapProcessOption</name>
+        <enumvalue id="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cbae57103a5421226eca7ba5822564f4229" prot="public">
+          <name>AV_HDR_PLUS_OVERLAP_PROCESS_WEIGHTED_AVERAGING</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cbae0b62827a0517b2bced4f373a05deedc" prot="public">
+          <name>AV_HDR_PLUS_OVERLAP_PROCESS_LAYERING</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Option for overlapping elliptical pixel selectors in an image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_metadata.h" line="30" column="1" bodyfile="libavutil/hdr_dynamic_metadata.h" bodystart="30" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="hdr__dynamic__metadata_8h_1a00dbc5d7b33205c2d366d4f5da8032cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> *</type>
+        <definition>AVDynamicHDRPlus * av_dynamic_hdr_plus_alloc</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_dynamic_hdr_plus_alloc</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> structure and set its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The resulting struct can be freed using <ref refid="group__lavu__mem__funcs_1ga0cc84043ea2167ad005c86e11d0bcdba" kindref="member">av_freep()</ref>.</para>
+<para><simplesect kind="return"><para>An <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> filled with default values or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_metadata.h" line="332" column="18" declfile="libavutil/hdr_dynamic_metadata.h" declline="332" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="hdr__dynamic__metadata_8h_1a21a09b79ddde6970c464af8d3b92072d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> *</type>
+        <definition>AVDynamicHDRPlus * av_dynamic_hdr_plus_create_side_data</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>av_dynamic_hdr_plus_create_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a complete <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> and add it to the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frame which side data is added to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> structure to be filled by caller or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_metadata.h" line="341" column="18" declfile="libavutil/hdr_dynamic_metadata.h" declline="341" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="hdr__dynamic__metadata_8h_1a95000e56bdcc89943a58c0d2a2b6cd38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_dynamic_hdr_plus_from_t35</definition>
+        <argsstring>(AVDynamicHDRPlus *s, const uint8_t *data, size_t size)</argsstring>
+        <name>av_dynamic_hdr_plus_from_t35</name>
+        <param>
+          <type><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Parse the user data registered ITU-T T.35 to AVbuffer (<ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref>). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The T.35 buffer must begin with the application mode, skipping the country code, terminal provider codes, and application identifier. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer containing the decoded <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The byte array containing the raw ITU-T T.35 data. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the data array in bytes.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 on success. Otherwise, returns the appropriate AVERROR. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_metadata.h" line="353" column="5" declfile="libavutil/hdr_dynamic_metadata.h" declline="353" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hdr__dynamic__metadata_8h_1acf53c2f22f88722a2853c9c8bdd52560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_dynamic_hdr_plus_to_t35</definition>
+        <argsstring>(const AVDynamicHDRPlus *s, uint8_t **data, size_t *size)</argsstring>
+        <name>av_dynamic_hdr_plus_to_t35</name>
+        <param>
+          <type>const <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint8_t **</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Serialize dynamic HDR10+ metadata to a user data registered ITU-T T.35 buffer, excluding the first 48 bytes of the header, and beginning with the application mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer containing the decoded <ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref> structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to pointer to a byte buffer to be filled with the serialized metadata. If *data is NULL, a buffer be will be allocated and a pointer to it stored in its place. The caller assumes ownership of the buffer. May be NULL, in which case the function will only store the required buffer size in *size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a size to be set to the returned buffer&apos;s size. If *data is not NULL, *size must contain the size of the input buffer. May be NULL only if *data is NULL.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 on success. Otherwise, returns the appropriate AVERROR. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_metadata.h" line="374" column="5" declfile="libavutil/hdr_dynamic_metadata.h" declline="374" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2018<sp/>Mohammad<sp/>Izadi<sp/>&lt;moh.izadi<sp/>at<sp/>gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HDR_DYNAMIC_METADATA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HDR_DYNAMIC_METADATA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>Option<sp/>for<sp/>overlapping<sp/>elliptical<sp/>pixel<sp/>selectors<sp/>in<sp/>an<sp/>image.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cb" kindref="member">AVHDRPlusOverlapProcessOption</ref><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cbae57103a5421226eca7ba5822564f4229" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cbae57103a5421226eca7ba5822564f4229" kindref="member">AV_HDR_PLUS_OVERLAP_PROCESS_WEIGHTED_AVERAGING</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="32" refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cbae0b62827a0517b2bced4f373a05deedc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cbae0b62827a0517b2bced4f373a05deedc" kindref="member">AV_HDR_PLUS_OVERLAP_PROCESS_LAYERING</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>Represents<sp/>the<sp/>percentile<sp/>at<sp/>a<sp/>specific<sp/>percentage<sp/>in</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>a<sp/>distribution.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structAVHDRPlusPercentile" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHDRPlusPercentile" kindref="compound">AVHDRPlusPercentile</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>percentage<sp/>value<sp/>corresponding<sp/>to<sp/>a<sp/>specific<sp/>percentile<sp/>linearized</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>RGB<sp/>value<sp/>in<sp/>the<sp/>processing<sp/>window<sp/>in<sp/>the<sp/>scene.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to100,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structAVHDRPlusPercentile_1aeff9d52406d5b9366d3e9786dd4d7b8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVHDRPlusPercentile_1aeff9d52406d5b9366d3e9786dd4d7b8e" kindref="member">percentage</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>linearized<sp/>maxRGB<sp/>value<sp/>at<sp/>a<sp/>specific<sp/>percentile<sp/>in<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window<sp/>in<sp/>the<sp/>scene.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>1,<sp/>inclusive</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>0.00001.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structAVHDRPlusPercentile_1abae29b301fffeba0b7978a3cac4793d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusPercentile_1abae29b301fffeba0b7978a3cac4793d3" kindref="member">percentile</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}<sp/><ref refid="structAVHDRPlusPercentile" kindref="compound">AVHDRPlusPercentile</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Color<sp/>transform<sp/>parameters<sp/>at<sp/>a<sp/>processing<sp/>window<sp/>in<sp/>a<sp/>dynamic<sp/>metadata<sp/>for</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>SMPTE<sp/>2094-40.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="structAVHDRPlusColorTransformParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHDRPlusColorTransformParams" kindref="compound">AVHDRPlusColorTransformParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>relative<sp/>x<sp/>coordinate<sp/>of<sp/>the<sp/>top<sp/>left<sp/>pixel<sp/>of<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>and<sp/>1,<sp/>inclusive<sp/>and</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1/(width<sp/>of<sp/>Picture<sp/>-<sp/>1).<sp/>The<sp/>value<sp/>1<sp/>corresponds</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>the<sp/>absolute<sp/>coordinate<sp/>of<sp/>width<sp/>of<sp/>Picture<sp/>-<sp/>1.<sp/>The<sp/>value<sp/>for</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>first<sp/>processing<sp/>window<sp/>shall<sp/>be<sp/>0.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structAVHDRPlusColorTransformParams_1a833d18029d732f86a0ec4c029a7da42f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a833d18029d732f86a0ec4c029a7da42f" kindref="member">window_upper_left_corner_x</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>relative<sp/>y<sp/>coordinate<sp/>of<sp/>the<sp/>top<sp/>left<sp/>pixel<sp/>of<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>and<sp/>1,<sp/>inclusive<sp/>and</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1/(height<sp/>of<sp/>Picture<sp/>-<sp/>1).<sp/>The<sp/>value<sp/>1<sp/>corresponds</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>the<sp/>absolute<sp/>coordinate<sp/>of<sp/>height<sp/>of<sp/>Picture<sp/>-<sp/>1.<sp/>The<sp/>value<sp/>for</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>first<sp/>processing<sp/>window<sp/>shall<sp/>be<sp/>0.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="structAVHDRPlusColorTransformParams_1a8006c018b5fbe184fa4a26bcc52e2dc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a8006c018b5fbe184fa4a26bcc52e2dc6" kindref="member">window_upper_left_corner_y</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>relative<sp/>x<sp/>coordinate<sp/>of<sp/>the<sp/>bottom<sp/>right<sp/>pixel<sp/>of<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>and<sp/>1,<sp/>inclusive<sp/>and</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1/(width<sp/>of<sp/>Picture<sp/>-<sp/>1).<sp/>The<sp/>value<sp/>1<sp/>corresponds</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>the<sp/>absolute<sp/>coordinate<sp/>of<sp/>width<sp/>of<sp/>Picture<sp/>-<sp/>1.<sp/>The<sp/>value<sp/>for</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>first<sp/>processing<sp/>window<sp/>shall<sp/>be<sp/>1.</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="structAVHDRPlusColorTransformParams_1a4be54ddced4fe5a8d024d291bc65749a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a4be54ddced4fe5a8d024d291bc65749a" kindref="member">window_lower_right_corner_x</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>relative<sp/>y<sp/>coordinate<sp/>of<sp/>the<sp/>bottom<sp/>right<sp/>pixel<sp/>of<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>and<sp/>1,<sp/>inclusive<sp/>and</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1/(height<sp/>of<sp/>Picture<sp/>-<sp/>1).<sp/>The<sp/>value<sp/>1<sp/>corresponds</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>the<sp/>absolute<sp/>coordinate<sp/>of<sp/>height<sp/>of<sp/>Picture<sp/>-<sp/>1.<sp/>The<sp/>value<sp/>for</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>first<sp/>processing<sp/>window<sp/>shall<sp/>be<sp/>1.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="structAVHDRPlusColorTransformParams_1a07fa3b7fb0be0b93b6d95ca9d9a1fa25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a07fa3b7fb0be0b93b6d95ca9d9a1fa25" kindref="member">window_lower_right_corner_y</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>x<sp/>coordinate<sp/>of<sp/>the<sp/>center<sp/>position<sp/>of<sp/>the<sp/>concentric<sp/>internal<sp/>and</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>external<sp/>ellipses<sp/>of<sp/>the<sp/>elliptical<sp/>pixel<sp/>selector<sp/>in<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>(width<sp/>of<sp/>Picture<sp/>-<sp/>1),</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1<sp/>pixel.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="structAVHDRPlusColorTransformParams_1a26fffeac222cba512e7255119a054f0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a26fffeac222cba512e7255119a054f0a" kindref="member">center_of_ellipse_x</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>y<sp/>coordinate<sp/>of<sp/>the<sp/>center<sp/>position<sp/>of<sp/>the<sp/>concentric<sp/>internal<sp/>and</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>external<sp/>ellipses<sp/>of<sp/>the<sp/>elliptical<sp/>pixel<sp/>selector<sp/>in<sp/>the<sp/>processing</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>(height<sp/>of<sp/>Picture<sp/>-<sp/>1),</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1<sp/>pixel.</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="structAVHDRPlusColorTransformParams_1ac7f7e03a4b08143ad03a2232425dfac3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1ac7f7e03a4b08143ad03a2232425dfac3" kindref="member">center_of_ellipse_y</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>clockwise<sp/>rotation<sp/>angle<sp/>in<sp/>degree<sp/>of<sp/>arc<sp/>with<sp/>respect<sp/>to<sp/>the</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>positive<sp/>direction<sp/>of<sp/>the<sp/>x-axis<sp/>of<sp/>the<sp/>concentric<sp/>internal<sp/>and<sp/>external</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>ellipses<sp/>of<sp/>the<sp/>elliptical<sp/>pixel<sp/>selector<sp/>in<sp/>the<sp/>processing<sp/>window.<sp/>The</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>180,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="structAVHDRPlusColorTransformParams_1a18f23a30fba19eff68496aad64cd38a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a18f23a30fba19eff68496aad64cd38a9" kindref="member">rotation_angle</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>semi-major<sp/>axis<sp/>value<sp/>of<sp/>the<sp/>internal<sp/>ellipse<sp/>of<sp/>the<sp/>elliptical<sp/>pixel</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>selector<sp/>in<sp/>amount<sp/>of<sp/>pixels<sp/>in<sp/>the<sp/>processing<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>the<sp/>range<sp/>of<sp/>1<sp/>to<sp/>65535,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1<sp/>pixel.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="structAVHDRPlusColorTransformParams_1a218dacd1c86e8c6357c491f0f3b0f855" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a218dacd1c86e8c6357c491f0f3b0f855" kindref="member">semimajor_axis_internal_ellipse</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>semi-major<sp/>axis<sp/>value<sp/>of<sp/>the<sp/>external<sp/>ellipse<sp/>of<sp/>the<sp/>elliptical<sp/>pixel</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>selector<sp/>in<sp/>amount<sp/>of<sp/>pixels<sp/>in<sp/>the<sp/>processing<sp/>window.<sp/>The<sp/>value</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>shall<sp/>not<sp/>be<sp/>less<sp/>than<sp/>semimajor_axis_internal_ellipse<sp/>of<sp/>the<sp/>current</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>processing<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>1<sp/>to<sp/>65535,</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1<sp/>pixel.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="structAVHDRPlusColorTransformParams_1a2c8efbbb1812d0c1a11b11e99e784cdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a2c8efbbb1812d0c1a11b11e99e784cdb" kindref="member">semimajor_axis_external_ellipse</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>semi-minor<sp/>axis<sp/>value<sp/>of<sp/>the<sp/>external<sp/>ellipse<sp/>of<sp/>the<sp/>elliptical<sp/>pixel</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>selector<sp/>in<sp/>amount<sp/>of<sp/>pixels<sp/>in<sp/>the<sp/>processing<sp/>window.<sp/>The<sp/>value<sp/>shall<sp/>be</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>the<sp/>range<sp/>of<sp/>1<sp/>to<sp/>65535,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1<sp/>pixel.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="structAVHDRPlusColorTransformParams_1aa0bea0324f7b95bbacdcdf06d0504edf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1aa0bea0324f7b95bbacdcdf06d0504edf" kindref="member">semiminor_axis_external_ellipse</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Overlap<sp/>process<sp/>option<sp/>indicates<sp/>one<sp/>of<sp/>the<sp/>two<sp/>methods<sp/>of<sp/>combining</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>rendered<sp/>pixels<sp/>in<sp/>the<sp/>processing<sp/>window<sp/>in<sp/>an<sp/>image<sp/>with<sp/>at<sp/>least<sp/>one</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>elliptical<sp/>pixel<sp/>selector.<sp/>For<sp/>overlapping<sp/>elliptical<sp/>pixel<sp/>selectors</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>an<sp/>image,<sp/>overlap_process_option<sp/>shall<sp/>have<sp/>the<sp/>same<sp/>value.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="structAVHDRPlusColorTransformParams_1ad7fcfbfd8167724c9fda3b6a5b2ebf6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="hdr__dynamic__metadata_8h_1a32e592015f2e6f7d27201c38516b09cb" kindref="member">AVHDRPlusOverlapProcessOption</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1ad7fcfbfd8167724c9fda3b6a5b2ebf6a" kindref="member">overlap_process_option</ref>;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>maximum<sp/>of<sp/>the<sp/>color<sp/>components<sp/>of<sp/>linearized<sp/>RGB<sp/>values<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>processing<sp/>window<sp/>in<sp/>the<sp/>scene.<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>1,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>0.00001.<sp/>maxscl[<sp/>0<sp/>],<sp/>maxscl[<sp/>1<sp/>],<sp/>and</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>maxscl[<sp/>2<sp/>]<sp/>are<sp/>corresponding<sp/>to<sp/>R,<sp/>G,<sp/>B<sp/>color<sp/>components<sp/>respectively.</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="structAVHDRPlusColorTransformParams_1a291012e029b09282caad1c1399e0b1b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a291012e029b09282caad1c1399e0b1b8" kindref="member">maxscl</ref>[3];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>average<sp/>of<sp/>linearized<sp/>maxRGB<sp/>values<sp/>in<sp/>the<sp/>processing<sp/>window<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>scene.<sp/>The<sp/>value<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>1,<sp/>inclusive<sp/>and<sp/>in</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>multiples<sp/>of<sp/>0.00001.</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="structAVHDRPlusColorTransformParams_1a21bb186cad82079311029fdbfc9d8634" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a21bb186cad82079311029fdbfc9d8634" kindref="member">average_maxrgb</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>linearized<sp/>maxRGB<sp/>values<sp/>at<sp/>given<sp/>percentiles<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>processing<sp/>window<sp/>in<sp/>the<sp/>scene.<sp/>The<sp/>maximum<sp/>value<sp/>shall<sp/>be<sp/>15.</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="structAVHDRPlusColorTransformParams_1a50ec72b9b9c718fcbe77bff97bfa272e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a50ec72b9b9c718fcbe77bff97bfa272e" kindref="member">num_distribution_maxrgb_percentiles</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>linearized<sp/>maxRGB<sp/>values<sp/>at<sp/>given<sp/>percentiles<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>processing<sp/>window<sp/>in<sp/>the<sp/>scene.</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="structAVHDRPlusColorTransformParams_1a368c274bb7d9999fb6436f527e5b3f88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVHDRPlusPercentile" kindref="compound">AVHDRPlusPercentile</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a368c274bb7d9999fb6436f527e5b3f88" kindref="member">distribution_maxrgb</ref>[15];</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>fraction<sp/>of<sp/>selected<sp/>pixels<sp/>in<sp/>the<sp/>image<sp/>that<sp/>contains<sp/>the<sp/>brightest</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>pixel<sp/>in<sp/>the<sp/>scene.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>1,<sp/>inclusive</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>0.001.</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="structAVHDRPlusColorTransformParams_1a0b8acc98ae2020d2578efe9761bb89e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a0b8acc98ae2020d2578efe9761bb89e9" kindref="member">fraction_bright_pixels</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>indicates<sp/>that<sp/>the<sp/>metadata<sp/>for<sp/>the<sp/>tone<sp/>mapping<sp/>function<sp/>in</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>processing<sp/>window<sp/>is<sp/>present<sp/>(for<sp/>value<sp/>of<sp/>1).</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="structAVHDRPlusColorTransformParams_1a030e8abd2a965bf9bb36ef87aa00ba22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a030e8abd2a965bf9bb36ef87aa00ba22" kindref="member">tone_mapping_flag</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>x<sp/>coordinate<sp/>of<sp/>the<sp/>separation<sp/>point<sp/>between<sp/>the<sp/>linear<sp/>part<sp/>and<sp/>the</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>curved<sp/>part<sp/>of<sp/>the<sp/>tone<sp/>mapping<sp/>function.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>0<sp/>to<sp/>1,<sp/>excluding<sp/>0<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/4095.</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="structAVHDRPlusColorTransformParams_1ac3d809a287fa4e915384075b78252927" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1ac3d809a287fa4e915384075b78252927" kindref="member">knee_point_x</ref>;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>y<sp/>coordinate<sp/>of<sp/>the<sp/>separation<sp/>point<sp/>between<sp/>the<sp/>linear<sp/>part<sp/>and<sp/>the</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>curved<sp/>part<sp/>of<sp/>the<sp/>tone<sp/>mapping<sp/>function.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>0<sp/>to<sp/>1,<sp/>excluding<sp/>0<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/4095.</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="structAVHDRPlusColorTransformParams_1a200c599bed02c3e498426a5f75a4fae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1a200c599bed02c3e498426a5f75a4fae1" kindref="member">knee_point_y</ref>;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>the<sp/>intermediate<sp/>anchor<sp/>parameters<sp/>of<sp/>the<sp/>tone<sp/>mapping</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>function<sp/>in<sp/>the<sp/>processing<sp/>window.<sp/>The<sp/>maximum<sp/>value<sp/>shall<sp/>be<sp/>15.</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="structAVHDRPlusColorTransformParams_1a863cb83c97afabe33b40609d21586c27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a863cb83c97afabe33b40609d21586c27" kindref="member">num_bezier_curve_anchors</ref>;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>intermediate<sp/>anchor<sp/>parameters<sp/>of<sp/>the<sp/>tone<sp/>mapping<sp/>function<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>processing<sp/>window<sp/>in<sp/>the<sp/>scene.<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>1,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/1023.</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="structAVHDRPlusColorTransformParams_1af36d5ee6dc3443fe771875d2f6b804ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1af36d5ee6dc3443fe771875d2f6b804ef" kindref="member">bezier_curve_anchors</ref>[15];</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>shall<sp/>be<sp/>equal<sp/>to<sp/>0<sp/>in<sp/>bitstreams<sp/>conforming<sp/>to<sp/>this<sp/>version<sp/>of</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>this<sp/>Specification.<sp/>Other<sp/>values<sp/>are<sp/>reserved<sp/>for<sp/>future<sp/>use.</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="structAVHDRPlusColorTransformParams_1a4c683c17f2049a6d49675e52f71b3f46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVHDRPlusColorTransformParams_1a4c683c17f2049a6d49675e52f71b3f46" kindref="member">color_saturation_mapping_flag</ref>;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>color<sp/>saturation<sp/>gain<sp/>in<sp/>the<sp/>processing<sp/>window<sp/>in<sp/>the<sp/>scene.<sp/>The</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>63/8,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>1/8.<sp/>The<sp/>default<sp/>value<sp/>shall<sp/>be<sp/>1.</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="structAVHDRPlusColorTransformParams_1aea97c3d086ce533e4d117204725716d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRPlusColorTransformParams_1aea97c3d086ce533e4d117204725716d4" kindref="member">color_saturation_weight</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">}<sp/><ref refid="structAVHDRPlusColorTransformParams" kindref="compound">AVHDRPlusColorTransformParams</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="232"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>represents<sp/>dynamic<sp/>metadata<sp/>for<sp/>color<sp/>volume<sp/>transform<sp/>-</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*<sp/>application<sp/>4<sp/>of<sp/>SMPTE<sp/>2094-40:2016<sp/>standard.</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/>*<sp/>To<sp/>be<sp/>used<sp/>as<sp/>payload<sp/>of<sp/>a<sp/>AVFrameSideData<sp/>or<sp/>AVPacketSideData<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/>*<sp/>appropriate<sp/>type.</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>should<sp/>be<sp/>allocated<sp/>with</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*<sp/>av_dynamic_hdr_plus_alloc()<sp/>and<sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="structAVDynamicHDRPlus" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Country<sp/>code<sp/>by<sp/>Rec.<sp/>ITU-T<sp/>T.35<sp/>Annex<sp/>A.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>0xB5.</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="structAVDynamicHDRPlus_1a542d3e84988be3dd95095ee685a52dfd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a542d3e84988be3dd95095ee685a52dfd" kindref="member">itu_t_t35_country_code</ref>;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Application<sp/>version<sp/>in<sp/>the<sp/>application<sp/>defining<sp/>document<sp/>in<sp/>ST-2094</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>suite.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>set<sp/>to<sp/>0.</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="structAVDynamicHDRPlus_1a6bd7e091e09d60fc8b17943229bc6ec1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a6bd7e091e09d60fc8b17943229bc6ec1" kindref="member">application_version</ref>;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>processing<sp/>windows.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>1<sp/>to<sp/>3,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="structAVDynamicHDRPlus_1ada14d43b68ecc6b366c73396e3db1105" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1ada14d43b68ecc6b366c73396e3db1105" kindref="member">num_windows</ref>;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>color<sp/>transform<sp/>parameters<sp/>for<sp/>every<sp/>processing<sp/>window.</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="structAVDynamicHDRPlus_1a4cc208698b88819c89a2b6ab3aa6114c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVHDRPlusColorTransformParams" kindref="compound">AVHDRPlusColorTransformParams</ref><sp/><ref refid="structAVDynamicHDRPlus_1a4cc208698b88819c89a2b6ab3aa6114c" kindref="member">params</ref>[3];</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>nominal<sp/>maximum<sp/>display<sp/>luminance<sp/>of<sp/>the<sp/>targeted<sp/>system<sp/>display,</highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>units<sp/>of<sp/>0.0001<sp/>candelas<sp/>per<sp/>square<sp/>metre.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>10000,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="structAVDynamicHDRPlus_1a25826b3f1d87674f8f6d0c0d6f863466" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVDynamicHDRPlus_1a25826b3f1d87674f8f6d0c0d6f863466" kindref="member">targeted_system_display_maximum_luminance</ref>;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="274"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>shall<sp/>be<sp/>equal<sp/>to<sp/>0<sp/>in<sp/>bit<sp/>streams<sp/>conforming<sp/>to<sp/>this<sp/>version</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>this<sp/>Specification.<sp/>The<sp/>value<sp/>1<sp/>is<sp/>reserved<sp/>for<sp/>future<sp/>use.</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="structAVDynamicHDRPlus_1a0553f17b8f180efd741709690ee3e1c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a0553f17b8f180efd741709690ee3e1c7" kindref="member">targeted_system_display_actual_peak_luminance_flag</ref>;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="280"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>rows<sp/>in<sp/>the<sp/>targeted<sp/>system_display_actual_peak_luminance</highlight></codeline>
+<codeline lineno="281"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>array.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>2<sp/>to<sp/>25,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="282"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="structAVDynamicHDRPlus_1a6a00dbc267e541a3322f0eb084026c7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a6a00dbc267e541a3322f0eb084026c7d" kindref="member">num_rows_targeted_system_display_actual_peak_luminance</ref>;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>columns<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>targeted_system_display_actual_peak_luminance<sp/>array.<sp/>The<sp/>value<sp/>shall<sp/>be</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>the<sp/>range<sp/>of<sp/>2<sp/>to<sp/>25,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="structAVDynamicHDRPlus_1a1faa52f67d0e3fcd1423485aacdc8e72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a1faa52f67d0e3fcd1423485aacdc8e72" kindref="member">num_cols_targeted_system_display_actual_peak_luminance</ref>;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="293"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>normalized<sp/>actual<sp/>peak<sp/>luminance<sp/>of<sp/>the<sp/>targeted<sp/>system<sp/>display.<sp/>The</highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>1,<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>1/15.</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="structAVDynamicHDRPlus_1a7fe063411dd667a1f1fd36fce954029b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVDynamicHDRPlus_1a7fe063411dd667a1f1fd36fce954029b" kindref="member">targeted_system_display_actual_peak_luminance</ref>[25][25];</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="299"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="300"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>shall<sp/>be<sp/>equal<sp/>to<sp/>0<sp/>in<sp/>bitstreams<sp/>conforming<sp/>to<sp/>this<sp/>version<sp/>of</highlight></codeline>
+<codeline lineno="301"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>this<sp/>Specification.<sp/>The<sp/>value<sp/>1<sp/>is<sp/>reserved<sp/>for<sp/>future<sp/>use.</highlight></codeline>
+<codeline lineno="302"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="structAVDynamicHDRPlus_1a451d78a371c455b52120989c0f615b71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a451d78a371c455b52120989c0f615b71" kindref="member">mastering_display_actual_peak_luminance_flag</ref>;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>rows<sp/>in<sp/>the<sp/>mastering_display_actual_peak_luminance<sp/>array.</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>2<sp/>to<sp/>25,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="structAVDynamicHDRPlus_1aeb49639fba2d887f7603f57caf424957" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1aeb49639fba2d887f7603f57caf424957" kindref="member">num_rows_mastering_display_actual_peak_luminance</ref>;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="311"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="312"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>columns<sp/>in<sp/>the<sp/>mastering_display_actual_peak_luminance</highlight></codeline>
+<codeline lineno="313"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>array.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>2<sp/>to<sp/>25,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="314"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="structAVDynamicHDRPlus_1a9f2be54195dff09266de1537c59cae27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRPlus_1a9f2be54195dff09266de1537c59cae27" kindref="member">num_cols_mastering_display_actual_peak_luminance</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="317"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>normalized<sp/>actual<sp/>peak<sp/>luminance<sp/>of<sp/>the<sp/>mastering<sp/>display<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>mastering<sp/>the<sp/>image<sp/>essence.<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0<sp/>to<sp/>1,</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/15.</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="structAVDynamicHDRPlus_1aa00e06482c2cab8a9f89ce2dcf47b90f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVDynamicHDRPlus_1aa00e06482c2cab8a9f89ce2dcf47b90f" kindref="member">mastering_display_actual_peak_luminance</ref>[25][25];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}<sp/><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref>;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="325"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="326"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVDynamicHDRPlus<sp/>structure<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to</highlight></codeline>
+<codeline lineno="327"><highlight class="comment"><sp/>*<sp/>default<sp/>values.<sp/>The<sp/>resulting<sp/>struct<sp/>can<sp/>be<sp/>freed<sp/>using<sp/>av_freep().</highlight></codeline>
+<codeline lineno="328"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="329"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>AVDynamicHDRPlus<sp/>filled<sp/>with<sp/>default<sp/>values<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="330"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="hdr__dynamic__metadata_8h_1a00dbc5d7b33205c2d366d4f5da8032cf" refkind="member"><highlight class="normal"><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref><sp/>*<ref refid="hdr__dynamic__metadata_8h_1a00dbc5d7b33205c2d366d4f5da8032cf" kindref="member">av_dynamic_hdr_plus_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="334"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="335"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>complete<sp/>AVDynamicHDRPlus<sp/>and<sp/>add<sp/>it<sp/>to<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="336"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>The<sp/>frame<sp/>which<sp/>side<sp/>data<sp/>is<sp/>added<sp/>to.</highlight></codeline>
+<codeline lineno="337"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>AVDynamicHDRPlus<sp/>structure<sp/>to<sp/>be<sp/>filled<sp/>by<sp/>caller<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="hdr__dynamic__metadata_8h_1a21a09b79ddde6970c464af8d3b92072d" refkind="member"><highlight class="normal"><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref><sp/>*<ref refid="hdr__dynamic__metadata_8h_1a21a09b79ddde6970c464af8d3b92072d" kindref="member">av_dynamic_hdr_plus_create_side_data</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="343"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="344"><highlight class="comment"><sp/>*<sp/>Parse<sp/>the<sp/>user<sp/>data<sp/>registered<sp/>ITU-T<sp/>T.35<sp/>to<sp/>AVbuffer<sp/>(AVDynamicHDRPlus).</highlight></codeline>
+<codeline lineno="345"><highlight class="comment"><sp/>*<sp/>The<sp/>T.35<sp/>buffer<sp/>must<sp/>begin<sp/>with<sp/>the<sp/>application<sp/>mode,<sp/>skipping<sp/>the</highlight></codeline>
+<codeline lineno="346"><highlight class="comment"><sp/>*<sp/>country<sp/>code,<sp/>terminal<sp/>provider<sp/>codes,<sp/>and<sp/>application<sp/>identifier.</highlight></codeline>
+<codeline lineno="347"><highlight class="comment"><sp/>*<sp/>@param<sp/>s<sp/>A<sp/>pointer<sp/>containing<sp/>the<sp/>decoded<sp/>AVDynamicHDRPlus<sp/>structure.</highlight></codeline>
+<codeline lineno="348"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/>The<sp/>byte<sp/>array<sp/>containing<sp/>the<sp/>raw<sp/>ITU-T<sp/>T.35<sp/>data.</highlight></codeline>
+<codeline lineno="349"><highlight class="comment"><sp/>*<sp/>@param<sp/>size<sp/>Size<sp/>of<sp/>the<sp/>data<sp/>array<sp/>in<sp/>bytes.</highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="351"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success.<sp/>Otherwise,<sp/>returns<sp/>the<sp/>appropriate<sp/>AVERROR.</highlight></codeline>
+<codeline lineno="352"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="hdr__dynamic__metadata_8h_1a95000e56bdcc89943a58c0d2a2b6cd38" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hdr__dynamic__metadata_8h_1a95000e56bdcc89943a58c0d2a2b6cd38" kindref="member">av_dynamic_hdr_plus_from_t35</ref>(<ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="hdr__dynamic__metadata_8h_1ae3a00755268c57d476c46ea483b7ca9e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_HDR_PLUS_MAX_PAYLOAD_SIZE<sp/>907</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="358"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="359"><highlight class="comment"><sp/>*<sp/>Serialize<sp/>dynamic<sp/>HDR10+<sp/>metadata<sp/>to<sp/>a<sp/>user<sp/>data<sp/>registered<sp/>ITU-T<sp/>T.35<sp/>buffer,</highlight></codeline>
+<codeline lineno="360"><highlight class="comment"><sp/>*<sp/>excluding<sp/>the<sp/>first<sp/>48<sp/>bytes<sp/>of<sp/>the<sp/>header,<sp/>and<sp/>beginning<sp/>with<sp/>the<sp/>application<sp/>mode.</highlight></codeline>
+<codeline lineno="361"><highlight class="comment"><sp/>*<sp/>@param<sp/>s<sp/>A<sp/>pointer<sp/>containing<sp/>the<sp/>decoded<sp/>AVDynamicHDRPlus<sp/>structure.</highlight></codeline>
+<codeline lineno="362"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>data<sp/>A<sp/>pointer<sp/>to<sp/>pointer<sp/>to<sp/>a<sp/>byte<sp/>buffer<sp/>to<sp/>be<sp/>filled<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="363"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serialized<sp/>metadata.</highlight></codeline>
+<codeline lineno="364"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>*data<sp/>is<sp/>NULL,<sp/>a<sp/>buffer<sp/>be<sp/>will<sp/>be<sp/>allocated<sp/>and<sp/>a<sp/>pointer<sp/>to</highlight></codeline>
+<codeline lineno="365"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it<sp/>stored<sp/>in<sp/>its<sp/>place.<sp/>The<sp/>caller<sp/>assumes<sp/>ownership<sp/>of<sp/>the<sp/>buffer.</highlight></codeline>
+<codeline lineno="366"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>May<sp/>be<sp/>NULL,<sp/>in<sp/>which<sp/>case<sp/>the<sp/>function<sp/>will<sp/>only<sp/>store<sp/>the</highlight></codeline>
+<codeline lineno="367"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>required<sp/>buffer<sp/>size<sp/>in<sp/>*size.</highlight></codeline>
+<codeline lineno="368"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>size<sp/>A<sp/>pointer<sp/>to<sp/>a<sp/>size<sp/>to<sp/>be<sp/>set<sp/>to<sp/>the<sp/>returned<sp/>buffer&apos;s<sp/>size.</highlight></codeline>
+<codeline lineno="369"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>*data<sp/>is<sp/>not<sp/>NULL,<sp/>*size<sp/>must<sp/>contain<sp/>the<sp/>size<sp/>of<sp/>the<sp/>input</highlight></codeline>
+<codeline lineno="370"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer.<sp/>May<sp/>be<sp/>NULL<sp/>only<sp/>if<sp/>*data<sp/>is<sp/>NULL.</highlight></codeline>
+<codeline lineno="371"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="372"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success.<sp/>Otherwise,<sp/>returns<sp/>the<sp/>appropriate<sp/>AVERROR.</highlight></codeline>
+<codeline lineno="373"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="hdr__dynamic__metadata_8h_1acf53c2f22f88722a2853c9c8bdd52560" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hdr__dynamic__metadata_8h_1acf53c2f22f88722a2853c9c8bdd52560" kindref="member">av_dynamic_hdr_plus_to_t35</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDynamicHDRPlus" kindref="compound">AVDynamicHDRPlus</ref><sp/>*s,<sp/>uint8_t<sp/>**data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HDR_DYNAMIC_METADATA_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hdr_dynamic_metadata.h"/>
+  </compounddef>
+</doxygen>

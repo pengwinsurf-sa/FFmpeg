@@ -1,0 +1,25 @@
+Function 'ff_videodsp_init'
+Lines executed:85.71% of 7
+
+Function 'just_return'
+Lines executed:0.00% of 2
+
+Function 'ff_emulated_edge_mc_16'
+Lines executed:0.00% of 48
+
+Function 'ff_emulated_edge_mc_8'
+Lines executed:104.35% of 46
+
+File 'libavcodec/videodsp.c'
+Lines executed:66.67% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#videodsp.gcno##libavcodec#videodsp.c.gcov'
+
+File 'libavcodec/videodsp_template.c'
+Lines executed:66.67% of 138
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#videodsp.gcno##libavcodec#videodsp_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#videodsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:67.11% of 149

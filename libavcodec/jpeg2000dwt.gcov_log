@@ -1,0 +1,62 @@
+Function 'ff_dwt_destroy'
+Lines executed:0.00% of 4
+
+Function 'ff_dwt_decode'
+Lines executed:0.00% of 12
+
+Function 'ff_dwt_encode'
+Lines executed:0.00% of 9
+
+Function 'ff_jpeg2000_dwt_init'
+Lines executed:0.00% of 24
+
+Function 'dwt_decode97_int'
+Lines executed:0.00% of 35
+
+Function 'sr_1d97_int'
+Lines executed:0.00% of 18
+
+Function 'dwt_decode97_float'
+Lines executed:0.00% of 31
+
+Function 'sr_1d97_float'
+Lines executed:0.00% of 16
+
+Function 'dwt_decode53'
+Lines executed:0.00% of 30
+
+Function 'sr_1d53'
+Lines executed:0.00% of 11
+
+Function 'dwt_encode97_int'
+Lines executed:0.00% of 38
+
+Function 'sd_1d97_int'
+Lines executed:0.00% of 19
+
+Function 'dwt_encode97_float'
+Lines executed:0.00% of 32
+
+Function 'sd_1d97_float'
+Lines executed:0.00% of 17
+
+Function 'dwt_encode53'
+Lines executed:0.00% of 32
+
+Function 'sd_1d53'
+Lines executed:0.00% of 11
+
+Function 'extend97_int'
+Lines executed:0.00% of 6
+
+Function 'extend97_float'
+Lines executed:0.00% of 6
+
+Function 'extend53'
+Lines executed:0.00% of 6
+
+File 'libavcodec/jpeg2000dwt.c'
+Lines executed:0.00% of 357
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000dwt.gcno##libavcodec#jpeg2000dwt.c.gcov'
+
+Lines executed:0.00% of 357

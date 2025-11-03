@@ -1,0 +1,18 @@
+Function 'decode_frame'
+Lines executed:0.00% of 10
+
+Function 'dsd_channel'
+Lines executed:0.00% of 16
+
+Function 'decode_init'
+Lines executed:0.00% of 17
+
+File 'libavcodec/dsddec.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsddec.gcno##libavcodec#dsddec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsddec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 43

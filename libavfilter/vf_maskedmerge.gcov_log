@@ -1,0 +1,32 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 39
+
+Function 'config_input'
+Lines executed:0.00% of 22
+
+Function 'maskedmerge32'
+Lines executed:0.00% of 1
+
+Function 'maskedmerge16'
+Lines executed:0.00% of 1
+
+Function 'maskedmerge8'
+Lines executed:0.00% of 1
+
+Function 'process_frame'
+Lines executed:0.00% of 25
+
+Function 'filter_slice'
+Lines executed:0.00% of 23
+
+File 'libavfilter/vf_maskedmerge.c'
+Lines executed:0.00% of 119
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_maskedmerge.gcno##libavfilter#vf_maskedmerge.c.gcov'
+
+Lines executed:0.00% of 119

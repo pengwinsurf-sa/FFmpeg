@@ -1,0 +1,31 @@
+Function 'asfrtp_close_context'
+Lines executed:0.00% of 4
+
+Function 'asfrtp_parse_packet'
+Lines executed:0.00% of 65
+
+Function 'asfrtp_parse_sdp_line'
+Lines executed:0.00% of 13
+
+Function 'ff_wms_parse_sdp_a_line'
+Lines executed:0.00% of 36
+
+Function 'packetizer_read'
+Lines executed:0.00% of 2
+
+Function 'rtp_asf_fix_header'
+Lines executed:0.00% of 18
+
+File 'libavformat/rtpdec_asf.c'
+Lines executed:0.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_asf.gcno##libavformat#rtpdec_asf.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_asf.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_asf.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 138

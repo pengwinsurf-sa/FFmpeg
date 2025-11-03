@@ -1,0 +1,35 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 38
+
+Function 'process_frame'
+Lines executed:0.00% of 26
+
+Function 'config_input'
+Lines executed:0.00% of 29
+
+Function 'remap_packed16_nearest_slice'
+Lines executed:0.00% of 1
+
+Function 'remap_packed8_nearest_slice'
+Lines executed:0.00% of 1
+
+Function 'remap_planar16_nearest_slice'
+Lines executed:0.00% of 1
+
+Function 'remap_planar8_nearest_slice'
+Lines executed:0.00% of 1
+
+Function 'query_formats'
+Lines executed:0.00% of 14
+
+File 'libavfilter/vf_remap.c'
+Lines executed:0.00% of 118
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_remap.gcno##libavfilter#vf_remap.c.gcov'
+
+Lines executed:0.00% of 118

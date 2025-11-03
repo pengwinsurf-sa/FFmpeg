@@ -1,0 +1,11 @@
+Function 'rawvideo_read_packet'
+Lines executed:0.00% of 6
+
+Function 'rawvideo_read_header'
+Lines executed:0.00% of 48
+
+File 'libavformat/rawvideodec.c'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawvideodec.gcno##libavformat#rawvideodec.c.gcov'
+
+Lines executed:0.00% of 54

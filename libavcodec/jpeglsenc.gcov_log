@@ -1,0 +1,85 @@
+Function 'encode_jpegls_close'
+Lines executed:0.00% of 4
+
+Function 'encode_jpegls_init'
+Lines executed:0.00% of 16
+
+Function 'encode_picture_ls'
+Lines executed:0.00% of 147
+
+Function 'ls_store_lse'
+Lines executed:0.00% of 18
+
+Function 'ls_encode_line'
+Lines executed:0.00% of 73
+
+Function 'ls_encode_run'
+Lines executed:0.00% of 14
+
+Function 'ls_encode_runterm'
+Lines executed:0.00% of 21
+
+Function 'ls_encode_regular'
+Lines executed:0.00% of 15
+
+Function 'ff_jpegls_update_state_regular'
+Lines executed:0.00% of 14
+
+Function 'ff_jpegls_downscale_state'
+Lines executed:0.00% of 7
+
+Function 'ff_jpegls_quantize'
+Lines executed:0.00% of 13
+
+Function 'set_ur_golomb_jpegls'
+Lines executed:0.00% of 23
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/jpeglsenc.c'
+Lines executed:0.00% of 255
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#jpeglsenc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/jpegls.h'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#jpegls.h.gcov'
+
+File 'libavcodec/put_golomb.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsenc.gcno##libavcodec#put_golomb.h.gcov'
+
+Lines executed:0.00% of 417

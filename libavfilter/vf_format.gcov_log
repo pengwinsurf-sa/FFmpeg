@@ -1,0 +1,24 @@
+Function 'query_formats'
+Lines executed:0.00% of 7
+
+Function 'init'
+Lines executed:0.00% of 34
+
+Function 'parse_pixel_format'
+Lines executed:0.00% of 10
+
+Function 'invert_formats'
+Lines executed:0.00% of 18
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_format.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_format.gcno##libavfilter#vf_format.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_format.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 75

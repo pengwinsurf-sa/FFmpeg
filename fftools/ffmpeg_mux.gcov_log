@@ -1,0 +1,105 @@
+Function 'of_filesize'
+Lines executed:0.00% of 3
+
+Function 'of_free'
+Lines executed:0.00% of 15
+
+Function 'fc_close'
+Lines executed:0.00% of 7
+
+Function 'ost_free'
+Lines executed:0.00% of 27
+
+Function 'enc_stats_uninit'
+Lines executed:0.00% of 8
+
+Function 'of_write_trailer'
+Lines executed:0.00% of 23
+
+Function 'mux_final_stats'
+Lines executed:0.00% of 39
+
+Function 'check_written'
+Lines executed:0.00% of 21
+
+Function 'of_stream_init'
+Lines executed:0.00% of 20
+
+Function 'bsf_init'
+Lines executed:0.00% of 20
+
+Function 'mux_check_init'
+Lines executed:0.00% of 14
+
+Function 'print_sdp'
+Lines executed:0.00% of 33
+
+Function 'of_streamcopy'
+Lines executed:0.00% of 27
+
+Function 'muxer_thread'
+Lines executed:0.00% of 35
+
+Function 'mux_thread_init'
+Lines executed:0.00% of 13
+
+Function 'mux_thread_uninit'
+Lines executed:0.00% of 5
+
+Function 'thread_set_name'
+Lines executed:0.00% of 10
+
+Function 'mux_packet_filter'
+Lines executed:0.00% of 51
+
+Function 'sync_queue_process'
+Lines executed:0.00% of 17
+
+Function 'write_packet'
+Lines executed:0.00% of 27
+
+Function 'mux_fixup_ts'
+Lines executed:0.00% of 40
+
+Function 'mux_log_debug_ts'
+Lines executed:0.00% of 39
+
+Function 'filesize'
+Lines executed:0.00% of 9
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 4
+
+File 'fftools/ffmpeg_mux.c'
+Lines executed:0.00% of 483
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno##fftools#ffmpeg_mux.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno##libavutil#error.h.gcov'
+
+File 'fftools/ffmpeg_utils.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno##fftools#ffmpeg_utils.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno##libavutil#thread.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 507

@@ -1,0 +1,23 @@
+Function 'main'
+Lines executed:0.00% of 52
+
+Function 'read_packet'
+Lines executed:0.00% of 13
+
+File 'doc/examples/avio_read_callback.c'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_read_callback.gcno##doc#examples#avio_read_callback.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_read_callback.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_read_callback.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_read_callback.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 65

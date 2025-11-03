@@ -1,0 +1,14 @@
+Function 'vag_read_packet'
+Lines executed:0.00% of 3
+
+Function 'vag_read_header'
+Lines executed:0.00% of 23
+
+Function 'vag_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/vag.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vag.gcno##libavformat#vag.c.gcov'
+
+Lines executed:0.00% of 29

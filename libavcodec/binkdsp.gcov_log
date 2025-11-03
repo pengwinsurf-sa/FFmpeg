@@ -1,0 +1,26 @@
+Function 'ff_binkdsp_init'
+Lines executed:0.00% of 6
+
+Function 'add_pixels8_c'
+Lines executed:0.00% of 14
+
+Function 'scale_block_c'
+Lines executed:0.00% of 11
+
+Function 'bink_idct_put_c'
+Lines executed:0.00% of 8
+
+Function 'bink_idct_add_c'
+Lines executed:0.00% of 7
+
+Function 'bink_idct_c'
+Lines executed:0.00% of 8
+
+Function 'bink_idct_col'
+Lines executed:0.00% of 12
+
+File 'libavcodec/binkdsp.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#binkdsp.gcno##libavcodec#binkdsp.c.gcov'
+
+Lines executed:0.00% of 66

@@ -1,0 +1,14 @@
+Function 'ff_utvideodsp_init'
+Lines executed:100.00% of 5
+
+Function 'restore_rgb_planes10_c'
+Lines executed:100.00% of 14
+
+Function 'restore_rgb_planes_c'
+Lines executed:100.00% of 14
+
+File 'libavcodec/utvideodsp.c'
+Lines executed:100.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#utvideodsp.gcno##libavcodec#utvideodsp.c.gcov'
+
+Lines executed:100.00% of 33

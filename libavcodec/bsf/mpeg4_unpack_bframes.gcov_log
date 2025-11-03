@@ -1,0 +1,17 @@
+Function 'mpeg4_unpack_bframes_close_flush'
+Lines executed:0.00% of 4
+
+Function 'mpeg4_unpack_bframes_init'
+Lines executed:0.00% of 8
+
+Function 'mpeg4_unpack_bframes_filter'
+Lines executed:0.00% of 42
+
+Function 'scan_buffer'
+Lines executed:0.00% of 16
+
+File 'libavcodec/bsf/mpeg4_unpack_bframes.c'
+Lines executed:0.00% of 70
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#mpeg4_unpack_bframes.gcno##libavcodec#bsf#mpeg4_unpack_bframes.c.gcov'
+
+Lines executed:0.00% of 70

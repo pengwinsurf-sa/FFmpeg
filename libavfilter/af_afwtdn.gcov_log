@@ -1,0 +1,55 @@
+Function 'process_command'
+Lines executed:0.00% of 7
+
+Function 'uninit'
+Lines executed:0.00% of 29
+
+Function 'activate'
+Lines executed:0.00% of 24
+
+Function 'config_output'
+Lines executed:0.00% of 95
+
+Function 'filter_frame'
+Lines executed:0.00% of 61
+
+Function 'filter_channel'
+Lines executed:0.00% of 71
+
+Function 'noise_filter'
+Lines executed:0.00% of 8
+
+Function 'measure_stddev'
+Lines executed:0.00% of 5
+
+Function 'inverse'
+Lines executed:0.00% of 68
+
+Function 'conv_up'
+Lines executed:0.00% of 21
+
+Function 'forward'
+Lines executed:0.00% of 57
+
+Function 'reallocate_outputs'
+Lines executed:0.00% of 34
+
+Function 'reallocate_inputs'
+Lines executed:0.00% of 23
+
+Function 'conv_down'
+Lines executed:0.00% of 24
+
+File 'libavfilter/af_afwtdn.c'
+Lines executed:0.00% of 519
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afwtdn.gcno##libavfilter#af_afwtdn.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afwtdn.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afwtdn.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 527

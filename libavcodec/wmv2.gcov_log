@@ -1,0 +1,15 @@
+Function 'ff_mspel_motion'
+Lines executed:0.00% of 61
+
+Function 'ff_wmv2_common_init'
+Lines executed:0.00% of 14
+
+File 'libavcodec/wmv2.c'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2.gcno##libavcodec#wmv2.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 75

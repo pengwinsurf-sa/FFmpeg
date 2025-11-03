@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c323f0049949ddd42f5d8cc7327305d9" kind="dir">
+    <compoundname>libavformat</compoundname>
+    <innerfile refid="avformat_8h">avformat.h</innerfile>
+    <innerfile refid="avio_8h">avio.h</innerfile>
+    <innerfile refid="libavformat_2version_8h">version.h</innerfile>
+    <innerfile refid="libavformat_2version__major_8h">version_major.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavformat/"/>
+  </compounddef>
+</doxygen>

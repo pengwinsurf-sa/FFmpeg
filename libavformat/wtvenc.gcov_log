@@ -1,0 +1,97 @@
+Function 'write_trailer'
+Lines executed:0.00% of 34
+
+Function 'finish_file'
+Lines executed:0.00% of 36
+
+Function 'write_table_redirector_legacy_attrib'
+Lines executed:0.00% of 19
+
+Function 'write_table_entries_attrib'
+Lines executed:0.00% of 23
+
+Function 'write_tag'
+Lines executed:0.00% of 4
+
+Function 'write_metadata_header'
+Lines executed:0.00% of 6
+
+Function 'write_table_entries_time'
+Lines executed:0.00% of 10
+
+Function 'write_table_entries_events'
+Lines executed:0.00% of 8
+
+Function 'write_fat_sector'
+Lines executed:0.00% of 11
+
+Function 'write_fat'
+Lines executed:0.00% of 6
+
+Function 'write_root_table'
+Lines executed:0.00% of 33
+
+Function 'write_table0_header_time'
+Lines executed:0.00% of 5
+
+Function 'write_table0_header_legacy_attrib'
+Lines executed:0.00% of 9
+
+Function 'write_table0_header_events'
+Lines executed:0.00% of 5
+
+Function 'write_packet'
+Lines executed:0.00% of 23
+
+Function 'write_timestamp'
+Lines executed:0.00% of 14
+
+Function 'write_header'
+Lines executed:0.00% of 44
+
+Function 'write_stream_data'
+Lines executed:0.00% of 15
+
+Function 'write_sync'
+Lines executed:0.00% of 12
+
+Function 'write_stream_codec'
+Lines executed:0.00% of 13
+
+Function 'write_stream_codec_info'
+Lines executed:0.00% of 41
+
+Function 'put_videoinfoheader2'
+Lines executed:0.00% of 34
+
+Function 'finish_chunk'
+Lines executed:0.00% of 6
+
+Function 'write_index'
+Lines executed:0.00% of 19
+
+Function 'finish_chunk_noindex'
+Lines executed:0.00% of 10
+
+Function 'write_chunk_header2'
+Lines executed:0.00% of 7
+
+Function 'write_chunk_header'
+Lines executed:0.00% of 17
+
+Function 'add_serial_pair'
+Lines executed:0.00% of 7
+
+File 'libavformat/wtvenc.c'
+Lines executed:0.00% of 467
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvenc.gcno##libavformat#wtvenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvenc.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 471

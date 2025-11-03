@@ -1,0 +1,127 @@
+Function 'mpegts_check_bitstream'
+Lines executed:0.00% of 13
+
+Function 'mpegts_deinit'
+Lines executed:0.00% of 18
+
+Function 'mpegts_write_end'
+Lines executed:0.00% of 4
+
+Function 'mpegts_write_packet'
+Lines executed:0.00% of 5
+
+Function 'mpegts_write_flush'
+Lines executed:0.00% of 18
+
+Function 'mpegts_write_packet_internal'
+Lines executed:0.00% of 286
+
+Function 'h26x_prefix_aud'
+Lines executed:0.00% of 10
+
+Function 'opus_get_packet_samples'
+Lines executed:0.00% of 17
+
+Function 'ff_check_h264_startcode'
+Lines executed:0.00% of 2
+
+Function 'check_h26x_startcode'
+Lines executed:0.00% of 9
+
+Function 'mpegts_write_pes'
+Lines executed:0.00% of 223
+
+Function 'get_pes_stream_id'
+Lines executed:0.00% of 17
+
+Function 'extend_af'
+Lines executed:0.00% of 4
+
+Function 'set_af_flag'
+Lines executed:0.00% of 8
+
+Function 'mpegts_insert_pcr_only'
+Lines executed:0.00% of 19
+
+Function 'mpegts_insert_null_packet'
+Lines executed:0.00% of 11
+
+Function 'retransmit_si_info'
+Lines executed:0.00% of 22
+
+Function 'mpegts_init'
+Lines executed:0.00% of 137
+
+Function 'select_pcr_streams'
+Lines executed:0.00% of 18
+
+Function 'enable_pcr_generation_for_stream'
+Lines executed:0.00% of 20
+
+Function 'mpegts_add_service'
+Lines executed:0.00% of 36
+
+Function 'section_write_packet'
+Lines executed:0.00% of 4
+
+Function 'write_packet'
+Lines executed:0.00% of 10
+
+Function 'encode_str8'
+Lines executed:0.00% of 21
+
+Function 'mpegts_write_nit'
+Lines executed:0.00% of 29
+
+Function 'mpegts_write_sdt'
+Lines executed:0.00% of 30
+
+Function 'mpegts_write_pmt'
+Lines executed:0.00% of 216
+
+Function 'get_m2ts_stream_type'
+Lines executed:0.00% of 39
+
+Function 'get_dvb_stream_type'
+Lines executed:0.00% of 64
+
+Function 'put_arib_caption_descriptor'
+Lines executed:0.00% of 21
+
+Function 'putbuf'
+Lines executed:0.00% of 4
+
+Function 'mpegts_write_pat'
+Lines executed:0.00% of 16
+
+Function 'mpegts_write_section1'
+Lines executed:0.00% of 16
+
+Function 'mpegts_write_section'
+Lines executed:0.00% of 42
+
+File 'libavformat/mpegtsenc.c'
+Lines executed:0.00% of 1376
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegtsenc.gcno##libavformat#mpegtsenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegtsenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegtsenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegtsenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegtsenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegtsenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 1409

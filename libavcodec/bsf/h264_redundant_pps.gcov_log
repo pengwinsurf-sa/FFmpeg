@@ -1,0 +1,11 @@
+Function 'h264_redundant_pps_init'
+Lines executed:0.00% of 2
+
+Function 'h264_redundant_pps_update_fragment'
+Lines executed:0.00% of 26
+
+File 'libavcodec/bsf/h264_redundant_pps.c'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_redundant_pps.gcno##libavcodec#bsf#h264_redundant_pps.c.gcov'
+
+Lines executed:0.00% of 28

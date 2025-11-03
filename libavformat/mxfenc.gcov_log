@@ -1,0 +1,277 @@
+Function 'mxf_check_bitstream'
+Lines executed:0.00% of 7
+
+Function 'mxf_interleave'
+Lines executed:0.00% of 7
+
+Function 'mxf_compare_timestamps'
+Lines executed:0.00% of 5
+
+Function 'mxf_interleave_get_packet'
+Lines executed:0.00% of 33
+
+Function 'mxf_deinit'
+Lines executed:0.00% of 6
+
+Function 'mxf_write_footer'
+Lines executed:0.00% of 31
+
+Function 'mxf_write_random_index_pack'
+Lines executed:0.00% of 18
+
+Function 'mxf_write_packet'
+Lines executed:0.00% of 104
+
+Function 'mxf_compute_edit_unit_byte_count'
+Lines executed:0.00% of 14
+
+Function 'mxf_write_opatom_packet'
+Lines executed:0.00% of 17
+
+Function 'mxf_write_opatom_body_partition'
+Lines executed:0.00% of 17
+
+Function 'mxf_write_d10_audio_packet'
+Lines executed:0.00% of 23
+
+Function 'mxf_write_system_item'
+Lines executed:0.00% of 37
+
+Function 'mxf_init'
+Lines executed:0.00% of 168
+
+Function 'choose_chroma_location'
+Lines executed:0.00% of 12
+
+Function 'mxf_init_timecode'
+Lines executed:0.00% of 14
+
+Function 'mxf_gen_umid'
+Lines executed:0.00% of 8
+
+Function 'mxf_parse_timestamp'
+Lines executed:0.00% of 12
+
+Function 'mxf_parse_mpeg2_frame'
+Lines executed:0.00% of 57
+
+Function 'mxf_parse_jpeg2000_frame'
+Lines executed:0.00% of 56
+
+Function 'mxf_parse_ffv1_frame'
+Lines executed:0.00% of 34
+
+Function 'get_ffv1_unsigned_symbol'
+Lines executed:0.00% of 9
+
+Function 'mxf_parse_h264_frame'
+Lines executed:0.00% of 100
+
+Function 'mxf_parse_dv_frame'
+Lines executed:0.00% of 35
+
+Function 'mxf_parse_dnxhd_frame'
+Lines executed:0.00% of 25
+
+Function 'mxf_write_partition'
+Lines executed:0.00% of 60
+
+Function 'mxf_write_klv_fill'
+Lines executed:0.00% of 9
+
+Function 'mxf_write_index_table_segment'
+Lines executed:0.00% of 93
+
+Function 'mxf_write_header_metadata_sets'
+Lines executed:0.00% of 37
+
+Function 'mxf_write_essence_container_data'
+Lines executed:0.00% of 21
+
+Function 'mxf_write_package'
+Lines executed:0.00% of 65
+
+Function 'mxf_write_user_comments'
+Lines executed:0.00% of 10
+
+Function 'mxf_write_tagged_value'
+Lines executed:0.00% of 16
+
+Function 'mxf_write_generic_sound_desc'
+Lines executed:0.00% of 4
+
+Function 'mxf_write_aes3_desc'
+Lines executed:0.00% of 4
+
+Function 'mxf_write_wav_desc'
+Lines executed:0.00% of 4
+
+Function 'mxf_write_wav_common'
+Lines executed:0.00% of 8
+
+Function 'mxf_write_generic_sound_common'
+Lines executed:0.00% of 32
+
+Function 'mxf_write_mpegvideo_desc'
+Lines executed:0.00% of 22
+
+Function 'mxf_write_s436m_anc_desc'
+Lines executed:0.00% of 4
+
+Function 'mxf_write_ffv1_desc'
+Lines executed:0.00% of 8
+
+Function 'mxf_write_ffv1_subdesc'
+Lines executed:0.00% of 19
+
+Function 'mxf_write_h264_desc'
+Lines executed:0.00% of 8
+
+Function 'mxf_write_cdci_desc'
+Lines executed:0.00% of 7
+
+Function 'mxf_write_jpeg2000_subdesc'
+Lines executed:0.00% of 39
+
+Function 'mxf_write_avc_subdesc'
+Lines executed:0.00% of 16
+
+Function 'mxf_update_klv_size'
+Lines executed:0.00% of 7
+
+Function 'mxf_write_cdci_common'
+Lines executed:0.00% of 167
+
+Function 'mxf_write_generic_desc'
+Lines executed:0.00% of 24
+
+Function 'mxf_write_multi_descriptor'
+Lines executed:0.00% of 24
+
+Function 'mxf_write_tape_descriptor'
+Lines executed:0.00% of 9
+
+Function 'mxf_write_structural_component'
+Lines executed:0.00% of 21
+
+Function 'mxf_write_timecode_component'
+Lines executed:0.00% of 15
+
+Function 'mxf_write_sequence'
+Lines executed:0.00% of 17
+
+Function 'mxf_write_common_fields'
+Lines executed:0.00% of 13
+
+Function 'mxf_write_track'
+Lines executed:0.00% of 27
+
+Function 'mxf_write_content_storage'
+Lines executed:0.00% of 17
+
+Function 'mxf_write_identification'
+Lines executed:0.00% of 37
+
+Function 'store_version'
+Lines executed:0.00% of 12
+
+Function 'mxf_write_local_tag_utf16'
+Lines executed:0.00% of 8
+
+Function 'mxf_utf16_local_tag_length'
+Lines executed:0.00% of 8
+
+Function 'mxf_utf16len'
+Lines executed:0.00% of 14
+
+Function 'mxf_write_preface'
+Lines executed:0.00% of 29
+
+Function 'mxf_write_essence_container_refs'
+Lines executed:0.00% of 15
+
+Function 'mxf_write_local_tag'
+Lines executed:0.00% of 8
+
+Function 'mxf_write_primer_pack'
+Lines executed:0.00% of 64
+
+Function 'mxf_lookup_local_tag'
+Lines executed:0.00% of 5
+
+Function 'klv_encode_ber_length'
+Lines executed:0.00% of 8
+
+Function 'mxf_write_umid'
+Lines executed:0.00% of 7
+
+Function 'mxf_write_uuid'
+Lines executed:0.00% of 5
+
+Function 'get_rac'
+Lines executed:0.00% of 21
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 9
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 15
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/mxfenc.c'
+Lines executed:0.00% of 1839
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavformat#mxfenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavcodec#rangecoder.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfenc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1973

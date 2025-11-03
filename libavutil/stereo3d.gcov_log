@@ -1,0 +1,36 @@
+Function 'av_stereo3d_primary_eye_from_name'
+Lines executed:0.00% of 5
+
+Function 'av_stereo3d_primary_eye_name'
+Lines executed:0.00% of 3
+
+Function 'av_stereo3d_view_from_name'
+Lines executed:0.00% of 5
+
+Function 'av_stereo3d_view_name'
+Lines executed:0.00% of 3
+
+Function 'av_stereo3d_from_name'
+Lines executed:0.00% of 5
+
+Function 'av_stereo3d_type_name'
+Lines executed:0.00% of 3
+
+Function 'av_stereo3d_create_side_data'
+Lines executed:0.00% of 11
+
+Function 'av_stereo3d_alloc_size'
+Lines executed:0.00% of 6
+
+Function 'av_stereo3d_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/stereo3d.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#stereo3d.gcno##libavutil#stereo3d.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#stereo3d.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 43

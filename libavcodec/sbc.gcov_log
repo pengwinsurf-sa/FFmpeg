@@ -1,0 +1,11 @@
+Function 'ff_sbc_calculate_bits'
+Lines executed:0.00% of 119
+
+Function 'ff_sbc_crc8'
+Lines executed:0.00% of 12
+
+File 'libavcodec/sbc.c'
+Lines executed:0.00% of 131
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbc.gcno##libavcodec#sbc.c.gcov'
+
+Lines executed:0.00% of 131

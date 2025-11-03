@@ -1,0 +1,299 @@
+Function 'ff_vc1dsp_init'
+Lines executed:100.00% of 51
+
+Function 'sprite_v_double_twoscale_c'
+Lines executed:0.00% of 17
+
+Function 'sprite_v_double_onescale_c'
+Lines executed:0.00% of 3
+
+Function 'sprite_v_double_noscale_c'
+Lines executed:0.00% of 3
+
+Function 'sprite_v_single_c'
+Lines executed:0.00% of 3
+
+Function 'sprite_h_c'
+Lines executed:0.00% of 7
+
+Function 'avg_no_rnd_vc1_chroma_mc4_c'
+Lines executed:0.00% of 15
+
+Function 'avg_no_rnd_vc1_chroma_mc8_c'
+Lines executed:0.00% of 19
+
+Function 'put_no_rnd_vc1_chroma_mc4_c'
+Lines executed:0.00% of 15
+
+Function 'put_no_rnd_vc1_chroma_mc8_c'
+Lines executed:0.00% of 19
+
+Function 'avg_vc1_mspel_mc33_16_c'
+Lines executed:0.00% of 7
+
+Function 'put_vc1_mspel_mc33_16_c'
+Lines executed:0.00% of 2
+
+Function 'avg_vc1_mspel_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc23_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc23_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc13_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc13_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc03_16_c'
+Lines executed:0.00% of 5
+
+Function 'put_vc1_mspel_mc03_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc32_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc32_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc22_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc22_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc12_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc12_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc02_16_c'
+Lines executed:0.00% of 3
+
+Function 'put_vc1_mspel_mc02_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc31_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc31_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc21_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc21_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc11_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc11_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc01_16_c'
+Lines executed:0.00% of 3
+
+Function 'put_vc1_mspel_mc01_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc30_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc30_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc20_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc20_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc10_16_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc10_16_c'
+Lines executed:0.00% of 1
+
+Function 'avg_vc1_mspel_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_vc1_mspel_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16x16_c'
+Lines executed:100.00% of 3
+
+Function 'avg_pixels8x8_c'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16x16_c'
+Lines executed:100.00% of 1
+
+Function 'put_pixels8x8_c'
+Lines executed:100.00% of 1
+
+Function 'vc1_inv_trans_4x4_c'
+Lines executed:110.34% of 29
+
+Function 'vc1_inv_trans_4x4_dc_c'
+Lines executed:100.00% of 12
+
+Function 'vc1_inv_trans_4x8_c'
+Lines executed:100.00% of 41
+
+Function 'vc1_inv_trans_4x8_dc_c'
+Lines executed:100.00% of 12
+
+Function 'vc1_inv_trans_8x4_c'
+Lines executed:100.00% of 41
+
+Function 'vc1_inv_trans_8x4_dc_c'
+Lines executed:100.00% of 16
+
+Function 'vc1_inv_trans_8x8_c'
+Lines executed:100.00% of 53
+
+Function 'vc1_inv_trans_8x8_dc_c'
+Lines executed:100.00% of 16
+
+Function 'vc1_h_loop_filter16_c'
+Lines executed:100.00% of 3
+
+Function 'vc1_v_loop_filter16_c'
+Lines executed:100.00% of 3
+
+Function 'vc1_h_loop_filter8_c'
+Lines executed:100.00% of 3
+
+Function 'vc1_v_loop_filter8_c'
+Lines executed:100.00% of 3
+
+Function 'vc1_h_loop_filter4_c'
+Lines executed:100.00% of 3
+
+Function 'vc1_v_loop_filter4_c'
+Lines executed:100.00% of 3
+
+Function 'vc1_loop_filter'
+Lines executed:100.00% of 36
+
+Function 'vc1_h_s_overlap_c'
+Lines executed:0.00% of 23
+
+Function 'vc1_v_s_overlap_c'
+Lines executed:0.00% of 21
+
+Function 'vc1_h_overlap_c'
+Lines executed:0.00% of 19
+
+Function 'vc1_v_overlap_c'
+Lines executed:0.00% of 19
+
+Function 'vc1_unescape_buffer'
+Lines executed:100.00% of 11
+
+File 'libavcodec/vc1dsp.c'
+Lines executed:55.26% of 599
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1dsp.gcno##libavcodec#vc1dsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1dsp.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/rnd_avg.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1dsp.gcno##libavcodec#rnd_avg.h.gcov'
+
+File 'libavcodec/vc1_common.h'
+Lines executed:100.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1dsp.gcno##libavcodec#vc1_common.h.gcov'
+
+Lines executed:56.42% of 615

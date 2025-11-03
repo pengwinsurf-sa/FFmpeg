@@ -1,0 +1,117 @@
+Function 'wavpack_decode_frame'
+Lines executed:0.00% of 46
+
+Function 'dsd_channel'
+Lines executed:0.00% of 6
+
+Function 'wavpack_decode_flush'
+Lines executed:0.00% of 4
+
+Function 'wavpack_decode_block'
+Lines executed:0.00% of 427
+
+Function 'wavpack_decode_end'
+Lines executed:0.00% of 11
+
+Function 'wavpack_decode_init'
+Lines executed:0.00% of 9
+
+Function 'progress_pool_free_entry_cb'
+Lines executed:0.00% of 4
+
+Function 'progress_pool_reset_cb'
+Lines executed:0.00% of 6
+
+Function 'progress_pool_init_cb'
+Lines executed:0.00% of 3
+
+Function 'update_thread_context'
+Lines executed:0.00% of 7
+
+Function 'wv_dsd_reset'
+Lines executed:0.00% of 19
+
+Function 'wv_alloc_frame_context'
+Lines executed:0.00% of 9
+
+Function 'wv_unpack_mono'
+Lines executed:0.00% of 47
+
+Function 'wv_unpack_stereo'
+Lines executed:0.00% of 96
+
+Function 'wv_unpack_dsd_copy'
+Lines executed:0.00% of 16
+
+Function 'wv_unpack_dsd_fast'
+Lines executed:0.00% of 90
+
+Function 'wv_unpack_dsd_high'
+Lines executed:0.00% of 97
+
+Function 'init_ptable'
+Lines executed:0.00% of 12
+
+Function 'wv_check_crc'
+Lines executed:0.00% of 7
+
+Function 'wv_get_value_float'
+Lines executed:0.00% of 67
+
+Function 'wv_get_value_integer'
+Lines executed:0.00% of 16
+
+Function 'wv_get_value'
+Lines executed:0.00% of 112
+
+Function 'update_error_limit'
+Lines executed:0.00% of 23
+
+Function 'get_bits_long'
+Lines executed:0.00% of 2
+
+File 'libavcodec/wavpack.c'
+Lines executed:0.00% of 1021
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#wavpack.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/wavpack.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#wavpack.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/threadprogress.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#threadprogress.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpack.gcno##libavcodec#unary.h.gcov'
+
+Lines executed:0.00% of 1136

@@ -1,0 +1,18 @@
+Function 'decode_frame'
+Lines executed:0.00% of 51
+
+Function 'draw_char'
+Lines executed:0.00% of 9
+
+Function 'decode_init'
+Lines executed:0.00% of 40
+
+File 'libavcodec/bintext.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bintext.gcno##libavcodec#bintext.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bintext.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 100

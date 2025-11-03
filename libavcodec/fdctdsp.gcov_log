@@ -1,0 +1,8 @@
+Function 'ff_fdctdsp_init'
+Lines executed:60.00% of 15
+
+File 'libavcodec/fdctdsp.c'
+Lines executed:60.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fdctdsp.gcno##libavcodec#fdctdsp.c.gcov'
+
+Lines executed:60.00% of 15

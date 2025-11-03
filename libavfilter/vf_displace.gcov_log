@@ -1,0 +1,30 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 39
+
+Function 'config_input'
+Lines executed:0.00% of 21
+
+Function 'process_frame'
+Lines executed:0.00% of 26
+
+Function 'displace_packed'
+Lines executed:0.00% of 64
+
+Function 'displace_planar'
+Lines executed:0.00% of 57
+
+File 'libavfilter/vf_displace.c'
+Lines executed:0.00% of 211
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_displace.gcno##libavfilter#vf_displace.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_displace.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 214

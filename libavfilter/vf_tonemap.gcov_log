@@ -1,0 +1,32 @@
+Function 'filter_frame'
+Lines executed:0.00% of 56
+
+Function 'tonemap_slice'
+Lines executed:0.00% of 13
+
+Function 'tonemap'
+Lines executed:0.00% of 49
+
+Function 'mobius'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 15
+
+File 'libavfilter/vf_tonemap.c'
+Lines executed:0.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tonemap.gcno##libavfilter#vf_tonemap.c.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tonemap.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tonemap.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tonemap.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 139

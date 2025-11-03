@@ -1,0 +1,8 @@
+Function 'ff_v210enc_init_x86'
+Lines executed:65.22% of 23
+
+File 'libavcodec/x86/v210enc_init.c'
+Lines executed:65.22% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#v210enc_init.gcno##libavcodec#x86#v210enc_init.c.gcov'
+
+Lines executed:65.22% of 23

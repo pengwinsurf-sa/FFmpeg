@@ -1,0 +1,60 @@
+Function 'g728_decode_frame'
+Lines executed:0.00% of 31
+
+Function 'decode_frame'
+Lines executed:0.00% of 48
+
+Function 'g728_decode_close'
+Lines executed:0.00% of 4
+
+Function 'g728_decode_init'
+Lines executed:0.00% of 13
+
+Function 'g728_init_static_data'
+Lines executed:0.00% of 14
+
+Function 'do_hybrid_window'
+Lines executed:0.00% of 14
+
+Function 'convolve'
+Lines executed:0.00% of 4
+
+Function 'compute_lpc_coefs'
+Lines executed:0.00% of 28
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/g728dec.c'
+Lines executed:0.00% of 86
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavcodec#g728dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/g728_template.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavcodec#g728_template.c.gcov'
+
+File 'libavcodec/lpc_functions.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavcodec#lpc_functions.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g728dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 175

@@ -1,0 +1,76 @@
+Function 'ff_intrax8_decode_picture'
+Lines executed:0.00% of 71
+
+Function 'ff_intrax8_common_end'
+Lines executed:0.00% of 3
+
+Function 'ff_intrax8_common_init'
+Lines executed:0.00% of 18
+
+Function 'x8_decode_intra_mb'
+Lines executed:0.00% of 86
+
+Function 'dsp_x8_put_solidcolor'
+Lines executed:0.00% of 8
+
+Function 'x8_ac_compensation'
+Lines executed:0.00% of 50
+
+Function 'x8_get_prediction'
+Lines executed:0.00% of 32
+
+Function 'x8_get_prediction_chroma'
+Lines executed:0.00% of 9
+
+Function 'x8_setup_spatial_predictor'
+Lines executed:0.00% of 33
+
+Function 'x8_get_dc_rlf'
+Lines executed:0.00% of 36
+
+Function 'x8_get_ac_rlf'
+Lines executed:0.00% of 38
+
+Function 'x8_get_orient_vlc'
+Lines executed:0.00% of 5
+
+Function 'x8_select_ac_table'
+Lines executed:0.00% of 7
+
+Function 'x8_reset_vlc_tables'
+Lines executed:0.00% of 5
+
+Function 'x8_vlc_init'
+Lines executed:0.00% of 20
+
+Function 'x8_init_vlc'
+Lines executed:0.00% of 3
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/intrax8.c'
+Lines executed:0.00% of 390
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8.gcno##libavcodec#intrax8.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#intrax8.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 434

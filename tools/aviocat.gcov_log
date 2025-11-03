@@ -1,0 +1,23 @@
+Function 'main'
+Lines executed:0.00% of 79
+
+Function 'usage'
+Lines executed:0.00% of 4
+
+File 'tools/aviocat.c'
+Lines executed:0.00% of 76
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#aviocat.gcno##tools#aviocat.c.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#aviocat.gcno###usr#include#stdlib.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#aviocat.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#aviocat.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 83

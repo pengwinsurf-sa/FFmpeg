@@ -1,0 +1,39 @@
+Function 'av_bessel_i0'
+Lines executed:0.00% of 22
+
+Function 'av_add_stable'
+Lines executed:0.00% of 16
+
+Function 'av_rescale_delta'
+Lines executed:0.00% of 18
+
+Function 'av_compare_mod'
+Lines executed:0.00% of 5
+
+Function 'av_compare_ts'
+Lines executed:0.00% of 8
+
+Function 'av_rescale_q'
+Lines executed:0.00% of 2
+
+Function 'av_rescale_q_rnd'
+Lines executed:0.00% of 4
+
+Function 'av_rescale'
+Lines executed:0.00% of 2
+
+Function 'av_rescale_rnd'
+Lines executed:0.00% of 41
+
+Function 'av_gcd'
+Lines executed:100.00% of 16
+
+File 'libavutil/mathematics.c'
+Lines executed:12.50% of 128
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#mathematics.gcno##libavutil#mathematics.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#mathematics.gcno##libavutil#common.h.gcov'
+
+Lines executed:11.94% of 134

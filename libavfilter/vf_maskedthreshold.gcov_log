@@ -1,0 +1,35 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 32
+
+Function 'process_frame'
+Lines executed:0.00% of 24
+
+Function 'threshold_slice'
+Lines executed:0.00% of 24
+
+Function 'config_input'
+Lines executed:0.00% of 17
+
+Function 'threshold16_abs'
+Lines executed:0.00% of 7
+
+Function 'threshold16_diff'
+Lines executed:0.00% of 7
+
+Function 'threshold8_abs'
+Lines executed:0.00% of 4
+
+Function 'threshold8_diff'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_maskedthreshold.c'
+Lines executed:0.00% of 126
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_maskedthreshold.gcno##libavfilter#vf_maskedthreshold.c.gcov'
+
+Lines executed:0.00% of 126

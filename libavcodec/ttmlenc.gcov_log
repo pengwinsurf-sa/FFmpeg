@@ -1,0 +1,44 @@
+Function 'ttml_encode_init'
+Lines executed:0.00% of 6
+
+Function 'ttml_write_header_content'
+Lines executed:0.00% of 45
+
+Function 'ttml_write_region'
+Lines executed:0.00% of 53
+
+Function 'ttml_get_extent'
+Lines executed:0.00% of 5
+
+Function 'ttml_get_text_alignment'
+Lines executed:0.00% of 8
+
+Function 'ttml_encode_close'
+Lines executed:0.00% of 4
+
+Function 'ttml_encode_frame'
+Lines executed:0.00% of 39
+
+Function 'ttml_new_line_cb'
+Lines executed:0.00% of 4
+
+Function 'ttml_text_cb'
+Lines executed:0.00% of 12
+
+File 'libavcodec/ttmlenc.c'
+Lines executed:0.00% of 169
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ttmlenc.gcno##libavcodec#ttmlenc.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ttmlenc.gcno##libavutil#bprint.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ttmlenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ttmlenc.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 176

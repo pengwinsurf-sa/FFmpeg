@@ -1,0 +1,52 @@
+Function 'av_dynamic_hdr_plus_to_t35'
+Lines executed:0.00% of 109
+
+Function 'av_dynamic_hdr_plus_from_t35'
+Lines executed:0.00% of 133
+
+Function 'av_dynamic_hdr_plus_create_side_data'
+Lines executed:0.00% of 5
+
+Function 'av_dynamic_hdr_plus_alloc'
+Lines executed:0.00% of 5
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavutil/hdr_dynamic_metadata.c'
+Lines executed:0.00% of 210
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_metadata.gcno##libavutil#hdr_dynamic_metadata.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_metadata.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_metadata.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_metadata.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_metadata.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_metadata.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 317

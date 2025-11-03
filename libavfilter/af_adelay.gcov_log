@@ -1,0 +1,65 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'activate'
+Lines executed:0.00% of 49
+
+Function 'filter_frame'
+Lines executed:0.00% of 31
+
+Function 'process_command'
+Lines executed:0.00% of 30
+
+Function 'config_input'
+Lines executed:0.00% of 54
+
+Function 'parse_delays'
+Lines executed:0.00% of 16
+
+Function 'resize_samples_dblp'
+Lines executed:0.00% of 5
+
+Function 'resize_samples_fltp'
+Lines executed:0.00% of 1
+
+Function 'resize_samples_s32p'
+Lines executed:0.00% of 1
+
+Function 'resize_samples_s16p'
+Lines executed:0.00% of 1
+
+Function 'resize_samples_u8p'
+Lines executed:0.00% of 1
+
+Function 'delay_channel_dblp'
+Lines executed:0.00% of 1
+
+Function 'delay_channel_fltp'
+Lines executed:0.00% of 1
+
+Function 'delay_channel_s32p'
+Lines executed:0.00% of 1
+
+Function 'delay_channel_s16p'
+Lines executed:0.00% of 1
+
+Function 'delay_channel_u8p'
+Lines executed:0.00% of 1
+
+File 'libavfilter/af_adelay.c'
+Lines executed:0.00% of 190
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adelay.gcno##libavfilter#af_adelay.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adelay.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adelay.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adelay.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 201

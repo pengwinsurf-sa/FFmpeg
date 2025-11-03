@@ -1,0 +1,34 @@
+Function 'config_props'
+Lines executed:0.00% of 13
+
+Function 'request_frame'
+Lines executed:0.00% of 9
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'do_slice'
+Lines executed:0.00% of 43
+
+Function 'get_best_frame'
+Lines executed:0.00% of 34
+
+Function 'init'
+Lines executed:0.00% of 8
+
+File 'libavfilter/vf_thumbnail.c'
+Lines executed:0.00% of 126
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_thumbnail.gcno##libavfilter#vf_thumbnail.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_thumbnail.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_thumbnail.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 130

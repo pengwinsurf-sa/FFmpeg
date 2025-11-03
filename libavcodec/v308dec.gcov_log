@@ -1,0 +1,11 @@
+Function 'v308_decode_frame'
+Lines executed:0.00% of 21
+
+Function 'v308_decode_init'
+Lines executed:0.00% of 6
+
+File 'libavcodec/v308dec.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v308dec.gcno##libavcodec#v308dec.c.gcov'
+
+Lines executed:0.00% of 27

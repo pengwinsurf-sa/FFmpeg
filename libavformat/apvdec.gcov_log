@@ -1,0 +1,25 @@
+Function 'apv_read_packet'
+Lines executed:0.00% of 18
+
+Function 'apv_read_header'
+Lines executed:0.00% of 30
+
+Function 'apv_probe'
+Lines executed:0.00% of 16
+
+Function 'apv_extract_header_info'
+Lines executed:0.00% of 41
+
+File 'libavformat/apvdec.c'
+Lines executed:0.00% of 91
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apvdec.gcno##libavformat#apvdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apvdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apvdec.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 105

@@ -1,0 +1,27 @@
+Function 'ff_lzw_decode'
+Lines executed:0.00% of 45
+
+Function 'ff_lzw_decode_init'
+Lines executed:0.00% of 24
+
+Function 'ff_lzw_decode_close'
+Lines executed:0.00% of 3
+
+Function 'ff_lzw_decode_open'
+Lines executed:0.00% of 3
+
+Function 'ff_lzw_decode_tail'
+Lines executed:0.00% of 16
+
+Function 'lzw_get_code'
+Lines executed:0.00% of 19
+
+File 'libavcodec/lzw.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lzw.gcno##libavcodec#lzw.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lzw.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 110

@@ -842,7 +842,7 @@ static int flv_read_metabody(AVFormatContext *s, int64_t next_pos)
     FLVContext *flv = s->priv_data;
     AMFDataType type;
     AVStream *stream, *astream, *vstream;
-    AVStream av_unused *dstream;
+    av_unused AVStream *dstream;
     AVIOContext *ioc;
     int i;
     char buffer[32];
@@ -1860,8 +1860,16 @@ retry_duration:
 next_track:
         if (track_size) {
             av_log(s, AV_LOG_WARNING, "Track size mismatch: %d!\n", track_size);
-            avio_skip(s->pb, track_size);
-            size -= track_size;
+            if (!avio_feof(s->pb)) {
+                if (track_size > 0) {
+                    avio_skip(s->pb, track_size);
+                    size -= track_size;
+                } else {
+                    /* We have somehow read more than the track had to offer, leave and re-sync */
+                    ret = FFERROR_REDO;
+                    goto leave;
+                }
+            }
         }
 
         if (!size)

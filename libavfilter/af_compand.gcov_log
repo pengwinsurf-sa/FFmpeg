@@ -1,0 +1,36 @@
+Function 'request_frame'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 4
+
+Function 'config_output'
+Lines executed:0.00% of 147
+
+Function 'compand_drain'
+Lines executed:0.00% of 24
+
+Function 'compand_delay'
+Lines executed:0.00% of 51
+
+Function 'compand_nodelay'
+Lines executed:0.00% of 29
+
+Function 'get_volume'
+Lines executed:0.00% of 13
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 4
+
+File 'libavfilter/af_compand.c'
+Lines executed:0.00% of 284
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_compand.gcno##libavfilter#af_compand.c.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_compand.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 286

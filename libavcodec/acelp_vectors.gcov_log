@@ -1,0 +1,36 @@
+Function 'ff_acelp_vectors_init'
+Lines executed:0.00% of 3
+
+Function 'ff_clear_fixed_vector'
+Lines executed:0.00% of 10
+
+Function 'ff_set_fixed_vector'
+Lines executed:0.00% of 13
+
+Function 'ff_scale_vector_to_given_sum_of_squares'
+Lines executed:0.00% of 8
+
+Function 'ff_adaptive_gain_control'
+Lines executed:0.00% of 13
+
+Function 'ff_weighted_vector_sumf'
+Lines executed:0.00% of 6
+
+Function 'ff_acelp_weighted_vector_sum'
+Lines executed:0.00% of 10
+
+Function 'ff_decode_10_pulses_35bits'
+Lines executed:0.00% of 14
+
+Function 'ff_acelp_fc_pulse_per_track'
+Lines executed:0.00% of 10
+
+File 'libavcodec/acelp_vectors.c'
+Lines executed:0.00% of 84
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_vectors.gcno##libavcodec#acelp_vectors.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_vectors.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 87

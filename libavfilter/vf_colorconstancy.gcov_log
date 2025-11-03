@@ -1,0 +1,54 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'filter_frame'
+Lines executed:0.00% of 22
+
+Function 'config_props'
+Lines executed:0.00% of 18
+
+Function 'chromatic_adaptation'
+Lines executed:0.00% of 8
+
+Function 'diagonal_transformation'
+Lines executed:0.00% of 23
+
+Function 'illumination_estimation'
+Lines executed:0.00% of 8
+
+Function 'normalize_light'
+Lines executed:0.00% of 11
+
+Function 'filter_grey_edge'
+Lines executed:0.00% of 27
+
+Function 'filter_slice_grey_edge'
+Lines executed:0.00% of 27
+
+Function 'get_derivative'
+Lines executed:0.00% of 33
+
+Function 'slice_normalize'
+Lines executed:0.00% of 22
+
+Function 'slice_get_derivative'
+Lines executed:0.00% of 39
+
+Function 'setup_derivative_buffers'
+Lines executed:0.00% of 11
+
+Function 'cleanup_derivative_buffers'
+Lines executed:0.00% of 8
+
+Function 'set_gauss'
+Lines executed:0.00% of 41
+
+File 'libavfilter/vf_colorconstancy.c'
+Lines executed:0.00% of 299
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorconstancy.gcno##libavfilter#vf_colorconstancy.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorconstancy.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 305

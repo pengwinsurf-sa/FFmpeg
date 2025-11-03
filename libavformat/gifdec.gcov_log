@@ -1,0 +1,28 @@
+Function 'gif_read_packet'
+Lines executed:0.00% of 19
+
+Function 'gif_read_header'
+Lines executed:0.00% of 87
+
+Function 'gif_skip_subblocks'
+Lines executed:0.00% of 5
+
+Function 'resync'
+Lines executed:0.00% of 8
+
+Function 'gif_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/gifdec.c'
+Lines executed:0.00% of 120
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gifdec.gcno##libavformat#gifdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gifdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gifdec.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 123

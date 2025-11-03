@@ -1,0 +1,30 @@
+Function 'checkasm_check_lls'
+Lines executed:100.00% of 16
+
+Function 'test_evaluate'
+Lines executed:50.00% of 20
+
+Function 'test_update'
+Lines executed:85.00% of 20
+
+File 'tests/checkasm/lls.c'
+Lines executed:89.13% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lls.gcno##tests#checkasm#lls.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lls.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lls.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lls.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lls.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:76.79% of 56

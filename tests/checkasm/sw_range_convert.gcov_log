@@ -1,0 +1,29 @@
+Function 'checkasm_check_sw_range_convert'
+Lines executed:100.00% of 10
+
+Function 'check_chrConvertRange'
+Lines executed:84.85% of 66
+
+Function 'check_lumConvertRange'
+Lines executed:92.86% of 56
+
+Function 'randomize_buffers'
+Lines executed:100.00% of 17
+
+File 'tests/checkasm/sw_range_convert.c'
+Lines executed:94.24% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_range_convert.gcno##tests#checkasm#sw_range_convert.c.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_range_convert.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_range_convert.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_range_convert.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:90.60% of 149

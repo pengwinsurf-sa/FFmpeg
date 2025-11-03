@@ -1,0 +1,21 @@
+Function 'config_input'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 12
+
+Function 'scroll'
+Lines executed:0.00% of 22
+
+Function 'scroll_slice'
+Lines executed:0.00% of 23
+
+File 'libavfilter/vf_scroll.c'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_scroll.gcno##libavfilter#vf_scroll.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_scroll.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 70

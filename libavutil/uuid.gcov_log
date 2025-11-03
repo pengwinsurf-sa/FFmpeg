@@ -1,0 +1,21 @@
+Function 'av_uuid_urn_parse'
+Lines executed:0.00% of 3
+
+Function 'av_uuid_unparse'
+Lines executed:0.00% of 9
+
+Function 'av_uuid_parse_range'
+Lines executed:0.00% of 20
+
+Function 'av_uuid_parse'
+Lines executed:0.00% of 3
+
+File 'libavutil/uuid.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#uuid.gcno##libavutil#uuid.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#uuid.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 35

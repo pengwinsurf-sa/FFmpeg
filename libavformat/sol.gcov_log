@@ -1,0 +1,14 @@
+Function 'sol_read_packet'
+Lines executed:0.00% of 8
+
+Function 'sol_read_header'
+Lines executed:0.00% of 39
+
+Function 'sol_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/sol.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sol.gcno##libavformat#sol.c.gcov'
+
+Lines executed:0.00% of 53

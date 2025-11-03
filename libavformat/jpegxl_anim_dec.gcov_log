@@ -1,0 +1,25 @@
+Function 'jpegxl_anim_close'
+Lines executed:0.00% of 5
+
+Function 'jpegxl_anim_read_packet'
+Lines executed:0.00% of 29
+
+Function 'jpegxl_anim_read_header'
+Lines executed:0.00% of 49
+
+Function 'jpegxl_anim_probe'
+Lines executed:0.00% of 12
+
+File 'libavformat/jpegxl_anim_dec.c'
+Lines executed:0.00% of 89
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jpegxl_anim_dec.gcno##libavformat#jpegxl_anim_dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jpegxl_anim_dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jpegxl_anim_dec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 95

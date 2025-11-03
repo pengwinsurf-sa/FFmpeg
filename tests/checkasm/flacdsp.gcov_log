@@ -1,0 +1,47 @@
+Function 'checkasm_check_flacdsp'
+Lines executed:100.00% of 38
+
+Function 'check_wasted33'
+Lines executed:70.83% of 24
+
+Function 'check_wasted32'
+Lines executed:94.44% of 18
+
+Function 'check_lpc33'
+Lines executed:96.67% of 30
+
+Function 'check_lpc'
+Lines executed:96.00% of 25
+
+Function 'check_decorrelate'
+Lines executed:90.00% of 10
+
+File 'tests/checkasm/flacdsp.c'
+Lines executed:95.90% of 122
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno##tests#checkasm#flacdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:100.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#flacdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:92.41% of 145

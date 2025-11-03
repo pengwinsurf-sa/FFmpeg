@@ -1,0 +1,1016 @@
+Function 'ff_cbs_sei_find_type'
+Lines executed:0.00% of 20
+
+Function 'cbs_h266_free_sei'
+Lines executed:0.00% of 4
+
+Function 'cbs_h265_free_sei'
+Lines executed:0.00% of 4
+
+Function 'cbs_h264_free_sei'
+Lines executed:0.00% of 4
+
+Function 'cbs_h266_close'
+Lines executed:0.00% of 5
+
+Function 'cbs_h266_flush'
+Lines executed:0.00% of 10
+
+Function 'cbs_h265_close'
+Lines executed:0.00% of 11
+
+Function 'cbs_h265_flush'
+Lines executed:0.00% of 12
+
+Function 'cbs_h264_close'
+Lines executed:0.00% of 9
+
+Function 'cbs_h264_flush'
+Lines executed:0.00% of 10
+
+Function 'cbs_h2645_assemble_fragment'
+Lines executed:0.00% of 51
+
+Function 'cbs_h266_write_nal_unit'
+Lines executed:0.00% of 57
+
+Function 'cbs_h265_discarded_nal_unit'
+Lines executed:0.00% of 15
+
+Function 'cbs_h264_discarded_nal_unit'
+Lines executed:0.00% of 21
+
+Function 'cbs_h265_write_nal_unit'
+Lines executed:0.00% of 40
+
+Function 'cbs_h264_write_nal_unit'
+Lines executed:0.00% of 50
+
+Function 'cbs_h2645_write_slice_data'
+Lines executed:0.00% of 47
+
+Function 'cbs_h266_read_nal_unit'
+Lines executed:0.00% of 85
+
+Function 'cbs_h265_read_nal_unit'
+Lines executed:0.00% of 49
+
+Function 'cbs_h264_read_nal_unit'
+Lines executed:0.00% of 51
+
+Function 'cbs_h266_replace_ph'
+Lines executed:0.00% of 9
+
+Function 'cbs_h266_replace_sps'
+Lines executed:0.00% of 13
+
+Function 'cbs_h266_replace_pps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h266_replace_vps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_replace_pps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_replace_sps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_replace_vps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_replace_pps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_replace_sps'
+Lines executed:0.00% of 1
+
+Function 'cbs_h2645_split_fragment'
+Lines executed:0.00% of 150
+
+Function 'cbs_h2645_fragment_add_nals'
+Lines executed:0.00% of 19
+
+Function 'cbs_h266_write_sei'
+Lines executed:0.00% of 8
+
+Function 'cbs_h266_write_slice_header'
+Lines executed:0.00% of 297
+
+Function 'cbs_h266_write_ph'
+Lines executed:0.00% of 6
+
+Function 'cbs_h266_write_picture_header'
+Lines executed:0.00% of 238
+
+Function 'cbs_h266_write_pred_weight_table'
+Lines executed:0.00% of 47
+
+Function 'cbs_h266_write_aud'
+Lines executed:0.00% of 7
+
+Function 'cbs_h266_write_aps'
+Lines executed:0.00% of 23
+
+Function 'cbs_h266_write_scaling_list_data'
+Lines executed:0.00% of 29
+
+Function 'cbs_h266_write_lmcs_data'
+Lines executed:0.00% of 19
+
+Function 'cbs_h266_write_alf_data'
+Lines executed:0.00% of 69
+
+Function 'cbs_h266_write_pps'
+Lines executed:0.00% of 403
+
+Function 'cbs_h266_write_sps'
+Lines executed:0.00% of 404
+
+Function 'cbs_h266_write_sps_range_extension'
+Lines executed:0.00% of 9
+
+Function 'cbs_h266_write_vps'
+Lines executed:0.00% of 185
+
+Function 'cbs_h266_write_dci'
+Lines executed:0.00% of 12
+
+Function 'cbs_h266_write_opi'
+Lines executed:0.00% of 14
+
+Function 'cbs_h266_write_ols_timing_hrd_parameters'
+Lines executed:0.00% of 19
+
+Function 'cbs_h266_write_sublayer_hrd_parameters'
+Lines executed:0.00% of 9
+
+Function 'cbs_h266_write_general_timing_hrd_parameters'
+Lines executed:0.00% of 17
+
+Function 'cbs_h266_write_ref_pic_lists'
+Lines executed:0.00% of 39
+
+Function 'cbs_h266_write_ref_pic_list_struct'
+Lines executed:0.00% of 49
+
+Function 'cbs_h266_write_dpb_parameters'
+Lines executed:0.00% of 7
+
+Function 'cbs_h266_write_extension_data'
+Lines executed:0.00% of 5
+
+Function 'cbs_h266_write_vui_payload'
+Lines executed:0.00% of 11
+
+Function 'cbs_h266_write_payload_extension'
+Lines executed:0.00% of 7
+
+Function 'cbs_h266_write_vui_parameters'
+Lines executed:0.00% of 48
+
+Function 'cbs_h266_write_vui_parameters_default'
+Lines executed:0.00% of 15
+
+Function 'cbs_h266_write_profile_tier_level'
+Lines executed:0.00% of 21
+
+Function 'cbs_h266_write_general_constraints_info'
+Lines executed:0.00% of 88
+
+Function 'cbs_h266_write_byte_alignment'
+Lines executed:0.00% of 5
+
+Function 'cbs_h266_write_nal_unit_header'
+Lines executed:0.00% of 9
+
+Function 'cbs_h266_write_rbsp_trailing_bits'
+Lines executed:0.00% of 5
+
+Function 'cbs_h265_write_filler'
+Lines executed:0.00% of 7
+
+Function 'cbs_h265_write_sei'
+Lines executed:0.00% of 8
+
+Function 'cbs_h265_write_sei_3d_reference_displays_info'
+Lines executed:0.00% of 37
+
+Function 'cbs_h265_write_sei_3d_reference_displays_info_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_alpha_channel_info'
+Lines executed:0.00% of 17
+
+Function 'cbs_h265_write_sei_alpha_channel_info_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_time_code'
+Lines executed:0.00% of 30
+
+Function 'cbs_h265_write_sei_time_code_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_decoded_picture_hash'
+Lines executed:0.00% of 17
+
+Function 'cbs_h265_write_sei_decoded_picture_hash_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_active_parameter_sets'
+Lines executed:0.00% of 21
+
+Function 'cbs_h265_write_sei_active_parameter_sets_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_display_orientation'
+Lines executed:0.00% of 9
+
+Function 'cbs_h265_write_sei_display_orientation_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_film_grain_characteristics'
+Lines executed:0.00% of 43
+
+Function 'cbs_h265_write_film_grain_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_recovery_point'
+Lines executed:0.00% of 6
+
+Function 'cbs_h265_write_sei_recovery_point_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_pan_scan_rect'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_write_sei_pan_scan_rect_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_pic_timing'
+Lines executed:0.00% of 43
+
+Function 'cbs_h265_write_sei_pic_timing_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_sei_buffering_period'
+Lines executed:0.00% of 54
+
+Function 'cbs_h265_write_sei_buffering_period_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_write_slice_segment_header'
+Lines executed:0.00% of 202
+
+Function 'cbs_h265_write_pred_weight_table'
+Lines executed:0.00% of 55
+
+Function 'cbs_h265_write_ref_pic_lists_modification'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_write_aud'
+Lines executed:0.00% of 6
+
+Function 'cbs_h265_write_pps'
+Lines executed:0.00% of 84
+
+Function 'cbs_h265_write_pps_scc_extension'
+Lines executed:0.00% of 26
+
+Function 'cbs_h265_write_pps_multilayer_extension'
+Lines executed:0.00% of 48
+
+Function 'cbs_h265_write_colour_mapping_table'
+Lines executed:0.00% of 19
+
+Function 'cbs_h265_write_colour_mapping_octants'
+Lines executed:0.00% of 32
+
+Function 'cbs_h265_write_pps_range_extension'
+Lines executed:0.00% of 16
+
+Function 'cbs_h265_write_sps'
+Lines executed:0.00% of 141
+
+Function 'cbs_h265_write_vui_parameters_default'
+Lines executed:0.00% of 16
+
+Function 'cbs_h265_write_sps_scc_extension'
+Lines executed:0.00% of 17
+
+Function 'cbs_h265_write_sps_range_extension'
+Lines executed:0.00% of 11
+
+Function 'cbs_h265_write_scaling_list_data'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_write_st_ref_pic_set'
+Lines executed:0.00% of 88
+
+Function 'cbs_h265_write_vps'
+Lines executed:0.00% of 53
+
+Function 'cbs_h265_write_vui_parameters'
+Lines executed:0.00% of 71
+
+Function 'cbs_h265_write_hrd_parameters'
+Lines executed:0.00% of 39
+
+Function 'cbs_h265_write_sub_layer_hrd_parameters'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_write_profile_tier_level'
+Lines executed:0.00% of 98
+
+Function 'cbs_h265_write_extension_data'
+Lines executed:0.00% of 5
+
+Function 'cbs_h265_write_byte_alignment'
+Lines executed:0.00% of 5
+
+Function 'cbs_h265_write_nal_unit_header'
+Lines executed:0.00% of 8
+
+Function 'cbs_h265_write_rbsp_trailing_bits'
+Lines executed:0.00% of 5
+
+Function 'cbs_h264_write_filler'
+Lines executed:0.00% of 7
+
+Function 'cbs_h264_write_slice_header'
+Lines executed:0.00% of 118
+
+Function 'cbs_h264_write_dec_ref_pic_marking'
+Lines executed:0.00% of 25
+
+Function 'cbs_h264_write_pred_weight_table'
+Lines executed:0.00% of 32
+
+Function 'cbs_h264_write_ref_pic_list_modification'
+Lines executed:0.00% of 26
+
+Function 'cbs_h264_write_aud'
+Lines executed:0.00% of 6
+
+Function 'cbs_h264_write_sei'
+Lines executed:0.00% of 6
+
+Function 'cbs_h264_write_sei_display_orientation'
+Lines executed:0.00% of 10
+
+Function 'cbs_h264_write_sei_display_orientation_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_sei_frame_packing_arrangement'
+Lines executed:0.00% of 23
+
+Function 'cbs_h264_write_sei_frame_packing_arrangement_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_film_grain_characteristics'
+Lines executed:0.00% of 50
+
+Function 'cbs_h264_write_film_grain_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_sei_recovery_point'
+Lines executed:0.00% of 7
+
+Function 'cbs_h264_write_sei_recovery_point_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_sei_pan_scan_rect'
+Lines executed:0.00% of 13
+
+Function 'cbs_h264_write_sei_pan_scan_rect_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_sei_pic_timing'
+Lines executed:0.00% of 35
+
+Function 'cbs_h264_write_sei_pic_timing_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_sei_pic_timestamp'
+Lines executed:0.00% of 30
+
+Function 'cbs_h264_write_sei_buffering_period'
+Lines executed:0.00% of 21
+
+Function 'cbs_h264_write_sei_buffering_period_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_write_pps'
+Lines executed:0.00% of 63
+
+Function 'cbs_h264_write_sps_extension'
+Lines executed:0.00% of 15
+
+Function 'cbs_h264_write_sps'
+Lines executed:0.00% of 64
+
+Function 'cbs_h264_write_vui_parameters_default'
+Lines executed:0.00% of 24
+
+Function 'cbs_h264_write_vui_parameters'
+Lines executed:0.00% of 73
+
+Function 'cbs_h264_write_hrd_parameters'
+Lines executed:0.00% of 13
+
+Function 'cbs_h264_write_scaling_list'
+Lines executed:0.00% of 7
+
+Function 'cbs_h264_write_nal_unit_header'
+Lines executed:0.00% of 21
+
+Function 'cbs_h264_write_rbsp_trailing_bits'
+Lines executed:0.00% of 5
+
+Function 'cbs_sei_write_message_list'
+Lines executed:0.00% of 27
+
+Function 'cbs_sei_write_message'
+Lines executed:0.00% of 31
+
+Function 'cbs_sei_write_frame_field_information'
+Lines executed:0.00% of 15
+
+Function 'cbs_sei_write_frame_field_information_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_display_orientation'
+Lines executed:0.00% of 8
+
+Function 'cbs_sei_write_display_orientation_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_film_grain_characteristics'
+Lines executed:0.00% of 32
+
+Function 'cbs_sei_write_film_grain_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_ambient_viewing_environment'
+Lines executed:0.00% of 7
+
+Function 'cbs_sei_write_ambient_viewing_environment_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_alternative_transfer_characteristics'
+Lines executed:0.00% of 4
+
+Function 'cbs_sei_write_alternative_transfer_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_content_light_level_info'
+Lines executed:0.00% of 5
+
+Function 'cbs_sei_write_content_light_level_info_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_mastering_display_colour_volume'
+Lines executed:0.00% of 10
+
+Function 'cbs_sei_write_mastering_display_colour_volume_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_decoded_picture_hash'
+Lines executed:0.00% of 15
+
+Function 'cbs_sei_write_decoded_picture_hash_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_frame_packing_arrangement'
+Lines executed:0.00% of 23
+
+Function 'cbs_sei_write_frame_packing_arrangement_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_user_data_unregistered'
+Lines executed:0.00% of 8
+
+Function 'cbs_sei_write_user_data_unregistered_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_user_data_registered'
+Lines executed:0.00% of 9
+
+Function 'cbs_sei_write_user_data_registered_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_write_filler_payload'
+Lines executed:0.00% of 5
+
+Function 'cbs_sei_write_filler_payload_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h266_read_sei'
+Lines executed:0.00% of 8
+
+Function 'cbs_h266_read_slice_header'
+Lines executed:0.00% of 295
+
+Function 'cbs_h266_read_ph'
+Lines executed:0.00% of 6
+
+Function 'cbs_h266_read_picture_header'
+Lines executed:0.00% of 238
+
+Function 'cbs_h266_read_pred_weight_table'
+Lines executed:0.00% of 47
+
+Function 'cbs_h266_read_aud'
+Lines executed:0.00% of 7
+
+Function 'cbs_h266_read_aps'
+Lines executed:0.00% of 23
+
+Function 'cbs_h266_read_scaling_list_data'
+Lines executed:0.00% of 29
+
+Function 'cbs_h266_read_lmcs_data'
+Lines executed:0.00% of 19
+
+Function 'cbs_h266_read_alf_data'
+Lines executed:0.00% of 69
+
+Function 'cbs_h266_read_pps'
+Lines executed:0.00% of 398
+
+Function 'cbs_h266_read_sps'
+Lines executed:0.00% of 400
+
+Function 'cbs_h266_read_sps_range_extension'
+Lines executed:0.00% of 10
+
+Function 'cbs_h266_read_vps'
+Lines executed:0.00% of 184
+
+Function 'cbs_h266_read_dci'
+Lines executed:0.00% of 12
+
+Function 'cbs_h266_read_opi'
+Lines executed:0.00% of 14
+
+Function 'cbs_h266_read_ols_timing_hrd_parameters'
+Lines executed:0.00% of 19
+
+Function 'cbs_h266_read_sublayer_hrd_parameters'
+Lines executed:0.00% of 9
+
+Function 'cbs_h266_read_general_timing_hrd_parameters'
+Lines executed:0.00% of 17
+
+Function 'cbs_h266_read_ref_pic_lists'
+Lines executed:0.00% of 39
+
+Function 'cbs_h266_read_ref_pic_list_struct'
+Lines executed:0.00% of 48
+
+Function 'cbs_h266_read_dpb_parameters'
+Lines executed:0.00% of 7
+
+Function 'cbs_h266_read_extension_data'
+Lines executed:0.00% of 19
+
+Function 'cbs_h266_read_vui_payload'
+Lines executed:0.00% of 11
+
+Function 'cbs_h266_read_payload_extension'
+Lines executed:0.00% of 25
+
+Function 'cbs_h266_read_vui_parameters'
+Lines executed:0.00% of 45
+
+Function 'cbs_h266_read_profile_tier_level'
+Lines executed:0.00% of 21
+
+Function 'cbs_h266_read_general_constraints_info'
+Lines executed:0.00% of 90
+
+Function 'cbs_h266_read_byte_alignment'
+Lines executed:0.00% of 5
+
+Function 'cbs_h266_read_nal_unit_header'
+Lines executed:0.00% of 10
+
+Function 'cbs_h266_read_rbsp_trailing_bits'
+Lines executed:0.00% of 5
+
+Function 'cbs_h265_read_filler'
+Lines executed:0.00% of 8
+
+Function 'cbs_h265_read_sei'
+Lines executed:0.00% of 8
+
+Function 'cbs_h265_read_sei_3d_reference_displays_info'
+Lines executed:0.00% of 38
+
+Function 'cbs_h265_read_sei_3d_reference_displays_info_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_alpha_channel_info'
+Lines executed:0.00% of 17
+
+Function 'cbs_h265_read_sei_alpha_channel_info_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_time_code'
+Lines executed:0.00% of 30
+
+Function 'cbs_h265_read_sei_time_code_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_decoded_picture_hash'
+Lines executed:0.00% of 17
+
+Function 'cbs_h265_read_sei_decoded_picture_hash_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_active_parameter_sets'
+Lines executed:0.00% of 21
+
+Function 'cbs_h265_read_sei_active_parameter_sets_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_display_orientation'
+Lines executed:0.00% of 9
+
+Function 'cbs_h265_read_sei_display_orientation_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_film_grain_characteristics'
+Lines executed:0.00% of 43
+
+Function 'cbs_h265_read_film_grain_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_recovery_point'
+Lines executed:0.00% of 7
+
+Function 'cbs_h265_read_sei_recovery_point_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_pan_scan_rect'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_read_sei_pan_scan_rect_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_pic_timing'
+Lines executed:0.00% of 43
+
+Function 'cbs_h265_read_sei_pic_timing_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_sei_buffering_period'
+Lines executed:0.00% of 57
+
+Function 'cbs_h265_read_sei_buffering_period_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h265_read_slice_segment_header'
+Lines executed:0.00% of 203
+
+Function 'cbs_h265_read_pred_weight_table'
+Lines executed:0.00% of 55
+
+Function 'cbs_h265_read_ref_pic_lists_modification'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_read_aud'
+Lines executed:0.00% of 6
+
+Function 'cbs_h265_read_pps'
+Lines executed:0.00% of 84
+
+Function 'cbs_h265_read_pps_scc_extension'
+Lines executed:0.00% of 26
+
+Function 'cbs_h265_read_pps_multilayer_extension'
+Lines executed:0.00% of 48
+
+Function 'cbs_h265_read_colour_mapping_table'
+Lines executed:0.00% of 19
+
+Function 'cbs_h265_read_colour_mapping_octants'
+Lines executed:0.00% of 32
+
+Function 'cbs_h265_read_pps_range_extension'
+Lines executed:0.00% of 17
+
+Function 'cbs_h265_read_sps'
+Lines executed:0.00% of 138
+
+Function 'cbs_h265_read_sps_scc_extension'
+Lines executed:0.00% of 18
+
+Function 'cbs_h265_read_sps_range_extension'
+Lines executed:0.00% of 12
+
+Function 'cbs_h265_read_scaling_list_data'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_read_st_ref_pic_set'
+Lines executed:0.00% of 88
+
+Function 'cbs_h265_read_vps'
+Lines executed:0.00% of 52
+
+Function 'cbs_h265_read_vui_parameters'
+Lines executed:0.00% of 71
+
+Function 'cbs_h265_read_hrd_parameters'
+Lines executed:0.00% of 39
+
+Function 'cbs_h265_read_sub_layer_hrd_parameters'
+Lines executed:0.00% of 13
+
+Function 'cbs_h265_read_profile_tier_level'
+Lines executed:0.00% of 98
+
+Function 'cbs_h265_read_extension_data'
+Lines executed:0.00% of 15
+
+Function 'cbs_h265_read_byte_alignment'
+Lines executed:0.00% of 5
+
+Function 'cbs_h265_read_nal_unit_header'
+Lines executed:0.00% of 9
+
+Function 'cbs_h265_read_rbsp_trailing_bits'
+Lines executed:0.00% of 5
+
+Function 'cbs_h264_read_end_of_stream'
+No executable lines
+
+Function 'cbs_h264_read_end_of_sequence'
+No executable lines
+
+Function 'cbs_h264_read_filler'
+Lines executed:0.00% of 8
+
+Function 'cbs_h264_read_slice_header'
+Lines executed:0.00% of 118
+
+Function 'cbs_h264_read_dec_ref_pic_marking'
+Lines executed:0.00% of 25
+
+Function 'cbs_h264_read_pred_weight_table'
+Lines executed:0.00% of 32
+
+Function 'cbs_h264_read_ref_pic_list_modification'
+Lines executed:0.00% of 26
+
+Function 'cbs_h264_read_aud'
+Lines executed:0.00% of 6
+
+Function 'cbs_h264_read_sei'
+Lines executed:0.00% of 6
+
+Function 'cbs_h264_read_sei_display_orientation'
+Lines executed:0.00% of 10
+
+Function 'cbs_h264_read_sei_display_orientation_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_sei_frame_packing_arrangement'
+Lines executed:0.00% of 24
+
+Function 'cbs_h264_read_sei_frame_packing_arrangement_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_film_grain_characteristics'
+Lines executed:0.00% of 50
+
+Function 'cbs_h264_read_film_grain_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_sei_recovery_point'
+Lines executed:0.00% of 8
+
+Function 'cbs_h264_read_sei_recovery_point_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_sei_pan_scan_rect'
+Lines executed:0.00% of 13
+
+Function 'cbs_h264_read_sei_pan_scan_rect_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_sei_pic_timing'
+Lines executed:0.00% of 35
+
+Function 'cbs_h264_read_sei_pic_timing_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_sei_pic_timestamp'
+Lines executed:0.00% of 30
+
+Function 'cbs_h264_read_sei_buffering_period'
+Lines executed:0.00% of 21
+
+Function 'cbs_h264_read_sei_buffering_period_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h264_read_pps'
+Lines executed:0.00% of 63
+
+Function 'cbs_h264_read_sps_extension'
+Lines executed:0.00% of 15
+
+Function 'cbs_h264_read_sps'
+Lines executed:0.00% of 64
+
+Function 'cbs_h264_read_vui_parameters_default'
+Lines executed:0.00% of 25
+
+Function 'cbs_h264_read_vui_parameters'
+Lines executed:0.00% of 73
+
+Function 'cbs_h264_read_hrd_parameters'
+Lines executed:0.00% of 14
+
+Function 'cbs_h264_read_scaling_list'
+Lines executed:0.00% of 7
+
+Function 'cbs_h264_read_nal_unit_header'
+Lines executed:0.00% of 21
+
+Function 'cbs_h264_read_rbsp_trailing_bits'
+Lines executed:0.00% of 5
+
+Function 'cbs_sei_read_message_list'
+Lines executed:0.00% of 33
+
+Function 'cbs_sei_read_message'
+Lines executed:0.00% of 45
+
+Function 'cbs_sei_read_frame_field_information'
+Lines executed:0.00% of 16
+
+Function 'cbs_sei_read_frame_field_information_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_display_orientation'
+Lines executed:0.00% of 8
+
+Function 'cbs_sei_read_display_orientation_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_film_grain_characteristics'
+Lines executed:0.00% of 32
+
+Function 'cbs_sei_read_film_grain_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_ambient_viewing_environment'
+Lines executed:0.00% of 8
+
+Function 'cbs_sei_read_ambient_viewing_environment_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_alternative_transfer_characteristics'
+Lines executed:0.00% of 5
+
+Function 'cbs_sei_read_alternative_transfer_characteristics_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_content_light_level_info'
+Lines executed:0.00% of 6
+
+Function 'cbs_sei_read_content_light_level_info_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_mastering_display_colour_volume'
+Lines executed:0.00% of 11
+
+Function 'cbs_sei_read_mastering_display_colour_volume_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_decoded_picture_hash'
+Lines executed:0.00% of 15
+
+Function 'cbs_sei_read_decoded_picture_hash_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_frame_packing_arrangement'
+Lines executed:0.00% of 24
+
+Function 'cbs_sei_read_frame_packing_arrangement_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_user_data_unregistered'
+Lines executed:0.00% of 12
+
+Function 'cbs_sei_read_user_data_unregistered_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_user_data_registered'
+Lines executed:0.00% of 14
+
+Function 'cbs_sei_read_user_data_registered_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_sei_read_filler_payload'
+Lines executed:0.00% of 6
+
+Function 'cbs_sei_read_filler_payload_internal'
+Lines executed:0.00% of 1
+
+Function 'cbs_h2645_read_more_rbsp_data'
+Lines executed:0.00% of 6
+
+Function 'cbs_h265_payload_extension_present'
+Lines executed:0.00% of 4
+
+Function 'cbs_write_se_golomb'
+Lines executed:0.00% of 19
+
+Function 'cbs_write_ue_golomb'
+Lines executed:0.00% of 14
+
+Function 'cbs_read_se_golomb'
+Lines executed:0.00% of 28
+
+Function 'cbs_read_ue_golomb'
+Lines executed:0.00% of 24
+
+Function 'skip_put_bytes'
+Lines executed:0.00% of 6
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'show_bits_long'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/cbs_h2645.c'
+Lines executed:0.00% of 783
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#cbs_h2645.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/cbs_h264_syntax_template.c'
+Lines executed:0.00% of 2114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#cbs_h264_syntax_template.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/cbs_h266_syntax_template.c'
+Lines executed:0.00% of 6368
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#cbs_h266_syntax_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/cbs_h265_syntax_template.c'
+Lines executed:0.00% of 4199
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#cbs_h265_syntax_template.c.gcov'
+
+File 'libavcodec/cbs_sei_syntax_template.c'
+Lines executed:0.00% of 715
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#cbs_sei_syntax_template.c.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_h2645.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 14337

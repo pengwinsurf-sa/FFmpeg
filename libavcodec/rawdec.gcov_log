@@ -1,0 +1,42 @@
+Function 'raw_close_decoder'
+Lines executed:0.00% of 5
+
+Function 'raw_decode'
+Lines executed:0.00% of 204
+
+Function 'scale16le'
+Lines executed:0.00% of 15
+
+Function 'scale16be'
+Lines executed:0.00% of 4
+
+Function 'raw_init_decoder'
+Lines executed:0.00% of 42
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/rawdec.c'
+Lines executed:0.00% of 249
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rawdec.gcno##libavcodec#rawdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rawdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rawdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rawdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rawdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 291

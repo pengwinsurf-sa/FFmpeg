@@ -1,0 +1,25 @@
+Function 'read_seek'
+Lines executed:0.00% of 15
+
+Function 'read_packet'
+Lines executed:0.00% of 39
+
+Function 'read_header'
+Lines executed:0.00% of 102
+
+Function 'probe'
+Lines executed:0.00% of 16
+
+File 'libavformat/bink.c'
+Lines executed:0.00% of 167
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bink.gcno##libavformat#bink.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bink.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bink.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 172

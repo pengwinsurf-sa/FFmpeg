@@ -1,0 +1,122 @@
+Function 'decode_end'
+Lines executed:0.00% of 20
+
+Function 'decode_init'
+Lines executed:0.00% of 35
+
+Function 'decode_frame'
+Lines executed:0.00% of 142
+
+Function 'decode_header'
+Lines executed:0.00% of 342
+
+Function 'check_header_variable'
+Lines executed:0.00% of 14
+
+Function 'skip_header_chunk'
+Lines executed:0.00% of 8
+
+Function 'decode_block'
+Lines executed:0.00% of 182
+
+Function 'dwa_uncompress'
+Lines executed:0.00% of 140
+
+Function 'to_linear'
+Lines executed:0.00% of 6
+
+Function 'dct_inverse'
+Lines executed:0.00% of 7
+
+Function 'idct_1d'
+Lines executed:0.00% of 34
+
+Function 'ac_uncompress'
+Lines executed:0.00% of 11
+
+Function 'b44_uncompress'
+Lines executed:0.00% of 51
+
+Function 'unpack_14'
+Lines executed:0.00% of 25
+
+Function 'pxr24_uncompress'
+Lines executed:0.00% of 55
+
+Function 'piz_uncompress'
+Lines executed:0.00% of 55
+
+Function 'wav_decode'
+Lines executed:0.00% of 70
+
+Function 'huf_uncompress'
+Lines executed:0.00% of 23
+
+Function 'huf_decode'
+Lines executed:0.00% of 48
+
+Function 'huf_build_dec_table'
+Lines executed:0.00% of 32
+
+Function 'huf_unpack_enc_table'
+Lines executed:0.00% of 27
+
+Function 'huf_canonical_code_table'
+Lines executed:0.00% of 14
+
+Function 'reverse_lut'
+Lines executed:0.00% of 8
+
+Function 'rle_uncompress'
+Lines executed:0.00% of 6
+
+Function 'rle'
+Lines executed:0.00% of 22
+
+Function 'zip_uncompress'
+Lines executed:0.00% of 8
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/exr.c'
+Lines executed:0.00% of 1289
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavcodec#exr.c.gcov'
+
+File 'libavutil/half2float.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavutil#half2float.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/float2half.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavutil#float2half.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exr.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1395

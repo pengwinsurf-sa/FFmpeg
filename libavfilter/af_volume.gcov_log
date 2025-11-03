@@ -1,0 +1,59 @@
+Function 'filter_frame'
+Lines executed:0.00% of 83
+
+Function 'process_command'
+Lines executed:0.00% of 7
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'set_volume'
+Lines executed:0.00% of 20
+
+Function 'volume_init'
+Lines executed:0.00% of 22
+
+Function 'scale_samples_s32'
+Lines executed:0.00% of 10
+
+Function 'scale_samples_s16_small'
+Lines executed:0.00% of 10
+
+Function 'scale_samples_s16'
+Lines executed:0.00% of 7
+
+Function 'scale_samples_u8_small'
+Lines executed:0.00% of 8
+
+Function 'scale_samples_u8'
+Lines executed:0.00% of 5
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 5
+
+Function 'set_expr'
+Lines executed:0.00% of 11
+
+File 'libavfilter/af_volume.c'
+Lines executed:0.00% of 206
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_volume.gcno##libavfilter#af_volume.c.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_volume.gcno##libavutil#ffmath.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_volume.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_volume.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 219

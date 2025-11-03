@@ -1,0 +1,131 @@
+Function 'ftp_move'
+Lines executed:0.00% of 28
+
+Function 'ftp_delete'
+Lines executed:0.00% of 24
+
+Function 'ftp_close_dir'
+Lines executed:0.00% of 6
+
+Function 'ftp_read_dir'
+Lines executed:0.00% of 40
+
+Function 'ftp_parse_entry'
+Lines executed:0.00% of 9
+
+Function 'ftp_parse_entry_mlsd'
+Lines executed:0.00% of 31
+
+Function 'ftp_parse_date'
+Lines executed:0.00% of 7
+
+Function 'ftp_open_dir'
+Lines executed:0.00% of 21
+
+Function 'ftp_shutdown'
+Lines executed:0.00% of 5
+
+Function 'ftp_get_file_handle'
+Lines executed:0.00% of 5
+
+Function 'ftp_close'
+Lines executed:0.00% of 16
+
+Function 'ftp_write'
+Lines executed:0.00% of 19
+
+Function 'ftp_read'
+Lines executed:0.00% of 42
+
+Function 'ftp_seek'
+Lines executed:0.00% of 23
+
+Function 'ftp_open'
+Lines executed:0.00% of 15
+
+Function 'ftp_connect'
+Lines executed:0.00% of 41
+
+Function 'ftp_abort'
+Lines executed:0.00% of 16
+
+Function 'ftp_connect_data_connection'
+Lines executed:0.00% of 19
+
+Function 'ftp_connect_control_connection'
+Lines executed:0.00% of 35
+
+Function 'ftp_features'
+Lines executed:0.00% of 16
+
+Function 'ftp_list'
+Lines executed:0.00% of 18
+
+Function 'ftp_set_dir'
+Lines executed:0.00% of 8
+
+Function 'ftp_restart'
+Lines executed:0.00% of 6
+
+Function 'ftp_store'
+Lines executed:0.00% of 10
+
+Function 'ftp_retrieve'
+Lines executed:0.00% of 10
+
+Function 'ftp_file_size'
+Lines executed:0.00% of 14
+
+Function 'ftp_current_dir'
+Lines executed:0.00% of 22
+
+Function 'ftp_passive_mode'
+Lines executed:0.00% of 35
+
+Function 'ftp_passive_mode_epsv'
+Lines executed:0.00% of 29
+
+Function 'ftp_auth'
+Lines executed:0.00% of 16
+
+Function 'ftp_send_command'
+Lines executed:0.00% of 10
+
+Function 'ftp_status'
+Lines executed:0.00% of 32
+
+Function 'ftp_get_line'
+Lines executed:0.00% of 14
+
+Function 'ftp_getc'
+Lines executed:0.00% of 9
+
+File 'libavformat/ftp.c'
+Lines executed:0.00% of 634
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno##libavformat#ftp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno##libavformat#url.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno##libavutil#avutil.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ftp.gcno###usr#include#stdlib.h.gcov'
+
+Lines executed:0.00% of 651

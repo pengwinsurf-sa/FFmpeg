@@ -1,0 +1,48 @@
+Function 'moflex_read_close'
+Lines executed:0.00% of 4
+
+Function 'moflex_read_seek'
+Lines executed:0.00% of 4
+
+Function 'moflex_read_packet'
+Lines executed:0.00% of 70
+
+Function 'moflex_read_header'
+Lines executed:0.00% of 7
+
+Function 'moflex_read_sync'
+Lines executed:0.00% of 68
+
+Function 'moflex_probe'
+Lines executed:0.00% of 34
+
+Function 'read_var_byte'
+Lines executed:0.00% of 22
+
+Function 'pop_int'
+Lines executed:0.00% of 8
+
+Function 'pop'
+Lines executed:0.00% of 7
+
+File 'libavformat/moflex.c'
+Lines executed:0.00% of 208
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#moflex.gcno##libavformat#moflex.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#moflex.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#moflex.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#moflex.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#moflex.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 224

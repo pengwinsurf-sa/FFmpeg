@@ -1,0 +1,15 @@
+Function 'decode_frame'
+Lines executed:0.00% of 45
+
+Function 'decode_init'
+Lines executed:0.00% of 4
+
+File 'libavcodec/r210dec.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#r210dec.gcno##libavcodec#r210dec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#r210dec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 49

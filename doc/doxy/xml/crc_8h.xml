@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="crc_8h" kind="file" language="C++">
+    <compoundname>crc.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includes refid="attributes_8h" local="yes">attributes.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/crc.h</label>
+        <link refid="crc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <member refid="group__lavu__crc32_1gab7717a9f1179a5ac8516982f9f2997d2" kind="enum"><name>AVCRCId</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__lavu__crc32_1gad7b1134679f68f2d4a52edaf1441e38f" kind="typedef"><name>AVCRC</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__crc32_1ga27f906ac7e618afdac0be18de678ac3d" kind="function"><name>av_crc_init</name></member>
+      <member refid="group__lavu__crc32_1gaa890314027dc4b7425edd45669b68b61" kind="function"><name>av_crc_get_table</name></member>
+      <member refid="group__lavu__crc32_1gae0feb73f66306494315f07de7ab57f80" kind="function"><name>av_crc</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Public header for CRC hash function implementation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>copyright<sp/>(c)<sp/>2006<sp/>Michael<sp/>Niedermayer<sp/>&lt;michaelni@gmx.at&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_crc32</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Public<sp/>header<sp/>for<sp/>CRC<sp/>hash<sp/>function<sp/>implementation.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_CRC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_CRC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="attributes_8h" kindref="compound">attributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="34"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_crc32<sp/>CRC</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_hash</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>CRC<sp/>(Cyclic<sp/>Redundancy<sp/>Check)<sp/>hash<sp/>function<sp/>implementation.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>This<sp/>module<sp/>supports<sp/>numerous<sp/>CRC<sp/>polynomials,<sp/>in<sp/>addition<sp/>to<sp/>the<sp/>most</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>widely<sp/>used<sp/>CRC-32-IEEE.<sp/>See<sp/>@ref<sp/>AVCRCId<sp/>for<sp/>a<sp/>list<sp/>of<sp/>available</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>polynomials.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="group__lavu__crc32_1gad7b1134679f68f2d4a52edaf1441e38f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__lavu__crc32_1gad7b1134679f68f2d4a52edaf1441e38f" kindref="member">AVCRC</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__lavu__crc32_1gab7717a9f1179a5ac8516982f9f2997d2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="49" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a892e48b7e846baeefd1b55a955f5cc66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a892e48b7e846baeefd1b55a955f5cc66" kindref="member">AV_CRC_8_ATM</ref>,</highlight></codeline>
+<codeline lineno="50" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2ae71c422e08cb83214c438ec352799e75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2ae71c422e08cb83214c438ec352799e75" kindref="member">AV_CRC_16_ANSI</ref>,</highlight></codeline>
+<codeline lineno="51" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a0e915db19602a96b5a83a953fd169a95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a0e915db19602a96b5a83a953fd169a95" kindref="member">AV_CRC_16_CCITT</ref>,</highlight></codeline>
+<codeline lineno="52" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a2c95e44f51d497669d7c49d58018dea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a2c95e44f51d497669d7c49d58018dea1" kindref="member">AV_CRC_32_IEEE</ref>,</highlight></codeline>
+<codeline lineno="53" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2aa43f268d15303373c90287522a4d4752" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2aa43f268d15303373c90287522a4d4752" kindref="member">AV_CRC_32_IEEE_LE</ref>,<sp/><sp/></highlight><highlight class="comment">/*&lt;<sp/>reversed<sp/>bitorder<sp/>version<sp/>of<sp/>AV_CRC_32_IEEE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2aee02f172ec3ff10972855bdab591927a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2aee02f172ec3ff10972855bdab591927a" kindref="member">AV_CRC_16_ANSI_LE</ref>,<sp/><sp/></highlight><highlight class="comment">/*&lt;<sp/>reversed<sp/>bitorder<sp/>version<sp/>of<sp/>AV_CRC_16_ANSI<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a317de029f3dce59427fe4681c5a8af2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a317de029f3dce59427fe4681c5a8af2a" kindref="member">AV_CRC_24_IEEE</ref>,</highlight></codeline>
+<codeline lineno="56" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a4f58c3da1acdf71bc0c71b5b4d923f69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2a4f58c3da1acdf71bc0c71b5b4d923f69" kindref="member">AV_CRC_8_EBU</ref>,</highlight></codeline>
+<codeline lineno="57" refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2ac72372c57b632a072de910c789ad08ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__crc32_1ggab7717a9f1179a5ac8516982f9f2997d2ac72372c57b632a072de910c789ad08ee" kindref="member">AV_CRC_MAX</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*&lt;<sp/>Not<sp/>part<sp/>of<sp/>public<sp/>API!<sp/>Do<sp/>not<sp/>use<sp/>outside<sp/>libavutil.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<ref refid="group__lavu__crc32_1gab7717a9f1179a5ac8516982f9f2997d2" kindref="member">AVCRCId</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>Initialize<sp/>a<sp/>CRC<sp/>table.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/>must<sp/>be<sp/>an<sp/>array<sp/>of<sp/>size<sp/>sizeof(AVCRC)*257<sp/>or<sp/>sizeof(AVCRC)*1024</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>@param<sp/>le<sp/>If<sp/>1,<sp/>the<sp/>lowest<sp/>bit<sp/>represents<sp/>the<sp/>coefficient<sp/>for<sp/>the<sp/>highest</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exponent<sp/>of<sp/>the<sp/>corresponding<sp/>polynomial<sp/>(both<sp/>for<sp/>poly<sp/>and</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>actual<sp/>CRC).</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>0,<sp/>you<sp/>must<sp/>swap<sp/>the<sp/>CRC<sp/>parameter<sp/>and<sp/>the<sp/>result<sp/>of<sp/>av_crc</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>you<sp/>need<sp/>the<sp/>standard<sp/>representation<sp/>(can<sp/>be<sp/>simplified<sp/>in</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>most<sp/>cases<sp/>to<sp/>e.g.<sp/>bswap16):</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_bswap32(crc<sp/>&lt;&lt;<sp/>(32-bits))</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>@param<sp/>bits<sp/>number<sp/>of<sp/>bits<sp/>for<sp/>the<sp/>CRC</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>@param<sp/>poly<sp/>generator<sp/>polynomial<sp/>without<sp/>the<sp/>x**bits<sp/>coefficient,<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>representation<sp/>as<sp/>specified<sp/>by<sp/>le</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx_size<sp/>size<sp/>of<sp/>ctx<sp/>in<sp/>bytes</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>@return<sp/>&lt;0<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="group__lavu__crc32_1ga27f906ac7e618afdac0be18de678ac3d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__crc32_1ga27f906ac7e618afdac0be18de678ac3d" kindref="member">av_crc_init</ref>(<ref refid="group__lavu__crc32_1gad7b1134679f68f2d4a52edaf1441e38f" kindref="member">AVCRC</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits,<sp/>uint32_t<sp/>poly,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ctx_size);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="78"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/>Get<sp/>an<sp/>initialized<sp/>standard<sp/>CRC<sp/>table.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>@param<sp/>crc_id<sp/>ID<sp/>of<sp/>a<sp/>standard<sp/>CRC</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>CRC<sp/>table<sp/>or<sp/>NULL<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__lavu__crc32_1gaa890314027dc4b7425edd45669b68b61" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__crc32_1gad7b1134679f68f2d4a52edaf1441e38f" kindref="member">AVCRC</ref><sp/>*<ref refid="group__lavu__crc32_1gaa890314027dc4b7425edd45669b68b61" kindref="member">av_crc_get_table</ref>(<ref refid="group__lavu__crc32_1gab7717a9f1179a5ac8516982f9f2997d2" kindref="member">AVCRCId</ref><sp/>crc_id);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="85"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/>Calculate<sp/>the<sp/>CRC<sp/>of<sp/>a<sp/>block.</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/>initialized<sp/>AVCRC<sp/>array<sp/>(see<sp/>av_crc_init())</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>@param<sp/>crc<sp/>CRC<sp/>of<sp/>previous<sp/>blocks<sp/>if<sp/>any<sp/>or<sp/>initial<sp/>value<sp/>for<sp/>CRC</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>@param<sp/>buffer<sp/>buffer<sp/>whose<sp/>CRC<sp/>to<sp/>calculate</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>@param<sp/>length<sp/>length<sp/>of<sp/>the<sp/>buffer</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>@return<sp/>CRC<sp/>updated<sp/>with<sp/>the<sp/>data<sp/>from<sp/>the<sp/>given<sp/>block</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_crc_init()<sp/>&quot;le&quot;<sp/>parameter</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="group__lavu__crc32_1gae0feb73f66306494315f07de7ab57f80" refkind="member"><highlight class="normal">uint32_t<sp/><ref refid="group__lavu__crc32_1gae0feb73f66306494315f07de7ab57f80" kindref="member">av_crc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__crc32_1gad7b1134679f68f2d4a52edaf1441e38f" kindref="member">AVCRC</ref><sp/>*ctx,<sp/>uint32_t<sp/>crc,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*buffer,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>length)<sp/><ref refid="attributes_8h_1adc7fd5bb40d84900a3a30ef3318020c2" kindref="member">av_pure</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="98"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_CRC_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/crc.h"/>
+  </compounddef>
+</doxygen>

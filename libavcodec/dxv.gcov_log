@@ -1,0 +1,65 @@
+Function 'dxv_close'
+Lines executed:0.00% of 9
+
+Function 'dxv_init'
+Lines executed:0.00% of 10
+
+Function 'dxv_decode'
+Lines executed:0.00% of 159
+
+Function 'dxv_decompress_raw'
+Lines executed:0.00% of 13
+
+Function 'dxv_decompress_lzf'
+Lines executed:0.00% of 3
+
+Function 'dxv_decompress_dxt5'
+Lines executed:0.00% of 102
+
+Function 'dxv_decompress_yg10'
+Lines executed:0.00% of 9
+
+Function 'dxv_decompress_ycg6'
+Lines executed:0.00% of 9
+
+Function 'dxv_decompress_yo'
+Lines executed:0.00% of 35
+
+Function 'dxv_decompress_cocg'
+Lines executed:0.00% of 36
+
+Function 'dxv_decompress_cgo'
+Lines executed:0.00% of 184
+
+Function 'dxv_decompress_opcodes'
+Lines executed:0.00% of 19
+
+Function 'get_opcodes'
+Lines executed:0.00% of 30
+
+Function 'fill_optable'
+Lines executed:0.00% of 25
+
+Function 'fill_ltable'
+Lines executed:0.00% of 32
+
+Function 'dxv_decompress_dxt1'
+Lines executed:0.00% of 29
+
+File 'libavcodec/dxv.c'
+Lines executed:0.00% of 666
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxv.gcno##libavcodec#dxv.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxv.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxv.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 704

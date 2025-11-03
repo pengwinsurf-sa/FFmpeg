@@ -1,0 +1,23 @@
+Function 'ff_vc2enc_free_transforms'
+Lines executed:0.00% of 5
+
+Function 'ff_vc2enc_init_transforms'
+Lines executed:0.00% of 10
+
+Function 'vc2_subband_dwt_haar_shift'
+Lines executed:0.00% of 37
+
+Function 'vc2_subband_dwt_haar'
+Lines executed:0.00% of 3
+
+Function 'vc2_subband_dwt_53'
+Lines executed:0.00% of 42
+
+Function 'vc2_subband_dwt_97'
+Lines executed:0.00% of 56
+
+File 'libavcodec/vc2enc_dwt.c'
+Lines executed:0.00% of 153
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc2enc_dwt.gcno##libavcodec#vc2enc_dwt.c.gcov'
+
+Lines executed:0.00% of 153

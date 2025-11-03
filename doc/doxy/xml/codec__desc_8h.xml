@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="codec__desc_8h" kind="file" language="C++">
+    <compoundname>codec_desc.h</compoundname>
+    <includes refid="avutil_8h" local="yes">libavutil/avutil.h</includes>
+    <includes refid="codec__id_8h" local="yes">codec_id.h</includes>
+    <includedby refid="avcodec_8h" local="yes">libavcodec/avcodec.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>libavcodec/codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>version_major.h</label>
+        <link refid="libavcodec_2version__major_8h"/>
+      </node>
+      <node id="12">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>libavutil/samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>errno.h</label>
+      </node>
+      <node id="5">
+        <label>inttypes.h</label>
+      </node>
+      <node id="16">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="6">
+        <label>limits.h</label>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="23">
+        <label>stdarg.h</label>
+      </node>
+      <node id="14">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>stdlib.h</label>
+      </node>
+      <node id="11">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="4">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="5">
+        <label>doc/examples/decode_audio.c</label>
+        <link refid="decode__audio_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/decode_video.c</label>
+        <link refid="decode__video_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/encode_audio.c</label>
+        <link refid="encode__audio_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="15">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="16">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="2">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavcodec/codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>libavcodec/mediacodec.h</label>
+        <link refid="mediacodec_8h"/>
+      </node>
+      <node id="18">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+      </node>
+      <node id="19">
+        <label>libavcodec/videotoolbox.h</label>
+        <link refid="videotoolbox_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structAVCodecDescriptor" prot="public">AVCodecDescriptor</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__lavc__core_1ga70552a7d4d1803bc11be8e6c74529d24" kind="define"><name>AV_CODEC_PROP_INTRA_ONLY</name></member>
+      <member refid="group__lavc__core_1ga0bb6cb9b395a0f2345eb41ed990fbf9f" kind="define"><name>AV_CODEC_PROP_LOSSY</name></member>
+      <member refid="group__lavc__core_1ga540358327f77f6b924ca25a712b7fdc1" kind="define"><name>AV_CODEC_PROP_LOSSLESS</name></member>
+      <member refid="group__lavc__core_1gaf28f8da6f74d303c115635d696a318b6" kind="define"><name>AV_CODEC_PROP_REORDER</name></member>
+      <member refid="group__lavc__core_1ga369290a7053847e6b3b68c9aa3c2c6ee" kind="define"><name>AV_CODEC_PROP_FIELDS</name></member>
+      <member refid="group__lavc__core_1gac0dfb59ee63132c9a064696a741419f6" kind="define"><name>AV_CODEC_PROP_BITMAP_SUB</name></member>
+      <member refid="group__lavc__core_1gae1c276095faaece7c097f8fd9f1184db" kind="define"><name>AV_CODEC_PROP_TEXT_SUB</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavc__core_1ga0e70e7293af4d5ee5a1ed08946ab0ec3" kind="function"><name>avcodec_descriptor_get</name></member>
+      <member refid="group__lavc__core_1gacee7f57301eb1767c46b85be2b75a109" kind="function"><name>avcodec_descriptor_next</name></member>
+      <member refid="group__lavc__core_1gad4d678c24626ec1680e351091136641b" kind="function"><name>avcodec_descriptor_get_by_name</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Codec<sp/>descriptors<sp/>public<sp/>API</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVCODEC_CODEC_DESC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVCODEC_CODEC_DESC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avutil_8h" kindref="compound">libavutil/avutil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="codec__id_8h" kindref="compound">codec_id.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="28"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavc_core</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>describes<sp/>the<sp/>properties<sp/>of<sp/>a<sp/>single<sp/>codec<sp/>described<sp/>by<sp/>an</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>AVCodecID.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>@see<sp/>avcodec_descriptor_get()</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structAVCodecDescriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVCodecDescriptor" kindref="compound">AVCodecDescriptor</ref><sp/>{</highlight></codeline>
+<codeline lineno="39" refid="structAVCodecDescriptor_1ab7ba57d70e9d4d50bba20c778c09d069" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1gaadca229ad2c20e060a14fec08a5cc7ce" kindref="member">AVCodecID</ref><sp/><sp/><sp/><sp/><sp/><ref refid="structAVCodecDescriptor_1ab7ba57d70e9d4d50bba20c778c09d069" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="40" refid="structAVCodecDescriptor_1ad628ddb3416cafa38c9d4f3c1f61ad50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref><sp/><ref refid="structAVCodecDescriptor_1ad628ddb3416cafa38c9d4f3c1f61ad50" kindref="member">type</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Name<sp/>of<sp/>the<sp/>codec<sp/>described<sp/>by<sp/>this<sp/>descriptor.<sp/>It<sp/>is<sp/>non-empty<sp/>and</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>unique<sp/>for<sp/>each<sp/>codec<sp/>descriptor.<sp/>It<sp/>should<sp/>contain<sp/>alphanumeric</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>characters<sp/>and<sp/>&apos;_&apos;<sp/>only.</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structAVCodecDescriptor_1a955dba1de947abbed22d28682b0db516" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="structAVCodecDescriptor_1a955dba1de947abbed22d28682b0db516" kindref="member">name</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>A<sp/>more<sp/>descriptive<sp/>name<sp/>for<sp/>this<sp/>codec.<sp/>May<sp/>be<sp/>NULL.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="structAVCodecDescriptor_1a31fa9d4fed68cfe8a128d461ec2d3e20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVCodecDescriptor_1a31fa9d4fed68cfe8a128d461ec2d3e20" kindref="member">long_name</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Codec<sp/>properties,<sp/>a<sp/>combination<sp/>of<sp/>AV_CODEC_PROP_*<sp/>flags.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="structAVCodecDescriptor_1a9949288403a12812cd6e3892ac45f40f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVCodecDescriptor_1a9949288403a12812cd6e3892ac45f40f" kindref="member">props</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>MIME<sp/>type(s)<sp/>associated<sp/>with<sp/>the<sp/>codec.</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>May<sp/>be<sp/>NULL;<sp/>if<sp/>not,<sp/>a<sp/>NULL-terminated<sp/>array<sp/>of<sp/>MIME<sp/>types.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>first<sp/>item<sp/>is<sp/>always<sp/>non-NULL<sp/>and<sp/>is<sp/>the<sp/>preferred<sp/>MIME<sp/>type.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="structAVCodecDescriptor_1a15fdf65a032db42ffa532837f72f6921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="structAVCodecDescriptor_1a15fdf65a032db42ffa532837f72f6921" kindref="member">mime_types</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>non-NULL,<sp/>an<sp/>array<sp/>of<sp/>profiles<sp/>recognized<sp/>for<sp/>this<sp/>codec.</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Terminated<sp/>with<sp/>AV_PROFILE_UNKNOWN.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="structAVCodecDescriptor_1a74f654a27342fd93895dbafbc5c1928f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVProfile" kindref="compound">AVProfile</ref><sp/>*<ref refid="structAVCodecDescriptor_1a74f654a27342fd93895dbafbc5c1928f" kindref="member">profiles</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="structAVCodecDescriptor" kindref="compound">AVCodecDescriptor</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>Codec<sp/>uses<sp/>only<sp/>intra<sp/>compression.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>Video<sp/>and<sp/>audio<sp/>codecs<sp/>only.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__lavc__core_1ga70552a7d4d1803bc11be8e6c74529d24" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_INTRA_ONLY<sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>0)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="73"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>lossy<sp/>compression.<sp/>Audio<sp/>and<sp/>video<sp/>codecs<sp/>only.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>@note<sp/>a<sp/>codec<sp/>may<sp/>support<sp/>both<sp/>lossy<sp/>and<sp/>lossless</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>compression<sp/>modes</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="group__lavc__core_1ga0bb6cb9b395a0f2345eb41ed990fbf9f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_LOSSY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>1)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="79"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>lossless<sp/>compression.<sp/>Audio<sp/>and<sp/>video<sp/>codecs<sp/>only.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="group__lavc__core_1ga540358327f77f6b924ca25a712b7fdc1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_LOSSLESS<sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="83"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>Codec<sp/>supports<sp/>frame<sp/>reordering.<sp/>That<sp/>is,<sp/>the<sp/>coded<sp/>order<sp/>(the<sp/>order<sp/>in<sp/>which</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>the<sp/>encoded<sp/>packets<sp/>are<sp/>output<sp/>by<sp/>the<sp/>encoders<sp/>/<sp/>stored<sp/>/<sp/>input<sp/>to<sp/>the</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/>decoders)<sp/>may<sp/>be<sp/>different<sp/>from<sp/>the<sp/>presentation<sp/>order<sp/>of<sp/>the<sp/>corresponding</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>frames.</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>For<sp/>codecs<sp/>that<sp/>do<sp/>not<sp/>have<sp/>this<sp/>property<sp/>set,<sp/>PTS<sp/>and<sp/>DTS<sp/>should<sp/>always<sp/>be</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>equal.</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="group__lavc__core_1gaf28f8da6f74d303c115635d696a318b6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_REORDER<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="94"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>Video<sp/>codec<sp/>supports<sp/>separate<sp/>coding<sp/>of<sp/>fields<sp/>in<sp/>interlaced<sp/>frames.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="group__lavc__core_1ga369290a7053847e6b3b68c9aa3c2c6ee" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_FIELDS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="99"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>Subtitle<sp/>codec<sp/>is<sp/>bitmap<sp/>based</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>Decoded<sp/>AVSubtitle<sp/>data<sp/>can<sp/>be<sp/>read<sp/>from<sp/>the<sp/>AVSubtitleRect-&gt;pict<sp/>field.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="group__lavc__core_1gac0dfb59ee63132c9a064696a741419f6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_BITMAP_SUB<sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>16)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="104"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>Subtitle<sp/>codec<sp/>is<sp/>text<sp/>based.</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>Decoded<sp/>AVSubtitle<sp/>data<sp/>can<sp/>be<sp/>read<sp/>from<sp/>the<sp/>AVSubtitleRect-&gt;ass<sp/>field.</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="group__lavc__core_1gae1c276095faaece7c097f8fd9f1184db" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_CODEC_PROP_TEXT_SUB<sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>17)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="110"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>@return<sp/>descriptor<sp/>for<sp/>given<sp/>codec<sp/>ID<sp/>or<sp/>NULL<sp/>if<sp/>no<sp/>descriptor<sp/>exists.</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="group__lavc__core_1ga0e70e7293af4d5ee5a1ed08946ab0ec3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodecDescriptor" kindref="compound">AVCodecDescriptor</ref><sp/>*<ref refid="group__lavc__core_1ga0e70e7293af4d5ee5a1ed08946ab0ec3" kindref="member">avcodec_descriptor_get</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavc__core_1gaadca229ad2c20e060a14fec08a5cc7ce" kindref="member">AVCodecID</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="115"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*<sp/>Iterate<sp/>over<sp/>all<sp/>codec<sp/>descriptors<sp/>known<sp/>to<sp/>libavcodec.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>@param<sp/>prev<sp/>previous<sp/>descriptor.<sp/>NULL<sp/>to<sp/>get<sp/>the<sp/>first<sp/>descriptor.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>@return<sp/>next<sp/>descriptor<sp/>or<sp/>NULL<sp/>after<sp/>the<sp/>last<sp/>descriptor</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="group__lavc__core_1gacee7f57301eb1767c46b85be2b75a109" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodecDescriptor" kindref="compound">AVCodecDescriptor</ref><sp/>*<ref refid="group__lavc__core_1gacee7f57301eb1767c46b85be2b75a109" kindref="member">avcodec_descriptor_next</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodecDescriptor" kindref="compound">AVCodecDescriptor</ref><sp/>*prev);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="124"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/>@return<sp/>codec<sp/>descriptor<sp/>with<sp/>the<sp/>given<sp/>name<sp/>or<sp/>NULL<sp/>if<sp/>no<sp/>such<sp/>descriptor</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exists.</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="group__lavc__core_1gad4d678c24626ec1680e351091136641b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVCodecDescriptor" kindref="compound">AVCodecDescriptor</ref><sp/>*<ref refid="group__lavc__core_1gad4d678c24626ec1680e351091136641b" kindref="member">avcodec_descriptor_get_by_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVProfile_1aae85c56975b715b70102c71efac935fc" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="130"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>AVCODEC_CODEC_DESC_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="libavcodec/codec_desc.h"/>
+  </compounddef>
+</doxygen>

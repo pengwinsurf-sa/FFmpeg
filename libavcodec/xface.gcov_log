@@ -1,0 +1,17 @@
+Function 'ff_xface_generate_face'
+Lines executed:0.00% of 33
+
+Function 'ff_big_mul'
+Lines executed:0.00% of 26
+
+Function 'ff_big_div'
+Lines executed:0.00% of 29
+
+Function 'ff_big_add'
+Lines executed:0.00% of 16
+
+File 'libavcodec/xface.c'
+Lines executed:0.00% of 104
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xface.gcno##libavcodec#xface.c.gcov'
+
+Lines executed:0.00% of 104

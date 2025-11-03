@@ -1,0 +1,21 @@
+Function 'avpriv_init_lls'
+Lines executed:100.00% of 9
+
+Function 'evaluate_lls'
+Lines executed:100.00% of 2
+
+Function 'avpriv_solve_lls'
+Lines executed:0.00% of 34
+
+Function 'update_lls'
+Lines executed:100.00% of 6
+
+File 'libavutil/lls.c'
+Lines executed:30.61% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#lls.gcno##libavutil#lls.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#lls.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:33.33% of 51

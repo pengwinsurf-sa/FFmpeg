@@ -1,0 +1,37 @@
+Function 'dss_read_seek'
+Lines executed:0.00% of 24
+
+Function 'dss_read_packet'
+Lines executed:0.00% of 5
+
+Function 'dss_723_1_read_packet'
+Lines executed:0.00% of 40
+
+Function 'dss_sp_read_packet'
+Lines executed:0.00% of 38
+
+Function 'dss_read_header'
+Lines executed:0.00% of 34
+
+Function 'dss_read_metadata_string'
+Lines executed:0.00% of 12
+
+Function 'dss_read_metadata_date'
+Lines executed:0.00% of 14
+
+Function 'dss_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/dss.c'
+Lines executed:0.00% of 167
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dss.gcno##libavformat#dss.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dss.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dss.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 171

@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hdr__dynamic__vivid__metadata_8h" kind="file" language="C++">
+    <compoundname>hdr_dynamic_vivid_metadata.h</compoundname>
+    <includes refid="frame_8h" local="yes">frame.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="5">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/hdr_dynamic_vivid_metadata.h</label>
+        <link refid="hdr__dynamic__vivid__metadata_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>errno.h</label>
+      </node>
+      <node id="8">
+        <label>inttypes.h</label>
+      </node>
+      <node id="17">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="24">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVHDRVivid3SplineParams" prot="public">AVHDRVivid3SplineParams</innerclass>
+    <innerclass refid="structAVHDRVividColorToneMappingParams" prot="public">AVHDRVividColorToneMappingParams</innerclass>
+    <innerclass refid="structAVHDRVividColorTransformParams" prot="public">AVHDRVividColorTransformParams</innerclass>
+    <innerclass refid="structAVDynamicHDRVivid" prot="public">AVDynamicHDRVivid</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="hdr__dynamic__vivid__metadata_8h_1a773cdc0ec893d9cfdf59cfe470716dac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref> *</type>
+        <definition>AVDynamicHDRVivid * av_dynamic_hdr_vivid_alloc</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_dynamic_hdr_vivid_alloc</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref> structure and set its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The resulting struct can be freed using <ref refid="group__lavu__mem__funcs_1ga0cc84043ea2167ad005c86e11d0bcdba" kindref="member">av_freep()</ref>.</para>
+<para><simplesect kind="return"><para>An <ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref> filled with default values or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_vivid_metadata.h" line="281" column="19" declfile="libavutil/hdr_dynamic_vivid_metadata.h" declline="281" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="hdr__dynamic__vivid__metadata_8h_1a57591d6704dfcdfd93adf4f2df46fe05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref> *</type>
+        <definition>AVDynamicHDRVivid * av_dynamic_hdr_vivid_create_side_data</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>av_dynamic_hdr_vivid_create_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a complete <ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref> and add it to the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frame which side data is added to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref> structure to be filled by caller or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hdr_dynamic_vivid_metadata.h" line="290" column="19" declfile="libavutil/hdr_dynamic_vivid_metadata.h" declline="290" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2021<sp/>Limin<sp/>Wang<sp/>&lt;lance.lmwang<sp/>at<sp/>gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HDR_DYNAMIC_VIVID_METADATA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HDR_DYNAMIC_VIVID_METADATA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>HDR<sp/>Vivid<sp/>three<sp/>spline<sp/>params.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="structAVHDRVivid3SplineParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHDRVivid3SplineParams" kindref="compound">AVHDRVivid3SplineParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>mode<sp/>of<sp/>three<sp/>Spline.<sp/>the<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>0<sp/>to<sp/>3,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structAVHDRVivid3SplineParams_1a899f8865de68c89552f6acfed515906f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVivid3SplineParams_1a899f8865de68c89552f6acfed515906f" kindref="member">th_mode</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>three_Spline_TH_enable_MB<sp/>is<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1.0/255.</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structAVHDRVivid3SplineParams_1a9f98bd9a3d123fd510717a7aa9cde1bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVivid3SplineParams_1a9f98bd9a3d123fd510717a7aa9cde1bc" kindref="member">th_enable_mb</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>3Spline_TH_enable<sp/>of<sp/>three<sp/>Spline.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1.0/4095.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structAVHDRVivid3SplineParams_1af274e6f71306bd47ed98dfe537020551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVivid3SplineParams_1af274e6f71306bd47ed98dfe537020551" kindref="member">th_enable</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>3Spline_TH_Delta1<sp/>of<sp/>three<sp/>Spline.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>0.25,<sp/>inclusive,</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>0.25/1023.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structAVHDRVivid3SplineParams_1a368c516f1fd9a669984d0625d33e61cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVivid3SplineParams_1a368c516f1fd9a669984d0625d33e61cd" kindref="member">th_delta1</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>3Spline_TH_Delta2<sp/>of<sp/>three<sp/>Spline.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>0.25,<sp/>inclusive,</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>0.25/1023.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="structAVHDRVivid3SplineParams_1a93b3ddeda468f06cf24aea5c2f63ccc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVivid3SplineParams_1a93b3ddeda468f06cf24aea5c2f63ccc4" kindref="member">th_delta2</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>3Spline_enable_Strength<sp/>of<sp/>three<sp/>Spline.</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive,</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1.0/255.</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="structAVHDRVivid3SplineParams_1a17571146d71e8094b8eba7de4caaeaa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVivid3SplineParams_1a17571146d71e8094b8eba7de4caaeaa2" kindref="member">enable_strength</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}<sp/><ref refid="structAVHDRVivid3SplineParams" kindref="compound">AVHDRVivid3SplineParams</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="73"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>Color<sp/>tone<sp/>mapping<sp/>parameters<sp/>at<sp/>a<sp/>processing<sp/>window<sp/>in<sp/>a<sp/>dynamic<sp/>metadata<sp/>for</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>CUVA<sp/>005.1:2021.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="structAVHDRVividColorToneMappingParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHDRVividColorToneMappingParams" kindref="compound">AVHDRVividColorToneMappingParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>nominal<sp/>maximum<sp/>display<sp/>luminance<sp/>of<sp/>the<sp/>targeted<sp/>system<sp/>display,</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1.0/4095<sp/>candelas<sp/>per<sp/>square<sp/>metre.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="structAVHDRVividColorToneMappingParams_1ab444e9d0312f4a29eabb7ece24f8efba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1ab444e9d0312f4a29eabb7ece24f8efba" kindref="member">targeted_system_display_maximum_luminance</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>indicates<sp/>that<sp/>transfer<sp/>the<sp/>base<sp/>paramter(for<sp/>value<sp/>of<sp/>1)</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="structAVHDRVividColorToneMappingParams_1aea1550e08ceb628998ec3de1f4949df7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1aea1550e08ceb628998ec3de1f4949df7" kindref="member">base_enable_flag</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_m_p<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1.0/16383.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="structAVHDRVividColorToneMappingParams_1a40bf34f7a154f78fe59972996d9d1afd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a40bf34f7a154f78fe59972996d9d1afd" kindref="member">base_param_m_p</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_m_m<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1.0/10.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>6.3,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="structAVHDRVividColorToneMappingParams_1a406eaa04f958e4407f9074eabd249ac8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a406eaa04f958e4407f9074eabd249ac8" kindref="member">base_param_m_m</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_m_a<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1.0/1023.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0<sp/>inclusive.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="structAVHDRVividColorToneMappingParams_1a5889fc286c0f73a512a53d8cdc5e69c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a5889fc286c0f73a512a53d8cdc5e69c8" kindref="member">base_param_m_a</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_m_b<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1/1023.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="structAVHDRVividColorToneMappingParams_1a580da5e0c12cf0b35de733ea200cc96f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a580da5e0c12cf0b35de733ea200cc96f" kindref="member">base_param_m_b</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_m_n<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1.0/10.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>6.3,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="structAVHDRVividColorToneMappingParams_1a72067ea4ce82bbaa4bb7f8a8fdbbc801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a72067ea4ce82bbaa4bb7f8a8fdbbc801" kindref="member">base_param_m_n</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>indicates<sp/>k1_0<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k1<sp/>&lt;=<sp/>1:<sp/>k1_0<sp/>=<sp/>base_param_k1</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k1<sp/>&gt;<sp/>1:<sp/>reserved</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="structAVHDRVividColorToneMappingParams_1a324ecaeae1c1f11eaa92a83a51264e65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a324ecaeae1c1f11eaa92a83a51264e65" kindref="member">base_param_k1</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>indicates<sp/>k2_0<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k2<sp/>&lt;=<sp/>1:<sp/>k2_0<sp/>=<sp/>base_param_k2</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k2<sp/>&gt;<sp/>1:<sp/>reserved</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structAVHDRVividColorToneMappingParams_1a937ff7be8c932d77896100e4ee6c4d3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a937ff7be8c932d77896100e4ee6c4d3f" kindref="member">base_param_k2</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>indicates<sp/>k3_0<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k3<sp/>==<sp/>1:<sp/>k3_0<sp/>=<sp/>base_param_k3</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k3<sp/>==<sp/>2:<sp/>k3_0<sp/>=<sp/>maximum_maxrgb</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_k3<sp/>&gt;<sp/>2:<sp/>reserved</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="structAVHDRVividColorToneMappingParams_1a4d46a9af35a3ef191e2b24f309d1591e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a4d46a9af35a3ef191e2b24f309d1591e" kindref="member">base_param_k3</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>indicates<sp/>that<sp/>delta<sp/>mode<sp/>of<sp/>base<sp/>paramter(for<sp/>value<sp/>of<sp/>1)</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="structAVHDRVividColorToneMappingParams_1af7a18da7046c580c12853264a387924a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1af7a18da7046c580c12853264a387924a" kindref="member">base_param_Delta_enable_mode</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>base_param_Delta<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>multiples<sp/>of<sp/>1.0/127.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="structAVHDRVividColorToneMappingParams_1a60524ca67bdc61206a26c4749f3cb0dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a60524ca67bdc61206a26c4749f3cb0dd" kindref="member">base_param_Delta</ref>;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>indicates<sp/>3Spline_enable_flag<sp/>in<sp/>the<sp/>base<sp/>parameter,</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>indicates<sp/>that<sp/>transfer<sp/>three<sp/>Spline<sp/>of<sp/>base<sp/>paramter(for<sp/>value<sp/>of<sp/>1)</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="structAVHDRVividColorToneMappingParams_1a14f626a654ce05d0b013f9ba41ca35ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a14f626a654ce05d0b013f9ba41ca35ba" kindref="member">three_Spline_enable_flag</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>three<sp/>Spline.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>1<sp/>to<sp/>2,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="structAVHDRVividColorToneMappingParams_1a69e5d71571ecf4330f2bac92d3cf647a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorToneMappingParams_1a69e5d71571ecf4330f2bac92d3cf647a" kindref="member">three_Spline_num</ref>;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="structAVHDRVividColorToneMappingParams_1aafeeede0a39a2e82adbc10b137c08f53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVHDRVivid3SplineParams" kindref="compound">AVHDRVivid3SplineParams</ref><sp/><ref refid="structAVHDRVividColorToneMappingParams_1aafeeede0a39a2e82adbc10b137c08f53" kindref="member">three_spline</ref>[2];</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}<sp/><ref refid="structAVHDRVividColorToneMappingParams" kindref="compound">AVHDRVividColorToneMappingParams</ref>;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="175"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>*<sp/>Color<sp/>transform<sp/>parameters<sp/>at<sp/>a<sp/>processing<sp/>window<sp/>in<sp/>a<sp/>dynamic<sp/>metadata<sp/>for</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*<sp/>CUVA<sp/>005.1:2021.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="structAVHDRVividColorTransformParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHDRVividColorTransformParams" kindref="compound">AVHDRVividColorTransformParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Indicates<sp/>the<sp/>minimum<sp/>brightness<sp/>of<sp/>the<sp/>displayed<sp/>content.</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/4095.</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="structAVHDRVividColorTransformParams_1ab9bf21054ecf260342e1c974f80060e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorTransformParams_1ab9bf21054ecf260342e1c974f80060e3" kindref="member">minimum_maxrgb</ref>;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Indicates<sp/>the<sp/>average<sp/>brightness<sp/>of<sp/>the<sp/>displayed<sp/>content.</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/4095.</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="structAVHDRVividColorTransformParams_1a8c493fab8c5f1ffdc67fb3f4858f2760" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorTransformParams_1a8c493fab8c5f1ffdc67fb3f4858f2760" kindref="member">average_maxrgb</ref>;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Indicates<sp/>the<sp/>variance<sp/>brightness<sp/>of<sp/>the<sp/>displayed<sp/>content.</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>inclusive<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/4095.</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="structAVHDRVividColorTransformParams_1a19a35abccff2cb1a87662ac6ac3ebaea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorTransformParams_1a19a35abccff2cb1a87662ac6ac3ebaea" kindref="member">variance_maxrgb</ref>;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Indicates<sp/>the<sp/>maximum<sp/>brightness<sp/>of<sp/>the<sp/>displayed<sp/>content.</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>1.0,<sp/>inclusive</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/4095.</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="structAVHDRVividColorTransformParams_1ae6ce67f85f3f6ba7fa162f43b65d25ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorTransformParams_1ae6ce67f85f3f6ba7fa162f43b65d25ce" kindref="member">maximum_maxrgb</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>indicates<sp/>that<sp/>the<sp/>metadata<sp/>for<sp/>the<sp/>tone<sp/>mapping<sp/>function<sp/>in</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>processing<sp/>window<sp/>is<sp/>present<sp/>(for<sp/>value<sp/>of<sp/>1).</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="structAVHDRVividColorTransformParams_1a9170d676c78e090c72a13e4af34990d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorTransformParams_1a9170d676c78e090c72a13e4af34990d2" kindref="member">tone_mapping_mode_flag</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>tone<sp/>mapping<sp/>param.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>1<sp/>to<sp/>2,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="structAVHDRVividColorTransformParams_1afafb72fdb1d91eee56a86be337eb9807" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorTransformParams_1afafb72fdb1d91eee56a86be337eb9807" kindref="member">tone_mapping_param_num</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>color<sp/>tone<sp/>mapping<sp/>parameters.</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="structAVHDRVividColorTransformParams_1a6a1893c846e1914e6d72c9a38ecff576" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVHDRVividColorToneMappingParams" kindref="compound">AVHDRVividColorToneMappingParams</ref><sp/><ref refid="structAVHDRVividColorTransformParams_1a6a1893c846e1914e6d72c9a38ecff576" kindref="member">tm_params</ref>[2];</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>flag<sp/>indicates<sp/>that<sp/>the<sp/>metadata<sp/>for<sp/>the<sp/>color<sp/>saturation<sp/>mapping<sp/>in</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>processing<sp/>window<sp/>is<sp/>present<sp/>(for<sp/>value<sp/>of<sp/>1).</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="structAVHDRVividColorTransformParams_1ad8b591931e37699b6567cd19d76dbf74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorTransformParams_1ad8b591931e37699b6567cd19d76dbf74" kindref="member">color_saturation_mapping_flag</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>color<sp/>saturation<sp/>param.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>in<sp/>the<sp/>range</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>0<sp/>to<sp/>7,<sp/>inclusive.</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="structAVHDRVividColorTransformParams_1abc747fae740a68cba61412552677b5af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVHDRVividColorTransformParams_1abc747fae740a68cba61412552677b5af" kindref="member">color_saturation_num</ref>;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Indicates<sp/>the<sp/>color<sp/>correction<sp/>strength<sp/>parameter.</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>values<sp/>should<sp/>be<sp/>in<sp/>the<sp/>range<sp/>of<sp/>0.0<sp/>to<sp/>2.0,<sp/>inclusive</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>in<sp/>multiples<sp/>of<sp/>1/128.</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="structAVHDRVividColorTransformParams_1a7e31ff133f1f096430964d8f0ea3ec37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVHDRVividColorTransformParams_1a7e31ff133f1f096430964d8f0ea3ec37" kindref="member">color_saturation_gain</ref>[8];</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}<sp/><ref refid="structAVHDRVividColorTransformParams" kindref="compound">AVHDRVividColorTransformParams</ref>;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="245"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>represents<sp/>dynamic<sp/>metadata<sp/>for<sp/>color<sp/>volume<sp/>transform<sp/>-</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/>*<sp/>CUVA<sp/>005.1:2021<sp/>standard</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/>*<sp/>To<sp/>be<sp/>used<sp/>as<sp/>payload<sp/>of<sp/>a<sp/>AVFrameSideData<sp/>or<sp/>AVPacketSideData<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/>*<sp/>appropriate<sp/>type.</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>should<sp/>be<sp/>allocated<sp/>with</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/>*<sp/>av_dynamic_hdr_vivid_alloc()<sp/>and<sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of</highlight></codeline>
+<codeline lineno="254"><highlight class="comment"><sp/>*<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="structAVDynamicHDRVivid" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>system<sp/>start<sp/>code.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>set<sp/>to<sp/>0x01.</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="structAVDynamicHDRVivid_1a5b420fdc49bff7a62b89d182c0fd8b7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRVivid_1a5b420fdc49bff7a62b89d182c0fd8b7e" kindref="member">system_start_code</ref>;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>number<sp/>of<sp/>processing<sp/>windows.<sp/>The<sp/>value<sp/>shall<sp/>be<sp/>set<sp/>to<sp/>0x01</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>if<sp/>the<sp/>system_start_code<sp/>is<sp/>0x01.</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="structAVDynamicHDRVivid_1a329c6373ec2a4e49c2bd2996531a44bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVDynamicHDRVivid_1a329c6373ec2a4e49c2bd2996531a44bc" kindref="member">num_windows</ref>;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>color<sp/>transform<sp/>parameters<sp/>for<sp/>every<sp/>processing<sp/>window.</highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="structAVDynamicHDRVivid_1a7a724783ed6fd50ca029f93f5eb9572d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVHDRVividColorTransformParams" kindref="compound">AVHDRVividColorTransformParams</ref><sp/><ref refid="structAVDynamicHDRVivid_1a7a724783ed6fd50ca029f93f5eb9572d" kindref="member">params</ref>[3];</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}<sp/><ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref>;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="274"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVDynamicHDRVivid<sp/>structure<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/>*<sp/>default<sp/>values.<sp/>The<sp/>resulting<sp/>struct<sp/>can<sp/>be<sp/>freed<sp/>using<sp/>av_freep().</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>AVDynamicHDRVivid<sp/>filled<sp/>with<sp/>default<sp/>values<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="280"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="hdr__dynamic__vivid__metadata_8h_1a773cdc0ec893d9cfdf59cfe470716dac" refkind="member"><highlight class="normal"><ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref><sp/>*<ref refid="hdr__dynamic__vivid__metadata_8h_1a773cdc0ec893d9cfdf59cfe470716dac" kindref="member">av_dynamic_hdr_vivid_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="283"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>complete<sp/>AVDynamicHDRVivid<sp/>and<sp/>add<sp/>it<sp/>to<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>The<sp/>frame<sp/>which<sp/>side<sp/>data<sp/>is<sp/>added<sp/>to.</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>AVDynamicHDRVivid<sp/>structure<sp/>to<sp/>be<sp/>filled<sp/>by<sp/>caller<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="hdr__dynamic__vivid__metadata_8h_1a57591d6704dfcdfd93adf4f2df46fe05" refkind="member"><highlight class="normal"><ref refid="structAVDynamicHDRVivid" kindref="compound">AVDynamicHDRVivid</ref><sp/>*<ref refid="hdr__dynamic__vivid__metadata_8h_1a57591d6704dfcdfd93adf4f2df46fe05" kindref="member">av_dynamic_hdr_vivid_create_side_data</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HDR_DYNAMIC_VIVID_METADATA_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hdr_dynamic_vivid_metadata.h"/>
+  </compounddef>
+</doxygen>

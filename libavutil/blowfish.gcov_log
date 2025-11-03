@@ -1,0 +1,25 @@
+Function 'av_blowfish_crypt'
+Lines executed:0.00% of 36
+
+Function 'av_blowfish_crypt_ecb'
+Lines executed:0.00% of 19
+
+Function 'av_blowfish_init'
+Lines executed:0.00% of 22
+
+Function 'av_blowfish_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/blowfish.c'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#blowfish.gcno##libavutil#blowfish.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#blowfish.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#blowfish.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 79

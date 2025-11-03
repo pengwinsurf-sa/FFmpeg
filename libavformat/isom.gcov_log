@@ -1,0 +1,30 @@
+Function 'ff_mov_write_chan'
+Lines executed:0.00% of 14
+
+Function 'ff_mp4_read_dec_config_descr'
+Lines executed:0.00% of 37
+
+Function 'ff_mp4_parse_es_descr'
+Lines executed:0.00% of 13
+
+Function 'ff_mp4_read_descr'
+Lines executed:0.00% of 6
+
+Function 'ff_mp4_read_descr_len'
+Lines executed:0.00% of 8
+
+Function 'ff_mov_lang_to_iso639'
+Lines executed:0.00% of 15
+
+Function 'ff_mov_iso639_to_lang'
+Lines executed:0.00% of 14
+
+File 'libavformat/isom.c'
+Lines executed:0.00% of 103
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#isom.gcno##libavformat#isom.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#isom.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 107

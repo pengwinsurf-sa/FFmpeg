@@ -1,0 +1,60 @@
+Function 'filter_frame'
+Lines executed:0.00% of 49
+
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'init'
+Lines executed:0.00% of 58
+
+Function 'print_file'
+Lines executed:0.00% of 16
+
+Function 'print_log'
+Lines executed:0.00% of 7
+
+Function 'parse_expr'
+Lines executed:0.00% of 6
+
+Function 'greater'
+Lines executed:0.00% of 4
+
+Function 'less'
+Lines executed:0.00% of 4
+
+Function 'equal'
+Lines executed:0.00% of 4
+
+Function 'ends_with'
+Lines executed:0.00% of 4
+
+Function 'starts_with'
+Lines executed:0.00% of 2
+
+Function 'same_str'
+Lines executed:0.00% of 2
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavfilter/f_metadata.c'
+Lines executed:0.00% of 152
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_metadata.gcno##libavfilter#f_metadata.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_metadata.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_metadata.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_metadata.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_metadata.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 169

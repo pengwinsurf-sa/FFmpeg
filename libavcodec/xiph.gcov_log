@@ -1,0 +1,12 @@
+Function 'avpriv_split_xiph_headers'
+Lines executed:0.00% of 28
+
+File 'libavcodec/xiph.c'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xiph.gcno##libavcodec#xiph.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xiph.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 28

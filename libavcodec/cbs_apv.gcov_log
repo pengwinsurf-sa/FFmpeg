@@ -1,0 +1,171 @@
+Function 'cbs_apv_free_metadata'
+Lines executed:0.00% of 15
+
+Function 'cbs_apv_assemble_fragment'
+Lines executed:0.00% of 25
+
+Function 'cbs_apv_write_unit'
+Lines executed:0.00% of 16
+
+Function 'cbs_apv_read_unit'
+Lines executed:0.00% of 37
+
+Function 'cbs_apv_split_fragment'
+Lines executed:0.00% of 47
+
+Function 'cbs_apv_write_metadata'
+Lines executed:0.00% of 43
+
+Function 'cbs_apv_write_metadata_payload'
+Lines executed:0.00% of 15
+
+Function 'cbs_apv_write_metadata_undefined'
+Lines executed:0.00% of 8
+
+Function 'cbs_apv_write_metadata_user_defined'
+Lines executed:0.00% of 10
+
+Function 'cbs_apv_write_metadata_filler'
+Lines executed:0.00% of 5
+
+Function 'cbs_apv_write_metadata_cll'
+Lines executed:0.00% of 5
+
+Function 'cbs_apv_write_metadata_mdcv'
+Lines executed:0.00% of 10
+
+Function 'cbs_apv_write_metadata_itu_t_t35'
+Lines executed:0.00% of 13
+
+Function 'cbs_apv_write_au_info'
+Lines executed:0.00% of 10
+
+Function 'cbs_apv_write_frame'
+Lines executed:0.00% of 10
+
+Function 'cbs_apv_write_tile'
+Lines executed:0.00% of 10
+
+Function 'cbs_apv_write_tile_header'
+Lines executed:0.00% of 17
+
+Function 'cbs_apv_write_frame_header'
+Lines executed:0.00% of 27
+
+Function 'cbs_apv_write_tile_info'
+Lines executed:0.00% of 14
+
+Function 'cbs_apv_write_quantization_matrix'
+Lines executed:0.00% of 7
+
+Function 'cbs_apv_write_frame_info'
+Lines executed:0.00% of 15
+
+Function 'cbs_apv_write_filler'
+Lines executed:0.00% of 5
+
+Function 'cbs_apv_write_byte_alignment'
+Lines executed:0.00% of 4
+
+Function 'cbs_apv_write_pbu_header'
+Lines executed:0.00% of 5
+
+Function 'cbs_apv_read_metadata'
+Lines executed:0.00% of 34
+
+Function 'cbs_apv_read_metadata_payload'
+Lines executed:0.00% of 15
+
+Function 'cbs_apv_read_metadata_undefined'
+Lines executed:0.00% of 9
+
+Function 'cbs_apv_read_metadata_user_defined'
+Lines executed:0.00% of 11
+
+Function 'cbs_apv_read_metadata_filler'
+Lines executed:0.00% of 5
+
+Function 'cbs_apv_read_metadata_cll'
+Lines executed:0.00% of 6
+
+Function 'cbs_apv_read_metadata_mdcv'
+Lines executed:0.00% of 11
+
+Function 'cbs_apv_read_metadata_itu_t_t35'
+Lines executed:0.00% of 14
+
+Function 'cbs_apv_read_au_info'
+Lines executed:0.00% of 11
+
+Function 'cbs_apv_read_frame'
+Lines executed:0.00% of 10
+
+Function 'cbs_apv_read_tile'
+Lines executed:0.00% of 21
+
+Function 'cbs_apv_read_tile_header'
+Lines executed:0.00% of 18
+
+Function 'cbs_apv_read_frame_header'
+Lines executed:0.00% of 27
+
+Function 'cbs_apv_read_tile_info'
+Lines executed:0.00% of 14
+
+Function 'cbs_apv_read_quantization_matrix'
+Lines executed:0.00% of 7
+
+Function 'cbs_apv_read_frame_info'
+Lines executed:0.00% of 16
+
+Function 'cbs_apv_read_filler'
+Lines executed:0.00% of 6
+
+Function 'cbs_apv_read_byte_alignment'
+Lines executed:0.00% of 4
+
+Function 'cbs_apv_read_pbu_header'
+Lines executed:0.00% of 6
+
+Function 'cbs_apv_derive_tile_info'
+Lines executed:0.00% of 21
+
+Function 'cbs_apv_get_num_comp'
+Lines executed:0.00% of 7
+
+Function 'show_bits'
+Lines executed:0.00% of 14
+
+File 'libavcodec/cbs_apv.c'
+Lines executed:0.00% of 148
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavcodec#cbs_apv.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/cbs_apv_syntax_template.c'
+Lines executed:0.00% of 747
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavcodec#cbs_apv_syntax_template.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_apv.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 944

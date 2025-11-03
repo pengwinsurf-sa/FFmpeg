@@ -1,0 +1,27 @@
+Function 'ff_hashtable_freep'
+Lines executed:0.00% of 5
+
+Function 'ff_hashtable_clear'
+Lines executed:0.00% of 5
+
+Function 'ff_hashtable_delete'
+Lines executed:0.00% of 27
+
+Function 'ff_hashtable_set'
+Lines executed:0.00% of 27
+
+Function 'ff_hashtable_get'
+Lines executed:0.00% of 10
+
+Function 'ff_hashtable_alloc'
+Lines executed:0.00% of 21
+
+File 'libavcodec/hashtable.c'
+Lines executed:0.00% of 91
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hashtable.gcno##libavcodec#hashtable.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hashtable.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 95

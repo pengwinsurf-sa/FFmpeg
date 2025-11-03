@@ -1,0 +1,116 @@
+Function 'ff_h264_decode_mb_cavlc'
+Lines executed:0.00% of 563
+
+Function 'decode_residual'
+Lines executed:0.00% of 125
+
+Function 'get_level_prefix'
+Lines executed:0.00% of 10
+
+Function 'ff_h264_decode_init_vlc'
+Lines executed:0.00% of 38
+
+Function 'init_cavlc_level_tab'
+Lines executed:0.00% of 19
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 20
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 9
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 12
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'decode_mb_skip'
+Lines executed:0.00% of 86
+
+Function 'fill_decode_caches'
+Lines executed:0.00% of 170
+
+Function 'fill_decode_neighbors'
+Lines executed:0.00% of 51
+
+Function 'get_bits_left'
+Lines executed:0.00% of 4
+
+Function 'align_get_bits'
+Lines executed:0.00% of 6
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits1'
+No executable lines
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'skip_bits_long'
+Lines executed:0.00% of 1
+
+Function 'mid_pred'
+No executable lines
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/h264_cavlc.c'
+Lines executed:0.00% of 518
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#h264_cavlc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/h264_mvpred.h'
+Lines executed:0.00% of 449
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#h264_mvpred.h.gcov'
+
+File 'libavcodec/rectangle.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#rectangle.h.gcov'
+
+File 'libavcodec/h264_parse.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#h264_parse.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File 'libavcodec/h264dec.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#h264dec.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/vlc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#vlc.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_cavlc.gcno##libavcodec#golomb.h.gcov'
+
+Lines executed:0.00% of 1163

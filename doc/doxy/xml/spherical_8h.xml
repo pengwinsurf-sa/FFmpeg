@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="spherical_8h" kind="file" language="C++">
+    <compoundname>spherical.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/spherical.h</label>
+        <link refid="spherical_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVSphericalMapping" prot="public">AVSphericalMapping</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__lavu__video__spherical_1ga689eeb8cf9b453f3619f3cf626e03a08" kind="enum"><name>AVSphericalProjection</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__video__spherical_1ga2c987049465600d3a50e760fdaee9c60" kind="function"><name>av_spherical_alloc</name></member>
+      <member refid="group__lavu__video__spherical_1ga9c9a5f996f41bd0fe6f4c9908a70f98e" kind="function"><name>av_spherical_tile_bounds</name></member>
+      <member refid="group__lavu__video__spherical_1ga9b1f15e9eed3750144ec8322b9777c6b" kind="function"><name>av_spherical_projection_name</name></member>
+      <member refid="group__lavu__video__spherical_1ga539173e8b22176710e1e0b728e4bd22f" kind="function"><name>av_spherical_from_name</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Spherical video. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2016<sp/>Vittorio<sp/>Giovara<sp/>&lt;vittorio.giovara@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_video_spherical</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Spherical<sp/>video</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_SPHERICAL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_SPHERICAL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_video_spherical<sp/>Spherical<sp/>video<sp/>mapping</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_video</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>A<sp/>spherical<sp/>video<sp/>file<sp/>contains<sp/>surfaces<sp/>that<sp/>need<sp/>to<sp/>be<sp/>mapped<sp/>onto<sp/>a</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>sphere.<sp/>Depending<sp/>on<sp/>how<sp/>the<sp/>frame<sp/>was<sp/>converted,<sp/>a<sp/>different<sp/>distortion</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>transformation<sp/>or<sp/>surface<sp/>recomposition<sp/>function<sp/>needs<sp/>to<sp/>be<sp/>applied<sp/>before</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>the<sp/>video<sp/>should<sp/>be<sp/>mapped<sp/>and<sp/>displayed.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="44"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>Projection<sp/>of<sp/>the<sp/>video<sp/>surface(s)<sp/>on<sp/>a<sp/>sphere.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="group__lavu__video__spherical_1ga689eeb8cf9b453f3619f3cf626e03a08" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__video__spherical_1ga689eeb8cf9b453f3619f3cf626e03a08" kindref="member">AVSphericalProjection</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Video<sp/>represents<sp/>a<sp/>sphere<sp/>mapped<sp/>on<sp/>a<sp/>flat<sp/>surface<sp/>using</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>equirectangular<sp/>projection.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08a55efbae149ee7a6e327a66be7061d146" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08a55efbae149ee7a6e327a66be7061d146" kindref="member">AV_SPHERICAL_EQUIRECTANGULAR</ref>,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Video<sp/>frame<sp/>is<sp/>split<sp/>into<sp/>6<sp/>faces<sp/>of<sp/>a<sp/>cube,<sp/>and<sp/>arranged<sp/>on<sp/>a</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>3x2<sp/>layout.<sp/>Faces<sp/>are<sp/>oriented<sp/>upwards<sp/>for<sp/>the<sp/>front,<sp/>left,<sp/>right,</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>back<sp/>faces.<sp/>The<sp/>up<sp/>face<sp/>is<sp/>oriented<sp/>so<sp/>the<sp/>top<sp/>of<sp/>the<sp/>face<sp/>is</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>forwards<sp/>and<sp/>the<sp/>down<sp/>face<sp/>is<sp/>oriented<sp/>so<sp/>the<sp/>top<sp/>of<sp/>the<sp/>face<sp/>is</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>the<sp/>back.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08aa0a8bc866354ecb619493db502c4d103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08aa0a8bc866354ecb619493db502c4d103" kindref="member">AV_SPHERICAL_CUBEMAP</ref>,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Video<sp/>represents<sp/>a<sp/>portion<sp/>of<sp/>a<sp/>sphere<sp/>mapped<sp/>on<sp/>a<sp/>flat<sp/>surface</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>using<sp/>equirectangular<sp/>projection.<sp/>The<sp/>@ref<sp/>bounding<sp/>fields<sp/>indicate</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>position<sp/>of<sp/>the<sp/>current<sp/>video<sp/>in<sp/>a<sp/>larger<sp/>surface.</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08a768257247d4090b959ee1678f67bc9d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08a768257247d4090b959ee1678f67bc9d3" kindref="member">AV_SPHERICAL_EQUIRECTANGULAR_TILE</ref>,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Video<sp/>frame<sp/>displays<sp/>as<sp/>a<sp/>180<sp/>degree<sp/>equirectangular<sp/>projection.</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08ace661d0bac9b5872b6d5764cec07a106" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08ace661d0bac9b5872b6d5764cec07a106" kindref="member">AV_SPHERICAL_HALF_EQUIRECTANGULAR</ref>,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Video<sp/>frame<sp/>displays<sp/>on<sp/>a<sp/>flat,<sp/>rectangular<sp/>2D<sp/>surface.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08a2579e0b67dc996049d9ce5b0fedd704b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08a2579e0b67dc996049d9ce5b0fedd704b" kindref="member">AV_SPHERICAL_RECTILINEAR</ref>,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Fisheye<sp/>projection<sp/>(Apple).</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>See:<sp/>https://developer.apple.com/documentation/coremedia/cmprojectiontype/fisheye</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08ae5f2ec120e5880ece6850c3e63ad4be4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavu__video__spherical_1gga689eeb8cf9b453f3619f3cf626e03a08ae5f2ec120e5880ece6850c3e63ad4be4" kindref="member">AV_SPHERICAL_FISHEYE</ref>,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="87"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>This<sp/>structure<sp/>describes<sp/>how<sp/>to<sp/>handle<sp/>spherical<sp/>videos,<sp/>outlining</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>information<sp/>about<sp/>projection,<sp/>initial<sp/>layout,<sp/>and<sp/>any<sp/>other<sp/>view<sp/>modifier.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>must<sp/>be<sp/>allocated<sp/>with<sp/>av_spherical_alloc()<sp/>and</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="structAVSphericalMapping" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVSphericalMapping" kindref="compound">AVSphericalMapping</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Projection<sp/>type.</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="structAVSphericalMapping_1a5576008bdc224db049b1795b3c95fe16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__video__spherical_1ga689eeb8cf9b453f3619f3cf626e03a08" kindref="member">AVSphericalProjection</ref><sp/><ref refid="structAVSphericalMapping_1a5576008bdc224db049b1795b3c95fe16" kindref="member">projection</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@name<sp/>Initial<sp/>orientation</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>There<sp/>fields<sp/>describe<sp/>additional<sp/>rotations<sp/>applied<sp/>to<sp/>the<sp/>sphere<sp/>after</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>video<sp/>frame<sp/>is<sp/>mapped<sp/>onto<sp/>it.<sp/>The<sp/>sphere<sp/>is<sp/>rotated<sp/>around<sp/>the</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>viewer,<sp/>who<sp/>remains<sp/>stationary.<sp/>The<sp/>order<sp/>of<sp/>transformation<sp/>is<sp/>always</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>yaw,<sp/>followed<sp/>by<sp/>pitch,<sp/>and<sp/>finally<sp/>by<sp/>roll.</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>coordinate<sp/>system<sp/>matches<sp/>the<sp/>one<sp/>defined<sp/>in<sp/>OpenGL,<sp/>where<sp/>the</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>forward<sp/>vector<sp/>(z)<sp/>is<sp/>coming<sp/>out<sp/>of<sp/>screen,<sp/>and<sp/>it<sp/>is<sp/>equivalent<sp/>to</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>a<sp/>rotation<sp/>matrix<sp/>of<sp/>R<sp/>=<sp/>r_y(yaw)<sp/>*<sp/>r_x(pitch)<sp/>*<sp/>r_z(roll).</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>A<sp/>positive<sp/>yaw<sp/>rotates<sp/>the<sp/>portion<sp/>of<sp/>the<sp/>sphere<sp/>in<sp/>front<sp/>of<sp/>the<sp/>viewer</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>toward<sp/>their<sp/>right.<sp/>A<sp/>positive<sp/>pitch<sp/>rotates<sp/>the<sp/>portion<sp/>of<sp/>the<sp/>sphere</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>front<sp/>of<sp/>the<sp/>viewer<sp/>upwards.<sp/>A<sp/>positive<sp/>roll<sp/>tilts<sp/>the<sp/>portion<sp/>of</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>sphere<sp/>in<sp/>front<sp/>of<sp/>the<sp/>viewer<sp/>to<sp/>the<sp/>viewer&apos;s<sp/>right.</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>These<sp/>values<sp/>are<sp/>exported<sp/>as<sp/>16.16<sp/>fixed<sp/>point.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>See<sp/>this<sp/>equirectangular<sp/>projection<sp/>as<sp/>example:</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@code{.unparsed}</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Yaw</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>-180<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>180</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>90<sp/>+-------------+-------------+<sp/><sp/>180</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>up</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>P<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y|<sp/><sp/><sp/><sp/>forward</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>i<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>^<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/>/z</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>t<sp/><sp/>0<sp/>+-------------X-------------+<sp/><sp/><sp/><sp/>0<sp/>Roll<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>/</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>c<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>/</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>h<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0|/_____right</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>-90<sp/>+-------------+-------------+<sp/>-180</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>X<sp/>-<sp/>the<sp/>default<sp/>camera<sp/>center</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>^<sp/>-<sp/>the<sp/>default<sp/>up<sp/>vector</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="structAVSphericalMapping_1ad7d7c61a2550cc4284076cc846873702" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="structAVSphericalMapping_1ad7d7c61a2550cc4284076cc846873702" kindref="member">yaw</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Rotation<sp/>around<sp/>the<sp/>up<sp/>vector<sp/>[-180,<sp/>180].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="structAVSphericalMapping_1a84dfa298ac2ddf98665781507182a979" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="structAVSphericalMapping_1a84dfa298ac2ddf98665781507182a979" kindref="member">pitch</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>Rotation<sp/>around<sp/>the<sp/>right<sp/>vector<sp/>[-90,<sp/>90].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="structAVSphericalMapping_1aaad422230e2b0f0ebfb981275e22ffb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><ref refid="structAVSphericalMapping_1aaad422230e2b0f0ebfb981275e22ffb0" kindref="member">roll</ref>;<sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Rotation<sp/>around<sp/>the<sp/>forward<sp/>vector<sp/>[-180,<sp/>180].</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@name<sp/>Bounding<sp/>rectangle</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@anchor<sp/>bounding</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>These<sp/>fields<sp/>indicate<sp/>the<sp/>location<sp/>of<sp/>the<sp/>current<sp/>tile,<sp/>and<sp/>where</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>it<sp/>should<sp/>be<sp/>mapped<sp/>relative<sp/>to<sp/>the<sp/>original<sp/>surface.<sp/>They<sp/>are</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>exported<sp/>as<sp/>0.32<sp/>fixed<sp/>point,<sp/>and<sp/>can<sp/>be<sp/>converted<sp/>to<sp/>classic</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>pixel<sp/>values<sp/>with<sp/>av_spherical_bounds().</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@code{.unparsed}</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>+----------------+----------+</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|bound_top<sp/>|</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+--------+<sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>bound_left<sp/>|tile<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>+&lt;----------&gt;|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|&lt;---&gt;+bound_right</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+--------+<sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>bound_bottom|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>+----------------+----------+</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>needed,<sp/>the<sp/>original<sp/>video<sp/>surface<sp/>dimensions<sp/>can<sp/>be<sp/>derived</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>by<sp/>adding<sp/>the<sp/>current<sp/>stream<sp/>or<sp/>frame<sp/>size<sp/>to<sp/>the<sp/>related<sp/>bounds,</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>like<sp/>in<sp/>the<sp/>following<sp/>example:</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@code{c}</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>original_width<sp/><sp/>=<sp/>tile-&gt;width<sp/><sp/>+<sp/>bound_left<sp/>+<sp/>bound_right;</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>original_height<sp/>=<sp/>tile-&gt;height<sp/>+<sp/>bound_top<sp/><sp/>+<sp/>bound_bottom;</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@note<sp/>These<sp/>values<sp/>are<sp/>valid<sp/>only<sp/>for<sp/>the<sp/>tiled<sp/>equirectangular</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>projection<sp/>type<sp/>(@ref<sp/>AV_SPHERICAL_EQUIRECTANGULAR_TILE),</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>and<sp/>should<sp/>be<sp/>ignored<sp/>in<sp/>all<sp/>other<sp/>cases.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="structAVSphericalMapping_1a5168f1a737916aae56f0cf41d71937f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVSphericalMapping_1a5168f1a737916aae56f0cf41d71937f7" kindref="member">bound_left</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Distance<sp/>from<sp/>the<sp/>left<sp/>edge</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="structAVSphericalMapping_1a5f82d37755e0d54559c254b7bdefffbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVSphericalMapping_1a5f82d37755e0d54559c254b7bdefffbe" kindref="member">bound_top</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Distance<sp/>from<sp/>the<sp/>top<sp/>edge</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="structAVSphericalMapping_1a6cbcda5b8d0118e50e4a1b574919af50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVSphericalMapping_1a6cbcda5b8d0118e50e4a1b574919af50" kindref="member">bound_right</ref>;<sp/><sp/></highlight><highlight class="comment">///&lt;<sp/>Distance<sp/>from<sp/>the<sp/>right<sp/>edge</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="structAVSphericalMapping_1a670ae033266fb97133204baa6609955f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVSphericalMapping_1a670ae033266fb97133204baa6609955f" kindref="member">bound_bottom</ref>;<sp/></highlight><highlight class="comment">///&lt;<sp/>Distance<sp/>from<sp/>the<sp/>bottom<sp/>edge</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>pixels<sp/>to<sp/>pad<sp/>from<sp/>the<sp/>edge<sp/>of<sp/>each<sp/>cube<sp/>face.</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@note<sp/>This<sp/>value<sp/>is<sp/>valid<sp/>for<sp/>only<sp/>for<sp/>the<sp/>cubemap<sp/>projection<sp/>type</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(@ref<sp/>AV_SPHERICAL_CUBEMAP),<sp/>and<sp/>should<sp/>be<sp/>ignored<sp/>in<sp/>all<sp/>other</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>cases.</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="structAVSphericalMapping_1adeea248f32ff9ec9cd8de310f3d00108" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVSphericalMapping_1adeea248f32ff9ec9cd8de310f3d00108" kindref="member">padding</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}<sp/><ref refid="structAVSphericalMapping" kindref="compound">AVSphericalMapping</ref>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="197"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>AVSphericalVideo<sp/>structure<sp/>and<sp/>initialize<sp/>its<sp/>fields<sp/>to<sp/>default</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/>values.</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*<sp/>@return<sp/>the<sp/>newly<sp/>allocated<sp/>struct<sp/>or<sp/>NULL<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="group__lavu__video__spherical_1ga2c987049465600d3a50e760fdaee9c60" refkind="member"><highlight class="normal"><ref refid="structAVSphericalMapping" kindref="compound">AVSphericalMapping</ref><sp/>*<ref refid="group__lavu__video__spherical_1ga2c987049465600d3a50e760fdaee9c60" kindref="member">av_spherical_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="205"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/>*<sp/>Convert<sp/>the<sp/>@ref<sp/>bounding<sp/>fields<sp/>from<sp/>an<sp/>AVSphericalVideo</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>*<sp/>from<sp/>0.32<sp/>fixed<sp/>point<sp/>to<sp/>pixels.</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*<sp/>@param<sp/>map<sp/><sp/><sp/><sp/>The<sp/>AVSphericalVideo<sp/>map<sp/>to<sp/>read<sp/>bound<sp/>values<sp/>from.</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/>*<sp/>@param<sp/>width<sp/><sp/>Width<sp/>of<sp/>the<sp/>current<sp/>frame<sp/>or<sp/>stream.</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/>*<sp/>@param<sp/>height<sp/>Height<sp/>of<sp/>the<sp/>current<sp/>frame<sp/>or<sp/>stream.</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*<sp/>@param<sp/>left<sp/><sp/><sp/>Pixels<sp/>from<sp/>the<sp/>left<sp/>edge.</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*<sp/>@param<sp/>top<sp/><sp/><sp/><sp/>Pixels<sp/>from<sp/>the<sp/>top<sp/>edge.</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*<sp/>@param<sp/>right<sp/><sp/>Pixels<sp/>from<sp/>the<sp/>right<sp/>edge.</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/>*<sp/>@param<sp/>bottom<sp/>Pixels<sp/>from<sp/>the<sp/>bottom<sp/>edge.</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="group__lavu__video__spherical_1ga9c9a5f996f41bd0fe6f4c9908a70f98e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__video__spherical_1ga9c9a5f996f41bd0fe6f4c9908a70f98e" kindref="member">av_spherical_tile_bounds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVSphericalMapping" kindref="compound">AVSphericalMapping</ref><sp/>*map,</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>,</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*left,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*top,</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*right,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*bottom);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="222"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>*<sp/>Provide<sp/>a<sp/>human-readable<sp/>name<sp/>of<sp/>a<sp/>given<sp/>AVSphericalProjection.</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*<sp/>@param<sp/>projection<sp/>The<sp/>input<sp/>AVSphericalProjection.</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>name<sp/>of<sp/>the<sp/>AVSphericalProjection,<sp/>or<sp/>&quot;unknown&quot;.</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="group__lavu__video__spherical_1ga9b1f15e9eed3750144ec8322b9777c6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavu__video__spherical_1ga9b1f15e9eed3750144ec8322b9777c6b" kindref="member">av_spherical_projection_name</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__video__spherical_1ga689eeb8cf9b453f3619f3cf626e03a08" kindref="member">AVSphericalProjection</ref><sp/>projection);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="231"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>AVSphericalProjection<sp/>form<sp/>a<sp/>human-readable<sp/>name.</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*<sp/>@param<sp/>name<sp/>The<sp/>input<sp/>string.</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>AVSphericalProjection<sp/>value,<sp/>or<sp/>-1<sp/>if<sp/>not<sp/>found.</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="group__lavu__video__spherical_1ga539173e8b22176710e1e0b728e4bd22f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__video__spherical_1ga539173e8b22176710e1e0b728e4bd22f" kindref="member">av_spherical_from_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="239"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_SPHERICAL_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/spherical.h"/>
+  </compounddef>
+</doxygen>

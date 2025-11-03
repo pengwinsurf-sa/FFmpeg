@@ -1,0 +1,18 @@
+Function 'setts_close'
+Lines executed:0.00% of 14
+
+Function 'setts_filter'
+Lines executed:0.00% of 48
+
+Function 'setts_init'
+Lines executed:0.00% of 33
+
+File 'libavcodec/bsf/setts.c'
+Lines executed:0.00% of 93
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#setts.gcno##libavcodec#bsf#setts.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#setts.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 95

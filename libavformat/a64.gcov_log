@@ -1,0 +1,12 @@
+Function 'a64_write_header'
+Lines executed:0.00% of 21
+
+File 'libavformat/a64.c'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#a64.gcno##libavformat#a64.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#a64.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 21

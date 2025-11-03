@@ -1,0 +1,35 @@
+Function 'ff_vvc_sei_reset'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_sei_replace'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_sei_decode'
+Lines executed:0.00% of 79
+
+Function 'decode_display_orientation'
+Lines executed:0.00% of 10
+
+Function 'decode_decoded_picture_hash'
+Lines executed:0.00% of 12
+
+Function 'decode_film_grain_characteristics'
+Lines executed:0.00% of 36
+
+File 'libavcodec/vvc/sei.c'
+Lines executed:0.00% of 137
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#sei.gcno##libavcodec#vvc#sei.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#sei.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#sei.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#sei.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 146

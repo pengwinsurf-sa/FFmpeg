@@ -1,0 +1,32 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 25
+
+Function 'config_input'
+Lines executed:0.00% of 12
+
+Function 'aintegral_dblp'
+Lines executed:0.00% of 1
+
+Function 'aintegral_fltp'
+Lines executed:0.00% of 1
+
+Function 'aderivative_s32p'
+Lines executed:0.00% of 1
+
+Function 'aderivative_s16p'
+Lines executed:0.00% of 1
+
+Function 'aderivative_dblp'
+Lines executed:0.00% of 1
+
+Function 'aderivative_fltp'
+Lines executed:0.00% of 1
+
+File 'libavfilter/af_aderivative.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aderivative.gcno##libavfilter#af_aderivative.c.gcov'
+
+Lines executed:0.00% of 47

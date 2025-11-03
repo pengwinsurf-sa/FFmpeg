@@ -1,0 +1,11 @@
+Function 'webvtt_decode_frame'
+Lines executed:0.00% of 12
+
+Function 'webvtt_event_to_ass'
+Lines executed:0.00% of 24
+
+File 'libavcodec/webvttdec.c'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webvttdec.gcno##libavcodec#webvttdec.c.gcov'
+
+Lines executed:0.00% of 36

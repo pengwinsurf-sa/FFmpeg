@@ -1,0 +1,18 @@
+Function 'svag_read_packet'
+Lines executed:0.00% of 3
+
+Function 'svag_read_header'
+Lines executed:0.00% of 22
+
+Function 'svag_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/svag.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#svag.gcno##libavformat#svag.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#svag.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 28

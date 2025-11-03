@@ -1,0 +1,14 @@
+Function 'ff_llauddsp_init'
+Lines executed:100.00% of 5
+
+Function 'scalarproduct_and_madd_int32_c'
+Lines executed:100.00% of 9
+
+Function 'scalarproduct_and_madd_int16_c'
+Lines executed:100.00% of 9
+
+File 'libavcodec/lossless_audiodsp.c'
+Lines executed:100.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lossless_audiodsp.gcno##libavcodec#lossless_audiodsp.c.gcov'
+
+Lines executed:100.00% of 23

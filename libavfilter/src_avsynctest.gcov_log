@@ -1,0 +1,52 @@
+Function 'activate'
+Lines executed:0.00% of 17
+
+Function 'video_frame'
+Lines executed:0.00% of 73
+
+Function 'draw_text'
+Lines executed:0.00% of 11
+
+Function 'audio_frame'
+Lines executed:0.00% of 28
+
+Function 'sin32'
+Lines executed:0.00% of 22
+
+Function 'config_props'
+Lines executed:0.00% of 27
+
+Function 'aconfig_props'
+Lines executed:0.00% of 8
+
+Function 'query_formats'
+Lines executed:0.00% of 16
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavfilter/src_avsynctest.c'
+Lines executed:0.00% of 187
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_avsynctest.gcno##libavfilter#src_avsynctest.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_avsynctest.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_avsynctest.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_avsynctest.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_avsynctest.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_avsynctest.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 207

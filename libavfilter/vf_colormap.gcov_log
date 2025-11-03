@@ -1,0 +1,41 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 34
+
+Function 'process_frame'
+Lines executed:0.00% of 40
+
+Function 'import_map'
+Lines executed:0.00% of 32
+
+Function 'colormap_slice'
+Lines executed:0.00% of 57
+
+Function 'build_map'
+Lines executed:0.00% of 91
+
+Function 'weuclidean_kernel'
+Lines executed:0.00% of 6
+
+Function 'euclidean_kernel'
+Lines executed:0.00% of 5
+
+Function 'gauss_solve'
+Lines executed:0.00% of 6
+
+Function 'gauss_solve_triangular'
+Lines executed:0.00% of 14
+
+Function 'gauss_make_triangular'
+Lines executed:0.00% of 23
+
+File 'libavfilter/vf_colormap.c'
+Lines executed:0.00% of 315
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colormap.gcno##libavfilter#vf_colormap.c.gcov'
+
+Lines executed:0.00% of 315

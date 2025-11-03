@@ -1,0 +1,320 @@
+Function 'ff_rv40dsp_init_x86'
+Lines executed:100.00% of 32
+
+Function 'put_rv40_qpel8_mc33_mmx'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc33_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc33_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc33_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc33_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc33_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc33_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc33_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc32_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc32_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc31_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc31_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc30_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc30_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc23_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc23_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc22_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc22_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc21_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc21_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc13_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc13_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc12_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc12_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc11_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc11_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc10_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc10_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc03_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc03_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc01_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc01_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc32_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc32_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc31_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc31_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc30_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc30_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc23_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc23_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc22_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc22_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc21_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc21_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc13_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc13_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc12_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc12_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc11_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc11_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc10_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc10_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc03_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc03_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc01_sse2'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc01_sse2'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc32_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc32_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc31_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc31_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc30_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc30_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc23_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc23_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc22_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc22_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc21_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc21_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc13_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc13_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc12_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc12_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc11_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc11_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc10_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc10_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc03_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc03_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel16_mc01_ssse3'
+Lines executed:0.00% of 1
+
+Function 'avg_rv40_qpel8_mc01_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc32_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc32_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc31_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc31_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc30_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc30_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc23_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc23_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc22_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc22_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc21_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc21_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc13_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc13_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc12_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc12_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc11_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc11_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc10_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc10_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc03_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc03_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel16_mc01_ssse3'
+Lines executed:0.00% of 1
+
+Function 'put_rv40_qpel8_mc01_ssse3'
+Lines executed:0.00% of 1
+
+File 'libavcodec/x86/rv40dsp_init.c'
+Lines executed:22.86% of 140
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#rv40dsp_init.gcno##libavcodec#x86#rv40dsp_init.c.gcov'
+
+Lines executed:22.86% of 140

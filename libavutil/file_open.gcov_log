@@ -1,0 +1,22 @@
+Function 'avpriv_fopen_utf8'
+Lines executed:40.91% of 22
+
+Function 'avpriv_tempfile'
+Lines executed:0.00% of 17
+
+Function 'avpriv_open'
+Lines executed:80.00% of 20
+
+File 'libavutil/file_open.c'
+Lines executed:40.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#file_open.gcno##libavutil#file_open.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#file_open.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/fcntl2.h'
+Lines executed:71.43% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#file_open.gcno###usr#include#x86_64-linux-gnu#bits#fcntl2.h.gcov'
+
+Lines executed:42.37% of 59

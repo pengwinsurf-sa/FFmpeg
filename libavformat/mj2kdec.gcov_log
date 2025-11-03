@@ -1,0 +1,12 @@
+Function 'mjpeg2000_probe'
+Lines executed:0.00% of 21
+
+File 'libavformat/mj2kdec.c'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mj2kdec.gcno##libavformat#mj2kdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mj2kdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 21

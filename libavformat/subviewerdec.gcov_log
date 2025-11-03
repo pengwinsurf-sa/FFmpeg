@@ -1,0 +1,22 @@
+Function 'subviewer_read_header'
+Lines executed:0.00% of 76
+
+Function 'read_ts'
+Lines executed:0.00% of 16
+
+Function 'subviewer_probe'
+Lines executed:0.00% of 8
+
+File 'libavformat/subviewerdec.c'
+Lines executed:0.00% of 94
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subviewerdec.gcno##libavformat#subviewerdec.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subviewerdec.gcno##libavutil#avstring.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subviewerdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 100

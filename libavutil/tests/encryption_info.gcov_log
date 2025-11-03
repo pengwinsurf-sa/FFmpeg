@@ -1,0 +1,27 @@
+Function 'main'
+Lines executed:0.00% of 4
+
+Function 'run_encryption_init_info_test'
+Lines executed:0.00% of 26
+
+Function 'create_init_info'
+Lines executed:0.00% of 21
+
+Function 'run_encryption_info_test'
+Lines executed:0.00% of 34
+
+Function 'compare_encryption_init_info'
+Lines executed:0.00% of 11
+
+Function 'compare_encryption_info'
+Lines executed:0.00% of 8
+
+File 'libavutil/tests/encryption_info.c'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#encryption_info.gcno##libavutil#tests#encryption_info.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#encryption_info.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 104

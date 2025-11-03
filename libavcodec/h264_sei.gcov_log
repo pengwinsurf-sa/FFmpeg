@@ -1,0 +1,72 @@
+Function 'ff_h264_sei_stereo_mode'
+Lines executed:0.00% of 23
+
+Function 'ff_h264_sei_decode'
+Lines executed:0.00% of 83
+
+Function 'decode_green_metadata'
+Lines executed:0.00% of 20
+
+Function 'decode_buffering_period'
+Lines executed:0.00% of 25
+
+Function 'decode_recovery_point'
+Lines executed:0.00% of 8
+
+Function 'decode_picture_timing'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_sei_process_picture_timing'
+Lines executed:0.00% of 47
+
+Function 'ff_h264_sei_uninit'
+Lines executed:0.00% of 11
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 11
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 15
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/h264_sei.c'
+Lines executed:0.00% of 183
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavcodec#h264_sei.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_sei.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 290

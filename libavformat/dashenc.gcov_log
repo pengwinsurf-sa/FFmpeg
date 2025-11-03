@@ -1,0 +1,148 @@
+Function 'dash_check_bitstream'
+Lines executed:0.00% of 14
+
+Function 'dash_write_trailer'
+Lines executed:0.00% of 30
+
+Function 'dash_write_packet'
+Lines executed:0.00% of 133
+
+Function 'dash_parse_prft'
+Lines executed:0.00% of 14
+
+Function 'dash_flush'
+Lines executed:0.00% of 91
+
+Function 'dashenc_delete_media_segments'
+Lines executed:0.00% of 9
+
+Function 'dashenc_delete_segment_file'
+Lines executed:0.00% of 14
+
+Function 'dashenc_delete_file'
+Lines executed:0.00% of 19
+
+Function 'update_stream_extradata'
+Lines executed:0.00% of 15
+
+Function 'find_index_range'
+Lines executed:0.00% of 17
+
+Function 'write_styp'
+Lines executed:0.00% of 10
+
+Function 'add_segment'
+Lines executed:0.00% of 25
+
+Function 'dash_write_header'
+Lines executed:0.00% of 10
+
+Function 'dash_init'
+Lines executed:0.00% of 235
+
+Function 'dict_copy_entry'
+Lines executed:0.00% of 5
+
+Function 'write_manifest'
+Lines executed:0.00% of 176
+
+Function 'parse_adaptation_sets'
+Lines executed:0.00% of 134
+
+Function 'adaptation_set_add_stream'
+Lines executed:0.00% of 16
+
+Function 'add_adaptation_set'
+Lines executed:0.00% of 18
+
+Function 'write_adaptation_set'
+Lines executed:0.00% of 73
+
+Function 'format_date'
+Lines executed:0.00% of 13
+
+Function 'write_time'
+Lines executed:0.00% of 14
+
+Function 'xmlescape'
+Lines executed:0.00% of 27
+
+Function 'output_segment_list'
+Lines executed:0.00% of 59
+
+Function 'dash_free'
+Lines executed:0.00% of 30
+
+Function 'flush_init_segment'
+Lines executed:0.00% of 10
+
+Function 'write_hls_media_playlist'
+Lines executed:0.00% of 52
+
+Function 'get_hls_playlist_name'
+Lines executed:0.00% of 5
+
+Function 'set_http_options'
+Lines executed:0.00% of 11
+
+Function 'flush_dynbuf'
+Lines executed:0.00% of 15
+
+Function 'set_codec_str'
+Lines executed:0.00% of 70
+
+Function 'set_vp9_codec_str'
+Lines executed:0.00% of 8
+
+Function 'init_segment_types'
+Lines executed:0.00% of 31
+
+Function 'handle_io_open_error'
+Lines executed:0.00% of 5
+
+Function 'dashenc_io_close'
+Lines executed:0.00% of 10
+
+Function 'dashenc_io_open'
+Lines executed:0.00% of 12
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavformat/dashenc.c'
+Lines executed:0.00% of 1406
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavformat#dashenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dashenc.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 1435

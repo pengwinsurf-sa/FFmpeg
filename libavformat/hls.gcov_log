@@ -1,0 +1,182 @@
+Function 'hls_probe'
+Lines executed:0.00% of 20
+
+Function 'hls_read_seek'
+Lines executed:0.00% of 50
+
+Function 'hls_read_packet'
+Lines executed:0.00% of 94
+
+Function 'compare_ts_with_wrapdetect'
+Lines executed:0.00% of 4
+
+Function 'fill_timing_for_id3_timestamped_stream'
+Lines executed:0.00% of 16
+
+Function 'recheck_discard_flags'
+Lines executed:0.00% of 30
+
+Function 'hls_read_header'
+Lines executed:0.00% of 176
+
+Function 'hls_close'
+Lines executed:0.00% of 10
+
+Function 'update_noheader_flag'
+Lines executed:0.00% of 11
+
+Function 'update_streams_from_subdemuxer'
+Lines executed:0.00% of 13
+
+Function 'set_stream_info_from_input_stream'
+Lines executed:0.00% of 11
+
+Function 'add_stream_to_programs'
+Lines executed:0.00% of 17
+
+Function 'select_cur_seq_no'
+Lines executed:0.00% of 36
+
+Function 'find_timestamp_in_playlist'
+Lines executed:0.00% of 17
+
+Function 'add_metadata_from_renditions'
+Lines executed:0.00% of 17
+
+Function 'add_renditions_to_variant'
+Lines executed:0.00% of 9
+
+Function 'read_subtitle_packet'
+Lines executed:0.00% of 20
+
+Function 'init_subtitle_context'
+Lines executed:0.00% of 22
+
+Function 'nested_io_open'
+Lines executed:0.00% of 3
+
+Function 'read_data_subtitle_segment'
+Lines executed:0.00% of 14
+
+Function 'read_data_continuous'
+Lines executed:0.00% of 71
+
+Function 'reload_playlist'
+Lines executed:0.00% of 39
+
+Function 'playlist_needed'
+Lines executed:0.00% of 15
+
+Function 'update_init_section'
+Lines executed:0.00% of 28
+
+Function 'open_input'
+Lines executed:0.00% of 41
+
+Function 'read_key'
+Lines executed:0.00% of 18
+
+Function 'intercept_id3'
+Lines executed:0.00% of 50
+
+Function 'handle_id3'
+Lines executed:0.00% of 25
+
+Function 'id3_has_changed_values'
+Lines executed:0.00% of 11
+
+Function 'parse_id3'
+Lines executed:0.00% of 19
+
+Function 'read_from_url'
+Lines executed:0.00% of 8
+
+Function 'parse_playlist'
+Lines executed:0.00% of 250
+
+Function 'test_segment'
+Lines executed:0.00% of 28
+
+Function 'open_url'
+Lines executed:0.00% of 49
+
+Function 'open_url_keepalive'
+Lines executed:0.00% of 9
+
+Function 'ensure_playlist'
+Lines executed:0.00% of 5
+
+Function 'handle_rendition_args'
+Lines executed:0.00% of 29
+
+Function 'new_rendition'
+Lines executed:0.00% of 51
+
+Function 'handle_init_section_args'
+Lines executed:0.00% of 8
+
+Function 'new_init_section'
+Lines executed:0.00% of 23
+
+Function 'handle_key_args'
+Lines executed:0.00% of 11
+
+Function 'handle_variant_args'
+Lines executed:0.00% of 14
+
+Function 'new_variant'
+Lines executed:0.00% of 17
+
+Function 'new_playlist'
+Lines executed:0.00% of 17
+
+Function 'free_rendition_list'
+Lines executed:0.00% of 7
+
+Function 'free_variant_list'
+Lines executed:0.00% of 9
+
+Function 'free_playlist_list'
+Lines executed:0.00% of 25
+
+Function 'free_init_section_list'
+Lines executed:0.00% of 9
+
+Function 'free_segment_list'
+Lines executed:0.00% of 5
+
+Function 'free_segment_dynarray'
+Lines executed:0.00% of 7
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavformat/hls.c'
+Lines executed:0.00% of 1471
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno##libavformat#hls.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-float.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno###usr#include#stdlib.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 1492

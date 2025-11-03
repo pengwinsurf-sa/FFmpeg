@@ -1,0 +1,14 @@
+Function 'dfpwm_enc_frame'
+Lines executed:0.00% of 10
+
+Function 'dfpwm_enc_init'
+Lines executed:0.00% of 8
+
+Function 'au_compress'
+Lines executed:0.00% of 23
+
+File 'libavcodec/dfpwmenc.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dfpwmenc.gcno##libavcodec#dfpwmenc.c.gcov'
+
+Lines executed:0.00% of 41

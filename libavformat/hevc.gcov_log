@@ -1,0 +1,116 @@
+Function 'ff_isom_write_lhvc'
+Lines executed:0.00% of 2
+
+Function 'ff_isom_write_hvcc'
+Lines executed:0.00% of 2
+
+Function 'write_configuration_record'
+Lines executed:0.00% of 118
+
+Function 'hvcc_parse_nal_unit'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_annexb2mp4_buf'
+Lines executed:0.00% of 11
+
+Function 'ff_hevc_annexb2mp4'
+Lines executed:0.00% of 31
+
+Function 'hvcc_write'
+Lines executed:0.00% of 112
+
+Function 'hvcc_init'
+Lines executed:0.00% of 10
+
+Function 'hvcc_add_nal_unit'
+Lines executed:0.00% of 43
+
+Function 'hvcc_array_add_nal_unit'
+Lines executed:0.00% of 11
+
+Function 'nal_unit_parse_header'
+Lines executed:0.00% of 8
+
+Function 'hvcc_parse_pps'
+Lines executed:0.00% of 28
+
+Function 'hvcc_parse_sps'
+Lines executed:0.00% of 82
+
+Function 'parse_rps'
+Lines executed:0.00% of 24
+
+Function 'skip_scaling_list_data'
+Lines executed:0.00% of 12
+
+Function 'hvcc_parse_vps'
+Lines executed:0.00% of 42
+
+Function 'hvcc_parse_vps_extension'
+Lines executed:0.00% of 39
+
+Function 'skip_sub_layer_ordering_info'
+Lines executed:0.00% of 5
+
+Function 'hvcc_parse_vui'
+Lines executed:0.00% of 34
+
+Function 'skip_timing_info'
+Lines executed:0.00% of 6
+
+Function 'skip_hrd_parameters'
+Lines executed:0.00% of 33
+
+Function 'skip_sub_layer_hrd_parameters'
+Lines executed:0.00% of 10
+
+Function 'hvcc_parse_ptl'
+Lines executed:0.00% of 38
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 10
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/hevc.c'
+Lines executed:0.00% of 649
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno##libavformat#hevc.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hevc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 771

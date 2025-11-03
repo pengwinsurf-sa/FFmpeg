@@ -1,0 +1,218 @@
+Function 'zoneplate_query_formats'
+Lines executed:0.00% of 4
+
+Function 'zoneplate_config_props'
+Lines executed:0.00% of 37
+
+Function 'zoneplate_fill_picture'
+Lines executed:0.00% of 5
+
+Function 'zoneplate_fill_slice_16'
+Lines executed:0.00% of 1
+
+Function 'zoneplate_fill_slice_14'
+Lines executed:0.00% of 1
+
+Function 'zoneplate_fill_slice_12'
+Lines executed:0.00% of 1
+
+Function 'zoneplate_fill_slice_10'
+Lines executed:0.00% of 1
+
+Function 'zoneplate_fill_slice_9'
+Lines executed:0.00% of 1
+
+Function 'zoneplate_fill_slice_8'
+Lines executed:0.00% of 1
+
+Function 'colorchart_init'
+Lines executed:0.00% of 10
+
+Function 'colorchart_fill_picture'
+Lines executed:0.00% of 18
+
+Function 'colorchart_config_props'
+Lines executed:0.00% of 6
+
+Function 'colorspectrum_init'
+Lines executed:0.00% of 5
+
+Function 'colorspectrum_fill_picture'
+Lines executed:0.00% of 21
+
+Function 'hsb2rgb'
+Lines executed:0.00% of 12
+
+Function 'allrgb_config_props'
+Lines executed:0.00% of 4
+
+Function 'allrgb_init'
+Lines executed:0.00% of 6
+
+Function 'allrgb_fill_picture'
+Lines executed:0.00% of 11
+
+Function 'allyuv_init'
+Lines executed:0.00% of 6
+
+Function 'allyuv_fill_picture'
+Lines executed:0.00% of 16
+
+Function 'smptehdbars_init'
+Lines executed:0.00% of 5
+
+Function 'smptehdbars_fill_picture'
+Lines executed:0.00% of 66
+
+Function 'smptebars_init'
+Lines executed:0.00% of 5
+
+Function 'smptebars_fill_picture'
+Lines executed:0.00% of 32
+
+Function 'pal100bars_init'
+Lines executed:0.00% of 5
+
+Function 'pal100bars_fill_picture'
+Lines executed:0.00% of 10
+
+Function 'pal75bars_init'
+Lines executed:0.00% of 5
+
+Function 'pal75bars_fill_picture'
+Lines executed:0.00% of 12
+
+Function 'smptebars_query_formats'
+Lines executed:0.00% of 8
+
+Function 'draw_bar'
+Lines executed:0.00% of 29
+
+Function 'yuvtest_config_props'
+Lines executed:0.00% of 4
+
+Function 'yuvtest_init'
+Lines executed:0.00% of 5
+
+Function 'yuvtest_fill_picture'
+Lines executed:0.00% of 16
+
+Function 'yuvtest_put_pixel'
+Lines executed:0.00% of 59
+
+Function 'rgbtest_config_props'
+Lines executed:0.00% of 6
+
+Function 'rgbtest_init'
+Lines executed:0.00% of 5
+
+Function 'rgbtest_fill_picture'
+Lines executed:0.00% of 13
+
+Function 'rgbtest_fill_picture_complement'
+Lines executed:0.00% of 16
+
+Function 'rgbtest_put_pixel'
+Lines executed:0.00% of 71
+
+Function 'test2_config_props'
+Lines executed:0.00% of 8
+
+Function 'test2_query_formats'
+Lines executed:0.00% of 2
+
+Function 'test2_init'
+Lines executed:0.00% of 4
+
+Function 'test2_fill_picture'
+Lines executed:0.00% of 126
+
+Function 'draw_text'
+Lines executed:0.00% of 11
+
+Function 'color_gradient'
+Lines executed:0.00% of 10
+
+Function 'test_init'
+Lines executed:0.00% of 4
+
+Function 'test_fill_picture'
+Lines executed:0.00% of 89
+
+Function 'draw_digit'
+Lines executed:0.00% of 11
+
+Function 'draw_rectangle'
+Lines executed:0.00% of 10
+
+Function 'nullsrc_init'
+Lines executed:0.00% of 4
+
+Function 'nullsrc_fill_picture'
+Lines executed:0.00% of 1
+
+Function 'haldclutsrc_config_props'
+Lines executed:0.00% of 5
+
+Function 'haldclutsrc_init'
+Lines executed:0.00% of 5
+
+Function 'haldclutsrc_fill_picture'
+Lines executed:0.00% of 48
+
+Function 'color_process_command'
+Lines executed:0.00% of 8
+
+Function 'color_config_props'
+Lines executed:0.00% of 12
+
+Function 'color_query_formats'
+Lines executed:0.00% of 2
+
+Function 'color_init'
+Lines executed:0.00% of 5
+
+Function 'color_fill_picture'
+Lines executed:0.00% of 5
+
+Function 'activate'
+Lines executed:0.00% of 34
+
+Function 'config_props'
+No executable lines
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 11
+
+File 'libavfilter/vsrc_testsrc.c'
+Lines executed:0.00% of 931
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno##libavfilter#vsrc_testsrc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno##libavutil#ffmath.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_testsrc.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 959

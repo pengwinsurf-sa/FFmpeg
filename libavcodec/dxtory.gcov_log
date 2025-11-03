@@ -1,0 +1,92 @@
+Function 'decode_frame'
+Lines executed:0.00% of 67
+
+Function 'dx2_decode_slice_444'
+Lines executed:0.00% of 22
+
+Function 'dx2_decode_slice_420'
+Lines executed:0.00% of 42
+
+Function 'dx2_decode_slice_410'
+Lines executed:0.00% of 46
+
+Function 'default_setup_lru'
+Lines executed:0.00% of 7
+
+Function 'dx2_decode_slice_rgb'
+Lines executed:0.00% of 12
+
+Function 'dx2_decode_slice_565'
+Lines executed:0.00% of 18
+
+Function 'dx2_decode_slice_555'
+Lines executed:0.00% of 2
+
+Function 'setup_lru_565'
+Lines executed:0.00% of 5
+
+Function 'setup_lru_555'
+Lines executed:0.00% of 5
+
+Function 'dxtory_decode_v2'
+Lines executed:0.00% of 52
+
+Function 'decode_sym_565'
+Lines executed:0.00% of 37
+
+Function 'load_buffer'
+Lines executed:0.00% of 16
+
+Function 'check_slice_size'
+Lines executed:0.00% of 11
+
+Function 'decode_sym'
+Lines executed:0.00% of 10
+
+Function 'dxtory_decode_v1_444'
+Lines executed:0.00% of 26
+
+Function 'dxtory_decode_v1_420'
+Lines executed:0.00% of 52
+
+Function 'dxtory_decode_v1_410'
+Lines executed:0.00% of 73
+
+Function 'dxtory_decode_v1_rgb'
+Lines executed:0.00% of 17
+
+Function 'do_vflip'
+Lines executed:0.00% of 28
+
+Function 'get_raw_size'
+Lines executed:0.00% of 5
+
+File 'libavcodec/dxtory.c'
+Lines executed:0.00% of 493
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno##libavcodec#dxtory.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dxtory.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 553

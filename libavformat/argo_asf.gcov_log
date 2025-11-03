@@ -1,0 +1,51 @@
+Function 'argo_asf_write_trailer'
+Lines executed:0.00% of 7
+
+Function 'argo_asf_write_packet'
+Lines executed:0.00% of 9
+
+Function 'argo_asf_write_header'
+Lines executed:0.00% of 35
+
+Function 'argo_asf_write_chunk_header'
+Lines executed:0.00% of 8
+
+Function 'argo_asf_write_file_header'
+Lines executed:0.00% of 8
+
+Function 'argo_asf_write_init'
+Lines executed:0.00% of 16
+
+Function 'argo_asf_seek'
+Lines executed:0.00% of 12
+
+Function 'argo_asf_read_packet'
+Lines executed:0.00% of 16
+
+Function 'argo_asf_read_header'
+Lines executed:0.00% of 19
+
+Function 'argo_asf_probe'
+Lines executed:0.00% of 10
+
+Function 'ff_argo_asf_fill_stream'
+Lines executed:0.00% of 28
+
+Function 'ff_argo_asf_parse_chunk_header'
+Lines executed:0.00% of 8
+
+Function 'ff_argo_asf_validate_file_header'
+Lines executed:0.00% of 4
+
+Function 'ff_argo_asf_parse_file_header'
+Lines executed:0.00% of 9
+
+File 'libavformat/argo_asf.c'
+Lines executed:0.00% of 187
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#argo_asf.gcno##libavformat#argo_asf.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#argo_asf.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 189

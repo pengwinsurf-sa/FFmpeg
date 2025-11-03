@@ -1,0 +1,22 @@
+Function 'data_read'
+Lines executed:0.00% of 9
+
+Function 'data_close'
+Lines executed:0.00% of 4
+
+Function 'data_open'
+Lines executed:0.00% of 39
+
+File 'libavformat/data_uri.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#data_uri.gcno##libavformat#data_uri.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#data_uri.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#data_uri.gcno##libavutil#avutil.h.gcov'
+
+Lines executed:0.00% of 52

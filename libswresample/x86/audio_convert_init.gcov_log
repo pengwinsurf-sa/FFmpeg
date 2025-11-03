@@ -1,0 +1,8 @@
+Function 'swri_audio_convert_init_x86'
+Lines executed:0.00% of 104
+
+File 'libswresample/x86/audio_convert_init.c'
+Lines executed:0.00% of 104
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#x86#audio_convert_init.gcno##libswresample#x86#audio_convert_init.c.gcov'
+
+Lines executed:0.00% of 104

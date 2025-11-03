@@ -1,0 +1,54 @@
+Function 'checkasm_check_hevc_pel'
+Lines executed:100.00% of 12
+
+Function 'checkasm_check_hevc_epel_bi_w'
+Lines executed:87.23% of 47
+
+Function 'checkasm_check_hevc_epel_bi'
+Lines executed:100.00% of 31
+
+Function 'checkasm_check_hevc_epel_uni_w'
+Lines executed:100.00% of 33
+
+Function 'checkasm_check_hevc_epel_uni'
+Lines executed:100.00% of 29
+
+Function 'checkasm_check_hevc_epel'
+Lines executed:100.00% of 29
+
+Function 'checkasm_check_hevc_qpel_bi_w'
+Lines executed:100.00% of 35
+
+Function 'checkasm_check_hevc_qpel_bi'
+Lines executed:100.00% of 31
+
+Function 'checkasm_check_hevc_qpel_uni_w'
+Lines executed:100.00% of 33
+
+Function 'checkasm_check_hevc_qpel_uni'
+Lines executed:100.00% of 29
+
+Function 'checkasm_check_hevc_qpel'
+Lines executed:100.00% of 29
+
+File 'tests/checkasm/hevc_pel.c'
+Lines executed:100.00% of 326
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_pel.gcno##tests#checkasm#hevc_pel.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_pel.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_pel.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_pel.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_pel.gcno##libavutil#emms.h.gcov'
+
+Lines executed:98.22% of 338

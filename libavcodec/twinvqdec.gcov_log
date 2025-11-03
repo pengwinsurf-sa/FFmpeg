@@ -1,0 +1,52 @@
+Function 'twinvq_decode_init'
+Lines executed:0.00% of 78
+
+Function 'twinvq_read_bitstream'
+Lines executed:0.00% of 75
+
+Function 'read_cb_data'
+Lines executed:0.00% of 7
+
+Function 'dec_bark_env'
+Lines executed:0.00% of 22
+
+Function 'decode_ppc'
+Lines executed:0.00% of 19
+
+Function 'add_peak'
+Lines executed:0.00% of 14
+
+Function 'very_broken_op'
+Lines executed:0.00% of 10
+
+Function 'twinvq_mulawinv'
+Lines executed:0.00% of 5
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/twinvqdec.c'
+Lines executed:0.00% of 187
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvqdec.gcno##libavcodec#twinvqdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvqdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvqdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/twinvq.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvqdec.gcno##libavcodec#twinvq.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvqdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvqdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 247

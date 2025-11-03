@@ -1,0 +1,38 @@
+Function 'av_audio_fifo_space'
+Lines executed:0.00% of 2
+
+Function 'av_audio_fifo_size'
+Lines executed:0.00% of 2
+
+Function 'av_audio_fifo_reset'
+Lines executed:0.00% of 6
+
+Function 'av_audio_fifo_drain'
+Lines executed:0.00% of 9
+
+Function 'av_audio_fifo_read'
+Lines executed:0.00% of 10
+
+Function 'av_audio_fifo_peek_at'
+Lines executed:0.00% of 11
+
+Function 'av_audio_fifo_peek'
+Lines executed:0.00% of 2
+
+Function 'av_audio_fifo_write'
+Lines executed:0.00% of 12
+
+Function 'av_audio_fifo_realloc'
+Lines executed:0.00% of 11
+
+Function 'av_audio_fifo_alloc'
+Lines executed:0.00% of 22
+
+Function 'av_audio_fifo_free'
+Lines executed:0.00% of 8
+
+File 'libavutil/audio_fifo.c'
+Lines executed:0.00% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#audio_fifo.gcno##libavutil#audio_fifo.c.gcov'
+
+Lines executed:0.00% of 95

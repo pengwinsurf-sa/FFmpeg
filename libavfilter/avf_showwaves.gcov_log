@@ -1,0 +1,120 @@
+Function 'showwavespic_filter_frame'
+Lines executed:0.00% of 26
+
+Function 'showwavespic_config_input'
+Lines executed:0.00% of 6
+
+Function 'activate'
+Lines executed:0.00% of 23
+
+Function 'showwaves_filter_frame'
+Lines executed:0.00% of 59
+
+Function 'init'
+Lines executed:0.00% of 6
+
+Function 'alloc_out_frame'
+Lines executed:0.00% of 11
+
+Function 'request_frame'
+Lines executed:0.00% of 8
+
+Function 'push_single_pic'
+Lines executed:0.00% of 47
+
+Function 'push_frame'
+Lines executed:0.00% of 14
+
+Function 'config_output'
+Lines executed:0.00% of 93
+
+Function 'draw_sample_cline_gray'
+Lines executed:0.00% of 7
+
+Function 'draw_sample_p2p_gray'
+Lines executed:0.00% of 16
+
+Function 'draw_sample_line_gray'
+Lines executed:0.00% of 9
+
+Function 'draw_sample_point_gray'
+Lines executed:0.00% of 4
+
+Function 'draw_sample_cline_rgba_full'
+Lines executed:0.00% of 8
+
+Function 'draw_sample_cline_rgba_scale'
+Lines executed:0.00% of 10
+
+Function 'draw_sample_p2p_rgba_full'
+Lines executed:0.00% of 15
+
+Function 'draw_sample_p2p_rgba_scale'
+Lines executed:0.00% of 20
+
+Function 'draw_sample_line_rgba_full'
+Lines executed:0.00% of 11
+
+Function 'draw_sample_line_rgba_scale'
+Lines executed:0.00% of 13
+
+Function 'draw_sample_point_rgba_full'
+Lines executed:0.00% of 5
+
+Function 'draw_sample_point_rgba_scale'
+Lines executed:0.00% of 7
+
+Function 'get_cbrt_h2'
+Lines executed:0.00% of 2
+
+Function 'get_cbrt_h'
+Lines executed:0.00% of 2
+
+Function 'get_sqrt_h2'
+Lines executed:0.00% of 2
+
+Function 'get_sqrt_h'
+Lines executed:0.00% of 2
+
+Function 'get_log_h2'
+Lines executed:0.00% of 2
+
+Function 'get_log_h'
+Lines executed:0.00% of 2
+
+Function 'get_lin_h2'
+Lines executed:0.00% of 2
+
+Function 'get_lin_h'
+Lines executed:0.00% of 2
+
+Function 'query_formats'
+Lines executed:0.00% of 9
+
+Function 'uninit'
+Lines executed:0.00% of 16
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavfilter/avf_showwaves.c'
+Lines executed:0.00% of 444
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showwaves.gcno##libavfilter#avf_showwaves.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showwaves.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showwaves.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showwaves.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showwaves.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 464

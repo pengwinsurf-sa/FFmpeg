@@ -1,0 +1,20 @@
+Function 'main'
+Lines executed:0.00% of 177
+
+File 'libswscale/tests/floatimg_cmp.c'
+Lines executed:0.00% of 162
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#floatimg_cmp.gcno##libswscale#tests#floatimg_cmp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#floatimg_cmp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#floatimg_cmp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#floatimg_cmp.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 177

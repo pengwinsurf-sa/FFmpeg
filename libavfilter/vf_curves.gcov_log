@@ -1,0 +1,59 @@
+Function 'curves_uninit'
+Lines executed:0.00% of 6
+
+Function 'process_command'
+Lines executed:0.00% of 26
+
+Function 'filter_frame'
+Lines executed:0.00% of 20
+
+Function 'config_input'
+Lines executed:0.00% of 45
+
+Function 'filter_slice_planar'
+Lines executed:0.00% of 54
+
+Function 'filter_slice_packed'
+Lines executed:0.00% of 36
+
+Function 'curves_init'
+Lines executed:0.00% of 20
+
+Function 'dump_curves'
+Lines executed:0.00% of 39
+
+Function 'parse_psfile'
+Lines executed:0.00% of 36
+
+Function 'interpolate_pchip'
+Lines executed:0.00% of 88
+
+Function 'pchip_find_derivatives'
+Lines executed:0.00% of 21
+
+Function 'pchip_edge_case'
+Lines executed:0.00% of 9
+
+Function 'interpolate'
+Lines executed:0.00% of 74
+
+Function 'parse_points_str'
+Lines executed:0.00% of 30
+
+File 'libavfilter/vf_curves.c'
+Lines executed:0.00% of 493
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_curves.gcno##libavfilter#vf_curves.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_curves.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_curves.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_curves.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 504

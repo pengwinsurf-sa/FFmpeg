@@ -1,0 +1,36 @@
+Function 'rtmp_http_open'
+Lines executed:0.00% of 47
+
+Function 'rtmp_http_close'
+Lines executed:0.00% of 15
+
+Function 'rtmp_http_read'
+Lines executed:0.00% of 23
+
+Function 'rtmp_http_write'
+Lines executed:0.00% of 14
+
+Function 'rtmp_http_send_cmd'
+Lines executed:0.00% of 13
+
+File 'libavformat/rtmphttp.c'
+Lines executed:0.00% of 104
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmphttp.gcno##libavformat#rtmphttp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmphttp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmphttp.gcno##libavformat#url.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmphttp.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmphttp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 112

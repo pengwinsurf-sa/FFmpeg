@@ -1,0 +1,24 @@
+Function 'avtextwriter_create_stdout'
+Lines executed:0.00% of 4
+
+Function 'stdout_vprintf'
+Lines executed:0.00% of 5
+
+Function 'stdout_put_str'
+Lines executed:0.00% of 5
+
+Function 'stdout_w8'
+Lines executed:0.00% of 3
+
+Function 'stdoutwriter_get_name'
+Lines executed:0.00% of 2
+
+File 'fftools/textformat/tw_stdout.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tw_stdout.gcno##fftools#textformat#tw_stdout.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tw_stdout.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 19

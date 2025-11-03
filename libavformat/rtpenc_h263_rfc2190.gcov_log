@@ -1,0 +1,46 @@
+Function 'ff_rtp_send_h263_rfc2190'
+Lines executed:0.00% of 78
+
+Function 'send_mode_b'
+Lines executed:0.00% of 37
+
+Function 'send_mode_a'
+Lines executed:0.00% of 21
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/rtpenc_h263_rfc2190.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263_rfc2190.gcno##libavformat#rtpenc_h263_rfc2190.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263_rfc2190.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263_rfc2190.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263_rfc2190.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263_rfc2190.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h263_rfc2190.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 188

@@ -1,0 +1,54 @@
+Function 'rv10_decode_frame'
+Lines executed:0.00% of 50
+
+Function 'rv10_decode_packet'
+Lines executed:0.00% of 96
+
+Function 'rv10_decode_init'
+Lines executed:0.00% of 42
+
+Function 'rv10_init_static'
+Lines executed:0.00% of 10
+
+Function 'rv10_build_vlc'
+Lines executed:0.00% of 14
+
+Function 'rv20_decode_picture_header'
+Lines executed:0.00% of 105
+
+Function 'rv10_decode_picture_header'
+Lines executed:0.00% of 33
+
+Function 'ff_rv_decode_dc'
+Lines executed:0.00% of 22
+
+Function 'ff_update_block_index'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/rv10.c'
+Lines executed:0.00% of 326
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv10.gcno##libavcodec#rv10.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv10.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv10.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv10.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mpegvideo.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv10.gcno##libavcodec#mpegvideo.h.gcov'
+
+Lines executed:0.00% of 402

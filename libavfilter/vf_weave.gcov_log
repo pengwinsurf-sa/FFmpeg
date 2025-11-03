@@ -1,0 +1,23 @@
+Function 'init'
+Lines executed:0.00% of 5
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+Function 'weave_slice'
+Lines executed:0.00% of 27
+
+Function 'config_props_output'
+Lines executed:0.00% of 22
+
+Function 'query_formats'
+Lines executed:0.00% of 3
+
+File 'libavfilter/vf_weave.c'
+Lines executed:0.00% of 90
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_weave.gcno##libavfilter#vf_weave.c.gcov'
+
+Lines executed:0.00% of 90

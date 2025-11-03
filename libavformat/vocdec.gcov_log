@@ -1,0 +1,17 @@
+Function 'voc_read_seek'
+Lines executed:0.00% of 21
+
+Function 'voc_read_packet'
+Lines executed:0.00% of 6
+
+Function 'voc_read_header'
+Lines executed:0.00% of 13
+
+Function 'voc_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/vocdec.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vocdec.gcno##libavformat#vocdec.c.gcov'
+
+Lines executed:0.00% of 47

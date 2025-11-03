@@ -1,0 +1,11 @@
+Function 'v408_encode_frame'
+Lines executed:0.00% of 23
+
+Function 'v408_encode_init'
+Lines executed:0.00% of 5
+
+File 'libavcodec/v408enc.c'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v408enc.gcno##libavcodec#v408enc.c.gcov'
+
+Lines executed:0.00% of 28

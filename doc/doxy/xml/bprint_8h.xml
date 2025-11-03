@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="bprint_8h" kind="file" language="C++">
+    <compoundname>bprint.h</compoundname>
+    <includes local="no">stdarg.h</includes>
+    <includes refid="attributes_8h" local="yes">attributes.h</includes>
+    <includes refid="avstring_8h" local="yes">avstring.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4">
+        <label>avstring.h</label>
+        <link refid="avstring_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/bprint.h</label>
+        <link refid="bprint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdarg.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVBPrint" prot="public">AVBPrint</innerclass>
+    <sectiondef kind="user-defined">
+      <header>Max size special values</header>
+      <description><para>Convenience macros for special values for <ref refid="group__lavu__avbprint_1ga26abc84daea3189592c511fc26067d66" kindref="member">av_bprint_init()</ref> size_max parameter. </para>
+</description>
+      <member refid="group__lavu__avbprint_1ga01aefbce0615a828eae24135a9b35c45" kind="define"><name>AV_BPRINT_SIZE_UNLIMITED</name></member>
+      <member refid="group__lavu__avbprint_1ga0e07836126dff024ac10acbc744ebe8f" kind="define"><name>AV_BPRINT_SIZE_AUTOMATIC</name></member>
+      <member refid="group__lavu__avbprint_1ga5764f3aa498fb83dafdebadf7e77d5fa" kind="define"><name>AV_BPRINT_SIZE_COUNT_ONLY</name></member>
+    </sectiondef>
+    <sectiondef kind="define">
+      <member refid="group__lavu__avbprint_1ga89675bde26f19bdd3775f9085a96ea05" kind="define"><name>FF_PAD_STRUCTURE</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__avbprint_1ga26abc84daea3189592c511fc26067d66" kind="function"><name>av_bprint_init</name></member>
+      <member refid="group__lavu__avbprint_1gaf70c16532f4ba50c599e4eaa67a1d63b" kind="function"><name>av_bprint_init_for_buffer</name></member>
+      <member refid="group__lavu__avbprint_1gaa2e89377fd7c92db534f29caff1af209" kind="function"><name>av_bprintf</name></member>
+      <member refid="group__lavu__avbprint_1gae24ca62b5e2ba99651636c04b61240f1" kind="function"><name>av_vbprintf</name></member>
+      <member refid="group__lavu__avbprint_1gaabc9a9d58de61dd824e625d59a7531bb" kind="function"><name>av_bprint_chars</name></member>
+      <member refid="group__lavu__avbprint_1gaa215ba46a975d996e483cf0b9dcc85e5" kind="function"><name>av_bprint_append_data</name></member>
+      <member refid="group__lavu__avbprint_1ga4896e4efea5b234507bcbba45ca0397b" kind="function"><name>av_bprint_strftime</name></member>
+      <member refid="group__lavu__avbprint_1ga32f3999614d90e082602d54a3c5237d6" kind="function"><name>av_bprint_get_buffer</name></member>
+      <member refid="group__lavu__avbprint_1gab1c28dbff5990dbd37e6c00e3d7c438b" kind="function"><name>av_bprint_clear</name></member>
+      <member refid="group__lavu__avbprint_1ga07432f704c49a6fa636197e2aa80bac0" kind="function"><name>av_bprint_is_complete</name></member>
+      <member refid="group__lavu__avbprint_1ga3fd45f50d9d4f7cc8fed5331a37f47ea" kind="function"><name>av_bprint_finalize</name></member>
+      <member refid="group__lavu__avbprint_1ga14ec58eeaa6d4a3571cd9f0ffb873e62" kind="function"><name>av_bprint_escape</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="structAVBPrint" kindref="compound">AVBPrint</ref> public header. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2012<sp/>Nicolas<sp/>George</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_avbprint</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>AVBPrint<sp/>public<sp/>header</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_BPRINT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_BPRINT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdarg.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="attributes_8h" kindref="compound">attributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avstring_8h" kindref="compound">avstring.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_avbprint<sp/>AVBPrint</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_data</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>A<sp/>buffer<sp/>to<sp/>print<sp/>data<sp/>progressively</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="43"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>Define<sp/>a<sp/>structure<sp/>with<sp/>extra<sp/>padding<sp/>to<sp/>a<sp/>fixed<sp/>size</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>This<sp/>helps<sp/>ensuring<sp/>binary<sp/>compatibility<sp/>with<sp/>future<sp/>versions.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__lavu__avbprint_1ga89675bde26f19bdd3775f9085a96ea05" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FF_PAD_STRUCTURE(name,<sp/>size,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor">struct<sp/>ff_pad_helper_##name<sp/>{<sp/>__VA_ARGS__<sp/>};<sp/>\</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor">typedef<sp/>struct<sp/>name<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>__VA_ARGS__<sp/>\</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>char<sp/>reserved_padding[size<sp/>-<sp/>sizeof(struct<sp/>ff_pad_helper_##name)];<sp/>\</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor">}<sp/>name;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Buffer<sp/>to<sp/>print<sp/>data<sp/>progressively</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>The<sp/>string<sp/>buffer<sp/>grows<sp/>as<sp/>necessary<sp/>and<sp/>is<sp/>always<sp/>0-terminated.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>The<sp/>content<sp/>of<sp/>the<sp/>string<sp/>is<sp/>never<sp/>accessed,<sp/>and<sp/>thus<sp/>is</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>encoding-agnostic<sp/>and<sp/>can<sp/>even<sp/>hold<sp/>binary<sp/>data.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>Small<sp/>buffers<sp/>are<sp/>kept<sp/>in<sp/>the<sp/>structure<sp/>itself,<sp/>and<sp/>thus<sp/>require<sp/>no</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>memory<sp/>allocation<sp/>at<sp/>all<sp/>(unless<sp/>the<sp/>contents<sp/>of<sp/>the<sp/>buffer<sp/>is<sp/>needed</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>after<sp/>the<sp/>structure<sp/>goes<sp/>out<sp/>of<sp/>scope).<sp/>This<sp/>is<sp/>almost<sp/>as<sp/>lightweight<sp/>as</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*<sp/>declaring<sp/>a<sp/>local<sp/>`char<sp/>buf[512]`.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>The<sp/>length<sp/>of<sp/>the<sp/>string<sp/>can<sp/>go<sp/>beyond<sp/>the<sp/>allocated<sp/>size:<sp/>the<sp/>buffer<sp/>is</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>then<sp/>truncated,<sp/>but<sp/>the<sp/>functions<sp/>still<sp/>keep<sp/>account<sp/>of<sp/>the<sp/>actual<sp/>total</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>length.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>In<sp/>other<sp/>words,<sp/>AVBPrint.len<sp/>can<sp/>be<sp/>greater<sp/>than<sp/>AVBPrint.size<sp/>and<sp/>records</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>the<sp/>total<sp/>length<sp/>of<sp/>what<sp/>would<sp/>have<sp/>been<sp/>to<sp/>the<sp/>buffer<sp/>if<sp/>there<sp/>had<sp/>been</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>enough<sp/>memory.</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>Append<sp/>operations<sp/>do<sp/>not<sp/>need<sp/>to<sp/>be<sp/>tested<sp/>for<sp/>failure:<sp/>if<sp/>a<sp/>memory</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>allocation<sp/>fails,<sp/>data<sp/>stop<sp/>being<sp/>appended<sp/>to<sp/>the<sp/>buffer,<sp/>but<sp/>the<sp/>length</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*<sp/>is<sp/>still<sp/>updated.<sp/>This<sp/>situation<sp/>can<sp/>be<sp/>tested<sp/>with</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/>av_bprint_is_complete().</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>The<sp/>AVBPrint.size_max<sp/>field<sp/>determines<sp/>several<sp/>possible<sp/>behaviours:</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>-<sp/>`size_max<sp/>=<sp/>-1`<sp/>(=<sp/>`UINT_MAX`)<sp/>or<sp/>any<sp/>large<sp/>value<sp/>will<sp/>let<sp/>the<sp/>buffer<sp/>be</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/><sp/><sp/>reallocated<sp/>as<sp/>necessary,<sp/>with<sp/>an<sp/>amortized<sp/>linear<sp/>cost.</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>-<sp/>`size_max<sp/>=<sp/>0`<sp/>prevents<sp/>writing<sp/>anything<sp/>to<sp/>the<sp/>buffer:<sp/>only<sp/>the<sp/>total</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/><sp/><sp/>length<sp/>is<sp/>computed.<sp/>The<sp/>write<sp/>operations<sp/>can<sp/>then<sp/>possibly<sp/>be<sp/>repeated<sp/>in</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/><sp/><sp/>a<sp/>buffer<sp/>with<sp/>exactly<sp/>the<sp/>necessary<sp/>size</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(using<sp/>`size_init<sp/>=<sp/>size_max<sp/>=<sp/>len<sp/>+<sp/>1`).</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>-<sp/>`size_max<sp/>=<sp/>1`<sp/>is<sp/>automatically<sp/>replaced<sp/>by<sp/>the<sp/>exact<sp/>size<sp/>available<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/><sp/><sp/>structure<sp/>itself,<sp/>thus<sp/>ensuring<sp/>no<sp/>dynamic<sp/>memory<sp/>allocation.<sp/>The</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/><sp/><sp/>internal<sp/>buffer<sp/>is<sp/>large<sp/>enough<sp/>to<sp/>hold<sp/>a<sp/>reasonable<sp/>paragraph<sp/>of<sp/>text,</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/><sp/><sp/>such<sp/>as<sp/>the<sp/>current<sp/>paragraph.</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><ref refid="group__lavu__avbprint_1ga89675bde26f19bdd3775f9085a96ea05" kindref="member">FF_PAD_STRUCTURE</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref>,<sp/>1024,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>string<sp/>so<sp/>far<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>len;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>length<sp/>so<sp/>far<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>allocated<sp/>memory<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size_max;<sp/></highlight><highlight class="comment">/**&lt;<sp/>maximum<sp/>allocated<sp/>memory<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>reserved_internal_buffer[1];</highlight></codeline>
+<codeline lineno="99" refid="structAVBPrint_1a3a0057412726135dc19c191d1064acfa" refkind="member"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="101"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>@name<sp/>Max<sp/>size<sp/>special<sp/>values</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>Convenience<sp/>macros<sp/>for<sp/>special<sp/>values<sp/>for<sp/>av_bprint_init()<sp/>size_max</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>parameter.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="108"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>Buffer<sp/>will<sp/>be<sp/>reallocated<sp/>as<sp/>necessary,<sp/>with<sp/>an<sp/>amortized<sp/>linear<sp/>cost.</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__lavu__avbprint_1ga01aefbce0615a828eae24135a9b35c45" refkind="member"><highlight class="normal">#define<sp/><ref refid="group__lavu__avbprint_1ga01aefbce0615a828eae24135a9b35c45" kindref="member">AV_BPRINT_SIZE_UNLIMITED</ref><sp/><sp/>((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal">)-1)</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="112"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>Use<sp/>the<sp/>exact<sp/>size<sp/>available<sp/>in<sp/>the<sp/>AVBPrint<sp/>structure<sp/>itself.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>Thus<sp/>ensuring<sp/>no<sp/>dynamic<sp/>memory<sp/>allocation.<sp/>The<sp/>internal<sp/>buffer<sp/>is<sp/>large</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*<sp/>enough<sp/>to<sp/>hold<sp/>a<sp/>reasonable<sp/>paragraph<sp/>of<sp/>text,<sp/>such<sp/>as<sp/>the<sp/>current<sp/>paragraph.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="group__lavu__avbprint_1ga0e07836126dff024ac10acbc744ebe8f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_BPRINT_SIZE_AUTOMATIC<sp/><sp/>1</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="119"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>Do<sp/>not<sp/>write<sp/>anything<sp/>to<sp/>the<sp/>buffer,<sp/>only<sp/>calculate<sp/>the<sp/>total<sp/>length.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>The<sp/>write<sp/>operations<sp/>can<sp/>then<sp/>possibly<sp/>be<sp/>repeated<sp/>in<sp/>a<sp/>buffer<sp/>with</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>exactly<sp/>the<sp/>necessary<sp/>size<sp/>(using<sp/>`size_init<sp/>=<sp/>size_max<sp/>=<sp/>AVBPrint.len<sp/>+<sp/>1`).</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="group__lavu__avbprint_1ga5764f3aa498fb83dafdebadf7e77d5fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_BPRINT_SIZE_COUNT_ONLY<sp/>0</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="126"><highlight class="comment">/**<sp/>@}<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="128"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>Init<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>@param<sp/>buf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>to<sp/>init</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>@param<sp/>size_init<sp/><sp/>initial<sp/>size<sp/>(including<sp/>the<sp/>final<sp/>0)</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>@param<sp/>size_max<sp/><sp/><sp/>maximum<sp/>size;</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>`0`<sp/>means<sp/>do<sp/>not<sp/>write<sp/>anything,<sp/>just<sp/>count<sp/>the<sp/>length</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>`1`<sp/>is<sp/>replaced<sp/>by<sp/>the<sp/>maximum<sp/>value<sp/>for<sp/>automatic<sp/>storage</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>any<sp/>large<sp/>value<sp/>means<sp/>that<sp/>the<sp/>internal<sp/>buffer<sp/>will<sp/>be</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reallocated<sp/>as<sp/>needed<sp/>up<sp/>to<sp/>that<sp/>limit</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>`-1`<sp/>is<sp/>converted<sp/>to<sp/>`UINT_MAX`,<sp/>the<sp/>largest<sp/>limit<sp/>possible.</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Check<sp/>also<sp/>`AV_BPRINT_SIZE_*`<sp/>macros.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="group__lavu__avbprint_1ga26abc84daea3189592c511fc26067d66" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1ga26abc84daea3189592c511fc26067d66" kindref="member">av_bprint_init</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size_init,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size_max);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="143"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*<sp/>Init<sp/>a<sp/>print<sp/>buffer<sp/>using<sp/>a<sp/>pre-existing<sp/>buffer.</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>The<sp/>buffer<sp/>will<sp/>not<sp/>be<sp/>reallocated.</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>In<sp/>case<sp/>size<sp/>equals<sp/>zero,<sp/>the<sp/>AVBPrint<sp/>will<sp/>be<sp/>initialized<sp/>to<sp/>use</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>the<sp/>internal<sp/>buffer<sp/>as<sp/>if<sp/>using<sp/>AV_BPRINT_SIZE_COUNT_ONLY<sp/>with</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*<sp/>av_bprint_init().</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*<sp/>@param<sp/>buf<sp/><sp/><sp/><sp/><sp/>buffer<sp/>structure<sp/>to<sp/>init</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>@param<sp/>buffer<sp/><sp/>byte<sp/>buffer<sp/>to<sp/>use<sp/>for<sp/>the<sp/>string<sp/>data</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>@param<sp/>size<sp/><sp/><sp/><sp/>size<sp/>of<sp/>buffer</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="group__lavu__avbprint_1gaf70c16532f4ba50c599e4eaa67a1d63b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1gaf70c16532f4ba50c599e4eaa67a1d63b" kindref="member">av_bprint_init_for_buffer</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="157"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*<sp/>Append<sp/>a<sp/>formatted<sp/>string<sp/>to<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="group__lavu__avbprint_1gaa2e89377fd7c92db534f29caff1af209" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1gaa2e89377fd7c92db534f29caff1af209" kindref="member">av_bprintf</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...)<sp/><ref refid="attributes_8h_1a4b078d4b8e02c0f452ee1dcaa7d983d3" kindref="member">av_printf_format</ref>(2,<sp/>3);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="162"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*<sp/>Append<sp/>a<sp/>formatted<sp/>string<sp/>to<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="group__lavu__avbprint_1gae24ca62b5e2ba99651636c04b61240f1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1gae24ca62b5e2ba99651636c04b61240f1" kindref="member">av_vbprintf</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>va_list<sp/>vl_arg);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="167"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*<sp/>Append<sp/>char<sp/>c<sp/>n<sp/>times<sp/>to<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="group__lavu__avbprint_1gaabc9a9d58de61dd824e625d59a7531bb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1gaabc9a9d58de61dd824e625d59a7531bb" kindref="member">av_bprint_chars</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="172"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/>Append<sp/>data<sp/>to<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>*<sp/>@param<sp/>buf<sp/><sp/>bprint<sp/>buffer<sp/>to<sp/>use</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/>pointer<sp/>to<sp/>data</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*<sp/>@param<sp/>size<sp/>size<sp/>of<sp/>data</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="group__lavu__avbprint_1gaa215ba46a975d996e483cf0b9dcc85e5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1gaa215ba46a975d996e483cf0b9dcc85e5" kindref="member">av_bprint_append_data</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal">struct<sp/>tm;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="182"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>*<sp/>Append<sp/>a<sp/>formatted<sp/>date<sp/>and<sp/>time<sp/>to<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/>@param<sp/>buf<sp/><sp/>bprint<sp/>buffer<sp/>to<sp/>use</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*<sp/>@param<sp/>fmt<sp/><sp/>date<sp/>and<sp/>time<sp/>format<sp/>string,<sp/>see<sp/>strftime()</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/>*<sp/>@param<sp/>tm<sp/><sp/><sp/>broken-down<sp/>time<sp/>structure<sp/>to<sp/>translate</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/>@note<sp/>due<sp/>to<sp/>poor<sp/>design<sp/>of<sp/>the<sp/>standard<sp/>strftime<sp/>function,<sp/>it<sp/>may</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*<sp/>produce<sp/>poor<sp/>results<sp/>if<sp/>the<sp/>format<sp/>string<sp/>expands<sp/>to<sp/>a<sp/>very<sp/>long<sp/>text<sp/>and</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/>*<sp/>the<sp/>bprint<sp/>buffer<sp/>is<sp/>near<sp/>the<sp/>limit<sp/>stated<sp/>by<sp/>the<sp/>size_max<sp/>option.</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="group__lavu__avbprint_1ga4896e4efea5b234507bcbba45ca0397b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1ga4896e4efea5b234507bcbba45ca0397b" kindref="member">av_bprint_strftime</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>const<sp/>struct<sp/>tm<sp/>*tm);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="195"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>bytes<sp/>in<sp/>the<sp/>buffer<sp/>for<sp/>external<sp/>use.</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/>buf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>structure</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/>size<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>required<sp/>size</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>mem<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pointer<sp/>to<sp/>the<sp/>memory<sp/>area</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>actual_size<sp/><sp/>size<sp/>of<sp/>the<sp/>memory<sp/>area<sp/>after<sp/>allocation;</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>can<sp/>be<sp/>larger<sp/>or<sp/>smaller<sp/>than<sp/>size</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="group__lavu__avbprint_1ga32f3999614d90e082602d54a3c5237d6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1ga32f3999614d90e082602d54a3c5237d6" kindref="member">av_bprint_get_buffer</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**mem,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>*actual_size);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="207"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*<sp/>Reset<sp/>the<sp/>string<sp/>to<sp/>&quot;&quot;<sp/>but<sp/>keep<sp/>internal<sp/>allocated<sp/>data.</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="group__lavu__avbprint_1gab1c28dbff5990dbd37e6c00e3d7c438b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1gab1c28dbff5990dbd37e6c00e3d7c438b" kindref="member">av_bprint_clear</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="212"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*<sp/>Test<sp/>if<sp/>the<sp/>print<sp/>buffer<sp/>is<sp/>complete<sp/>(not<sp/>truncated).</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/>*<sp/>It<sp/>may<sp/>have<sp/>been<sp/>truncated<sp/>due<sp/>to<sp/>a<sp/>memory<sp/>allocation<sp/>failure</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/>*<sp/>or<sp/>the<sp/>size_max<sp/>limit<sp/>(compare<sp/>size<sp/>and<sp/>size_max<sp/>if<sp/>necessary).</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="group__lavu__avbprint_1ga07432f704c49a6fa636197e2aa80bac0" refkind="member"><highlight class="normal">static<sp/>inline<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1ga07432f704c49a6fa636197e2aa80bac0" kindref="member">av_bprint_is_complete</ref>(const<sp/><ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buf-&gt;<ref refid="structAVBPrint_1a3a0057412726135dc19c191d1064acfa" kindref="member">len</ref><sp/>&lt;<sp/>buf-&gt;<ref refid="structAVBPrint_1ae6026c4fe2d89f632340493fd94600e2" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="223"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*<sp/>Finalize<sp/>a<sp/>print<sp/>buffer.</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*<sp/>The<sp/>print<sp/>buffer<sp/>can<sp/>no<sp/>longer<sp/>be<sp/>used<sp/>afterwards,</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*<sp/>but<sp/>the<sp/>len<sp/>and<sp/>size<sp/>fields<sp/>are<sp/>still<sp/>valid.</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/>*<sp/>@arg[out]<sp/>ret_str<sp/><sp/>if<sp/>not<sp/>NULL,<sp/>used<sp/>to<sp/>return<sp/>a<sp/>permanent<sp/>copy<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>contents,<sp/>or<sp/>NULL<sp/>if<sp/>memory<sp/>allocation<sp/>fails;</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>NULL,<sp/>the<sp/>buffer<sp/>is<sp/>discarded<sp/>and<sp/>freed</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/>0<sp/>for<sp/>success<sp/>or<sp/>error<sp/>code<sp/>(probably<sp/>AVERROR(ENOMEM))</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="group__lavu__avbprint_1ga3fd45f50d9d4f7cc8fed5331a37f47ea" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1ga3fd45f50d9d4f7cc8fed5331a37f47ea" kindref="member">av_bprint_finalize</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*buf,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**ret_str);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="236"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/>*<sp/>Escape<sp/>the<sp/>content<sp/>in<sp/>src<sp/>and<sp/>append<sp/>it<sp/>to<sp/>dstbuf.</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*<sp/>@param<sp/>dstbuf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>already<sp/>inited<sp/>destination<sp/>bprint<sp/>buffer</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string<sp/>containing<sp/>the<sp/>text<sp/>to<sp/>escape</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*<sp/>@param<sp/>special_chars<sp/>string<sp/>containing<sp/>the<sp/>special<sp/>characters<sp/>which</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>need<sp/>to<sp/>be<sp/>escaped,<sp/>can<sp/>be<sp/>NULL</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/>*<sp/>@param<sp/>mode<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>escape<sp/>mode<sp/>to<sp/>employ,<sp/>see<sp/>AV_ESCAPE_MODE_*<sp/>macros.</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Any<sp/>unknown<sp/>value<sp/>for<sp/>mode<sp/>will<sp/>be<sp/>considered<sp/>equivalent<sp/>to</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AV_ESCAPE_MODE_BACKSLASH,<sp/>but<sp/>this<sp/>behaviour<sp/>can<sp/>change<sp/>without</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>notice.</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flags<sp/>which<sp/>control<sp/>how<sp/>to<sp/>escape,<sp/>see<sp/>AV_ESCAPE_FLAG_*<sp/>macros</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="group__lavu__avbprint_1ga14ec58eeaa6d4a3571cd9f0ffb873e62" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__avbprint_1ga14ec58eeaa6d4a3571cd9f0ffb873e62" kindref="member">av_bprint_escape</ref>(<ref refid="structAVBPrint" kindref="compound">AVBPrint</ref><sp/>*dstbuf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*special_chars,</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__string_1gaef885958293f07153383f99db573ff5a" kindref="member">AVEscapeMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="252"><highlight class="comment">/**<sp/>@}<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_BPRINT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/bprint.h"/>
+  </compounddef>
+</doxygen>

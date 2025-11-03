@@ -1,0 +1,59 @@
+Function 'ff_dca_exss_parse'
+Lines executed:0.00% of 114
+
+Function 'set_exss_offsets'
+Lines executed:0.00% of 33
+
+Function 'parse_descriptor'
+Lines executed:0.00% of 119
+
+Function 'parse_lbr_parameters'
+Lines executed:0.00% of 5
+
+Function 'parse_xll_parameters'
+Lines executed:0.00% of 11
+
+Function 'ff_dca_check_crc'
+Lines executed:0.00% of 6
+
+Function 'ff_dca_count_chs_for_mask'
+Lines executed:0.00% of 2
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/dca_exss.c'
+Lines executed:0.00% of 228
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavcodec#dca_exss.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/dcadec.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavcodec#dcadec.h.gcov'
+
+File 'libavcodec/dca.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavcodec#dca.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_exss.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 324

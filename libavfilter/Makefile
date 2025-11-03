@@ -188,6 +188,8 @@ OBJS-$(CONFIG_HILBERT_FILTER)                += asrc_hilbert.o
 OBJS-$(CONFIG_SINC_FILTER)                   += asrc_sinc.o
 OBJS-$(CONFIG_SINE_FILTER)                   += asrc_sine.o
 
+OBJS-$(CONFIG_WHISPER_FILTER)                += af_whisper.o
+
 OBJS-$(CONFIG_ANULLSINK_FILTER)              += asink_anullsink.o
 
 # video filters
@@ -237,6 +239,7 @@ OBJS-$(CONFIG_COLORBALANCE_FILTER)           += vf_colorbalance.o
 OBJS-$(CONFIG_COLORCHANNELMIXER_FILTER)      += vf_colorchannelmixer.o
 OBJS-$(CONFIG_COLORCONTRAST_FILTER)          += vf_colorcontrast.o
 OBJS-$(CONFIG_COLORCORRECT_FILTER)           += vf_colorcorrect.o
+OBJS-$(CONFIG_COLORDETECT_FILTER)            += vf_colordetect.o
 OBJS-$(CONFIG_COLORIZE_FILTER)               += vf_colorize.o
 OBJS-$(CONFIG_COLORKEY_FILTER)               += vf_colorkey.o
 OBJS-$(CONFIG_COLORKEY_OPENCL_FILTER)        += vf_colorkey_opencl.o opencl.o \
@@ -295,6 +298,7 @@ OBJS-$(CONFIG_DRAWBOX_FILTER)                += vf_drawbox.o
 OBJS-$(CONFIG_DRAWGRAPH_FILTER)              += f_drawgraph.o
 OBJS-$(CONFIG_DRAWGRID_FILTER)               += vf_drawbox.o
 OBJS-$(CONFIG_DRAWTEXT_FILTER)               += vf_drawtext.o textutils.o
+OBJS-$(CONFIG_DRAWVG_FILTER)                 += vf_drawvg.o textutils.o
 OBJS-$(CONFIG_EDGEDETECT_FILTER)             += vf_edgedetect.o edge_common.o
 OBJS-$(CONFIG_ELBG_FILTER)                   += vf_elbg.o
 OBJS-$(CONFIG_ENTROPY_FILTER)                += vf_entropy.o
@@ -355,7 +359,7 @@ OBJS-$(CONFIG_HYSTERESIS_FILTER)             += vf_hysteresis.o framesync.o
 OBJS-$(CONFIG_ICCDETECT_FILTER)              += vf_iccdetect.o fflcms2.o
 OBJS-$(CONFIG_ICCGEN_FILTER)                 += vf_iccgen.o fflcms2.o
 OBJS-$(CONFIG_IDENTITY_FILTER)               += vf_identity.o framesync.o
-OBJS-$(CONFIG_IDET_FILTER)                   += vf_idet.o
+OBJS-$(CONFIG_IDET_FILTER)                   += vf_idet.o vf_idetdsp.o
 OBJS-$(CONFIG_IL_FILTER)                     += vf_il.o
 OBJS-$(CONFIG_INFLATE_FILTER)                += vf_neighbor.o
 OBJS-$(CONFIG_INTERLACE_FILTER)              += vf_tinterlace.o
@@ -422,6 +426,7 @@ OBJS-$(CONFIG_OVERLAY_VAAPI_FILTER)          += vf_overlay_vaapi.o framesync.o v
 OBJS-$(CONFIG_OVERLAY_VULKAN_FILTER)         += vf_overlay_vulkan.o vulkan.o vulkan_filter.o
 OBJS-$(CONFIG_OWDENOISE_FILTER)              += vf_owdenoise.o
 OBJS-$(CONFIG_PAD_FILTER)                    += vf_pad.o
+OBJS-$(CONFIG_PAD_CUDA_FILTER)               += vf_pad_cuda.o vf_pad_cuda.ptx.o cuda/load_helper.o
 OBJS-$(CONFIG_PAD_OPENCL_FILTER)             += vf_pad_opencl.o opencl.o opencl/pad.o
 OBJS-$(CONFIG_PALETTEGEN_FILTER)             += vf_palettegen.o palette.o
 OBJS-$(CONFIG_PALETTEUSE_FILTER)             += vf_paletteuse.o framesync.o palette.o
@@ -433,6 +438,7 @@ OBJS-$(CONFIG_PIXDESCTEST_FILTER)            += vf_pixdesctest.o
 OBJS-$(CONFIG_PIXELIZE_FILTER)               += vf_pixelize.o
 OBJS-$(CONFIG_PIXSCOPE_FILTER)               += vf_datascope.o
 OBJS-$(CONFIG_PP7_FILTER)                    += vf_pp7.o qp_table.o
+OBJS-$(CONFIG_PREMULTIPLY_DYNAMIC_FILTER)    += vf_premultiply.o framesync.o
 OBJS-$(CONFIG_PREMULTIPLY_FILTER)            += vf_premultiply.o framesync.o
 OBJS-$(CONFIG_PREWITT_FILTER)                += vf_convolution.o
 OBJS-$(CONFIG_PREWITT_OPENCL_FILTER)         += vf_convolution_opencl.o opencl.o \
@@ -462,6 +468,7 @@ OBJS-$(CONFIG_ROBERTS_OPENCL_FILTER)         += vf_convolution_opencl.o opencl.o
 OBJS-$(CONFIG_ROTATE_FILTER)                 += vf_rotate.o
 OBJS-$(CONFIG_SAB_FILTER)                    += vf_sab.o
 OBJS-$(CONFIG_SCALE_FILTER)                  += vf_scale.o scale_eval.o framesync.o
+OBJS-$(CONFIG_SCALE_D3D11_FILTER)            += vf_scale_d3d11.o scale_eval.o
 OBJS-$(CONFIG_SCALE_CUDA_FILTER)             += vf_scale_cuda.o scale_eval.o \
                                                 vf_scale_cuda.ptx.o cuda/load_helper.o
 OBJS-$(CONFIG_SCALE_NPP_FILTER)              += vf_scale_npp.o scale_eval.o
@@ -603,6 +610,7 @@ OBJS-$(CONFIG_COLORSPECTRUM_FILTER)          += vsrc_testsrc.o
 OBJS-$(CONFIG_COREIMAGESRC_FILTER)           += vf_coreimage.o
 OBJS-$(CONFIG_DDAGRAB_FILTER)                += vsrc_ddagrab.o
 OBJS-$(CONFIG_FREI0R_SRC_FILTER)             += vf_frei0r.o
+OBJS-$(CONFIG_GFXCAPTURE_FILTER)             += vsrc_gfxcapture.o vsrc_gfxcapture_winrt.o
 OBJS-$(CONFIG_GRADIENTS_FILTER)              += vsrc_gradients.o
 OBJS-$(CONFIG_HALDCLUTSRC_FILTER)            += vsrc_testsrc.o
 OBJS-$(CONFIG_LIFE_FILTER)                   += vsrc_life.o
@@ -673,6 +681,8 @@ SKIPHEADERS-$(CONFIG_VULKAN)                 += vulkan_filter.h
 
 TOOLS     = graph2dot
 TESTPROGS = drawutils filtfmts formats integral
+
+TESTPROGS-$(CONFIG_DRAWVG_FILTER) += drawvg
 
 TOOLS-$(CONFIG_LIBZMQ) += zmqsend
 

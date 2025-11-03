@@ -1,0 +1,27 @@
+Function 'ini_print_int'
+Lines executed:0.00% of 3
+
+Function 'ini_print_str'
+Lines executed:0.00% of 8
+
+Function 'ini_print_section_header'
+Lines executed:0.00% of 31
+
+Function 'ini_escape_str'
+Lines executed:0.00% of 17
+
+Function 'writer_printf'
+Lines executed:0.00% of 6
+
+Function 'tf_get_section'
+Lines executed:0.00% of 5
+
+File 'fftools/textformat/tf_ini.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tf_ini.gcno##fftools#textformat#tf_ini.c.gcov'
+
+File 'fftools/textformat/tf_internal.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tf_ini.gcno##fftools#textformat#tf_internal.h.gcov'
+
+Lines executed:0.00% of 70

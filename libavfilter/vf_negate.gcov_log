@@ -1,0 +1,29 @@
+Function 'process_command'
+Lines executed:0.00% of 9
+
+Function 'filter_frame'
+Lines executed:0.00% of 20
+
+Function 'filter_slice'
+Lines executed:0.00% of 18
+
+Function 'config_input'
+Lines executed:0.00% of 63
+
+Function 'negate_packed16'
+Lines executed:0.00% of 13
+
+Function 'negate16'
+Lines executed:0.00% of 11
+
+Function 'negate_packed8'
+Lines executed:0.00% of 13
+
+Function 'negate8'
+Lines executed:0.00% of 7
+
+File 'libavfilter/vf_negate.c'
+Lines executed:0.00% of 154
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_negate.gcno##libavfilter#vf_negate.c.gcov'
+
+Lines executed:0.00% of 154

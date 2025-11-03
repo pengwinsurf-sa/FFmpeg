@@ -115,7 +115,7 @@ typedef struct AVVulkanDeviceContext {
 #if FF_API_VULKAN_FIXED_QUEUES
     /**
      * Queue family index for graphics operations, and the number of queues
-     * enabled for it. If unavaiable, will be set to -1. Not required.
+     * enabled for it. If unavailable, will be set to -1. Not required.
      * av_hwdevice_create() will attempt to find a dedicated queue for each
      * queue family, or pick the one with the least unrelated flags set.
      * Queue indices here may overlap if a queue has to share capabilities.
@@ -218,7 +218,8 @@ typedef struct AVVulkanFramesContext {
 
     /**
      * Defines extra usage of output frames. If non-zero, all flags MUST be
-     * supported by the VkFormat. Otherwise, will use supported flags amongst:
+     * supported by the VkFormat. Regardless, frames will always have the
+     * following usage flags enabled, if supported by the format:
      * - VK_IMAGE_USAGE_SAMPLED_BIT
      * - VK_IMAGE_USAGE_STORAGE_BIT
      * - VK_IMAGE_USAGE_TRANSFER_SRC_BIT

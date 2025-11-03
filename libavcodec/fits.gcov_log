@@ -1,0 +1,14 @@
+Function 'avpriv_fits_header_parse_line'
+Lines executed:0.00% of 83
+
+Function 'read_keyword_value'
+Lines executed:0.00% of 23
+
+Function 'avpriv_fits_header_init'
+Lines executed:0.00% of 14
+
+File 'libavcodec/fits.c'
+Lines executed:0.00% of 120
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fits.gcno##libavcodec#fits.c.gcov'
+
+Lines executed:0.00% of 120

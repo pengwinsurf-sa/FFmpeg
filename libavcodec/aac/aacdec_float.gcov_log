@@ -1,0 +1,119 @@
+Function 'ff_aac_decode_init_float'
+Lines executed:0.00% of 11
+
+Function 'aac_proc_init'
+Lines executed:0.00% of 8
+
+Function 'decode_cce'
+Lines executed:0.00% of 71
+
+Function 'decode_spectrum_and_dequant'
+Lines executed:0.00% of 151
+
+Function 'aac_dsp_init'
+Lines executed:0.00% of 17
+
+Function 'apply_prediction'
+Lines executed:0.00% of 70
+
+Function 'clip_output'
+Lines executed:0.00% of 2
+
+Function 'imdct_and_windowing_eld'
+Lines executed:0.00% of 41
+
+Function 'imdct_and_windowing_ld'
+Lines executed:0.00% of 14
+
+Function 'imdct_and_windowing_960'
+Lines executed:0.00% of 39
+
+Function 'imdct_and_windowing_768'
+Lines executed:0.00% of 39
+
+Function 'imdct_and_windowing'
+Lines executed:0.00% of 39
+
+Function 'update_ltp'
+Lines executed:0.00% of 27
+
+Function 'apply_ltp'
+Lines executed:0.00% of 21
+
+Function 'windowing_and_mdct_ltp'
+Lines executed:0.00% of 15
+
+Function 'apply_tns'
+Lines executed:0.00% of 37
+
+Function 'apply_intensity_stereo'
+Lines executed:0.00% of 22
+
+Function 'apply_mid_side_stereo'
+Lines executed:0.00% of 18
+
+Function 'dequant_scalefactors'
+Lines executed:0.00% of 21
+
+Function 'compute_lpc_coefs'
+Lines executed:0.00% of 28
+
+Function 'apply_independent_coupling'
+Lines executed:0.00% of 7
+
+Function 'apply_dependent_coupling'
+Lines executed:0.00% of 18
+
+Function 'VMUL4S'
+Lines executed:0.00% of 16
+
+Function 'VMUL4'
+Lines executed:0.00% of 7
+
+Function 'init_tables_float_fn'
+Lines executed:0.00% of 12
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/aac/aacdec_float.c'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#aac#aacdec_float.c.gcov'
+
+File 'libavcodec/aac/aacdec_proc_template.c'
+Lines executed:0.00% of 190
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#aac#aacdec_proc_template.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#x86#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/aac/aacdec_dsp_template.c'
+Lines executed:0.00% of 374
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#aac#aacdec_dsp_template.c.gcov'
+
+File 'libavcodec/aac/aacdec_float_prediction.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#aac#aacdec_float_prediction.h.gcov'
+
+File 'libavcodec/lpc_functions.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#lpc_functions.h.gcov'
+
+File 'libavcodec/aac/aacdec_float_coupling.h'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac#aacdec_float.gcno##libavcodec#aac#aacdec_float_coupling.h.gcov'
+
+Lines executed:0.00% of 761

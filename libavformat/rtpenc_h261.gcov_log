@@ -1,0 +1,12 @@
+Function 'ff_rtp_send_h261'
+Lines executed:0.00% of 29
+
+File 'libavformat/rtpenc_h261.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h261.gcno##libavformat#rtpenc_h261.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h261.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 29

@@ -1,0 +1,85 @@
+Function 'opus_encode_init'
+Lines executed:0.00% of 49
+
+Function 'opus_encode_end'
+Lines executed:0.00% of 12
+
+Function 'opus_encode_frame'
+Lines executed:0.00% of 30
+
+Function 'spawn_empty_frame'
+Lines executed:0.00% of 17
+
+Function 'opus_packet_assembler'
+Lines executed:0.00% of 17
+
+Function 'celt_encode_frame'
+Lines executed:0.00% of 35
+
+Function 'celt_quant_final'
+Lines executed:0.00% of 13
+
+Function 'celt_quant_fine'
+Lines executed:0.00% of 13
+
+Function 'celt_quant_coarse'
+Lines executed:0.00% of 26
+
+Function 'exp_quant_coarse'
+Lines executed:0.00% of 27
+
+Function 'celt_enc_quant_pfilter'
+Lines executed:0.00% of 22
+
+Function 'celt_enc_tf'
+Lines executed:0.00% of 18
+
+Function 'celt_frame_mdct'
+Lines executed:0.00% of 39
+
+Function 'celt_apply_preemph_filter'
+Lines executed:0.00% of 23
+
+Function 'celt_frame_setup_input'
+Lines executed:0.00% of 26
+
+Function 'opus_gen_toc'
+Lines executed:0.00% of 25
+
+Function 'opus_write_extradata'
+Lines executed:0.00% of 16
+
+Function 'ff_bufqueue_discard_all'
+Lines executed:0.00% of 5
+
+Function 'ff_bufqueue_get'
+Lines executed:0.00% of 7
+
+Function 'ff_bufqueue_add'
+Lines executed:0.00% of 8
+
+File 'libavcodec/opus/enc.c'
+Lines executed:0.00% of 379
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#enc.gcno##libavcodec#opus#enc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#enc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/bufferqueue.h'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#enc.gcno##libavfilter#bufferqueue.h.gcov'
+
+File 'libavcodec/opus/rc.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#enc.gcno##libavcodec#opus#rc.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#enc.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 428

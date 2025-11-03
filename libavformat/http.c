@@ -24,6 +24,7 @@
 #include "config.h"
 #include "config_components.h"
 
+#include <string.h>
 #include <time.h>
 #if CONFIG_ZLIB
 #include <zlib.h>
@@ -214,7 +215,7 @@ static int http_open_cnx_internal(URLContext *h, AVDictionary **options)
     const char *path, *proxy_path, *lower_proto = "tcp", *local_path;
     char *env_http_proxy, *env_no_proxy;
     char *hashmark;
-    char hostname[1024], hoststr[1024], proto[10];
+    char hostname[1024], hoststr[1024], proto[10], tmp_host[1024];
     char auth[1024], proxyauth[1024] = "";
     char path1[MAX_URL_SIZE], sanitized_path[MAX_URL_SIZE + 1];
     char buf[1024], urlbuf[MAX_URL_SIZE];
@@ -224,7 +225,14 @@ static int http_open_cnx_internal(URLContext *h, AVDictionary **options)
     av_url_split(proto, sizeof(proto), auth, sizeof(auth),
                  hostname, sizeof(hostname), &port,
                  path1, sizeof(path1), s->location);
-    ff_url_join(hoststr, sizeof(hoststr), NULL, NULL, hostname, port, NULL);
+
+    av_strlcpy(tmp_host, hostname, sizeof(tmp_host));
+    // In case of an IPv6 address, we need to strip the Zone ID,
+    // if any. We do it at the first % sign, as percent encoding
+    // can be used in the Zone ID itself.
+    if (strchr(tmp_host, ':'))
+        tmp_host[strcspn(tmp_host, "%")] = '\0';
+    ff_url_join(hoststr, sizeof(hoststr), NULL, NULL, tmp_host, port, NULL);
 
     env_http_proxy = getenv_utf8("http_proxy");
     proxy_path = s->http_proxy ? s->http_proxy : env_http_proxy;
@@ -1338,7 +1346,7 @@ static int get_cookies(HTTPContext *s, char **cookies, const char *path,
             }
         }
 
-        // if no domain in the cookie assume it appied to this request
+        // if no domain in the cookie assume it applied to this request
         if ((e = av_dict_get(cookie_params, "domain", NULL, 0)) && e->value) {
             // find the offset comparison is on the min domain (b.com, not a.b.com)
             int domain_offset = strlen(domain) - strlen(e->value);

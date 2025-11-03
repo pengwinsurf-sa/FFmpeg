@@ -1,0 +1,60 @@
+Function 'av_timecode_init_from_string'
+Lines executed:0.00% of 8
+
+Function 'av_timecode_init_from_components'
+Lines executed:0.00% of 17
+
+Function 'av_timecode_init'
+Lines executed:0.00% of 7
+
+Function 'av_timecode_check_frame_rate'
+Lines executed:0.00% of 7
+
+Function 'check_timecode'
+Lines executed:0.00% of 9
+
+Function 'av_timecode_make_mpeg_tc_string'
+Lines executed:0.00% of 9
+
+Function 'av_timecode_make_smpte_tc_string'
+Lines executed:0.00% of 2
+
+Function 'av_timecode_make_smpte_tc_string2'
+Lines executed:0.00% of 6
+
+Function 'av_timecode_make_string'
+Lines executed:0.00% of 20
+
+Function 'av_timecode_get_smpte'
+Lines executed:0.00% of 24
+
+Function 'av_timecode_get_smpte_from_framenum'
+Lines executed:0.00% of 12
+
+Function 'av_timecode_adjust_ntsc_framenum2'
+Lines executed:0.00% of 9
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavutil/timecode.c'
+Lines executed:0.00% of 123
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timecode.gcno##libavutil#timecode.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timecode.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timecode.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timecode.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timecode.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 135

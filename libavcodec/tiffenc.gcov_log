@@ -1,0 +1,38 @@
+Function 'encode_close'
+Lines executed:0.00% of 6
+
+Function 'encode_init'
+Lines executed:0.00% of 4
+
+Function 'encode_frame'
+Lines executed:0.00% of 207
+
+Function 'pack_yuv'
+Lines executed:0.00% of 21
+
+Function 'encode_strip'
+Lines executed:0.00% of 19
+
+Function 'add_entry'
+Lines executed:0.00% of 17
+
+Function 'check_size'
+Lines executed:0.00% of 5
+
+File 'libavcodec/tiffenc.c'
+Lines executed:0.00% of 269
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiffenc.gcno##libavcodec#tiffenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiffenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiffenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiffenc.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 279

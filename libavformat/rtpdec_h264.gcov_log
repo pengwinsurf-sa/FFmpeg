@@ -1,0 +1,47 @@
+Function 'parse_h264_sdp_line'
+Lines executed:0.00% of 10
+
+Function 'h264_close_context'
+Lines executed:0.00% of 2
+
+Function 'h264_handle_packet'
+Lines executed:0.00% of 37
+
+Function 'h264_handle_packet_fu_a'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_handle_frag_packet'
+Lines executed:0.00% of 14
+
+Function 'ff_h264_handle_aggregated_packet'
+Lines executed:0.00% of 30
+
+Function 'ff_h264_parse_framesize'
+Lines executed:0.00% of 17
+
+Function 'sdp_parse_fmtp_config_h264'
+Lines executed:0.00% of 20
+
+Function 'ff_h264_parse_sprop_parameter_sets'
+Lines executed:0.00% of 26
+
+Function 'parse_profile_level_id'
+Lines executed:0.00% of 20
+
+File 'libavformat/rtpdec_h264.c'
+Lines executed:0.00% of 182
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_h264.gcno##libavformat#rtpdec_h264.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_h264.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_h264.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_h264.gcno###usr#include#stdlib.h.gcov'
+
+Lines executed:0.00% of 191

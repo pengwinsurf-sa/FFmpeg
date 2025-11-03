@@ -1,0 +1,22 @@
+Function 'aix_read_packet'
+Lines executed:0.00% of 34
+
+Function 'aix_read_header'
+Lines executed:0.00% of 34
+
+Function 'aix_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/aixdec.c'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aixdec.gcno##libavformat#aixdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aixdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aixdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 75

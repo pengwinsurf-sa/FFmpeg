@@ -1,0 +1,18 @@
+Function 'ff_id3v1_read'
+Lines executed:0.00% of 15
+
+Function 'parse_tag'
+Lines executed:0.00% of 15
+
+Function 'get_string'
+Lines executed:0.00% of 18
+
+File 'libavformat/id3v1.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v1.gcno##libavformat#id3v1.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v1.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 48

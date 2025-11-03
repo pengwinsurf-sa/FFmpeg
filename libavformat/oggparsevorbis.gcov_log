@@ -1,0 +1,43 @@
+Function 'vorbis_packet'
+Lines executed:0.00% of 63
+
+Function 'vorbis_header'
+Lines executed:0.00% of 46
+
+Function 'vorbis_parse_header'
+Lines executed:0.00% of 32
+
+Function 'vorbis_update_metadata'
+Lines executed:0.00% of 15
+
+Function 'vorbis_cleanup'
+Lines executed:0.00% of 10
+
+Function 'fixup_vorbis_headers'
+Lines executed:0.00% of 24
+
+Function 'ff_vorbis_comment'
+Lines executed:0.00% of 25
+
+Function 'vorbis_parse_single_comment'
+Lines executed:0.00% of 34
+
+Function 'ff_vorbis_stream_comment'
+Lines executed:0.00% of 5
+
+Function 'ogm_chapter'
+Lines executed:0.00% of 15
+
+File 'libavformat/oggparsevorbis.c'
+Lines executed:0.00% of 263
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsevorbis.gcno##libavformat#oggparsevorbis.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsevorbis.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsevorbis.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 269

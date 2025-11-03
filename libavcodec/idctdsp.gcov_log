@@ -1,0 +1,54 @@
+Function 'ff_idctdsp_init'
+Lines executed:37.74% of 53
+
+Function 'ff_jref_idct1_add'
+Lines executed:0.00% of 6
+
+Function 'ff_jref_idct1_put'
+Lines executed:0.00% of 3
+
+Function 'ff_jref_idct2_add'
+Lines executed:0.00% of 4
+
+Function 'ff_jref_idct2_put'
+Lines executed:0.00% of 11
+
+Function 'ff_jref_idct4_add'
+Lines executed:0.00% of 4
+
+Function 'ff_jref_idct4_put'
+Lines executed:0.00% of 4
+
+Function 'add_pixels_clamped2_c'
+Lines executed:0.00% of 8
+
+Function 'add_pixels_clamped4_c'
+Lines executed:0.00% of 10
+
+Function 'ff_add_pixels_clamped_c'
+Lines executed:121.43% of 14
+
+Function 'put_signed_pixels_clamped_c'
+Lines executed:100.00% of 13
+
+Function 'put_pixels_clamped4_c'
+Lines executed:0.00% of 10
+
+Function 'ff_put_pixels_clamped_c'
+Lines executed:100.00% of 14
+
+Function 'ff_init_scantable_permutation'
+Lines executed:57.14% of 14
+
+Function 'ff_permute_scantable'
+Lines executed:0.00% of 5
+
+File 'libavcodec/idctdsp.c'
+Lines executed:40.59% of 170
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#idctdsp.gcno##libavcodec#idctdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#idctdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:41.62% of 173

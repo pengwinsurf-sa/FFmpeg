@@ -1,0 +1,61 @@
+Function 'truespeech_decode_frame'
+Lines executed:0.00% of 33
+
+Function 'truespeech_synth'
+Lines executed:0.00% of 41
+
+Function 'truespeech_update_filters'
+Lines executed:0.00% of 9
+
+Function 'truespeech_place_pulses'
+Lines executed:0.00% of 31
+
+Function 'truespeech_apply_twopoint_filter'
+Lines executed:0.00% of 19
+
+Function 'truespeech_filters_merge'
+Lines executed:0.00% of 13
+
+Function 'truespeech_correlate_filter'
+Lines executed:0.00% of 15
+
+Function 'truespeech_read_frame'
+Lines executed:0.00% of 57
+
+Function 'truespeech_decode_init'
+Lines executed:0.00% of 10
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/truespeech.c'
+Lines executed:0.00% of 199
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truespeech.gcno##libavcodec#truespeech.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truespeech.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truespeech.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truespeech.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truespeech.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truespeech.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 262

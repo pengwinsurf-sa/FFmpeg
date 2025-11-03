@@ -1,0 +1,25 @@
+Function 'main'
+Lines executed:0.00% of 108
+
+Function 'test2'
+Lines executed:0.00% of 9
+
+Function 'test'
+Lines executed:0.00% of 30
+
+Function 'test_decompose'
+Lines executed:0.00% of 17
+
+File 'libavformat/tests/url.c'
+Lines executed:0.00% of 157
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#url.gcno##libavformat#tests#url.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#url.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#url.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 164

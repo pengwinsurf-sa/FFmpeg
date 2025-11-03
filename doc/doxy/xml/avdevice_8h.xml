@@ -1,0 +1,861 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="avdevice_8h" kind="file" language="C++">
+    <compoundname>avdevice.h</compoundname>
+    <includes refid="libavdevice_2version__major_8h" local="yes">version_major.h</includes>
+    <includes refid="libavdevice_2version_8h" local="yes">version.h</includes>
+    <includes refid="log_8h" local="yes">libavutil/log.h</includes>
+    <includes refid="opt_8h" local="yes">libavutil/opt.h</includes>
+    <includes refid="dict_8h" local="yes">libavutil/dict.h</includes>
+    <includes refid="avformat_8h" local="yes">libavformat/avformat.h</includes>
+    <incdepgraph>
+      <node id="42">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>libavcodec/codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>defs.h</label>
+        <link refid="defs_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>packet.h</label>
+        <link refid="packet_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>version_major.h</label>
+        <link refid="libavcodec_2version__major_8h"/>
+      </node>
+      <node id="1">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>version.h</label>
+        <link refid="libavdevice_2version_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>version_major.h</label>
+        <link refid="libavdevice_2version__major_8h"/>
+      </node>
+      <node id="31">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>avio.h</label>
+        <link refid="avio_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>libavformat/version.h</label>
+        <link refid="libavformat_2version_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>libavformat/version_major.h</label>
+        <link refid="libavformat_2version__major_8h"/>
+      </node>
+      <node id="9">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="14">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>libavutil/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>libavutil/log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>libavutil/opt.h</label>
+        <link refid="opt_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>libavutil/version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>errno.h</label>
+      </node>
+      <node id="17">
+        <label>inttypes.h</label>
+      </node>
+      <node id="6">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="13">
+        <label>limits.h</label>
+      </node>
+      <node id="18">
+        <label>math.h</label>
+      </node>
+      <node id="8">
+        <label>stdarg.h</label>
+      </node>
+      <node id="23">
+        <label>stddef.h</label>
+      </node>
+      <node id="12">
+        <label>stdint.h</label>
+      </node>
+      <node id="19">
+        <label>stdio.h</label>
+      </node>
+      <node id="20">
+        <label>stdlib.h</label>
+      </node>
+      <node id="21">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVDeviceRect" prot="public">AVDeviceRect</innerclass>
+    <innerclass refid="structAVDeviceInfo" prot="public">AVDeviceInfo</innerclass>
+    <innerclass refid="structAVDeviceInfoList" prot="public">AVDeviceInfoList</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__lavd_1ga16d549a25f11693a06a211f00864fed8" kind="enum"><name>AVAppToDevMessageType</name></member>
+      <member refid="group__lavd_1gac379d3691ce091da6387a461a158a690" kind="enum"><name>AVDevToAppMessageType</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavd_1ga6a111710c7b02c2a11d8b6c43e0dd63d" kind="function"><name>avdevice_version</name></member>
+      <member refid="group__lavd_1ga788d54225eca6950259630999a92dfd0" kind="function"><name>avdevice_configuration</name></member>
+      <member refid="group__lavd_1gaee7745bf393a9e5dbf0959457f9a3427" kind="function"><name>avdevice_license</name></member>
+      <member refid="group__lavd_1ga7c90a3585267b55941ae2f7388c006b6" kind="function"><name>avdevice_register_all</name></member>
+      <member refid="group__lavd_1gad5df91268b335891110e8cf2580b65af" kind="function"><name>av_input_audio_device_next</name></member>
+      <member refid="group__lavd_1gab69e789f47503d54b5dc448cc8355fe9" kind="function"><name>av_input_video_device_next</name></member>
+      <member refid="group__lavd_1ga408630f905799d7335f92918fe0cbed5" kind="function"><name>av_output_audio_device_next</name></member>
+      <member refid="group__lavd_1ga317e8f53ee75a85ad68d87b00be331a8" kind="function"><name>av_output_video_device_next</name></member>
+      <member refid="group__lavd_1ga62f5a22de09f0bc7fd2380d39ee1bc45" kind="function"><name>avdevice_app_to_dev_control_message</name></member>
+      <member refid="group__lavd_1gaf426838f78fb5bcdc2095c4d3162cf6e" kind="function"><name>avdevice_dev_to_app_control_message</name></member>
+      <member refid="group__lavd_1ga4bf9cc38ae904b9104fda1e4def71474" kind="function"><name>avdevice_list_devices</name></member>
+      <member refid="group__lavd_1ga52dcbb2d9ae0f33b7a89548b5a0c87bd" kind="function"><name>avdevice_free_list_devices</name></member>
+      <member refid="group__lavd_1gad15c05ace8090682b947211c76189388" kind="function"><name>avdevice_list_input_sources</name></member>
+      <member refid="group__lavd_1gac38572c5ba27b5cf6d3943cb97233309" kind="function"><name>avdevice_list_output_sinks</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Main libavdevice API header. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVDEVICE_AVDEVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVDEVICE_AVDEVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libswscale_2version__major_8h" kindref="compound">version_major.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HAVE_AV_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>When<sp/>included<sp/>as<sp/>part<sp/>of<sp/>the<sp/>ffmpeg<sp/>build,<sp/>only<sp/>include<sp/>the<sp/>major<sp/>version</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>to<sp/>avoid<sp/>unnecessary<sp/>rebuilds.<sp/>When<sp/>included<sp/>externally,<sp/>keep<sp/>including</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>the<sp/>full<sp/>version<sp/>information.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libswscale_2version_8h" kindref="compound">version.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavd</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>Main<sp/>libavdevice<sp/>API<sp/>header</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="36"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavd<sp/>libavdevice</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>Special<sp/>devices<sp/>muxing/demuxing<sp/>library.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>Libavdevice<sp/>is<sp/>a<sp/>complementary<sp/>library<sp/>to<sp/>@ref<sp/>libavf<sp/>&quot;libavformat&quot;.<sp/>It</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>provides<sp/>various<sp/>&quot;special&quot;<sp/>platform-specific<sp/>muxers<sp/>and<sp/>demuxers,<sp/>e.g.<sp/>for</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>grabbing<sp/>devices,<sp/>audio<sp/>capture<sp/>and<sp/>playback<sp/>etc.<sp/>As<sp/>a<sp/>consequence,<sp/>the</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>(de)muxers<sp/>in<sp/>libavdevice<sp/>are<sp/>of<sp/>the<sp/>AVFMT_NOFILE<sp/>type<sp/>(they<sp/>use<sp/>their<sp/>own</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>I/O<sp/>functions).<sp/>The<sp/>filename<sp/>passed<sp/>to<sp/>avformat_open_input()<sp/>often<sp/>does<sp/>not</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>refer<sp/>to<sp/>an<sp/>actually<sp/>existing<sp/>file,<sp/>but<sp/>has<sp/>some<sp/>special<sp/>device-specific</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>meaning<sp/>-<sp/>e.g.<sp/>for<sp/>xcbgrab<sp/>it<sp/>is<sp/>the<sp/>display<sp/>name.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>To<sp/>use<sp/>libavdevice,<sp/>simply<sp/>call<sp/>avdevice_register_all()<sp/>to<sp/>register<sp/>all</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>compiled<sp/>muxers<sp/>and<sp/>demuxers.<sp/>They<sp/>all<sp/>use<sp/>standard<sp/>libavformat<sp/>API.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="log_8h" kindref="compound">libavutil/log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="opt_8h" kindref="compound">libavutil/opt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dict_8h" kindref="compound">libavutil/dict.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avformat_8h" kindref="compound">libavformat/avformat.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="59"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>LIBAVDEVICE_VERSION_INT<sp/>constant.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__lavd_1ga6a111710c7b02c2a11d8b6c43e0dd63d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga6a111710c7b02c2a11d8b6c43e0dd63d" kindref="member">avdevice_version</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="64"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>libavdevice<sp/>build-time<sp/>configuration.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="group__lavd_1ga788d54225eca6950259630999a92dfd0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavd_1ga788d54225eca6950259630999a92dfd0" kindref="member">avdevice_configuration</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>Return<sp/>the<sp/>libavdevice<sp/>license.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__lavd_1gaee7745bf393a9e5dbf0959457f9a3427" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavd_1gaee7745bf393a9e5dbf0959457f9a3427" kindref="member">avdevice_license</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>Initialize<sp/>libavdevice<sp/>and<sp/>register<sp/>all<sp/>the<sp/>input<sp/>and<sp/>output<sp/>devices.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="group__lavd_1ga7c90a3585267b55941ae2f7388c006b6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga7c90a3585267b55941ae2f7388c006b6" kindref="member">avdevice_register_all</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="79"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>Audio<sp/>input<sp/>devices<sp/>iterator.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>If<sp/>d<sp/>is<sp/>NULL,<sp/>returns<sp/>the<sp/>first<sp/>registered<sp/>input<sp/>audio/video<sp/>device,</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>if<sp/>d<sp/>is<sp/>non-NULL,<sp/>returns<sp/>the<sp/>next<sp/>registered<sp/>input<sp/>audio/video<sp/>device<sp/>after<sp/>d</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>or<sp/>NULL<sp/>if<sp/>d<sp/>is<sp/>the<sp/>last<sp/>one.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="group__lavd_1gad5df91268b335891110e8cf2580b65af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVInputFormat" kindref="compound">AVInputFormat</ref><sp/>*<ref refid="group__lavd_1gad5df91268b335891110e8cf2580b65af" kindref="member">av_input_audio_device_next</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVInputFormat" kindref="compound">AVInputFormat</ref><sp/><sp/>*d);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="88"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>Video<sp/>input<sp/>devices<sp/>iterator.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>If<sp/>d<sp/>is<sp/>NULL,<sp/>returns<sp/>the<sp/>first<sp/>registered<sp/>input<sp/>audio/video<sp/>device,</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>if<sp/>d<sp/>is<sp/>non-NULL,<sp/>returns<sp/>the<sp/>next<sp/>registered<sp/>input<sp/>audio/video<sp/>device<sp/>after<sp/>d</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>or<sp/>NULL<sp/>if<sp/>d<sp/>is<sp/>the<sp/>last<sp/>one.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="group__lavd_1gab69e789f47503d54b5dc448cc8355fe9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVInputFormat" kindref="compound">AVInputFormat</ref><sp/>*<ref refid="group__lavd_1gab69e789f47503d54b5dc448cc8355fe9" kindref="member">av_input_video_device_next</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVInputFormat" kindref="compound">AVInputFormat</ref><sp/><sp/>*d);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="97"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>Audio<sp/>output<sp/>devices<sp/>iterator.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>If<sp/>d<sp/>is<sp/>NULL,<sp/>returns<sp/>the<sp/>first<sp/>registered<sp/>output<sp/>audio/video<sp/>device,</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>if<sp/>d<sp/>is<sp/>non-NULL,<sp/>returns<sp/>the<sp/>next<sp/>registered<sp/>output<sp/>audio/video<sp/>device<sp/>after<sp/>d</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>or<sp/>NULL<sp/>if<sp/>d<sp/>is<sp/>the<sp/>last<sp/>one.</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="group__lavd_1ga408630f905799d7335f92918fe0cbed5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVOutputFormat" kindref="compound">AVOutputFormat</ref><sp/>*<ref refid="group__lavd_1ga408630f905799d7335f92918fe0cbed5" kindref="member">av_output_audio_device_next</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVOutputFormat" kindref="compound">AVOutputFormat</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="106"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>Video<sp/>output<sp/>devices<sp/>iterator.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>If<sp/>d<sp/>is<sp/>NULL,<sp/>returns<sp/>the<sp/>first<sp/>registered<sp/>output<sp/>audio/video<sp/>device,</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>if<sp/>d<sp/>is<sp/>non-NULL,<sp/>returns<sp/>the<sp/>next<sp/>registered<sp/>output<sp/>audio/video<sp/>device<sp/>after<sp/>d</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>or<sp/>NULL<sp/>if<sp/>d<sp/>is<sp/>the<sp/>last<sp/>one.</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="group__lavd_1ga317e8f53ee75a85ad68d87b00be331a8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVOutputFormat" kindref="compound">AVOutputFormat</ref><sp/>*<ref refid="group__lavd_1ga317e8f53ee75a85ad68d87b00be331a8" kindref="member">av_output_video_device_next</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVOutputFormat" kindref="compound">AVOutputFormat</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="structAVDeviceRect" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDeviceRect" kindref="compound">AVDeviceRect</ref><sp/>{</highlight></codeline>
+<codeline lineno="116" refid="structAVDeviceRect_1a59c84ebbf20ec757079bcad8cf6938ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceRect_1a59c84ebbf20ec757079bcad8cf6938ba" kindref="member">x</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>x<sp/>coordinate<sp/>of<sp/>top<sp/>left<sp/>corner<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="structAVDeviceRect_1abe9a24b60ee938e8eb9fd30522d1602b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceRect_1abe9a24b60ee938e8eb9fd30522d1602b" kindref="member">y</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>y<sp/>coordinate<sp/>of<sp/>top<sp/>left<sp/>corner<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="structAVDeviceRect_1afb6766c6297f824d7051f1800f7fda90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceRect_1afb6766c6297f824d7051f1800f7fda90" kindref="member">width</ref>;<sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>width<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="structAVDeviceRect_1a0554500f55abfff27a4141b3346a93f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceRect_1a0554500f55abfff27a4141b3346a93f6" kindref="member">height</ref>;<sp/></highlight><highlight class="comment">/**&lt;<sp/>height<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}<sp/><ref refid="structAVDeviceRect" kindref="compound">AVDeviceRect</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="122"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>Message<sp/>types<sp/>used<sp/>by<sp/>avdevice_app_to_dev_control_message().</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="group__lavd_1ga16d549a25f11693a06a211f00864fed8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga16d549a25f11693a06a211f00864fed8" kindref="member">AVAppToDevMessageType</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Dummy<sp/>message.</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a635d820c2098c4f58feff50b7d6c2811" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a635d820c2098c4f58feff50b7d6c2811" kindref="member">AV_APP_TO_DEV_NONE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Window<sp/>size<sp/>change<sp/>message.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Message<sp/>is<sp/>sent<sp/>to<sp/>the<sp/>device<sp/>every<sp/>time<sp/>the<sp/>application<sp/>changes<sp/>the<sp/>size</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>the<sp/>window<sp/>device<sp/>renders<sp/>to.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Message<sp/>should<sp/>also<sp/>be<sp/>sent<sp/>right<sp/>after<sp/>window<sp/>is<sp/>created.</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>AVDeviceRect:<sp/>new<sp/>window<sp/>size.</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8ace5fb49b2638f933e758fed3dcb07249" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8ace5fb49b2638f933e758fed3dcb07249" kindref="member">AV_APP_TO_DEV_WINDOW_SIZE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;G&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Repaint<sp/>request<sp/>message.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Message<sp/>is<sp/>sent<sp/>to<sp/>the<sp/>device<sp/>when<sp/>window<sp/>has<sp/>to<sp/>be<sp/>repainted.</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>AVDeviceRect:<sp/>area<sp/>required<sp/>to<sp/>be<sp/>repainted.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL:<sp/>whole<sp/>area<sp/>is<sp/>required<sp/>to<sp/>be<sp/>repainted.</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a9f4006d75c6e368d9d0224d973d57710" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a9f4006d75c6e368d9d0224d973d57710" kindref="member">AV_APP_TO_DEV_WINDOW_REPAINT</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;P&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Request<sp/>pause/play.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Application<sp/>requests<sp/>pause/unpause<sp/>playback.</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Mostly<sp/>usable<sp/>with<sp/>devices<sp/>that<sp/>have<sp/>internal<sp/>buffer.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>By<sp/>default<sp/>devices<sp/>are<sp/>not<sp/>paused.</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a89a46eae01f8ff45ec1f200e6738d804" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a89a46eae01f8ff45ec1f200e6738d804" kindref="member">AV_APP_TO_DEV_PAUSE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;P&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="162" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a344983cb9068e56d3f847162081a9747" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a344983cb9068e56d3f847162081a9747" kindref="member">AV_APP_TO_DEV_PLAY</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;P&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;Y&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="163" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a754ae9e6688b1de6f92140415e56b40c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a754ae9e6688b1de6f92140415e56b40c" kindref="member">AV_APP_TO_DEV_TOGGLE_PAUSE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;P&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Volume<sp/>control<sp/>message.</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Set<sp/>volume<sp/>level.<sp/>It<sp/>may<sp/>be<sp/>device-dependent<sp/>if<sp/>volume</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>is<sp/>changed<sp/>per<sp/>stream<sp/>or<sp/>system<sp/>wide.<sp/>Per<sp/>stream<sp/>volume</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>change<sp/>is<sp/>expected<sp/>when<sp/>possible.</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>double:<sp/>new<sp/>volume<sp/>with<sp/>range<sp/>of<sp/>0.0<sp/>-<sp/>1.0.</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8abac3d409c36e4774717f9a8ecf24ada9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8abac3d409c36e4774717f9a8ecf24ada9" kindref="member">AV_APP_TO_DEV_SET_VOLUME</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;V&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Mute<sp/>control<sp/>messages.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Change<sp/>mute<sp/>state.<sp/>It<sp/>may<sp/>be<sp/>device-dependent<sp/>if<sp/>mute<sp/>status</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>is<sp/>changed<sp/>per<sp/>stream<sp/>or<sp/>system<sp/>wide.<sp/>Per<sp/>stream<sp/>mute<sp/>status</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>change<sp/>is<sp/>expected<sp/>when<sp/>possible.</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL.</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a93114a33bcd20f06d39fb9a64febf751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a93114a33bcd20f06d39fb9a64febf751" kindref="member">AV_APP_TO_DEV_MUTE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="186" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8ad8c2e96b8cf1ebd5e85c5fd171eecc3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8ad8c2e96b8cf1ebd5e85c5fd171eecc3f" kindref="member">AV_APP_TO_DEV_UNMUTE</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="187" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8ad83bcf41ae7e0d09e46bdc2b240afb4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8ad83bcf41ae7e0d09e46bdc2b240afb4b" kindref="member">AV_APP_TO_DEV_TOGGLE_MUTE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Get<sp/>volume/mute<sp/>messages.</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Force<sp/>the<sp/>device<sp/>to<sp/>send<sp/>AV_DEV_TO_APP_VOLUME_LEVEL_CHANGED<sp/>or</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>AV_DEV_TO_APP_MUTE_STATE_CHANGED<sp/>command<sp/>respectively.</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL.</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a5caaa1fda2910d345270d8ac1710c138" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a5caaa1fda2910d345270d8ac1710c138" kindref="member">AV_APP_TO_DEV_GET_VOLUME</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;G&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;V&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="198" refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a8219697bb3af980fa778ffb1e11606b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1gga16d549a25f11693a06a211f00864fed8a8219697bb3af980fa778ffb1e11606b3" kindref="member">AV_APP_TO_DEV_GET_MUTE</ref><sp/><sp/><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;G&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="201"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/>Message<sp/>types<sp/>used<sp/>by<sp/>avdevice_dev_to_app_control_message().</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="group__lavd_1gac379d3691ce091da6387a461a158a690" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1gac379d3691ce091da6387a461a158a690" kindref="member">AVDevToAppMessageType</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Dummy<sp/>message.</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a64ccc494050138379bd52b62159ea4ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a64ccc494050138379bd52b62159ea4ce" kindref="member">AV_DEV_TO_APP_NONE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Create<sp/>window<sp/>buffer<sp/>message.</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>requests<sp/>to<sp/>create<sp/>a<sp/>window<sp/>buffer.<sp/>Exact<sp/>meaning<sp/>is<sp/>device-</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>application-dependent.<sp/>Message<sp/>is<sp/>sent<sp/>before<sp/>rendering<sp/>first</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>frame<sp/>and<sp/>all<sp/>one-shot<sp/>initializations<sp/>should<sp/>be<sp/>done<sp/>here.</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Application<sp/>is<sp/>allowed<sp/>to<sp/>ignore<sp/>preferred<sp/>window<sp/>buffer<sp/>size.</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@note:<sp/>Application<sp/>is<sp/>obligated<sp/>to<sp/>inform<sp/>about<sp/>window<sp/>buffer<sp/>size</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>with<sp/>AV_APP_TO_DEV_WINDOW_SIZE<sp/>message.</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>AVDeviceRect:<sp/>preferred<sp/>size<sp/>of<sp/>the<sp/>window<sp/>buffer.</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL:<sp/>no<sp/>preferred<sp/>size<sp/>of<sp/>the<sp/>window<sp/>buffer.</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a0c4bc0ff29547bc0dc4bd5d0aba95020" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a0c4bc0ff29547bc0dc4bd5d0aba95020" kindref="member">AV_DEV_TO_APP_CREATE_WINDOW_BUFFER</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;C&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Prepare<sp/>window<sp/>buffer<sp/>message.</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>requests<sp/>to<sp/>prepare<sp/>a<sp/>window<sp/>buffer<sp/>for<sp/>rendering.</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Exact<sp/>meaning<sp/>is<sp/>device-<sp/>and<sp/>application-dependent.</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Message<sp/>is<sp/>sent<sp/>before<sp/>rendering<sp/>of<sp/>each<sp/>frame.</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL.</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a7d665015d93c6f6f0bf6bdb3d86c619e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a7d665015d93c6f6f0bf6bdb3d86c619e" kindref="member">AV_DEV_TO_APP_PREPARE_WINDOW_BUFFER</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;P&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Display<sp/>window<sp/>buffer<sp/>message.</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>requests<sp/>to<sp/>display<sp/>a<sp/>window<sp/>buffer.</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Message<sp/>is<sp/>sent<sp/>when<sp/>new<sp/>frame<sp/>is<sp/>ready<sp/>to<sp/>be<sp/>displayed.</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Usually<sp/>buffers<sp/>need<sp/>to<sp/>be<sp/>swapped<sp/>in<sp/>handler<sp/>of<sp/>this<sp/>message.</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a1108397b3605ed9aff591de55a3c27bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a1108397b3605ed9aff591de55a3c27bd" kindref="member">AV_DEV_TO_APP_DISPLAY_WINDOW_BUFFER</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;D&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;I&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Destroy<sp/>window<sp/>buffer<sp/>message.</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>requests<sp/>to<sp/>destroy<sp/>a<sp/>window<sp/>buffer.</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Message<sp/>is<sp/>sent<sp/>when<sp/>device<sp/>is<sp/>about<sp/>to<sp/>be<sp/>destroyed<sp/>and<sp/>window</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>buffer<sp/>is<sp/>not<sp/>required<sp/>anymore.</highlight></codeline>
+<codeline lineno="254"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL.</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690abd200e116b23c39311db9661d9221b04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690abd200e116b23c39311db9661d9221b04" kindref="member">AV_DEV_TO_APP_DESTROY_WINDOW_BUFFER</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;D&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Buffer<sp/>fullness<sp/>status<sp/>messages.</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>signals<sp/>buffer<sp/>overflow/underflow.</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>NULL.</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a037a21369f35dd608f54fb34022de229" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a037a21369f35dd608f54fb34022de229" kindref="member">AV_DEV_TO_APP_BUFFER_OVERFLOW</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;F&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="267" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690ac3652337ce29a2bb83a57ae9b76196c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690ac3652337ce29a2bb83a57ae9b76196c1" kindref="member">AV_DEV_TO_APP_BUFFER_UNDERFLOW</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;F&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Buffer<sp/>readable/writable.</highlight></codeline>
+<codeline lineno="271"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>informs<sp/>that<sp/>buffer<sp/>is<sp/>readable/writable.</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>When<sp/>possible,<sp/>device<sp/>informs<sp/>how<sp/>many<sp/>bytes<sp/>can<sp/>be<sp/>read/write.</highlight></codeline>
+<codeline lineno="274"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@warning<sp/>Device<sp/>may<sp/>not<sp/>inform<sp/>when<sp/>number<sp/>of<sp/>bytes<sp/>than<sp/>can<sp/>be<sp/>read/write<sp/>changes.</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>int64_t:<sp/>amount<sp/>of<sp/>bytes<sp/>available<sp/>to<sp/>read/write.</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL:<sp/>amount<sp/>of<sp/>bytes<sp/>available<sp/>to<sp/>read/write<sp/>is<sp/>not<sp/>known.</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a1fe6ba0b4093fb06244e342105d9c1a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a1fe6ba0b4093fb06244e342105d9c1a2" kindref="member">AV_DEV_TO_APP_BUFFER_READABLE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;D&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="281" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a0cf06e453ce4b8618573bf9fbeca07f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a0cf06e453ce4b8618573bf9fbeca07f4" kindref="member">AV_DEV_TO_APP_BUFFER_WRITABLE</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;W&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="283"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Mute<sp/>state<sp/>change<sp/>message.</highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>informs<sp/>that<sp/>mute<sp/>state<sp/>has<sp/>changed.</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>int:<sp/>0<sp/>for<sp/>not<sp/>muted<sp/>state,<sp/>non-zero<sp/>for<sp/>muted<sp/>state.</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a3e4c4485f83fa9818ce1e9a559a7dc02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a3e4c4485f83fa9818ce1e9a559a7dc02" kindref="member">AV_DEV_TO_APP_MUTE_STATE_CHANGED</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;C&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="293"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Volume<sp/>level<sp/>change<sp/>message.</highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Device<sp/>informs<sp/>that<sp/>volume<sp/>level<sp/>has<sp/>changed.</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="297"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>data:<sp/>double:<sp/>new<sp/>volume<sp/>with<sp/>range<sp/>of<sp/>0.0<sp/>-<sp/>1.0.</highlight></codeline>
+<codeline lineno="298"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a19abbd0fc9488541fd4df18660120e0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavd_1ggac379d3691ce091da6387a461a158a690a19abbd0fc9488541fd4df18660120e0c" kindref="member">AV_DEV_TO_APP_VOLUME_LEVEL_CHANGED</ref><sp/>=<sp/><ref refid="macros_8h_1a1e233db224cd0a3079fd4572d1a3d717" kindref="member">MKBETAG</ref>(</highlight><highlight class="charliteral">&apos;C&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;V&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="302"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="303"><highlight class="comment"><sp/>*<sp/>Send<sp/>control<sp/>message<sp/>from<sp/>application<sp/>to<sp/>device.</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/>*<sp/>@param<sp/>s<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device<sp/>context.</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/>*<sp/>@param<sp/>type<sp/><sp/><sp/><sp/><sp/><sp/>message<sp/>type.</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/><sp/><sp/><sp/><sp/><sp/>message<sp/>data.<sp/>Exact<sp/>type<sp/>depends<sp/>on<sp/>message<sp/>type.</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/>*<sp/>@param<sp/>data_size<sp/>size<sp/>of<sp/>message<sp/>data.</highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>negative<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="310"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVERROR(ENOSYS)<sp/>when<sp/>device<sp/>doesn&apos;t<sp/>implement<sp/>handler<sp/>of<sp/>the<sp/>message.</highlight></codeline>
+<codeline lineno="311"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="group__lavd_1ga62f5a22de09f0bc7fd2380d39ee1bc45" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga62f5a22de09f0bc7fd2380d39ee1bc45" kindref="member">avdevice_app_to_dev_control_message</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref><sp/>*s,</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga16d549a25f11693a06a211f00864fed8" kindref="member">AVAppToDevMessageType</ref><sp/>type,</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>data_size);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="316"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="317"><highlight class="comment"><sp/>*<sp/>Send<sp/>control<sp/>message<sp/>from<sp/>device<sp/>to<sp/>application.</highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/>*<sp/>@param<sp/>s<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device<sp/>context.</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/>*<sp/>@param<sp/>type<sp/><sp/><sp/><sp/><sp/><sp/>message<sp/>type.</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/><sp/><sp/><sp/><sp/><sp/>message<sp/>data.<sp/>Can<sp/>be<sp/>NULL.</highlight></codeline>
+<codeline lineno="322"><highlight class="comment"><sp/>*<sp/>@param<sp/>data_size<sp/>size<sp/>of<sp/>message<sp/>data.</highlight></codeline>
+<codeline lineno="323"><highlight class="comment"><sp/>*<sp/>@return<sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>negative<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="324"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVERROR(ENOSYS)<sp/>when<sp/>application<sp/>doesn&apos;t<sp/>implement<sp/>handler<sp/>of<sp/>the<sp/>message.</highlight></codeline>
+<codeline lineno="325"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326" refid="group__lavd_1gaf426838f78fb5bcdc2095c4d3162cf6e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1gaf426838f78fb5bcdc2095c4d3162cf6e" kindref="member">avdevice_dev_to_app_control_message</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref><sp/>*s,</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1gac379d3691ce091da6387a461a158a690" kindref="member">AVDevToAppMessageType</ref><sp/>type,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>data_size);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="330"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/>*<sp/>Structure<sp/>describes<sp/>basic<sp/>parameters<sp/>of<sp/>the<sp/>device.</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="structAVDeviceInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDeviceInfo" kindref="compound">AVDeviceInfo</ref><sp/>{</highlight></codeline>
+<codeline lineno="334" refid="structAVDeviceInfo_1af856e00bdd54b7d87fc4afdf211c4757" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVDeviceInfo_1af856e00bdd54b7d87fc4afdf211c4757" kindref="member">device_name</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>device<sp/>name,<sp/>format<sp/>depends<sp/>on<sp/>device<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="structAVDeviceInfo_1a3d642926b6f45112cda628a395f6135a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVDeviceInfo_1a3d642926b6f45112cda628a395f6135a" kindref="member">device_description</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>human<sp/>friendly<sp/>name<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="structAVDeviceInfo_1a734174cc3f673a980f51777549a0f4e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref><sp/>*<ref refid="structAVDeviceInfo_1a734174cc3f673a980f51777549a0f4e5" kindref="member">media_types</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>array<sp/>indicating<sp/>what<sp/>media<sp/>types(s),<sp/>if<sp/>any,<sp/>a<sp/>device<sp/>can<sp/>provide.<sp/>If<sp/>null,<sp/>cannot<sp/>provide<sp/>any<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="structAVDeviceInfo_1ae0dfc07ff19728abe8348c61ce673a8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceInfo_1ae0dfc07ff19728abe8348c61ce673a8c" kindref="member">nb_media_types</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>length<sp/>of<sp/>media_types<sp/>array,<sp/>0<sp/>if<sp/>device<sp/>cannot<sp/>provide<sp/>any<sp/>media<sp/>types<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal">}<sp/><ref refid="structAVDeviceInfo" kindref="compound">AVDeviceInfo</ref>;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="340"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="341"><highlight class="comment"><sp/>*<sp/>List<sp/>of<sp/>devices.</highlight></codeline>
+<codeline lineno="342"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="structAVDeviceInfoList" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDeviceInfoList" kindref="compound">AVDeviceInfoList</ref><sp/>{</highlight></codeline>
+<codeline lineno="344" refid="structAVDeviceInfoList_1ae2515bb1fe98693b85adbdf380d76cd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVDeviceInfo" kindref="compound">AVDeviceInfo</ref><sp/>**<ref refid="structAVDeviceInfoList_1ae2515bb1fe98693b85adbdf380d76cd8" kindref="member">devices</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>list<sp/>of<sp/>autodetected<sp/>devices<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="structAVDeviceInfoList_1a8253ca399209d2cfd83667b78accbe28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceInfoList_1a8253ca399209d2cfd83667b78accbe28" kindref="member">nb_devices</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>number<sp/>of<sp/>autodetected<sp/>devices<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="structAVDeviceInfoList_1a88278f6896ae0b13d526c89014dac77b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDeviceInfoList_1a88278f6896ae0b13d526c89014dac77b" kindref="member">default_device</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>index<sp/>of<sp/>default<sp/>device<sp/>or<sp/>-1<sp/>if<sp/>no<sp/>default<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal">}<sp/><ref refid="structAVDeviceInfoList" kindref="compound">AVDeviceInfoList</ref>;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="349"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/>*<sp/>List<sp/>devices.</highlight></codeline>
+<codeline lineno="351"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="352"><highlight class="comment"><sp/>*<sp/>Returns<sp/>available<sp/>device<sp/>names<sp/>and<sp/>their<sp/>parameters.</highlight></codeline>
+<codeline lineno="353"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="354"><highlight class="comment"><sp/>*<sp/>@note:<sp/>Some<sp/>devices<sp/>may<sp/>accept<sp/>system-dependent<sp/>device<sp/>names<sp/>that<sp/>cannot<sp/>be</highlight></codeline>
+<codeline lineno="355"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>autodetected.<sp/>The<sp/>list<sp/>returned<sp/>by<sp/>this<sp/>function<sp/>cannot<sp/>be<sp/>assumed<sp/>to</highlight></codeline>
+<codeline lineno="356"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>always<sp/>completed.</highlight></codeline>
+<codeline lineno="357"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="358"><highlight class="comment"><sp/>*<sp/>@param<sp/>s<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device<sp/>context.</highlight></codeline>
+<codeline lineno="359"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>device_list<sp/>list<sp/>of<sp/>autodetected<sp/>devices.</highlight></codeline>
+<codeline lineno="360"><highlight class="comment"><sp/>*<sp/>@return<sp/>count<sp/>of<sp/>autodetected<sp/>devices,<sp/>negative<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="361"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="group__lavd_1ga4bf9cc38ae904b9104fda1e4def71474" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga4bf9cc38ae904b9104fda1e4def71474" kindref="member">avdevice_list_devices</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structAVFormatContext" kindref="compound">AVFormatContext</ref><sp/>*s,<sp/><ref refid="structAVDeviceInfoList" kindref="compound">AVDeviceInfoList</ref><sp/>**device_list);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="364"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="365"><highlight class="comment"><sp/>*<sp/>Convenient<sp/>function<sp/>to<sp/>free<sp/>result<sp/>of<sp/>avdevice_list_devices().</highlight></codeline>
+<codeline lineno="366"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="367"><highlight class="comment"><sp/>*<sp/>@param<sp/>device_list<sp/>device<sp/>list<sp/>to<sp/>be<sp/>freed.</highlight></codeline>
+<codeline lineno="368"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="group__lavd_1ga52dcbb2d9ae0f33b7a89548b5a0c87bd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1ga52dcbb2d9ae0f33b7a89548b5a0c87bd" kindref="member">avdevice_free_list_devices</ref>(<ref refid="structAVDeviceInfoList" kindref="compound">AVDeviceInfoList</ref><sp/>**device_list);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="371"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="372"><highlight class="comment"><sp/>*<sp/>List<sp/>devices.</highlight></codeline>
+<codeline lineno="373"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="374"><highlight class="comment"><sp/>*<sp/>Returns<sp/>available<sp/>device<sp/>names<sp/>and<sp/>their<sp/>parameters.</highlight></codeline>
+<codeline lineno="375"><highlight class="comment"><sp/>*<sp/>These<sp/>are<sp/>convinient<sp/>wrappers<sp/>for<sp/>avdevice_list_devices().</highlight></codeline>
+<codeline lineno="376"><highlight class="comment"><sp/>*<sp/>Device<sp/>context<sp/>is<sp/>allocated<sp/>and<sp/>deallocated<sp/>internally.</highlight></codeline>
+<codeline lineno="377"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="378"><highlight class="comment"><sp/>*<sp/>@param<sp/>device<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device<sp/>format.<sp/>May<sp/>be<sp/>NULL<sp/>if<sp/>device<sp/>name<sp/>is<sp/>set.</highlight></codeline>
+<codeline lineno="379"><highlight class="comment"><sp/>*<sp/>@param<sp/>device_name<sp/><sp/><sp/><sp/><sp/><sp/>device<sp/>name.<sp/>May<sp/>be<sp/>NULL<sp/>if<sp/>device<sp/>format<sp/>is<sp/>set.</highlight></codeline>
+<codeline lineno="380"><highlight class="comment"><sp/>*<sp/>@param<sp/>device_options<sp/><sp/><sp/>An<sp/>AVDictionary<sp/>filled<sp/>with<sp/>device-private<sp/>options.<sp/>May<sp/>be<sp/>NULL.</highlight></codeline>
+<codeline lineno="381"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>same<sp/>options<sp/>must<sp/>be<sp/>passed<sp/>later<sp/>to<sp/>avformat_write_header()<sp/>for<sp/>output</highlight></codeline>
+<codeline lineno="382"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>devices<sp/>or<sp/>avformat_open_input()<sp/>for<sp/>input<sp/>devices,<sp/>or<sp/>at<sp/>any<sp/>other<sp/>place</highlight></codeline>
+<codeline lineno="383"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>that<sp/>affects<sp/>device-private<sp/>options.</highlight></codeline>
+<codeline lineno="384"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>device_list<sp/>list<sp/>of<sp/>autodetected<sp/>devices</highlight></codeline>
+<codeline lineno="385"><highlight class="comment"><sp/>*<sp/>@return<sp/>count<sp/>of<sp/>autodetected<sp/>devices,<sp/>negative<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="386"><highlight class="comment"><sp/>*<sp/>@note<sp/>device<sp/>argument<sp/>takes<sp/>precedence<sp/>over<sp/>device_name<sp/>when<sp/>both<sp/>are<sp/>set.</highlight></codeline>
+<codeline lineno="387"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="group__lavd_1gad15c05ace8090682b947211c76189388" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1gad15c05ace8090682b947211c76189388" kindref="member">avdevice_list_input_sources</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVInputFormat" kindref="compound">AVInputFormat</ref><sp/>*device,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*device_name,</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*device_options,<sp/><ref refid="structAVDeviceInfoList" kindref="compound">AVDeviceInfoList</ref><sp/>**device_list);</highlight></codeline>
+<codeline lineno="390" refid="group__lavd_1gac38572c5ba27b5cf6d3943cb97233309" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavd_1gac38572c5ba27b5cf6d3943cb97233309" kindref="member">avdevice_list_output_sinks</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVOutputFormat" kindref="compound">AVOutputFormat</ref><sp/>*device,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*device_name,</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*device_options,<sp/><ref refid="structAVDeviceInfoList" kindref="compound">AVDeviceInfoList</ref><sp/>**device_list);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="393"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="394"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="395"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVDEVICE_AVDEVICE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavdevice/avdevice.h"/>
+  </compounddef>
+</doxygen>

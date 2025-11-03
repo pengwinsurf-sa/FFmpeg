@@ -1,0 +1,14 @@
+Function 'swresample_license'
+Lines executed:0.00% of 2
+
+Function 'swresample_configuration'
+Lines executed:0.00% of 2
+
+Function 'swresample_version'
+Lines executed:0.00% of 3
+
+File 'libswresample/version.c'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#version.gcno##libswresample#version.c.gcov'
+
+Lines executed:0.00% of 7

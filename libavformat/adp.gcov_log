@@ -1,0 +1,14 @@
+Function 'adp_read_packet'
+Lines executed:0.00% of 7
+
+Function 'adp_read_header'
+Lines executed:0.00% of 13
+
+Function 'adp_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/adp.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#adp.gcno##libavformat#adp.c.gcov'
+
+Lines executed:0.00% of 31

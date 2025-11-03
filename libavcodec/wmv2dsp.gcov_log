@@ -1,0 +1,51 @@
+Function 'ff_wmv2dsp_init'
+Lines executed:0.00% of 13
+
+Function 'put_mspel8_mc22_c'
+Lines executed:0.00% of 5
+
+Function 'put_mspel8_mc32_c'
+Lines executed:0.00% of 9
+
+Function 'put_mspel8_mc12_c'
+Lines executed:0.00% of 9
+
+Function 'put_mspel8_mc02_c'
+Lines executed:0.00% of 3
+
+Function 'put_mspel8_mc30_c'
+Lines executed:0.00% of 5
+
+Function 'put_mspel8_mc20_c'
+Lines executed:0.00% of 3
+
+Function 'put_mspel8_mc10_c'
+Lines executed:0.00% of 5
+
+Function 'wmv2_mspel8_v_lowpass'
+Lines executed:0.00% of 26
+
+Function 'wmv2_mspel8_h_lowpass'
+Lines executed:0.00% of 15
+
+Function 'wmv2_idct_put_c'
+Lines executed:0.00% of 21
+
+Function 'wmv2_idct_add_c'
+Lines executed:0.00% of 18
+
+Function 'wmv2_idct_col'
+Lines executed:0.00% of 22
+
+Function 'wmv2_idct_row'
+Lines executed:0.00% of 22
+
+File 'libavcodec/wmv2dsp.c'
+Lines executed:0.00% of 173
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2dsp.gcno##libavcodec#wmv2dsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 176

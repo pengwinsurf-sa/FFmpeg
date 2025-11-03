@@ -1,0 +1,209 @@
+Function 'avpriv_mpegts_parse_close'
+Lines executed:0.00% of 4
+
+Function 'avpriv_mpegts_parse_packet'
+Lines executed:0.00% of 15
+
+Function 'avpriv_mpegts_parse_open'
+Lines executed:0.00% of 12
+
+Function 'mpegts_get_dts'
+Lines executed:0.00% of 27
+
+Function 'mpegts_read_close'
+Lines executed:0.00% of 4
+
+Function 'mpegts_free'
+Lines executed:0.00% of 12
+
+Function 'mpegts_read_packet'
+Lines executed:0.00% of 19
+
+Function 'mpegts_raw_read_packet'
+Lines executed:0.00% of 43
+
+Function 'mpegts_read_header'
+Lines executed:0.00% of 66
+
+Function 'seek_back'
+Lines executed:0.00% of 4
+
+Function 'parse_pcr'
+Lines executed:0.00% of 20
+
+Function 'mpegts_probe'
+Lines executed:0.00% of 25
+
+Function 'handle_packets'
+Lines executed:0.00% of 37
+
+Function 'read_packet'
+Lines executed:0.00% of 12
+
+Function 'mpegts_resync'
+Lines executed:0.00% of 27
+
+Function 'handle_packet'
+Lines executed:0.00% of 74
+
+Function 'sdt_cb'
+Lines executed:0.00% of 76
+
+Function 'eit_cb'
+Lines executed:0.00% of 28
+
+Function 'pat_cb'
+Lines executed:0.00% of 77
+
+Function 'pmt_cb'
+Lines executed:0.00% of 167
+
+Function 'parse_stream_identifier_desc'
+Lines executed:0.00% of 20
+
+Function 'find_matching_stream'
+Lines executed:0.00% of 14
+
+Function 'ff_parse_mpeg2_descriptor'
+Lines executed:0.00% of 254
+
+Function 'scte_data_cb'
+Lines executed:0.00% of 14
+
+Function 'm4sl_cb'
+Lines executed:0.00% of 47
+
+Function 'mp4_read_od'
+Lines executed:0.00% of 18
+
+Function 'mp4_read_iods'
+Lines executed:0.00% of 9
+
+Function 'parse_mp4_descr'
+Lines executed:0.00% of 41
+
+Function 'parse_MP4SLDescrTag'
+Lines executed:0.00% of 28
+
+Function 'parse_MP4DecConfigDescrTag'
+Lines executed:0.00% of 8
+
+Function 'parse_MP4ESDescrTag'
+Lines executed:0.00% of 15
+
+Function 'parse_MP4ODescrTag'
+Lines executed:0.00% of 7
+
+Function 'parse_MP4IODescrTag'
+Lines executed:0.00% of 10
+
+Function 'parse_mp4_descr_arr'
+Lines executed:0.00% of 7
+
+Function 'add_pes_stream'
+Lines executed:0.00% of 24
+
+Function 'mpegts_push_data'
+Lines executed:0.00% of 186
+
+Function 'buffer_pool_get'
+Lines executed:0.00% of 7
+
+Function 'read_sl_header'
+Lines executed:0.00% of 95
+
+Function 'new_pes_packet'
+Lines executed:0.00% of 24
+
+Function 'mpegts_set_stream_info'
+Lines executed:0.00% of 55
+
+Function 'mpegts_find_stream_type'
+Lines executed:0.00% of 11
+
+Function 'parse_section_header'
+Lines executed:0.00% of 20
+
+Function 'getstr8'
+Lines executed:0.00% of 49
+
+Function 'get_packet_size'
+Lines executed:0.00% of 25
+
+Function 'analyze'
+Lines executed:0.00% of 16
+
+Function 'mpegts_close_filter'
+Lines executed:0.00% of 13
+
+Function 'mpegts_open_section_filter'
+Lines executed:0.00% of 15
+
+Function 'mpegts_open_filter'
+Lines executed:0.00% of 13
+
+Function 'write_section_data'
+Lines executed:0.00% of 43
+
+Function 'discard_pid'
+Lines executed:0.00% of 19
+
+Function 'update_av_program_info'
+Lines executed:0.00% of 12
+
+Function 'add_program'
+Lines executed:0.00% of 11
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/mpegts.c'
+Lines executed:0.00% of 1822
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavformat#mpegts.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavformat/mpeg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavformat#mpeg.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 60
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegts.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1916

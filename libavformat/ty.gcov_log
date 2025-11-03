@@ -1,0 +1,50 @@
+Function 'ty_read_close'
+Lines executed:0.00% of 4
+
+Function 'ty_read_packet'
+Lines executed:0.00% of 27
+
+Function 'demux_audio'
+Lines executed:0.00% of 85
+
+Function 'check_sync_pes'
+Lines executed:0.00% of 26
+
+Function 'demux_video'
+Lines executed:0.00% of 42
+
+Function 'get_chunk'
+Lines executed:0.00% of 25
+
+Function 'ty_read_header'
+Lines executed:0.00% of 36
+
+Function 'analyze_chunk'
+Lines executed:0.00% of 63
+
+Function 'parse_chunk_headers'
+Lines executed:0.00% of 24
+
+Function 'ty_probe'
+Lines executed:0.00% of 6
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/ty.c'
+Lines executed:0.00% of 323
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ty.gcno##libavformat#ty.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ty.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/mpeg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ty.gcno##libavformat#mpeg.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ty.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 340

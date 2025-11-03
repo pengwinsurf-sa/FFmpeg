@@ -1,0 +1,15 @@
+Function 'decode_frame'
+Lines executed:0.00% of 24
+
+Function 'init'
+Lines executed:0.00% of 10
+
+File 'libavcodec/avrndec.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avrndec.gcno##libavcodec#avrndec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avrndec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 34

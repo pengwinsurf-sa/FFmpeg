@@ -1,0 +1,14 @@
+Function 'msp_read_packet'
+Lines executed:0.00% of 16
+
+Function 'msp_read_header'
+Lines executed:0.00% of 19
+
+Function 'msp_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/mspdec.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mspdec.gcno##libavformat#mspdec.c.gcov'
+
+Lines executed:0.00% of 41

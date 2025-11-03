@@ -1,0 +1,16 @@
+Function 'msp2_decode_frame'
+Lines executed:0.00% of 55
+
+File 'libavcodec/msp2dec.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msp2dec.gcno##libavcodec#msp2dec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msp2dec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msp2dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 55

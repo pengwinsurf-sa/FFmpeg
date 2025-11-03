@@ -1,0 +1,40 @@
+Function 'nsv_probe'
+Lines executed:0.00% of 12
+
+Function 'nsv_read_close'
+Lines executed:0.00% of 9
+
+Function 'nsv_read_seek'
+Lines executed:0.00% of 12
+
+Function 'nsv_read_packet'
+Lines executed:0.00% of 10
+
+Function 'nsv_read_chunk'
+Lines executed:0.00% of 91
+
+Function 'nsv_read_header'
+Lines executed:0.00% of 20
+
+Function 'nsv_parse_NSVs_header'
+Lines executed:0.00% of 88
+
+Function 'nsv_parse_NSVf_header'
+Lines executed:0.00% of 77
+
+Function 'nsv_resync'
+Lines executed:0.00% of 28
+
+File 'libavformat/nsvdec.c'
+Lines executed:0.00% of 343
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nsvdec.gcno##libavformat#nsvdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nsvdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nsvdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 347

@@ -1,0 +1,57 @@
+Function 'checkasm_check_sw_rgb'
+Lines executed:97.83% of 46
+
+Function 'check_yuv2packedX'
+Lines executed:88.57% of 70
+
+Function 'check_yuv2packed2'
+Lines executed:96.00% of 50
+
+Function 'check_yuv2packed1'
+Lines executed:95.74% of 47
+
+Function 'check_rgba_to_a'
+Lines executed:72.00% of 25
+
+Function 'check_rgb_to_uv'
+Lines executed:97.06% of 34
+
+Function 'check_rgb_to_y'
+Lines executed:96.30% of 27
+
+Function 'check_deinterleave_bytes'
+Lines executed:100.00% of 41
+
+Function 'check_interleave_bytes'
+Lines executed:100.00% of 37
+
+Function 'check_rgb24toyv12'
+Lines executed:98.15% of 54
+
+Function 'check_uyvy_to_422p'
+Lines executed:96.77% of 31
+
+Function 'check_shuffle_bytes'
+Lines executed:94.44% of 18
+
+File 'tests/checkasm/sw_rgb.c'
+Lines executed:95.92% of 466
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_rgb.gcno##tests#checkasm#sw_rgb.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_rgb.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_rgb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_rgb.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_rgb.gcno##libavutil#emms.h.gcov'
+
+Lines executed:94.79% of 480

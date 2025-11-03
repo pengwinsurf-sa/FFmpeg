@@ -1,0 +1,219 @@
+Function 'rtmp_write'
+Lines executed:0.00% of 98
+
+Function 'rtmp_pause'
+Lines executed:0.00% of 8
+
+Function 'rtmp_seek'
+Lines executed:0.00% of 11
+
+Function 'rtmp_read'
+Lines executed:0.00% of 18
+
+Function 'rtmp_open'
+Lines executed:0.00% of 187
+
+Function 'inject_fake_duration_metadata'
+Lines executed:0.00% of 39
+
+Function 'rtmp_close'
+Lines executed:0.00% of 19
+
+Function 'get_packet'
+Lines executed:0.00% of 52
+
+Function 'handle_metadata'
+Lines executed:0.00% of 45
+
+Function 'rtmp_parse_result'
+Lines executed:0.00% of 19
+
+Function 'handle_notify'
+Lines executed:0.00% of 33
+
+Function 'append_flv_data'
+Lines executed:0.00% of 45
+
+Function 'handle_invoke'
+Lines executed:0.00% of 18
+
+Function 'handle_invoke_status'
+Lines executed:0.00% of 24
+
+Function 'handle_invoke_result'
+Lines executed:0.00% of 42
+
+Function 'read_number_result'
+Lines executed:0.00% of 13
+
+Function 'send_invoke_response'
+Lines executed:0.00% of 70
+
+Function 'write_status'
+Lines executed:0.00% of 28
+
+Function 'write_begin'
+Lines executed:0.00% of 14
+
+Function 'handle_invoke_error'
+Lines executed:0.00% of 23
+
+Function 'handle_connect_error'
+Lines executed:0.00% of 55
+
+Function 'do_llnw_auth'
+Lines executed:0.00% of 45
+
+Function 'do_adobe_auth'
+Lines executed:0.00% of 26
+
+Function 'handle_window_ack_size'
+Lines executed:0.00% of 12
+
+Function 'handle_set_peer_bw'
+Lines executed:0.00% of 11
+
+Function 'handle_user_control'
+Lines executed:0.00% of 15
+
+Function 'handle_chunk_size'
+Lines executed:0.00% of 15
+
+Function 'rtmp_server_handshake'
+Lines executed:0.00% of 47
+
+Function 'rtmp_send_hs_packet'
+Lines executed:0.00% of 8
+
+Function 'rtmp_receive_hs_packet'
+Lines executed:0.00% of 10
+
+Function 'rtmp_handshake'
+Lines executed:0.00% of 62
+
+Function 'rtmp_calc_swfhash'
+Lines executed:0.00% of 46
+
+Function 'rtmp_uncompress_swfplayer'
+Lines executed:0.00% of 28
+
+Function 'rtmp_calc_swf_verification'
+Lines executed:0.00% of 12
+
+Function 'rtmp_validate_digest'
+Lines executed:0.00% of 8
+
+Function 'rtmp_handshake_imprint_with_digest'
+Lines executed:0.00% of 8
+
+Function 'gen_fcsubscribe_stream'
+Lines executed:0.00% of 12
+
+Function 'gen_bytes_read'
+Lines executed:0.00% of 8
+
+Function 'gen_check_bw'
+Lines executed:0.00% of 10
+
+Function 'gen_window_ack_size'
+Lines executed:0.00% of 8
+
+Function 'gen_swf_verification'
+Lines executed:0.00% of 10
+
+Function 'gen_pong'
+Lines executed:0.00% of 13
+
+Function 'gen_publish'
+Lines executed:0.00% of 15
+
+Function 'gen_pause'
+Lines executed:0.00% of 14
+
+Function 'gen_seek'
+Lines executed:0.00% of 13
+
+Function 'gen_play'
+Lines executed:0.00% of 15
+
+Function 'gen_buffer_time'
+Lines executed:0.00% of 10
+
+Function 'gen_get_stream_length'
+Lines executed:0.00% of 12
+
+Function 'gen_delete_stream'
+Lines executed:0.00% of 12
+
+Function 'gen_create_stream'
+Lines executed:0.00% of 11
+
+Function 'gen_fcunpublish_stream'
+Lines executed:0.00% of 13
+
+Function 'gen_fcpublish_stream'
+Lines executed:0.00% of 13
+
+Function 'gen_release_stream'
+Lines executed:0.00% of 13
+
+Function 'read_connect'
+Lines executed:0.00% of 111
+
+Function 'gen_connect'
+Lines executed:0.00% of 82
+
+Function 'rtmp_write_amf_data'
+Lines executed:0.00% of 38
+
+Function 'rtmp_send_packet'
+Lines executed:0.00% of 18
+
+Function 'free_tracked_methods'
+Lines executed:0.00% of 8
+
+Function 'find_tracked_method'
+Lines executed:0.00% of 14
+
+Function 'del_tracked_method'
+Lines executed:0.00% of 5
+
+Function 'add_tracked_method'
+Lines executed:0.00% of 13
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/rtmpproto.c'
+Lines executed:0.00% of 1634
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno##libavformat#rtmpproto.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpproto.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:0.00% of 1707

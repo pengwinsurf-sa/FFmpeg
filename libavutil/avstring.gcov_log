@@ -1,0 +1,77 @@
+Function 'av_match_list'
+Lines executed:0.00% of 12
+
+Function 'av_utf8_decode'
+Lines executed:0.00% of 49
+
+Function 'av_match_name'
+Lines executed:0.00% of 15
+
+Function 'av_escape'
+Lines executed:0.00% of 12
+
+Function 'av_append_path_component'
+Lines executed:0.00% of 21
+
+Function 'av_dirname'
+Lines executed:0.00% of 5
+
+Function 'av_basename'
+Lines executed:0.00% of 6
+
+Function 'av_strireplace'
+Lines executed:0.00% of 15
+
+Function 'av_strncasecmp'
+Lines executed:0.00% of 12
+
+Function 'av_strcasecmp'
+Lines executed:0.00% of 7
+
+Function 'av_strtok'
+Lines executed:0.00% of 13
+
+Function 'av_get_token'
+Lines executed:0.00% of 23
+
+Function 'av_asprintf'
+Lines executed:0.00% of 21
+
+Function 'av_strlcatf'
+Lines executed:0.00% of 7
+
+Function 'av_strlcat'
+Lines executed:0.00% of 5
+
+Function 'av_strlcpy'
+Lines executed:0.00% of 7
+
+Function 'av_strnstr'
+Lines executed:0.00% of 8
+
+Function 'av_stristr'
+Lines executed:0.00% of 6
+
+Function 'av_stristart'
+Lines executed:0.00% of 11
+
+Function 'av_strstart'
+Lines executed:0.00% of 7
+
+File 'libavutil/avstring.c'
+Lines executed:0.00% of 250
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avstring.gcno##libavutil#avstring.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avstring.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avstring.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#avstring.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 262

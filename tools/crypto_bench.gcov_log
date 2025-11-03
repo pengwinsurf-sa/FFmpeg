@@ -1,0 +1,75 @@
+Function 'main'
+Lines executed:0.00% of 36
+
+Function 'run_implementation'
+Lines executed:0.00% of 47
+
+Function 'crc32'
+Lines executed:0.00% of 2
+
+Function 'run_lavu_xtea'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_rc4'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_twofish'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_des'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_cast128'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_camellia'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_blowfish'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_aes128'
+Lines executed:0.00% of 7
+
+Function 'run_lavu_ripemd160'
+Lines executed:0.00% of 1
+
+Function 'run_lavu_ripemd128'
+Lines executed:0.00% of 1
+
+Function 'run_lavu_sha512'
+Lines executed:0.00% of 1
+
+Function 'run_lavu_sha256'
+Lines executed:0.00% of 1
+
+Function 'run_lavu_sha1'
+Lines executed:0.00% of 1
+
+Function 'run_lavu_md5'
+Lines executed:0.00% of 3
+
+Function 'fatal_error'
+Lines executed:0.00% of 3
+
+File 'tools/crypto_bench.c'
+Lines executed:0.00% of 140
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#crypto_bench.gcno##tools#crypto_bench.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#crypto_bench.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#crypto_bench.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#crypto_bench.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#crypto_bench.gcno##libavutil#x86#timer.h.gcov'
+
+Lines executed:0.00% of 152

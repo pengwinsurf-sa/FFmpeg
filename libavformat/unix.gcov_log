@@ -1,0 +1,24 @@
+Function 'unix_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'unix_close'
+Lines executed:0.00% of 6
+
+Function 'unix_write'
+Lines executed:0.00% of 8
+
+Function 'unix_read'
+Lines executed:0.00% of 16
+
+Function 'unix_open'
+Lines executed:0.00% of 26
+
+File 'libavformat/unix.c'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#unix.gcno##libavformat#unix.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/socket2.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#unix.gcno###usr#include#x86_64-linux-gnu#bits#socket2.h.gcov'
+
+Lines executed:0.00% of 59

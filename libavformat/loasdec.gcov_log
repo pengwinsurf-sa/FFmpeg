@@ -1,0 +1,11 @@
+Function 'loas_read_header'
+Lines executed:0.00% of 9
+
+Function 'loas_probe'
+Lines executed:0.00% of 23
+
+File 'libavformat/loasdec.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#loasdec.gcno##libavformat#loasdec.c.gcov'
+
+Lines executed:0.00% of 32

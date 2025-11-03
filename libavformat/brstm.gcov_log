@@ -1,0 +1,42 @@
+Function 'read_seek'
+Lines executed:0.00% of 15
+
+Function 'read_packet'
+Lines executed:0.00% of 59
+
+Function 'read_header'
+Lines executed:0.00% of 179
+
+Function 'sort_offsets'
+Lines executed:0.00% of 4
+
+Function 'read_close'
+Lines executed:0.00% of 4
+
+Function 'probe_bfstm'
+Lines executed:0.00% of 5
+
+Function 'probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/brstm.c'
+Lines executed:0.00% of 259
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#brstm.gcno##libavformat#brstm.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#brstm.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#brstm.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#brstm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#brstm.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 270

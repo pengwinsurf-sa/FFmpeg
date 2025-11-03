@@ -1,0 +1,22 @@
+Function 'decode_end'
+Lines executed:0.00% of 6
+
+Function 'decode_init'
+Lines executed:0.00% of 22
+
+Function 'decode_frame'
+Lines executed:0.00% of 40
+
+File 'libavcodec/tscc.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc.gcno##libavcodec#tscc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 68

@@ -1,0 +1,26 @@
+Function 'main'
+Lines executed:0.00% of 78
+
+Function 'ts_str'
+Lines executed:0.00% of 10
+
+Function 'ret_str'
+Lines executed:0.00% of 7
+
+File 'libavformat/tests/seek.c'
+Lines executed:0.00% of 85
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#seek.gcno##libavformat#tests#seek.c.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#seek.gcno###usr#include#stdlib.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#seek.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#seek.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 95

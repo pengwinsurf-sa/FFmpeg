@@ -1,0 +1,23 @@
+Function 'init'
+Lines executed:0.00% of 18
+
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'config_output'
+Lines executed:0.00% of 9
+
+Function 'hq4x'
+Lines executed:0.00% of 187
+
+Function 'hq3x'
+Lines executed:0.00% of 53
+
+Function 'hq2x'
+Lines executed:0.00% of 40
+
+File 'libavfilter/vf_hqx.c'
+Lines executed:0.00% of 326
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hqx.gcno##libavfilter#vf_hqx.c.gcov'
+
+Lines executed:0.00% of 326

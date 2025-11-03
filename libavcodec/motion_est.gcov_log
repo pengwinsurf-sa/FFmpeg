@@ -1,0 +1,158 @@
+Function 'ff_fix_long_mvs'
+Lines executed:0.00% of 26
+
+Function 'ff_fix_long_p_mvs'
+Lines executed:0.00% of 29
+
+Function 'ff_get_best_fcode'
+Lines executed:0.00% of 36
+
+Function 'ff_estimate_b_frame_motion'
+Lines executed:0.00% of 74
+
+Function 'direct_search'
+Lines executed:0.00% of 78
+
+Function 'bidir_refine'
+Lines executed:0.00% of 71
+
+Function 'check_bidir_mv'
+Lines executed:0.00% of 40
+
+Function 'estimate_motion_b'
+Lines executed:0.00% of 37
+
+Function 'ff_pre_estimate_p_frame_motion'
+Lines executed:0.00% of 35
+
+Function 'ff_estimate_p_frame_motion'
+Lines executed:0.00% of 125
+
+Function 'get_penalty_factor'
+Lines executed:0.00% of 14
+
+Function 'interlaced_search'
+Lines executed:0.00% of 75
+
+Function 'init_interlaced_ref'
+Lines executed:0.00% of 10
+
+Function 'h263_mv4_search'
+Lines executed:0.00% of 107
+
+Function 'get_limits'
+Lines executed:0.00% of 26
+
+Function 'set_p_mv_tables'
+Lines executed:0.00% of 11
+
+Function 'sad_hpel_motion_search'
+Lines executed:0.00% of 71
+
+Function 'ff_me_init_pic'
+Lines executed:0.00% of 23
+
+Function 'ff_me_init'
+Lines executed:0.00% of 43
+
+Function 'zero_hpel'
+Lines executed:0.00% of 2
+
+Function 'zero_cmp'
+Lines executed:0.00% of 2
+
+Function 'epzs_motion_search2'
+Lines executed:0.00% of 81
+
+Function 'ff_epzs_motion_search'
+Lines executed:0.00% of 80
+
+Function 'var_diamond_search'
+Lines executed:0.00% of 54
+
+Function 'sab_diamond_search'
+Lines executed:0.00% of 64
+
+Function 'full_search'
+Lines executed:0.00% of 24
+
+Function 'umh_search'
+Lines executed:0.00% of 26
+
+Function 'l2s_dia_search'
+Lines executed:0.00% of 26
+
+Function 'hex_search'
+Lines executed:0.00% of 23
+
+Function 'funny_diamond_search'
+Lines executed:0.00% of 28
+
+Function 'qpel_motion_search'
+Lines executed:0.00% of 101
+
+Function 'ff_get_mb_score'
+Lines executed:0.00% of 2
+
+Function 'get_mb_score'
+Lines executed:0.00% of 18
+
+Function 'no_sub_motion_search'
+Lines executed:0.00% of 4
+
+Function 'hpel_motion_search'
+Lines executed:0.00% of 60
+
+Function 'cmp_qpel'
+Lines executed:0.00% of 67
+
+Function 'cmp_hpel'
+Lines executed:0.00% of 19
+
+Function 'cmp_internal'
+Lines executed:0.00% of 4
+
+Function 'cmp_fpel_internal'
+Lines executed:0.00% of 4
+
+Function 'cmp_simple'
+No executable lines
+
+Function 'init_ref'
+Lines executed:0.00% of 12
+
+Function 'update_map_generation'
+Lines executed:0.00% of 6
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/motion_est.c'
+Lines executed:0.00% of 1066
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno##libavcodec#motion_est.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/h263.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno##libavcodec#h263.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/motion_est_template.c'
+Lines executed:0.00% of 556
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno##libavcodec#motion_est_template.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#motion_est.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 1649

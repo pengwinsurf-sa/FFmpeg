@@ -1,0 +1,96 @@
+Function 'ff_dnxhdenc_init'
+Lines executed:0.00% of 3
+
+Function 'dnxhd_encode_end'
+Lines executed:0.00% of 22
+
+Function 'dnxhd_encode_picture'
+Lines executed:0.00% of 43
+
+Function 'dnxhd_load_picture'
+Lines executed:0.00% of 8
+
+Function 'dnxhd_encode_fast'
+Lines executed:0.00% of 29
+
+Function 'radix_sort'
+Lines executed:0.00% of 20
+
+Function 'radix_count'
+Lines executed:0.00% of 14
+
+Function 'dnxhd_find_qscale'
+Lines executed:0.00% of 34
+
+Function 'dnxhd_encode_rdo'
+Lines executed:0.00% of 53
+
+Function 'dnxhd_mb_var_thread'
+Lines executed:0.00% of 48
+
+Function 'dnxhd_setup_threads_slices'
+Lines executed:0.00% of 13
+
+Function 'dnxhd_encode_thread'
+Lines executed:0.00% of 154
+
+Function 'dnxhd_calc_bits_thread'
+Lines executed:0.00% of 92
+
+Function 'dnxhd_write_header'
+Lines executed:0.00% of 27
+
+Function 'dnxhd_encode_init'
+Lines executed:0.00% of 101
+
+Function 'dnxhd_init_rc'
+Lines executed:0.00% of 11
+
+Function 'dnxhd_init_qmat'
+Lines executed:0.00% of 40
+
+Function 'dnxhd_init_vlc'
+Lines executed:0.00% of 39
+
+Function 'dnxhd_10bit_dct_quantize'
+Lines executed:0.00% of 18
+
+Function 'dnxhd_10bit_dct_quantize_444'
+Lines executed:0.00% of 35
+
+Function 'dnxhd_10bit_get_pixels_8x4_sym'
+Lines executed:0.00% of 10
+
+Function 'dnxhd_8bit_get_pixels_8x4_sym'
+Lines executed:0.00% of 18
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/dnxhdenc.c'
+Lines executed:0.00% of 806
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhdenc.gcno##libavcodec#dnxhdenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhdenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhdenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhdenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhdenc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 865

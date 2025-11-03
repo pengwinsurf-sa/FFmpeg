@@ -1,0 +1,79 @@
+Function 'filter_frame'
+Lines executed:0.00% of 109
+
+Function 'config_input'
+Lines executed:0.00% of 48
+
+Function 'colorlevels_preserve_slice_32_planar'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_preserve_slice_16_planar'
+Lines executed:0.00% of 7
+
+Function 'colorlevels_preserve_slice_14_planar'
+Lines executed:0.00% of 7
+
+Function 'colorlevels_preserve_slice_12_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_preserve_slice_10_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_preserve_slice_9_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_preserve_slice_8_planar'
+Lines executed:0.00% of 7
+
+Function 'colorlevels_slice_32_planar'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_slice_16_planar'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_slice_14_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_slice_12_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_slice_10_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_slice_9_planar'
+Lines executed:0.00% of 5
+
+Function 'colorlevels_slice_8_planar'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_preserve_slice_16'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_preserve_slice_8'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_slice_16'
+Lines executed:0.00% of 4
+
+Function 'colorlevels_slice_8'
+Lines executed:0.00% of 4
+
+Function 'preserve_color'
+Lines executed:0.00% of 31
+
+Function 'power'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_colorlevels.c'
+Lines executed:0.00% of 237
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorlevels.gcno##libavfilter#vf_colorlevels.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorlevels.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/preserve_color.h'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorlevels.gcno##libavfilter#preserve_color.h.gcov'
+
+Lines executed:0.00% of 281

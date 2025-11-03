@@ -1,0 +1,28 @@
+Function 's302m_encode2_frame'
+Lines executed:0.00% of 84
+
+Function 's302m_encode_init'
+Lines executed:0.00% of 23
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/s302menc.c'
+Lines executed:0.00% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#s302menc.gcno##libavcodec#s302menc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#s302menc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#s302menc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 142

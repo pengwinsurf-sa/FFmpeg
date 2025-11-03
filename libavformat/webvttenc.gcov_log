@@ -1,0 +1,14 @@
+Function 'webvtt_write_packet'
+Lines executed:0.00% of 23
+
+Function 'webvtt_write_header'
+Lines executed:0.00% of 6
+
+Function 'webvtt_write_time'
+Lines executed:0.00% of 12
+
+File 'libavformat/webvttenc.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#webvttenc.gcno##libavformat#webvttenc.c.gcov'
+
+Lines executed:0.00% of 41

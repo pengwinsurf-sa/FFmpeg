@@ -1,0 +1,14 @@
+Function 'read_packet'
+Lines executed:0.00% of 55
+
+Function 'read_header'
+Lines executed:0.00% of 28
+
+Function 'probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/act.c'
+Lines executed:0.00% of 94
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#act.gcno##libavformat#act.c.gcov'
+
+Lines executed:0.00% of 94

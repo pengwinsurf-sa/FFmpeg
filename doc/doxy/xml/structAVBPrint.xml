@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVBPrint" kind="struct" language="C++" prot="public">
+    <compoundname>AVBPrint</compoundname>
+    <includes refid="bprint_8h" local="no">libavutil/bprint.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVBPrint_1a4219d75e118f4a10406b5ad081b2aa29" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* AVBPrint::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <qualifiedname>AVBPrint::str</qualifiedname>
+        <briefdescription>
+<para>string so far </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/bprint.h" line="99" column="28" bodyfile="libavutil/bprint.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBPrint_1a3a0057412726135dc19c191d1064acfa" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVBPrint::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <qualifiedname>AVBPrint::len</qualifiedname>
+        <briefdescription>
+<para>length so far </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/bprint.h" line="99" column="59" bodyfile="libavutil/bprint.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="group__lavu__avbprint_1ga07432f704c49a6fa636197e2aa80bac0" compoundref="bprint_8h" startline="218" endline="221">av_bprint_is_complete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBPrint_1ae6026c4fe2d89f632340493fd94600e2" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVBPrint::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>AVBPrint::size</qualifiedname>
+        <briefdescription>
+<para>allocated memory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/bprint.h" line="99" column="87" bodyfile="libavutil/bprint.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="group__lavu__avbprint_1ga07432f704c49a6fa636197e2aa80bac0" compoundref="bprint_8h" startline="218" endline="221">av_bprint_is_complete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBPrint_1a4f9984d722585a4a805f2a9023545967" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVBPrint::size_max</definition>
+        <argsstring></argsstring>
+        <name>size_max</name>
+        <qualifiedname>AVBPrint::size_max</qualifiedname>
+        <briefdescription>
+<para>maximum allocated memory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/bprint.h" line="99" column="115" bodyfile="libavutil/bprint.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBPrint_1a176c4ea490e6c51f121784afa93c3237" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char AVBPrint::reserved_internal_buffer[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>reserved_internal_buffer</name>
+        <qualifiedname>AVBPrint::reserved_internal_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/bprint.h" line="99" column="139" bodyfile="libavutil/bprint.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Buffer to print data progressively. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The string buffer grows as necessary and is always 0-terminated. The content of the string is never accessed, and thus is encoding-agnostic and can even hold binary data.</para>
+<para>Small buffers are kept in the structure itself, and thus require no memory allocation at all (unless the contents of the buffer is needed after the structure goes out of scope). This is almost as lightweight as declaring a local <computeroutput>char buf[512]</computeroutput>.</para>
+<para>The length of the string can go beyond the allocated size: the buffer is then truncated, but the functions still keep account of the actual total length.</para>
+<para>In other words, <ref refid="structAVBPrint_1a3a0057412726135dc19c191d1064acfa" kindref="member">AVBPrint.len</ref> can be greater than <ref refid="structAVBPrint_1ae6026c4fe2d89f632340493fd94600e2" kindref="member">AVBPrint.size</ref> and records the total length of what would have been to the buffer if there had been enough memory.</para>
+<para>Append operations do not need to be tested for failure: if a memory allocation fails, data stop being appended to the buffer, but the length is still updated. This situation can be tested with <ref refid="group__lavu__avbprint_1ga07432f704c49a6fa636197e2aa80bac0" kindref="member">av_bprint_is_complete()</ref>.</para>
+<para>The <ref refid="structAVBPrint_1a4f9984d722585a4a805f2a9023545967" kindref="member">AVBPrint.size_max</ref> field determines several possible behaviours:<itemizedlist>
+<listitem><para><computeroutput>size_max = -1</computeroutput> (= <computeroutput>UINT_MAX</computeroutput>) or any large value will let the buffer be reallocated as necessary, with an amortized linear cost.</para>
+</listitem><listitem><para><computeroutput>size_max = 0</computeroutput> prevents writing anything to the buffer: only the total length is computed. The write operations can then possibly be repeated in a buffer with exactly the necessary size (using <computeroutput>size_init = size_max = len + 1</computeroutput>).</para>
+</listitem><listitem><para><computeroutput>size_max = 1</computeroutput> is automatically replaced by the exact size available in the structure itself, thus ensuring no dynamic memory allocation. The internal buffer is large enough to hold a reasonable paragraph of text, such as the current paragraph. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="libavutil/bprint.h" line="99" column="1" bodyfile="libavutil/bprint.h" bodystart="99" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structAVBPrint_1a3a0057412726135dc19c191d1064acfa" prot="public" virt="non-virtual"><scope>AVBPrint</scope><name>len</name></member>
+      <member refid="structAVBPrint_1a176c4ea490e6c51f121784afa93c3237" prot="public" virt="non-virtual"><scope>AVBPrint</scope><name>reserved_internal_buffer</name></member>
+      <member refid="structAVBPrint_1ae6026c4fe2d89f632340493fd94600e2" prot="public" virt="non-virtual"><scope>AVBPrint</scope><name>size</name></member>
+      <member refid="structAVBPrint_1a4f9984d722585a4a805f2a9023545967" prot="public" virt="non-virtual"><scope>AVBPrint</scope><name>size_max</name></member>
+      <member refid="structAVBPrint_1a4219d75e118f4a10406b5ad081b2aa29" prot="public" virt="non-virtual"><scope>AVBPrint</scope><name>str</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

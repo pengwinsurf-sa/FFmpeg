@@ -1,0 +1,84 @@
+Function 'svq1_flush'
+Lines executed:0.00% of 4
+
+Function 'svq1_decode_end'
+Lines executed:0.00% of 8
+
+Function 'svq1_decode_init'
+Lines executed:0.00% of 12
+
+Function 'svq1_static_init'
+Lines executed:0.00% of 19
+
+Function 'svq1_decode_frame'
+Lines executed:0.00% of 101
+
+Function 'svq1_decode_frame_header'
+Lines executed:0.00% of 72
+
+Function 'svq1_parse_string'
+Lines executed:0.00% of 10
+
+Function 'svq1_decode_delta_block'
+Lines executed:0.00% of 42
+
+Function 'svq1_motion_inter_4v_block'
+Lines executed:0.00% of 43
+
+Function 'svq1_motion_inter_block'
+Lines executed:0.00% of 26
+
+Function 'svq1_skip_block'
+Lines executed:0.00% of 11
+
+Function 'svq1_decode_motion_vector'
+Lines executed:0.00% of 20
+
+Function 'svq1_decode_block_non_intra'
+Lines executed:0.00% of 41
+
+Function 'svq1_decode_block_intra'
+Lines executed:0.00% of 34
+
+Function 'skip_1stop_8data_bits'
+Lines executed:0.00% of 5
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/svq1dec.c'
+Lines executed:0.00% of 372
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavcodec#svq1dec.c.gcov'
+
+File 'libavcodec/vlc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavcodec#vlc.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq1dec.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 458

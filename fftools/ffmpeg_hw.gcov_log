@@ -1,0 +1,33 @@
+Function 'hw_device_for_filter'
+Lines executed:0.00% of 8
+
+Function 'hw_device_free_all'
+Lines executed:0.00% of 9
+
+Function 'hw_device_init_from_type'
+Lines executed:0.00% of 26
+
+Function 'hw_device_init_from_string'
+Lines executed:0.00% of 97
+
+Function 'hw_device_default_name'
+Lines executed:0.00% of 17
+
+Function 'hw_device_add'
+Lines executed:0.00% of 9
+
+Function 'hw_device_get_by_name'
+Lines executed:0.00% of 5
+
+Function 'hw_device_get_by_type'
+Lines executed:0.00% of 6
+
+File 'fftools/ffmpeg_hw.c'
+Lines executed:0.00% of 175
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_hw.gcno##fftools#ffmpeg_hw.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_hw.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 177

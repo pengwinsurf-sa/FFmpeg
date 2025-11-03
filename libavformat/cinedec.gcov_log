@@ -1,0 +1,28 @@
+Function 'cine_read_seek'
+Lines executed:0.00% of 6
+
+Function 'cine_read_packet'
+Lines executed:0.00% of 26
+
+Function 'cine_read_header'
+Lines executed:0.00% of 145
+
+Function 'set_metadata_float'
+Lines executed:0.00% of 7
+
+Function 'cine_read_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/cinedec.c'
+Lines executed:0.00% of 189
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cinedec.gcno##libavformat#cinedec.c.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cinedec.gcno##libavutil#intfloat.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cinedec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 195

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="audio__fifo_8h" kind="file" language="C++">
+    <compoundname>audio_fifo.h</compoundname>
+    <includes refid="attributes_8h" local="yes">attributes.h</includes>
+    <includes refid="samplefmt_8h" local="yes">samplefmt.h</includes>
+    <includedby refid="transcode__aac_8c" local="no">doc/examples/transcode_aac.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/audio_fifo.h</label>
+        <link refid="audio__fifo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="1">
+        <label>libavutil/audio_fifo.h</label>
+        <link refid="audio__fifo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="typedef">
+      <member refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kind="typedef"><name>AVAudioFifo</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__audiofifo_1ga74e029e47f7aa99217ad1f315c434875" kind="function"><name>av_audio_fifo_free</name></member>
+      <member refid="group__lavu__audiofifo_1ga26cec528c9abdf59adb70b305304346e" kind="function"><name>av_audio_fifo_alloc</name></member>
+      <member refid="group__lavu__audiofifo_1ga27c1e16e5f09940d6016b1971c0b5742" kind="function"><name>av_audio_fifo_realloc</name></member>
+      <member refid="group__lavu__audiofifo_1ga51d81a165872919bbfdee3f00f6d6530" kind="function"><name>av_audio_fifo_write</name></member>
+      <member refid="group__lavu__audiofifo_1ga0637c3f22ea0844bfd2eaf52eb1172a9" kind="function"><name>av_audio_fifo_peek</name></member>
+      <member refid="group__lavu__audiofifo_1ga292151ecdbe6437f32f832cc57d33fc1" kind="function"><name>av_audio_fifo_peek_at</name></member>
+      <member refid="group__lavu__audiofifo_1ga5e2c87bbeefba0d229b4109b4b755529" kind="function"><name>av_audio_fifo_read</name></member>
+      <member refid="group__lavu__audiofifo_1gacac9b187b9c27c5a0374f6f83224a77b" kind="function"><name>av_audio_fifo_drain</name></member>
+      <member refid="group__lavu__audiofifo_1ga3f070386d11d425302437a3b60fc5dd0" kind="function"><name>av_audio_fifo_reset</name></member>
+      <member refid="group__lavu__audiofifo_1gaa0a4742ecac52a999e8b4478d27f3b9b" kind="function"><name>av_audio_fifo_size</name></member>
+      <member refid="group__lavu__audiofifo_1ga2bed2f01fe34228ee8a73617b3177d00" kind="function"><name>av_audio_fifo_space</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Audio FIFO Buffer. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Audio<sp/>FIFO</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2012<sp/>Justin<sp/>Ruggles<sp/>&lt;justin.ruggles@gmail.com&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="22"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Audio<sp/>FIFO<sp/>Buffer</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_AUDIO_FIFO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_AUDIO_FIFO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="attributes_8h" kindref="compound">attributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="samplefmt_8h" kindref="compound">samplefmt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavu_audio</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_audiofifo<sp/>Audio<sp/>FIFO<sp/>Buffer</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="41"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>Context<sp/>for<sp/>an<sp/>Audio<sp/>FIFO<sp/>Buffer.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>-<sp/>Operates<sp/>at<sp/>the<sp/>sample<sp/>level<sp/>rather<sp/>than<sp/>the<sp/>byte<sp/>level.</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>-<sp/>Supports<sp/>multiple<sp/>channels<sp/>with<sp/>either<sp/>planar<sp/>or<sp/>packed<sp/>sample<sp/>format.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>-<sp/>Automatic<sp/>reallocation<sp/>when<sp/>writing<sp/>to<sp/>a<sp/>full<sp/>buffer.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/><ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="50"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>Free<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/>AVAudioFifo<sp/>to<sp/>free</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__lavu__audiofifo_1ga74e029e47f7aa99217ad1f315c434875" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga74e029e47f7aa99217ad1f315c434875" kindref="member">av_audio_fifo_free</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="57"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>@param<sp/>sample_fmt<sp/><sp/>sample<sp/>format</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>@param<sp/>channels<sp/><sp/><sp/><sp/>number<sp/>of<sp/>channels</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>initial<sp/>allocation<sp/>size,<sp/>in<sp/>samples</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newly<sp/>allocated<sp/>AVAudioFifo,<sp/>or<sp/>NULL<sp/>on<sp/>error</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="group__lavu__audiofifo_1ga26cec528c9abdf59adb70b305304346e" refkind="member"><highlight class="normal"><ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*<ref refid="group__lavu__audiofifo_1ga26cec528c9abdf59adb70b305304346e" kindref="member">av_audio_fifo_alloc</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__sampfmts_1gaf9a51ca15301871723577c730b5865c5" kindref="member">AVSampleFormat</ref><sp/>sample_fmt,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>channels,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>Reallocate<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVAudioFifo<sp/>to<sp/>reallocate</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>new<sp/>allocation<sp/>size,<sp/>in<sp/>samples</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>if<sp/>OK,<sp/>or<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="attributes_8h_1a93f17e0f0b53a66e7b5eceb3dff2918f" kindref="member">av_warn_unused_result</ref></highlight></codeline>
+<codeline lineno="76" refid="group__lavu__audiofifo_1ga27c1e16e5f09940d6016b1971c0b5742" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga27c1e16e5f09940d6016b1971c0b5742" kindref="member">av_audio_fifo_realloc</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="78"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/>Write<sp/>data<sp/>to<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>The<sp/>AVAudioFifo<sp/>will<sp/>be<sp/>reallocated<sp/>automatically<sp/>if<sp/>the<sp/>available<sp/>space</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>is<sp/>less<sp/>than<sp/>nb_samples.</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>@see<sp/>enum<sp/>AVSampleFormat</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>The<sp/>documentation<sp/>for<sp/>AVSampleFormat<sp/>describes<sp/>the<sp/>data<sp/>layout.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVAudioFifo<sp/>to<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audio<sp/>data<sp/>plane<sp/>pointers</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>number<sp/>of<sp/>samples<sp/>to<sp/>write</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>written,<sp/>or<sp/>negative<sp/>AVERROR</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>code<sp/>on<sp/>failure.<sp/>If<sp/>successful,<sp/>the<sp/>number<sp/>of<sp/>samples</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>actually<sp/>written<sp/>will<sp/>always<sp/>be<sp/>nb_samples.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="group__lavu__audiofifo_1ga51d81a165872919bbfdee3f00f6d6530" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga51d81a165872919bbfdee3f00f6d6530" kindref="member">av_audio_fifo_write</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="96"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>Peek<sp/>data<sp/>from<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>@see<sp/>enum<sp/>AVSampleFormat</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>The<sp/>documentation<sp/>for<sp/>AVSampleFormat<sp/>describes<sp/>the<sp/>data<sp/>layout.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVAudioFifo<sp/>to<sp/>read<sp/>from</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audio<sp/>data<sp/>plane<sp/>pointers</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>number<sp/>of<sp/>samples<sp/>to<sp/>peek</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>peek,<sp/>or<sp/>negative<sp/>AVERROR<sp/>code</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.<sp/>The<sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>peek<sp/>will<sp/>not</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>greater<sp/>than<sp/>nb_samples,<sp/>and<sp/>will<sp/>only<sp/>be<sp/>less<sp/>than</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nb_samples<sp/>if<sp/>av_audio_fifo_size<sp/>is<sp/>less<sp/>than<sp/>nb_samples.</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="group__lavu__audiofifo_1ga0637c3f22ea0844bfd2eaf52eb1172a9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga0637c3f22ea0844bfd2eaf52eb1172a9" kindref="member">av_audio_fifo_peek</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="112"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>Peek<sp/>data<sp/>from<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>@see<sp/>enum<sp/>AVSampleFormat</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*<sp/>The<sp/>documentation<sp/>for<sp/>AVSampleFormat<sp/>describes<sp/>the<sp/>data<sp/>layout.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVAudioFifo<sp/>to<sp/>read<sp/>from</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audio<sp/>data<sp/>plane<sp/>pointers</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>number<sp/>of<sp/>samples<sp/>to<sp/>peek</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>@param<sp/>offset<sp/><sp/><sp/><sp/><sp/><sp/>offset<sp/>from<sp/>current<sp/>read<sp/>position</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>peek,<sp/>or<sp/>negative<sp/>AVERROR<sp/>code</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.<sp/>The<sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>peek<sp/>will<sp/>not</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>greater<sp/>than<sp/>nb_samples,<sp/>and<sp/>will<sp/>only<sp/>be<sp/>less<sp/>than</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nb_samples<sp/>if<sp/>av_audio_fifo_size<sp/>is<sp/>less<sp/>than<sp/>nb_samples.</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="group__lavu__audiofifo_1ga292151ecdbe6437f32f832cc57d33fc1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga292151ecdbe6437f32f832cc57d33fc1" kindref="member">av_audio_fifo_peek_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*data,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="130"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>Read<sp/>data<sp/>from<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>@see<sp/>enum<sp/>AVSampleFormat</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/>The<sp/>documentation<sp/>for<sp/>AVSampleFormat<sp/>describes<sp/>the<sp/>data<sp/>layout.</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVAudioFifo<sp/>to<sp/>read<sp/>from</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>@param<sp/>data<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audio<sp/>data<sp/>plane<sp/>pointers</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>number<sp/>of<sp/>samples<sp/>to<sp/>read</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>read,<sp/>or<sp/>negative<sp/>AVERROR<sp/>code</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.<sp/>The<sp/>number<sp/>of<sp/>samples<sp/>actually<sp/>read<sp/>will<sp/>not</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>greater<sp/>than<sp/>nb_samples,<sp/>and<sp/>will<sp/>only<sp/>be<sp/>less<sp/>than</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nb_samples<sp/>if<sp/>av_audio_fifo_size<sp/>is<sp/>less<sp/>than<sp/>nb_samples.</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="group__lavu__audiofifo_1ga5e2c87bbeefba0d229b4109b4b755529" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga5e2c87bbeefba0d229b4109b4b755529" kindref="member">av_audio_fifo_read</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="146"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>Drain<sp/>data<sp/>from<sp/>an<sp/>AVAudioFifo.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*<sp/>Removes<sp/>the<sp/>data<sp/>without<sp/>reading<sp/>it.</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AVAudioFifo<sp/>to<sp/>drain</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>@param<sp/>nb_samples<sp/><sp/>number<sp/>of<sp/>samples<sp/>to<sp/>drain</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>if<sp/>OK,<sp/>or<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="group__lavu__audiofifo_1gacac9b187b9c27c5a0374f6f83224a77b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1gacac9b187b9c27c5a0374f6f83224a77b" kindref="member">av_audio_fifo_drain</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="157"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*<sp/>Reset<sp/>the<sp/>AVAudioFifo<sp/>buffer.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>*<sp/>This<sp/>empties<sp/>all<sp/>data<sp/>in<sp/>the<sp/>buffer.</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/>AVAudioFifo<sp/>to<sp/>reset</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="group__lavu__audiofifo_1ga3f070386d11d425302437a3b60fc5dd0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga3f070386d11d425302437a3b60fc5dd0" kindref="member">av_audio_fifo_reset</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="166"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>current<sp/>number<sp/>of<sp/>samples<sp/>in<sp/>the<sp/>AVAudioFifo<sp/>available<sp/>for<sp/>reading.</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/>the<sp/>AVAudioFifo<sp/>to<sp/>query</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/>number<sp/>of<sp/>samples<sp/>available<sp/>for<sp/>reading</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="group__lavu__audiofifo_1gaa0a4742ecac52a999e8b4478d27f3b9b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1gaa0a4742ecac52a999e8b4478d27f3b9b" kindref="member">av_audio_fifo_size</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="174"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>current<sp/>number<sp/>of<sp/>samples<sp/>in<sp/>the<sp/>AVAudioFifo<sp/>available<sp/>for<sp/>writing.</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*<sp/>@param<sp/>af<sp/><sp/>the<sp/>AVAudioFifo<sp/>to<sp/>query</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/>number<sp/>of<sp/>samples<sp/>available<sp/>for<sp/>writing</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="group__lavu__audiofifo_1ga2bed2f01fe34228ee8a73617b3177d00" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__audiofifo_1ga2bed2f01fe34228ee8a73617b3177d00" kindref="member">av_audio_fifo_space</ref>(<ref refid="group__lavu__audiofifo_1ga328abb21e9abb2c455d2d9c212d5230f" kindref="member">AVAudioFifo</ref><sp/>*af);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="182"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_AUDIO_FIFO_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/audio_fifo.h"/>
+  </compounddef>
+</doxygen>

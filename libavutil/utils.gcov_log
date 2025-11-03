@@ -1,0 +1,27 @@
+Function 'av_assert0_fpu'
+Lines executed:0.00% of 5
+
+Function 'av_get_time_base_q'
+Lines executed:0.00% of 2
+
+Function 'av_fourcc_make_string'
+Lines executed:0.00% of 18
+
+Function 'av_int_list_length_for_size'
+Lines executed:0.00% of 9
+
+Function 'av_get_picture_type_char'
+Lines executed:0.00% of 2
+
+Function 'av_get_media_type_string'
+Lines executed:0.00% of 7
+
+File 'libavutil/utils.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#utils.gcno##libavutil#utils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#utils.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 43

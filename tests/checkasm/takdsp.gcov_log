@@ -1,0 +1,40 @@
+Function 'checkasm_check_takdsp'
+Lines executed:100.00% of 8
+
+Function 'test_decorrelate_sf'
+Lines executed:77.42% of 31
+
+Function 'test_decorrelate_sm'
+Lines executed:93.33% of 15
+
+Function 'test_decorrelate_sr'
+Lines executed:92.31% of 13
+
+Function 'test_decorrelate_ls'
+Lines executed:92.31% of 13
+
+File 'tests/checkasm/takdsp.c'
+Lines executed:93.75% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#takdsp.gcno##tests#checkasm#takdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#takdsp.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#takdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#takdsp.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#takdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#takdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:87.50% of 80

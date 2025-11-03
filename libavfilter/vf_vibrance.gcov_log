@@ -1,0 +1,31 @@
+Function 'config_input'
+Lines executed:0.00% of 16
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'vibrance_slice16p'
+Lines executed:0.00% of 59
+
+Function 'vibrance_slice8p'
+Lines executed:0.00% of 56
+
+Function 'vibrance_slice16'
+Lines executed:0.00% of 68
+
+Function 'vibrance_slice8'
+Lines executed:0.00% of 64
+
+File 'libavfilter/vf_vibrance.c'
+Lines executed:0.00% of 277
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vibrance.gcno##libavfilter#vf_vibrance.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vibrance.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vibrance.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 284

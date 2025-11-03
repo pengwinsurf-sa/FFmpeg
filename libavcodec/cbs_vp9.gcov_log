@@ -1,0 +1,161 @@
+Function 'cbs_vp9_flush'
+Lines executed:0.00% of 6
+
+Function 'cbs_vp9_assemble_fragment'
+Lines executed:0.00% of 63
+
+Function 'cbs_vp9_write_unit'
+Lines executed:0.00% of 15
+
+Function 'cbs_vp9_read_unit'
+Lines executed:0.00% of 36
+
+Function 'cbs_vp9_split_fragment'
+Lines executed:0.00% of 31
+
+Function 'cbs_vp9_write_superframe_index'
+Lines executed:0.00% of 11
+
+Function 'cbs_vp9_write_frame'
+Lines executed:0.00% of 5
+
+Function 'cbs_vp9_write_trailing_bits'
+Lines executed:0.00% of 4
+
+Function 'cbs_vp9_write_uncompressed_header'
+Lines executed:0.00% of 75
+
+Function 'cbs_vp9_write_tile_info'
+Lines executed:0.00% of 10
+
+Function 'cbs_vp9_write_segmentation_params'
+Lines executed:0.00% of 29
+
+Function 'cbs_vp9_write_quantization_params'
+Lines executed:0.00% of 6
+
+Function 'cbs_vp9_write_loop_filter_params'
+Lines executed:0.00% of 16
+
+Function 'cbs_vp9_write_interpolation_filter'
+Lines executed:0.00% of 5
+
+Function 'cbs_vp9_write_frame_size_with_refs'
+Lines executed:0.00% of 21
+
+Function 'cbs_vp9_write_render_size'
+Lines executed:0.00% of 6
+
+Function 'cbs_vp9_write_frame_size'
+Lines executed:0.00% of 12
+
+Function 'cbs_vp9_write_color_config'
+Lines executed:0.00% of 24
+
+Function 'cbs_vp9_write_frame_sync_code'
+Lines executed:0.00% of 5
+
+Function 'cbs_vp9_read_superframe_index'
+Lines executed:0.00% of 12
+
+Function 'cbs_vp9_read_frame'
+Lines executed:0.00% of 5
+
+Function 'cbs_vp9_read_trailing_bits'
+Lines executed:0.00% of 4
+
+Function 'cbs_vp9_read_uncompressed_header'
+Lines executed:0.00% of 75
+
+Function 'cbs_vp9_read_tile_info'
+Lines executed:0.00% of 11
+
+Function 'cbs_vp9_read_segmentation_params'
+Lines executed:0.00% of 29
+
+Function 'cbs_vp9_read_quantization_params'
+Lines executed:0.00% of 7
+
+Function 'cbs_vp9_read_loop_filter_params'
+Lines executed:0.00% of 16
+
+Function 'cbs_vp9_read_interpolation_filter'
+Lines executed:0.00% of 5
+
+Function 'cbs_vp9_read_frame_size_with_refs'
+Lines executed:0.00% of 21
+
+Function 'cbs_vp9_read_render_size'
+Lines executed:0.00% of 6
+
+Function 'cbs_vp9_read_frame_size'
+Lines executed:0.00% of 12
+
+Function 'cbs_vp9_read_color_config'
+Lines executed:0.00% of 24
+
+Function 'cbs_vp9_read_frame_sync_code'
+Lines executed:0.00% of 6
+
+Function 'cbs_vp9_write_le'
+Lines executed:0.00% of 11
+
+Function 'cbs_vp9_read_le'
+Lines executed:0.00% of 15
+
+Function 'cbs_vp9_write_increment'
+Lines executed:0.00% of 15
+
+Function 'cbs_vp9_read_increment'
+Lines executed:0.00% of 22
+
+Function 'cbs_vp9_write_s'
+Lines executed:0.00% of 10
+
+Function 'cbs_vp9_read_s'
+Lines executed:0.00% of 14
+
+Function 'skip_put_bytes'
+Lines executed:0.00% of 6
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/cbs_vp9.c'
+Lines executed:0.00% of 188
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno##libavcodec#cbs_vp9.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/cbs_vp9_syntax_template.c'
+Lines executed:0.00% of 695
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno##libavcodec#cbs_vp9_syntax_template.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp9.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 991

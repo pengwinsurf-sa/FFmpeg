@@ -1,0 +1,23 @@
+Function 'ff_deflate_end'
+Lines executed:0.00% of 5
+
+Function 'ff_deflate_init'
+Lines executed:0.00% of 14
+
+Function 'ff_inflate_end'
+Lines executed:0.00% of 5
+
+Function 'ff_inflate_init'
+Lines executed:0.00% of 16
+
+Function 'free_wrapper'
+Lines executed:0.00% of 3
+
+Function 'alloc_wrapper'
+Lines executed:0.00% of 2
+
+File 'libavcodec/zlib_wrapper.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#zlib_wrapper.gcno##libavcodec#zlib_wrapper.c.gcov'
+
+Lines executed:0.00% of 45

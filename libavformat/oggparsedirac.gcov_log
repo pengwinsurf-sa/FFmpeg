@@ -1,0 +1,21 @@
+Function 'old_dirac_gptopts'
+Lines executed:0.00% of 8
+
+Function 'old_dirac_header'
+Lines executed:0.00% of 12
+
+Function 'dirac_gptopts'
+Lines executed:0.00% of 12
+
+Function 'dirac_header'
+Lines executed:0.00% of 25
+
+File 'libavformat/oggparsedirac.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsedirac.gcno##libavformat#oggparsedirac.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsedirac.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 57

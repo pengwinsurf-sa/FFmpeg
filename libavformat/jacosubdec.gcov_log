@@ -1,0 +1,36 @@
+Function 'jacosub_read_header'
+Lines executed:0.00% of 78
+
+Function 'get_shift'
+Lines executed:0.00% of 20
+
+Function 'read_ts'
+Lines executed:0.00% of 18
+
+Function 'jacosub_probe'
+Lines executed:0.00% of 20
+
+Function 'timed_line'
+Lines executed:0.00% of 5
+
+File 'libavformat/jacosubdec.c'
+Lines executed:0.00% of 120
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jacosubdec.gcno##libavformat#jacosubdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jacosubdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavcodec/jacosub.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jacosubdec.gcno##libavcodec#jacosub.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jacosubdec.gcno##libavutil#avstring.h.gcov'
+
+File 'libavformat/subtitles.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#jacosubdec.gcno##libavformat#subtitles.h.gcov'
+
+Lines executed:0.00% of 141

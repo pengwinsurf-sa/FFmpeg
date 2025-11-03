@@ -1,0 +1,34 @@
+Function 'av_sha_final'
+Lines executed:0.00% of 12
+
+Function 'av_sha_update'
+Lines executed:0.00% of 19
+
+Function 'av_sha_init'
+Lines executed:0.00% of 35
+
+Function 'sha256_transform'
+Lines executed:0.00% of 25
+
+Function 'sha1_transform'
+Lines executed:0.00% of 25
+
+Function 'av_sha_alloc'
+Lines executed:0.00% of 2
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavutil/sha.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#sha.gcno##libavutil#sha.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#sha.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#sha.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 120

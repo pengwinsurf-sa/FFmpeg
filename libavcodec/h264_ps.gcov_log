@@ -1,0 +1,93 @@
+Function 'ff_h264_decode_picture_parameter_set'
+Lines executed:0.00% of 124
+
+Function 'pps_free'
+Lines executed:0.00% of 4
+
+Function 'more_rbsp_data_in_pps'
+Lines executed:0.00% of 6
+
+Function 'init_dequant_tables'
+Lines executed:0.00% of 17
+
+Function 'init_dequant4_coeff_table'
+Lines executed:0.00% of 19
+
+Function 'init_dequant8_coeff_table'
+Lines executed:0.00% of 19
+
+Function 'ff_h264_decode_seq_parameter_set'
+Lines executed:0.00% of 206
+
+Function 'ff_h264_ps_uninit'
+Lines executed:0.00% of 9
+
+Function 'decode_scaling_matrices'
+Lines executed:0.00% of 27
+
+Function 'decode_scaling_list'
+Lines executed:0.00% of 18
+
+Function 'decode_vui_parameters'
+Lines executed:0.00% of 44
+
+Function 'decode_hrd_parameters'
+Lines executed:0.00% of 19
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 22
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 9
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 12
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/h264_ps.c'
+Lines executed:0.00% of 478
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavcodec#h264_ps.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_ps.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 611

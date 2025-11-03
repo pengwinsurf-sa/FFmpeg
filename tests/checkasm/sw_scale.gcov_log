@@ -1,0 +1,53 @@
+Function 'checkasm_check_sw_scale'
+Lines executed:100.00% of 13
+
+Function 'check_hscale'
+Lines executed:87.50% of 64
+
+Function 'check_yuv2nv12cX'
+Lines executed:88.89% of 54
+
+Function 'check_yuv2yuvX'
+Lines executed:93.33% of 60
+
+Function 'check_yuv2yuv1'
+Lines executed:82.61% of 46
+
+Function 'show_differences'
+Lines executed:0.00% of 13
+
+Function 'print_data'
+Lines executed:0.00% of 11
+
+Function 'yuv2planeX_8_ref'
+Lines executed:100.00% of 12
+
+File 'tests/checkasm/sw_scale.c'
+Lines executed:83.46% of 254
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno##tests#checkasm#sw_scale.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_scale.gcno##libavutil#common.h.gcov'
+
+Lines executed:81.68% of 273

@@ -1,0 +1,62 @@
+Function 'av_disposition_to_string'
+Lines executed:0.00% of 7
+
+Function 'av_disposition_from_string'
+Lines executed:0.00% of 4
+
+Function 'option_is_disposition'
+Lines executed:0.00% of 3
+
+Function 'avformat_stream_group_add_stream'
+Lines executed:0.00% of 7
+
+Function 'stream_group_add_stream'
+Lines executed:0.00% of 6
+
+Function 'avformat_stream_group_create'
+Lines executed:0.00% of 48
+
+Function 'av_stream_group_get_class'
+Lines executed:0.00% of 2
+
+Function 'stream_group_child_iterate'
+Lines executed:0.00% of 13
+
+Function 'stream_group_child_next'
+Lines executed:0.00% of 12
+
+Function 'avformat_new_stream'
+Lines executed:0.00% of 50
+
+Function 'av_stream_get_class'
+Lines executed:0.00% of 2
+
+Function 'avformat_get_class'
+Lines executed:0.00% of 2
+
+Function 'avformat_alloc_context'
+Lines executed:0.00% of 17
+
+Function 'io_close2_default'
+Lines executed:0.00% of 2
+
+Function 'io_open_default'
+Lines executed:0.00% of 8
+
+Function 'get_category'
+Lines executed:0.00% of 4
+
+Function 'format_child_class_iterate'
+Lines executed:0.00% of 26
+
+Function 'format_child_next'
+Lines executed:0.00% of 7
+
+Function 'format_to_name'
+Lines executed:0.00% of 5
+
+File 'libavformat/options.c'
+Lines executed:0.00% of 225
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#options.gcno##libavformat#options.c.gcov'
+
+Lines executed:0.00% of 225

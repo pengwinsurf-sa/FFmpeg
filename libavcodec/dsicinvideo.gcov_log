@@ -1,0 +1,37 @@
+Function 'cinvideo_decode_end'
+Lines executed:0.00% of 5
+
+Function 'cinvideo_decode_frame'
+Lines executed:0.00% of 79
+
+Function 'cin_decode_rle'
+Lines executed:0.00% of 19
+
+Function 'cin_decode_lzss'
+Lines executed:0.00% of 20
+
+Function 'cin_decode_huffman'
+Lines executed:0.00% of 22
+
+Function 'cinvideo_decode_init'
+Lines executed:0.00% of 8
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 7
+
+Function 'destroy_buffers'
+Lines executed:0.00% of 5
+
+File 'libavcodec/dsicinvideo.c'
+Lines executed:0.00% of 160
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsicinvideo.gcno##libavcodec#dsicinvideo.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsicinvideo.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsicinvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 165

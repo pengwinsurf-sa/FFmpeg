@@ -1,0 +1,11 @@
+Function 'ff_init_gamma_convert'
+Lines executed:0.00% of 9
+
+Function 'gamma_convert'
+Lines executed:0.00% of 18
+
+File 'libswscale/gamma.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#gamma.gcno##libswscale#gamma.c.gcov'
+
+Lines executed:0.00% of 27

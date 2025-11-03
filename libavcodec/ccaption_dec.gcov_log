@@ -1,0 +1,58 @@
+Function 'decode'
+Lines executed:0.00% of 68
+
+Function 'process_cc608'
+Lines executed:0.00% of 59
+
+Function 'handle_char'
+Lines executed:0.00% of 35
+
+Function 'handle_delete_end_of_row'
+Lines executed:0.00% of 4
+
+Function 'handle_eoc'
+Lines executed:0.00% of 9
+
+Function 'handle_edm'
+Lines executed:0.00% of 10
+
+Function 'handle_pac'
+Lines executed:0.00% of 17
+
+Function 'handle_textattr'
+Lines executed:0.00% of 8
+
+Function 'capture_screen'
+Lines executed:0.00% of 121
+
+Function 'roll_up'
+Lines executed:0.00% of 22
+
+Function 'validate_cc_data_pair'
+Lines executed:0.00% of 13
+
+Function 'write_char'
+Lines executed:0.00% of 21
+
+Function 'flush_decoder'
+Lines executed:0.00% of 23
+
+Function 'close_decoder'
+Lines executed:0.00% of 5
+
+Function 'init_decoder'
+Lines executed:0.00% of 10
+
+File 'libavcodec/ccaption_dec.c'
+Lines executed:0.00% of 421
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ccaption_dec.gcno##libavcodec#ccaption_dec.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ccaption_dec.gcno##libavutil#bprint.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ccaption_dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 425

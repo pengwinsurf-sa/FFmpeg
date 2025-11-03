@@ -1,0 +1,91 @@
+Function 'asf_read_seek'
+Lines executed:0.00% of 33
+
+Function 'asf_build_simple_index'
+Lines executed:0.00% of 47
+
+Function 'asf_read_pts'
+Lines executed:0.00% of 37
+
+Function 'asf_read_close'
+Lines executed:0.00% of 3
+
+Function 'skip_to_key'
+Lines executed:0.00% of 10
+
+Function 'asf_reset_header'
+Lines executed:0.00% of 28
+
+Function 'asf_read_packet'
+Lines executed:0.00% of 9
+
+Function 'asf_parse_packet'
+Lines executed:0.00% of 149
+
+Function 'asf_read_frame_header'
+Lines executed:0.00% of 81
+
+Function 'asf_get_packet'
+Lines executed:0.00% of 72
+
+Function 'asf_read_header'
+Lines executed:0.00% of 112
+
+Function 'asf_read_marker'
+Lines executed:0.00% of 30
+
+Function 'asf_read_metadata'
+Lines executed:0.00% of 33
+
+Function 'asf_read_language_list'
+Lines executed:0.00% of 13
+
+Function 'asf_read_ext_content_desc'
+Lines executed:0.00% of 23
+
+Function 'asf_read_content_desc'
+Lines executed:0.00% of 14
+
+Function 'asf_read_ext_stream_properties'
+Lines executed:0.00% of 44
+
+Function 'asf_read_stream_properties'
+Lines executed:0.00% of 119
+
+Function 'asf_read_file_properties'
+Lines executed:0.00% of 18
+
+Function 'get_tag'
+Lines executed:0.00% of 40
+
+Function 'get_value'
+Lines executed:0.00% of 10
+
+Function 'asf_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/asfdec_f.c'
+Lines executed:0.00% of 915
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_f.gcno##libavformat#asfdec_f.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_f.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/riff.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_f.gcno##libavformat#riff.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_f.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_f.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_f.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 928

@@ -1,0 +1,16 @@
+Function 'activate'
+Lines executed:0.00% of 39
+
+File 'libavfilter/f_cue.c'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_cue.gcno##libavfilter#f_cue.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_cue.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_cue.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 39

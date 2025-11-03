@@ -1,0 +1,88 @@
+Function 'ivr_read_packet'
+Lines executed:0.00% of 50
+
+Function 'ivr_read_header'
+Lines executed:0.00% of 99
+
+Function 'ivr_probe'
+Lines executed:0.00% of 4
+
+Function 'rm_read_seek'
+Lines executed:0.00% of 5
+
+Function 'rm_read_dts'
+Lines executed:0.00% of 25
+
+Function 'rm_probe'
+Lines executed:0.00% of 7
+
+Function 'rm_read_close'
+Lines executed:0.00% of 5
+
+Function 'rm_read_packet'
+Lines executed:0.00% of 38
+
+Function 'ff_rm_retrieve_cache'
+Lines executed:0.00% of 21
+
+Function 'ff_rm_parse_packet'
+Lines executed:0.00% of 66
+
+Function 'readfull'
+Lines executed:0.00% of 9
+
+Function 'rm_assemble_video_frame'
+Lines executed:0.00% of 75
+
+Function 'rm_sync'
+Lines executed:0.00% of 57
+
+Function 'get_num'
+Lines executed:0.00% of 10
+
+Function 'rm_read_header'
+Lines executed:0.00% of 104
+
+Function 'rm_read_multi'
+Lines executed:0.00% of 27
+
+Function 'rm_read_header_old'
+Lines executed:0.00% of 9
+
+Function 'rm_read_index'
+Lines executed:0.00% of 38
+
+Function 'ff_rm_read_mdpr_codecdata'
+Lines executed:0.00% of 74
+
+Function 'rm_read_audio_stream_info'
+Lines executed:0.00% of 136
+
+Function 'ff_rm_free_rmstream'
+Lines executed:0.00% of 3
+
+Function 'ff_rm_alloc_rmstream'
+Lines executed:0.00% of 5
+
+Function 'rm_read_metadata'
+Lines executed:0.00% of 9
+
+Function 'rm_read_extradata'
+Lines executed:0.00% of 5
+
+Function 'get_strl'
+Lines executed:0.00% of 5
+
+File 'libavformat/rmdec.c'
+Lines executed:0.00% of 878
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rmdec.gcno##libavformat#rmdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rmdec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rmdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 886

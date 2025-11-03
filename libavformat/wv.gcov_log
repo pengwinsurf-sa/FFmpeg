@@ -1,0 +1,12 @@
+Function 'ff_wv_parse_header'
+Lines executed:0.00% of 17
+
+File 'libavformat/wv.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wv.gcno##libavformat#wv.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 17

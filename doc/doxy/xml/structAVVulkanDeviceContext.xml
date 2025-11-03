@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVVulkanDeviceContext" kind="struct" language="C++" prot="public">
+    <compoundname>AVVulkanDeviceContext</compoundname>
+    <includes refid="hwcontext__vulkan_8h" local="no">libavutil/hwcontext_vulkan.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a4a617020274526c26e265781aefcd22c" prot="public" static="no" mutable="no">
+        <type>const VkAllocationCallbacks *</type>
+        <definition>const VkAllocationCallbacks* AVVulkanDeviceContext::alloc</definition>
+        <argsstring></argsstring>
+        <name>alloc</name>
+        <qualifiedname>AVVulkanDeviceContext::alloc</qualifiedname>
+        <briefdescription>
+<para>Custom memory allocator, else NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="63" column="33" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1ae474efae27f4861ed96a941965410c6a" prot="public" static="no" mutable="no">
+        <type>PFN_vkGetInstanceProcAddr</type>
+        <definition>PFN_vkGetInstanceProcAddr AVVulkanDeviceContext::get_proc_addr</definition>
+        <argsstring></argsstring>
+        <name>get_proc_addr</name>
+        <qualifiedname>AVVulkanDeviceContext::get_proc_addr</qualifiedname>
+        <briefdescription>
+<para>Pointer to a vkGetInstanceProcAddr loading function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If unset, will dynamically load and use libvulkan. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="69" column="31" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1abb0e7a4336731e84eb1b25571635d243" prot="public" static="no" mutable="no">
+        <type>VkInstance</type>
+        <definition>VkInstance AVVulkanDeviceContext::inst</definition>
+        <argsstring></argsstring>
+        <name>inst</name>
+        <qualifiedname>AVVulkanDeviceContext::inst</qualifiedname>
+        <briefdescription>
+<para>Vulkan instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be at least version 1.3. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="74" column="16" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a154f2a1f99a153cdb9a801b2504d6637" prot="public" static="no" mutable="no">
+        <type>VkPhysicalDevice</type>
+        <definition>VkPhysicalDevice AVVulkanDeviceContext::phys_dev</definition>
+        <argsstring></argsstring>
+        <name>phys_dev</name>
+        <qualifiedname>AVVulkanDeviceContext::phys_dev</qualifiedname>
+        <briefdescription>
+<para>Physical device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="79" column="22" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a53a07d4474261e4e14ec03c5d15f71da" prot="public" static="no" mutable="no">
+        <type>VkDevice</type>
+        <definition>VkDevice AVVulkanDeviceContext::act_dev</definition>
+        <argsstring></argsstring>
+        <name>act_dev</name>
+        <qualifiedname>AVVulkanDeviceContext::act_dev</qualifiedname>
+        <briefdescription>
+<para>Active device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="84" column="14" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1ac1d0d46b238c76cc4d66ddab7180e7ef" prot="public" static="no" mutable="no">
+        <type>VkPhysicalDeviceFeatures2</type>
+        <definition>VkPhysicalDeviceFeatures2 AVVulkanDeviceContext::device_features</definition>
+        <argsstring></argsstring>
+        <name>device_features</name>
+        <qualifiedname>AVVulkanDeviceContext::device_features</qualifiedname>
+        <briefdescription>
+<para>This structure should be set to the set of features that present and enabled during device creation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>When a device is created by FFmpeg, it will default to enabling all that are present of the shaderImageGatherExtended, fragmentStoresAndAtomics, shaderInt64 and vertexPipelineStoresAndAtomics features. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="92" column="31" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a8d68b5373defea792ad340e698d9b409" prot="public" static="no" mutable="no">
+        <type>const char *const  *</type>
+        <definition>const char* const* AVVulkanDeviceContext::enabled_inst_extensions</definition>
+        <argsstring></argsstring>
+        <name>enabled_inst_extensions</name>
+        <qualifiedname>AVVulkanDeviceContext::enabled_inst_extensions</qualifiedname>
+        <briefdescription>
+<para>Enabled instance extensions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If supplying your own device context, set this to an array of strings, with each entry containing the specified Vulkan extension string to enable. Duplicates are possible and accepted. If no extensions are enabled, set these fields to NULL, and 0 respectively. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="101" column="23" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a371a0b0216b2e8a56cecbc1e496c04d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVVulkanDeviceContext::nb_enabled_inst_extensions</definition>
+        <argsstring></argsstring>
+        <name>nb_enabled_inst_extensions</name>
+        <qualifiedname>AVVulkanDeviceContext::nb_enabled_inst_extensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="102" column="9" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a38e84a1e98b06831031e7abb915f4190" prot="public" static="no" mutable="no">
+        <type>const char *const  *</type>
+        <definition>const char* const* AVVulkanDeviceContext::enabled_dev_extensions</definition>
+        <argsstring></argsstring>
+        <name>enabled_dev_extensions</name>
+        <qualifiedname>AVVulkanDeviceContext::enabled_dev_extensions</qualifiedname>
+        <briefdescription>
+<para>Enabled device extensions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>By default, VK_KHR_external_memory_fd, VK_EXT_external_memory_dma_buf, VK_EXT_image_drm_format_modifier, VK_KHR_external_semaphore_fd and VK_EXT_external_memory_host are enabled if found. If supplying your own device context, these fields takes the same format as the above fields, with the same conditions that duplicates are possible and accepted, and that NULL and 0 respectively means no extensions are enabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="112" column="23" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1ac40732ea5eeffe1b231d21d9df10e658" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVVulkanDeviceContext::nb_enabled_dev_extensions</definition>
+        <argsstring></argsstring>
+        <name>nb_enabled_dev_extensions</name>
+        <qualifiedname>AVVulkanDeviceContext::nb_enabled_dev_extensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="113" column="9" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a75d028f2e5330a4231fdf9ea1dbfe776" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* AVVulkanDeviceContext::lock_queue) (struct AVHWDeviceContext *ctx, uint32_t queue_family, uint32_t index)</definition>
+        <argsstring>)(struct AVHWDeviceContext *ctx, uint32_t queue_family, uint32_t index)</argsstring>
+        <name>lock_queue</name>
+        <qualifiedname>AVVulkanDeviceContext::lock_queue</qualifiedname>
+        <briefdescription>
+<para>Locks a queue, preventing other threads from submitting any command buffers to this queue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If set to NULL, will be set to lavu-internal functions that utilize a mutex. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="173" column="5" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1af037e6811efd9101d2e155a677554b0d" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* AVVulkanDeviceContext::unlock_queue) (struct AVHWDeviceContext *ctx, uint32_t queue_family, uint32_t index)</definition>
+        <argsstring>)(struct AVHWDeviceContext *ctx, uint32_t queue_family, uint32_t index)</argsstring>
+        <name>unlock_queue</name>
+        <qualifiedname>AVVulkanDeviceContext::unlock_queue</qualifiedname>
+        <briefdescription>
+<para>Similar to <ref refid="structAVVulkanDeviceContext_1a75d028f2e5330a4231fdf9ea1dbfe776" kindref="member">lock_queue()</ref>, unlocks a queue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must only be called after locking. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="178" column="5" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1a215cc6b8846031029e1708f346e189c0" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVVulkanDeviceQueueFamily" kindref="compound">AVVulkanDeviceQueueFamily</ref></type>
+        <definition>AVVulkanDeviceQueueFamily AVVulkanDeviceContext::qf[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>qf</name>
+        <qualifiedname>AVVulkanDeviceContext::qf</qualifiedname>
+        <briefdescription>
+<para>Queue families used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be preferentially ordered. List may contain duplicates.</para>
+<para>For compatibility reasons, all the enabled queue families listed above (queue_family_(tx/comp/encode/decode)_index) must also be included in this list until they&apos;re removed after deprecation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="188" column="31" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVulkanDeviceContext_1aa4badabd2157934df2499f77e993b99a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVVulkanDeviceContext::nb_qf</definition>
+        <argsstring></argsstring>
+        <name>nb_qf</name>
+        <qualifiedname>AVVulkanDeviceContext::nb_qf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="189" column="9" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Main Vulkan context, allocated as <ref refid="structAVHWDeviceContext_1a46055b48d1a40445d775b4ae24f77f20" kindref="member">AVHWDeviceContext.hwctx</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>All of these can be set before init to change what the context uses </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AVVulkanDeviceContext</label>
+        <link refid="structAVVulkanDeviceContext"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>qf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AVVulkanDeviceQueueFamily</label>
+        <link refid="structAVVulkanDeviceQueueFamily"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavutil/hwcontext_vulkan.h" line="59" column="1" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="59" bodyend="190"/>
+    <listofallmembers>
+      <member refid="structAVVulkanDeviceContext_1a53a07d4474261e4e14ec03c5d15f71da" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>act_dev</name></member>
+      <member refid="structAVVulkanDeviceContext_1a4a617020274526c26e265781aefcd22c" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>alloc</name></member>
+      <member refid="structAVVulkanDeviceContext_1ac1d0d46b238c76cc4d66ddab7180e7ef" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>device_features</name></member>
+      <member refid="structAVVulkanDeviceContext_1a38e84a1e98b06831031e7abb915f4190" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>enabled_dev_extensions</name></member>
+      <member refid="structAVVulkanDeviceContext_1a8d68b5373defea792ad340e698d9b409" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>enabled_inst_extensions</name></member>
+      <member refid="structAVVulkanDeviceContext_1ae474efae27f4861ed96a941965410c6a" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>get_proc_addr</name></member>
+      <member refid="structAVVulkanDeviceContext_1abb0e7a4336731e84eb1b25571635d243" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>inst</name></member>
+      <member refid="structAVVulkanDeviceContext_1a75d028f2e5330a4231fdf9ea1dbfe776" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>lock_queue</name></member>
+      <member refid="structAVVulkanDeviceContext_1ac40732ea5eeffe1b231d21d9df10e658" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>nb_enabled_dev_extensions</name></member>
+      <member refid="structAVVulkanDeviceContext_1a371a0b0216b2e8a56cecbc1e496c04d5" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>nb_enabled_inst_extensions</name></member>
+      <member refid="structAVVulkanDeviceContext_1aa4badabd2157934df2499f77e993b99a" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>nb_qf</name></member>
+      <member refid="structAVVulkanDeviceContext_1a154f2a1f99a153cdb9a801b2504d6637" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>phys_dev</name></member>
+      <member refid="structAVVulkanDeviceContext_1a215cc6b8846031029e1708f346e189c0" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>qf</name></member>
+      <member refid="structAVVulkanDeviceContext_1af037e6811efd9101d2e155a677554b0d" prot="public" virt="non-virtual"><scope>AVVulkanDeviceContext</scope><name>unlock_queue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

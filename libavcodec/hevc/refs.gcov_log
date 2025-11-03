@@ -1,0 +1,61 @@
+Function 'ff_hevc_frame_nb_refs'
+Lines executed:0.00% of 18
+
+Function 'ff_hevc_frame_rps'
+Lines executed:0.00% of 46
+
+Function 'add_candidate_ref'
+Lines executed:0.00% of 17
+
+Function 'generate_missing_ref'
+Lines executed:0.00% of 21
+
+Function 'find_ref_idx'
+Lines executed:0.00% of 10
+
+Function 'ff_hevc_slice_rpl'
+Lines executed:0.00% of 56
+
+Function 'init_slice_rpl'
+Lines executed:0.00% of 10
+
+Function 'ff_hevc_output_frames'
+Lines executed:0.00% of 38
+
+Function 'unref_missing_refs'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_set_new_ref'
+Lines executed:0.00% of 27
+
+Function 'alloc_frame'
+Lines executed:0.00% of 72
+
+Function 'replace_alpha_plane'
+Lines executed:0.00% of 13
+
+Function 'ff_hevc_flush_dpb'
+Lines executed:0.00% of 5
+
+Function 'ff_hevc_clear_refs'
+Lines executed:0.00% of 5
+
+Function 'ff_hevc_get_ref_list'
+Lines executed:0.00% of 7
+
+Function 'ff_hevc_unref_frame'
+Lines executed:0.00% of 16
+
+File 'libavcodec/hevc/refs.c'
+Lines executed:0.00% of 359
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#refs.gcno##libavcodec#hevc#refs.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#refs.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#refs.gcno##libavutil#refstruct.h.gcov'
+
+Lines executed:0.00% of 367

@@ -1,0 +1,14 @@
+Function 'ff_ref_idct'
+Lines executed:0.00% of 14
+
+Function 'ff_ref_fdct'
+Lines executed:0.00% of 14
+
+Function 'ff_ref_dct_init'
+Lines executed:0.00% of 7
+
+File 'libavcodec/dctref.c'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dctref.gcno##libavcodec#dctref.c.gcov'
+
+Lines executed:0.00% of 35

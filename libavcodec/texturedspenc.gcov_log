@@ -1,0 +1,53 @@
+Function 'ff_texturedsp_exec_compress_threads'
+Lines executed:0.00% of 2
+
+Function 'exec_func'
+Lines executed:0.00% of 20
+
+Function 'ff_texturedspenc_init'
+Lines executed:0.00% of 5
+
+Function 'dxt5ys_block'
+Lines executed:0.00% of 9
+
+Function 'dxt5_block'
+Lines executed:0.00% of 4
+
+Function 'dxt1_block'
+Lines executed:0.00% of 3
+
+Function 'rgba2ycocg'
+Lines executed:0.00% of 13
+
+Function 'compress_alpha'
+Lines executed:0.00% of 44
+
+Function 'compress_color'
+Lines executed:0.00% of 32
+
+Function 'refine_colors'
+Lines executed:0.00% of 54
+
+Function 'optimize_colors'
+Lines executed:0.00% of 72
+
+Function 'match_colors'
+Lines executed:0.00% of 47
+
+File 'libavcodec/texturedsp_template.c'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedspenc.gcno##libavcodec#texturedsp_template.c.gcov'
+
+File 'libavcodec/texturedspenc.c'
+Lines executed:0.00% of 276
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedspenc.gcno##libavcodec#texturedspenc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedspenc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedspenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 305

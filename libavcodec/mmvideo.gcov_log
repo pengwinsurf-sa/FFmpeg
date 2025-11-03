@@ -1,0 +1,34 @@
+Function 'mm_decode_end'
+Lines executed:0.00% of 4
+
+Function 'mm_decode_frame'
+Lines executed:0.00% of 33
+
+Function 'mm_decode_inter'
+Lines executed:0.00% of 36
+
+Function 'mm_decode_intra'
+Lines executed:0.00% of 22
+
+Function 'mm_decode_pal'
+Lines executed:0.00% of 7
+
+Function 'mm_decode_raw'
+Lines executed:0.00% of 9
+
+Function 'mm_decode_init'
+Lines executed:0.00% of 11
+
+File 'libavcodec/mmvideo.c'
+Lines executed:0.00% of 102
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mmvideo.gcno##libavcodec#mmvideo.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mmvideo.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mmvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 122

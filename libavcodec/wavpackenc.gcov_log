@@ -1,0 +1,154 @@
+Function 'wavpack_encode_close'
+Lines executed:0.00% of 22
+
+Function 'wavpack_encode_frame'
+Lines executed:0.00% of 39
+
+Function 'fill_buffer'
+Lines executed:0.00% of 12
+
+Function 'wavpack_encode_block'
+Lines executed:0.00% of 305
+
+Function 'put_metadata_block'
+Lines executed:0.00% of 6
+
+Function 'decorr_stereo_pass_id2'
+Lines executed:0.00% of 67
+
+Function 'decorr_stereo_pass2'
+Lines executed:0.00% of 67
+
+Function 'pack_float'
+Lines executed:0.00% of 9
+
+Function 'pack_float_sample'
+Lines executed:0.00% of 43
+
+Function 'pack_int32'
+Lines executed:0.00% of 12
+
+Function 'wavpack_encode_sample'
+Lines executed:0.00% of 61
+
+Function 'encode_flush'
+Lines executed:0.00% of 45
+
+Function 'wv_stereo'
+Lines executed:0.00% of 95
+
+Function 'analyze_stereo'
+Lines executed:0.00% of 40
+
+Function 'recurse_stereo'
+Lines executed:0.00% of 46
+
+Function 'delta_stereo'
+Lines executed:0.00% of 36
+
+Function 'sort_stereo'
+Lines executed:0.00% of 31
+
+Function 'decorr_stereo_buffer'
+Lines executed:0.00% of 31
+
+Function 'decorr_stereo_quick'
+Lines executed:0.00% of 84
+
+Function 'reverse_decorr'
+Lines executed:0.00% of 31
+
+Function 'decorr_stereo'
+Lines executed:0.00% of 132
+
+Function 'wv_mono'
+Lines executed:0.00% of 63
+
+Function 'scan_word'
+Lines executed:0.00% of 18
+
+Function 'analyze_mono'
+Lines executed:0.00% of 31
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 16
+
+Function 'allocate_buffers2'
+Lines executed:0.00% of 10
+
+Function 'delta_mono'
+Lines executed:0.00% of 32
+
+Function 'sort_mono'
+Lines executed:0.00% of 28
+
+Function 'recurse_mono'
+Lines executed:0.00% of 39
+
+Function 'decorr_mono_buffer'
+Lines executed:0.00% of 24
+
+Function 'log2stereo'
+Lines executed:0.00% of 7
+
+Function 'log2mono'
+Lines executed:0.00% of 5
+
+Function 'log2sample'
+Lines executed:0.00% of 6
+
+Function 'reverse_mono_decorr'
+Lines executed:0.00% of 21
+
+Function 'decorr_mono'
+Lines executed:0.00% of 41
+
+Function 'log2s'
+Lines executed:0.00% of 2
+
+Function 'scan_int32'
+Lines executed:0.00% of 64
+
+Function 'scan_int23'
+Lines executed:0.00% of 53
+
+Function 'scan_float'
+Lines executed:0.00% of 58
+
+Function 'process_float'
+Lines executed:0.00% of 28
+
+Function 'wavpack_encode_init'
+Lines executed:0.00% of 50
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 18
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 9
+
+File 'libavcodec/wavpackenc.c'
+Lines executed:0.00% of 1738
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpackenc.gcno##libavcodec#wavpackenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpackenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpackenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpackenc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/wavpack.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpackenc.gcno##libavcodec#wavpack.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavpackenc.gcno##libavcodec#put_bits.h.gcov'
+
+Lines executed:0.00% of 1837

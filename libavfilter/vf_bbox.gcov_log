@@ -1,0 +1,22 @@
+Function 'config_output'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 26
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_bbox.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bbox.gcno##libavfilter#vf_bbox.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bbox.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bbox.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 40

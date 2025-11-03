@@ -1,0 +1,75 @@
+Function 'rka_decode_close'
+Lines executed:0.00% of 14
+
+Function 'rka_decode_frame'
+Lines executed:0.00% of 66
+
+Function 'decode_ch_samples'
+Lines executed:0.00% of 15
+
+Function 'decode_samples'
+Lines executed:0.00% of 43
+
+Function 'decode_filter'
+Lines executed:0.00% of 68
+
+Function 'mdl64_decode'
+Lines executed:0.00% of 62
+
+Function 'ac_dec_bit'
+Lines executed:0.00% of 23
+
+Function 'decode_filt_coeffs'
+Lines executed:0.00% of 29
+
+Function 'amdl_decode_int'
+Lines executed:0.00% of 61
+
+Function 'update_ch_subobj'
+Lines executed:0.00% of 22
+
+Function 'amdl_update_prob'
+Lines executed:0.00% of 9
+
+Function 'ac_update'
+Lines executed:0.00% of 12
+
+Function 'decode_bool'
+Lines executed:0.00% of 11
+
+Function 'ac_decode_bool'
+Lines executed:0.00% of 28
+
+Function 'init_acoder'
+Lines executed:0.00% of 8
+
+Function 'chctx_init'
+Lines executed:0.00% of 44
+
+Function 'rka_decode_init'
+Lines executed:0.00% of 34
+
+Function 'adaptive_model_init'
+Lines executed:0.00% of 14
+
+File 'libavcodec/rka.c'
+Lines executed:0.00% of 539
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rka.gcno##libavcodec#rka.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rka.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rka.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rka.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rka.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 563

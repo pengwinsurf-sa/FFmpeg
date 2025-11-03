@@ -1,0 +1,37 @@
+Function 'dcadec_init'
+Lines executed:0.00% of 32
+
+Function 'dcadec_init_static'
+Lines executed:0.00% of 4
+
+Function 'dcadec_close'
+Lines executed:0.00% of 8
+
+Function 'dcadec_flush'
+Lines executed:0.00% of 7
+
+Function 'dcadec_decode_frame'
+Lines executed:0.00% of 78
+
+Function 'ff_dca_downmix_to_stereo_float'
+Lines executed:0.00% of 26
+
+Function 'ff_dca_downmix_to_stereo_fixed'
+Lines executed:0.00% of 17
+
+Function 'ff_dca_set_channel_layout'
+Lines executed:0.00% of 29
+
+File 'libavcodec/dcadec.c'
+Lines executed:0.00% of 193
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadec.gcno##libavcodec#dcadec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 201

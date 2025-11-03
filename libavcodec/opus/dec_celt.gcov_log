@@ -1,0 +1,56 @@
+Function 'ff_celt_init'
+Lines executed:0.00% of 28
+
+Function 'ff_celt_free'
+Lines executed:0.00% of 9
+
+Function 'ff_celt_flush'
+Lines executed:0.00% of 17
+
+Function 'ff_celt_decode_frame'
+Lines executed:0.00% of 104
+
+Function 'process_anticollapse'
+Lines executed:0.00% of 40
+
+Function 'parse_postfilter'
+Lines executed:0.00% of 22
+
+Function 'celt_postfilter'
+Lines executed:0.00% of 18
+
+Function 'celt_postfilter_apply_transition'
+Lines executed:0.00% of 32
+
+Function 'celt_denormalize'
+Lines executed:0.00% of 9
+
+Function 'celt_decode_tf_changes'
+Lines executed:0.00% of 18
+
+Function 'celt_decode_final_energy'
+Lines executed:0.00% of 15
+
+Function 'celt_decode_fine_energy'
+Lines executed:0.00% of 14
+
+Function 'celt_decode_coarse_energy'
+Lines executed:0.00% of 29
+
+File 'libavcodec/opus/dec_celt.c'
+Lines executed:0.00% of 339
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec_celt.gcno##libavcodec#opus#dec_celt.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec_celt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/opus/rc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec_celt.gcno##libavcodec#opus#rc.h.gcov'
+
+File 'libavcodec/opus/celt.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec_celt.gcno##libavcodec#opus#celt.h.gcov'
+
+Lines executed:0.00% of 355

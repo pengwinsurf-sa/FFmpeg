@@ -1,0 +1,59 @@
+Function 'config_output'
+Lines executed:0.00% of 15
+
+Function 'fieldmatch_uninit'
+Lines executed:0.00% of 17
+
+Function 'fieldmatch_init'
+Lines executed:0.00% of 16
+
+Function 'config_input'
+Lines executed:0.00% of 24
+
+Function 'query_formats'
+Lines executed:0.00% of 14
+
+Function 'activate'
+Lines executed:0.00% of 37
+
+Function 'filter_frame'
+Lines executed:0.00% of 116
+
+Function 'checkmm'
+Lines executed:0.00% of 7
+
+Function 'create_weave_frame'
+Lines executed:0.00% of 15
+
+Function 'copy_fields'
+Lines executed:0.00% of 13
+
+Function 'compare_fields'
+Lines executed:0.00% of 101
+
+Function 'build_diff_map'
+Lines executed:0.00% of 47
+
+Function 'calc_combed_score'
+Lines executed:0.00% of 124
+
+Function 'fill_buf'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_fieldmatch.c'
+Lines executed:0.00% of 546
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fieldmatch.gcno##libavfilter#vf_fieldmatch.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fieldmatch.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fieldmatch.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fieldmatch.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 552

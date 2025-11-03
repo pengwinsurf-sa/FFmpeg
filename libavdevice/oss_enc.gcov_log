@@ -1,0 +1,18 @@
+Function 'audio_write_trailer'
+Lines executed:0.00% of 4
+
+Function 'audio_write_packet'
+Lines executed:0.00% of 19
+
+Function 'audio_write_header'
+Lines executed:0.00% of 10
+
+File 'libavdevice/oss_enc.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#oss_enc.gcno##libavdevice#oss_enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#oss_enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 33

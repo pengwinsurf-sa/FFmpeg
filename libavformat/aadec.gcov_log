@@ -1,0 +1,35 @@
+Function 'aa_read_close'
+Lines executed:0.00% of 4
+
+Function 'aa_probe'
+Lines executed:0.00% of 6
+
+Function 'aa_read_seek'
+Lines executed:0.00% of 27
+
+Function 'aa_read_packet'
+Lines executed:0.00% of 28
+
+Function 'aa_read_header'
+Lines executed:0.00% of 119
+
+Function 'get_second_size'
+Lines executed:0.00% of 7
+
+File 'libavformat/aadec.c'
+Lines executed:0.00% of 185
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aadec.gcno##libavformat#aadec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aadec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aadec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aadec.gcno###usr#include#stdlib.h.gcov'
+
+Lines executed:0.00% of 191

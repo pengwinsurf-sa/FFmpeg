@@ -1,0 +1,36 @@
+Function 'hysteresis_child_next'
+Lines executed:0.00% of 1
+
+Function 'hysteresis_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 32
+
+Function 'config_input'
+Lines executed:0.00% of 20
+
+Function 'hysteresis16'
+Lines executed:0.00% of 40
+
+Function 'hysteresis8'
+Lines executed:0.00% of 22
+
+Function 'process_frame'
+Lines executed:0.00% of 32
+
+File 'libavfilter/vf_hysteresis.c'
+Lines executed:0.00% of 156
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hysteresis.gcno##libavfilter#vf_hysteresis.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hysteresis.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 158

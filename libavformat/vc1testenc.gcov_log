@@ -1,0 +1,14 @@
+Function 'vc1test_write_trailer'
+Lines executed:0.00% of 7
+
+Function 'vc1test_write_packet'
+Lines executed:0.00% of 9
+
+Function 'vc1test_write_header'
+Lines executed:0.00% of 18
+
+File 'libavformat/vc1testenc.c'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vc1testenc.gcno##libavformat#vc1testenc.c.gcov'
+
+Lines executed:0.00% of 34

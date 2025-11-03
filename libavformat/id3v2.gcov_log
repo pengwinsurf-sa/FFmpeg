@@ -1,0 +1,108 @@
+Function 'ff_id3v2_parse_priv'
+Lines executed:0.00% of 2
+
+Function 'ff_id3v2_parse_priv_dict'
+Lines executed:0.00% of 21
+
+Function 'ff_id3v2_parse_chapters'
+Lines executed:0.00% of 15
+
+Function 'ff_id3v2_parse_apic'
+Lines executed:0.00% of 19
+
+Function 'ff_id3v2_free_extra_meta'
+Lines executed:0.00% of 11
+
+Function 'ff_id3v2_read'
+Lines executed:0.00% of 3
+
+Function 'ff_id3v2_read_dict'
+Lines executed:0.00% of 3
+
+Function 'id3v2_read_internal'
+Lines executed:0.00% of 39
+
+Function 'id3v2_parse'
+Lines executed:0.00% of 166
+
+Function 'get_extra_meta_func'
+Lines executed:0.00% of 6
+
+Function 'read_priv'
+Lines executed:0.00% of 31
+
+Function 'free_priv'
+Lines executed:0.00% of 1
+
+Function 'read_chapter'
+Lines executed:0.00% of 42
+
+Function 'free_chapter'
+Lines executed:0.00% of 1
+
+Function 'read_apic'
+Lines executed:0.00% of 63
+
+Function 'rstrip_spaces'
+Lines executed:0.00% of 5
+
+Function 'free_apic'
+No executable lines
+
+Function 'merge_date'
+Lines executed:0.00% of 27
+
+Function 'get_date_tag'
+Lines executed:0.00% of 8
+
+Function 'read_geobtag'
+Lines executed:0.00% of 41
+
+Function 'read_comment'
+Lines executed:0.00% of 25
+
+Function 'read_uslt'
+Lines executed:0.00% of 30
+
+Function 'read_ttag'
+Lines executed:0.00% of 26
+
+Function 'decode_str'
+Lines executed:0.00% of 49
+
+Function 'free_geobtag'
+Lines executed:0.00% of 7
+
+Function 'check_tag'
+Lines executed:0.00% of 15
+
+Function 'ff_id3v2_tag_len'
+Lines executed:0.00% of 8
+
+Function 'ff_id3v2_match'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/id3v2.c'
+Lines executed:0.00% of 666
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2.gcno##libavformat#id3v2.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 676

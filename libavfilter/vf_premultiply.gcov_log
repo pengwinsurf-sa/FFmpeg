@@ -1,0 +1,84 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 15
+
+Function 'activate'
+Lines executed:0.00% of 23
+
+Function 'config_output'
+Lines executed:0.00% of 34
+
+Function 'config_input'
+Lines executed:0.00% of 18
+
+Function 'process_frame'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 76
+
+Function 'premultiply_slice'
+Lines executed:0.00% of 22
+
+Function 'unpremultiplyf32offset'
+Lines executed:0.00% of 15
+
+Function 'unpremultiplyf32'
+Lines executed:0.00% of 14
+
+Function 'unpremultiply16offset'
+Lines executed:0.00% of 14
+
+Function 'unpremultiply16yuv'
+Lines executed:0.00% of 14
+
+Function 'unpremultiply16'
+Lines executed:0.00% of 14
+
+Function 'unpremultiply8offset'
+Lines executed:0.00% of 11
+
+Function 'unpremultiply8yuv'
+Lines executed:0.00% of 11
+
+Function 'unpremultiply8'
+Lines executed:0.00% of 11
+
+Function 'premultiplyf32offset'
+Lines executed:0.00% of 13
+
+Function 'premultiplyf32'
+Lines executed:0.00% of 12
+
+Function 'premultiply16offset'
+Lines executed:0.00% of 12
+
+Function 'premultiply16yuv'
+Lines executed:0.00% of 12
+
+Function 'premultiply16'
+Lines executed:0.00% of 12
+
+Function 'premultiply8offset'
+Lines executed:0.00% of 9
+
+Function 'premultiply8yuv'
+Lines executed:0.00% of 9
+
+Function 'premultiply8'
+Lines executed:0.00% of 9
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_premultiply.c'
+Lines executed:0.00% of 401
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_premultiply.gcno##libavfilter#vf_premultiply.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_premultiply.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 403

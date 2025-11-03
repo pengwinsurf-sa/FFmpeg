@@ -1,0 +1,29 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 38
+
+Function 'config_input'
+Lines executed:0.00% of 21
+
+Function 'maskedclamp16'
+Lines executed:0.00% of 1
+
+Function 'maskedclamp8'
+Lines executed:0.00% of 1
+
+Function 'process_frame'
+Lines executed:0.00% of 26
+
+Function 'maskedclamp_slice'
+Lines executed:0.00% of 30
+
+File 'libavfilter/vf_maskedclamp.c'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_maskedclamp.gcno##libavfilter#vf_maskedclamp.c.gcov'
+
+Lines executed:0.00% of 124

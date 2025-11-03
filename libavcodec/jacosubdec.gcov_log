@@ -1,0 +1,31 @@
+Function 'jacosub_decode_frame'
+Lines executed:0.00% of 24
+
+Function 'jacosub_to_ass'
+Lines executed:0.00% of 50
+
+Function 'insert_font'
+Lines executed:0.00% of 2
+
+Function 'insert_color'
+Lines executed:0.00% of 2
+
+Function 'insert_datetime'
+Lines executed:0.00% of 8
+
+Function 'insert_text'
+Lines executed:0.00% of 3
+
+File 'libavcodec/jacosubdec.c'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jacosubdec.gcno##libavcodec#jacosubdec.c.gcov'
+
+File 'libavcodec/jacosub.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jacosubdec.gcno##libavcodec#jacosub.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jacosubdec.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 89

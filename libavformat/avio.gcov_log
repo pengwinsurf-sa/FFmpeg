@@ -1,0 +1,143 @@
+Function 'ff_rename'
+Lines executed:0.00% of 8
+
+Function 'ff_check_interrupt'
+Lines executed:0.00% of 3
+
+Function 'ffurl_shutdown'
+Lines executed:0.00% of 3
+
+Function 'ffurl_get_short_seek'
+Lines executed:0.00% of 4
+
+Function 'ffurl_get_multi_file_handle'
+Lines executed:0.00% of 10
+
+Function 'ffurl_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'ffurl_size'
+Lines executed:0.00% of 10
+
+Function 'avio_free_directory_entry'
+Lines executed:0.00% of 4
+
+Function 'avio_close_dir'
+Lines executed:0.00% of 10
+
+Function 'avio_read_dir'
+Lines executed:0.00% of 7
+
+Function 'avio_open_dir'
+Lines executed:0.00% of 27
+
+Function 'ffurl_delete'
+Lines executed:0.00% of 8
+
+Function 'ffurl_move'
+Lines executed:0.00% of 13
+
+Function 'avio_check'
+Lines executed:0.00% of 11
+
+Function 'avio_find_protocol_name'
+Lines executed:0.00% of 3
+
+Function 'avio_closep'
+Lines executed:0.00% of 4
+
+Function 'avio_close'
+Lines executed:0.00% of 18
+
+Function 'ffurl_close'
+Lines executed:0.00% of 2
+
+Function 'ffurl_closep'
+Lines executed:0.00% of 15
+
+Function 'ffurl_seek2'
+Lines executed:0.00% of 6
+
+Function 'ffurl_write2'
+Lines executed:0.00% of 5
+
+Function 'ffurl_read_complete'
+Lines executed:0.00% of 3
+
+Function 'ffurl_read2'
+Lines executed:0.00% of 4
+
+Function 'retry_transfer_wrapper'
+Lines executed:0.00% of 30
+
+Function 'avio_open'
+Lines executed:0.00% of 2
+
+Function 'avio_open2'
+Lines executed:0.00% of 2
+
+Function 'ffio_open_whitelist'
+Lines executed:0.00% of 10
+
+Function 'ffio_fdopen'
+Lines executed:0.00% of 39
+
+Function 'ffurl_open_whitelist'
+Lines executed:0.00% of 29
+
+Function 'ffurl_alloc'
+Lines executed:0.00% of 7
+
+Function 'url_find_protocol'
+Lines executed:0.00% of 30
+
+Function 'avio_handshake'
+Lines executed:0.00% of 3
+
+Function 'ffurl_handshake'
+Lines executed:0.00% of 7
+
+Function 'avio_accept'
+Lines executed:0.00% of 7
+
+Function 'ffurl_accept'
+Lines executed:0.00% of 4
+
+Function 'ffurl_connect'
+Lines executed:0.00% of 34
+
+Function 'url_alloc_for_protocol'
+Lines executed:0.00% of 65
+
+Function 'ffio_geturlcontext'
+Lines executed:0.00% of 4
+
+Function 'child_class_iterate'
+Lines executed:0.00% of 4
+
+Function 'avio_child_next'
+Lines executed:0.00% of 3
+
+Function 'urlcontext_child_next'
+Lines executed:0.00% of 4
+
+Function 'urlcontext_to_name'
+Lines executed:0.00% of 4
+
+File 'libavformat/avio.c'
+Lines executed:0.00% of 460
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avio.gcno##libavformat#avio.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avio.gcno##libavutil#error.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avio.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avio.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 469

@@ -1,0 +1,18 @@
+Function 'musx_read_packet'
+Lines executed:0.00% of 3
+
+Function 'musx_read_header'
+Lines executed:0.00% of 107
+
+Function 'musx_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/musx.c'
+Lines executed:0.00% of 119
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#musx.gcno##libavformat#musx.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#musx.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 121

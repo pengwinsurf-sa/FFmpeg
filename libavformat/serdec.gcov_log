@@ -1,0 +1,18 @@
+Function 'ser_read_packet'
+Lines executed:0.00% of 12
+
+Function 'ser_read_header'
+Lines executed:0.00% of 40
+
+Function 'ser_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/serdec.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#serdec.gcno##libavformat#serdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#serdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 55

@@ -1,0 +1,47 @@
+Function 'ff_get_codec_guid'
+Lines executed:0.00% of 5
+
+Function 'ff_put_guid'
+Lines executed:0.00% of 4
+
+Function 'ff_riff_write_info'
+Lines executed:0.00% of 15
+
+Function 'riff_has_valid_tags'
+Lines executed:0.00% of 4
+
+Function 'ff_riff_write_info_tag'
+Lines executed:0.00% of 10
+
+Function 'ff_parse_specific_params'
+Lines executed:0.00% of 22
+
+Function 'ff_put_bmp_header'
+Lines executed:0.00% of 36
+
+Function 'ff_put_wav_header'
+Lines executed:0.00% of 91
+
+Function 'ff_end_tag'
+Lines executed:0.00% of 10
+
+Function 'ff_start_tag'
+Lines executed:0.00% of 4
+
+File 'libavformat/riffenc.c'
+Lines executed:0.00% of 195
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffenc.gcno##libavformat#riffenc.c.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffenc.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 201

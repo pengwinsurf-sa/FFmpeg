@@ -1,0 +1,54 @@
+Function 'ff_vlc_free'
+Lines executed:0.00% of 3
+
+Function 'ff_vlc_free_multi'
+Lines executed:0.00% of 3
+
+Function 'ff_vlc_init_multi_from_lengths'
+Lines executed:0.00% of 40
+
+Function 'vlc_multi_gen'
+Lines executed:0.00% of 26
+
+Function 'add_level'
+Lines executed:0.00% of 25
+
+Function 'ff_vlc_init_tables_sparse'
+Lines executed:0.00% of 6
+
+Function 'ff_vlc_init_table_sparse'
+Lines executed:0.00% of 4
+
+Function 'ff_vlc_init_tables_from_lengths'
+Lines executed:0.00% of 6
+
+Function 'ff_vlc_init_table_from_lengths'
+Lines executed:0.00% of 4
+
+Function 'ff_vlc_init_from_lengths'
+Lines executed:0.00% of 30
+
+Function 'ff_vlc_init_sparse'
+Lines executed:0.00% of 19
+
+Function 'vlc_common_end'
+Lines executed:0.00% of 12
+
+Function 'build_table'
+Lines executed:0.00% of 62
+
+Function 'vlc_common_init'
+Lines executed:0.00% of 10
+
+Function 'alloc_table'
+Lines executed:0.00% of 15
+
+File 'libavcodec/vlc.c'
+Lines executed:0.00% of 263
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vlc.gcno##libavcodec#vlc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vlc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 265

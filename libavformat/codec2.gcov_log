@@ -1,0 +1,40 @@
+Function 'codec2raw_read_header'
+Lines executed:0.00% of 18
+
+Function 'codec2_write_header'
+Lines executed:0.00% of 8
+
+Function 'codec2_read_packet'
+Lines executed:0.00% of 13
+
+Function 'codec2_read_header'
+Lines executed:0.00% of 20
+
+Function 'codec2_read_header_common'
+Lines executed:0.00% of 17
+
+Function 'codec2_mode_bit_rate'
+Lines executed:0.00% of 5
+
+Function 'codec2_mode_block_align'
+Lines executed:0.00% of 6
+
+Function 'codec2_mode_frame_size'
+Lines executed:0.00% of 6
+
+Function 'codec2_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/codec2.c'
+Lines executed:0.00% of 88
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#codec2.gcno##libavformat#codec2.c.gcov'
+
+File 'libavcodec/codec2utils.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#codec2.gcno##libavcodec#codec2utils.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#codec2.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 98

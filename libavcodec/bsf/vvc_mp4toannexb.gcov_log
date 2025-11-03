@@ -1,0 +1,30 @@
+Function 'vvc_mp4toannexb_filter'
+Lines executed:0.00% of 97
+
+Function 'vvc_mp4toannexb_init'
+Lines executed:0.00% of 13
+
+Function 'vvc_extradata_to_annexb'
+Lines executed:0.00% of 95
+
+File 'libavcodec/bsf/vvc_mp4toannexb.c'
+Lines executed:0.00% of 169
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vvc_mp4toannexb.gcno##libavcodec#bsf#vvc_mp4toannexb.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vvc_mp4toannexb.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vvc_mp4toannexb.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vvc_mp4toannexb.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vvc_mp4toannexb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 205

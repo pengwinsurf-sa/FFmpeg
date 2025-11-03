@@ -1,0 +1,15 @@
+Function 'av_file_unmap'
+Lines executed:0.00% of 3
+
+Function 'av_file_map'
+Lines executed:0.00% of 37
+
+File 'libavutil/file.c'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#file.gcno##libavutil#file.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#file.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 40

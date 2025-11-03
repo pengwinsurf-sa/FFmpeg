@@ -1,0 +1,38 @@
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+Function 'config_input'
+Lines executed:0.00% of 15
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'init'
+Lines executed:0.00% of 9
+
+Function 'filter'
+Lines executed:0.00% of 39
+
+Function 'ff_gradfun_blur_line_c'
+Lines executed:0.00% of 8
+
+Function 'ff_gradfun_filter_line_c'
+Lines executed:0.00% of 14
+
+File 'libavfilter/vf_gradfun.c'
+Lines executed:0.00% of 108
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gradfun.gcno##libavfilter#vf_gradfun.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gradfun.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gradfun.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gradfun.gcno##libavutil#emms.h.gcov'
+
+Lines executed:0.00% of 118

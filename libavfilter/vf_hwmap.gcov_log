@@ -1,0 +1,20 @@
+Function 'hwmap_uninit'
+Lines executed:0.00% of 4
+
+Function 'hwmap_filter_frame'
+Lines executed:0.00% of 39
+
+Function 'hwmap_get_buffer'
+Lines executed:0.00% of 25
+
+Function 'hwmap_config_output'
+Lines executed:0.00% of 115
+
+Function 'hwmap_query_formats'
+Lines executed:0.00% of 7
+
+File 'libavfilter/vf_hwmap.c'
+Lines executed:0.00% of 190
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hwmap.gcno##libavfilter#vf_hwmap.c.gcov'
+
+Lines executed:0.00% of 190

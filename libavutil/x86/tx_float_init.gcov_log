@@ -1,0 +1,24 @@
+Function 'fft_pfa_init'
+Lines executed:100.00% of 35
+
+Function 'm_inv_init'
+Lines executed:100.00% of 16
+
+Function 'factor_init'
+Lines executed:0.00% of 24
+
+Function 'b8_i2'
+Lines executed:100.00% of 1
+
+Function 'b8_i0'
+Lines executed:100.00% of 1
+
+File 'libavutil/x86/tx_float_init.c'
+Lines executed:67.12% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#x86#tx_float_init.gcno##libavutil#x86#tx_float_init.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#x86#tx_float_init.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:68.83% of 77

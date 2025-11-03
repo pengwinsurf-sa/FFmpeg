@@ -631,14 +631,12 @@ int ff_match_url_ext(const char *url, const char *extensions);
  * of digits and '%%'.
  *
  * @param buf destination buffer
- * @param buf_size destination buffer size
  * @param path path with substitution template
  * @param number the number to substitute
  * @param flags AV_FRAME_FILENAME_FLAGS_*
- * @return 0 if OK, -1 on format error
+ * @return 0 if OK, <0 on error.
  */
-int ff_get_frame_filename(char *buf, int buf_size, const char *path,
-                          int64_t number, int flags);
+int ff_bprint_get_frame_filename(struct AVBPrint *buf, const char *path, int64_t number, int flags);
 
 /**
  * Set a dictionary value to an ISO-8601 compliant timestamp string.
@@ -650,5 +648,17 @@ int ff_get_frame_filename(char *buf, int buf_size, const char *path,
  * @return <0 on error
  */
 int ff_dict_set_timestamp(AVDictionary **dict, const char *key, int64_t timestamp);
+
+/**
+ * Set a list of query string options on an object. Only the objects own
+ * options will be set.
+ *
+ * @param obj the object to set options on
+ * @param str the query string
+ * @param allow_unknown ignore unknown query string options. This can be OK if
+ *                      nested protocols are used.
+ * @return <0 on error
+ */
+int ff_parse_opts_from_query_string(void *obj, const char *str, int allow_unkown);
 
 #endif /* AVFORMAT_INTERNAL_H */

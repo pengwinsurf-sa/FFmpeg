@@ -25,7 +25,9 @@
 #include "libavutil/vulkan_loader.h"
 
 #define DECODER_IS_SDR(codec_id) \
-    ((codec_id) == AV_CODEC_ID_FFV1)
+    (((codec_id) == AV_CODEC_ID_FFV1) || \
+     ((codec_id) == AV_CODEC_ID_PRORES_RAW) || \
+     ((codec_id) == AV_CODEC_ID_PRORES))
 
 #if CONFIG_H264_VULKAN_HWACCEL
 extern const FFVulkanDecodeDescriptor ff_vk_dec_h264_desc;
@@ -33,11 +35,20 @@ extern const FFVulkanDecodeDescriptor ff_vk_dec_h264_desc;
 #if CONFIG_HEVC_VULKAN_HWACCEL
 extern const FFVulkanDecodeDescriptor ff_vk_dec_hevc_desc;
 #endif
+#if CONFIG_VP9_VULKAN_HWACCEL
+extern const FFVulkanDecodeDescriptor ff_vk_dec_vp9_desc;
+#endif
 #if CONFIG_AV1_VULKAN_HWACCEL
 extern const FFVulkanDecodeDescriptor ff_vk_dec_av1_desc;
 #endif
 #if CONFIG_FFV1_VULKAN_HWACCEL
 extern const FFVulkanDecodeDescriptor ff_vk_dec_ffv1_desc;
+#endif
+#if CONFIG_PRORES_RAW_VULKAN_HWACCEL
+extern const FFVulkanDecodeDescriptor ff_vk_dec_prores_raw_desc;
+#endif
+#if CONFIG_PRORES_VULKAN_HWACCEL
+extern const FFVulkanDecodeDescriptor ff_vk_dec_prores_desc;
 #endif
 
 static const FFVulkanDecodeDescriptor *dec_descs[] = {
@@ -47,13 +58,35 @@ static const FFVulkanDecodeDescriptor *dec_descs[] = {
 #if CONFIG_HEVC_VULKAN_HWACCEL
     &ff_vk_dec_hevc_desc,
 #endif
+#if CONFIG_VP9_VULKAN_HWACCEL
+    &ff_vk_dec_vp9_desc,
+#endif
 #if CONFIG_AV1_VULKAN_HWACCEL
     &ff_vk_dec_av1_desc,
 #endif
 #if CONFIG_FFV1_VULKAN_HWACCEL
     &ff_vk_dec_ffv1_desc,
 #endif
+#if CONFIG_PRORES_RAW_VULKAN_HWACCEL
+    &ff_vk_dec_prores_raw_desc,
+#endif
+#if CONFIG_PRORES_VULKAN_HWACCEL
+    &ff_vk_dec_prores_desc,
+#endif
 };
+
+typedef struct FFVulkanDecodeProfileData {
+     VkVideoDecodeH264ProfileInfoKHR h264_profile;
+     VkVideoDecodeH265ProfileInfoKHR h265_profile;
+#if CONFIG_VP9_VULKAN_HWACCEL
+     VkVideoDecodeVP9ProfileInfoKHR vp9_profile;
+#endif
+     VkVideoDecodeAV1ProfileInfoKHR av1_profile;
+
+    VkVideoDecodeUsageInfoKHR usage;
+    VkVideoProfileInfoKHR profile;
+    VkVideoProfileListInfoKHR profile_list;
+} FFVulkanDecodeProfileData;
 
 static const FFVulkanDecodeDescriptor *get_codecdesc(enum AVCodecID codec_id)
 {
@@ -71,6 +104,9 @@ static const VkVideoProfileInfoKHR *get_video_profile(FFVulkanDecodeShared *ctx,
     VkStructureType profile_struct_type =
         codec_id == AV_CODEC_ID_H264 ? VK_STRUCTURE_TYPE_VIDEO_DECODE_H264_PROFILE_INFO_KHR :
         codec_id == AV_CODEC_ID_HEVC ? VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_PROFILE_INFO_KHR :
+#if CONFIG_VP9_VULKAN_HWACCEL
+        codec_id == AV_CODEC_ID_VP9  ? VK_STRUCTURE_TYPE_VIDEO_DECODE_VP9_PROFILE_INFO_KHR :
+#endif
         codec_id == AV_CODEC_ID_AV1  ? VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_PROFILE_INFO_KHR :
                                        VK_STRUCTURE_TYPE_MAX_ENUM;
     if (profile_struct_type == VK_STRUCTURE_TYPE_MAX_ENUM)
@@ -102,7 +138,6 @@ int ff_vk_update_thread_context(AVCodecContext *dst, const AVCodecContext *src)
 
     dst_ctx->dedicated_dpb = src_ctx->dedicated_dpb;
     dst_ctx->external_fg = src_ctx->external_fg;
-    dst_ctx->frame_id_alloc_mask = src_ctx->frame_id_alloc_mask;
 
     return 0;
 }
@@ -681,6 +716,9 @@ static VkResult vulkan_setup_profile(AVCodecContext *avctx,
                                      const FFVulkanDecodeDescriptor *vk_desc,
                                      VkVideoDecodeH264CapabilitiesKHR *h264_caps,
                                      VkVideoDecodeH265CapabilitiesKHR *h265_caps,
+#if CONFIG_VP9_VULKAN_HWACCEL
+                                     VkVideoDecodeVP9CapabilitiesKHR *vp9_caps,
+#endif
                                      VkVideoDecodeAV1CapabilitiesKHR *av1_caps,
                                      VkVideoCapabilitiesKHR *caps,
                                      VkVideoDecodeCapabilitiesKHR *dec_caps,
@@ -692,6 +730,9 @@ static VkResult vulkan_setup_profile(AVCodecContext *avctx,
 
     VkVideoDecodeH264ProfileInfoKHR *h264_profile = &prof->h264_profile;
     VkVideoDecodeH265ProfileInfoKHR *h265_profile = &prof->h265_profile;
+#if CONFIG_VP9_VULKAN_HWACCEL
+    VkVideoDecodeVP9ProfileInfoKHR *vp9_profile  = &prof->vp9_profile;
+#endif
     VkVideoDecodeAV1ProfileInfoKHR *av1_profile  = &prof->av1_profile;
 
     const AVPixFmtDescriptor *desc = av_pix_fmt_desc_get(avctx->sw_pix_fmt);
@@ -717,6 +758,13 @@ static VkResult vulkan_setup_profile(AVCodecContext *avctx,
         usage->pNext = h265_profile;
         h265_profile->sType = VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_PROFILE_INFO_KHR;
         h265_profile->stdProfileIdc = cur_profile;
+#if CONFIG_VP9_VULKAN_HWACCEL
+    } else if (avctx->codec_id == AV_CODEC_ID_VP9) {
+        dec_caps->pNext = vp9_caps;
+        usage->pNext = vp9_profile;
+        vp9_profile->sType = VK_STRUCTURE_TYPE_VIDEO_DECODE_VP9_PROFILE_INFO_KHR;
+        vp9_profile->stdProfile = cur_profile;
+#endif
     } else if (avctx->codec_id == AV_CODEC_ID_AV1) {
         dec_caps->pNext = av1_caps;
         usage->pNext = av1_profile;
@@ -777,6 +825,11 @@ static int vulkan_decode_get_profile(AVCodecContext *avctx, AVBufferRef *frames_
     VkVideoDecodeH265CapabilitiesKHR h265_caps = {
         .sType = VK_STRUCTURE_TYPE_VIDEO_DECODE_H265_CAPABILITIES_KHR,
     };
+#if CONFIG_VP9_VULKAN_HWACCEL
+    VkVideoDecodeVP9CapabilitiesKHR vp9_caps = {
+        .sType = VK_STRUCTURE_TYPE_VIDEO_DECODE_VP9_CAPABILITIES_KHR,
+    };
+#endif
     VkVideoDecodeAV1CapabilitiesKHR av1_caps = {
         .sType = VK_STRUCTURE_TYPE_VIDEO_DECODE_AV1_CAPABILITIES_KHR,
     };
@@ -797,12 +850,18 @@ static int vulkan_decode_get_profile(AVCodecContext *avctx, AVBufferRef *frames_
     cur_profile = avctx->profile;
     base_profile = avctx->codec_id == AV_CODEC_ID_H264 ? AV_PROFILE_H264_CONSTRAINED_BASELINE :
                    avctx->codec_id == AV_CODEC_ID_H265 ? AV_PROFILE_HEVC_MAIN :
+#if CONFIG_VP9_VULKAN_HWACCEL
+                   avctx->codec_id == AV_CODEC_ID_VP9  ? STD_VIDEO_VP9_PROFILE_0 :
+#endif
                    avctx->codec_id == AV_CODEC_ID_AV1  ? STD_VIDEO_AV1_PROFILE_MAIN :
                    0;
 
     ret = vulkan_setup_profile(avctx, prof, hwctx, vk, vk_desc,
                                &h264_caps,
                                &h265_caps,
+#if CONFIG_VP9_VULKAN_HWACCEL
+                               &vp9_caps,
+#endif
                                &av1_caps,
                                caps,
                                dec_caps,
@@ -819,6 +878,9 @@ static int vulkan_decode_get_profile(AVCodecContext *avctx, AVBufferRef *frames_
         ret = vulkan_setup_profile(avctx, prof, hwctx, vk, vk_desc,
                                    &h264_caps,
                                    &h265_caps,
+#if CONFIG_VP9_VULKAN_HWACCEL
+                                   &vp9_caps,
+#endif
                                    &av1_caps,
                                    caps,
                                    dec_caps,
@@ -845,6 +907,9 @@ static int vulkan_decode_get_profile(AVCodecContext *avctx, AVBufferRef *frames_
 
     max_level = avctx->codec_id == AV_CODEC_ID_H264 ? ff_vk_h264_level_to_av(h264_caps.maxLevelIdc) :
                 avctx->codec_id == AV_CODEC_ID_H265 ? ff_vk_h265_level_to_av(h265_caps.maxLevelIdc) :
+#if CONFIG_VP9_VULKAN_HWACCEL
+                avctx->codec_id == AV_CODEC_ID_VP9  ? vp9_caps.maxLevel :
+#endif
                 avctx->codec_id == AV_CODEC_ID_AV1  ? av1_caps.maxLevel :
                 0;
 
@@ -1048,6 +1113,16 @@ int ff_vk_frame_params(AVCodecContext *avctx, AVBufferRef *hw_frames_ctx)
         hwfc->create_pnext = &prof->profile_list;
     } else {
         switch (frames_ctx->sw_format) {
+        /* Vulkan's formats are all LSB-padded */
+        case AV_PIX_FMT_GRAY10: frames_ctx->sw_format = AV_PIX_FMT_GRAY10MSB; break;
+        case AV_PIX_FMT_GRAY12: frames_ctx->sw_format = AV_PIX_FMT_GRAY12MSB; break;
+        case AV_PIX_FMT_GBRP12: frames_ctx->sw_format = AV_PIX_FMT_GBRP12MSB; break;
+        case AV_PIX_FMT_YUV420P10: frames_ctx->sw_format = AV_PIX_FMT_YUV420P10MSB; break;
+        case AV_PIX_FMT_YUV420P12: frames_ctx->sw_format = AV_PIX_FMT_YUV420P12MSB; break;
+        case AV_PIX_FMT_YUV422P10: frames_ctx->sw_format = AV_PIX_FMT_YUV422P10MSB; break;
+        case AV_PIX_FMT_YUV422P12: frames_ctx->sw_format = AV_PIX_FMT_YUV422P12MSB; break;
+        case AV_PIX_FMT_YUV444P10: frames_ctx->sw_format = AV_PIX_FMT_YUV444P10MSB; break;
+        case AV_PIX_FMT_YUV444P12: frames_ctx->sw_format = AV_PIX_FMT_YUV444P12MSB; break;
         case AV_PIX_FMT_GBRAP16:
             /* This should be more efficient for downloading and using */
             frames_ctx->sw_format = AV_PIX_FMT_RGBA64;
@@ -1065,8 +1140,9 @@ int ff_vk_frame_params(AVCodecContext *avctx, AVBufferRef *hw_frames_ctx)
         }
     }
 
-    frames_ctx->width  = avctx->coded_width;
-    frames_ctx->height = avctx->coded_height;
+    const AVPixFmtDescriptor *pdesc = av_pix_fmt_desc_get(frames_ctx->sw_format);
+    frames_ctx->width  = FFALIGN(avctx->coded_width, 1 << pdesc->log2_chroma_w);
+    frames_ctx->height = FFALIGN(avctx->coded_height, 1 << pdesc->log2_chroma_h);
     frames_ctx->format = AV_PIX_FMT_VULKAN;
 
     hwfc->format[0]    = vkfmt;
@@ -1167,6 +1243,9 @@ static int create_empty_session_parameters(AVCodecContext *avctx,
                  NULL,
         .videoSession = ctx->common.session,
     };
+
+    if (avctx->codec_id == AV_CODEC_ID_VP9)
+        return 0;
 
     ret = vk->CreateVideoSessionParametersKHR(s->hwctx->act_dev, &session_params_create,
                                               s->hwctx->alloc, &ctx->empty_session_params);
@@ -1270,8 +1349,8 @@ int ff_vk_decode_init(AVCodecContext *avctx)
         dpb_frames = (AVHWFramesContext *)ctx->common.dpb_hwfc_ref->data;
         dpb_frames->format    = s->frames->format;
         dpb_frames->sw_format = s->frames->sw_format;
-        dpb_frames->width     = avctx->coded_width;
-        dpb_frames->height    = avctx->coded_height;
+        dpb_frames->width     = s->frames->width;
+        dpb_frames->height    = s->frames->height;
 
         dpb_hwfc = dpb_frames->hwctx;
         dpb_hwfc->create_pnext = (void *)ff_vk_find_struct(ctx->s.hwfc->create_pnext,
@@ -1327,7 +1406,7 @@ int ff_vk_decode_init(AVCodecContext *avctx)
 
     ff_vk_decode_flush(avctx);
 
-    av_log(avctx, AV_LOG_VERBOSE, "Vulkan decoder initialization sucessful\n");
+    av_log(avctx, AV_LOG_VERBOSE, "Vulkan decoder initialization successful\n");
 
     return 0;
 

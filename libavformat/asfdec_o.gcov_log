@@ -1,0 +1,136 @@
+Function 'asf_read_header'
+Lines executed:0.00% of 65
+
+Function 'detect_unknown_subobject'
+Lines executed:0.00% of 20
+
+Function 'find_guid'
+Lines executed:0.00% of 14
+
+Function 'asf_read_seek'
+Lines executed:0.00% of 12
+
+Function 'asf_read_timestamp'
+Lines executed:0.00% of 38
+
+Function 'reset_packet_state'
+Lines executed:0.00% of 28
+
+Function 'asf_read_close'
+Lines executed:0.00% of 10
+
+Function 'asf_read_packet'
+Lines executed:0.00% of 60
+
+Function 'asf_deinterleave'
+Lines executed:0.00% of 31
+
+Function 'asf_read_packet_header'
+Lines executed:0.00% of 25
+
+Function 'asf_read_payload'
+Lines executed:0.00% of 51
+
+Function 'asf_read_single_payload'
+Lines executed:0.00% of 35
+
+Function 'asf_read_multiple_payload'
+Lines executed:0.00% of 30
+
+Function 'asf_read_replicated_data'
+Lines executed:0.00% of 13
+
+Function 'asf_read_subpayload'
+Lines executed:0.00% of 36
+
+Function 'asf_read_simple_index'
+Lines executed:0.00% of 36
+
+Function 'asf_read_data'
+Lines executed:0.00% of 25
+
+Function 'asf_read_language_list'
+Lines executed:0.00% of 16
+
+Function 'asf_read_ext_stream_properties'
+Lines executed:0.00% of 51
+
+Function 'set_language'
+Lines executed:0.00% of 8
+
+Function 'asf_read_stream_properties'
+Lines executed:0.00% of 70
+
+Function 'parse_video_info'
+Lines executed:0.00% of 15
+
+Function 'asf_read_properties'
+Lines executed:0.00% of 32
+
+Function 'asf_read_content_desc'
+Lines executed:0.00% of 18
+
+Function 'asf_read_metadata_obj'
+Lines executed:0.00% of 33
+
+Function 'asf_store_aspect_ratio'
+Lines executed:0.00% of 11
+
+Function 'asf_read_ext_content'
+Lines executed:0.00% of 25
+
+Function 'process_metadata'
+Lines executed:0.00% of 16
+
+Function 'asf_set_metadata'
+Lines executed:0.00% of 12
+
+Function 'asf_read_generic_value'
+Lines executed:0.00% of 14
+
+Function 'asf_read_value'
+Lines executed:0.00% of 29
+
+Function 'asf_read_metadata'
+Lines executed:0.00% of 7
+
+Function 'asf_read_marker'
+Lines executed:0.00% of 30
+
+Function 'get_asf_string'
+Lines executed:0.00% of 11
+
+Function 'asf_read_unknown'
+Lines executed:0.00% of 21
+
+Function 'align_position'
+Lines executed:0.00% of 4
+
+Function 'asf_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/asfdec_o.c'
+Lines executed:0.00% of 942
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_o.gcno##libavformat#asfdec_o.c.gcov'
+
+File 'libavformat/riff.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_o.gcno##libavformat#riff.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_o.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_o.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_o.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfdec_o.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 955

@@ -1,0 +1,21 @@
+Function 'argo_brp_read_packet'
+Lines executed:0.00% of 38
+
+Function 'argo_brp_read_header'
+Lines executed:0.00% of 110
+
+Function 'read_extradata'
+Lines executed:0.00% of 16
+
+Function 'argo_brp_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/argo_brp.c'
+Lines executed:0.00% of 165
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#argo_brp.gcno##libavformat#argo_brp.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#argo_brp.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 167

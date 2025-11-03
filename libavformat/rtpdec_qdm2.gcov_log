@@ -1,0 +1,25 @@
+Function 'qdm2_parse_packet'
+Lines executed:0.00% of 33
+
+Function 'qdm2_restore_block'
+Lines executed:0.00% of 34
+
+Function 'qdm2_parse_subpacket'
+Lines executed:0.00% of 17
+
+Function 'qdm2_parse_config'
+Lines executed:0.00% of 35
+
+File 'libavformat/rtpdec_qdm2.c'
+Lines executed:0.00% of 110
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qdm2.gcno##libavformat#rtpdec_qdm2.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qdm2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qdm2.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 119

@@ -1,0 +1,18 @@
+Function 'ff_mpeg4videodsp_init'
+Lines executed:0.00% of 5
+
+Function 'ff_gmc_c'
+Lines executed:0.00% of 45
+
+Function 'gmc1_c'
+Lines executed:0.00% of 18
+
+File 'libavcodec/mpeg4videodsp.c'
+Lines executed:0.00% of 65
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodsp.gcno##libavcodec#mpeg4videodsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 68

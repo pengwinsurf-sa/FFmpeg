@@ -1,0 +1,30 @@
+Function 'checkasm_check_svq1enc'
+Lines executed:100.00% of 8
+
+Function 'test_ssd_int8_vs_int16'
+Lines executed:69.57% of 23
+
+Function 'ssd_int8_vs_int16_c'
+Lines executed:100.00% of 5
+
+File 'tests/checkasm/svq1enc.c'
+Lines executed:94.44% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#svq1enc.gcno##tests#checkasm#svq1enc.c.gcov'
+
+File 'libavcodec/svq1encdsp.h'
+Lines executed:100.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#svq1enc.gcno##libavcodec#svq1encdsp.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#svq1enc.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#svq1enc.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#svq1enc.gcno##libavutil#emms.h.gcov'
+
+Lines executed:80.56% of 36

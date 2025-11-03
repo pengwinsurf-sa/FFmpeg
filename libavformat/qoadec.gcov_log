@@ -1,0 +1,26 @@
+Function 'qoa_read_packet'
+Lines executed:0.00% of 27
+
+Function 'qoa_read_header'
+Lines executed:0.00% of 20
+
+Function 'qoa_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/qoadec.c'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qoadec.gcno##libavformat#qoadec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qoadec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qoadec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#qoadec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 58

@@ -1,0 +1,105 @@
+Function 'amrwb_decode_frame'
+Lines executed:0.00% of 132
+
+Function 'update_sub_state'
+Lines executed:0.00% of 10
+
+Function 'hb_fir_filter'
+Lines executed:0.00% of 11
+
+Function 'hb_synthesis'
+Lines executed:0.00% of 22
+
+Function 'extrapolate_isf'
+Lines executed:0.00% of 40
+
+Function 'scaled_hb_excitation'
+Lines executed:0.00% of 12
+
+Function 'find_hb_gain'
+Lines executed:0.00% of 12
+
+Function 'upsample_5_4'
+Lines executed:0.00% of 16
+
+Function 'synthesis'
+Lines executed:0.00% of 11
+
+Function 'pitch_enhancer'
+Lines executed:0.00% of 11
+
+Function 'anti_sparseness'
+Lines executed:0.00% of 27
+
+Function 'voice_factor'
+Lines executed:0.00% of 6
+
+Function 'pitch_sharpening'
+Lines executed:0.00% of 7
+
+Function 'decode_fixed_vector'
+Lines executed:0.00% of 48
+
+Function 'decode_6p_track'
+Lines executed:0.00% of 22
+
+Function 'decode_5p_track'
+Lines executed:0.00% of 5
+
+Function 'decode_4p_track'
+Lines executed:0.00% of 25
+
+Function 'decode_3p_track'
+Lines executed:0.00% of 5
+
+Function 'decode_2p_track'
+Lines executed:0.00% of 1
+
+Function 'decode_pitch_vector'
+Lines executed:0.00% of 20
+
+Function 'decode_pitch_lag_low'
+Lines executed:0.00% of 15
+
+Function 'decode_pitch_lag_high'
+Lines executed:0.00% of 15
+
+Function 'interpolate_isp'
+Lines executed:0.00% of 7
+
+Function 'isf_add_mean_and_past'
+Lines executed:0.00% of 9
+
+Function 'decode_isf_indices_46b'
+Lines executed:0.00% of 17
+
+Function 'decode_isf_indices_36b'
+Lines executed:0.00% of 13
+
+Function 'amrwb_decode_init'
+Lines executed:0.00% of 25
+
+Function 'ff_amr_bit_reorder'
+Lines executed:0.00% of 12
+
+File 'libavcodec/amrwbdec.c'
+Lines executed:0.00% of 527
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrwbdec.gcno##libavcodec#amrwbdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrwbdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrwbdec.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrwbdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/amr.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#amrwbdec.gcno##libavcodec#amr.h.gcov'
+
+Lines executed:0.00% of 556

@@ -1,0 +1,15 @@
+Function 'framecrc_write_packet'
+Lines executed:0.00% of 23
+
+Function 'framecrc_write_header'
+Lines executed:0.00% of 9
+
+File 'libavformat/framecrcenc.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#framecrcenc.gcno##libavformat#framecrcenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#framecrcenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 32

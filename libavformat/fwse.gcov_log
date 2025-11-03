@@ -1,0 +1,15 @@
+Function 'fwse_read_header'
+Lines executed:0.00% of 29
+
+Function 'fwse_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/fwse.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#fwse.gcno##libavformat#fwse.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#fwse.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 34

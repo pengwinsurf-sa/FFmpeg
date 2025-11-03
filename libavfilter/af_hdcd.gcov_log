@@ -1,0 +1,51 @@
+Function 'config_input'
+Lines executed:0.00% of 61
+
+Function 'init'
+Lines executed:0.00% of 9
+
+Function 'uninit'
+Lines executed:0.00% of 21
+
+Function 'query_formats'
+Lines executed:0.00% of 17
+
+Function 'filter_frame'
+Lines executed:0.00% of 62
+
+Function 'hdcd_detect_onech'
+Lines executed:0.00% of 20
+
+Function 'hdcd_process_stereo'
+Lines executed:0.00% of 40
+
+Function 'hdcd_process'
+Lines executed:0.00% of 33
+
+Function 'hdcd_control_stereo'
+Lines executed:0.00% of 12
+
+Function 'hdcd_envelope'
+Lines executed:0.00% of 43
+
+Function 'hdcd_analyze'
+Lines executed:0.00% of 45
+
+Function 'hdcd_analyze_prepare'
+Lines executed:0.00% of 10
+
+Function 'hdcd_scan'
+Lines executed:0.00% of 31
+
+Function 'hdcd_integrate'
+Lines executed:0.00% of 50
+
+File 'libavfilter/af_hdcd.c'
+Lines executed:0.00% of 452
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_hdcd.gcno##libavfilter#af_hdcd.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_hdcd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 454

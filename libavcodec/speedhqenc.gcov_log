@@ -1,0 +1,44 @@
+Function 'speedhq_encode_init'
+Lines executed:0.00% of 37
+
+Function 'speedhq_encode_mb'
+Lines executed:0.00% of 23
+
+Function 'encode_block'
+Lines executed:0.00% of 27
+
+Function 'encode_dc'
+Lines executed:0.00% of 23
+
+Function 'ff_speedhq_end_slice'
+Lines executed:0.00% of 12
+
+Function 'speedhq_encode_picture_header'
+Lines executed:0.00% of 11
+
+Function 'speedhq_init_static_data'
+Lines executed:0.00% of 20
+
+Function 'put_bits_le'
+Lines executed:0.00% of 19
+
+Function 'flush_put_bits_le'
+Lines executed:0.00% of 9
+
+File 'libavcodec/speedhqenc.c'
+Lines executed:0.00% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqenc.gcno##libavcodec#speedhqenc.c.gcov'
+
+File 'libavcodec/mpegvideoenc.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqenc.gcno##libavcodec#mpegvideoenc.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqenc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 181

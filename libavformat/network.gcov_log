@@ -1,0 +1,81 @@
+Function 'ff_log_net_error'
+Lines executed:0.00% of 6
+
+Function 'ff_http_match_no_proxy'
+Lines executed:0.00% of 17
+
+Function 'match_host_pattern'
+Lines executed:0.00% of 14
+
+Function 'ff_connect_parallel'
+Lines executed:0.00% of 92
+
+Function 'start_connect_attempt'
+Lines executed:0.00% of 29
+
+Function 'print_address_list'
+Lines executed:0.00% of 8
+
+Function 'ff_listen_connect'
+Lines executed:0.00% of 26
+
+Function 'ff_listen_bind'
+Lines executed:0.00% of 6
+
+Function 'ff_accept'
+Lines executed:0.00% of 10
+
+Function 'ff_listen'
+Lines executed:0.00% of 11
+
+Function 'ff_socket'
+Lines executed:0.00% of 9
+
+Function 'ff_poll_interrupt'
+Lines executed:0.00% of 16
+
+Function 'ff_is_multicast_address'
+Lines executed:0.00% of 7
+
+Function 'ff_network_close'
+Lines executed:0.00% of 2
+
+Function 'ff_network_sleep_interruptible'
+Lines executed:0.00% of 8
+
+Function 'ff_network_wait_fd_timeout'
+Lines executed:0.00% of 12
+
+Function 'ff_network_wait_fd'
+Lines executed:0.00% of 6
+
+Function 'ff_network_init'
+Lines executed:0.00% of 2
+
+Function 'ff_tls_deinit'
+Lines executed:0.00% of 2
+
+Function 'ff_tls_init'
+Lines executed:0.00% of 2
+
+File 'libavformat/network.c'
+Lines executed:0.00% of 276
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#network.gcno##libavformat#network.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#network.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#network.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/poll2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#network.gcno###usr#include#x86_64-linux-gnu#bits#poll2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/byteswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#network.gcno###usr#include#x86_64-linux-gnu#bits#byteswap.h.gcov'
+
+Lines executed:0.00% of 285

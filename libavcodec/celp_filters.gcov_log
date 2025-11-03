@@ -1,0 +1,31 @@
+Function 'ff_celp_filter_init'
+Lines executed:0.00% of 4
+
+Function 'ff_celp_lp_zero_synthesis_filterf'
+Lines executed:0.00% of 7
+
+Function 'ff_celp_lp_synthesis_filterf'
+Lines executed:0.00% of 75
+
+Function 'ff_celp_lp_synthesis_filter'
+Lines executed:0.00% of 12
+
+Function 'ff_celp_circ_addf'
+Lines executed:0.00% of 7
+
+Function 'ff_celp_convolve_circ'
+Lines executed:0.00% of 12
+
+File 'libavcodec/celp_filters.c'
+Lines executed:0.00% of 112
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#celp_filters.gcno##libavcodec#celp_filters.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#celp_filters.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#celp_filters.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 117

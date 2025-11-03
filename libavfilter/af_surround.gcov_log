@@ -1,0 +1,126 @@
+Function 'process_command'
+Lines executed:0.00% of 10
+
+Function 'uninit'
+Lines executed:0.00% of 31
+
+Function 'activate'
+Lines executed:0.00% of 22
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'ifft_channels'
+Lines executed:0.00% of 10
+
+Function 'ifft_channel'
+Lines executed:0.00% of 26
+
+Function 'fft_channels'
+Lines executed:0.00% of 7
+
+Function 'fft_channel'
+Lines executed:0.00% of 15
+
+Function 'init'
+Lines executed:0.00% of 83
+
+Function 'allchannels_spread'
+Lines executed:0.00% of 11
+
+Function 'filter_5_1_back'
+Lines executed:0.00% of 46
+
+Function 'filter_5_1_side'
+Lines executed:0.00% of 46
+
+Function 'filter_5_0_side'
+Lines executed:0.00% of 44
+
+Function 'filter_surround'
+Lines executed:0.00% of 50
+
+Function 'filter_2_1'
+Lines executed:0.00% of 50
+
+Function 'filter_stereo'
+Lines executed:0.00% of 48
+
+Function 'upmix_7_1_5_1'
+Lines executed:0.00% of 35
+
+Function 'upmix_7_1_5_0_side'
+Lines executed:0.00% of 38
+
+Function 'surround_upmix'
+Lines executed:0.00% of 13
+
+Function 'l2_1_upmix'
+Lines executed:0.00% of 45
+
+Function 'stereo_upmix'
+Lines executed:0.00% of 7
+
+Function 'stereo_copy'
+Lines executed:0.00% of 32
+
+Function 'do_transform'
+Lines executed:0.00% of 19
+
+Function 'calculate_factors'
+Lines executed:0.00% of 30
+
+Function 'get_lfe'
+Lines executed:0.00% of 8
+
+Function 'stereo_position'
+Lines executed:0.00% of 8
+
+Function 'focus_transform'
+Lines executed:0.00% of 10
+
+Function 'angle_transform'
+Lines executed:0.00% of 13
+
+Function 'r_distance'
+Lines executed:0.00% of 4
+
+Function 'config_output'
+Lines executed:0.00% of 36
+
+Function 'config_input'
+Lines executed:0.00% of 24
+
+Function 'set_output_levels'
+Lines executed:0.00% of 10
+
+Function 'set_input_levels'
+Lines executed:0.00% of 10
+
+Function 'query_formats'
+Lines executed:0.00% of 17
+
+Function 'generate_window_func'
+Lines executed:0.00% of 124
+
+File 'libavfilter/af_surround.c'
+Lines executed:0.00% of 864
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_surround.gcno##libavfilter#af_surround.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_surround.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_surround.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_surround.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/window_func.h'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_surround.gcno##libavfilter#window_func.h.gcov'
+
+Lines executed:0.00% of 998

@@ -1,0 +1,37 @@
+Function 'audio_init'
+Lines executed:0.00% of 2
+
+Function 'video_init'
+Lines executed:0.00% of 2
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 49
+
+Function 'current_segment_finished'
+Lines executed:0.00% of 15
+
+Function 'config_input'
+Lines executed:0.00% of 8
+
+Function 'init'
+Lines executed:0.00% of 35
+
+Function 'parse_points'
+Lines executed:0.00% of 21
+
+File 'libavfilter/f_segment.c'
+Lines executed:0.00% of 131
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_segment.gcno##libavfilter#f_segment.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_segment.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_segment.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 136

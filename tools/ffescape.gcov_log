@@ -1,0 +1,19 @@
+Function 'main'
+Lines executed:0.00% of 93
+
+Function 'usage'
+Lines executed:0.00% of 7
+
+File 'tools/ffescape.c'
+Lines executed:0.00% of 94
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffescape.gcno##tools#ffescape.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffescape.gcno##libavutil#bprint.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#ffescape.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 100

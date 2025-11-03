@@ -1,0 +1,36 @@
+Function 'main'
+Lines executed:0.00% of 19
+
+Function 'av_get_random_seed'
+Lines executed:0.00% of 5
+
+Function 'av_random_bytes'
+Lines executed:0.00% of 4
+
+Function 'get_generic_seed'
+Lines executed:0.00% of 48
+
+Function 'read_random'
+Lines executed:0.00% of 15
+
+File 'libavutil/tests/random_seed.c'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#random_seed.gcno##libavutil#tests#random_seed.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#random_seed.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/random_seed.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#random_seed.gcno##libavutil#random_seed.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#random_seed.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#random_seed.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 91

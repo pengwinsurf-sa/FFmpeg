@@ -1,0 +1,33 @@
+Function 'flat_print_str'
+Lines executed:0.00% of 12
+
+Function 'flat_print_int'
+Lines executed:0.00% of 3
+
+Function 'flat_print_section_header'
+Lines executed:0.00% of 20
+
+Function 'flat_escape_value_str'
+Lines executed:0.00% of 12
+
+Function 'flat_escape_key_str'
+Lines executed:0.00% of 8
+
+Function 'flat_init'
+Lines executed:0.00% of 7
+
+Function 'writer_printf'
+Lines executed:0.00% of 6
+
+Function 'tf_get_section'
+Lines executed:0.00% of 5
+
+File 'fftools/textformat/tf_flat.c'
+Lines executed:0.00% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tf_flat.gcno##fftools#textformat#tf_flat.c.gcov'
+
+File 'fftools/textformat/tf_internal.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tf_flat.gcno##fftools#textformat#tf_internal.h.gcov'
+
+Lines executed:0.00% of 73

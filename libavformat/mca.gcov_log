@@ -1,0 +1,17 @@
+Function 'read_seek'
+Lines executed:0.00% of 15
+
+Function 'read_packet'
+Lines executed:0.00% of 13
+
+Function 'read_header'
+Lines executed:0.00% of 78
+
+Function 'probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/mca.c'
+Lines executed:0.00% of 110
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mca.gcno##libavformat#mca.c.gcov'
+
+Lines executed:0.00% of 110

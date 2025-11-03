@@ -1,0 +1,26 @@
+Function 'av_dirac_parse_sequence_header'
+Lines executed:0.00% of 68
+
+Function 'parse_source_parameters'
+Lines executed:0.00% of 99
+
+Function 'get_interleaved_ue_golomb'
+Lines executed:0.00% of 25
+
+File 'libavcodec/dirac.c'
+Lines executed:0.00% of 140
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac.gcno##libavcodec#dirac.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 192

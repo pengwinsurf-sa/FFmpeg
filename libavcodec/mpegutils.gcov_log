@@ -1,0 +1,22 @@
+Function 'ff_print_debug_info2'
+Lines executed:0.00% of 126
+
+Function 'get_type_mv_char'
+Lines executed:0.00% of 14
+
+Function 'ff_draw_horiz_band'
+Lines executed:0.00% of 26
+
+File 'libavcodec/mpegutils.c'
+Lines executed:0.00% of 162
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegutils.gcno##libavcodec#mpegutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegutils.gcno##libavutil#emms.h.gcov'
+
+Lines executed:0.00% of 166

@@ -1,0 +1,812 @@
+Function 'ff_vvc_dsp_init'
+Lines executed:100.00% of 57
+
+Function 'adaptive_color_transform_12'
+Lines executed:0.00% of 15
+
+Function 'transform_bdpcm_12'
+Lines executed:0.00% of 13
+
+Function 'pred_residual_joint_12'
+Lines executed:0.00% of 5
+
+Function 'add_residual_12'
+Lines executed:0.00% of 11
+
+Function 'vvc_v_loop_ladf_level_12'
+Lines executed:0.00% of 7
+
+Function 'vvc_h_loop_ladf_level_12'
+Lines executed:0.00% of 2
+
+Function 'vvc_v_loop_filter_luma_12'
+Lines executed:0.00% of 3
+
+Function 'vvc_h_loop_filter_luma_12'
+Lines executed:0.00% of 3
+
+Function 'vvc_v_loop_filter_chroma_12'
+Lines executed:0.00% of 3
+
+Function 'vvc_h_loop_filter_chroma_12'
+Lines executed:0.00% of 3
+
+Function 'vvc_loop_filter_chroma_12'
+Lines executed:0.00% of 51
+
+Function 'loop_filter_chroma_strong_one_side_12'
+Lines executed:0.00% of 19
+
+Function 'loop_filter_chroma_strong_12'
+Lines executed:0.00% of 20
+
+Function 'vvc_loop_filter_luma_12'
+Lines executed:0.00% of 63
+
+Function 'loop_filter_luma_large_12'
+Lines executed:0.00% of 68
+
+Function 'loop_filter_chroma_weak_12'
+Lines executed:0.00% of 14
+
+Function 'loop_filter_luma_weak_12'
+Lines executed:0.00% of 24
+
+Function 'loop_filter_luma_strong_12'
+Lines executed:0.00% of 20
+
+Function 'alf_recon_coeff_and_clip_12'
+Lines executed:0.00% of 11
+
+Function 'alf_classify_12'
+Lines executed:100.00% of 57
+
+Function 'alf_get_idx_12'
+Lines executed:100.00% of 20
+
+Function 'alf_filter_cc_12'
+Lines executed:0.00% of 29
+
+Function 'alf_filter_chroma_12'
+Lines executed:107.27% of 55
+
+Function 'alf_filter_luma_12'
+Lines executed:100.00% of 73
+
+Function 'lmcs_filter_luma_12'
+Lines executed:0.00% of 9
+
+Function 'sao_edge_restore_1_12'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_12'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_12'
+Lines executed:0.00% of 20
+
+Function 'sao_band_filter_12'
+Lines executed:0.00% of 16
+
+Function 'pred_angular_h_12'
+Lines executed:0.00% of 37
+
+Function 'pred_angular_v_12'
+Lines executed:0.00% of 38
+
+Function 'pred_h_12'
+Lines executed:0.00% of 8
+
+Function 'pred_v_12'
+Lines executed:0.00% of 9
+
+Function 'pred_dc_12'
+Lines executed:0.00% of 27
+
+Function 'pred_mip_12'
+Lines executed:0.00% of 78
+
+Function 'pred_planar_12'
+Lines executed:0.00% of 16
+
+Function 'intra_pred_12'
+Lines executed:0.00% of 160
+
+Function 'lmcs_scale_chroma_12'
+Lines executed:0.00% of 10
+
+Function 'lmcs_derive_chroma_scale_12'
+Lines executed:0.00% of 35
+
+Function 'intra_cclm_pred_12'
+Lines executed:0.00% of 211
+
+Function 'ff_vvc_inter_dsp_init_12'
+Lines executed:100.00% of 26
+
+Function 'dmvr_hv_12'
+Lines executed:100.00% of 24
+
+Function 'dmvr_v_12'
+Lines executed:100.00% of 12
+
+Function 'dmvr_h_12'
+Lines executed:100.00% of 12
+
+Function 'dmvr_12'
+Lines executed:100.00% of 11
+
+Function 'apply_bdof_12'
+Lines executed:100.00% of 20
+
+Function 'apply_bdof_min_block_12'
+Lines executed:100.00% of 12
+
+Function 'derive_bdof_vx_vy_12'
+Lines executed:100.00% of 23
+
+Function 'apply_prof_uni_w_12'
+Lines executed:0.00% of 19
+
+Function 'apply_prof_uni_12'
+Lines executed:0.00% of 18
+
+Function 'apply_prof_12'
+Lines executed:0.00% of 14
+
+Function 'prof_grad_filter_12'
+Lines executed:100.00% of 12
+
+Function 'fetch_samples_12'
+Lines executed:0.00% of 3
+
+Function 'bdof_fetch_samples_12'
+Lines executed:0.00% of 20
+
+Function 'put_gpm_12'
+Lines executed:0.00% of 14
+
+Function 'put_ciip_12'
+Lines executed:0.00% of 12
+
+Function 'w_avg_12'
+Lines executed:100.00% of 12
+
+Function 'avg_12'
+Lines executed:100.00% of 12
+
+Function 'put_uni_chroma_w_scaled_12'
+Lines executed:0.00% of 39
+
+Function 'put_uni_luma_w_scaled_12'
+Lines executed:0.00% of 4
+
+Function 'put_uni_chroma_scaled_12'
+Lines executed:0.00% of 41
+
+Function 'put_uni_luma_scaled_12'
+Lines executed:0.00% of 4
+
+Function 'put_chroma_scaled_12'
+Lines executed:0.00% of 5
+
+Function 'put_luma_scaled_12'
+Lines executed:0.00% of 3
+
+Function 'put_uni_chroma_w_hv_12'
+Lines executed:0.00% of 25
+
+Function 'put_uni_chroma_w_v_12'
+Lines executed:0.00% of 15
+
+Function 'put_uni_chroma_w_h_12'
+Lines executed:0.00% of 15
+
+Function 'put_uni_chroma_hv_12'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_12'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_12'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_12'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_12'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_12'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_12'
+Lines executed:0.00% of 24
+
+Function 'put_uni_luma_w_v_12'
+Lines executed:0.00% of 15
+
+Function 'put_uni_luma_w_h_12'
+Lines executed:0.00% of 15
+
+Function 'put_uni_luma_hv_12'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_12'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_12'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_12'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_12'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_12'
+Lines executed:100.00% of 10
+
+Function 'put_uni_w_pixels_12'
+Lines executed:0.00% of 15
+
+Function 'put_uni_pixels_12'
+Lines executed:120.00% of 10
+
+Function 'put_pixels_12'
+Lines executed:100.00% of 9
+
+Function 'adaptive_color_transform_10'
+Lines executed:0.00% of 12
+
+Function 'transform_bdpcm_10'
+Lines executed:0.00% of 13
+
+Function 'pred_residual_joint_10'
+Lines executed:0.00% of 5
+
+Function 'add_residual_10'
+Lines executed:0.00% of 9
+
+Function 'vvc_v_loop_ladf_level_10'
+Lines executed:0.00% of 2
+
+Function 'vvc_h_loop_ladf_level_10'
+Lines executed:0.00% of 2
+
+Function 'vvc_v_loop_filter_luma_10'
+Lines executed:0.00% of 3
+
+Function 'vvc_h_loop_filter_luma_10'
+Lines executed:0.00% of 3
+
+Function 'vvc_v_loop_filter_chroma_10'
+Lines executed:0.00% of 3
+
+Function 'vvc_h_loop_filter_chroma_10'
+Lines executed:0.00% of 3
+
+Function 'vvc_loop_filter_chroma_10'
+Lines executed:0.00% of 51
+
+Function 'loop_filter_chroma_strong_one_side_10'
+Lines executed:0.00% of 16
+
+Function 'loop_filter_chroma_strong_10'
+Lines executed:0.00% of 20
+
+Function 'vvc_loop_filter_luma_10'
+Lines executed:0.00% of 63
+
+Function 'loop_filter_luma_large_10'
+Lines executed:0.00% of 68
+
+Function 'loop_filter_chroma_weak_10'
+Lines executed:0.00% of 14
+
+Function 'loop_filter_luma_weak_10'
+Lines executed:0.00% of 24
+
+Function 'loop_filter_luma_strong_10'
+Lines executed:0.00% of 20
+
+Function 'alf_recon_coeff_and_clip_10'
+Lines executed:0.00% of 11
+
+Function 'alf_classify_10'
+Lines executed:100.00% of 57
+
+Function 'alf_get_idx_10'
+Lines executed:95.00% of 20
+
+Function 'alf_filter_cc_10'
+Lines executed:0.00% of 29
+
+Function 'alf_filter_chroma_10'
+Lines executed:100.00% of 53
+
+Function 'alf_filter_luma_10'
+Lines executed:100.00% of 73
+
+Function 'lmcs_filter_luma_10'
+Lines executed:0.00% of 9
+
+Function 'sao_edge_restore_1_10'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_10'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_10'
+Lines executed:0.00% of 20
+
+Function 'sao_band_filter_10'
+Lines executed:0.00% of 16
+
+Function 'pred_angular_h_10'
+Lines executed:0.00% of 37
+
+Function 'pred_angular_v_10'
+Lines executed:0.00% of 38
+
+Function 'pred_h_10'
+Lines executed:0.00% of 8
+
+Function 'pred_v_10'
+Lines executed:0.00% of 7
+
+Function 'pred_dc_10'
+Lines executed:0.00% of 13
+
+Function 'pred_mip_10'
+Lines executed:0.00% of 39
+
+Function 'pred_planar_10'
+Lines executed:0.00% of 16
+
+Function 'intra_pred_10'
+Lines executed:0.00% of 64
+
+Function 'lmcs_scale_chroma_10'
+Lines executed:0.00% of 10
+
+Function 'lmcs_derive_chroma_scale_10'
+Lines executed:0.00% of 27
+
+Function 'intra_cclm_pred_10'
+Lines executed:0.00% of 19
+
+Function 'ff_vvc_inter_dsp_init_10'
+Lines executed:100.00% of 26
+
+Function 'dmvr_hv_10'
+Lines executed:100.00% of 24
+
+Function 'dmvr_v_10'
+Lines executed:100.00% of 12
+
+Function 'dmvr_h_10'
+Lines executed:100.00% of 12
+
+Function 'dmvr_10'
+Lines executed:100.00% of 3
+
+Function 'apply_bdof_10'
+Lines executed:100.00% of 20
+
+Function 'apply_bdof_min_block_10'
+Lines executed:100.00% of 12
+
+Function 'derive_bdof_vx_vy_10'
+Lines executed:100.00% of 23
+
+Function 'apply_prof_uni_w_10'
+Lines executed:0.00% of 19
+
+Function 'apply_prof_uni_10'
+Lines executed:0.00% of 18
+
+Function 'apply_prof_10'
+Lines executed:0.00% of 14
+
+Function 'prof_grad_filter_10'
+Lines executed:100.00% of 12
+
+Function 'fetch_samples_10'
+Lines executed:0.00% of 3
+
+Function 'bdof_fetch_samples_10'
+Lines executed:0.00% of 20
+
+Function 'put_gpm_10'
+Lines executed:0.00% of 14
+
+Function 'put_ciip_10'
+Lines executed:0.00% of 12
+
+Function 'w_avg_10'
+Lines executed:100.00% of 12
+
+Function 'avg_10'
+Lines executed:100.00% of 12
+
+Function 'put_uni_chroma_w_scaled_10'
+Lines executed:0.00% of 3
+
+Function 'put_uni_luma_w_scaled_10'
+Lines executed:0.00% of 3
+
+Function 'put_uni_chroma_scaled_10'
+Lines executed:0.00% of 3
+
+Function 'put_uni_luma_scaled_10'
+Lines executed:0.00% of 3
+
+Function 'put_chroma_scaled_10'
+Lines executed:0.00% of 3
+
+Function 'put_luma_scaled_10'
+Lines executed:0.00% of 3
+
+Function 'put_uni_chroma_w_hv_10'
+Lines executed:0.00% of 25
+
+Function 'put_uni_chroma_w_v_10'
+Lines executed:0.00% of 15
+
+Function 'put_uni_chroma_w_h_10'
+Lines executed:0.00% of 15
+
+Function 'put_uni_chroma_hv_10'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_10'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_10'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_10'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_10'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_10'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_10'
+Lines executed:0.00% of 24
+
+Function 'put_uni_luma_w_v_10'
+Lines executed:0.00% of 15
+
+Function 'put_uni_luma_w_h_10'
+Lines executed:0.00% of 15
+
+Function 'put_uni_luma_hv_10'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_10'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_10'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_10'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_10'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_10'
+Lines executed:100.00% of 10
+
+Function 'put_uni_w_pixels_10'
+Lines executed:0.00% of 15
+
+Function 'put_uni_pixels_10'
+Lines executed:100.00% of 10
+
+Function 'put_pixels_10'
+Lines executed:100.00% of 9
+
+Function 'adaptive_color_transform_8'
+Lines executed:0.00% of 12
+
+Function 'transform_bdpcm_8'
+Lines executed:0.00% of 13
+
+Function 'pred_residual_joint_8'
+Lines executed:0.00% of 5
+
+Function 'add_residual_8'
+Lines executed:0.00% of 12
+
+Function 'vvc_v_loop_ladf_level_8'
+Lines executed:0.00% of 2
+
+Function 'vvc_h_loop_ladf_level_8'
+Lines executed:0.00% of 2
+
+Function 'vvc_v_loop_filter_luma_8'
+Lines executed:0.00% of 3
+
+Function 'vvc_h_loop_filter_luma_8'
+Lines executed:0.00% of 3
+
+Function 'vvc_v_loop_filter_chroma_8'
+Lines executed:0.00% of 3
+
+Function 'vvc_h_loop_filter_chroma_8'
+Lines executed:0.00% of 3
+
+Function 'vvc_loop_filter_chroma_8'
+Lines executed:0.00% of 51
+
+Function 'loop_filter_chroma_strong_one_side_8'
+Lines executed:0.00% of 16
+
+Function 'loop_filter_chroma_strong_8'
+Lines executed:0.00% of 20
+
+Function 'vvc_loop_filter_luma_8'
+Lines executed:0.00% of 63
+
+Function 'loop_filter_luma_large_8'
+Lines executed:0.00% of 68
+
+Function 'loop_filter_chroma_weak_8'
+Lines executed:0.00% of 14
+
+Function 'loop_filter_luma_weak_8'
+Lines executed:0.00% of 24
+
+Function 'loop_filter_luma_strong_8'
+Lines executed:0.00% of 20
+
+Function 'alf_recon_coeff_and_clip_8'
+Lines executed:0.00% of 11
+
+Function 'alf_classify_8'
+Lines executed:100.00% of 57
+
+Function 'alf_get_idx_8'
+Lines executed:95.00% of 20
+
+Function 'alf_filter_cc_8'
+Lines executed:0.00% of 29
+
+Function 'alf_filter_chroma_8'
+Lines executed:105.66% of 53
+
+Function 'alf_filter_luma_8'
+Lines executed:100.00% of 73
+
+Function 'lmcs_filter_luma_8'
+Lines executed:0.00% of 9
+
+Function 'sao_edge_restore_1_8'
+Lines executed:0.00% of 55
+
+Function 'sao_edge_restore_0_8'
+Lines executed:0.00% of 32
+
+Function 'sao_edge_filter_8'
+Lines executed:0.00% of 20
+
+Function 'sao_band_filter_8'
+Lines executed:0.00% of 16
+
+Function 'pred_angular_h_8'
+Lines executed:0.00% of 37
+
+Function 'pred_angular_v_8'
+Lines executed:0.00% of 38
+
+Function 'pred_h_8'
+Lines executed:0.00% of 8
+
+Function 'pred_v_8'
+Lines executed:0.00% of 7
+
+Function 'pred_dc_8'
+Lines executed:0.00% of 13
+
+Function 'pred_mip_8'
+Lines executed:0.00% of 39
+
+Function 'pred_planar_8'
+Lines executed:0.00% of 16
+
+Function 'intra_pred_8'
+Lines executed:0.00% of 64
+
+Function 'lmcs_scale_chroma_8'
+Lines executed:0.00% of 10
+
+Function 'lmcs_derive_chroma_scale_8'
+Lines executed:0.00% of 27
+
+Function 'intra_cclm_pred_8'
+Lines executed:0.00% of 19
+
+Function 'ff_vvc_inter_dsp_init_8'
+Lines executed:100.00% of 26
+
+Function 'dmvr_hv_8'
+Lines executed:100.00% of 24
+
+Function 'dmvr_v_8'
+Lines executed:100.00% of 12
+
+Function 'dmvr_h_8'
+Lines executed:100.00% of 12
+
+Function 'dmvr_8'
+Lines executed:100.00% of 9
+
+Function 'apply_bdof_8'
+Lines executed:100.00% of 20
+
+Function 'apply_bdof_min_block_8'
+Lines executed:100.00% of 12
+
+Function 'derive_bdof_vx_vy_8'
+Lines executed:100.00% of 23
+
+Function 'apply_prof_uni_w_8'
+Lines executed:0.00% of 19
+
+Function 'apply_prof_uni_8'
+Lines executed:0.00% of 18
+
+Function 'apply_prof_8'
+Lines executed:0.00% of 14
+
+Function 'prof_grad_filter_8'
+Lines executed:100.00% of 12
+
+Function 'fetch_samples_8'
+Lines executed:0.00% of 3
+
+Function 'bdof_fetch_samples_8'
+Lines executed:0.00% of 20
+
+Function 'put_gpm_8'
+Lines executed:0.00% of 14
+
+Function 'put_ciip_8'
+Lines executed:0.00% of 12
+
+Function 'w_avg_8'
+Lines executed:100.00% of 12
+
+Function 'avg_8'
+Lines executed:100.00% of 12
+
+Function 'put_uni_chroma_w_scaled_8'
+Lines executed:0.00% of 3
+
+Function 'put_uni_luma_w_scaled_8'
+Lines executed:0.00% of 3
+
+Function 'put_uni_chroma_scaled_8'
+Lines executed:0.00% of 3
+
+Function 'put_uni_luma_scaled_8'
+Lines executed:0.00% of 3
+
+Function 'put_chroma_scaled_8'
+Lines executed:0.00% of 3
+
+Function 'put_luma_scaled_8'
+Lines executed:0.00% of 3
+
+Function 'put_uni_chroma_w_hv_8'
+Lines executed:0.00% of 24
+
+Function 'put_uni_chroma_w_v_8'
+Lines executed:0.00% of 15
+
+Function 'put_uni_chroma_w_h_8'
+Lines executed:0.00% of 15
+
+Function 'put_uni_chroma_hv_8'
+Lines executed:100.00% of 23
+
+Function 'put_uni_chroma_v_8'
+Lines executed:100.00% of 14
+
+Function 'put_uni_chroma_h_8'
+Lines executed:100.00% of 14
+
+Function 'put_chroma_hv_8'
+Lines executed:100.00% of 19
+
+Function 'put_chroma_v_8'
+Lines executed:100.00% of 10
+
+Function 'put_chroma_h_8'
+Lines executed:100.00% of 10
+
+Function 'put_uni_luma_w_hv_8'
+Lines executed:0.00% of 24
+
+Function 'put_uni_luma_w_v_8'
+Lines executed:0.00% of 15
+
+Function 'put_uni_luma_w_h_8'
+Lines executed:0.00% of 15
+
+Function 'put_uni_luma_hv_8'
+Lines executed:100.00% of 24
+
+Function 'put_uni_luma_v_8'
+Lines executed:100.00% of 15
+
+Function 'put_uni_luma_h_8'
+Lines executed:100.00% of 15
+
+Function 'put_luma_hv_8'
+Lines executed:100.00% of 19
+
+Function 'put_luma_v_8'
+Lines executed:100.00% of 10
+
+Function 'put_luma_h_8'
+Lines executed:100.00% of 10
+
+Function 'put_uni_w_pixels_8'
+Lines executed:0.00% of 15
+
+Function 'put_uni_pixels_8'
+Lines executed:100.00% of 10
+
+Function 'put_pixels_8'
+Lines executed:100.00% of 9
+
+Function 'vvc_sad'
+Lines executed:100.00% of 12
+
+File 'libavcodec/vvc/dsp.c'
+Lines executed:83.33% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#vvc#dsp.c.gcov'
+
+File 'libavcodec/vvc/intra_template.c'
+Lines executed:0.75% of 1465
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#vvc#intra_template.c.gcov'
+
+File 'libavcodec/vvc/dsp_template.c'
+Lines executed:6.02% of 166
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#vvc#dsp_template.c.gcov'
+
+File 'libavcodec/vvc/filter_template.c'
+Lines executed:42.16% of 1976
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#vvc#filter_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:61.54% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/h26x/h2656_deblock_template.c'
+Lines executed:0.00% of 232
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#h26x#h2656_deblock_template.c.gcov'
+
+File 'libavcodec/h26x/h2656_sao_template.c'
+Lines executed:0.00% of 492
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#h26x#h2656_sao_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/vvc/inter_template.c'
+Lines executed:55.82% of 1245
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#vvc#inter_template.c.gcov'
+
+File 'libavcodec/h26x/h2656_inter_template.c'
+Lines executed:62.01% of 1303
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dsp.gcno##libavcodec#h26x#h2656_inter_template.c.gcov'
+
+Lines executed:34.55% of 6924

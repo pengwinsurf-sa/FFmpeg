@@ -1,0 +1,22 @@
+Function 'main'
+Lines executed:0.00% of 81
+
+Function 'print_digraph'
+Lines executed:0.00% of 36
+
+Function 'usage'
+Lines executed:0.00% of 7
+
+File 'tools/graph2dot.c'
+Lines executed:0.00% of 109
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#graph2dot.gcno##tools#graph2dot.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#graph2dot.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#graph2dot.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 124

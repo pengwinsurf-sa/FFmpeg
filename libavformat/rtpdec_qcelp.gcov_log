@@ -1,0 +1,18 @@
+Function 'qcelp_parse_packet'
+Lines executed:0.00% of 4
+
+Function 'return_stored_frame'
+Lines executed:0.00% of 28
+
+Function 'store_packet'
+Lines executed:0.00% of 54
+
+File 'libavformat/rtpdec_qcelp.c'
+Lines executed:0.00% of 84
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qcelp.gcno##libavformat#rtpdec_qcelp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qcelp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 86

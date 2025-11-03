@@ -1,0 +1,420 @@
+Function 'lut1d_process_command'
+Lines executed:0.00% of 17
+
+Function 'filter_frame_1d'
+Lines executed:0.00% of 5
+
+Function 'apply_1d_lut'
+Lines executed:0.00% of 19
+
+Function 'lut1d_init'
+Lines executed:0.00% of 34
+
+Function 'config_input_1d'
+Lines executed:0.00% of 18
+
+Function 'interp_1d_16_spline'
+Lines executed:0.00% of 4
+
+Function 'interp_1d_16_cubic'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cosine'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_linear'
+Lines executed:0.00% of 10
+
+Function 'interp_1d_16_nearest'
+Lines executed:0.00% of 3
+
+Function 'interp_1d_8_spline'
+Lines executed:0.00% of 4
+
+Function 'interp_1d_8_cubic'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_cosine'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_linear'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_nearest'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_spline_pf32'
+Lines executed:0.00% of 10
+
+Function 'interp_1d_cubic_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_cosine_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_linear_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_nearest_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_spline_p16'
+Lines executed:0.00% of 3
+
+Function 'interp_1d_16_cubic_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cosine_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_linear_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_nearest_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_spline_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cubic_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cosine_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_linear_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_nearest_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_spline_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cubic_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cosine_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_linear_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_nearest_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_spline_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cubic_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cosine_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_linear_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_nearest_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_spline_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cubic_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_cosine_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_linear_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_16_nearest_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_spline_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_cubic_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_cosine_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_linear_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_8_nearest_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_1d_spline'
+Lines executed:0.00% of 14
+
+Function 'interp_1d_cubic'
+Lines executed:0.00% of 15
+
+Function 'interp_1d_cosine'
+Lines executed:0.00% of 8
+
+Function 'parse_cube_1d'
+Lines executed:0.00% of 42
+
+Function 'parse_cinespace_1d'
+Lines executed:0.00% of 51
+
+Function 'haldclut_child_next'
+Lines executed:0.00% of 1
+
+Function 'haldclut_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'haldclut_uninit'
+Lines executed:0.00% of 5
+
+Function 'haldclut_init'
+Lines executed:0.00% of 5
+
+Function 'update_apply_clut'
+Lines executed:0.00% of 19
+
+Function 'config_clut'
+Lines executed:0.00% of 29
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 10
+
+Function 'update_clut_float'
+Lines executed:0.00% of 25
+
+Function 'update_clut_planar'
+Lines executed:0.00% of 18
+
+Function 'update_clut_packed'
+Lines executed:0.00% of 12
+
+Function 'lut3d_uninit'
+Lines executed:0.00% of 7
+
+Function 'lut3d_init'
+Lines executed:0.00% of 37
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 5
+
+Function 'apply_lut'
+Lines executed:0.00% of 20
+
+Function 'config_input'
+Lines executed:0.00% of 19
+
+Function 'set_identity_matrix'
+Lines executed:0.00% of 14
+
+Function 'parse_cinespace'
+Lines executed:0.00% of 132
+
+Function 'nearest_sample_index'
+Lines executed:0.00% of 13
+
+Function 'parse_m3d'
+Lines executed:0.00% of 40
+
+Function 'parse_3dl'
+Lines executed:0.00% of 21
+
+Function 'parse_cube'
+Lines executed:0.00% of 35
+
+Function 'parse_dat'
+Lines executed:0.00% of 19
+
+Function 'allocate_3dlut'
+Lines executed:0.00% of 21
+
+Function 'fget_next_word'
+Lines executed:0.00% of 16
+
+Function 'skip_line'
+Lines executed:0.00% of 4
+
+Function 'interp_16_prism'
+Lines executed:0.00% of 1
+
+Function 'interp_16_pyramid'
+Lines executed:0.00% of 1
+
+Function 'interp_16_tetrahedral'
+Lines executed:0.00% of 1
+
+Function 'interp_16_trilinear'
+Lines executed:0.00% of 1
+
+Function 'interp_16_nearest'
+Lines executed:0.00% of 3
+
+Function 'interp_8_prism'
+Lines executed:0.00% of 1
+
+Function 'interp_8_pyramid'
+Lines executed:0.00% of 1
+
+Function 'interp_8_tetrahedral'
+Lines executed:0.00% of 1
+
+Function 'interp_8_trilinear'
+Lines executed:0.00% of 1
+
+Function 'interp_8_nearest'
+Lines executed:0.00% of 1
+
+Function 'interp_prism_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_pyramid_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_tetrahedral_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_trilinear_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_nearest_pf32'
+Lines executed:0.00% of 1
+
+Function 'interp_16_prism_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_16_pyramid_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_16_tetrahedral_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_16_trilinear_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_16_nearest_p16'
+Lines executed:0.00% of 1
+
+Function 'interp_16_prism_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_16_pyramid_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_16_tetrahedral_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_16_trilinear_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_16_nearest_p14'
+Lines executed:0.00% of 1
+
+Function 'interp_16_prism_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_16_pyramid_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_16_tetrahedral_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_16_trilinear_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_16_nearest_p12'
+Lines executed:0.00% of 1
+
+Function 'interp_16_prism_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_16_pyramid_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_16_tetrahedral_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_16_trilinear_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_16_nearest_p10'
+Lines executed:0.00% of 1
+
+Function 'interp_16_prism_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_16_pyramid_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_16_tetrahedral_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_16_trilinear_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_16_nearest_p9'
+Lines executed:0.00% of 1
+
+Function 'interp_8_prism_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_8_pyramid_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_8_tetrahedral_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_8_trilinear_p8'
+Lines executed:0.00% of 1
+
+Function 'interp_8_nearest_p8'
+Lines executed:0.00% of 1
+
+Function 'apply_prelut'
+Lines executed:0.00% of 8
+
+Function 'prelut_interp_1d_linear'
+Lines executed:0.00% of 10
+
+Function 'interp_tetrahedral'
+Lines executed:0.00% of 45
+
+Function 'interp_prism'
+Lines executed:0.00% of 35
+
+Function 'interp_pyramid'
+Lines executed:0.00% of 39
+
+Function 'interp_trilinear'
+Lines executed:0.00% of 26
+
+File 'libavfilter/vf_lut3d.c'
+Lines executed:0.00% of 1023
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut3d.gcno##libavfilter#vf_lut3d.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut3d.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut3d.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut3d.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_lut3d.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 1043

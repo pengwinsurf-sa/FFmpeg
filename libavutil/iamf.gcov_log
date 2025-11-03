@@ -1,0 +1,66 @@
+Function 'av_iamf_mix_presentation_free'
+Lines executed:0.00% of 21
+
+Function 'av_iamf_mix_presentation_add_submix'
+Lines executed:0.00% of 1
+
+Function 'av_iamf_mix_presentation_alloc'
+Lines executed:0.00% of 6
+
+Function 'av_iamf_mix_presentation_get_class'
+Lines executed:0.00% of 2
+
+Function 'mix_presentation_child_iterate'
+Lines executed:0.00% of 8
+
+Function 'submix_presentation_child_iterate'
+Lines executed:0.00% of 11
+
+Function 'submix_presentation_child_next'
+Lines executed:0.00% of 4
+
+Function 'av_iamf_submix_add_layout'
+Lines executed:0.00% of 1
+
+Function 'av_iamf_submix_add_element'
+Lines executed:0.00% of 1
+
+Function 'submix_element_child_iterate'
+Lines executed:0.00% of 8
+
+Function 'submix_element_child_next'
+Lines executed:0.00% of 4
+
+Function 'av_iamf_audio_element_free'
+Lines executed:0.00% of 12
+
+Function 'av_iamf_audio_element_add_layer'
+Lines executed:0.00% of 1
+
+Function 'av_iamf_audio_element_alloc'
+Lines executed:0.00% of 6
+
+Function 'av_iamf_audio_element_get_class'
+Lines executed:0.00% of 2
+
+Function 'audio_element_child_iterate'
+Lines executed:0.00% of 8
+
+Function 'av_iamf_param_definition_alloc'
+Lines executed:0.00% of 38
+
+Function 'av_iamf_param_definition_get_class'
+Lines executed:0.00% of 2
+
+Function 'param_definition_child_iterate'
+Lines executed:0.00% of 11
+
+File 'libavutil/iamf.c'
+Lines executed:0.00% of 144
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#iamf.gcno##libavutil#iamf.c.gcov'
+
+File 'libavutil/iamf.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#iamf.gcno##libavutil#iamf.h.gcov'
+
+Lines executed:0.00% of 147

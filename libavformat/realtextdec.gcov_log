@@ -1,0 +1,14 @@
+Function 'realtext_read_header'
+Lines executed:0.00% of 50
+
+Function 'read_ts'
+Lines executed:0.00% of 8
+
+Function 'realtext_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/realtextdec.c'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#realtextdec.gcno##libavformat#realtextdec.c.gcov'
+
+Lines executed:0.00% of 64

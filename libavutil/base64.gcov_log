@@ -1,0 +1,15 @@
+Function 'av_base64_encode'
+Lines executed:0.00% of 28
+
+Function 'av_base64_decode'
+Lines executed:0.00% of 49
+
+File 'libavutil/base64.c'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#base64.gcno##libavutil#base64.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#base64.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 77

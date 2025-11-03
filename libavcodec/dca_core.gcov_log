@@ -1,0 +1,184 @@
+Function 'ff_dca_core_close'
+Lines executed:0.00% of 12
+
+Function 'ff_dca_core_init'
+Lines executed:0.00% of 11
+
+Function 'ff_dca_core_flush'
+Lines executed:0.00% of 21
+
+Function 'ff_dca_core_filter_frame'
+Lines executed:0.00% of 31
+
+Function 'filter_frame_float'
+Lines executed:0.00% of 100
+
+Function 'filter_frame_fixed'
+Lines executed:0.00% of 59
+
+Function 'ff_dca_core_filter_fixed'
+Lines executed:0.00% of 44
+
+Function 'erase_dsp_history'
+Lines executed:0.00% of 5
+
+Function 'map_prm_ch_to_spkr'
+Lines executed:0.00% of 16
+
+Function 'ff_dca_core_parse_exss'
+Lines executed:0.00% of 67
+
+Function 'ff_dca_core_parse'
+Lines executed:0.00% of 21
+
+Function 'parse_optional_info'
+Lines executed:0.00% of 58
+
+Function 'parse_aux_data'
+Lines executed:0.00% of 47
+
+Function 'parse_x96_frame_exss'
+Lines executed:0.00% of 37
+
+Function 'parse_x96_frame'
+Lines executed:0.00% of 13
+
+Function 'parse_x96_frame_data'
+Lines executed:0.00% of 23
+
+Function 'parse_x96_coding_header'
+Lines executed:0.00% of 45
+
+Function 'parse_x96_subframe_header'
+Lines executed:0.00% of 44
+
+Function 'alloc_x96_sample_buffer'
+Lines executed:0.00% of 14
+
+Function 'parse_x96_subframe_audio'
+Lines executed:0.00% of 55
+
+Function 'parse_xbr_frame'
+Lines executed:0.00% of 39
+
+Function 'parse_xbr_subframe'
+Lines executed:0.00% of 71
+
+Function 'parse_xxch_frame'
+Lines executed:0.00% of 36
+
+Function 'parse_xch_frame'
+Lines executed:0.00% of 9
+
+Function 'parse_frame_data'
+Lines executed:0.00% of 18
+
+Function 'alloc_sample_buffer'
+Lines executed:0.00% of 17
+
+Function 'parse_subframe_audio'
+Lines executed:0.00% of 65
+
+Function 'inverse_adpcm'
+Lines executed:0.00% of 10
+
+Function 'extract_audio'
+Lines executed:0.00% of 14
+
+Function 'parse_block_codes'
+Lines executed:0.00% of 7
+
+Function 'decode_blockcodes'
+Lines executed:0.00% of 12
+
+Function 'parse_subframe_header'
+Lines executed:0.00% of 77
+
+Function 'parse_joint_scale'
+Lines executed:0.00% of 13
+
+Function 'parse_scale'
+Lines executed:0.00% of 13
+
+Function 'parse_coding_header'
+Lines executed:0.00% of 107
+
+Function 'parse_frame_header'
+Lines executed:0.00% of 52
+
+Function 'dca_get_vlc'
+Lines executed:0.00% of 2
+
+Function 'ff_dca_check_crc'
+Lines executed:0.00% of 6
+
+Function 'ff_dca_core_dequantize'
+Lines executed:0.00% of 13
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'NEG_USR32'
+No executable lines
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+Function 'ff_dcaadpcm_predict'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dca_core.c'
+Lines executed:0.00% of 1192
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#dca_core.c.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#dcamath.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/dcadec.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#dcadec.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/dca_core.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#dca_core.h.gcov'
+
+File 'libavcodec/dcaadpcm.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_core.gcno##libavcodec#dcaadpcm.h.gcov'
+
+Lines executed:0.00% of 1353

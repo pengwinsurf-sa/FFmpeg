@@ -1,0 +1,49 @@
+Function 'decode_init'
+Lines executed:0.00% of 22
+
+Function 'is_nonnull_frame'
+Lines executed:0.00% of 2
+
+Function 'switch_buffers'
+Lines executed:0.00% of 16
+
+Function 'decode_mb_info'
+Lines executed:0.00% of 142
+
+Function 'decode_band_hdr'
+Lines executed:0.00% of 118
+
+Function 'decode_pic_hdr'
+Lines executed:0.00% of 94
+
+Function 'decode_plane_subdivision'
+Lines executed:0.00% of 5
+
+Function 'ivi_pic_config_cmp'
+Lines executed:0.00% of 5
+
+File 'libavcodec/indeo4.c'
+Lines executed:0.00% of 347
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo4.gcno##libavcodec#indeo4.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo4.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo4.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo4.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/ivi.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo4.gcno##libavcodec#ivi.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo4.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 404

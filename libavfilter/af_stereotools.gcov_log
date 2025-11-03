@@ -1,0 +1,20 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 167
+
+Function 'config_input'
+Lines executed:0.00% of 11
+
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_stereotools.c'
+Lines executed:0.00% of 195
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_stereotools.gcno##libavfilter#af_stereotools.c.gcov'
+
+Lines executed:0.00% of 195

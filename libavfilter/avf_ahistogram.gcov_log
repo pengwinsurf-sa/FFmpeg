@@ -1,0 +1,51 @@
+Function 'uninit'
+Lines executed:0.00% of 10
+
+Function 'activate'
+Lines executed:0.00% of 18
+
+Function 'filter_frame'
+Lines executed:0.00% of 171
+
+Function 'config_output'
+Lines executed:0.00% of 25
+
+Function 'get_log_bin_sign'
+Lines executed:0.00% of 4
+
+Function 'get_log_bin_abs'
+Lines executed:0.00% of 2
+
+Function 'get_lin_bin_sign'
+Lines executed:0.00% of 2
+
+Function 'get_lin_bin_abs'
+Lines executed:0.00% of 2
+
+Function 'config_input'
+Lines executed:0.00% of 9
+
+Function 'query_formats'
+Lines executed:0.00% of 9
+
+File 'libavfilter/avf_ahistogram.c'
+Lines executed:0.00% of 238
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_ahistogram.gcno##libavfilter#avf_ahistogram.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_ahistogram.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_ahistogram.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_ahistogram.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_ahistogram.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 252

@@ -1,0 +1,212 @@
+Function 'mpeg4_close'
+Lines executed:0.00% of 4
+
+Function 'mpeg4_flush'
+Lines executed:0.00% of 5
+
+Function 'decode_init'
+Lines executed:0.00% of 48
+
+Function 'mpeg4_init_static'
+Lines executed:0.00% of 20
+
+Function 'mpeg4_update_thread_context_for_user'
+Lines executed:0.00% of 6
+
+Function 'mpeg4_update_thread_context'
+Lines executed:0.00% of 43
+
+Function 'update_mpvctx'
+Lines executed:0.00% of 8
+
+Function 'clear_context'
+Lines executed:0.00% of 29
+
+Function 'ff_mpeg4_frame_end'
+Lines executed:0.00% of 28
+
+Function 'ff_mpeg4_decode_picture_header'
+Lines executed:0.00% of 21
+
+Function 'ff_mpeg4_parse_picture_header'
+Lines executed:0.00% of 99
+
+Function 'decode_studiovisualobject'
+Lines executed:0.00% of 11
+
+Function 'decode_studio_vop_header'
+Lines executed:0.00% of 54
+
+Function 'decode_smpte_tc'
+Lines executed:0.00% of 12
+
+Function 'decode_vop_header'
+Lines executed:0.00% of 164
+
+Function 'ff_mpeg4_workaround_bugs'
+Lines executed:0.00% of 72
+
+Function 'switch_to_xvid_idct'
+Lines executed:0.00% of 11
+
+Function 'permute_quant_matrix'
+Lines executed:0.00% of 6
+
+Function 'decode_user_data'
+Lines executed:0.00% of 36
+
+Function 'decode_vol_header'
+Lines executed:0.00% of 228
+
+Function 'decode_studio_vol_header'
+Lines executed:0.00% of 64
+
+Function 'extension_and_user_data'
+Lines executed:0.00% of 15
+
+Function 'read_quant_matrix_ext'
+Lines executed:0.00% of 25
+
+Function 'mpeg4_decode_visual_object'
+Lines executed:0.00% of 19
+
+Function 'mpeg4_decode_profile_level'
+Lines executed:0.00% of 6
+
+Function 'mpeg4_decode_gop_header'
+Lines executed:0.00% of 13
+
+Function 'mpeg4_decode_studio_mb'
+Lines executed:0.00% of 25
+
+Function 'mpeg4_decode_dpcm_macroblock'
+Lines executed:0.00% of 51
+
+Function 'mpeg4_decode_studio_block'
+Lines executed:0.00% of 90
+
+Function 'next_start_code_studio'
+Lines executed:0.00% of 5
+
+Function 'mpeg4_decode_mb'
+Lines executed:0.00% of 240
+
+Function 'mpeg4_decode_partitioned_mb'
+Lines executed:0.00% of 50
+
+Function 'mpeg4_decode_block'
+Lines executed:0.00% of 154
+
+Function 'ff_mpeg4_decode_partitions'
+Lines executed:0.00% of 36
+
+Function 'mpeg4_decode_partition_b'
+Lines executed:0.00% of 59
+
+Function 'mpeg4_decode_partition_a'
+Lines executed:0.00% of 127
+
+Function 'mpeg4_decode_dc'
+Lines executed:0.00% of 18
+
+Function 'mpeg4_get_level_dc'
+Lines executed:0.00% of 21
+
+Function 'mpeg4_pred_dc'
+Lines executed:0.00% of 21
+
+Function 'get_amv'
+Lines executed:0.00% of 30
+
+Function 'ff_mpeg4_decode_studio_slice_header'
+Lines executed:0.00% of 22
+
+Function 'ff_mpeg4_decode_video_packet_header'
+Lines executed:0.00% of 46
+
+Function 'decode_new_pred'
+Lines executed:0.00% of 8
+
+Function 'mpeg4_decode_sprite_trajectory'
+Lines executed:0.00% of 190
+
+Function 'mpeg4_is_resync'
+Lines executed:0.00% of 30
+
+Function 'ff_mpeg4_pred_ac'
+Lines executed:0.00% of 29
+
+Function 'ff_mpeg4_decode_studio'
+Lines executed:0.00% of 49
+
+Function 'ff_mpeg4_mcsel_motion'
+Lines executed:0.00% of 6
+
+Function 'gmc_motion'
+Lines executed:0.00% of 35
+
+Function 'gmc1_motion'
+Lines executed:0.00% of 64
+
+Function 'check_marker'
+Lines executed:0.00% of 6
+
+Function 'ff_update_block_index'
+Lines executed:0.00% of 13
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_xbits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/mpeg4videodec.c'
+Lines executed:0.00% of 2363
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#mpeg4videodec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mpegvideodec.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#mpegvideodec.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#unary.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/h263.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#h263.h.gcov'
+
+File 'libavcodec/mpegvideo.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4videodec.gcno##libavcodec#mpegvideo.h.gcov'
+
+Lines executed:0.00% of 2515

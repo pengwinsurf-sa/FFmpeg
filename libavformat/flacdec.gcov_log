@@ -1,0 +1,43 @@
+Function 'flac_seek'
+Lines executed:0.00% of 13
+
+Function 'flac_close'
+Lines executed:0.00% of 4
+
+Function 'flac_read_timestamp'
+Lines executed:0.00% of 38
+
+Function 'flac_probe'
+Lines executed:0.00% of 25
+
+Function 'flac_read_header'
+Lines executed:0.00% of 139
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavformat/flacdec.c'
+Lines executed:0.00% of 197
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacdec.gcno##libavformat#flacdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/flac.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacdec.gcno##libavcodec#flac.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacdec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 223

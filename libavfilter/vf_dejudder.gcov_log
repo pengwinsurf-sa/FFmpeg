@@ -1,0 +1,21 @@
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+Function 'dejudder_uninit'
+Lines executed:0.00% of 4
+
+Function 'dejudder_init'
+Lines executed:0.00% of 11
+
+Function 'config_out_props'
+Lines executed:0.00% of 13
+
+File 'libavfilter/vf_dejudder.c'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dejudder.gcno##libavfilter#vf_dejudder.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dejudder.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 57

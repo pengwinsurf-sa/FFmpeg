@@ -1,0 +1,30 @@
+Function 'checkasm_check_rv34dsp'
+Lines executed:100.00% of 6
+
+Function 'test_rv34_idct_dc_add'
+Lines executed:70.83% of 24
+
+Function 'test_rv34_inv_transform_dc'
+Lines executed:91.67% of 12
+
+File 'tests/checkasm/rv34dsp.c'
+Lines executed:93.33% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#rv34dsp.gcno##tests#checkasm#rv34dsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#rv34dsp.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#rv34dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#rv34dsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#rv34dsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:80.95% of 42

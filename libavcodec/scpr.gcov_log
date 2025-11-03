@@ -1,0 +1,142 @@
+Function 'decode_close'
+Lines executed:0.00% of 6
+
+Function 'decode_init'
+Lines executed:0.00% of 21
+
+Function 'decode_frame'
+Lines executed:0.00% of 96
+
+Function 'decompress_p'
+Lines executed:0.00% of 81
+
+Function 'decompress_i'
+Lines executed:0.00% of 48
+
+Function 'decode_units'
+Lines executed:0.00% of 16
+
+Function 'decode_unit'
+Lines executed:0.00% of 38
+
+Function 'decode_value'
+Lines executed:0.00% of 25
+
+Function 'get_freq0'
+Lines executed:0.00% of 4
+
+Function 'decode0'
+Lines executed:0.00% of 11
+
+Function 'get_freq'
+Lines executed:0.00% of 6
+
+Function 'decode'
+Lines executed:0.00% of 8
+
+Function 'reinit_tables'
+Lines executed:0.00% of 38
+
+Function 'init_rangecoder'
+Lines executed:0.00% of 8
+
+Function 'decompress_p3'
+Lines executed:0.00% of 143
+
+Function 'decompress_i3'
+Lines executed:0.00% of 61
+
+Function 'decode_units3'
+Lines executed:0.00% of 16
+
+Function 'decode_unit3'
+Lines executed:0.00% of 57
+
+Function 'update_model4_to_5'
+Lines executed:0.00% of 33
+
+Function 'decode_value3'
+Lines executed:0.00% of 32
+
+Function 'decode_static3'
+Lines executed:0.00% of 9
+
+Function 'update_model3_to_7'
+Lines executed:0.00% of 27
+
+Function 'decode_static2'
+Lines executed:0.00% of 14
+
+Function 'update_model2_to_3'
+Lines executed:0.00% of 11
+
+Function 'update_model2_to_6'
+Lines executed:0.00% of 53
+
+Function 'decode_static1'
+Lines executed:0.00% of 24
+
+Function 'update_model1_to_4'
+Lines executed:0.00% of 16
+
+Function 'update_model1_to_2'
+Lines executed:0.00% of 11
+
+Function 'decode_adaptive6'
+Lines executed:0.00% of 50
+
+Function 'incr_cntdec'
+Lines executed:0.00% of 20
+
+Function 'update_model5_to_6'
+Lines executed:0.00% of 55
+
+Function 'rescale_dec'
+Lines executed:0.00% of 25
+
+Function 'update_model6_to_7'
+Lines executed:0.00% of 34
+
+Function 'decode_adaptive45'
+Lines executed:0.00% of 46
+
+Function 'add_symbol'
+Lines executed:0.00% of 13
+
+Function 'reinit_tables3'
+Lines executed:0.00% of 31
+
+Function 'renew_table3'
+Lines executed:0.00% of 11
+
+Function 'decode_run_p'
+Lines executed:0.00% of 75
+
+Function 'decode_run_i'
+Lines executed:0.00% of 90
+
+File 'libavcodec/scpr.c'
+Lines executed:0.00% of 389
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#scpr.gcno##libavcodec#scpr.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#scpr.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#scpr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#scpr.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/scpr3.c'
+Lines executed:0.00% of 789
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#scpr.gcno##libavcodec#scpr3.c.gcov'
+
+File 'libavcodec/scpr.h'
+Lines executed:0.00% of 165
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#scpr.gcno##libavcodec#scpr.h.gcov'
+
+Lines executed:0.00% of 1363

@@ -1,0 +1,30 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'activate'
+Lines executed:0.00% of 73
+
+Function 'config_output'
+Lines executed:0.00% of 22
+
+Function 'derainbow16'
+Lines executed:0.00% of 1
+
+Function 'derainbow8'
+Lines executed:0.00% of 1
+
+Function 'dedotcrawl16'
+Lines executed:0.00% of 1
+
+Function 'dedotcrawl8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_dedot.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dedot.gcno##libavfilter#vf_dedot.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_dedot.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 104

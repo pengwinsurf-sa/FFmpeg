@@ -1,0 +1,136 @@
+Function 'overlay_child_next'
+Lines executed:0.00% of 1
+
+Function 'overlay_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'init'
+Lines executed:0.00% of 4
+
+Function 'do_blend'
+Lines executed:0.00% of 30
+
+Function 'config_input_main'
+Lines executed:0.00% of 101
+
+Function 'blend_slice_rgba_pm'
+Lines executed:0.00% of 58
+
+Function 'blend_slice_rgb_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_rgba'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_rgb'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_gbrap_pm'
+Lines executed:0.00% of 19
+
+Function 'blend_slice_gbrp_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva444_pm'
+Lines executed:0.00% of 5
+
+Function 'blend_slice_yuv444_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva422_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv422_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva420_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv420_pm'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_gbrap'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_gbrp'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva444p10'
+Lines executed:0.00% of 3
+
+Function 'blend_slice_yuv444p10'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva444'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv444'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva422'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv422'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva422p10'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv422p10'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva420p10'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv420p10'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuva420'
+Lines executed:0.00% of 1
+
+Function 'blend_slice_yuv420'
+Lines executed:0.00% of 1
+
+Function 'alpha_composite_16_10bits'
+Lines executed:0.00% of 1
+
+Function 'alpha_composite_8_8bits'
+Lines executed:0.00% of 1
+
+Function 'config_output'
+Lines executed:0.00% of 9
+
+Function 'config_input_overlay'
+Lines executed:0.00% of 31
+
+Function 'query_formats'
+Lines executed:0.00% of 59
+
+Function 'process_command'
+Lines executed:0.00% of 12
+
+Function 'set_expr'
+Lines executed:0.00% of 11
+
+Function 'eval_expr'
+Lines executed:0.00% of 11
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_overlay.c'
+Lines executed:0.00% of 381
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_overlay.gcno##libavfilter#vf_overlay.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_overlay.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_overlay.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 389

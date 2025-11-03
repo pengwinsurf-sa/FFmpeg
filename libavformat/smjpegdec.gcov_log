@@ -1,0 +1,18 @@
+Function 'smjpeg_read_packet'
+Lines executed:0.00% of 33
+
+Function 'smjpeg_read_header'
+Lines executed:0.00% of 71
+
+Function 'smjpeg_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/smjpegdec.c'
+Lines executed:0.00% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smjpegdec.gcno##libavformat#smjpegdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smjpegdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 107

@@ -1,0 +1,18 @@
+Function 'ff_mov_generate_squashed_ttml_packet'
+Lines executed:0.00% of 39
+
+Function 'mov_write_ttml_document_from_queue'
+Lines executed:0.00% of 21
+
+Function 'mov_init_ttml_writer'
+Lines executed:0.00% of 10
+
+File 'libavformat/movenc_ttml.c'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc_ttml.gcno##libavformat#movenc_ttml.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc_ttml.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 70

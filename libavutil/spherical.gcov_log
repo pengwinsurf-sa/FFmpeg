@@ -1,0 +1,17 @@
+Function 'av_spherical_from_name'
+Lines executed:0.00% of 5
+
+Function 'av_spherical_projection_name'
+Lines executed:0.00% of 3
+
+Function 'av_spherical_tile_bounds'
+Lines executed:0.00% of 10
+
+Function 'av_spherical_alloc'
+Lines executed:0.00% of 6
+
+File 'libavutil/spherical.c'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#spherical.gcno##libavutil#spherical.c.gcov'
+
+Lines executed:0.00% of 24

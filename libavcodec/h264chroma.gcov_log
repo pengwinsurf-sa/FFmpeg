@@ -1,0 +1,60 @@
+Function 'ff_h264chroma_init'
+Lines executed:100.00% of 6
+
+Function 'avg_h264_chroma_mc8_16_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc4_16_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc2_16_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc1_16_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc8_16_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc4_16_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc2_16_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc1_16_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc8_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc4_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc2_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_chroma_mc1_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc8_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc4_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc2_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_chroma_mc1_8_c'
+Lines executed:100.00% of 1
+
+File 'libavcodec/h264chroma.c'
+Lines executed:100.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264chroma.gcno##libavcodec#h264chroma.c.gcov'
+
+File 'libavcodec/h264chroma_template.c'
+Lines executed:100.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264chroma.gcno##libavcodec#h264chroma_template.c.gcov'
+
+Lines executed:100.00% of 24

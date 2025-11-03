@@ -1,0 +1,24 @@
+Function 'tta_encode_close'
+Lines executed:0.00% of 4
+
+Function 'tta_encode_frame'
+Lines executed:0.00% of 107
+
+Function 'tta_encode_init'
+Lines executed:0.00% of 20
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 18
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 9
+
+File 'libavcodec/ttaenc.c'
+Lines executed:0.00% of 107
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ttaenc.gcno##libavcodec#ttaenc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ttaenc.gcno##libavcodec#put_bits.h.gcov'
+
+Lines executed:0.00% of 158

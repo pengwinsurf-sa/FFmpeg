@@ -1,0 +1,17 @@
+Function 'av1_frame_merge_close'
+Lines executed:0.00% of 9
+
+Function 'av1_frame_merge_init'
+Lines executed:0.00% of 9
+
+Function 'av1_frame_merge_filter'
+Lines executed:0.00% of 48
+
+Function 'av1_frame_merge_flush'
+Lines executed:0.00% of 7
+
+File 'libavcodec/bsf/av1_frame_merge.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#av1_frame_merge.gcno##libavcodec#bsf#av1_frame_merge.c.gcov'
+
+Lines executed:0.00% of 73

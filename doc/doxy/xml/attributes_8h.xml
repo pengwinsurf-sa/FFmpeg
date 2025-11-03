@@ -1,0 +1,1279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="attributes_8h" kind="file" language="C++">
+    <compoundname>attributes.h</compoundname>
+    <includedby refid="avcodec_8h" local="yes">libavcodec/avcodec.h</includedby>
+    <includedby refid="packet_8h" local="yes">libavcodec/packet.h</includedby>
+    <includedby refid="vdpau_8h" local="yes">libavcodec/vdpau.h</includedby>
+    <includedby refid="videotoolbox_8h" local="yes">libavcodec/videotoolbox.h</includedby>
+    <includedby refid="avfilter_8h" local="yes">libavfilter/avfilter.h</includedby>
+    <includedby refid="avio_8h" local="yes">libavformat/avio.h</includedby>
+    <includedby refid="adler32_8h" local="yes">libavutil/adler32.h</includedby>
+    <includedby refid="aes_8h" local="yes">libavutil/aes.h</includedby>
+    <includedby refid="aes__ctr_8h" local="yes">libavutil/aes_ctr.h</includedby>
+    <includedby refid="audio__fifo_8h" local="yes">libavutil/audio_fifo.h</includedby>
+    <includedby refid="avassert_8h" local="yes">libavutil/avassert.h</includedby>
+    <includedby refid="avstring_8h" local="yes">libavutil/avstring.h</includedby>
+    <includedby refid="bprint_8h" local="yes">libavutil/bprint.h</includedby>
+    <includedby refid="bswap_8h" local="yes">libavutil/bswap.h</includedby>
+    <includedby refid="channel__layout_8h" local="yes">libavutil/channel_layout.h</includedby>
+    <includedby refid="common_8h" local="yes">libavutil/common.h</includedby>
+    <includedby refid="crc_8h" local="yes">libavutil/crc.h</includedby>
+    <includedby refid="file_8h" local="yes">libavutil/file.h</includedby>
+    <includedby refid="iamf_8h" local="yes">libavutil/iamf.h</includedby>
+    <includedby refid="intfloat_8h" local="yes">libavutil/intfloat.h</includedby>
+    <includedby refid="intreadwrite_8h" local="yes">libavutil/intreadwrite.h</includedby>
+    <includedby refid="log_8h" local="yes">libavutil/log.h</includedby>
+    <includedby refid="mathematics_8h" local="yes">libavutil/mathematics.h</includedby>
+    <includedby refid="md5_8h" local="yes">libavutil/md5.h</includedby>
+    <includedby refid="mem_8h" local="yes">libavutil/mem.h</includedby>
+    <includedby refid="pixdesc_8h" local="yes">libavutil/pixdesc.h</includedby>
+    <includedby refid="rational_8h" local="yes">libavutil/rational.h</includedby>
+    <includedby refid="ripemd_8h" local="yes">libavutil/ripemd.h</includedby>
+    <includedby refid="sha_8h" local="yes">libavutil/sha.h</includedby>
+    <includedby refid="sha512_8h" local="yes">libavutil/sha512.h</includedby>
+    <includedby refid="tree_8h" local="yes">libavutil/tree.h</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="4">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="5">
+        <label>doc/examples/decode_audio.c</label>
+        <link refid="decode__audio_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/decode_video.c</label>
+        <link refid="decode__video_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/encode_audio.c</label>
+        <link refid="encode__audio_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="28">
+        <label>doc/examples/filter_audio.c</label>
+        <link refid="filter__audio_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="24">
+        <label>doc/examples/remux.c</label>
+        <link refid="remux_8c"/>
+      </node>
+      <node id="46">
+        <label>doc/examples/resample_audio.c</label>
+        <link refid="resample__audio_8c"/>
+      </node>
+      <node id="63">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="25">
+        <label>doc/examples/show_metadata.c</label>
+        <link refid="show__metadata_8c"/>
+      </node>
+      <node id="15">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="16">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="2">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>libavcodec/avdct.h</label>
+        <link refid="avdct_8h"/>
+      </node>
+      <node id="21">
+        <label>libavcodec/bsf.h</label>
+        <link refid="bsf_8h"/>
+      </node>
+      <node id="54">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>libavcodec/codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>libavcodec/codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>libavcodec/dirac.h</label>
+        <link refid="dirac_8h"/>
+      </node>
+      <node id="82">
+        <label>libavcodec/dv_profile.h</label>
+        <link refid="dv__profile_8h"/>
+      </node>
+      <node id="17">
+        <label>libavcodec/mediacodec.h</label>
+        <link refid="mediacodec_8h"/>
+      </node>
+      <node id="20">
+        <label>libavcodec/packet.h</label>
+        <link refid="packet_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+      </node>
+      <node id="19">
+        <label>libavcodec/videotoolbox.h</label>
+        <link refid="videotoolbox_8h"/>
+      </node>
+      <node id="26">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+      </node>
+      <node id="27">
+        <label>libavfilter/avfilter.h</label>
+        <link refid="avfilter_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>libavfilter/buffersrc.h</label>
+        <link refid="buffersrc_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>libavformat/avio.h</label>
+        <link refid="avio_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>libavutil/adler32.h</label>
+        <link refid="adler32_8h"/>
+      </node>
+      <node id="33">
+        <label>libavutil/aes.h</label>
+        <link refid="aes_8h"/>
+      </node>
+      <node id="34">
+        <label>libavutil/aes_ctr.h</label>
+        <link refid="aes__ctr_8h"/>
+      </node>
+      <node id="48">
+        <label>libavutil/ambient_viewing_environment.h</label>
+        <link refid="ambient__viewing__environment_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/attributes.h</label>
+        <link refid="attributes_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>libavutil/audio_fifo.h</label>
+        <link refid="audio__fifo_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>libavutil/avassert.h</label>
+        <link refid="avassert_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>libavutil/avstring.h</label>
+        <link refid="avstring_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>libavutil/bprint.h</label>
+        <link refid="bprint_8h"/>
+      </node>
+      <node id="43">
+        <label>libavutil/bswap.h</label>
+        <link refid="bswap_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>libavutil/channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>libavutil/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>libavutil/crc.h</label>
+        <link refid="crc_8h"/>
+      </node>
+      <node id="83">
+        <label>libavutil/csp.h</label>
+        <link refid="csp_8h"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>libavutil/detection_bbox.h</label>
+        <link refid="detection__bbox_8h"/>
+      </node>
+      <node id="84">
+        <label>libavutil/dovi_meta.h</label>
+        <link refid="dovi__meta_8h"/>
+      </node>
+      <node id="49">
+        <label>libavutil/downmix_info.h</label>
+        <link refid="downmix__info_8h"/>
+      </node>
+      <node id="72">
+        <label>libavutil/file.h</label>
+        <link refid="file_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>libavutil/film_grain_params.h</label>
+        <link refid="film__grain__params_8h"/>
+      </node>
+      <node id="47">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>libavutil/hdr_dynamic_metadata.h</label>
+        <link refid="hdr__dynamic__metadata_8h"/>
+      </node>
+      <node id="52">
+        <label>libavutil/hdr_dynamic_vivid_metadata.h</label>
+        <link refid="hdr__dynamic__vivid__metadata_8h"/>
+      </node>
+      <node id="53">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>libavutil/hwcontext_amf.h</label>
+        <link refid="hwcontext__amf_8h"/>
+      </node>
+      <node id="57">
+        <label>libavutil/hwcontext_opencl.h</label>
+        <link refid="hwcontext__opencl_8h"/>
+      </node>
+      <node id="58">
+        <label>libavutil/hwcontext_videotoolbox.h</label>
+        <link refid="hwcontext__videotoolbox_8h"/>
+      </node>
+      <node id="56">
+        <label>libavutil/hwcontext_vulkan.h</label>
+        <link refid="hwcontext__vulkan_8h"/>
+      </node>
+      <node id="38">
+        <label>libavutil/iamf.h</label>
+        <link refid="iamf_8h"/>
+      </node>
+      <node id="79">
+        <label>libavutil/imgutils.h</label>
+        <link refid="imgutils_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>libavutil/intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>libavutil/intreadwrite.h</label>
+        <link refid="intreadwrite_8h"/>
+      </node>
+      <node id="75">
+        <label>libavutil/log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>libavutil/mastering_display_metadata.h</label>
+        <link refid="mastering__display__metadata_8h"/>
+      </node>
+      <node id="74">
+        <label>libavutil/mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>libavutil/md5.h</label>
+        <link refid="md5_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>libavutil/mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>libavutil/opt.h</label>
+        <link refid="opt_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>libavutil/parseutils.h</label>
+        <link refid="parseutils_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>libavutil/pixdesc.h</label>
+        <link refid="pixdesc_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>libavutil/rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>libavutil/ripemd.h</label>
+        <link refid="ripemd_8h"/>
+      </node>
+      <node id="88">
+        <label>libavutil/sha.h</label>
+        <link refid="sha_8h"/>
+      </node>
+      <node id="89">
+        <label>libavutil/sha512.h</label>
+        <link refid="sha512_8h"/>
+      </node>
+      <node id="60">
+        <label>libavutil/stereo3d.h</label>
+        <link refid="stereo3d_8h"/>
+      </node>
+      <node id="86">
+        <label>libavutil/timecode.h</label>
+        <link refid="timecode_8h"/>
+      </node>
+      <node id="70">
+        <label>libavutil/timestamp.h</label>
+        <link refid="timestamp_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>libavutil/tree.h</label>
+        <link refid="tree_8h"/>
+      </node>
+      <node id="39">
+        <label>libavutil/video_enc_params.h</label>
+        <link refid="video__enc__params_8h"/>
+      </node>
+      <node id="40">
+        <label>libavutil/video_hint.h</label>
+        <link refid="video__hint_8h"/>
+      </node>
+      <node id="61">
+        <label>libswresample/swresample.h</label>
+        <link refid="swresample_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>libswscale/swscale.h</label>
+        <link refid="swscale_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="attributes_8h_1a69fc4855d57a0b3471e795107677e5c4" prot="public" static="no">
+        <name>AV_GCC_VERSION_AT_LEAST</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>(__GNUC__ &gt; (x) || __GNUC__ == (x) &amp;&amp; __GNUC_MINOR__ &gt;= (y))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="30" column="13" bodyfile="libavutil/attributes.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1ad3ce0a0e58bc7f1ad004e948d0ef87f7" prot="public" static="no">
+        <name>AV_GCC_VERSION_AT_MOST</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>(__GNUC__ &lt; (x) || __GNUC__ == (x) &amp;&amp; __GNUC_MINOR__ &lt;= (y))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="31" column="13" bodyfile="libavutil/attributes.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a34286c45b70bd5d6bbaa89b341b7204c" prot="public" static="no">
+        <name>AV_HAS_BUILTIN</name>
+        <param><defname>x</defname></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="40" column="14" bodyfile="libavutil/attributes.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a28f50f4c125959216885f01d56dbe866" prot="public" static="no">
+        <name>av_always_inline</name>
+        <initializer>__attribute__((always_inline)) inline</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="45" column="13" bodyfile="libavutil/attributes.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1ad91a09f8aa5a61759896a5609580dc1c" prot="public" static="no">
+        <name>av_extern_inline</name>
+        <initializer>inline</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="57" column="14" bodyfile="libavutil/attributes.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a93f17e0f0b53a66e7b5eceb3dff2918f" prot="public" static="no">
+        <name>av_warn_unused_result</name>
+        <initializer>__attribute__((warn_unused_result))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="62" column="13" bodyfile="libavutil/attributes.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a299375f4aab80f039568d03b5c2f4214" prot="public" static="no">
+        <name>av_noinline</name>
+        <initializer>__attribute__((noinline))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="68" column="13" bodyfile="libavutil/attributes.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1adc7fd5bb40d84900a3a30ef3318020c2" prot="public" static="no">
+        <name>av_pure</name>
+        <initializer>__attribute__((pure))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="76" column="13" bodyfile="libavutil/attributes.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" prot="public" static="no">
+        <name>av_const</name>
+        <initializer>__attribute__((const))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="82" column="13" bodyfile="libavutil/attributes.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1abeeb324fff79a5335d36774704e2475c" prot="public" static="no">
+        <name>av_cold</name>
+        <initializer>__attribute__((cold))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="88" column="13" bodyfile="libavutil/attributes.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a767318f92f3dcb0a604c6beaa910eb0c" prot="public" static="no">
+        <name>av_flatten</name>
+        <initializer>__attribute__((flatten))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="94" column="13" bodyfile="libavutil/attributes.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" prot="public" static="no">
+        <name>attribute_deprecated</name>
+        <initializer>__attribute__((deprecated))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="100" column="13" bodyfile="libavutil/attributes.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1ab1b83f9b8188e770cc29043104205f53" prot="public" static="no">
+        <name>AV_NOWARN_DEPRECATED</name>
+        <param><defname>code</defname></param>
+        <initializer>        _Pragma(&quot;GCC diagnostic push&quot;) \
+        _Pragma(&quot;GCC diagnostic ignored \&quot;-Wdeprecated-declarations\&quot;&quot;) \
+        code \
+        _Pragma(&quot;GCC diagnostic pop&quot;)</initializer>
+        <briefdescription>
+<para>Disable warnings about deprecated features This is useful for sections of code kept for backward compatibility and scheduled for removal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="114" column="13" bodyfile="libavutil/attributes.h" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a7ca8a3900269f92fcc7b68235dea7787" prot="public" static="no">
+        <name>av_unused</name>
+        <initializer>__attribute__((unused))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="131" column="13" bodyfile="libavutil/attributes.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1aa402443f9068fb645e9a55f41fc99e09" prot="public" static="no">
+        <name>av_used</name>
+        <initializer>__attribute__((used))</initializer>
+        <briefdescription>
+<para>Mark a variable as used and prevent the compiler from optimizing it away. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is useful for variables accessed only from inline assembler without the compiler being aware. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="142" column="13" bodyfile="libavutil/attributes.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1ae7fb094d0e833b9afe387f7283dbbad3" prot="public" static="no">
+        <name>av_alias</name>
+        <initializer>__attribute__((may_alias))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="148" column="12" bodyfile="libavutil/attributes.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a934ff195492486f0f9d22770103e757b" prot="public" static="no">
+        <name>av_uninit</name>
+        <param><defname>x</defname></param>
+        <initializer>x=x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="154" column="13" bodyfile="libavutil/attributes.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a4887afda7f138d25d3f0dd843ca0ac18" prot="public" static="no">
+        <name>av_builtin_constant_p</name>
+        <initializer>__builtin_constant_p</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="160" column="13" bodyfile="libavutil/attributes.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1a4b078d4b8e02c0f452ee1dcaa7d983d3" prot="public" static="no">
+        <name>av_printf_format</name>
+        <param><defname>fmtpos</defname></param>
+        <param><defname>attrpos</defname></param>
+        <initializer>__attribute__((__format__(__printf__, fmtpos, attrpos)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="161" column="13" bodyfile="libavutil/attributes.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="attributes_8h_1ac85a6b34744701495efddc98c65e8afa" prot="public" static="no">
+        <name>av_noreturn</name>
+        <initializer>__attribute__((noreturn))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/attributes.h" line="168" column="13" bodyfile="libavutil/attributes.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Macro definitions for various function/variable attributes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>copyright<sp/>(c)<sp/>2006<sp/>Michael<sp/>Niedermayer<sp/>&lt;michaelni@gmx.at&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>Macro<sp/>definitions<sp/>for<sp/>various<sp/>function/variable<sp/>attributes</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_ATTRIBUTES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_ATTRIBUTES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="attributes_8h_1a69fc4855d57a0b3471e795107677e5c4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_GCC_VERSION_AT_LEAST(x,y)<sp/>(__GNUC__<sp/>&gt;<sp/>(x)<sp/>||<sp/>__GNUC__<sp/>==<sp/>(x)<sp/>&amp;&amp;<sp/>__GNUC_MINOR__<sp/>&gt;=<sp/>(y))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="attributes_8h_1ad3ce0a0e58bc7f1ad004e948d0ef87f7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_GCC_VERSION_AT_MOST(x,y)<sp/><sp/>(__GNUC__<sp/>&lt;<sp/>(x)<sp/>||<sp/>__GNUC__<sp/>==<sp/>(x)<sp/>&amp;&amp;<sp/>__GNUC_MINOR__<sp/>&lt;=<sp/>(y))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_GCC_VERSION_AT_LEAST(x,y)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_GCC_VERSION_AT_MOST(x,y)<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__has_builtin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_HAS_BUILTIN(x)<sp/>__has_builtin(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="attributes_8h_1a34286c45b70bd5d6bbaa89b341b7204c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_HAS_BUILTIN(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>av_always_inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="attributes_8h_1a28f50f4c125959216885f01d56dbe866" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_always_inline<sp/>__attribute__((always_inline))<sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_always_inline<sp/>__forceinline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_always_inline<sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>av_extern_inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__ICL)<sp/>&amp;&amp;<sp/>__ICL<sp/>&gt;=<sp/>1210<sp/>||<sp/>defined(__GNUC_STDC_INLINE__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_extern_inline<sp/>extern<sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="attributes_8h_1ad91a09f8aa5a61759896a5609580dc1c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_extern_inline<sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="attributes_8h_1a93f17e0f0b53a66e7b5eceb3dff2918f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_warn_unused_result<sp/>__attribute__((warn_unused_result))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_warn_unused_result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="attributes_8h_1a299375f4aab80f039568d03b5c2f4214" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_noinline<sp/>__attribute__((noinline))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_noinline<sp/>__declspec(noinline)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_noinline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,1)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="attributes_8h_1adc7fd5bb40d84900a3a30ef3318020c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_pure<sp/>__attribute__((pure))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_pure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(2,6)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="attributes_8h_1a9eaead3cde73464fd66bab4cef9307ad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_const<sp/>__attribute__((const))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(4,3)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="attributes_8h_1abeeb324fff79a5335d36774704e2475c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_cold<sp/>__attribute__((cold))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_cold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(4,1)<sp/>&amp;&amp;<sp/>!defined(__llvm__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="attributes_8h_1a767318f92f3dcb0a604c6beaa910eb0c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_flatten<sp/>__attribute__((flatten))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_flatten</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>attribute_deprecated<sp/>__attribute__((deprecated))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>attribute_deprecated<sp/>__declspec(deprecated)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>attribute_deprecated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="107"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*<sp/>Disable<sp/>warnings<sp/>about<sp/>deprecated<sp/>features</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>useful<sp/>for<sp/>sections<sp/>of<sp/>code<sp/>kept<sp/>for<sp/>backward<sp/>compatibility<sp/>and</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>scheduled<sp/>for<sp/>removal.</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AV_NOWARN_DEPRECATED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(4,6)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="attributes_8h_1ab1b83f9b8188e770cc29043104205f53" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_NOWARN_DEPRECATED(code)<sp/>\</highlight></codeline>
+<codeline lineno="115"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Pragma(&quot;GCC<sp/>diagnostic<sp/>push&quot;)<sp/>\</highlight></codeline>
+<codeline lineno="116"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Pragma(&quot;GCC<sp/>diagnostic<sp/>ignored<sp/>\&quot;-Wdeprecated-declarations\&quot;&quot;)<sp/>\</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>code<sp/>\</highlight></codeline>
+<codeline lineno="118"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Pragma(&quot;GCC<sp/>diagnostic<sp/>pop&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_NOWARN_DEPRECATED(code)<sp/>\</highlight></codeline>
+<codeline lineno="121"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__pragma(warning(push))<sp/>\</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__pragma(warning(disable<sp/>:<sp/>4996))<sp/>\</highlight></codeline>
+<codeline lineno="123"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>code;<sp/>\</highlight></codeline>
+<codeline lineno="124"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__pragma(warning(pop))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>AV_NOWARN_DEPRECATED(code)<sp/>code</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__GNUC__)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="attributes_8h_1a7ca8a3900269f92fcc7b68235dea7787" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_unused<sp/>__attribute__((unused))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_unused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="136"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>Mark<sp/>a<sp/>variable<sp/>as<sp/>used<sp/>and<sp/>prevent<sp/>the<sp/>compiler<sp/>from<sp/>optimizing<sp/>it</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>away.<sp/><sp/>This<sp/>is<sp/>useful<sp/>for<sp/>variables<sp/>accessed<sp/>only<sp/>from<sp/>inline</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/>assembler<sp/>without<sp/>the<sp/>compiler<sp/>being<sp/>aware.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,1)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="attributes_8h_1aa402443f9068fb645e9a55f41fc99e09" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_used<sp/>__attribute__((used))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_used</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(3,3)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="attributes_8h_1ae7fb094d0e833b9afe387f7283dbbad3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>av_alias<sp/>__attribute__((may_alias))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>av_alias</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(defined(__GNUC__)<sp/>||<sp/>defined(__clang__))<sp/>&amp;&amp;<sp/>!defined(__INTEL_COMPILER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="attributes_8h_1a934ff195492486f0f9d22770103e757b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_uninit(x)<sp/>x=x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_uninit(x)<sp/>x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__GNUC__)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="attributes_8h_1a4887afda7f138d25d3f0dd843ca0ac18" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_builtin_constant_p<sp/>__builtin_constant_p</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="attributes_8h_1a4b078d4b8e02c0f452ee1dcaa7d983d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_printf_format(fmtpos,<sp/>attrpos)<sp/>__attribute__((__format__(__printf__,<sp/>fmtpos,<sp/>attrpos)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_builtin_constant_p(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_printf_format(fmtpos,<sp/>attrpos)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>AV_GCC_VERSION_AT_LEAST(2,5)<sp/>||<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="attributes_8h_1ac85a6b34744701495efddc98c65e8afa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_noreturn<sp/>__attribute__((noreturn))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>av_noreturn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_ATTRIBUTES_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/attributes.h"/>
+  </compounddef>
+</doxygen>

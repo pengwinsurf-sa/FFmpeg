@@ -1,0 +1,82 @@
+Function 'rpza_encode_end'
+Lines executed:0.00% of 4
+
+Function 'rpza_encode_frame'
+Lines executed:0.00% of 41
+
+Function 'rpza_encode_init'
+Lines executed:0.00% of 7
+
+Function 'rpza_encode_stream'
+Lines executed:0.00% of 127
+
+Function 'update_block_stats'
+Lines executed:0.00% of 67
+
+Function 'update_block_in_prev_frame'
+Lines executed:0.00% of 10
+
+Function 'encode_four_color_block'
+Lines executed:0.00% of 22
+
+Function 'match_color'
+Lines executed:0.00% of 18
+
+Function 'calc_lsq_max_fit_error'
+Lines executed:0.00% of 20
+
+Function 'leastsquares'
+Lines executed:0.00% of 28
+
+Function 'compare_blocks'
+Lines executed:0.00% of 8
+
+Function 'get_max_component_diff'
+Lines executed:0.00% of 30
+
+Function 'max_component_diff'
+Lines executed:0.00% of 9
+
+Function 'get_block_info'
+Lines executed:0.00% of 10
+
+Function 'get_colors'
+Lines executed:0.00% of 18
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/rpzaenc.c'
+Lines executed:0.00% of 393
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rpzaenc.gcno##libavcodec#rpzaenc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rpzaenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rpzaenc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rpzaenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rpzaenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rpzaenc.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 465

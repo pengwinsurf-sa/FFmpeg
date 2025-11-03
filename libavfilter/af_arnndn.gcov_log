@@ -1,0 +1,122 @@
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'process_command'
+Lines executed:0.00% of 18
+
+Function 'free_model'
+Lines executed:0.00% of 9
+
+Function 'init'
+Lines executed:0.00% of 15
+
+Function 'open_model'
+Lines executed:0.00% of 12
+
+Function 'activate'
+Lines executed:0.00% of 14
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'rnnoise_channels'
+Lines executed:0.00% of 12
+
+Function 'rnnoise_channel'
+Lines executed:0.00% of 40
+
+Function 'compute_rnn'
+Lines executed:0.00% of 19
+
+Function 'compute_gru'
+Lines executed:0.00% of 36
+
+Function 'compute_dense'
+Lines executed:0.00% of 18
+
+Function 'tansig_approx'
+Lines executed:0.00% of 16
+
+Function 'pitch_filter'
+Lines executed:0.00% of 25
+
+Function 'interp_band_gain'
+Lines executed:0.00% of 10
+
+Function 'compute_frame_features'
+Lines executed:0.00% of 79
+
+Function 'pitch_search'
+Lines executed:0.00% of 37
+
+Function 'find_best_pitch'
+Lines executed:0.00% of 33
+
+Function 'remove_doubling'
+Lines executed:0.00% of 81
+
+Function 'pitch_downsample'
+Lines executed:0.00% of 28
+
+Function 'celt_fir5'
+Lines executed:0.00% of 32
+
+Function 'celt_lpc'
+Lines executed:0.00% of 19
+
+Function 'celt_autocorr'
+Lines executed:0.00% of 19
+
+Function 'celt_pitch_xcorr'
+Lines executed:0.00% of 12
+
+Function 'xcorr_kernel'
+Lines executed:0.00% of 54
+
+Function 'frame_synthesis'
+Lines executed:0.00% of 13
+
+Function 'frame_analysis'
+Lines executed:0.00% of 9
+
+Function 'compute_band_corr'
+Lines executed:0.00% of 16
+
+Function 'compute_band_energy'
+Lines executed:0.00% of 16
+
+Function 'inverse_transform'
+Lines executed:0.00% of 11
+
+Function 'forward_transform'
+Lines executed:0.00% of 9
+
+Function 'config_input'
+Lines executed:0.00% of 27
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+Function 'rnnoise_model_from_file'
+Lines executed:0.00% of 29
+
+Function 'rnnoise_model_free'
+Lines executed:0.00% of 9
+
+File 'libavfilter/af_arnndn.c'
+Lines executed:0.00% of 797
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arnndn.gcno##libavfilter#af_arnndn.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arnndn.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arnndn.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arnndn.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 807

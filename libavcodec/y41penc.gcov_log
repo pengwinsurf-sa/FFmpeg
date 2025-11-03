@@ -1,0 +1,11 @@
+Function 'y41p_encode_frame'
+Lines executed:0.00% of 26
+
+Function 'y41p_encode_init'
+Lines executed:0.00% of 7
+
+File 'libavcodec/y41penc.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#y41penc.gcno##libavcodec#y41penc.c.gcov'
+
+Lines executed:0.00% of 33

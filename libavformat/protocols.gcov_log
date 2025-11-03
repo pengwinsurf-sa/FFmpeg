@@ -1,0 +1,17 @@
+Function 'ffurl_get_protocols'
+Lines executed:0.00% of 12
+
+Function 'avio_protocol_get_class'
+Lines executed:0.00% of 5
+
+Function 'avio_enum_protocols'
+Lines executed:0.00% of 9
+
+Function 'ff_urlcontext_child_class_iterate'
+Lines executed:0.00% of 8
+
+File 'libavformat/protocols.c'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#protocols.gcno##libavformat#protocols.c.gcov'
+
+Lines executed:0.00% of 34

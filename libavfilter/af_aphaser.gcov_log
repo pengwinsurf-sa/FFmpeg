@@ -1,0 +1,41 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'config_output'
+Lines executed:0.00% of 24
+
+Function 'phaser_s32'
+Lines executed:0.00% of 1
+
+Function 'phaser_s16'
+Lines executed:0.00% of 1
+
+Function 'phaser_flt'
+Lines executed:0.00% of 1
+
+Function 'phaser_dbl'
+Lines executed:0.00% of 1
+
+Function 'phaser_s32p'
+Lines executed:0.00% of 1
+
+Function 'phaser_s16p'
+Lines executed:0.00% of 1
+
+Function 'phaser_fltp'
+Lines executed:0.00% of 1
+
+Function 'phaser_dblp'
+Lines executed:0.00% of 1
+
+Function 'init'
+Lines executed:0.00% of 7
+
+File 'libavfilter/af_aphaser.c'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aphaser.gcno##libavfilter#af_aphaser.c.gcov'
+
+Lines executed:0.00% of 59

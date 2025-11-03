@@ -1,0 +1,21 @@
+Function 'rl2_read_seek'
+Lines executed:0.00% of 13
+
+Function 'rl2_read_packet'
+Lines executed:0.00% of 23
+
+Function 'rl2_read_header'
+Lines executed:0.00% of 96
+
+Function 'rl2_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/rl2.c'
+Lines executed:0.00% of 136
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rl2.gcno##libavformat#rl2.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rl2.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 138

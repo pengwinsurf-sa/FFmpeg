@@ -1,0 +1,40 @@
+Function 'ff_proresdsp_init'
+Lines executed:0.00% of 11
+
+Function 'prores_idct_put_12_c'
+Lines executed:0.00% of 15
+
+Function 'prores_idct_put_10_c'
+Lines executed:0.00% of 7
+
+Function 'prores_idct_12'
+Lines executed:0.00% of 9
+
+Function 'prores_idct_10'
+Lines executed:0.00% of 9
+
+Function 'idctSparseCol_int16_12bit'
+Lines executed:0.00% of 12
+
+Function 'idctRowCondDC_int16_12bit'
+Lines executed:0.00% of 49
+
+Function 'idctSparseCol_extrashift_10'
+Lines executed:0.00% of 1
+
+Function 'idctRowCondDC_extrashift_10'
+Lines executed:0.00% of 1
+
+File 'libavcodec/proresdsp.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresdsp.gcno##libavcodec#proresdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresdsp.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/simple_idct_template.c'
+Lines executed:0.00% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#proresdsp.gcno##libavcodec#simple_idct_template.c.gcov'
+
+Lines executed:0.00% of 114

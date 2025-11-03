@@ -1,0 +1,25 @@
+Function 'srt_read_header'
+Lines executed:0.00% of 51
+
+Function 'add_event'
+Lines executed:0.00% of 23
+
+Function 'get_event_info'
+Lines executed:0.00% of 12
+
+Function 'srt_probe'
+Lines executed:0.00% of 16
+
+File 'libavformat/srtdec.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtdec.gcno##libavformat#srtdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#srtdec.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 102

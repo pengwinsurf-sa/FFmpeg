@@ -1,0 +1,33 @@
+Function 'process_command'
+Lines executed:0.00% of 9
+
+Function 'config_output'
+Lines executed:0.00% of 21
+
+Function 'filter_frame'
+Lines executed:0.00% of 18
+
+Function 'filter_slice_bl16'
+Lines executed:0.00% of 3
+
+Function 'filter_slice_bl8'
+Lines executed:0.00% of 1
+
+Function 'filter_slice_nn16'
+Lines executed:0.00% of 1
+
+Function 'filter_slice_nn8'
+Lines executed:0.00% of 1
+
+Function 'init'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_shear.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shear.gcno##libavfilter#vf_shear.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shear.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 60

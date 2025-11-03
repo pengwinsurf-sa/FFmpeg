@@ -1,0 +1,31 @@
+Function 'lc3_write_packet'
+Lines executed:0.00% of 4
+
+Function 'lc3_write_header'
+Lines executed:0.00% of 23
+
+Function 'lc3_read_packet'
+Lines executed:0.00% of 16
+
+Function 'lc3_read_header'
+Lines executed:0.00% of 39
+
+Function 'lc3_read_probe'
+Lines executed:0.00% of 9
+
+Function 'check_frame_length'
+Lines executed:0.00% of 12
+
+File 'libavformat/lc3.c'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lc3.gcno##libavformat#lc3.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lc3.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lc3.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 103

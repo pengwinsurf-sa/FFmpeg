@@ -1,0 +1,56 @@
+Function 'iff_read_packet'
+Lines executed:0.00% of 63
+
+Function 'get_sbdy_offset'
+Lines executed:0.00% of 24
+
+Function 'get_anim_duration'
+Lines executed:0.00% of 14
+
+Function 'iff_read_header'
+Lines executed:0.00% of 328
+
+Function 'read_dst_frame'
+Lines executed:0.00% of 37
+
+Function 'parse_dsd_prop'
+Lines executed:0.00% of 71
+
+Function 'parse_dsd_diin'
+Lines executed:0.00% of 18
+
+Function 'iff_probe'
+Lines executed:0.00% of 15
+
+Function 'get_metadata'
+Lines executed:0.00% of 10
+
+File 'libavformat/iff.c'
+Lines executed:0.00% of 547
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno##libavformat#iff.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno##libavformat#avio.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iff.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 580

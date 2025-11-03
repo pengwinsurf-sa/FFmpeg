@@ -1,0 +1,96 @@
+Function 'ff_subtitles_read_line'
+Lines executed:0.00% of 16
+
+Function 'ff_subtitles_read_chunk'
+Lines executed:0.00% of 6
+
+Function 'ff_subtitles_read_text_chunk'
+Lines executed:0.00% of 27
+
+Function 'ff_smil_get_attr_ptr'
+Lines executed:0.00% of 15
+
+Function 'ff_smil_extract_next_text_chunk'
+Lines executed:0.00% of 17
+
+Function 'ff_subtitles_read_close'
+Lines executed:0.00% of 4
+
+Function 'ff_subtitles_read_seek'
+Lines executed:0.00% of 3
+
+Function 'ff_subtitles_read_packet'
+Lines executed:0.00% of 3
+
+Function 'ff_subtitles_queue_clean'
+Lines executed:0.00% of 7
+
+Function 'ff_subtitles_queue_seek'
+Lines executed:0.00% of 26
+
+Function 'search_sub_ts'
+Lines executed:0.00% of 12
+
+Function 'ff_subtitles_queue_read_packet'
+Lines executed:0.00% of 9
+
+Function 'ff_subtitles_queue_finalize'
+Lines executed:0.00% of 10
+
+Function 'drop_dups'
+Lines executed:0.00% of 18
+
+Function 'cmp_pkt_sub_pos_ts'
+Lines executed:0.00% of 7
+
+Function 'cmp_pkt_sub_ts_pos'
+Lines executed:0.00% of 6
+
+Function 'ff_subtitles_queue_insert_bprint'
+Lines executed:0.00% of 3
+
+Function 'ff_subtitles_queue_insert'
+Lines executed:0.00% of 28
+
+Function 'ff_text_peek_r8'
+Lines executed:0.00% of 9
+
+Function 'ff_text_eof'
+Lines executed:0.00% of 2
+
+Function 'ff_text_read'
+Lines executed:0.00% of 4
+
+Function 'ff_text_r8'
+Lines executed:0.00% of 15
+
+Function 'ff_text_pos'
+Lines executed:0.00% of 4
+
+Function 'ff_text_init_buf'
+Lines executed:0.00% of 4
+
+Function 'ff_text_init_avio'
+Lines executed:0.00% of 19
+
+File 'libavformat/subtitles.c'
+Lines executed:0.00% of 265
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subtitles.gcno##libavformat#subtitles.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subtitles.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subtitles.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subtitles.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#subtitles.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 274

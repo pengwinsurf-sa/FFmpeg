@@ -1,0 +1,42 @@
+Function 'checkasm_check_aacpsdsp'
+Lines executed:100.00% of 21
+
+Function 'test_stereo_interpolate'
+Lines executed:85.11% of 47
+
+Function 'test_hybrid_synthesis_deint'
+Lines executed:88.89% of 18
+
+Function 'test_hybrid_analysis_ileave'
+Lines executed:88.89% of 18
+
+Function 'test_hybrid_analysis'
+Lines executed:93.75% of 16
+
+Function 'test_mul_pair_single'
+Lines executed:92.86% of 14
+
+Function 'test_add_squares'
+Lines executed:92.86% of 14
+
+File 'tests/checkasm/aacpsdsp.c'
+Lines executed:94.12% of 136
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacpsdsp.gcno##tests#checkasm#aacpsdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacpsdsp.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacpsdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacpsdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aacpsdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:90.54% of 148

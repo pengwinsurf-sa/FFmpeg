@@ -1,0 +1,19 @@
+Function 'apac_read_header'
+Lines executed:0.00% of 29
+
+Function 'apac_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/apac.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apac.gcno##libavformat#apac.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apac.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apac.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 36

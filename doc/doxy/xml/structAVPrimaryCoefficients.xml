@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVPrimaryCoefficients" kind="struct" language="C++" prot="public">
+    <compoundname>AVPrimaryCoefficients</compoundname>
+    <includes refid="csp_8h" local="no">libavutil/csp.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVPrimaryCoefficients_1a603828c0376e6f4e728e992371938321" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref></type>
+        <definition>AVCIExy AVPrimaryCoefficients::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>AVPrimaryCoefficients::r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/csp.h" line="65" column="13" bodyfile="libavutil/csp.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVPrimaryCoefficients_1a83f986cfb96f7f41a2badb1dbfda3296" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref></type>
+        <definition>AVCIExy AVPrimaryCoefficients::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>AVPrimaryCoefficients::g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/csp.h" line="65" column="15" bodyfile="libavutil/csp.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVPrimaryCoefficients_1a8e79eee3a278539cc0349dfe00422cbd" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref></type>
+        <definition>AVCIExy AVPrimaryCoefficients::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>AVPrimaryCoefficients::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/csp.h" line="65" column="17" bodyfile="libavutil/csp.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Struct defining the red, green, and blue primary locations in terms of CIE 1931 chromaticity x and y. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>AVCIExy</label>
+        <link refid="structAVCIExy"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>AVPrimaryCoefficients</label>
+        <link refid="structAVPrimaryCoefficients"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>b</edgelabel>
+          <edgelabel>g</edgelabel>
+          <edgelabel>r</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavutil/csp.h" line="64" column="1" bodyfile="libavutil/csp.h" bodystart="64" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structAVPrimaryCoefficients_1a8e79eee3a278539cc0349dfe00422cbd" prot="public" virt="non-virtual"><scope>AVPrimaryCoefficients</scope><name>b</name></member>
+      <member refid="structAVPrimaryCoefficients_1a83f986cfb96f7f41a2badb1dbfda3296" prot="public" virt="non-virtual"><scope>AVPrimaryCoefficients</scope><name>g</name></member>
+      <member refid="structAVPrimaryCoefficients_1a603828c0376e6f4e728e992371938321" prot="public" virt="non-virtual"><scope>AVPrimaryCoefficients</scope><name>r</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

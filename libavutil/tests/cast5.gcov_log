@@ -1,0 +1,12 @@
+Function 'main'
+Lines executed:0.00% of 51
+
+File 'libavutil/tests/cast5.c'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#cast5.gcno##libavutil#tests#cast5.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#cast5.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 51

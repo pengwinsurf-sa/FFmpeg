@@ -1,0 +1,63 @@
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'request_frame'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 45
+
+Function 'config_input'
+Lines executed:0.00% of 36
+
+Function 'filter_slice'
+Lines executed:0.00% of 33
+
+Function 'filter_row16_serial'
+Lines executed:0.00% of 1
+
+Function 'filter_row8_serial'
+Lines executed:0.00% of 1
+
+Function 'filter_row16'
+Lines executed:0.00% of 1
+
+Function 'filter_row8'
+Lines executed:0.00% of 1
+
+Function 'fweight_row16_serial'
+Lines executed:0.00% of 1
+
+Function 'fweight_row8_serial'
+Lines executed:0.00% of 1
+
+Function 'fweight_row16'
+Lines executed:0.00% of 1
+
+Function 'fweight_row8'
+Lines executed:0.00% of 1
+
+Function 'init'
+Lines executed:0.00% of 8
+
+Function 'ff_bufqueue_discard_all'
+Lines executed:0.00% of 5
+
+Function 'ff_bufqueue_get'
+Lines executed:0.00% of 7
+
+Function 'ff_bufqueue_add'
+Lines executed:0.00% of 8
+
+File 'libavfilter/vf_atadenoise.c'
+Lines executed:0.00% of 148
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_atadenoise.gcno##libavfilter#vf_atadenoise.c.gcov'
+
+File 'libavfilter/bufferqueue.h'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_atadenoise.gcno##libavfilter#bufferqueue.h.gcov'
+
+Lines executed:0.00% of 170

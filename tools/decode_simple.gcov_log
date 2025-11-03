@@ -1,0 +1,25 @@
+Function 'ds_open'
+Lines executed:0.00% of 29
+
+Function 'ds_free'
+Lines executed:0.00% of 7
+
+Function 'ds_run'
+Lines executed:0.00% of 29
+
+Function 'decode_read'
+Lines executed:0.00% of 17
+
+File 'tools/decode_simple.c'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#decode_simple.gcno##tools#decode_simple.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#decode_simple.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#decode_simple.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 82

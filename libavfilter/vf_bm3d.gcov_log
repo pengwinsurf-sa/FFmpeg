@@ -1,0 +1,77 @@
+Function 'uninit'
+Lines executed:0.00% of 23
+
+Function 'config_output'
+Lines executed:0.00% of 34
+
+Function 'init'
+Lines executed:0.00% of 30
+
+Function 'process_frame'
+Lines executed:0.00% of 12
+
+Function 'activate'
+Lines executed:0.00% of 23
+
+Function 'config_input'
+Lines executed:0.00% of 58
+
+Function 'filter_frame'
+Lines executed:0.00% of 22
+
+Function 'filter_slice'
+Lines executed:0.00% of 28
+
+Function 'do_output16'
+Lines executed:0.00% of 19
+
+Function 'do_output'
+Lines executed:0.00% of 19
+
+Function 'final_block_filtering'
+Lines executed:0.00% of 94
+
+Function 'basic_block_filtering'
+Lines executed:0.00% of 78
+
+Function 'get_block_row16'
+Lines executed:0.00% of 5
+
+Function 'get_block_row'
+Lines executed:0.00% of 5
+
+Function 'block_matching'
+Lines executed:0.00% of 10
+
+Function 'block_matching_multi'
+Lines executed:0.00% of 42
+
+Function 'do_block_matching_multi'
+Lines executed:0.00% of 23
+
+Function 'do_block_ssd16'
+Lines executed:0.00% of 13
+
+Function 'do_block_ssd'
+Lines executed:0.00% of 13
+
+Function 'cmp_scores'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_bm3d.c'
+Lines executed:0.00% of 544
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bm3d.gcno##libavfilter#vf_bm3d.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bm3d.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bm3d.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bm3d.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 555

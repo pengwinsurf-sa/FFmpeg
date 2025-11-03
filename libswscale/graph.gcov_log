@@ -1,0 +1,121 @@
+Function 'ff_sws_graph_run'
+Lines executed:0.00% of 16
+
+Function 'ff_sws_graph_update_metadata'
+Lines executed:0.00% of 7
+
+Function 'ff_sws_graph_reinit'
+Lines executed:0.00% of 13
+
+Function 'opts_equal'
+Lines executed:0.00% of 9
+
+Function 'ff_sws_graph_free'
+Lines executed:21.43% of 14
+
+Function 'ff_sws_graph_create'
+Lines executed:0.00% of 25
+
+Function 'sws_graph_worker'
+Lines executed:0.00% of 9
+
+Function 'init_passes'
+Lines executed:0.00% of 16
+
+Function 'adapt_colors'
+Lines executed:0.00% of 44
+
+Function 'run_lut3d'
+Lines executed:0.00% of 7
+
+Function 'setup_lut3d'
+Lines executed:0.00% of 4
+
+Function 'free_lut3d'
+Lines executed:0.00% of 4
+
+Function 'add_legacy_sws_pass'
+Lines executed:0.00% of 49
+
+Function 'init_legacy_subpass'
+Lines executed:0.00% of 68
+
+Function 'get_chroma_pos'
+Lines executed:0.00% of 18
+
+Function 'run_legacy_swscale'
+Lines executed:0.00% of 6
+
+Function 'run_legacy_unscaled'
+Lines executed:0.00% of 7
+
+Function 'slice_ctx'
+Lines executed:0.00% of 12
+
+Function 'setup_legacy_swscale'
+Lines executed:0.00% of 11
+
+Function 'free_legacy_swscale'
+Lines executed:0.00% of 4
+
+Function 'run_rgb2xyz'
+Lines executed:0.00% of 5
+
+Function 'run_xyz2rgb'
+Lines executed:0.00% of 5
+
+Function 'run_rgb0'
+Lines executed:0.00% of 15
+
+Function 'run_copy'
+Lines executed:0.00% of 17
+
+Function 'ff_sws_graph_add_pass'
+Lines executed:0.00% of 26
+
+Function 'pass_alloc_output'
+Lines executed:0.00% of 5
+
+Function 'ff_sws_img_shift'
+Lines executed:0.00% of 5
+
+Function 'ff_props_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_color_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_prim_equal'
+Lines executed:0.00% of 6
+
+Function 'ff_q_equal'
+Lines executed:0.00% of 4
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libswscale/graph.c'
+Lines executed:0.78% of 387
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#graph.gcno##libswscale#graph.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#graph.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libswscale/format.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#graph.gcno##libswscale#format.h.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#graph.gcno##libswscale#swscale_internal.h.gcov'
+
+File 'libswscale/graph.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#graph.gcno##libswscale#graph.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#graph.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.67% of 448

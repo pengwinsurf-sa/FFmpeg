@@ -1,0 +1,68 @@
+Function 'checkasm_check_vp8dsp'
+Lines executed:100.00% of 8
+
+Function 'checkasm_check_vp78dsp'
+Lines executed:100.00% of 13
+
+Function 'check_loopfilter_simple'
+Lines executed:77.42% of 31
+
+Function 'check_loopfilter_8uv'
+Lines executed:97.56% of 41
+
+Function 'check_loopfilter_16y'
+Lines executed:96.97% of 33
+
+Function 'fill_loopfilter_buffers'
+Lines executed:100.00% of 10
+
+Function 'randomize_loopfilter_buffers'
+Lines executed:100.00% of 24
+
+Function 'check_mc'
+Lines executed:100.00% of 46
+
+Function 'check_luma_dc_wht'
+Lines executed:97.06% of 34
+
+Function 'check_idct_dc4'
+Lines executed:96.88% of 32
+
+Function 'check_idct'
+Lines executed:96.55% of 29
+
+Function 'wht4x4'
+Lines executed:100.00% of 37
+
+Function 'dct4x4'
+Lines executed:100.00% of 21
+
+File 'tests/checkasm/vp8dsp.c'
+Lines executed:98.24% of 340
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno##tests#checkasm#vp8dsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp8dsp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:96.66% of 359

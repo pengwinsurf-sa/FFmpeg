@@ -1,0 +1,256 @@
+Function 'ff_vvc_channel_range'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_ep_init_stat_coeff'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_get_qPy'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_ctu_free_cus'
+Lines executed:0.00% of 12
+
+Function 'ff_vvc_set_neighbour_available'
+Lines executed:0.00% of 13
+
+Function 'ff_vvc_decode_neighbour'
+Lines executed:0.00% of 28
+
+Function 'ff_vvc_coding_tree_unit'
+Lines executed:0.00% of 21
+
+Function 'ctu_get_pred'
+Lines executed:0.00% of 19
+
+Function 'cu_get_max_y'
+Lines executed:0.00% of 35
+
+Function 'hls_coding_tree_unit'
+Lines executed:0.00% of 30
+
+Function 'alf_params'
+Lines executed:0.00% of 33
+
+Function 'hls_sao'
+Lines executed:0.00% of 45
+
+Function 'dual_tree_implicit_qt_split'
+Lines executed:0.00% of 25
+
+Function 'hls_coding_tree'
+Lines executed:0.00% of 31
+
+Function 'coding_tree_qt'
+Lines executed:0.00% of 13
+
+Function 'coding_tree_tth'
+Lines executed:0.00% of 10
+
+Function 'coding_tree_ttv'
+Lines executed:0.00% of 10
+
+Function 'coding_tree_bth'
+Lines executed:0.00% of 8
+
+Function 'coding_tree_btv'
+Lines executed:0.00% of 8
+
+Function 'mode_type_decode'
+Lines executed:0.00% of 7
+
+Function 'derive_mode_type_condition'
+Lines executed:0.00% of 12
+
+Function 'hls_coding_unit'
+Lines executed:0.00% of 40
+
+Function 'intra_data'
+Lines executed:0.00% of 17
+
+Function 'hls_palette_coding'
+Lines executed:0.00% of 37
+
+Function 'palette_subblock_data'
+Lines executed:0.00% of 65
+
+Function 'palette_qp'
+Lines executed:0.00% of 14
+
+Function 'palette_update_predictor'
+Lines executed:0.00% of 19
+
+Function 'palette_signaled'
+Lines executed:0.00% of 16
+
+Function 'palette_predicted'
+Lines executed:0.00% of 18
+
+Function 'palette_add_tu'
+Lines executed:0.00% of 13
+
+Function 'inter_data'
+Lines executed:0.00% of 21
+
+Function 'fill_dmvr_info'
+Lines executed:0.00% of 13
+
+Function 'refine_regular_subblock'
+Lines executed:0.00% of 8
+
+Function 'derive_dmvr_bdof_flag'
+Lines executed:0.00% of 33
+
+Function 'mvp_data'
+Lines executed:0.00% of 48
+
+Function 'mvp_data_ibc'
+Lines executed:0.00% of 22
+
+Function 'mvp_add_difference'
+Lines executed:0.00% of 9
+
+Function 'mvds_decode'
+Lines executed:0.00% of 22
+
+Function 'ref_idx_decode'
+Lines executed:0.00% of 8
+
+Function 'bcw_idx_decode'
+Lines executed:0.00% of 16
+
+Function 'hls_mvd_coding'
+Lines executed:0.00% of 15
+
+Function 'hls_merge_data'
+Lines executed:0.00% of 16
+
+Function 'merge_data_ibc'
+Lines executed:0.00% of 13
+
+Function 'merge_data_block'
+Lines executed:0.00% of 23
+
+Function 'merge_data_ciip'
+Lines executed:0.00% of 30
+
+Function 'merge_data_gpm'
+Lines executed:0.00% of 14
+
+Function 'ciip_flag_decode'
+Lines executed:0.00% of 8
+
+Function 'merge_data_regular'
+Lines executed:0.00% of 26
+
+Function 'merge_data_subblock'
+Lines executed:0.00% of 10
+
+Function 'derive_mmvd'
+Lines executed:0.00% of 27
+
+Function 'set_cu_tabs'
+Lines executed:0.00% of 18
+
+Function 'add_cu'
+Lines executed:0.00% of 26
+
+Function 'alloc_cu'
+Lines executed:0.00% of 15
+
+Function 'set_cb_pos'
+Lines executed:0.00% of 19
+
+Function 'skipped_transform_tree_unit'
+Lines executed:0.00% of 10
+
+Function 'sbt_info'
+Lines executed:0.00% of 28
+
+Function 'pred_mode_decode'
+Lines executed:0.00% of 42
+
+Function 'intra_chroma_pred_modes'
+Lines executed:0.00% of 25
+
+Function 'intra_luma_pred_modes'
+Lines executed:0.00% of 50
+
+Function 'derive_chroma_intra_pred_mode'
+Lines executed:0.00% of 33
+
+Function 'derive_center_luma_intra_pred_mode'
+Lines executed:0.00% of 12
+
+Function 'mts_idx_decode'
+Lines executed:0.00% of 15
+
+Function 'lfnst_idx_decode'
+Lines executed:0.00% of 31
+
+Function 'luma_intra_pred_mode'
+Lines executed:0.00% of 82
+
+Function 'less'
+Lines executed:0.00% of 2
+
+Function 'get_cclm_enabled'
+Lines executed:0.00% of 31
+
+Function 'can_split'
+Lines executed:0.00% of 80
+
+Function 'skipped_transform_tree'
+Lines executed:0.00% of 21
+
+Function 'hls_transform_tree'
+Lines executed:0.00% of 36
+
+Function 'hls_transform_unit'
+Lines executed:0.00% of 69
+
+Function 'chroma_qp_offset_decode'
+Lines executed:0.00% of 15
+
+Function 'tu_y_coded_flag_decode'
+Lines executed:0.00% of 13
+
+Function 'add_tb'
+Lines executed:0.00% of 18
+
+Function 'add_tu'
+Lines executed:0.00% of 21
+
+Function 'set_qp_c'
+Lines executed:0.00% of 22
+
+Function 'set_qp_c_tab'
+Lines executed:0.00% of 5
+
+Function 'set_qp_y'
+Lines executed:0.00% of 22
+
+Function 'set_cb_tab'
+Lines executed:0.00% of 15
+
+Function 'get_qp_y_pred'
+Lines executed:0.00% of 29
+
+Function 'set_tb_tab'
+Lines executed:0.00% of 9
+
+Function 'set_tb_size'
+Lines executed:0.00% of 13
+
+File 'libavcodec/vvc/ctu.c'
+Lines executed:0.00% of 1812
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ctu.gcno##libavcodec#vvc#ctu.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ctu.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ctu.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 1824

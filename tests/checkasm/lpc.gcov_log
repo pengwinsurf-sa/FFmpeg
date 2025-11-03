@@ -1,0 +1,30 @@
+Function 'checkasm_check_lpc'
+Lines executed:100.00% of 23
+
+Function 'test_compute_autocorr'
+Lines executed:60.00% of 30
+
+Function 'test_window'
+Lines executed:75.00% of 16
+
+File 'tests/checkasm/lpc.c'
+Lines executed:85.96% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lpc.gcno##tests#checkasm#lpc.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lpc.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lpc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lpc.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#lpc.gcno##libavutil#emms.h.gcov'
+
+Lines executed:76.81% of 69

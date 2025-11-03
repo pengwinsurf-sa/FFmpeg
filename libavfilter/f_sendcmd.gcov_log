@@ -1,0 +1,50 @@
+Function 'filter_frame'
+Lines executed:0.00% of 67
+
+Function 'uninit'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 37
+
+Function 'cmp_intervals'
+Lines executed:0.00% of 4
+
+Function 'parse_intervals'
+Lines executed:0.00% of 27
+
+Function 'parse_interval'
+Lines executed:0.00% of 36
+
+Function 'parse_commands'
+Lines executed:0.00% of 27
+
+Function 'parse_command'
+Lines executed:0.00% of 46
+
+Function 'clear_command'
+Lines executed:0.00% of 7
+
+Function 'skip_comments'
+Lines executed:0.00% of 9
+
+Function 'make_command_flags_str'
+Lines executed:0.00% of 11
+
+File 'libavfilter/f_sendcmd.c'
+Lines executed:0.00% of 273
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_sendcmd.gcno##libavfilter#f_sendcmd.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_sendcmd.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_sendcmd.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_sendcmd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 282

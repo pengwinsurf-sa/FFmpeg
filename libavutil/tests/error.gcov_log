@@ -1,0 +1,23 @@
+Function 'main'
+Lines executed:0.00% of 13
+
+Function 'av_strerror'
+Lines executed:0.00% of 15
+
+File 'libavutil/tests/error.c'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#error.gcno##libavutil#tests#error.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#error.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#error.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.c'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#error.gcno##libavutil#error.c.gcov'
+
+Lines executed:0.00% of 28

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVDOVIDmLevel1" kind="struct" language="C++" prot="public">
+    <compoundname>AVDOVIDmLevel1</compoundname>
+    <includes refid="dovi__meta_8h" local="no">libavutil/dovi_meta.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVDOVIDmLevel1_1a78e17598874703261d781b7e64c22a6a" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t AVDOVIDmLevel1::min_pq</definition>
+        <argsstring></argsstring>
+        <name>min_pq</name>
+        <qualifiedname>AVDOVIDmLevel1::min_pq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="205" column="14" bodyfile="libavutil/dovi_meta.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel1_1ae552be4f9f594e8a7eb67f38489913b5" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t AVDOVIDmLevel1::max_pq</definition>
+        <argsstring></argsstring>
+        <name>max_pq</name>
+        <qualifiedname>AVDOVIDmLevel1::max_pq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="206" column="14" bodyfile="libavutil/dovi_meta.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel1_1a4a36cbfe95534878b1605560f75b7b26" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t AVDOVIDmLevel1::avg_pq</definition>
+        <argsstring></argsstring>
+        <name>avg_pq</name>
+        <qualifiedname>AVDOVIDmLevel1::avg_pq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="207" column="14" bodyfile="libavutil/dovi_meta.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/dovi_meta.h" line="203" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="203" bodyend="208"/>
+    <listofallmembers>
+      <member refid="structAVDOVIDmLevel1_1a4a36cbfe95534878b1605560f75b7b26" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel1</scope><name>avg_pq</name></member>
+      <member refid="structAVDOVIDmLevel1_1ae552be4f9f594e8a7eb67f38489913b5" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel1</scope><name>max_pq</name></member>
+      <member refid="structAVDOVIDmLevel1_1a78e17598874703261d781b7e64c22a6a" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel1</scope><name>min_pq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

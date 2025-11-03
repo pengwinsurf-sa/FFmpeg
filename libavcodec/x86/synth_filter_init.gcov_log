@@ -1,0 +1,17 @@
+Function 'ff_synth_filter_init_x86'
+Lines executed:100.00% of 9
+
+Function 'synth_filter_fma3'
+Lines executed:100.00% of 1
+
+Function 'synth_filter_avx'
+Lines executed:100.00% of 1
+
+Function 'synth_filter_sse2'
+Lines executed:100.00% of 1
+
+File 'libavcodec/x86/synth_filter_init.c'
+Lines executed:100.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#synth_filter_init.gcno##libavcodec#x86#synth_filter_init.c.gcov'
+
+Lines executed:100.00% of 12

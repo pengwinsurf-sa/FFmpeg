@@ -1,0 +1,38 @@
+Function 'seqvideo_decode_end'
+Lines executed:0.00% of 4
+
+Function 'seqvideo_decode_frame'
+Lines executed:0.00% of 10
+
+Function 'seqvideo_decode_init'
+Lines executed:0.00% of 10
+
+Function 'seqvideo_decode'
+Lines executed:0.00% of 64
+
+Function 'seq_decode_op2'
+Lines executed:0.00% of 9
+
+Function 'seq_decode_op1'
+Lines executed:0.00% of 30
+
+Function 'seq_unpack_rle_block'
+Lines executed:0.00% of 38
+
+File 'libavcodec/tiertexseqv.c'
+Lines executed:0.00% of 120
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiertexseqv.gcno##libavcodec#tiertexseqv.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiertexseqv.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiertexseqv.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tiertexseqv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 165

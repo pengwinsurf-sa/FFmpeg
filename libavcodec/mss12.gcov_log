@@ -1,0 +1,68 @@
+Function 'ff_mss12_decode_end'
+Lines executed:0.00% of 3
+
+Function 'ff_mss12_decode_init'
+Lines executed:0.00% of 74
+
+Function 'ff_mss12_decode_rect'
+Lines executed:0.00% of 17
+
+Function 'decode_region_inter'
+Lines executed:0.00% of 36
+
+Function 'decode_region_intra'
+Lines executed:0.00% of 24
+
+Function 'decode_pivot'
+Lines executed:0.00% of 9
+
+Function 'ff_mss12_slicecontext_reset'
+Lines executed:0.00% of 17
+
+Function 'slicecontext_init'
+Lines executed:0.00% of 13
+
+Function 'decode_region_masked'
+Lines executed:0.00% of 27
+
+Function 'motion_compensation'
+Lines executed:0.00% of 25
+
+Function 'copy_rectangles'
+Lines executed:0.00% of 12
+
+Function 'decode_region'
+Lines executed:0.00% of 18
+
+Function 'decode_pixel_in_context'
+Lines executed:0.00% of 61
+
+Function 'pixctx_init'
+Lines executed:0.00% of 12
+
+Function 'pixctx_reset'
+Lines executed:0.00% of 14
+
+Function 'ff_mss12_model_update'
+Lines executed:0.00% of 16
+
+Function 'model_rescale_weights'
+Lines executed:0.00% of 17
+
+File 'libavcodec/mss12.c'
+Lines executed:0.00% of 383
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss12.gcno##libavcodec#mss12.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss12.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss12.gcno##libavutil#intfloat.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mss12.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 395

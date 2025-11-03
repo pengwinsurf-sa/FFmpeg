@@ -1,0 +1,58 @@
+Function 'uninit'
+Lines executed:0.00% of 21
+
+Function 'request_frame'
+Lines executed:0.00% of 15
+
+Function 'filter_frame'
+Lines executed:0.00% of 48
+
+Function 'denoise'
+Lines executed:0.00% of 27
+
+Function 'filter_block2d'
+Lines executed:0.00% of 25
+
+Function 'filter_block3d1'
+Lines executed:0.00% of 39
+
+Function 'filter_block3d2'
+Lines executed:0.00% of 43
+
+Function 'export_block'
+Lines executed:0.00% of 34
+
+Function 'import_block'
+Lines executed:0.00% of 43
+
+Function 'config_input'
+Lines executed:0.00% of 63
+
+Function 'export_row16'
+Lines executed:0.00% of 7
+
+Function 'import_row16'
+Lines executed:0.00% of 7
+
+Function 'export_row8'
+Lines executed:0.00% of 7
+
+Function 'import_row8'
+Lines executed:0.00% of 6
+
+Function 'generate_window_func'
+Lines executed:0.00% of 124
+
+File 'libavfilter/vf_fftdnoiz.c'
+Lines executed:0.00% of 380
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fftdnoiz.gcno##libavfilter#vf_fftdnoiz.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fftdnoiz.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/window_func.h'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fftdnoiz.gcno##libavfilter#window_func.h.gcov'
+
+Lines executed:0.00% of 509

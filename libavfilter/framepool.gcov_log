@@ -1,0 +1,23 @@
+Function 'ff_frame_pool_uninit'
+Lines executed:0.00% of 6
+
+Function 'ff_frame_pool_get'
+Lines executed:0.00% of 59
+
+Function 'ff_frame_pool_get_audio_config'
+Lines executed:0.00% of 8
+
+Function 'ff_frame_pool_get_video_config'
+Lines executed:0.00% of 8
+
+Function 'ff_frame_pool_audio_init'
+Lines executed:0.00% of 23
+
+Function 'ff_frame_pool_video_init'
+Lines executed:0.00% of 38
+
+File 'libavfilter/framepool.c'
+Lines executed:0.00% of 142
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#framepool.gcno##libavfilter#framepool.c.gcov'
+
+Lines executed:0.00% of 142

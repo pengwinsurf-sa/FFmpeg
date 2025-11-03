@@ -1,0 +1,79 @@
+Function 'dvvideo_encode_frame'
+Lines executed:0.00% of 26
+
+Function 'dv_format_frame'
+Lines executed:0.00% of 49
+
+Function 'dv_write_pack'
+Lines executed:0.00% of 42
+
+Function 'dv_encode_video_segment'
+Lines executed:0.00% of 223
+
+Function 'dv_revise_cnos'
+Lines executed:0.00% of 10
+
+Function 'dv_guess_qnos'
+Lines executed:0.00% of 53
+
+Function 'dv_guess_qnos_hd'
+Lines executed:0.00% of 78
+
+Function 'dv100_actual_quantize'
+Lines executed:0.00% of 23
+
+Function 'dv_set_class_number_hd'
+Lines executed:0.00% of 24
+
+Function 'dvvideo_encode_init'
+Lines executed:0.00% of 32
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+Function 'dv_vlc_map_tableinit'
+Lines executed:0.00% of 24
+
+File 'libavcodec/dvenc.c'
+Lines executed:0.00% of 523
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavcodec#dvenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/dv_internal.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavcodec#dv_internal.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/dv_tablegen.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvenc.gcno##libavcodec#dv_tablegen.h.gcov'
+
+Lines executed:0.00% of 619

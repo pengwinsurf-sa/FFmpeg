@@ -1,0 +1,100 @@
+Function 'ff_rtp_finalize_packet'
+Lines executed:0.00% of 10
+
+Function 'ff_parse_fmtp'
+Lines executed:0.00% of 21
+
+Function 'ff_rtp_parse_close'
+Lines executed:0.00% of 5
+
+Function 'ff_rtp_parse_packet'
+Lines executed:0.00% of 10
+
+Function 'rtp_parse_one_packet'
+Lines executed:0.00% of 52
+
+Function 'rtp_parse_queued_packet'
+Lines executed:0.00% of 16
+
+Function 'ff_rtp_queued_packet_time'
+Lines executed:0.00% of 2
+
+Function 'enqueue_packet'
+Lines executed:0.00% of 17
+
+Function 'ff_rtp_reset_packet_queue'
+Lines executed:0.00% of 10
+
+Function 'rtp_parse_packet_internal'
+Lines executed:0.00% of 48
+
+Function 'finalize_packet'
+Lines executed:0.00% of 23
+
+Function 'rtp_set_prft'
+Lines executed:0.00% of 12
+
+Function 'ff_rtp_parse_set_crypto'
+Lines executed:0.00% of 4
+
+Function 'ff_rtp_parse_set_dynamic_protocol'
+Lines executed:0.00% of 4
+
+Function 'ff_rtp_parse_open'
+Lines executed:0.00% of 26
+
+Function 'ff_rtp_send_rtcp_feedback'
+Lines executed:0.00% of 40
+
+Function 'find_missing_packets'
+Lines executed:0.00% of 18
+
+Function 'ff_rtp_send_punch_packets'
+Lines executed:0.00% of 18
+
+Function 'ff_rtp_check_and_send_back_rr'
+Lines executed:0.00% of 69
+
+Function 'rtp_valid_packet_in_sequence'
+Lines executed:0.00% of 38
+
+Function 'rtp_init_statistics'
+Lines executed:0.00% of 7
+
+Function 'rtcp_parse_packet'
+Lines executed:0.00% of 19
+
+Function 'ff_rtp_handler_find_by_id'
+Lines executed:0.00% of 13
+
+Function 'ff_rtp_handler_find_by_name'
+Lines executed:0.00% of 8
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/rtpdec.c'
+Lines executed:0.00% of 474
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec.gcno##libavformat#rtpdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/unistd.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec.gcno###usr#include#x86_64-linux-gnu#bits#unistd.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec.gcno##libavformat#url.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 492

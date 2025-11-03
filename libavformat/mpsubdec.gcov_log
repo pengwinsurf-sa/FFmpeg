@@ -1,0 +1,26 @@
+Function 'mpsub_read_header'
+Lines executed:0.00% of 60
+
+Function 'parse_line'
+Lines executed:0.00% of 26
+
+Function 'mpsub_probe'
+Lines executed:0.00% of 19
+
+File 'libavformat/mpsubdec.c'
+Lines executed:0.00% of 88
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpsubdec.gcno##libavformat#mpsubdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpsubdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpsubdec.gcno##libavutil#common.h.gcov'
+
+File 'libavformat/subtitles.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpsubdec.gcno##libavformat#subtitles.h.gcov'
+
+Lines executed:0.00% of 105

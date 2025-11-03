@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hwcontext__vulkan_8h" kind="file" language="C++">
+    <compoundname>hwcontext_vulkan.h</compoundname>
+    <includes local="no">vulkan/vulkan.h</includes>
+    <includes refid="pixfmt_8h" local="yes">pixfmt.h</includes>
+    <includes refid="frame_8h" local="yes">frame.h</includes>
+    <includes refid="hwcontext_8h" local="yes">hwcontext.h</includes>
+    <incdepgraph>
+      <node id="19">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="10">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/hwcontext_vulkan.h</label>
+        <link refid="hwcontext__vulkan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>errno.h</label>
+      </node>
+      <node id="13">
+        <label>inttypes.h</label>
+      </node>
+      <node id="4">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="14">
+        <label>limits.h</label>
+      </node>
+      <node id="15">
+        <label>math.h</label>
+      </node>
+      <node id="26">
+        <label>stdarg.h</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="16">
+        <label>stdio.h</label>
+      </node>
+      <node id="17">
+        <label>stdlib.h</label>
+      </node>
+      <node id="18">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>vulkan/vulkan.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVVulkanDeviceQueueFamily" prot="public">AVVulkanDeviceQueueFamily</innerclass>
+    <innerclass refid="structAVVulkanDeviceContext" prot="public">AVVulkanDeviceContext</innerclass>
+    <innerclass refid="structAVVulkanFramesContext" prot="public">AVVulkanFramesContext</innerclass>
+    <innerclass refid="structAVVkFrame" prot="public">AVVkFrame</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVVkFrameFlags</name>
+        <enumvalue id="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364eaab676d407d19cfc6bc82a889a6e4a0ac" prot="public">
+          <name>AV_VK_FRAME_FLAG_NONE</name>
+          <initializer>= (1ULL &lt;&lt; 0)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364ea72318c8249f812a758bd34bdefff60a5" prot="public">
+          <name>AV_VK_FRAME_FLAG_DISABLE_MULTIPLANE</name>
+          <initializer>= (1ULL &lt;&lt; 2)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines the behaviour of frame allocation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="195" column="1" bodyfile="libavutil/hwcontext_vulkan.h" bodystart="195" bodyend="203"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="hwcontext__vulkan_8h_1a098c8a938a6975e1a6ca6bf8bf913a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref> *</type>
+        <definition>AVVkFrame * av_vk_frame_alloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_vk_frame_alloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Allocates a single <ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref> and initializes everything as 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Must be freed via <ref refid="group__lavu__mem__funcs_1ga0c9096f498624c525aa2315b8a20c411" kindref="member">av_free()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="368" column="11" declfile="libavutil/hwcontext_vulkan.h" declline="368" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="hwcontext__vulkan_8h_1a3a345146457fd549803a2bce48a1a86d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const VkFormat *</type>
+        <definition>const VkFormat * av_vkfmt_from_pixfmt</definition>
+        <argsstring>(enum AVPixelFormat p)</argsstring>
+        <name>av_vkfmt_from_pixfmt</name>
+        <param>
+          <type>enum <ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Returns the optimal per-plane Vulkan format for a given sw_format, one for each plane. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns NULL on unsupported formats. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_vulkan.h" line="375" column="16" declfile="libavutil/hwcontext_vulkan.h" declline="375" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>API-specific header for AV_HWDEVICE_TYPE_VULKAN. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>For user-allocated pools, <ref refid="structAVHWFramesContext_1ad67ff3a5828a611d1b1cddd64fc1de71" kindref="member">AVHWFramesContext.pool</ref> must return AVBufferRefs with the data pointer set to an <ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref>. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HWCONTEXT_VULKAN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HWCONTEXT_VULKAN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)<sp/>&amp;&amp;<sp/>!defined(VK_USE_PLATFORM_WIN32_KHR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VK_USE_PLATFORM_WIN32_KHR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vulkan/vulkan.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pixfmt_8h" kindref="compound">pixfmt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hwcontext_8h" kindref="compound">hwcontext.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref><sp/><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structAVVulkanDeviceQueueFamily" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVulkanDeviceQueueFamily" kindref="compound">AVVulkanDeviceQueueFamily</ref><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Queue<sp/>family<sp/>index<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structAVVulkanDeviceQueueFamily_1a5ad501f49c655d0513351cba2ad992a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVulkanDeviceQueueFamily_1a5ad501f49c655d0513351cba2ad992a5" kindref="member">idx</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>queues<sp/>in<sp/>the<sp/>queue<sp/>family<sp/>in<sp/>use<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="structAVVulkanDeviceQueueFamily_1a807c9df31fc895dedfed8491c280ecaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVulkanDeviceQueueFamily_1a807c9df31fc895dedfed8491c280ecaf" kindref="member">num</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Queue<sp/>family<sp/>capabilities.<sp/>Must<sp/>be<sp/>non-zero.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Flags<sp/>may<sp/>be<sp/>removed<sp/>to<sp/>indicate<sp/>the<sp/>queue<sp/>family<sp/>may<sp/>not<sp/>be<sp/>used</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>for<sp/>a<sp/>given<sp/>purpose.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="structAVVulkanDeviceQueueFamily_1a768e06bc9f33c99e804676c0fb871741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkQueueFlagBits<sp/><ref refid="structAVVulkanDeviceQueueFamily_1a768e06bc9f33c99e804676c0fb871741" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Vulkan<sp/>implementations<sp/>are<sp/>allowed<sp/>to<sp/>list<sp/>multiple<sp/>video<sp/>queues</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>which<sp/>differ<sp/>in<sp/>what<sp/>they<sp/>can<sp/>encode<sp/>or<sp/>decode.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="structAVVulkanDeviceQueueFamily_1a061319ab53556560f479bf16fba1e11d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkVideoCodecOperationFlagBitsKHR<sp/><ref refid="structAVVulkanDeviceQueueFamily_1a061319ab53556560f479bf16fba1e11d" kindref="member">video_caps</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}<sp/><ref refid="structAVVulkanDeviceQueueFamily" kindref="compound">AVVulkanDeviceQueueFamily</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="47"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>API-specific<sp/>header<sp/>for<sp/>AV_HWDEVICE_TYPE_VULKAN.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>For<sp/>user-allocated<sp/>pools,<sp/>AVHWFramesContext.pool<sp/>must<sp/>return<sp/>AVBufferRefs</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>with<sp/>the<sp/>data<sp/>pointer<sp/>set<sp/>to<sp/>an<sp/>AVVkFrame.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Main<sp/>Vulkan<sp/>context,<sp/>allocated<sp/>as<sp/>AVHWDeviceContext.hwctx.</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>All<sp/>of<sp/>these<sp/>can<sp/>be<sp/>set<sp/>before<sp/>init<sp/>to<sp/>change<sp/>what<sp/>the<sp/>context<sp/>uses</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="structAVVulkanDeviceContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVulkanDeviceContext" kindref="compound">AVVulkanDeviceContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Custom<sp/>memory<sp/>allocator,<sp/>else<sp/>NULL</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="structAVVulkanDeviceContext_1a4a617020274526c26e265781aefcd22c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkAllocationCallbacks<sp/>*<ref refid="structAVVulkanDeviceContext_1a4a617020274526c26e265781aefcd22c" kindref="member">alloc</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Pointer<sp/>to<sp/>a<sp/>vkGetInstanceProcAddr<sp/>loading<sp/>function.</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset,<sp/>will<sp/>dynamically<sp/>load<sp/>and<sp/>use<sp/>libvulkan.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structAVVulkanDeviceContext_1ae474efae27f4861ed96a941965410c6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PFN_vkGetInstanceProcAddr<sp/><ref refid="structAVVulkanDeviceContext_1ae474efae27f4861ed96a941965410c6a" kindref="member">get_proc_addr</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Vulkan<sp/>instance.<sp/>Must<sp/>be<sp/>at<sp/>least<sp/>version<sp/>1.3.</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="structAVVulkanDeviceContext_1abb0e7a4336731e84eb1b25571635d243" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkInstance<sp/><ref refid="structAVVulkanDeviceContext_1abb0e7a4336731e84eb1b25571635d243" kindref="member">inst</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Physical<sp/>device</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="structAVVulkanDeviceContext_1a154f2a1f99a153cdb9a801b2504d6637" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkPhysicalDevice<sp/><ref refid="structAVVulkanDeviceContext_1a154f2a1f99a153cdb9a801b2504d6637" kindref="member">phys_dev</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Active<sp/>device</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="structAVVulkanDeviceContext_1a53a07d4474261e4e14ec03c5d15f71da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkDevice<sp/><ref refid="structAVVulkanDeviceContext_1a53a07d4474261e4e14ec03c5d15f71da" kindref="member">act_dev</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>structure<sp/>should<sp/>be<sp/>set<sp/>to<sp/>the<sp/>set<sp/>of<sp/>features<sp/>that<sp/>present<sp/>and<sp/>enabled</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>during<sp/>device<sp/>creation.<sp/>When<sp/>a<sp/>device<sp/>is<sp/>created<sp/>by<sp/>FFmpeg,<sp/>it<sp/>will<sp/>default<sp/>to</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>enabling<sp/>all<sp/>that<sp/>are<sp/>present<sp/>of<sp/>the<sp/>shaderImageGatherExtended,</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>fragmentStoresAndAtomics,<sp/>shaderInt64<sp/>and<sp/>vertexPipelineStoresAndAtomics<sp/>features.</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="structAVVulkanDeviceContext_1ac1d0d46b238c76cc4d66ddab7180e7ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkPhysicalDeviceFeatures2<sp/><ref refid="structAVVulkanDeviceContext_1ac1d0d46b238c76cc4d66ddab7180e7ef" kindref="member">device_features</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Enabled<sp/>instance<sp/>extensions.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>supplying<sp/>your<sp/>own<sp/>device<sp/>context,<sp/>set<sp/>this<sp/>to<sp/>an<sp/>array<sp/>of<sp/>strings,<sp/>with</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>each<sp/>entry<sp/>containing<sp/>the<sp/>specified<sp/>Vulkan<sp/>extension<sp/>string<sp/>to<sp/>enable.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Duplicates<sp/>are<sp/>possible<sp/>and<sp/>accepted.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>no<sp/>extensions<sp/>are<sp/>enabled,<sp/>set<sp/>these<sp/>fields<sp/>to<sp/>NULL,<sp/>and<sp/>0<sp/>respectively.</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="structAVVulkanDeviceContext_1a8d68b5373defea792ad340e698d9b409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="structAVVulkanDeviceContext_1a8d68b5373defea792ad340e698d9b409" kindref="member">enabled_inst_extensions</ref>;</highlight></codeline>
+<codeline lineno="102" refid="structAVVulkanDeviceContext_1a371a0b0216b2e8a56cecbc1e496c04d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVulkanDeviceContext_1a371a0b0216b2e8a56cecbc1e496c04d5" kindref="member">nb_enabled_inst_extensions</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Enabled<sp/>device<sp/>extensions.<sp/>By<sp/>default,<sp/>VK_KHR_external_memory_fd,</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>VK_EXT_external_memory_dma_buf,<sp/>VK_EXT_image_drm_format_modifier,</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>VK_KHR_external_semaphore_fd<sp/>and<sp/>VK_EXT_external_memory_host<sp/>are<sp/>enabled<sp/>if<sp/>found.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>supplying<sp/>your<sp/>own<sp/>device<sp/>context,<sp/>these<sp/>fields<sp/>takes<sp/>the<sp/>same<sp/>format<sp/>as</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>above<sp/>fields,<sp/>with<sp/>the<sp/>same<sp/>conditions<sp/>that<sp/>duplicates<sp/>are<sp/>possible</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>accepted,<sp/>and<sp/>that<sp/>NULL<sp/>and<sp/>0<sp/>respectively<sp/>means<sp/>no<sp/>extensions<sp/>are<sp/>enabled.</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="structAVVulkanDeviceContext_1a38e84a1e98b06831031e7abb915f4190" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="structAVVulkanDeviceContext_1a38e84a1e98b06831031e7abb915f4190" kindref="member">enabled_dev_extensions</ref>;</highlight></codeline>
+<codeline lineno="113" refid="structAVVulkanDeviceContext_1ac40732ea5eeffe1b231d21d9df10e658" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVulkanDeviceContext_1ac40732ea5eeffe1b231d21d9df10e658" kindref="member">nb_enabled_dev_extensions</ref>;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>FF_API_VULKAN_FIXED_QUEUES</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>family<sp/>index<sp/>for<sp/>graphics<sp/>operations,<sp/>and<sp/>the<sp/>number<sp/>of<sp/>queues</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>enabled<sp/>for<sp/>it.<sp/>If<sp/>unavaiable,<sp/>will<sp/>be<sp/>set<sp/>to<sp/>-1.<sp/>Not<sp/>required.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>av_hwdevice_create()<sp/>will<sp/>attempt<sp/>to<sp/>find<sp/>a<sp/>dedicated<sp/>queue<sp/>for<sp/>each</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>queue<sp/>family,<sp/>or<sp/>pick<sp/>the<sp/>one<sp/>with<sp/>the<sp/>least<sp/>unrelated<sp/>flags<sp/>set.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>indices<sp/>here<sp/>may<sp/>overlap<sp/>if<sp/>a<sp/>queue<sp/>has<sp/>to<sp/>share<sp/>capabilities.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>queue_family_index;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_graphics_queues;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>family<sp/>index<sp/>for<sp/>transfer<sp/>operations<sp/>and<sp/>the<sp/>number<sp/>of<sp/>queues</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>enabled.<sp/>Required.</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>queue_family_tx_index;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_tx_queues;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>family<sp/>index<sp/>for<sp/>compute<sp/>operations<sp/>and<sp/>the<sp/>number<sp/>of<sp/>queues</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>enabled.<sp/>Required.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>queue_family_comp_index;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_comp_queues;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>family<sp/>index<sp/>for<sp/>video<sp/>encode<sp/>ops,<sp/>and<sp/>the<sp/>amount<sp/>of<sp/>queues<sp/>enabled.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>the<sp/>device<sp/>doesn&apos;t<sp/>support<sp/>such,<sp/>queue_family_encode_index<sp/>will<sp/>be<sp/>-1.</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Not<sp/>required.</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>queue_family_encode_index;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_encode_queues;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>family<sp/>index<sp/>for<sp/>video<sp/>decode<sp/>ops,<sp/>and<sp/>the<sp/>amount<sp/>of<sp/>queues<sp/>enabled.</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>the<sp/>device<sp/>doesn&apos;t<sp/>support<sp/>such,<sp/>queue_family_decode_index<sp/>will<sp/>be<sp/>-1.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Not<sp/>required.</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>queue_family_decode_index;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="attributes_8h_1aa6d076561d3a9eea4729ee632652de02" kindref="member">attribute_deprecated</ref></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_decode_queues;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Locks<sp/>a<sp/>queue,<sp/>preventing<sp/>other<sp/>threads<sp/>from<sp/>submitting<sp/>any<sp/>command</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>buffers<sp/>to<sp/>this<sp/>queue.</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>set<sp/>to<sp/>NULL,<sp/>will<sp/>be<sp/>set<sp/>to<sp/>lavu-internal<sp/>functions<sp/>that<sp/>utilize<sp/>a</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>mutex.</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="structAVVulkanDeviceContext_1a75d028f2e5330a4231fdf9ea1dbfe776" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="structAVVulkanDeviceContext_1a75d028f2e5330a4231fdf9ea1dbfe776" kindref="member">lock_queue</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref><sp/>*ctx,<sp/>uint32_t<sp/>queue_family,<sp/>uint32_t<sp/>index);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Similar<sp/>to<sp/>lock_queue(),<sp/>unlocks<sp/>a<sp/>queue.<sp/>Must<sp/>only<sp/>be<sp/>called<sp/>after<sp/>locking.</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="structAVVulkanDeviceContext_1af037e6811efd9101d2e155a677554b0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="structAVVulkanDeviceContext_1af037e6811efd9101d2e155a677554b0d" kindref="member">unlock_queue</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref><sp/>*ctx,<sp/>uint32_t<sp/>queue_family,<sp/>uint32_t<sp/>index);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>families<sp/>used.<sp/>Must<sp/>be<sp/>preferentially<sp/>ordered.<sp/>List<sp/>may<sp/>contain</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>duplicates.</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>For<sp/>compatibility<sp/>reasons,<sp/>all<sp/>the<sp/>enabled<sp/>queue<sp/>families<sp/>listed<sp/>above</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>(queue_family_(tx/comp/encode/decode)_index)<sp/>must<sp/>also<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>this<sp/>list<sp/>until<sp/>they&apos;re<sp/>removed<sp/>after<sp/>deprecation.</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="structAVVulkanDeviceContext_1a215cc6b8846031029e1708f346e189c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVVulkanDeviceQueueFamily" kindref="compound">AVVulkanDeviceQueueFamily</ref><sp/><ref refid="structAVVulkanDeviceContext_1a215cc6b8846031029e1708f346e189c0" kindref="member">qf</ref>[64];</highlight></codeline>
+<codeline lineno="189" refid="structAVVulkanDeviceContext_1aa4badabd2157934df2499f77e993b99a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVulkanDeviceContext_1aa4badabd2157934df2499f77e993b99a" kindref="member">nb_qf</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}<sp/><ref refid="structAVVulkanDeviceContext" kindref="compound">AVVulkanDeviceContext</ref>;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="192"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/>*<sp/>Defines<sp/>the<sp/>behaviour<sp/>of<sp/>frame<sp/>allocation.</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364e" kindref="member">AVVkFrameFlags</ref><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Unless<sp/>this<sp/>flag<sp/>is<sp/>set,<sp/>autodetected<sp/>flags<sp/>will<sp/>be<sp/>OR&apos;d<sp/>based<sp/>on<sp/>the</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>device<sp/>and<sp/>tiling<sp/>during<sp/>av_hwframe_ctx_init().<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364eaab676d407d19cfc6bc82a889a6e4a0ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364eaab676d407d19cfc6bc82a889a6e4a0ac" kindref="member">AV_VK_FRAME_FLAG_NONE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL<sp/>&lt;&lt;<sp/>0),</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Disables<sp/>multiplane<sp/>images.</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>required<sp/>to<sp/>export/import<sp/>images<sp/>from<sp/>CUDA.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364ea72318c8249f812a758bd34bdefff60a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364ea72318c8249f812a758bd34bdefff60a5" kindref="member">AV_VK_FRAME_FLAG_DISABLE_MULTIPLANE</ref><sp/>=<sp/>(1ULL<sp/>&lt;&lt;<sp/>2),</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}<sp/><ref refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364e" kindref="member">AVVkFrameFlags</ref>;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="205"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/>*<sp/>Allocated<sp/>as<sp/>AVHWFramesContext.hwctx,<sp/>used<sp/>to<sp/>set<sp/>pool-specific<sp/>options</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="structAVVulkanFramesContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVulkanFramesContext" kindref="compound">AVVulkanFramesContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Controls<sp/>the<sp/>tiling<sp/>of<sp/>allocated<sp/>frames.</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>left<sp/>as<sp/>VK_IMAGE_TILING_OPTIMAL<sp/>(0),<sp/>will<sp/>use<sp/>optimal<sp/>tiling.</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Can<sp/>be<sp/>set<sp/>to<sp/>VK_IMAGE_TILING_LINEAR<sp/>to<sp/>force<sp/>linear<sp/>images,</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>or<sp/>VK_IMAGE_TILING_DRM_FORMAT_MODIFIER_EXT<sp/>to<sp/>force<sp/>DMABUF-backed</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>images.</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@note<sp/>Imported<sp/>frames<sp/>from<sp/>other<sp/>APIs<sp/>ignore<sp/>this.</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="structAVVulkanFramesContext_1a1d59cf40209ed27b210f8b755c0250fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkImageTiling<sp/><ref refid="structAVVulkanFramesContext_1a1d59cf40209ed27b210f8b755c0250fa" kindref="member">tiling</ref>;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Defines<sp/>extra<sp/>usage<sp/>of<sp/>output<sp/>frames.<sp/>If<sp/>non-zero,<sp/>all<sp/>flags<sp/>MUST<sp/>be</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>supported<sp/>by<sp/>the<sp/>VkFormat.<sp/>Otherwise,<sp/>will<sp/>use<sp/>supported<sp/>flags<sp/>amongst:</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>VK_IMAGE_USAGE_SAMPLED_BIT</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>VK_IMAGE_USAGE_STORAGE_BIT</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>VK_IMAGE_USAGE_TRANSFER_SRC_BIT</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>VK_IMAGE_USAGE_TRANSFER_DST_BIT</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="structAVVulkanFramesContext_1a6bf14758921612c1aad1a5d8332200bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkImageUsageFlagBits<sp/><ref refid="structAVVulkanFramesContext_1a6bf14758921612c1aad1a5d8332200bb" kindref="member">usage</ref>;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Extension<sp/>data<sp/>for<sp/>image<sp/>creation.</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>DRM<sp/>tiling<sp/>is<sp/>used,<sp/>a<sp/>VkImageDrmFormatModifierListCreateInfoEXT<sp/>structure</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>can<sp/>be<sp/>added<sp/>to<sp/>specify<sp/>the<sp/>exact<sp/>modifier<sp/>to<sp/>use.</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Additional<sp/>structures<sp/>may<sp/>be<sp/>added<sp/>at<sp/>av_hwframe_ctx_init()<sp/>time,</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>which<sp/>will<sp/>be<sp/>freed<sp/>automatically<sp/>on<sp/>uninit(),<sp/>so<sp/>users<sp/>must<sp/>only<sp/>free</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>any<sp/>structures<sp/>they&apos;ve<sp/>allocated<sp/>themselves.</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="structAVVulkanFramesContext_1a18537e64f52d484a81bfb258cbfe39be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVVulkanFramesContext_1a18537e64f52d484a81bfb258cbfe39be" kindref="member">create_pnext</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Extension<sp/>data<sp/>for<sp/>memory<sp/>allocation.<sp/>Must<sp/>have<sp/>as<sp/>many<sp/>entries<sp/>as</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>number<sp/>of<sp/>planes<sp/>of<sp/>the<sp/>sw_format.</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>will<sp/>be<sp/>chained<sp/>to<sp/>VkExportMemoryAllocateInfo,<sp/>which<sp/>is<sp/>used</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>make<sp/>all<sp/>pool<sp/>images<sp/>exportable<sp/>to<sp/>other<sp/>APIs<sp/>if<sp/>the<sp/>necessary</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>extensions<sp/>are<sp/>present<sp/>in<sp/>enabled_dev_extensions.</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="structAVVulkanFramesContext_1a35850b6049c9766ce28576a7b4c52c14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVVulkanFramesContext_1a35850b6049c9766ce28576a7b4c52c14" kindref="member">alloc_pnext</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>A<sp/>combination<sp/>of<sp/>AVVkFrameFlags.<sp/>Unless<sp/>AV_VK_FRAME_FLAG_NONE<sp/>is<sp/>set,</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>autodetected<sp/>flags<sp/>will<sp/>be<sp/>OR&apos;d<sp/>based<sp/>on<sp/>the<sp/>device<sp/>and<sp/>tiling<sp/>during</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>av_hwframe_ctx_init().</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="structAVVulkanFramesContext_1a7df5c79263e7491b56a6eeade0980640" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hwcontext__vulkan_8h_1a9cfe1ae791d0cb4d48a4071f14d1364e" kindref="member">AVVkFrameFlags</ref><sp/><ref refid="structAVVulkanFramesContext_1a7df5c79263e7491b56a6eeade0980640" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Flags<sp/>to<sp/>set<sp/>during<sp/>image<sp/>creation.<sp/>If<sp/>unset,<sp/>defaults<sp/>to</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>VK_IMAGE_CREATE_ALIAS_BIT.</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="structAVVulkanFramesContext_1a2ccc2206d652c6b5e931d9fabc008d15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkImageCreateFlags<sp/><ref refid="structAVVulkanFramesContext_1a2ccc2206d652c6b5e931d9fabc008d15" kindref="member">img_flags</ref>;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Vulkan<sp/>format<sp/>for<sp/>each<sp/>image.<sp/>MUST<sp/>be<sp/>compatible<sp/>with<sp/>the<sp/>pixel<sp/>format.</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset,<sp/>will<sp/>be<sp/>automatically<sp/>set.</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>There<sp/>are<sp/>at<sp/>most<sp/>two<sp/>compatible<sp/>formats<sp/>for<sp/>a<sp/>frame<sp/>-<sp/>a<sp/>multiplane</highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>format,<sp/>and<sp/>a<sp/>single-plane<sp/>multi-image<sp/>format.</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="structAVVulkanFramesContext_1af5a2e5c0f6ef190fa495a6d39c39f4e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkFormat<sp/><ref refid="structAVVulkanFramesContext_1af5a2e5c0f6ef190fa495a6d39c39f4e2" kindref="member">format</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="271"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>layers<sp/>each<sp/>image<sp/>will<sp/>have.</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="structAVVulkanFramesContext_1abd9de668a9d88c30e0cd7173cd08e2c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVVulkanFramesContext_1abd9de668a9d88c30e0cd7173cd08e2c7" kindref="member">nb_layers</ref>;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Locks<sp/>a<sp/>frame,<sp/>preventing<sp/>other<sp/>threads<sp/>from<sp/>changing<sp/>frame<sp/>properties.</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Users<sp/>SHOULD<sp/>only<sp/>ever<sp/>lock<sp/>just<sp/>before<sp/>command<sp/>submission<sp/>in<sp/>order</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>to<sp/>get<sp/>accurate<sp/>frame<sp/>properties,<sp/>and<sp/>unlock<sp/>immediately<sp/>after<sp/>command</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>submission<sp/>without<sp/>waiting<sp/>for<sp/>it<sp/>to<sp/>finish.</highlight></codeline>
+<codeline lineno="280"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="281"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>unset,<sp/>will<sp/>be<sp/>set<sp/>to<sp/>lavu-internal<sp/>functions<sp/>that<sp/>utilize<sp/>a<sp/>mutex.</highlight></codeline>
+<codeline lineno="282"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="structAVVulkanFramesContext_1aac1916fd157b6376d6fab74562e6ee31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="structAVVulkanFramesContext_1aac1916fd157b6376d6fab74562e6ee31" kindref="member">lock_frame</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref><sp/>*fc,<sp/><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref><sp/>*vkf);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Similar<sp/>to<sp/>lock_frame(),<sp/>unlocks<sp/>a<sp/>frame.<sp/>Must<sp/>only<sp/>be<sp/>called<sp/>after<sp/>locking.</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="structAVVulkanFramesContext_1aeba72f0a0f5224efb82a27732cb25d64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="structAVVulkanFramesContext_1aeba72f0a0f5224efb82a27732cb25d64" kindref="member">unlock_frame</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref><sp/>*fc,<sp/><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref><sp/>*vkf);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal">}<sp/><ref refid="structAVVulkanFramesContext" kindref="compound">AVVulkanFramesContext</ref>;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/>*<sp/>Frame<sp/>structure.</highlight></codeline>
+<codeline lineno="293"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/>*<sp/>@note<sp/>the<sp/>size<sp/>of<sp/>this<sp/>structure<sp/>is<sp/>not<sp/>part<sp/>of<sp/>the<sp/>ABI,<sp/>to<sp/>allocate</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/>*<sp/>you<sp/>must<sp/>use<sp/>@av_vk_frame_alloc().</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="structAVVkFrame" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="298"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="299"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Vulkan<sp/>images<sp/>to<sp/>which<sp/>the<sp/>memory<sp/>is<sp/>bound<sp/>to.</highlight></codeline>
+<codeline lineno="300"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>May<sp/>be<sp/>one<sp/>for<sp/>multiplane<sp/>formats,<sp/>or<sp/>multiple.</highlight></codeline>
+<codeline lineno="301"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="structAVVkFrame_1af816af80883ad4e7f7e0b92069b14721" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkImage<sp/><ref refid="structAVVkFrame_1af816af80883ad4e7f7e0b92069b14721" kindref="member">img</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Tiling<sp/>for<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="structAVVkFrame_1a1ed9121a069584a7a2c3c0fcdffcdbfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkImageTiling<sp/><ref refid="structAVVkFrame_1a1ed9121a069584a7a2c3c0fcdffcdbfa" kindref="member">tiling</ref>;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="310"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Memory<sp/>backing<sp/>the<sp/>images.<sp/>Either<sp/>one,<sp/>or<sp/>as<sp/>many<sp/>as<sp/>there<sp/>are<sp/>planes</highlight></codeline>
+<codeline lineno="311"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>the<sp/>sw_format.</highlight></codeline>
+<codeline lineno="312"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>In<sp/>case<sp/>of<sp/>having<sp/>multiple<sp/>VkImages,<sp/>but<sp/>one<sp/>memory,<sp/>the<sp/>offset<sp/>field</highlight></codeline>
+<codeline lineno="313"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>will<sp/>indicate<sp/>the<sp/>bound<sp/>offset<sp/>for<sp/>each<sp/>image.</highlight></codeline>
+<codeline lineno="314"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="structAVVkFrame_1aee75c3f6f575c5d9380cfcc4b1264338" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkDeviceMemory<sp/><ref refid="structAVVkFrame_1aee75c3f6f575c5d9380cfcc4b1264338" kindref="member">mem</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="316" refid="structAVVkFrame_1a0f5b937247d6cbbda0ac9ee3e8f1ac15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVVkFrame_1a0f5b937247d6cbbda0ac9ee3e8f1ac15" kindref="member">size</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>OR&apos;d<sp/>flags<sp/>for<sp/>all<sp/>memory<sp/>allocated</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="structAVVkFrame_1a43d7899beecc50b826219190d175964b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkMemoryPropertyFlagBits<sp/><ref refid="structAVVkFrame_1a43d7899beecc50b826219190d175964b" kindref="member">flags</ref>;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="323"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="324"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updated<sp/>after<sp/>every<sp/>barrier.<sp/>One<sp/>per<sp/>VkImage.</highlight></codeline>
+<codeline lineno="325"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326" refid="structAVVkFrame_1a08867f694acf386d6f459c8499d66ab6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkAccessFlagBits<sp/><ref refid="structAVVkFrame_1a08867f694acf386d6f459c8499d66ab6" kindref="member">access</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="327" refid="structAVVkFrame_1a17b01c3777e45a37ded5a5d99e188a1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkImageLayout<sp/><ref refid="structAVVkFrame_1a17b01c3777e45a37ded5a5d99e188a1c" kindref="member">layout</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="329"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="330"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Synchronization<sp/>timeline<sp/>semaphores,<sp/>one<sp/>for<sp/>each<sp/>VkImage.</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Must<sp/>not<sp/>be<sp/>freed<sp/>manually.<sp/>Must<sp/>be<sp/>waited<sp/>on<sp/>at<sp/>every<sp/>submission<sp/>using</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>value<sp/>in<sp/>sem_value,<sp/>and<sp/>must<sp/>be<sp/>signalled<sp/>at<sp/>every<sp/>submission,</highlight></codeline>
+<codeline lineno="333"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>using<sp/>an<sp/>incremented<sp/>value.</highlight></codeline>
+<codeline lineno="334"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="structAVVkFrame_1a2879b0cac663bb604635a2bfb6d06fea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VkSemaphore<sp/><ref refid="structAVVkFrame_1a2879b0cac663bb604635a2bfb6d06fea" kindref="member">sem</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="337"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Up<sp/>to<sp/>date<sp/>semaphore<sp/>value<sp/>at<sp/>which<sp/>each<sp/>image<sp/>becomes<sp/>accessible.</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>One<sp/>per<sp/>VkImage.</highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Clients<sp/>must<sp/>wait<sp/>on<sp/>this<sp/>value<sp/>when<sp/>submitting<sp/>a<sp/>command<sp/>queue,</highlight></codeline>
+<codeline lineno="341"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>increment<sp/>it<sp/>when<sp/>signalling.</highlight></codeline>
+<codeline lineno="342"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="structAVVkFrame_1a74b8cce7fe20d11d96b390ed2a05ad04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structAVVkFrame_1a74b8cce7fe20d11d96b390ed2a05ad04" kindref="member">sem_value</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="345"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="346"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Internal<sp/>data.</highlight></codeline>
+<codeline lineno="347"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="structAVVkFrame_1a9f76026dce756dc1134df7771829a5c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">AVVkFrameInternal<sp/>*<ref refid="structAVVkFrame_1a9f76026dce756dc1134df7771829a5c3" kindref="member">internal</ref>;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="351"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Describes<sp/>the<sp/>binding<sp/>offset<sp/>of<sp/>each<sp/>image<sp/>to<sp/>the<sp/>VkDeviceMemory.</highlight></codeline>
+<codeline lineno="352"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>One<sp/>per<sp/>VkImage.</highlight></codeline>
+<codeline lineno="353"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354" refid="structAVVkFrame_1ac8f8dd7bed0584060231d957795f0273" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ptrdiff_t<sp/><ref refid="structAVVkFrame_1ac8f8dd7bed0584060231d957795f0273" kindref="member">offset</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="356"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="357"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Queue<sp/>family<sp/>of<sp/>the<sp/>images.<sp/>Must<sp/>be<sp/>VK_QUEUE_FAMILY_IGNORED<sp/>if</highlight></codeline>
+<codeline lineno="358"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>image<sp/>was<sp/>allocated<sp/>with<sp/>the<sp/>CONCURRENT<sp/>concurrency<sp/>option.</highlight></codeline>
+<codeline lineno="359"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>One<sp/>per<sp/>VkImage.</highlight></codeline>
+<codeline lineno="360"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="structAVVkFrame_1a3f88db0a7ea4abd706090145b55bdcf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVVkFrame_1a3f88db0a7ea4abd706090145b55bdcf2" kindref="member">queue_family</ref>[<ref refid="frame_8h_1add80189702cf0f5ea82718576fb43201" kindref="member">AV_NUM_DATA_POINTERS</ref>];</highlight></codeline>
+<codeline lineno="362"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="364"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="365"><highlight class="comment"><sp/>*<sp/>Allocates<sp/>a<sp/>single<sp/>AVVkFrame<sp/>and<sp/>initializes<sp/>everything<sp/>as<sp/>0.</highlight></codeline>
+<codeline lineno="366"><highlight class="comment"><sp/>*<sp/>@note<sp/>Must<sp/>be<sp/>freed<sp/>via<sp/>av_free()</highlight></codeline>
+<codeline lineno="367"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="hwcontext__vulkan_8h_1a098c8a938a6975e1a6ca6bf8bf913a3a" refkind="member"><highlight class="normal"><ref refid="structAVVkFrame" kindref="compound">AVVkFrame</ref><sp/>*<ref refid="hwcontext__vulkan_8h_1a098c8a938a6975e1a6ca6bf8bf913a3a" kindref="member">av_vk_frame_alloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="370"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="371"><highlight class="comment"><sp/>*<sp/>Returns<sp/>the<sp/>optimal<sp/>per-plane<sp/>Vulkan<sp/>format<sp/>for<sp/>a<sp/>given<sp/>sw_format,</highlight></codeline>
+<codeline lineno="372"><highlight class="comment"><sp/>*<sp/>one<sp/>for<sp/>each<sp/>plane.</highlight></codeline>
+<codeline lineno="373"><highlight class="comment"><sp/>*<sp/>Returns<sp/>NULL<sp/>on<sp/>unsupported<sp/>formats.</highlight></codeline>
+<codeline lineno="374"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375" refid="hwcontext__vulkan_8h_1a3a345146457fd549803a2bce48a1a86d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkFormat<sp/>*<ref refid="hwcontext__vulkan_8h_1a3a345146457fd549803a2bce48a1a86d" kindref="member">av_vkfmt_from_pixfmt</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref><sp/>p);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HWCONTEXT_VULKAN_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hwcontext_vulkan.h"/>
+  </compounddef>
+</doxygen>

@@ -238,7 +238,6 @@ int ff_hevc_decode_short_term_rps(GetBitContext *gb, AVCodecContext *avctx,
 static int decode_profile_tier_level(GetBitContext *gb, AVCodecContext *avctx,
                                       PTLCommon *ptl)
 {
-    const char *profile_name = NULL;
     int i;
 
     if (get_bits_left(gb) < 2+1+5 + 32 + 4 + 43 + 1)
@@ -249,14 +248,15 @@ static int decode_profile_tier_level(GetBitContext *gb, AVCodecContext *avctx,
     ptl->profile_idc   = get_bits(gb, 5);
 
 #if !CONFIG_SMALL
+    const char *profile_name = NULL;
     for (int i = 0; ff_hevc_profiles[i].profile != AV_PROFILE_UNKNOWN; i++)
         if (ff_hevc_profiles[i].profile == ptl->profile_idc) {
             profile_name = ff_hevc_profiles[i].name;
             break;
         }
-#endif
     av_log(avctx, profile_name ? AV_LOG_DEBUG : AV_LOG_WARNING,
            "%s profile bitstream\n", profile_name ? profile_name : "Unknown");
+#endif
 
     for (i = 0; i < 32; i++) {
         ptl->profile_compatibility_flag[i] = get_bits1(gb);
@@ -763,7 +763,7 @@ int ff_hevc_decode_nal_vps(GetBitContext *gb, AVCodecContext *avctx,
 {
     int i;
     int vps_id = get_bits(gb, 4);
-    ptrdiff_t nal_size = gb->buffer_end - gb->buffer;
+    ptrdiff_t nal_size = get_bits_bytesize(gb, 1);
     int ret = AVERROR_INVALIDDATA;
     uint64_t layer1_id_included = 0;
     unsigned vps_base_layer_internal_flag, vps_base_layer_available_flag;
@@ -1710,7 +1710,7 @@ int ff_hevc_decode_nal_sps(GetBitContext *gb, AVCodecContext *avctx,
 
     av_log(avctx, AV_LOG_DEBUG, "Decoding SPS\n");
 
-    sps->data_size = gb->buffer_end - gb->buffer;
+    sps->data_size = get_bits_bytesize(gb, 1);
     sps->data = av_memdup(gb->buffer, sps->data_size);
     if (!sps->data) {
         ret = AVERROR(ENOMEM);
@@ -2165,7 +2165,7 @@ int ff_hevc_decode_nal_pps(GetBitContext *gb, AVCodecContext *avctx,
     const HEVCSPS *sps = NULL;
     const HEVCVPS *vps = NULL;
     int i, ret = 0;
-    ptrdiff_t nal_size = gb->buffer_end - gb->buffer;
+    ptrdiff_t nal_size = get_bits_bytesize(gb, 1);
     unsigned int pps_id = get_ue_golomb_long(gb);
     unsigned log2_parallel_merge_level_minus2;
     HEVCPPS *pps;

@@ -1,0 +1,11 @@
+Function 'scc_write_packet'
+Lines executed:0.00% of 37
+
+Function 'scc_write_header'
+Lines executed:0.00% of 7
+
+File 'libavformat/sccenc.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sccenc.gcno##libavformat#sccenc.c.gcov'
+
+Lines executed:0.00% of 44

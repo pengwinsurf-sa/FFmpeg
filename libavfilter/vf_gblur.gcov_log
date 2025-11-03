@@ -1,0 +1,49 @@
+Function 'filter_frame'
+Lines executed:0.00% of 60
+
+Function 'set_params'
+Lines executed:0.00% of 14
+
+Function 'config_input'
+Lines executed:0.00% of 23
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'gaussianiir2d'
+Lines executed:0.00% of 16
+
+Function 'filter_postscale'
+Lines executed:0.00% of 14
+
+Function 'filter_vertically'
+Lines executed:0.00% of 13
+
+Function 'filter_horizontally'
+Lines executed:0.00% of 16
+
+Function 'verti_slice_c'
+Lines executed:0.00% of 5
+
+Function 'do_vertical_columns'
+Lines executed:0.00% of 19
+
+Function 'horiz_slice_c'
+Lines executed:0.00% of 12
+
+Function 'postscale_c'
+Lines executed:0.00% of 7
+
+File 'libavfilter/vf_gblur.c'
+Lines executed:0.00% of 155
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gblur.gcno##libavfilter#vf_gblur.c.gcov'
+
+File 'libavfilter/vf_gblur_init.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gblur.gcno##libavfilter#vf_gblur_init.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_gblur.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 204

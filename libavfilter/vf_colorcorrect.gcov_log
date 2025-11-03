@@ -1,0 +1,46 @@
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'config_input'
+Lines executed:0.00% of 31
+
+Function 'filter_frame'
+Lines executed:0.00% of 23
+
+Function 'colorcorrect_slice16'
+Lines executed:0.00% of 34
+
+Function 'colorcorrect_slice8'
+Lines executed:0.00% of 34
+
+Function 'median_16'
+Lines executed:0.00% of 36
+
+Function 'median_8'
+Lines executed:0.00% of 34
+
+Function 'minmax_slice16'
+Lines executed:0.00% of 27
+
+Function 'minmax_slice8'
+Lines executed:0.00% of 27
+
+Function 'average_slice16'
+Lines executed:0.00% of 22
+
+Function 'average_slice8'
+Lines executed:0.00% of 22
+
+File 'libavfilter/vf_colorcorrect.c'
+Lines executed:0.00% of 289
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorcorrect.gcno##libavfilter#vf_colorcorrect.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorcorrect.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorcorrect.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 296

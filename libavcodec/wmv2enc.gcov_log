@@ -1,0 +1,42 @@
+Function 'wmv2_encode_init'
+Lines executed:0.00% of 15
+
+Function 'wmv2_encode_mb'
+Lines executed:0.00% of 56
+
+Function 'wmv2_encode_picture_header'
+Lines executed:0.00% of 53
+
+Function 'encode_ext_header'
+Lines executed:0.00% of 24
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/wmv2enc.c'
+Lines executed:0.00% of 126
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2enc.gcno##libavcodec#wmv2enc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2enc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/mpegvideoenc.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2enc.gcno##libavcodec#mpegvideoenc.h.gcov'
+
+File 'libavcodec/wmv2.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2enc.gcno##libavcodec#wmv2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmv2enc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 183

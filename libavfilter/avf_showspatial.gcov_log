@@ -1,0 +1,46 @@
+Function 'spatial_activate'
+Lines executed:0.00% of 42
+
+Function 'draw_spatial'
+Lines executed:0.00% of 51
+
+Function 'config_output'
+Lines executed:0.00% of 39
+
+Function 'run_channel_fft'
+Lines executed:0.00% of 11
+
+Function 'query_formats'
+Lines executed:0.00% of 12
+
+Function 'uninit'
+Lines executed:0.00% of 10
+
+Function 'generate_window_func'
+Lines executed:0.00% of 124
+
+File 'libavfilter/avf_showspatial.c'
+Lines executed:0.00% of 153
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspatial.gcno##libavfilter#avf_showspatial.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspatial.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspatial.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspatial.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspatial.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/window_func.h'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspatial.gcno##libavfilter#window_func.h.gcov'
+
+Lines executed:0.00% of 289

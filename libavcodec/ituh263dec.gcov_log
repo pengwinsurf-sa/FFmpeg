@@ -1,0 +1,108 @@
+Function 'ff_h263_decode_picture_header'
+Lines executed:0.00% of 199
+
+Function 'ff_h263_decode_mb'
+Lines executed:0.00% of 206
+
+Function 'set_direct_mv'
+Lines executed:0.00% of 27
+
+Function 'set_one_direct_mv'
+Lines executed:0.00% of 18
+
+Function 'h263_get_modb'
+Lines executed:0.00% of 14
+
+Function 'h263_skip_b_part'
+Lines executed:0.00% of 15
+
+Function 'h263_decode_block'
+Lines executed:0.00% of 106
+
+Function 'h263_pred_acdc'
+Lines executed:0.00% of 39
+
+Function 'h263_decode_dquant'
+Lines executed:0.00% of 10
+
+Function 'preview_obmc'
+Lines executed:0.00% of 65
+
+Function 'h263p_decode_umotion'
+Lines executed:0.00% of 13
+
+Function 'ff_h263_decode_motion'
+Lines executed:0.00% of 25
+
+Function 'ff_h263_resync'
+Lines executed:0.00% of 36
+
+Function 'h263_decode_gob_header'
+Lines executed:0.00% of 26
+
+Function 'ff_h263_decode_mba'
+Lines executed:0.00% of 8
+
+Function 'ff_h263_decode_init_vlc'
+Lines executed:0.00% of 4
+
+Function 'h263_decode_init_vlc'
+Lines executed:0.00% of 11
+
+Function 'ff_h263_show_pict_info'
+Lines executed:0.00% of 14
+
+Function 'check_marker'
+Lines executed:0.00% of 6
+
+Function 'skip_1stop_8data_bits'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/ituh263dec.c'
+Lines executed:0.00% of 779
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavcodec#ituh263dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavcodec#unary.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/mpegvideodec.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ituh263dec.gcno##libavcodec#mpegvideodec.h.gcov'
+
+Lines executed:0.00% of 891

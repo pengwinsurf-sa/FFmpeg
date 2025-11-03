@@ -1,0 +1,47 @@
+Function 'main'
+Lines executed:0.00% of 38
+
+Function 'run_test'
+Lines executed:0.00% of 18
+
+Function 'av_des_mac'
+Lines executed:0.00% of 3
+
+Function 'av_des_crypt'
+Lines executed:0.00% of 3
+
+Function 'av_des_crypt_mac'
+Lines executed:0.00% of 24
+
+Function 'av_des_init'
+Lines executed:0.00% of 7
+
+Function 'av_des_alloc'
+Lines executed:0.00% of 2
+
+Function 'des_encdec'
+Lines executed:0.00% of 35
+
+Function 'gen_roundkeys'
+Lines executed:0.00% of 16
+
+Function 'av_bswap64'
+Lines executed:0.00% of 3
+
+File 'libavutil/tests/des.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#des.gcno##libavutil#tests#des.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#des.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#des.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/des.c'
+Lines executed:0.00% of 90
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#des.gcno##libavutil#des.c.gcov'
+
+Lines executed:0.00% of 149

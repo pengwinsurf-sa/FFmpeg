@@ -1,0 +1,61 @@
+Function 'ff_hevc_hls_filters'
+Lines executed:0.00% of 10
+
+Function 'ff_hevc_hls_filter'
+Lines executed:0.00% of 32
+
+Function 'ff_hevc_deblocking_boundary_strengths'
+Lines executed:0.00% of 84
+
+Function 'boundary_strength'
+Lines executed:0.00% of 36
+
+Function 'deblocking_filter_CTB'
+Lines executed:0.00% of 136
+
+Function 'sao_filter_CTB'
+Lines executed:0.00% of 162
+
+Function 'restore_tqb_pixels'
+Lines executed:0.00% of 26
+
+Function 'copy_CTB_to_hv'
+Lines executed:0.00% of 11
+
+Function 'copy_CTB'
+Lines executed:0.00% of 30
+
+Function 'ff_hevc_set_qPy'
+Lines executed:0.00% of 10
+
+Function 'get_qPy_pred'
+Lines executed:0.00% of 25
+
+Function 'chroma_tc'
+Lines executed:0.00% of 15
+
+File 'libavcodec/hevc/filter.c'
+Lines executed:0.00% of 563
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#filter.gcno##libavcodec#hevc#filter.c.gcov'
+
+File 'libavcodec/hevc/hevcdec.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#filter.gcno##libavcodec#hevc#hevcdec.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#filter.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#filter.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#filter.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#filter.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+Lines executed:0.00% of 577

@@ -1,0 +1,30 @@
+Function 'checkasm_check_utvideodsp'
+Lines executed:100.00% of 10
+
+Function 'check_restore_rgb_planes10'
+Lines executed:64.71% of 17
+
+Function 'check_restore_rgb_planes'
+Lines executed:100.00% of 3
+
+File 'tests/checkasm/utvideodsp.c'
+Lines executed:100.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#utvideodsp.gcno##tests#checkasm#utvideodsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#utvideodsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#utvideodsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#utvideodsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#utvideodsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:80.00% of 30

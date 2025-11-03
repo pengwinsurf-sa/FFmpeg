@@ -1,0 +1,57 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'activate'
+Lines executed:0.00% of 27
+
+Function 'filter_frame'
+Lines executed:0.00% of 24
+
+Function 'config_input'
+Lines executed:0.00% of 30
+
+Function 'filter_channels_dblp'
+Lines executed:0.00% of 1
+
+Function 'filter_channels_fltp'
+Lines executed:0.00% of 1
+
+Function 'biquad_process_dblp'
+Lines executed:0.00% of 1
+
+Function 'biquad_process_fltp'
+Lines executed:0.00% of 1
+
+Function 'calc_q_factors'
+Lines executed:0.00% of 5
+
+Function 'set_ap1'
+Lines executed:0.00% of 13
+
+Function 'set_ap'
+Lines executed:0.00% of 21
+
+Function 'set_hp'
+Lines executed:0.00% of 21
+
+Function 'set_lp'
+Lines executed:0.00% of 21
+
+Function 'init'
+Lines executed:0.00% of 34
+
+Function 'parse_gains'
+Lines executed:0.00% of 21
+
+Function 'query_formats'
+Lines executed:0.00% of 13
+
+File 'libavfilter/af_acrossover.c'
+Lines executed:0.00% of 236
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_acrossover.gcno##libavfilter#af_acrossover.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_acrossover.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 239

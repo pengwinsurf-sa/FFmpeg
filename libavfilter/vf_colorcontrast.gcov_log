@@ -1,0 +1,27 @@
+Function 'config_input'
+Lines executed:0.00% of 16
+
+Function 'filter_frame'
+Lines executed:0.00% of 7
+
+Function 'colorcontrast_slice16p'
+Lines executed:0.00% of 48
+
+Function 'colorcontrast_slice8p'
+Lines executed:0.00% of 43
+
+Function 'colorcontrast_slice16'
+Lines executed:0.00% of 44
+
+Function 'colorcontrast_slice8'
+Lines executed:0.00% of 42
+
+File 'libavfilter/vf_colorcontrast.c'
+Lines executed:0.00% of 193
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorcontrast.gcno##libavfilter#vf_colorcontrast.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorcontrast.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 200

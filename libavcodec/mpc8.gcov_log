@@ -1,0 +1,62 @@
+Function 'mpc8_decode_flush'
+Lines executed:0.00% of 4
+
+Function 'mpc8_decode_frame'
+Lines executed:0.00% of 186
+
+Function 'mpc8_decode_init'
+Lines executed:0.00% of 28
+
+Function 'mpc8_init_static'
+Lines executed:0.00% of 20
+
+Function 'build_vlc'
+Lines executed:0.00% of 13
+
+Function 'mpc8_get_mask'
+Lines executed:0.00% of 6
+
+Function 'mpc8_dec_enum'
+Lines executed:0.00% of 13
+
+Function 'mpc8_dec_base'
+Lines executed:0.00% of 6
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/mpc8.c'
+Lines executed:0.00% of 215
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno##libavcodec#mpc8.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 65
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno##libavutil#lfg.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc8.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 301

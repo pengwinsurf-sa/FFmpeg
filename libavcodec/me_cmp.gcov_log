@@ -1,0 +1,140 @@
+Function 'ff_me_cmp_init'
+Lines executed:100.00% of 41
+
+Function 'bit16_c'
+Lines executed:0.00% of 1
+
+Function 'rd16_c'
+Lines executed:0.00% of 1
+
+Function 'quant_psnr16_c'
+Lines executed:0.00% of 1
+
+Function 'dct_max16_c'
+Lines executed:0.00% of 9
+
+Function 'dct_sad16_c'
+Lines executed:0.00% of 6
+
+Function 'hadamard8_intra16_c'
+Lines executed:100.00% of 1
+
+Function 'hadamard8_diff16_c'
+Lines executed:100.00% of 1
+
+Function 'vsse16_c'
+Lines executed:100.00% of 1
+
+Function 'vsse8_c'
+Lines executed:100.00% of 1
+
+Function 'vsse_intra16_c'
+Lines executed:100.00% of 1
+
+Function 'vsse_intra8_c'
+Lines executed:100.00% of 1
+
+Function 'vsad16_c'
+Lines executed:100.00% of 1
+
+Function 'vsad8_c'
+Lines executed:100.00% of 1
+
+Function 'vsad_intra16_c'
+Lines executed:100.00% of 1
+
+Function 'vsad_intra8_c'
+Lines executed:100.00% of 1
+
+Function 'bit8x8_c'
+Lines executed:0.00% of 36
+
+Function 'rd8x8_c'
+Lines executed:0.00% of 52
+
+Function 'quant_psnr8x8_c'
+Lines executed:0.00% of 16
+
+Function 'dct_max8x8_c'
+No executable lines
+
+Function 'dct_sad8x8_c'
+No executable lines
+
+Function 'hadamard8_intra8x8_c'
+Lines executed:100.00% of 35
+
+Function 'hadamard8_diff8x8_c'
+Lines executed:100.00% of 33
+
+Function 'ff_set_cmp'
+Lines executed:0.00% of 15
+
+Function 'zero_cmp'
+Lines executed:0.00% of 2
+
+Function 'nsse8_c'
+Lines executed:93.33% of 15
+
+Function 'nsse16_c'
+Lines executed:93.33% of 15
+
+Function 'pix_abs8_xy2_c'
+Lines executed:100.00% of 16
+
+Function 'pix_abs8_y2_c'
+Lines executed:100.00% of 16
+
+Function 'pix_abs8_x2_c'
+Lines executed:100.00% of 14
+
+Function 'pix_median_abs8_c'
+Lines executed:100.00% of 23
+
+Function 'pix_abs8_c'
+Lines executed:100.00% of 14
+
+Function 'pix_abs16_xy2_c'
+Lines executed:100.00% of 24
+
+Function 'pix_abs16_y2_c'
+Lines executed:100.00% of 24
+
+Function 'pix_abs16_x2_c'
+Lines executed:100.00% of 22
+
+Function 'pix_median_abs16_c'
+Lines executed:100.00% of 27
+
+Function 'pix_abs16_c'
+Lines executed:100.00% of 22
+
+Function 'sum_abs_dctelem_c'
+Lines executed:0.00% of 5
+
+Function 'sse16_c'
+Lines executed:100.00% of 23
+
+Function 'sse8_c'
+Lines executed:100.00% of 15
+
+Function 'sse4_c'
+Lines executed:100.00% of 11
+
+File 'libavcodec/me_cmp.c'
+Lines executed:73.96% of 530
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#me_cmp.gcno##libavcodec#me_cmp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:50.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#me_cmp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#me_cmp.gcno##libavcodec#copy_block.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#me_cmp.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:73.16% of 544

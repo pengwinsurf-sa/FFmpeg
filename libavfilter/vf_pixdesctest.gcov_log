@@ -1,0 +1,18 @@
+Function 'filter_frame'
+Lines executed:0.00% of 36
+
+Function 'config_props'
+Lines executed:0.00% of 6
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_pixdesctest.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_pixdesctest.gcno##libavfilter#vf_pixdesctest.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_pixdesctest.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 46

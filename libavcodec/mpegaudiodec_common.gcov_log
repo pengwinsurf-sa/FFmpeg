@@ -1,0 +1,18 @@
+Function 'ff_mpegaudiodec_common_init_static'
+Lines executed:0.00% of 4
+
+Function 'mpegaudiodec_common_init_static'
+Lines executed:0.00% of 44
+
+Function 'mpegaudiodec_common_tableinit'
+Lines executed:0.00% of 16
+
+File 'libavcodec/mpegaudiodec_common.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_common.gcno##libavcodec#mpegaudiodec_common.c.gcov'
+
+File 'libavcodec/mpegaudiodec_common_tablegen.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_common.gcno##libavcodec#mpegaudiodec_common_tablegen.h.gcov'
+
+Lines executed:0.00% of 64

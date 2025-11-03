@@ -1,0 +1,32 @@
+Function 'film_deinit'
+Lines executed:0.00% of 4
+
+Function 'film_write_header'
+Lines executed:0.00% of 63
+
+Function 'write_header'
+Lines executed:0.00% of 6
+
+Function 'film_init'
+Lines executed:0.00% of 26
+
+Function 'film_write_packet'
+Lines executed:0.00% of 29
+
+File 'libavformat/segafilmenc.c'
+Lines executed:0.00% of 115
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#segafilmenc.gcno##libavformat#segafilmenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#segafilmenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#segafilmenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#segafilmenc.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 128

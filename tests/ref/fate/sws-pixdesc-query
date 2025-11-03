@@ -61,16 +61,24 @@ isNBPS:
   gbrap14le
   gbrp10be
   gbrp10le
+  gbrp10msbbe
+  gbrp10msble
   gbrp12be
   gbrp12le
+  gbrp12msbbe
+  gbrp12msble
   gbrp14be
   gbrp14le
   gbrp9be
   gbrp9le
   gray10be
   gray10le
+  gray10msbbe
+  gray10msble
   gray12be
   gray12le
+  gray12msbbe
+  gray12msble
   gray14be
   gray14le
   gray9be
@@ -107,16 +115,24 @@ isNBPS:
   y212le
   yuv420p10be
   yuv420p10le
+  yuv420p10msbbe
+  yuv420p10msble
   yuv420p12be
   yuv420p12le
+  yuv420p12msbbe
+  yuv420p12msble
   yuv420p14be
   yuv420p14le
   yuv420p9be
   yuv420p9le
   yuv422p10be
   yuv422p10le
+  yuv422p10msbbe
+  yuv422p10msble
   yuv422p12be
   yuv422p12le
+  yuv422p12msbbe
+  yuv422p12msble
   yuv422p14be
   yuv422p14le
   yuv422p9be
@@ -127,8 +143,12 @@ isNBPS:
   yuv440p12le
   yuv444p10be
   yuv444p10le
+  yuv444p10msbbe
+  yuv444p10msble
   yuv444p12be
   yuv444p12le
+  yuv444p12msbbe
+  yuv444p12msble
   yuv444p14be
   yuv444p14le
   yuv444p9be
@@ -169,14 +189,18 @@ isBE:
   gbrapf16be
   gbrapf32be
   gbrp10be
+  gbrp10msbbe
   gbrp12be
+  gbrp12msbbe
   gbrp14be
   gbrp16be
   gbrp9be
   gbrpf16be
   gbrpf32be
   gray10be
+  gray10msbbe
   gray12be
+  gray12msbbe
   gray14be
   gray16be
   gray32be
@@ -218,19 +242,25 @@ isBE:
   yaf16be
   yaf32be
   yuv420p10be
+  yuv420p10msbbe
   yuv420p12be
+  yuv420p12msbbe
   yuv420p14be
   yuv420p16be
   yuv420p9be
   yuv422p10be
+  yuv422p10msbbe
   yuv422p12be
+  yuv422p12msbbe
   yuv422p14be
   yuv422p16be
   yuv422p9be
   yuv440p10be
   yuv440p12be
   yuv444p10be
+  yuv444p10msbbe
   yuv444p12be
+  yuv444p12msbbe
   yuv444p14be
   yuv444p16be
   yuv444p9be
@@ -309,8 +339,12 @@ isYUV:
   yuv420p
   yuv420p10be
   yuv420p10le
+  yuv420p10msbbe
+  yuv420p10msble
   yuv420p12be
   yuv420p12le
+  yuv420p12msbbe
+  yuv420p12msble
   yuv420p14be
   yuv420p14le
   yuv420p16be
@@ -320,8 +354,12 @@ isYUV:
   yuv422p
   yuv422p10be
   yuv422p10le
+  yuv422p10msbbe
+  yuv422p10msble
   yuv422p12be
   yuv422p12le
+  yuv422p12msbbe
+  yuv422p12msble
   yuv422p14be
   yuv422p14le
   yuv422p16be
@@ -336,8 +374,12 @@ isYUV:
   yuv444p
   yuv444p10be
   yuv444p10le
+  yuv444p10msbbe
+  yuv444p10msble
   yuv444p12be
   yuv444p12le
+  yuv444p12msbbe
+  yuv444p12msble
   yuv444p14be
   yuv444p14le
   yuv444p16be
@@ -408,8 +450,12 @@ isPlanarYUV:
   yuv420p
   yuv420p10be
   yuv420p10le
+  yuv420p10msbbe
+  yuv420p10msble
   yuv420p12be
   yuv420p12le
+  yuv420p12msbbe
+  yuv420p12msble
   yuv420p14be
   yuv420p14le
   yuv420p16be
@@ -419,8 +465,12 @@ isPlanarYUV:
   yuv422p
   yuv422p10be
   yuv422p10le
+  yuv422p10msbbe
+  yuv422p10msble
   yuv422p12be
   yuv422p12le
+  yuv422p12msbbe
+  yuv422p12msble
   yuv422p14be
   yuv422p14le
   yuv422p16be
@@ -435,8 +485,12 @@ isPlanarYUV:
   yuv444p
   yuv444p10be
   yuv444p10le
+  yuv444p10msbbe
+  yuv444p10msble
   yuv444p12be
   yuv444p12le
+  yuv444p12msbbe
+  yuv444p12msble
   yuv444p14be
   yuv444p14le
   yuv444p16be
@@ -551,8 +605,12 @@ isRGB:
   gbrp
   gbrp10be
   gbrp10le
+  gbrp10msbbe
+  gbrp10msble
   gbrp12be
   gbrp12le
+  gbrp12msbbe
+  gbrp12msble
   gbrp14be
   gbrp14le
   gbrp16be
@@ -601,8 +659,12 @@ Gray:
   gray
   gray10be
   gray10le
+  gray10msbbe
+  gray10msble
   gray12be
   gray12le
+  gray12msbbe
+  gray12msble
   gray14be
   gray14le
   gray16be
@@ -727,8 +789,12 @@ AnyRGB:
   gbrp
   gbrp10be
   gbrp10le
+  gbrp10msbbe
+  gbrp10msble
   gbrp12be
   gbrp12le
+  gbrp12msbbe
+  gbrp12msble
   gbrp14be
   gbrp14le
   gbrp16be
@@ -966,8 +1032,12 @@ Planar:
   gbrp
   gbrp10be
   gbrp10le
+  gbrp10msbbe
+  gbrp10msble
   gbrp12be
   gbrp12le
+  gbrp12msbbe
+  gbrp12msble
   gbrp14be
   gbrp14le
   gbrp16be
@@ -1008,8 +1078,12 @@ Planar:
   yuv420p
   yuv420p10be
   yuv420p10le
+  yuv420p10msbbe
+  yuv420p10msble
   yuv420p12be
   yuv420p12le
+  yuv420p12msbbe
+  yuv420p12msble
   yuv420p14be
   yuv420p14le
   yuv420p16be
@@ -1019,8 +1093,12 @@ Planar:
   yuv422p
   yuv422p10be
   yuv422p10le
+  yuv422p10msbbe
+  yuv422p10msble
   yuv422p12be
   yuv422p12le
+  yuv422p12msbbe
+  yuv422p12msble
   yuv422p14be
   yuv422p14le
   yuv422p16be
@@ -1035,8 +1113,12 @@ Planar:
   yuv444p
   yuv444p10be
   yuv444p10le
+  yuv444p10msbbe
+  yuv444p10msble
   yuv444p12be
   yuv444p12le
+  yuv444p12msbbe
+  yuv444p12msble
   yuv444p14be
   yuv444p14le
   yuv444p16be
@@ -1159,8 +1241,12 @@ PlanarRGB:
   gbrp
   gbrp10be
   gbrp10le
+  gbrp10msbbe
+  gbrp10msble
   gbrp12be
   gbrp12le
+  gbrp12msbbe
+  gbrp12msble
   gbrp14be
   gbrp14le
   gbrp16be
@@ -1181,6 +1267,14 @@ usePal:
   rgb8
 
 DataInHighBits:
+  gbrp10msbbe
+  gbrp10msble
+  gbrp12msbbe
+  gbrp12msble
+  gray10msbbe
+  gray10msble
+  gray12msbbe
+  gray12msble
   p010be
   p010le
   p012be
@@ -1201,6 +1295,18 @@ DataInHighBits:
   y210le
   y212be
   y212le
+  yuv420p10msbbe
+  yuv420p10msble
+  yuv420p12msbbe
+  yuv420p12msble
+  yuv422p10msbbe
+  yuv422p10msble
+  yuv422p12msbbe
+  yuv422p12msble
+  yuv444p10msbbe
+  yuv444p10msble
+  yuv444p12msbbe
+  yuv444p12msble
 
 SwappedChroma:
   nv21

@@ -1,0 +1,27 @@
+Function 'ff_acelp_filter_init'
+Lines executed:0.00% of 4
+
+Function 'ff_tilt_compensation'
+Lines executed:0.00% of 8
+
+Function 'ff_acelp_apply_order_2_transfer_function'
+Lines executed:0.00% of 9
+
+Function 'ff_acelp_high_pass_filter'
+Lines executed:0.00% of 14
+
+Function 'ff_acelp_interpolatef'
+Lines executed:0.00% of 10
+
+Function 'ff_acelp_interpolate'
+Lines executed:0.00% of 13
+
+File 'libavcodec/acelp_filters.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_filters.gcno##libavcodec#acelp_filters.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#acelp_filters.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 58

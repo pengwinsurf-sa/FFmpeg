@@ -1,0 +1,21 @@
+Function 'ff_g722_update_high_predictor'
+Lines executed:0.00% of 13
+
+Function 'ff_g722_update_low_predictor'
+Lines executed:0.00% of 7
+
+Function 'do_adaptive_prediction'
+Lines executed:0.00% of 21
+
+Function 's_zero'
+Lines executed:0.00% of 17
+
+File 'libavcodec/g722.c'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722.gcno##libavcodec#g722.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 58

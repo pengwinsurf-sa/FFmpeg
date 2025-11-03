@@ -1,0 +1,68 @@
+Function 'checkasm_check_vp9dsp'
+Lines executed:100.00% of 6
+
+Function 'check_mc'
+Lines executed:85.11% of 47
+
+Function 'check_loopfilter'
+Lines executed:94.44% of 54
+
+Function 'randomize_loopfilter_buffers'
+Lines executed:100.00% of 47
+
+Function 'check_itxfm'
+Lines executed:97.44% of 39
+
+Function 'copy_subcoefs'
+Lines executed:100.00% of 16
+
+Function 'ftx'
+Lines executed:114.29% of 14
+
+Function 'ftx_2d'
+Lines executed:100.00% of 14
+
+Function 'fadst_1d'
+Lines executed:100.00% of 7
+
+Function 'fadst4_1d'
+Lines executed:100.00% of 7
+
+Function 'fdct_1d'
+Lines executed:100.00% of 8
+
+Function 'fwht_1d'
+Lines executed:100.00% of 11
+
+Function 'check_ipred'
+Lines executed:95.65% of 23
+
+File 'tests/checkasm/vp9dsp.c'
+Lines executed:97.81% of 274
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno##tests#checkasm#vp9dsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vp9dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:96.59% of 293

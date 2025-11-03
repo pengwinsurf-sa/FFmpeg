@@ -1,0 +1,40 @@
+Function 'main'
+Lines executed:0.00% of 171
+
+Function 'update_moov_atom'
+Lines executed:0.00% of 26
+
+Function 'upgrade_stco_callback'
+Lines executed:0.00% of 22
+
+Function 'upgrade_stco_atom'
+Lines executed:0.00% of 19
+
+Function 'set_atom_size'
+Lines executed:0.00% of 9
+
+Function 'update_chunk_offsets_callback'
+Lines executed:0.00% of 16
+
+Function 'update_co64_offsets'
+Lines executed:0.00% of 19
+
+Function 'update_stco_offsets'
+Lines executed:0.00% of 23
+
+Function 'parse_atoms'
+Lines executed:0.00% of 34
+
+File 'tools/qt-faststart.c'
+Lines executed:0.00% of 326
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#qt-faststart.gcno##tools#qt-faststart.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#qt-faststart.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#qt-faststart.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 339

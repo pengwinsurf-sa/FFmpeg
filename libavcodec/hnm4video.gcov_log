@@ -1,0 +1,40 @@
+Function 'hnm_decode_end'
+Lines executed:0.00% of 6
+
+Function 'hnm_decode_init'
+Lines executed:0.00% of 22
+
+Function 'hnm_decode_frame'
+Lines executed:0.00% of 44
+
+Function 'hnm_update_palette'
+Lines executed:0.00% of 32
+
+Function 'decode_interframe_v4a'
+Lines executed:0.00% of 58
+
+Function 'decode_interframe_v4'
+Lines executed:0.00% of 92
+
+Function 'copy_processed_frame'
+Lines executed:0.00% of 10
+
+Function 'postprocess_current_frame'
+Lines executed:0.00% of 13
+
+Function 'unpack_intraframe'
+Lines executed:0.00% of 44
+
+File 'libavcodec/hnm4video.c'
+Lines executed:0.00% of 304
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hnm4video.gcno##libavcodec#hnm4video.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hnm4video.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hnm4video.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 321

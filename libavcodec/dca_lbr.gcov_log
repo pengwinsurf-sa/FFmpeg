@@ -1,0 +1,150 @@
+Function 'ff_dca_lbr_close'
+Lines executed:0.00% of 7
+
+Function 'ff_dca_lbr_init'
+Lines executed:0.00% of 4
+
+Function 'ff_dca_lbr_flush'
+Lines executed:0.00% of 16
+
+Function 'ff_dca_lbr_filter_frame'
+Lines executed:0.00% of 44
+
+Function 'transform_channel'
+Lines executed:0.00% of 21
+
+Function 'base_func_synth'
+Lines executed:0.00% of 8
+
+Function 'synth_tones'
+Lines executed:0.00% of 46
+
+Function 'decode_part_stereo'
+Lines executed:0.00% of 14
+
+Function 'filter_ts'
+Lines executed:0.00% of 52
+
+Function 'synth_lpc'
+Lines executed:0.00% of 14
+
+Function 'predict'
+Lines executed:0.00% of 7
+
+Function 'random_ts'
+Lines executed:0.00% of 24
+
+Function 'decode_grid'
+Lines executed:0.00% of 20
+
+Function 'ff_dca_lbr_parse'
+Lines executed:0.00% of 155
+
+Function 'parse_decoder_init'
+Lines executed:0.00% of 92
+
+Function 'alloc_sample_buffer'
+Lines executed:0.00% of 12
+
+Function 'init_sample_rate'
+Lines executed:0.00% of 23
+
+Function 'parse_ts2_chunk'
+Lines executed:0.00% of 28
+
+Function 'parse_ts1_chunk'
+Lines executed:0.00% of 8
+
+Function 'parse_grid_2'
+Lines executed:0.00% of 45
+
+Function 'parse_high_res_grid'
+Lines executed:0.00% of 46
+
+Function 'parse_lpc'
+Lines executed:0.00% of 12
+
+Function 'convert_lpc'
+Lines executed:0.00% of 11
+
+Function 'parse_ts'
+Lines executed:0.00% of 32
+
+Function 'parse_ch'
+Lines executed:0.00% of 53
+
+Function 'parse_grid_3'
+Lines executed:0.00% of 12
+
+Function 'parse_grid_1_sec_ch'
+Lines executed:0.00% of 13
+
+Function 'parse_grid_1_chunk'
+Lines executed:0.00% of 37
+
+Function 'parse_st_code'
+Lines executed:0.00% of 8
+
+Function 'parse_scale_factors'
+Lines executed:0.00% of 37
+
+Function 'parse_tonal_group'
+Lines executed:0.00% of 6
+
+Function 'parse_tonal_chunk'
+Lines executed:0.00% of 16
+
+Function 'parse_tonal'
+Lines executed:0.00% of 53
+
+Function 'parse_vlc'
+Lines executed:0.00% of 4
+
+Function 'parse_lfe_chunk'
+Lines executed:0.00% of 12
+
+Function 'parse_lfe_16'
+Lines executed:0.00% of 32
+
+Function 'parse_lfe_24'
+Lines executed:0.00% of 36
+
+Function 'ff_dca_lbr_init_tables'
+Lines executed:0.00% of 5
+
+Function 'ff_dca_count_chs_for_mask'
+Lines executed:0.00% of 2
+
+File 'libavcodec/dca_lbr.c'
+Lines executed:0.00% of 975
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavcodec#dca_lbr.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/dca.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_lbr.gcno##libavcodec#dca.h.gcov'
+
+Lines executed:0.00% of 1067

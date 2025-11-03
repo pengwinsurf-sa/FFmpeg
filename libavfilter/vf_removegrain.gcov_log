@@ -1,0 +1,85 @@
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+Function 'filter_slice'
+Lines executed:0.00% of 48
+
+Function 'config_input'
+Lines executed:0.00% of 41
+
+Function 'mode24'
+Lines executed:0.00% of 25
+
+Function 'mode23'
+Lines executed:0.00% of 17
+
+Function 'mode22'
+Lines executed:0.00% of 11
+
+Function 'mode21'
+Lines executed:0.00% of 12
+
+Function 'mode20'
+Lines executed:0.00% of 4
+
+Function 'mode19'
+Lines executed:0.00% of 4
+
+Function 'mode18'
+Lines executed:0.00% of 13
+
+Function 'mode17'
+Lines executed:0.00% of 5
+
+Function 'mode1516'
+Lines executed:0.00% of 11
+
+Function 'mode1314'
+Lines executed:0.00% of 10
+
+Function 'mode1112'
+Lines executed:0.00% of 4
+
+Function 'mode10'
+Lines executed:0.00% of 17
+
+Function 'mode09'
+Lines executed:0.00% of 14
+
+Function 'mode08'
+Lines executed:0.00% of 22
+
+Function 'mode07'
+Lines executed:0.00% of 19
+
+Function 'mode06'
+Lines executed:0.00% of 19
+
+Function 'mode05'
+Lines executed:0.00% of 14
+
+Function 'mode04'
+Lines executed:0.00% of 8
+
+Function 'mode03'
+Lines executed:0.00% of 4
+
+Function 'mode02'
+Lines executed:0.00% of 4
+
+Function 'mode01'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_removegrain.c'
+Lines executed:0.00% of 351
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_removegrain.gcno##libavfilter#vf_removegrain.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_removegrain.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_removegrain.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 359

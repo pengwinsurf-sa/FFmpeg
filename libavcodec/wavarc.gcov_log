@@ -1,0 +1,78 @@
+Function 'wavarc_close'
+Lines executed:0.00% of 5
+
+Function 'wavarc_decode'
+Lines executed:0.00% of 95
+
+Function 'decode_5elp'
+Lines executed:0.00% of 169
+
+Function 'ac_read_model'
+Lines executed:0.00% of 15
+
+Function 'ac_init_model'
+Lines executed:0.00% of 5
+
+Function 'ac_normalize'
+Lines executed:0.00% of 28
+
+Function 'decode_2slp'
+Lines executed:0.00% of 66
+
+Function 'decode_1dif'
+Lines executed:0.00% of 54
+
+Function 'decode_0cpy'
+Lines executed:0.00% of 18
+
+Function 'do_stereo'
+Lines executed:0.00% of 18
+
+Function 'get_urice'
+Lines executed:0.00% of 9
+
+Function 'wavarc_init'
+Lines executed:0.00% of 33
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/wavarc.c'
+Lines executed:0.00% of 458
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavcodec#wavarc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 60
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wavarc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 549

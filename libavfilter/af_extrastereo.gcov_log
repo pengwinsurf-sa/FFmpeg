@@ -1,0 +1,15 @@
+Function 'filter_frame'
+Lines executed:0.00% of 34
+
+Function 'query_formats'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_extrastereo.c'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_extrastereo.gcno##libavfilter#af_extrastereo.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_extrastereo.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 42

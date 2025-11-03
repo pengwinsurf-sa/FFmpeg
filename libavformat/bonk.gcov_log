@@ -1,0 +1,11 @@
+Function 'bonk_read_header'
+Lines executed:0.00% of 32
+
+Function 'bonk_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/bonk.c'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bonk.gcno##libavformat#bonk.c.gcov'
+
+Lines executed:0.00% of 43

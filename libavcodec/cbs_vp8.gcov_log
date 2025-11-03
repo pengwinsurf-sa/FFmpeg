@@ -1,0 +1,79 @@
+Function 'cbs_vp8_assemble_fragment'
+Lines executed:0.00% of 2
+
+Function 'cbs_vp8_write_unit'
+Lines executed:0.00% of 2
+
+Function 'cbs_vp8_read_unit'
+Lines executed:0.00% of 59
+
+Function 'cbs_vp8_split_fragment'
+Lines executed:0.00% of 5
+
+Function 'cbs_vp8_read_frame_header'
+Lines executed:0.00% of 42
+
+Function 'cbs_vp8_read_frame_tag'
+Lines executed:0.00% of 13
+
+Function 'cbs_vp8_read_update_mv_probs'
+Lines executed:0.00% of 6
+
+Function 'cbs_vp8_read_update_token_probs'
+Lines executed:0.00% of 8
+
+Function 'cbs_vp8_read_quantization_params'
+Lines executed:0.00% of 17
+
+Function 'cbs_vp8_read_mode_ref_lf_deltas'
+Lines executed:0.00% of 13
+
+Function 'cbs_vp8_read_update_segmentation'
+Lines executed:0.00% of 18
+
+Function 'cbs_vp8_read_unsigned_le'
+Lines executed:0.00% of 27
+
+Function 'cbs_vp8_bool_decoder_read_signed'
+Lines executed:0.00% of 16
+
+Function 'cbs_vp8_bool_decoder_read_unsigned'
+Lines executed:0.00% of 12
+
+Function 'cbs_vp8_bool_decoder_read_literal'
+Lines executed:0.00% of 9
+
+Function 'cbs_vp8_bool_decoder_read_bool'
+Lines executed:0.00% of 14
+
+Function 'cbs_vp8_bool_decoder_fill_value'
+Lines executed:0.00% of 8
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/cbs_vp8.c'
+Lines executed:0.00% of 116
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp8.gcno##libavcodec#cbs_vp8.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp8.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/cbs_vp8_syntax_template.c'
+Lines executed:0.00% of 122
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp8.gcno##libavcodec#cbs_vp8_syntax_template.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp8.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp8.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_vp8.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 290

@@ -1,0 +1,65 @@
+Function 'ogg_free'
+Lines executed:0.00% of 18
+
+Function 'ogg_write_trailer'
+Lines executed:0.00% of 8
+
+Function 'ogg_write_packet'
+Lines executed:0.00% of 10
+
+Function 'ogg_write_packet_internal'
+Lines executed:0.00% of 36
+
+Function 'ogg_write_header'
+Lines executed:0.00% of 19
+
+Function 'ogg_init'
+Lines executed:0.00% of 86
+
+Function 'ogg_write_pages'
+Lines executed:0.00% of 15
+
+Function 'ogg_build_vp8_headers'
+Lines executed:0.00% of 37
+
+Function 'ogg_build_opus_headers'
+Lines executed:0.00% of 13
+
+Function 'ogg_build_speex_headers'
+Lines executed:0.00% of 13
+
+Function 'ogg_build_flac_headers'
+Lines executed:0.00% of 22
+
+Function 'ogg_write_vorbiscomment'
+Lines executed:0.00% of 16
+
+Function 'ogg_buffer_data'
+Lines executed:0.00% of 57
+
+Function 'ogg_buffer_page'
+Lines executed:0.00% of 21
+
+Function 'ogg_compare_granule'
+Lines executed:0.00% of 10
+
+Function 'ogg_write_page'
+Lines executed:0.00% of 25
+
+File 'libavformat/oggenc.c'
+Lines executed:0.00% of 388
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggenc.gcno##libavformat#oggenc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 406

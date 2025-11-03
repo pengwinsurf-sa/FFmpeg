@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_90a14a333df98fd12de6b9fd435d7b07" kind="dir">
+    <compoundname>libswscale</compoundname>
+    <innerfile refid="swscale_8h">swscale.h</innerfile>
+    <innerfile refid="libswscale_2version_8h">version.h</innerfile>
+    <innerfile refid="libswscale_2version__major_8h">version_major.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libswscale/"/>
+  </compounddef>
+</doxygen>

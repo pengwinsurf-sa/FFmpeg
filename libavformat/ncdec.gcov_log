@@ -1,0 +1,18 @@
+Function 'nc_read_packet'
+Lines executed:0.00% of 17
+
+Function 'nc_read_header'
+Lines executed:0.00% of 8
+
+Function 'nc_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/ncdec.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ncdec.gcno##libavformat#ncdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ncdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 34

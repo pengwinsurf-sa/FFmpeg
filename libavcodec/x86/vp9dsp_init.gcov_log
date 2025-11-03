@@ -1,0 +1,656 @@
+Function 'ff_vp9dsp_init_x86'
+Lines executed:94.12% of 136
+
+Function 'avg_8tap_smooth_32v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64v_8_avx2'
+Lines executed:100.00% of 2
+
+Function 'avg_8tap_sharp_64v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_64h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64v_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64h_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_4v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_4v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_4v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_4h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_4h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_4h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_8v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_8v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_8v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_8h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_8h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_8h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_16v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_16v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_16v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_16h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_16h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_16h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32v_8_ssse3'
+Lines executed:100.00% of 2
+
+Function 'avg_8tap_sharp_32v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64v_8_ssse3'
+Lines executed:100.00% of 2
+
+Function 'avg_8tap_sharp_64v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_64h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_4v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_4v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_4v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_4h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_4h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_4h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_8v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_8v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_8v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_8h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_8h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_8h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_16v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_16v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_16v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_16h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_16h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_16h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64v_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64h_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_4v_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_4v_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_4v_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_4h_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_4h_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_4h_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_8v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_8v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_8v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_8h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_8h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_8h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_16v_8_sse2'
+Lines executed:100.00% of 2
+
+Function 'avg_8tap_sharp_16v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_16v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_16h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_16h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_16h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32v_8_sse2'
+Lines executed:100.00% of 2
+
+Function 'avg_8tap_sharp_32v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64v_8_sse2'
+Lines executed:100.00% of 2
+
+Function 'avg_8tap_sharp_64v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_64h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_4v_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_4v_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_4v_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_4h_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_4h_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_4h_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_8v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_8v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_8v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_8h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_8h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_8h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_16v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_16v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_16v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_16h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_16h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_16h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64v_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64h_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_64hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64hv_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_4hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_4hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_4hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_8hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_8hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_8hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_16hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_16hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_16hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_64hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_4hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_4hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_4hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_8hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_8hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_8hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_16hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_16hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_16hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64hv_8_ssse3'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_4hv_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_4hv_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_4hv_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_8hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_8hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_8hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_16hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_16hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_16hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_32hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_32hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_32hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_smooth_64hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_sharp_64hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_8tap_regular_64hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_4hv_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_4hv_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_4hv_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_8hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_8hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_8hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_16hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_16hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_16hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_32hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_32hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_32hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_smooth_64hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_sharp_64hv_8_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_8tap_regular_64hv_8_sse2'
+Lines executed:100.00% of 1
+
+File 'libavcodec/x86/vp9dsp_init.c'
+Lines executed:97.86% of 374
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#vp9dsp_init.gcno##libavcodec#x86#vp9dsp_init.c.gcov'
+
+Lines executed:97.86% of 374

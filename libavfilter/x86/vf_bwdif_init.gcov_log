@@ -1,0 +1,8 @@
+Function 'ff_bwdif_init_x86'
+Lines executed:100.00% of 17
+
+File 'libavfilter/x86/vf_bwdif_init.c'
+Lines executed:100.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_bwdif_init.gcno##libavfilter#x86#vf_bwdif_init.c.gcov'
+
+Lines executed:100.00% of 17

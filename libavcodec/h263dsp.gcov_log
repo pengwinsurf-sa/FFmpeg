@@ -1,0 +1,18 @@
+Function 'ff_h263dsp_init'
+Lines executed:100.00% of 5
+
+Function 'h263_v_loop_filter_c'
+Lines executed:90.62% of 32
+
+Function 'h263_h_loop_filter_c'
+Lines executed:89.66% of 29
+
+File 'libavcodec/h263dsp.c'
+Lines executed:90.48% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dsp.gcno##libavcodec#h263dsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:90.91% of 66

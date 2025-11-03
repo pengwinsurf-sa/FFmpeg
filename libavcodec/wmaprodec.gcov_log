@@ -1,0 +1,133 @@
+Function 'xma_flush'
+Lines executed:0.00% of 11
+
+Function 'wmapro_flush'
+Lines executed:0.00% of 4
+
+Function 'flush'
+Lines executed:0.00% of 11
+
+Function 'xma_decode_end'
+Lines executed:0.00% of 11
+
+Function 'xma_decode_init'
+Lines executed:0.00% of 42
+
+Function 'xma_decode_packet'
+Lines executed:0.00% of 69
+
+Function 'wmapro_decode_packet'
+Lines executed:0.00% of 8
+
+Function 'decode_packet'
+Lines executed:0.00% of 133
+
+Function 'save_bits'
+Lines executed:0.00% of 42
+
+Function 'decode_frame'
+Lines executed:0.00% of 68
+
+Function 'decode_subframe'
+Lines executed:0.00% of 134
+
+Function 'wmapro_window'
+Lines executed:0.00% of 15
+
+Function 'inverse_channel_transform'
+Lines executed:0.00% of 32
+
+Function 'decode_scale_factors'
+Lines executed:0.00% of 65
+
+Function 'decode_coeffs'
+Lines executed:0.00% of 63
+
+Function 'decode_channel_transform'
+Lines executed:0.00% of 59
+
+Function 'decode_decorrelation_matrix'
+Lines executed:0.00% of 29
+
+Function 'decode_tilehdr'
+Lines executed:0.00% of 45
+
+Function 'decode_subframe_length'
+Lines executed:0.00% of 15
+
+Function 'wmapro_decode_init'
+Lines executed:0.00% of 3
+
+Function 'decode_init'
+Lines executed:0.00% of 151
+
+Function 'decode_init_static'
+Lines executed:0.00% of 17
+
+Function 'get_rate'
+Lines executed:0.00% of 7
+
+Function 'wmapro_decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_end'
+Lines executed:0.00% of 6
+
+Function 'dump_context'
+Lines executed:0.00% of 9
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/wmaprodec.c'
+Lines executed:0.00% of 963
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavcodec#wmaprodec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavutil#ffmath.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmaprodec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 1119

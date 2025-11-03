@@ -1,0 +1,35 @@
+Function 'hap_close'
+Lines executed:0.00% of 4
+
+Function 'hap_init'
+Lines executed:0.00% of 57
+
+Function 'hap_decode'
+Lines executed:0.00% of 71
+
+Function 'decompress_chunks_thread'
+Lines executed:0.00% of 22
+
+Function 'hap_parse_frame_header'
+Lines executed:0.00% of 50
+
+Function 'hap_parse_decode_instructions'
+Lines executed:0.00% of 40
+
+File 'libavcodec/hapdec.c'
+Lines executed:0.00% of 217
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hapdec.gcno##libavcodec#hapdec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hapdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hapdec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hapdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 244

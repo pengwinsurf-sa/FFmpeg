@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mastering__display__metadata_8h" kind="file" language="C++">
+    <compoundname>mastering_display_metadata.h</compoundname>
+    <includes refid="frame_8h" local="yes">frame.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="5">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/mastering_display_metadata.h</label>
+        <link refid="mastering__display__metadata_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>errno.h</label>
+      </node>
+      <node id="8">
+        <label>inttypes.h</label>
+      </node>
+      <node id="17">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="24">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVMasteringDisplayMetadata" prot="public">AVMasteringDisplayMetadata</innerclass>
+    <innerclass refid="structAVContentLightMetadata" prot="public">AVContentLightMetadata</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="mastering__display__metadata_8h_1a3212f64c936fa1442103d571d405c160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> *</type>
+        <definition>AVMasteringDisplayMetadata * av_mastering_display_metadata_alloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_mastering_display_metadata_alloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> structure and set its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The resulting struct can be freed using <ref refid="group__lavu__mem__funcs_1ga0cc84043ea2167ad005c86e11d0bcdba" kindref="member">av_freep()</ref>.</para>
+<para><simplesect kind="return"><para>An <ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> filled with default values or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="78" column="28" declfile="libavutil/mastering_display_metadata.h" declline="78" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="mastering__display__metadata_8h_1a72873251693595915c55ff96765c64dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> *</type>
+        <definition>AVMasteringDisplayMetadata * av_mastering_display_metadata_alloc_size</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_mastering_display_metadata_alloc_size</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> structure and set its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The resulting struct can be freed using <ref refid="group__lavu__mem__funcs_1ga0cc84043ea2167ad005c86e11d0bcdba" kindref="member">av_freep()</ref>.</para>
+<para><simplesect kind="return"><para>An <ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> filled with default values or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="87" column="28" declfile="libavutil/mastering_display_metadata.h" declline="87" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="mastering__display__metadata_8h_1acb784f11b2b44500b594ed7d311f9876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> *</type>
+        <definition>AVMasteringDisplayMetadata * av_mastering_display_metadata_create_side_data</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>av_mastering_display_metadata_create_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a complete <ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> and add it to the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frame which side data is added to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref> structure to be filled by caller. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="96" column="28" declfile="libavutil/mastering_display_metadata.h" declline="96" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="mastering__display__metadata_8h_1a686b55b7e63bc8ec4df356645f12ee9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref> *</type>
+        <definition>AVContentLightMetadata * av_content_light_metadata_alloc</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_content_light_metadata_alloc</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref> structure and set its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The resulting struct can be freed using <ref refid="group__lavu__mem__funcs_1ga0cc84043ea2167ad005c86e11d0bcdba" kindref="member">av_freep()</ref>.</para>
+<para><simplesect kind="return"><para>An <ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref> filled with default values or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="126" column="24" declfile="libavutil/mastering_display_metadata.h" declline="126" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="mastering__display__metadata_8h_1a6f05d210285c3b4ad60e73b0b8ceafa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref> *</type>
+        <definition>AVContentLightMetadata * av_content_light_metadata_create_side_data</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>av_content_light_metadata_create_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a complete <ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref> and add it to the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frame which side data is added to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref> structure to be filled by caller. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="135" column="24" declfile="libavutil/mastering_display_metadata.h" declline="135" declcolumn="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2016<sp/>Neil<sp/>Birkbeck<sp/>&lt;neil.birkbeck@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_MASTERING_DISPLAY_METADATA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_MASTERING_DISPLAY_METADATA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="28"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Mastering<sp/>display<sp/>metadata<sp/>capable<sp/>of<sp/>representing<sp/>the<sp/>color<sp/>volume<sp/>of</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>the<sp/>display<sp/>used<sp/>to<sp/>master<sp/>the<sp/>content<sp/>(SMPTE<sp/>2086:2014).</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>To<sp/>be<sp/>used<sp/>as<sp/>payload<sp/>of<sp/>a<sp/>AVFrameSideData<sp/>or<sp/>AVPacketSideData<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>appropriate<sp/>type.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>should<sp/>be<sp/>allocated<sp/>with<sp/>av_mastering_display_metadata_alloc()</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>and<sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structAVMasteringDisplayMetadata" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>CIE<sp/>1931<sp/>xy<sp/>chromaticity<sp/>coords<sp/>of<sp/>color<sp/>primaries<sp/>(r,<sp/>g,<sp/>b<sp/>order).</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structAVMasteringDisplayMetadata_1a633e0a725537b96ec81834da7e843219" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVMasteringDisplayMetadata_1a633e0a725537b96ec81834da7e843219" kindref="member">display_primaries</ref>[3][2];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>CIE<sp/>1931<sp/>xy<sp/>chromaticity<sp/>coords<sp/>of<sp/>white<sp/>point.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structAVMasteringDisplayMetadata_1a968384052f48e91fc57b3c61b9f68224" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVMasteringDisplayMetadata_1a968384052f48e91fc57b3c61b9f68224" kindref="member">white_point</ref>[2];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Min<sp/>luminance<sp/>of<sp/>mastering<sp/>display<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structAVMasteringDisplayMetadata_1a4ad2e7f456d7763060c25e92be573341" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVMasteringDisplayMetadata_1a4ad2e7f456d7763060c25e92be573341" kindref="member">min_luminance</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Max<sp/>luminance<sp/>of<sp/>mastering<sp/>display<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="structAVMasteringDisplayMetadata_1a45890b654337321044a5b13c5e5961c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVMasteringDisplayMetadata_1a45890b654337321044a5b13c5e5961c5" kindref="member">max_luminance</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Flag<sp/>indicating<sp/>whether<sp/>the<sp/>display<sp/>primaries<sp/>(and<sp/>white<sp/>point)<sp/>are<sp/>set.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structAVMasteringDisplayMetadata_1a0e30962e66d883ddba77fac5af55d3af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVMasteringDisplayMetadata_1a0e30962e66d883ddba77fac5af55d3af" kindref="member">has_primaries</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Flag<sp/>indicating<sp/>whether<sp/>the<sp/>luminance<sp/>(min_<sp/>and<sp/>max_)<sp/>have<sp/>been<sp/>set.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structAVMasteringDisplayMetadata_1addf45817ef0970905e650aff3907ce4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVMasteringDisplayMetadata_1addf45817ef0970905e650aff3907ce4d" kindref="member">has_luminance</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}<sp/><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="71"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVMasteringDisplayMetadata<sp/>structure<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>default<sp/>values.<sp/>The<sp/>resulting<sp/>struct<sp/>can<sp/>be<sp/>freed<sp/>using<sp/>av_freep().</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>AVMasteringDisplayMetadata<sp/>filled<sp/>with<sp/>default<sp/>values<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="mastering__display__metadata_8h_1a3212f64c936fa1442103d571d405c160" refkind="member"><highlight class="normal"><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref><sp/>*<ref refid="mastering__display__metadata_8h_1a3212f64c936fa1442103d571d405c160" kindref="member">av_mastering_display_metadata_alloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="80"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVMasteringDisplayMetadata<sp/>structure<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>default<sp/>values.<sp/>The<sp/>resulting<sp/>struct<sp/>can<sp/>be<sp/>freed<sp/>using<sp/>av_freep().</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>AVMasteringDisplayMetadata<sp/>filled<sp/>with<sp/>default<sp/>values<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="mastering__display__metadata_8h_1a72873251693595915c55ff96765c64dc" refkind="member"><highlight class="normal"><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref><sp/>*<ref refid="mastering__display__metadata_8h_1a72873251693595915c55ff96765c64dc" kindref="member">av_mastering_display_metadata_alloc_size</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="89"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>complete<sp/>AVMasteringDisplayMetadata<sp/>and<sp/>add<sp/>it<sp/>to<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>The<sp/>frame<sp/>which<sp/>side<sp/>data<sp/>is<sp/>added<sp/>to.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>AVMasteringDisplayMetadata<sp/>structure<sp/>to<sp/>be<sp/>filled<sp/>by<sp/>caller.</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="mastering__display__metadata_8h_1acb784f11b2b44500b594ed7d311f9876" refkind="member"><highlight class="normal"><ref refid="structAVMasteringDisplayMetadata" kindref="compound">AVMasteringDisplayMetadata</ref><sp/>*<ref refid="mastering__display__metadata_8h_1acb784f11b2b44500b594ed7d311f9876" kindref="member">av_mastering_display_metadata_create_side_data</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="98"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>Content<sp/>light<sp/>level<sp/>needed<sp/>by<sp/>to<sp/>transmit<sp/>HDR<sp/>over<sp/>HDMI<sp/>(CTA-861.3).</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>To<sp/>be<sp/>used<sp/>as<sp/>payload<sp/>of<sp/>a<sp/>AVFrameSideData<sp/>or<sp/>AVPacketSideData<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>appropriate<sp/>type.</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>should<sp/>be<sp/>allocated<sp/>with<sp/>av_content_light_metadata_alloc()</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>and<sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="structAVContentLightMetadata" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Max<sp/>content<sp/>light<sp/>level<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="structAVContentLightMetadata_1a9d2d7743a599c9b2f2a07a9504625b92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="structAVContentLightMetadata_1a9d2d7743a599c9b2f2a07a9504625b92" kindref="member">MaxCLL</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Max<sp/>average<sp/>light<sp/>level<sp/>per<sp/>frame<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="structAVContentLightMetadata_1a4e9bfc44c6b87bbf096141fae12e1692" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="structAVContentLightMetadata_1a4e9bfc44c6b87bbf096141fae12e1692" kindref="member">MaxFALL</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}<sp/><ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="119"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVContentLightMetadata<sp/>structure<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>default<sp/>values.<sp/>The<sp/>resulting<sp/>struct<sp/>can<sp/>be<sp/>freed<sp/>using<sp/>av_freep().</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>AVContentLightMetadata<sp/>filled<sp/>with<sp/>default<sp/>values<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="mastering__display__metadata_8h_1a686b55b7e63bc8ec4df356645f12ee9d" refkind="member"><highlight class="normal"><ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref><sp/>*<ref refid="mastering__display__metadata_8h_1a686b55b7e63bc8ec4df356645f12ee9d" kindref="member">av_content_light_metadata_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="128"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>complete<sp/>AVContentLightMetadata<sp/>and<sp/>add<sp/>it<sp/>to<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>The<sp/>frame<sp/>which<sp/>side<sp/>data<sp/>is<sp/>added<sp/>to.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>AVContentLightMetadata<sp/>structure<sp/>to<sp/>be<sp/>filled<sp/>by<sp/>caller.</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="mastering__display__metadata_8h_1a6f05d210285c3b4ad60e73b0b8ceafa9" refkind="member"><highlight class="normal"><ref refid="structAVContentLightMetadata" kindref="compound">AVContentLightMetadata</ref><sp/>*<ref refid="mastering__display__metadata_8h_1a6f05d210285c3b4ad60e73b0b8ceafa9" kindref="member">av_content_light_metadata_create_side_data</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_MASTERING_DISPLAY_METADATA_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/mastering_display_metadata.h"/>
+  </compounddef>
+</doxygen>

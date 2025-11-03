@@ -1,0 +1,46 @@
+Function 'sbc_encode_frame'
+Lines executed:0.00% of 35
+
+Function 'sbc_encode_init'
+Lines executed:0.00% of 59
+
+Function 'sbc_pack_frame'
+Lines executed:0.00% of 73
+
+Function 'sbc_analyze_audio'
+Lines executed:0.00% of 22
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/sbcenc.c'
+Lines executed:0.00% of 166
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcenc.gcno##libavcodec#sbcenc.c.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcenc.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcenc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 224

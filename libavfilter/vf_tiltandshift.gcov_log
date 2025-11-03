@@ -1,0 +1,27 @@
+Function 'request_frame'
+Lines executed:0.00% of 15
+
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'output_frame'
+Lines executed:0.00% of 40
+
+Function 'copy_column'
+Lines executed:0.00% of 15
+
+Function 'config_props'
+Lines executed:0.00% of 32
+
+Function 'uninit'
+Lines executed:0.00% of 7
+
+File 'libavfilter/vf_tiltandshift.c'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tiltandshift.gcno##libavfilter#vf_tiltandshift.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_tiltandshift.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 126

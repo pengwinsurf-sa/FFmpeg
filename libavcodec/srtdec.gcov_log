@@ -1,0 +1,11 @@
+Function 'srt_decode_frame'
+Lines executed:0.00% of 21
+
+Function 'srt_to_ass'
+Lines executed:0.00% of 12
+
+File 'libavcodec/srtdec.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#srtdec.gcno##libavcodec#srtdec.c.gcov'
+
+Lines executed:0.00% of 33

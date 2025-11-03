@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVBufferSrcParameters" kind="struct" language="C++" prot="public">
+    <compoundname>AVBufferSrcParameters</compoundname>
+    <includes refid="buffersrc_8h" local="no">libavfilter/buffersrc.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a56f28f81f1a86cecc39a8d61674912b8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVBufferSrcParameters::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <qualifiedname>AVBufferSrcParameters::format</qualifiedname>
+        <briefdescription>
+<para>video: the pixel format, value corresponds to enum AVPixelFormat audio: the sample format, value corresponds to enum AVSampleFormat </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="78" column="9" bodyfile="libavfilter/buffersrc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a7767325c1259942a33586f05c90e38b0" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational AVBufferSrcParameters::time_base</definition>
+        <argsstring></argsstring>
+        <name>time_base</name>
+        <qualifiedname>AVBufferSrcParameters::time_base</qualifiedname>
+        <briefdescription>
+<para>The timebase to be used for the timestamps on the input frames. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="82" column="16" bodyfile="libavfilter/buffersrc.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a6c6f3d9ed8b427070e9055e7ac61263f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVBufferSrcParameters::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>AVBufferSrcParameters::width</qualifiedname>
+        <briefdescription>
+<para>Video only, the display dimensions of the input frames. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="87" column="9" bodyfile="libavfilter/buffersrc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a89783d603b84908fb1998bbbea981b70" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVBufferSrcParameters::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>AVBufferSrcParameters::height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="87" column="15" bodyfile="libavfilter/buffersrc.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1ae47c141ea7a7770351613242229f951a" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational AVBufferSrcParameters::sample_aspect_ratio</definition>
+        <argsstring></argsstring>
+        <name>sample_aspect_ratio</name>
+        <qualifiedname>AVBufferSrcParameters::sample_aspect_ratio</qualifiedname>
+        <briefdescription>
+<para>Video only, the sample (pixel) aspect ratio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="92" column="16" bodyfile="libavfilter/buffersrc.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a032a202496206e18449c66233058647a" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational AVBufferSrcParameters::frame_rate</definition>
+        <argsstring></argsstring>
+        <name>frame_rate</name>
+        <qualifiedname>AVBufferSrcParameters::frame_rate</qualifiedname>
+        <briefdescription>
+<para>Video only, the frame rate of the input video. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This field must only be set to a non-zero value if input stream has a known constant framerate and should be left at its initial value if the framerate is variable or unknown. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="100" column="16" bodyfile="libavfilter/buffersrc.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a86c49b4202433037c9e2b0b6ae541534" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVBufferRef" kindref="compound">AVBufferRef</ref> *</type>
+        <definition>AVBufferRef* AVBufferSrcParameters::hw_frames_ctx</definition>
+        <argsstring></argsstring>
+        <name>hw_frames_ctx</name>
+        <qualifiedname>AVBufferSrcParameters::hw_frames_ctx</qualifiedname>
+        <briefdescription>
+<para>Video with a hwaccel pixel format only. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This should be a reference to an <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> instance describing the input frames. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="106" column="17" bodyfile="libavfilter/buffersrc.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a34a1613f1e80f8520c159fac59e29834" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVBufferSrcParameters::sample_rate</definition>
+        <argsstring></argsstring>
+        <name>sample_rate</name>
+        <qualifiedname>AVBufferSrcParameters::sample_rate</qualifiedname>
+        <briefdescription>
+<para>Audio only, the audio sampling rate in samples per second. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="111" column="9" bodyfile="libavfilter/buffersrc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a5267368bf88b4f2a65a5e06ac3f9ecd4" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVChannelLayout" kindref="compound">AVChannelLayout</ref></type>
+        <definition>AVChannelLayout AVBufferSrcParameters::ch_layout</definition>
+        <argsstring></argsstring>
+        <name>ch_layout</name>
+        <qualifiedname>AVBufferSrcParameters::ch_layout</qualifiedname>
+        <briefdescription>
+<para>Audio only, the audio channel layout. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="116" column="21" bodyfile="libavfilter/buffersrc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a700226626af70f787c930d7506554757" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="pixfmt_8h_1aff71a069509a1ad3ff54d53a1c894c85" kindref="member">AVColorSpace</ref></type>
+        <definition>enum AVColorSpace AVBufferSrcParameters::color_space</definition>
+        <argsstring></argsstring>
+        <name>color_space</name>
+        <qualifiedname>AVBufferSrcParameters::color_space</qualifiedname>
+        <briefdescription>
+<para>Video only, the YUV colorspace and range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="121" column="22" bodyfile="libavfilter/buffersrc.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a442add2b039f416dd7c92ccf1ccd0d3b" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="pixfmt_8h_1a3da0bf691418bc22c4bcbe6583ad589a" kindref="member">AVColorRange</ref></type>
+        <definition>enum AVColorRange AVBufferSrcParameters::color_range</definition>
+        <argsstring></argsstring>
+        <name>color_range</name>
+        <qualifiedname>AVBufferSrcParameters::color_range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="122" column="22" bodyfile="libavfilter/buffersrc.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1a3f2bbc52123b210e16de3a2a2c680889" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVFrameSideData" kindref="compound">AVFrameSideData</ref> **</type>
+        <definition>AVFrameSideData** AVBufferSrcParameters::side_data</definition>
+        <argsstring></argsstring>
+        <name>side_data</name>
+        <qualifiedname>AVBufferSrcParameters::side_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="124" column="21" bodyfile="libavfilter/buffersrc.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVBufferSrcParameters_1ab779c7ebe73c514ffda6be4e43cf4deb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVBufferSrcParameters::nb_side_data</definition>
+        <argsstring></argsstring>
+        <name>nb_side_data</name>
+        <qualifiedname>AVBufferSrcParameters::nb_side_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersrc.h" line="125" column="9" bodyfile="libavfilter/buffersrc.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This structure contains the parameters describing the frames that will be passed to this filter. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>It should be allocated with <ref refid="group__lavfi__buffersrc_1gaedea0ed7a56d424274960bfff78f6477" kindref="member">av_buffersrc_parameters_alloc()</ref> and freed with <ref refid="group__lavu__mem__funcs_1ga0c9096f498624c525aa2315b8a20c411" kindref="member">av_free()</ref>. All the allocated fields in it remain owned by the caller. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>AVBufferRef</label>
+        <link refid="structAVBufferRef"/>
+      </node>
+      <node id="1">
+        <label>AVBufferSrcParameters</label>
+        <link refid="structAVBufferSrcParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>frame_rate</edgelabel>
+          <edgelabel>sample_aspect_ratio</edgelabel>
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>hw_frames_ctx</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ch_layout</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>side_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AVChannelCustom</label>
+        <link refid="structAVChannelCustom"/>
+      </node>
+      <node id="4">
+        <label>AVChannelLayout</label>
+        <link refid="structAVChannelLayout"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>map</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AVFrameSideData</label>
+        <link refid="structAVFrameSideData"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavfilter/buffersrc.h" line="73" column="1" bodyfile="libavfilter/buffersrc.h" bodystart="73" bodyend="126"/>
+    <listofallmembers>
+      <member refid="structAVBufferSrcParameters_1a5267368bf88b4f2a65a5e06ac3f9ecd4" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>ch_layout</name></member>
+      <member refid="structAVBufferSrcParameters_1a442add2b039f416dd7c92ccf1ccd0d3b" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>color_range</name></member>
+      <member refid="structAVBufferSrcParameters_1a700226626af70f787c930d7506554757" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>color_space</name></member>
+      <member refid="structAVBufferSrcParameters_1a56f28f81f1a86cecc39a8d61674912b8" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>format</name></member>
+      <member refid="structAVBufferSrcParameters_1a032a202496206e18449c66233058647a" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>frame_rate</name></member>
+      <member refid="structAVBufferSrcParameters_1a89783d603b84908fb1998bbbea981b70" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>height</name></member>
+      <member refid="structAVBufferSrcParameters_1a86c49b4202433037c9e2b0b6ae541534" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>hw_frames_ctx</name></member>
+      <member refid="structAVBufferSrcParameters_1ab779c7ebe73c514ffda6be4e43cf4deb" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>nb_side_data</name></member>
+      <member refid="structAVBufferSrcParameters_1ae47c141ea7a7770351613242229f951a" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>sample_aspect_ratio</name></member>
+      <member refid="structAVBufferSrcParameters_1a34a1613f1e80f8520c159fac59e29834" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>sample_rate</name></member>
+      <member refid="structAVBufferSrcParameters_1a3f2bbc52123b210e16de3a2a2c680889" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>side_data</name></member>
+      <member refid="structAVBufferSrcParameters_1a7767325c1259942a33586f05c90e38b0" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>time_base</name></member>
+      <member refid="structAVBufferSrcParameters_1a6c6f3d9ed8b427070e9055e7ac61263f" prot="public" virt="non-virtual"><scope>AVBufferSrcParameters</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

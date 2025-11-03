@@ -1,0 +1,36 @@
+Function 'main'
+Lines executed:0.00% of 50
+
+Function 'ff_pca'
+Lines executed:0.00% of 59
+
+Function 'ff_pca_add'
+Lines executed:0.00% of 9
+
+Function 'ff_pca_free'
+Lines executed:0.00% of 6
+
+Function 'ff_pca_init'
+Lines executed:0.00% of 13
+
+File 'libavutil/tests/pca.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pca.gcno##libavutil#tests#pca.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pca.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pca.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pca.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/pca.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pca.gcno##libavutil#pca.c.gcov'
+
+Lines executed:0.00% of 137

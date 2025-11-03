@@ -1,0 +1,16 @@
+Function 'bmp_decode_frame'
+Lines executed:0.00% of 218
+
+File 'libavcodec/bmp.c'
+Lines executed:0.00% of 205
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmp.gcno##libavcodec#bmp.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmp.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 218

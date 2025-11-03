@@ -1,0 +1,70 @@
+Function 'ff_set_qscale'
+Lines executed:0.00% of 8
+
+Function 'ff_init_block_index'
+Lines executed:0.00% of 23
+
+Function 'ff_clean_intra_table_entries'
+Lines executed:0.00% of 19
+
+Function 'ff_mpv_common_end'
+Lines executed:0.00% of 11
+
+Function 'ff_mpv_free_context_frame'
+Lines executed:0.00% of 19
+
+Function 'ff_mpv_common_init'
+Lines executed:0.00% of 21
+
+Function 'ff_mpv_init_context_frame'
+Lines executed:0.00% of 89
+
+Function 'free_buffer_pools'
+Lines executed:0.00% of 10
+
+Function 'ff_mpv_common_defaults'
+Lines executed:0.00% of 8
+
+Function 'ff_update_duplicate_context'
+Lines executed:0.00% of 11
+
+Function 'free_duplicate_contexts'
+Lines executed:0.00% of 6
+
+Function 'free_duplicate_context'
+Lines executed:0.00% of 8
+
+Function 'ff_mpv_init_duplicate_contexts'
+Lines executed:0.00% of 16
+
+Function 'init_duplicate_context'
+Lines executed:0.00% of 4
+
+Function 'ff_mpv_idct_init'
+Lines executed:0.00% of 13
+
+Function 'ff_init_scantable'
+Lines executed:0.00% of 8
+
+Function 'dsp_init'
+Lines executed:0.00% of 13
+
+Function 'gray8'
+Lines executed:0.00% of 4
+
+Function 'gray16'
+Lines executed:0.00% of 4
+
+File 'libavcodec/mpegvideo.c'
+Lines executed:0.00% of 289
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo.gcno##libavcodec#mpegvideo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegvideo.gcno##libavutil#refstruct.h.gcov'
+
+Lines executed:0.00% of 295

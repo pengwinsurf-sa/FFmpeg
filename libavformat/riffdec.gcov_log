@@ -1,0 +1,38 @@
+Function 'ff_read_riff_info'
+Lines executed:0.00% of 44
+
+Function 'ff_get_bmp_header'
+Lines executed:0.00% of 16
+
+Function 'ff_wav_codec_get_id'
+Lines executed:0.00% of 10
+
+Function 'ff_get_wav_header'
+Lines executed:0.00% of 71
+
+Function 'parse_waveformatex'
+Lines executed:0.00% of 23
+
+Function 'ff_codec_guid_get_id'
+Lines executed:0.00% of 7
+
+Function 'ff_get_guid'
+Lines executed:0.00% of 9
+
+File 'libavformat/riffdec.c'
+Lines executed:0.00% of 174
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffdec.gcno##libavformat#riffdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/riff.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffdec.gcno##libavformat#riff.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riffdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 180

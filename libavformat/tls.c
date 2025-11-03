@@ -31,41 +31,6 @@
 #include "libavutil/mem.h"
 #include "libavutil/parseutils.h"
 
-static int set_options(TLSShared *c, const char *uri)
-{
-    char buf[1024];
-    const char *p = strchr(uri, '?');
-    if (!p)
-        return 0;
-
-    if (!c->ca_file && av_find_info_tag(buf, sizeof(buf), "cafile", p)) {
-        c->ca_file = av_strdup(buf);
-        if (!c->ca_file)
-            return AVERROR(ENOMEM);
-    }
-
-    if (!c->verify && av_find_info_tag(buf, sizeof(buf), "verify", p)) {
-        char *endptr = NULL;
-        c->verify = strtol(buf, &endptr, 10);
-        if (buf == endptr)
-            c->verify = 1;
-    }
-
-    if (!c->cert_file && av_find_info_tag(buf, sizeof(buf), "cert", p)) {
-        c->cert_file = av_strdup(buf);
-        if (!c->cert_file)
-            return AVERROR(ENOMEM);
-    }
-
-    if (!c->key_file && av_find_info_tag(buf, sizeof(buf), "key", p)) {
-        c->key_file = av_strdup(buf);
-        if (!c->key_file)
-            return AVERROR(ENOMEM);
-    }
-
-    return 0;
-}
-
 int ff_tls_open_underlying(TLSShared *c, URLContext *parent, const char *uri, AVDictionary **options)
 {
     int port;
@@ -77,16 +42,17 @@ int ff_tls_open_underlying(TLSShared *c, URLContext *parent, const char *uri, AV
     int use_proxy;
     int ret;
 
-    ret = set_options(c, uri);
-    if (ret < 0)
-        return ret;
+    p = strchr(uri, '?');
+    if (p) {
+        ret = ff_parse_opts_from_query_string(c, p, 1);
+        if (ret < 0)
+            return ret;
+    }
 
-    if (c->listen)
+    if (c->listen && !c->is_dtls)
         snprintf(opts, sizeof(opts), "?listen=1");
 
     av_url_split(NULL, 0, NULL, 0, c->underlying_host, sizeof(c->underlying_host), &port, NULL, 0, uri);
-
-    p = strchr(uri, '?');
 
     if (!p) {
         p = opts;
@@ -95,7 +61,7 @@ int ff_tls_open_underlying(TLSShared *c, URLContext *parent, const char *uri, AV
             c->listen = 1;
     }
 
-    ff_url_join(buf, sizeof(buf), c->is_dtls ? "udp" : "tcp", NULL, c->underlying_host, port, "%s", p);
+    ff_url_join(buf, sizeof(buf), c->is_dtls ? "udp" : "tcp", NULL, (c->is_dtls && c->listen) ? "" : c->underlying_host, port, "%s", p);
 
     hints.ai_flags = AI_NUMERICHOST;
     if (!getaddrinfo(c->underlying_host, NULL, &hints, &ai)) {
@@ -114,7 +80,7 @@ int ff_tls_open_underlying(TLSShared *c, URLContext *parent, const char *uri, AV
                 proxy_path && av_strstart(proxy_path, "http://", NULL);
     freeenv_utf8(env_no_proxy);
 
-    if (use_proxy) {
+    if (!c->is_dtls && use_proxy) {
         char proxy_host[200], proxy_auth[200], dest[200];
         int proxy_port;
         av_url_split(NULL, 0, proxy_auth, sizeof(proxy_auth),
@@ -127,7 +93,13 @@ int ff_tls_open_underlying(TLSShared *c, URLContext *parent, const char *uri, AV
 
     freeenv_utf8(env_http_proxy);
     if (c->is_dtls) {
-        av_dict_set_int(options, "connect", 1, 0);
+        if (c->listen) {
+            av_dict_set_int(options, "localport", port, 0);
+            av_dict_set(options, "localaddr", c->underlying_host, 0);
+        } else {
+            av_dict_set_int(options, "localport", 0, 0);
+            av_dict_set_int(options, "connect", 1, 0);
+        }
         av_dict_set_int(options, "fifo_size", 0, 0);
         /* Set the max packet size to the buffer size. */
         av_dict_set_int(options, "pkt_size", c->mtu, 0);
@@ -135,15 +107,6 @@ int ff_tls_open_underlying(TLSShared *c, URLContext *parent, const char *uri, AV
     ret = ffurl_open_whitelist(c->is_dtls ? &c->udp : &c->tcp, buf, AVIO_FLAG_READ_WRITE,
                                &parent->interrupt_callback, options,
                                parent->protocol_whitelist, parent->protocol_blacklist, parent);
-    if (c->is_dtls) {
-        if (ret < 0) {
-            av_log(c, AV_LOG_ERROR, "WHIP: Failed to connect udp://%s:%d\n", c->underlying_host, port);
-            return ret;
-        }
-        /* Make the socket non-blocking, set to READ and WRITE mode after connected */
-        ff_socket_nonblock(ffurl_get_file_handle(c->udp), 1);
-        c->udp->flags |= AVIO_FLAG_READ | AVIO_FLAG_NONBLOCK;
-    }
     return ret;
 }
 

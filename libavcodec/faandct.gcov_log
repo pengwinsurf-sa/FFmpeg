@@ -1,0 +1,15 @@
+Function 'ff_faandct248'
+Lines executed:0.00% of 76
+
+Function 'ff_faandct'
+Lines executed:0.00% of 40
+
+File 'libavcodec/faandct.c'
+Lines executed:0.00% of 113
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#faandct.gcno##libavcodec#faandct.c.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#faandct.gcno##libavutil#emms.h.gcov'
+
+Lines executed:0.00% of 116

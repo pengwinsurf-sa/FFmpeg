@@ -1,0 +1,25 @@
+Function 'flic_read_seek'
+Lines executed:0.00% of 16
+
+Function 'flic_read_packet'
+Lines executed:0.00% of 42
+
+Function 'flic_read_header'
+Lines executed:0.00% of 59
+
+Function 'flic_probe'
+Lines executed:0.00% of 12
+
+File 'libavformat/flic.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flic.gcno##libavformat#flic.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flic.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flic.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 129

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVFilter" kind="struct" language="C++" prot="public">
+    <compoundname>AVFilter</compoundname>
+    <includes refid="avfilter_8h" local="no">libavfilter/avfilter.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVFilter_1a28a4776f344f91055f42a4c2a1b15c0c" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* AVFilter::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>AVFilter::name</qualifiedname>
+        <briefdescription>
+<para>Filter name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be non-NULL and unique among filters. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="215" column="16" bodyfile="libavfilter/avfilter.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVFilter_1afb208213ea814c722279962fb0228241" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* AVFilter::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>AVFilter::description</qualifiedname>
+        <briefdescription>
+<para>A description of the filter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May be NULL.</para>
+<para>You should use the NULL_IF_CONFIG_SMALL() macro to define it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="222" column="16" bodyfile="libavfilter/avfilter.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVFilter_1ad311151fe6e8c87a89f895bef7c8b98b" prot="public" static="no" mutable="no">
+        <type>const <ref refid="group__lavfi_1ga067d805667c8575b55712d728a16ce7f" kindref="member">AVFilterPad</ref> *</type>
+        <definition>const AVFilterPad* AVFilter::inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <qualifiedname>AVFilter::inputs</qualifiedname>
+        <briefdescription>
+<para>List of static inputs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>NULL if there are no (static) inputs. Instances of filters with AVFILTER_FLAG_DYNAMIC_INPUTS set may have more inputs than present in this list. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="231" column="23" bodyfile="libavfilter/avfilter.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVFilter_1ad0608786fa3e1ca6e4cc4b67039f77d7" prot="public" static="no" mutable="no">
+        <type>const <ref refid="group__lavfi_1ga067d805667c8575b55712d728a16ce7f" kindref="member">AVFilterPad</ref> *</type>
+        <definition>const AVFilterPad* AVFilter::outputs</definition>
+        <argsstring></argsstring>
+        <name>outputs</name>
+        <qualifiedname>AVFilter::outputs</qualifiedname>
+        <briefdescription>
+<para>List of static outputs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>NULL if there are no (static) outputs. Instances of filters with AVFILTER_FLAG_DYNAMIC_OUTPUTS set may have more outputs than present in this list. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="240" column="23" bodyfile="libavfilter/avfilter.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVFilter_1ab54d77468be51e1f36ce337e7e432a12" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structAVClass" kindref="compound">AVClass</ref> *</type>
+        <definition>const AVClass* AVFilter::priv_class</definition>
+        <argsstring></argsstring>
+        <name>priv_class</name>
+        <qualifiedname>AVFilter::priv_class</qualifiedname>
+        <briefdescription>
+<para>A class for the private data, used to declare filter private AVOptions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This field is NULL for filters that do not declare any options.</para>
+<para>If this field is non-NULL, the first member of the filter private data must be a pointer to <ref refid="structAVClass" kindref="compound">AVClass</ref>, which will be set by libavfilter generic code to this class. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="250" column="19" bodyfile="libavfilter/avfilter.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVFilter_1a632c76418742ad4f4dccbd4db40badd0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVFilter::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>AVFilter::flags</qualifiedname>
+        <briefdescription>
+<para>A combination of AVFILTER_FLAG_*. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/avfilter.h" line="255" column="9" bodyfile="libavfilter/avfilter.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Filter definition. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This defines the pads a filter contains, and all the callback functions used to interact with the filter. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>AVClass</label>
+        <link refid="structAVClass"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>option</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>child_class_iterate</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>AVFilter</label>
+        <link refid="structAVFilter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>priv_class</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AVOption</label>
+        <link refid="structAVOption"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>q</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>arr</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AVOptionArrayDef</label>
+        <link refid="structAVOptionArrayDef"/>
+      </node>
+      <node id="4">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavfilter/avfilter.h" line="211" column="1" bodyfile="libavfilter/avfilter.h" bodystart="211" bodyend="256"/>
+    <listofallmembers>
+      <member refid="structAVFilter_1afb208213ea814c722279962fb0228241" prot="public" virt="non-virtual"><scope>AVFilter</scope><name>description</name></member>
+      <member refid="structAVFilter_1a632c76418742ad4f4dccbd4db40badd0" prot="public" virt="non-virtual"><scope>AVFilter</scope><name>flags</name></member>
+      <member refid="structAVFilter_1ad311151fe6e8c87a89f895bef7c8b98b" prot="public" virt="non-virtual"><scope>AVFilter</scope><name>inputs</name></member>
+      <member refid="structAVFilter_1a28a4776f344f91055f42a4c2a1b15c0c" prot="public" virt="non-virtual"><scope>AVFilter</scope><name>name</name></member>
+      <member refid="structAVFilter_1ad0608786fa3e1ca6e4cc4b67039f77d7" prot="public" virt="non-virtual"><scope>AVFilter</scope><name>outputs</name></member>
+      <member refid="structAVFilter_1ab54d77468be51e1f36ce337e7e432a12" prot="public" virt="non-virtual"><scope>AVFilter</scope><name>priv_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

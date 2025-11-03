@@ -1,0 +1,21 @@
+Function 'dsf_read_packet'
+Lines executed:0.00% of 38
+
+Function 'dsf_read_header'
+Lines executed:0.00% of 58
+
+Function 'read_id3'
+Lines executed:0.00% of 9
+
+Function 'dsf_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/dsfdec.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dsfdec.gcno##libavformat#dsfdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dsfdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 108

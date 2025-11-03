@@ -1,0 +1,19 @@
+Function 'ff_vorbiscomment_write'
+Lines executed:0.00% of 57
+
+Function 'ff_vorbiscomment_length'
+Lines executed:0.00% of 14
+
+File 'libavformat/vorbiscomment.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vorbiscomment.gcno##libavformat#vorbiscomment.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vorbiscomment.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vorbiscomment.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 71

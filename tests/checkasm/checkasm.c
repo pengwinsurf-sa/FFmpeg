@@ -141,7 +141,11 @@ static const struct {
     #if CONFIG_BSWAPDSP
         { "bswapdsp", checkasm_check_bswapdsp },
     #endif
+    #if CONFIG_CAVS_DECODER
+        { "cavsdsp", checkasm_check_cavsdsp },
+    #endif
     #if CONFIG_DCA_DECODER
+        { "dcadsp", checkasm_check_dcadsp },
         { "synth_filter", checkasm_check_synth_filter },
     #endif
     #if CONFIG_DIRAC_DECODER
@@ -184,6 +188,9 @@ static const struct {
         { "hevc_pel", checkasm_check_hevc_pel },
         { "hevc_sao", checkasm_check_hevc_sao },
     #endif
+    #if CONFIG_HPELDSP
+        { "hpeldsp", checkasm_check_hpeldsp },
+    #endif
     #if CONFIG_HUFFYUV_DECODER
         { "huffyuvdsp", checkasm_check_huffyuvdsp },
     #endif
@@ -217,6 +224,9 @@ static const struct {
     #if CONFIG_PIXBLOCKDSP
         { "pixblockdsp", checkasm_check_pixblockdsp },
     #endif
+    #if CONFIG_QPELDSP
+        { "qpeldsp", checkasm_check_qpeldsp },
+    #endif
     #if CONFIG_RV34DSP
         { "rv34dsp", checkasm_check_rv34dsp },
     #endif
@@ -241,6 +251,9 @@ static const struct {
     #if CONFIG_VC1DSP
         { "vc1dsp", checkasm_check_vc1dsp },
     #endif
+    #if CONFIG_VP3DSP
+        { "vp3dsp", checkasm_check_vp3dsp },
+    #endif
     #if CONFIG_VP8DSP
         { "vp8dsp", checkasm_check_vp8dsp },
     #endif
@@ -260,14 +273,23 @@ static const struct {
     #endif
 #endif
 #if CONFIG_AVFILTER
+    #if CONFIG_SCENE_SAD
+        { "scene_sad", checkasm_check_scene_sad },
+    #endif
     #if CONFIG_AFIR_FILTER
         { "af_afir", checkasm_check_afir },
+    #endif
+    #if CONFIG_BLACKDETECT_FILTER
+        { "vf_blackdetect", checkasm_check_blackdetect },
     #endif
     #if CONFIG_BLEND_FILTER
         { "vf_blend", checkasm_check_blend },
     #endif
     #if CONFIG_BWDIF_FILTER
         { "vf_bwdif", checkasm_check_vf_bwdif },
+    #endif
+    #if CONFIG_COLORDETECT_FILTER
+        { "vf_colordetect", checkasm_check_colordetect },
     #endif
     #if CONFIG_COLORSPACE_FILTER
         { "vf_colorspace", checkasm_check_colorspace },
@@ -280,6 +302,9 @@ static const struct {
     #endif
     #if CONFIG_HFLIP_FILTER
         { "vf_hflip", checkasm_check_vf_hflip },
+    #endif
+    #if CONFIG_IDET_FILTER
+        { "vf_idet", checkasm_check_idet },
     #endif
     #if CONFIG_NLMEANS_FILTER
         { "vf_nlmeans", checkasm_check_nlmeans },
@@ -298,6 +323,7 @@ static const struct {
     { "sw_scale", checkasm_check_sw_scale },
     { "sw_yuv2rgb", checkasm_check_sw_yuv2rgb },
     { "sw_yuv2yuv", checkasm_check_sw_yuv2yuv },
+    { "sw_ops", checkasm_check_sw_ops },
 #endif
 #if CONFIG_AVUTIL
         { "aes",       checkasm_check_aes },
@@ -628,7 +654,7 @@ static inline double avg_cycles_per_call(const CheckasmPerf *const p)
     if (p->iterations) {
         const double cycles = (double)(10 * p->cycles) / p->iterations - state.nop_time;
         if (cycles > 0.0)
-            return cycles / 4.0; /* 4 calls per iteration */
+            return cycles / 32.0; /* 32 calls per iteration */
     }
     return 0.0;
 }
@@ -1187,14 +1213,8 @@ static int check_err(const char *file, int line,
     return 0;
 }
 
-#define DEF_CHECKASM_CHECK_FUNC(type, fmt) \
-int checkasm_check_##type(const char *file, int line, \
-                          const type *buf1, ptrdiff_t stride1, \
-                          const type *buf2, ptrdiff_t stride2, \
-                          int w, int h, const char *name, \
-                          int align_w, int align_h, \
-                          int padding) \
-{ \
+#define DEF_CHECKASM_CHECK_BODY(compare, type, fmt) \
+do { \
     int64_t aligned_w = (w - 1LL + align_w) & ~(align_w - 1); \
     int64_t aligned_h = (h - 1LL + align_h) & ~(align_h - 1); \
     int err = 0; \
@@ -1204,7 +1224,7 @@ int checkasm_check_##type(const char *file, int line, \
     stride1 /= sizeof(*buf1); \
     stride2 /= sizeof(*buf2); \
     for (y = 0; y < h; y++) \
-        if (memcmp(&buf1[y*stride1], &buf2[y*stride2], w*sizeof(*buf1))) \
+        if (!compare(&buf1[y*stride1], &buf2[y*stride2], w)) \
             break; \
     if (y != h) { \
         if (check_err(file, line, name, w, h, &err)) \
@@ -1226,38 +1246,50 @@ int checkasm_check_##type(const char *file, int line, \
         buf2 -= h*stride2; \
     } \
     for (y = -padding; y < 0; y++) \
-        if (memcmp(&buf1[y*stride1 - padding], &buf2[y*stride2 - padding], \
-                   (w + 2*padding)*sizeof(*buf1))) { \
+        if (!compare(&buf1[y*stride1 - padding], &buf2[y*stride2 - padding], \
+                     w + 2*padding)) { \
             if (check_err(file, line, name, w, h, &err)) \
                 return 1; \
             fprintf(stderr, " overwrite above\n"); \
             break; \
         } \
     for (y = aligned_h; y < aligned_h + padding; y++) \
-        if (memcmp(&buf1[y*stride1 - padding], &buf2[y*stride2 - padding], \
-                   (w + 2*padding)*sizeof(*buf1))) { \
+        if (!compare(&buf1[y*stride1 - padding], &buf2[y*stride2 - padding], \
+                     w + 2*padding)) { \
             if (check_err(file, line, name, w, h, &err)) \
                 return 1; \
             fprintf(stderr, " overwrite below\n"); \
             break; \
         } \
     for (y = 0; y < h; y++) \
-        if (memcmp(&buf1[y*stride1 - padding], &buf2[y*stride2 - padding], \
-                   padding*sizeof(*buf1))) { \
+        if (!compare(&buf1[y*stride1 - padding], &buf2[y*stride2 - padding], \
+                     padding)) { \
             if (check_err(file, line, name, w, h, &err)) \
                 return 1; \
             fprintf(stderr, " overwrite left\n"); \
             break; \
         } \
     for (y = 0; y < h; y++) \
-        if (memcmp(&buf1[y*stride1 + aligned_w], &buf2[y*stride2 + aligned_w], \
-                   padding*sizeof(*buf1))) { \
+        if (!compare(&buf1[y*stride1 + aligned_w], &buf2[y*stride2 + aligned_w], \
+                     padding)) { \
             if (check_err(file, line, name, w, h, &err)) \
                 return 1; \
             fprintf(stderr, " overwrite right\n"); \
             break; \
         } \
     return err; \
+} while (0)
+
+#define cmp_int(a, b, len) (!memcmp(a, b, (len) * sizeof(*(a))))
+#define DEF_CHECKASM_CHECK_FUNC(type, fmt) \
+int checkasm_check_##type(const char *file, int line, \
+                          const type *buf1, ptrdiff_t stride1, \
+                          const type *buf2, ptrdiff_t stride2, \
+                          int w, int h, const char *name, \
+                          int align_w, int align_h, \
+                          int padding) \
+{ \
+    DEF_CHECKASM_CHECK_BODY(cmp_int, type, fmt); \
 }
 
 DEF_CHECKASM_CHECK_FUNC(uint8_t,  "%02x")
@@ -1265,3 +1297,15 @@ DEF_CHECKASM_CHECK_FUNC(uint16_t, "%04x")
 DEF_CHECKASM_CHECK_FUNC(uint32_t, "%08x")
 DEF_CHECKASM_CHECK_FUNC(int16_t,  "%6d")
 DEF_CHECKASM_CHECK_FUNC(int32_t,  "%9d")
+
+int checkasm_check_float_ulp(const char *file, int line,
+                             const float *buf1, ptrdiff_t stride1,
+                             const float *buf2, ptrdiff_t stride2,
+                             int w, int h, const char *name,
+                             unsigned max_ulp, int align_w, int align_h,
+                             int padding)
+{
+    #define cmp_float(a, b, len) float_near_ulp_array(a, b, max_ulp, len)
+    DEF_CHECKASM_CHECK_BODY(cmp_float, float, "%g");
+    #undef cmp_float
+}

@@ -1,0 +1,167 @@
+Function 'vbn_probe'
+Lines executed:0.00% of 6
+
+Function 'gem_probe'
+Lines executed:0.00% of 16
+
+Function 'qoi_probe'
+Lines executed:0.00% of 8
+
+Function 'photocd_probe'
+Lines executed:0.00% of 4
+
+Function 'gif_probe'
+Lines executed:0.00% of 4
+
+Function 'xwd_probe'
+Lines executed:0.00% of 28
+
+Function 'xpm_probe'
+Lines executed:0.00% of 4
+
+Function 'xbm_probe'
+Lines executed:0.00% of 4
+
+Function 'hdr_probe'
+Lines executed:0.00% of 3
+
+Function 'pam_probe'
+Lines executed:0.00% of 8
+
+Function 'ppm_probe'
+Lines executed:0.00% of 3
+
+Function 'pgx_probe'
+Lines executed:0.00% of 4
+
+Function 'pgmyuv_probe'
+Lines executed:0.00% of 3
+
+Function 'pgm_probe'
+Lines executed:0.00% of 3
+
+Function 'pgmx_probe'
+Lines executed:0.00% of 2
+
+Function 'phm_probe'
+Lines executed:0.00% of 3
+
+Function 'pfm_probe'
+Lines executed:0.00% of 3
+
+Function 'pbm_probe'
+Lines executed:0.00% of 2
+
+Function 'webp_probe'
+Lines executed:0.00% of 5
+
+Function 'tiff_probe'
+Lines executed:0.00% of 4
+
+Function 'svg_probe'
+Lines executed:0.00% of 26
+
+Function 'sunrast_probe'
+Lines executed:0.00% of 4
+
+Function 'sgi_probe'
+Lines executed:0.00% of 7
+
+Function 'psd_probe'
+Lines executed:0.00% of 14
+
+Function 'png_probe'
+Lines executed:0.00% of 4
+
+Function 'pictor_probe'
+Lines executed:0.00% of 4
+
+Function 'qdraw_probe'
+Lines executed:0.00% of 10
+
+Function 'pcx_probe'
+Lines executed:0.00% of 13
+
+Function 'jpegxl_probe'
+Lines executed:0.00% of 5
+
+Function 'jpegls_probe'
+Lines executed:0.00% of 4
+
+Function 'jpeg_probe'
+Lines executed:0.00% of 32
+
+Function 'j2k_probe'
+Lines executed:0.00% of 5
+
+Function 'exr_probe'
+Lines executed:0.00% of 4
+
+Function 'dpx_probe'
+Lines executed:0.00% of 10
+
+Function 'dds_probe'
+Lines executed:0.00% of 6
+
+Function 'cri_probe'
+Lines executed:0.00% of 6
+
+Function 'bmp_probe'
+Lines executed:0.00% of 8
+
+Function 'img_read_seek'
+Lines executed:0.00% of 12
+
+Function 'img_read_close'
+Lines executed:0.00% of 5
+
+Function 'ff_img_read_packet'
+Lines executed:0.00% of 122
+
+Function 'add_filename_as_pkt_side_data'
+Lines executed:0.00% of 14
+
+Function 'ff_img_read_header'
+Lines executed:0.00% of 123
+
+Function 'img_read_probe'
+Lines executed:0.00% of 8
+
+Function 'find_image_range'
+Lines executed:0.00% of 28
+
+Function 'is_glob'
+Lines executed:0.00% of 9
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/img2dec.c'
+Lines executed:0.00% of 573
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno##libavformat#img2dec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno##libavutil#avstring.h.gcov'
+
+File 'libavformat/subtitles.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno##libavformat#subtitles.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2dec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 602

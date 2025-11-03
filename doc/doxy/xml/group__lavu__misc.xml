@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavu__misc" kind="group">
+    <compoundname>lavu_misc</compoundname>
+    <title>Other</title>
+    <innergroup refid="group__preproc__misc">Preprocessor String Macros</innergroup>
+    <innergroup refid="group__version__utils">Library Version Macros</innergroup>
+    <innergroup refid="group__lavu__const">Constants</innergroup>
+    <innergroup refid="group__lavu__picture">Image related</innergroup>
+    <innergroup refid="group__lavu__ver">Version and Build diagnostics</innergroup>
+    <innergroup refid="group__lavu__media">Media Type</innergroup>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVMediaType</name>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48afdadbd6c4f612c59f6b6c7c6f84fd347" prot="public">
+          <name>AVMEDIA_TYPE_UNKNOWN</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+<para>Usually treated as AVMEDIA_TYPE_DATA. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48ac1a46f59be5c6c2d3412ab172d6b8cf5" prot="public">
+          <name>AVMEDIA_TYPE_VIDEO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48a7b4e33b8f30ac94d34ce8d9f7c33927a" prot="public">
+          <name>AVMEDIA_TYPE_AUDIO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48ae3df4d77c6908fb626293c2fed215d52" prot="public">
+          <name>AVMEDIA_TYPE_DATA</name>
+          <briefdescription>
+<para>Opaque data information usually continuous. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48aa64a67386a9c53360744b86e4707b831" prot="public">
+          <name>AVMEDIA_TYPE_SUBTITLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48a2d09f16df8631e64e8fa566142cdc99d" prot="public">
+          <name>AVMEDIA_TYPE_ATTACHMENT</name>
+          <briefdescription>
+<para>Opaque data information usually sparse. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavu__misc_1gga9a84bba4713dfced21a1a56163be1f48a8e220e09ef38f26963e8e2ec731fb7d9" prot="public">
+          <name>AVMEDIA_TYPE_NB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="198" column="1" bodyfile="libavutil/avutil.h" bodystart="198" bodyend="206"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__lavu__misc_1ga1eb76ac28a60793459c55c102dfcf816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * av_get_media_type_string</definition>
+        <argsstring>(enum AVMediaType media_type)</argsstring>
+        <name>av_get_media_type_string</name>
+        <param>
+          <type>enum <ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref></type>
+          <declname>media_type</declname>
+        </param>
+        <briefdescription>
+<para>Return a string describing the media_type enum, NULL if media_type is unknown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="212" column="12" declfile="libavutil/avutil.h" declline="212" declcolumn="12"/>
+        <referencedby refid="extract__mvs_8c_1a08a44e4ddfb699cb1a263e34948d05c3" compoundref="extract__mvs_8c" startline="86" endline="131">open_codec_context</referencedby>
+        <referencedby refid="demux__decode_8c_1ab36dcc13a13c2ae1c1fff2ea5db97616" compoundref="demux__decode_8c" startline="146" endline="195">open_codec_context</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__misc_1gaaf7385f0b6fa2d237998d4a10416d714" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void * av_x_if_null</definition>
+        <argsstring>(const void *p, const void *x)</argsstring>
+        <name>av_x_if_null</name>
+        <param>
+          <type>const void *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Return x default pointer in case p is NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="311" column="20" bodyfile="libavutil/avutil.h" bodystart="311" bodyend="314"/>
+        <referencedby refid="decode__filter__audio_8c_1ac25a104c80c6a7d21fb06a438a6965ba" compoundref="decode__filter__audio_8c" startline="91" endline="207">init_filters</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__misc_1gab889104afd2e874f9dd2b3b78b04f3f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational av_get_time_base_q</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_get_time_base_q</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the fractional representation of the internal time base. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="343" column="12" declfile="libavutil/avutil.h" declline="343" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavu__misc_1ga79cdcd61b8d4c275681360af4430b513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * av_fourcc_make_string</definition>
+        <argsstring>(char *buf, uint32_t fourcc)</argsstring>
+        <name>av_fourcc_make_string</name>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>fourcc</declname>
+        </param>
+        <briefdescription>
+<para>Fill the provided buffer with a string containing a FourCC (four-character code) representation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a buffer with size in bytes of at least AV_FOURCC_MAX_STRING_SIZE </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fourcc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fourcc to represent </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the buffer in input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="357" column="6" declfile="libavutil/avutil.h" declline="357" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__lavu__misc_1gaed5482506b009b48569356a08b21e403" prot="public" static="no">
+        <name>AV_FOURCC_MAX_STRING_SIZE</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="345" column="9" bodyfile="libavutil/avutil.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__lavu__misc_1gae07d7cbf511060210152a89ad0d137ad" prot="public" static="no">
+        <name>av_fourcc2str</name>
+        <param><defname>fourcc</defname></param>
+        <initializer><ref refid="group__lavu__misc_1ga79cdcd61b8d4c275681360af4430b513" kindref="member">av_fourcc_make_string</ref>((char[<ref refid="group__lavu__misc_1gaed5482506b009b48569356a08b21e403" kindref="member">AV_FOURCC_MAX_STRING_SIZE</ref>]){0}, fourcc)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/avutil.h" line="347" column="9" bodyfile="libavutil/avutil.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

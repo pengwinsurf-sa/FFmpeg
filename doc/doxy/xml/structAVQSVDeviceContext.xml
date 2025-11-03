@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVQSVDeviceContext" kind="struct" language="C++" prot="public">
+    <compoundname>AVQSVDeviceContext</compoundname>
+    <includes refid="hwcontext__qsv_8h" local="no">libavutil/hwcontext_qsv.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVQSVDeviceContext_1abfdc22dbded8e90950b3dfce3f3bd83d" prot="public" static="no" mutable="no">
+        <type>mfxSession</type>
+        <definition>mfxSession AVQSVDeviceContext::session</definition>
+        <argsstring></argsstring>
+        <name>session</name>
+        <qualifiedname>AVQSVDeviceContext::session</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_qsv.h" line="36" column="16" bodyfile="libavutil/hwcontext_qsv.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVQSVDeviceContext_1a561ca800681d1e22b8ee4861ee446541" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* AVQSVDeviceContext::loader</definition>
+        <argsstring></argsstring>
+        <name>loader</name>
+        <qualifiedname>AVQSVDeviceContext::loader</qualifiedname>
+        <briefdescription>
+<para>The mfxLoader handle used for mfxSession creation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This field is only available for oneVPL user. For non-oneVPL user, this field must be set to NULL.</para>
+<para>Filled by the user before calling <ref refid="hwcontext_8h_1a11d8c9101c95cdcab3dbc5b4c03dfd4d" kindref="member">av_hwdevice_ctx_init()</ref> and should be cast to mfxLoader handle. Deallocating the <ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref> will always release this interface. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_qsv.h" line="47" column="10" bodyfile="libavutil/hwcontext_qsv.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This struct is allocated as <ref refid="structAVHWDeviceContext_1a46055b48d1a40445d775b4ae24f77f20" kindref="member">AVHWDeviceContext.hwctx</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/hwcontext_qsv.h" line="35" column="1" bodyfile="libavutil/hwcontext_qsv.h" bodystart="35" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structAVQSVDeviceContext_1a561ca800681d1e22b8ee4861ee446541" prot="public" virt="non-virtual"><scope>AVQSVDeviceContext</scope><name>loader</name></member>
+      <member refid="structAVQSVDeviceContext_1abfdc22dbded8e90950b3dfce3f3bd83d" prot="public" virt="non-virtual"><scope>AVQSVDeviceContext</scope><name>session</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

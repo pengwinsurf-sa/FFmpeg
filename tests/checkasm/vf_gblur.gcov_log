@@ -1,0 +1,53 @@
+Function 'checkasm_check_vf_gblur'
+Lines executed:100.00% of 40
+
+Function 'check_postscale_slice'
+Lines executed:53.33% of 15
+
+Function 'check_verti_slice'
+Lines executed:90.91% of 11
+
+Function 'check_horiz_slice'
+Lines executed:90.91% of 11
+
+Function 'verti_slice_c'
+Lines executed:100.00% of 5
+
+Function 'do_vertical_columns'
+Lines executed:100.00% of 19
+
+Function 'horiz_slice_c'
+Lines executed:100.00% of 12
+
+Function 'postscale_c'
+Lines executed:100.00% of 7
+
+File 'tests/checkasm/vf_gblur.c'
+Lines executed:94.83% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno##tests#checkasm#vf_gblur.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/vf_gblur_init.h'
+Lines executed:100.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno##libavfilter#vf_gblur_init.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_gblur.gcno##libavutil#common.h.gcov'
+
+Lines executed:92.50% of 120

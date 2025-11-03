@@ -1,0 +1,22 @@
+Function 'xwma_read_packet'
+Lines executed:0.00% of 16
+
+Function 'xwma_read_header'
+Lines executed:0.00% of 112
+
+Function 'xwma_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/xwma.c'
+Lines executed:0.00% of 127
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#xwma.gcno##libavformat#xwma.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#xwma.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#xwma.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 131

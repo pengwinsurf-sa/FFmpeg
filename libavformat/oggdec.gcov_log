@@ -1,0 +1,81 @@
+Function 'ogg_probe'
+Lines executed:0.00% of 3
+
+Function 'ogg_read_seek'
+Lines executed:0.00% of 15
+
+Function 'ogg_read_timestamp'
+Lines executed:0.00% of 29
+
+Function 'ogg_read_packet'
+Lines executed:0.00% of 50
+
+Function 'ogg_validate_keyframe'
+Lines executed:0.00% of 16
+
+Function 'ogg_calc_pts'
+Lines executed:0.00% of 20
+
+Function 'ogg_read_header'
+Lines executed:0.00% of 24
+
+Function 'ogg_read_close'
+Lines executed:0.00% of 8
+
+Function 'ogg_get_length'
+Lines executed:0.00% of 46
+
+Function 'ogg_packet'
+Lines executed:0.00% of 88
+
+Function 'ogg_read_page'
+Lines executed:0.00% of 125
+
+Function 'buf_realloc'
+Lines executed:0.00% of 6
+
+Function 'ogg_new_stream'
+Lines executed:0.00% of 26
+
+Function 'ogg_replace_stream'
+Lines executed:0.00% of 22
+
+Function 'ogg_find_codec'
+Lines executed:0.00% of 6
+
+Function 'ogg_reset'
+Lines executed:0.00% of 27
+
+Function 'ogg_restore'
+Lines executed:0.00% of 24
+
+Function 'ogg_save'
+Lines executed:0.00% of 22
+
+Function 'free_stream'
+Lines executed:0.00% of 11
+
+Function 'ogg_gptopts'
+Lines executed:0.00% of 13
+
+File 'libavformat/oggdec.c'
+Lines executed:0.00% of 555
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggdec.gcno##libavformat#oggdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggdec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggdec.gcno##libavutil#error.h.gcov'
+
+File 'libavformat/oggdec.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggdec.gcno##libavformat#oggdec.h.gcov'
+
+Lines executed:0.00% of 581

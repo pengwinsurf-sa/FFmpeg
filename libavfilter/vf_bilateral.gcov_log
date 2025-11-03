@@ -1,0 +1,51 @@
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'uninit'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'bilateralo_planes'
+Lines executed:0.00% of 24
+
+Function 'bilateralv_planes'
+Lines executed:0.00% of 12
+
+Function 'bilateralh_planes'
+Lines executed:0.00% of 12
+
+Function 'bilateralo_word'
+Lines executed:0.00% of 1
+
+Function 'bilateralo_byte'
+Lines executed:0.00% of 1
+
+Function 'bilateralv_word'
+Lines executed:0.00% of 3
+
+Function 'bilateralv_byte'
+Lines executed:0.00% of 1
+
+Function 'bilateralh_word'
+Lines executed:0.00% of 1
+
+Function 'bilateralh_byte'
+Lines executed:0.00% of 1
+
+Function 'config_input'
+Lines executed:0.00% of 30
+
+Function 'config_params'
+Lines executed:0.00% of 8
+
+File 'libavfilter/vf_bilateral.c'
+Lines executed:0.00% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bilateral.gcno##libavfilter#vf_bilateral.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_bilateral.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 131

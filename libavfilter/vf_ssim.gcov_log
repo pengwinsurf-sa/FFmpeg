@@ -1,0 +1,71 @@
+Function 'uninit'
+Lines executed:0.00% of 23
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'config_input_ref'
+Lines executed:0.00% of 38
+
+Function 'init'
+Lines executed:0.00% of 16
+
+Function 'do_ssim'
+Lines executed:0.00% of 53
+
+Function 'ssim_plane'
+Lines executed:0.00% of 29
+
+Function 'ssim_plane_16bit'
+Lines executed:0.00% of 29
+
+Function 'ssim_endn_8bit'
+Lines executed:0.00% of 8
+
+Function 'ssim_endn_16bit'
+Lines executed:0.00% of 8
+
+Function 'ssim_end1'
+Lines executed:0.00% of 11
+
+Function 'ssim_end1x'
+Lines executed:0.00% of 11
+
+Function 'ssim_4x4xn_8bit'
+Lines executed:0.00% of 19
+
+Function 'ssim_4x4xn_16bit'
+Lines executed:0.00% of 23
+
+Function 'set_meta'
+Lines executed:0.00% of 11
+
+Function 'ssim_child_next'
+Lines executed:0.00% of 1
+
+Function 'ssim_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_ssim.c'
+Lines executed:0.00% of 298
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim.gcno##libavfilter#vf_ssim.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 310

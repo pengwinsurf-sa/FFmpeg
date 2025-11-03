@@ -1,0 +1,114 @@
+Function 'decode_frame_mp3on4'
+Lines executed:0.00% of 61
+
+Function 'flush_mp3on4'
+Lines executed:0.00% of 6
+
+Function 'decode_init_mp3on4'
+Lines executed:0.00% of 32
+
+Function 'decode_close_mp3on4'
+Lines executed:0.00% of 6
+
+Function 'decode_frame_adu'
+Lines executed:0.00% of 29
+
+Function 'flush'
+Lines executed:0.00% of 3
+
+Function 'mp_flush'
+Lines executed:0.00% of 6
+
+Function 'decode_frame'
+Lines executed:0.00% of 44
+
+Function 'mp_decode_frame'
+Lines executed:0.00% of 90
+
+Function 'mp_decode_layer3'
+Lines executed:0.00% of 222
+
+Function 'compute_imdct'
+Lines executed:0.00% of 52
+
+Function 'compute_antialias'
+Lines executed:0.00% of 16
+
+Function 'compute_stereo'
+Lines executed:0.00% of 83
+
+Function 'reorder_block'
+Lines executed:0.00% of 22
+
+Function 'huffman_decode'
+Lines executed:0.00% of 124
+
+Function 'switch_buffer'
+Lines executed:0.00% of 11
+
+Function 'exponents_from_scale_factors'
+Lines executed:0.00% of 27
+
+Function 'mp_decode_layer2'
+Lines executed:0.00% of 152
+
+Function 'mp_decode_layer1'
+Lines executed:0.00% of 40
+
+Function 'handle_crc'
+Lines executed:0.00% of 15
+
+Function 'imdct12'
+Lines executed:0.00% of 33
+
+Function 'decode_init'
+Lines executed:0.00% of 14
+
+Function 'decode_init_static'
+Lines executed:0.00% of 22
+
+Function 'compute_band_indexes'
+Lines executed:0.00% of 14
+
+Function 'mpegaudio_tableinit'
+Lines executed:0.00% of 17
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/mpegaudiodec_template.c'
+Lines executed:0.00% of 1059
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavcodec#mpegaudiodec_template.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/mpegaudio_tablegen.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavcodec#mpegaudio_tablegen.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodec_fixed.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1158

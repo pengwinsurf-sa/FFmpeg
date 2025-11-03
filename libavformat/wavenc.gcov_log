@@ -1,0 +1,60 @@
+Function 'w64_write_trailer'
+Lines executed:0.00% of 20
+
+Function 'w64_write_header'
+Lines executed:0.00% of 21
+
+Function 'end_guid'
+Lines executed:0.00% of 8
+
+Function 'start_guid'
+Lines executed:0.00% of 5
+
+Function 'wav_write_trailer'
+Lines executed:0.00% of 49
+
+Function 'wav_write_packet'
+Lines executed:0.00% of 24
+
+Function 'wav_write_header'
+Lines executed:0.00% of 38
+
+Function 'peak_write_chunk'
+Lines executed:0.00% of 37
+
+Function 'peak_write_frame'
+Lines executed:0.00% of 37
+
+Function 'peak_init_writer'
+Lines executed:0.00% of 21
+
+Function 'wav_deinit'
+Lines executed:0.00% of 6
+
+Function 'bwf_write_bext_chunk'
+Lines executed:0.00% of 31
+
+Function 'bwf_write_bext_string'
+Lines executed:0.00% of 9
+
+File 'libavformat/wavenc.c'
+Lines executed:0.00% of 295
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavenc.gcno##libavformat#wavenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavenc.gcno##libavutil#rational.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavenc.gcno##libavformat#avio_internal.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 306

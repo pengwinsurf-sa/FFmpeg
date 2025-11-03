@@ -1,0 +1,18 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'activate'
+Lines executed:0.00% of 33
+
+Function 'init'
+Lines executed:0.00% of 5
+
+File 'libavfilter/f_latency.c'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_latency.gcno##libavfilter#f_latency.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_latency.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 45

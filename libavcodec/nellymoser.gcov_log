@@ -1,0 +1,12 @@
+Function 'ff_nelly_get_sample_bits'
+Lines executed:0.00% of 86
+
+File 'libavcodec/nellymoser.c'
+Lines executed:0.00% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoser.gcno##libavcodec#nellymoser.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoser.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 86

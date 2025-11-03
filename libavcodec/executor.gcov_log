@@ -1,0 +1,23 @@
+Function 'ff_executor_execute'
+Lines executed:0.00% of 18
+
+Function 'ff_executor_free'
+Lines executed:0.00% of 6
+
+Function 'ff_executor_alloc'
+Lines executed:0.00% of 29
+
+Function 'executor_free'
+Lines executed:0.00% of 17
+
+Function 'executor_worker_task'
+Lines executed:0.00% of 11
+
+Function 'run_one_task'
+Lines executed:0.00% of 20
+
+File 'libavcodec/executor.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#executor.gcno##libavcodec#executor.c.gcov'
+
+Lines executed:0.00% of 101

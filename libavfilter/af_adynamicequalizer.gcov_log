@@ -1,0 +1,59 @@
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'config_input'
+Lines executed:0.00% of 21
+
+Function 'filter_channels_double'
+Lines executed:0.00% of 144
+
+Function 'get_peak_double'
+Lines executed:0.00% of 5
+
+Function 'queue_sample_double'
+Lines executed:0.00% of 26
+
+Function 'filter_prepare_double'
+Lines executed:0.00% of 55
+
+Function 'get_svf_double'
+Lines executed:0.00% of 8
+
+Function 'filter_channels_float'
+Lines executed:0.00% of 144
+
+Function 'get_peak_float'
+Lines executed:0.00% of 5
+
+Function 'queue_sample_float'
+Lines executed:0.00% of 26
+
+Function 'filter_prepare_float'
+Lines executed:0.00% of 53
+
+Function 'get_svf_float'
+Lines executed:0.00% of 8
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/af_adynamicequalizer.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adynamicequalizer.gcno##libavfilter#af_adynamicequalizer.c.gcov'
+
+File 'libavfilter/adynamicequalizer_template.c'
+Lines executed:0.00% of 696
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adynamicequalizer.gcno##libavfilter#adynamicequalizer_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adynamicequalizer.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adynamicequalizer.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 762

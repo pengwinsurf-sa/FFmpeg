@@ -1,0 +1,26 @@
+Function 'truemotion2rt_decode_init'
+Lines executed:0.00% of 3
+
+Function 'truemotion2rt_decode_frame'
+Lines executed:0.00% of 105
+
+Function 'truemotion2rt_decode_header'
+Lines executed:0.00% of 29
+
+File 'libavcodec/truemotion2rt.c'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truemotion2rt.gcno##libavcodec#truemotion2rt.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truemotion2rt.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truemotion2rt.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#truemotion2rt.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 137

@@ -1,0 +1,52 @@
+Function 'dts2pts_close'
+Lines executed:0.00% of 10
+
+Function 'dts2pts_flush'
+Lines executed:0.00% of 16
+
+Function 'dts2pts_filter'
+Lines executed:0.00% of 51
+
+Function 'dts2pts_init'
+Lines executed:0.00% of 28
+
+Function 'h264_flush'
+Lines executed:0.00% of 10
+
+Function 'h264_filter'
+Lines executed:0.00% of 94
+
+Function 'h264_queue_frame'
+Lines executed:0.00% of 25
+
+Function 'h264_init'
+Lines executed:0.00% of 8
+
+Function 'alloc_and_insert_node'
+Lines executed:0.00% of 19
+
+Function 'free_node'
+Lines executed:0.00% of 4
+
+Function 'dec_poc'
+Lines executed:0.00% of 5
+
+Function 'cmp_find'
+Lines executed:0.00% of 7
+
+Function 'cmp_insert'
+Lines executed:0.00% of 5
+
+File 'libavcodec/bsf/dts2pts.c'
+Lines executed:0.00% of 278
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dts2pts.gcno##libavcodec#bsf#dts2pts.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dts2pts.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dts2pts.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 282

@@ -1,0 +1,57 @@
+Function 'ff_vvc_inv_lfnst_1d'
+Lines executed:0.00% of 11
+
+Function 'ff_vvc_inv_dst7_32'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_inv_dst7_16'
+Lines executed:0.00% of 1
+
+Function 'ff_vvc_inv_dst7_8'
+Lines executed:0.00% of 1
+
+Function 'ff_vvc_inv_dst7_4'
+Lines executed:0.00% of 1
+
+Function 'ff_vvc_inv_dct8_32'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_inv_dct8_16'
+Lines executed:0.00% of 1
+
+Function 'ff_vvc_inv_dct8_8'
+Lines executed:0.00% of 1
+
+Function 'ff_vvc_inv_dct8_4'
+Lines executed:0.00% of 1
+
+Function 'matrix_mul'
+Lines executed:0.00% of 11
+
+Function 'ff_vvc_inv_dct2_64'
+Lines executed:0.00% of 171
+
+Function 'ff_vvc_inv_dct2_32'
+Lines executed:0.00% of 100
+
+Function 'ff_vvc_inv_dct2_16'
+Lines executed:0.00% of 54
+
+Function 'ff_vvc_inv_dct2_8'
+Lines executed:0.00% of 29
+
+Function 'ff_vvc_inv_dct2_4'
+Lines executed:0.00% of 15
+
+Function 'ff_vvc_inv_dct2_2'
+Lines executed:0.00% of 6
+
+File 'libavcodec/vvc/itx_1d.c'
+Lines executed:0.00% of 406
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#itx_1d.gcno##libavcodec#vvc#itx_1d.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#itx_1d.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 409

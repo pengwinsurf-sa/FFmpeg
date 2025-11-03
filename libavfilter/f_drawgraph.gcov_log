@@ -1,0 +1,35 @@
+Function 'uninit'
+Lines executed:0.00% of 12
+
+Function 'config_output'
+Lines executed:0.00% of 13
+
+Function 'request_frame'
+Lines executed:0.00% of 59
+
+Function 'filter_frame'
+Lines executed:0.00% of 133
+
+Function 'query_formats'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 19
+
+File 'libavfilter/f_drawgraph.c'
+Lines executed:0.00% of 234
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_drawgraph.gcno##libavfilter#f_drawgraph.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_drawgraph.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_drawgraph.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_drawgraph.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 241

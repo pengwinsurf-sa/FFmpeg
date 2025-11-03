@@ -1,0 +1,11 @@
+Function 'ff_ac3_bit_alloc_calc_mask'
+Lines executed:0.00% of 66
+
+Function 'ff_ac3_bit_alloc_calc_psd'
+Lines executed:0.00% of 16
+
+File 'libavcodec/ac3.c'
+Lines executed:0.00% of 82
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3.gcno##libavcodec#ac3.c.gcov'
+
+Lines executed:0.00% of 82

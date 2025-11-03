@@ -1,0 +1,17 @@
+Function 'fits_read_packet'
+Lines executed:0.00% of 23
+
+Function 'is_image'
+Lines executed:0.00% of 38
+
+Function 'fits_read_header'
+Lines executed:0.00% of 10
+
+Function 'fits_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/fitsdec.c'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#fitsdec.gcno##libavformat#fitsdec.c.gcov'
+
+Lines executed:0.00% of 75

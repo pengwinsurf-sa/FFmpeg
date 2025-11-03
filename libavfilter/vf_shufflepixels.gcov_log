@@ -1,0 +1,49 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 22
+
+Function 'config_output'
+Lines executed:0.00% of 48
+
+Function 'shuffle_block16'
+Lines executed:0.00% of 1
+
+Function 'shuffle_block8'
+Lines executed:0.00% of 1
+
+Function 'shuffle_vertical16'
+Lines executed:0.00% of 3
+
+Function 'shuffle_vertical8'
+Lines executed:0.00% of 1
+
+Function 'shuffle_horizontal16'
+Lines executed:0.00% of 1
+
+Function 'shuffle_horizontal8'
+Lines executed:0.00% of 1
+
+Function 'make_block_map'
+Lines executed:0.00% of 33
+
+Function 'make_vertical_map'
+Lines executed:0.00% of 23
+
+Function 'make_horizontal_map'
+Lines executed:0.00% of 23
+
+File 'libavfilter/vf_shufflepixels.c'
+Lines executed:0.00% of 156
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shufflepixels.gcno##libavfilter#vf_shufflepixels.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shufflepixels.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shufflepixels.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:0.00% of 162

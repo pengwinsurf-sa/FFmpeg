@@ -1,0 +1,24 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 20
+
+Function 'flush_frame'
+Lines executed:0.00% of 16
+
+Function 'filter_frame'
+Lines executed:0.00% of 24
+
+Function 'config_props_output'
+Lines executed:0.00% of 17
+
+File 'libavfilter/vf_separatefields.c'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_separatefields.gcno##libavfilter#vf_separatefields.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_separatefields.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 81

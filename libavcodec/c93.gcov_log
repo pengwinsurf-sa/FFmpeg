@@ -1,0 +1,25 @@
+Function 'decode_frame'
+Lines executed:0.00% of 103
+
+Function 'copy_block'
+Lines executed:0.00% of 16
+
+Function 'decode_init'
+Lines executed:0.00% of 7
+
+Function 'decode_end'
+Lines executed:0.00% of 5
+
+File 'libavcodec/c93.c'
+Lines executed:0.00% of 115
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#c93.gcno##libavcodec#c93.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#c93.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#c93.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 131

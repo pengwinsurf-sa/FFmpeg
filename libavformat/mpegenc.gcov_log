@@ -1,0 +1,71 @@
+Function 'mpeg_mux_deinit'
+Lines executed:0.00% of 11
+
+Function 'mpeg_mux_end'
+Lines executed:0.00% of 11
+
+Function 'mpeg_mux_write_packet'
+Lines executed:0.00% of 62
+
+Function 'output_packet'
+Lines executed:0.00% of 86
+
+Function 'remove_decoded_packets'
+Lines executed:0.00% of 18
+
+Function 'put_vcd_padding_sector'
+Lines executed:0.00% of 7
+
+Function 'flush_packet'
+Lines executed:0.00% of 190
+
+Function 'fifo_avio_wrapper'
+Lines executed:0.00% of 3
+
+Function 'put_padding_packet'
+Lines executed:0.00% of 9
+
+Function 'get_vcd_padding_size'
+Lines executed:0.00% of 11
+
+Function 'put_timestamp'
+Lines executed:0.00% of 5
+
+Function 'mpeg_mux_init'
+Lines executed:0.00% of 171
+
+Function 'get_system_header_size'
+Lines executed:0.00% of 11
+
+Function 'put_system_header'
+Lines executed:0.00% of 100
+
+Function 'put_pack_header'
+Lines executed:0.00% of 25
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavformat/mpegenc.c'
+Lines executed:0.00% of 695
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegenc.gcno##libavformat#mpegenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpegenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 755

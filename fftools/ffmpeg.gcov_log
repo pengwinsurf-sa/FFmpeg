@@ -1,0 +1,94 @@
+Function 'main'
+Lines executed:0.00% of 46
+
+Function 'get_benchmark_time_stamps'
+Lines executed:0.00% of 9
+
+Function 'transcode'
+Lines executed:0.00% of 25
+
+Function 'check_keyboard_interaction'
+Lines executed:0.00% of 38
+
+Function 'set_tty_echo'
+Lines executed:0.00% of 7
+
+Function 'print_stream_maps'
+Lines executed:0.00% of 53
+
+Function 'print_report'
+Lines executed:0.00% of 115
+
+Function 'update_benchmark'
+Lines executed:0.00% of 17
+
+Function 'check_avoptions_used'
+Lines executed:0.00% of 27
+
+Function 'packet_data_c'
+Lines executed:0.00% of 3
+
+Function 'packet_data'
+Lines executed:0.00% of 3
+
+Function 'frame_data_c'
+Lines executed:0.00% of 3
+
+Function 'frame_data'
+Lines executed:0.00% of 3
+
+Function 'frame_data_ensure'
+Lines executed:0.00% of 32
+
+Function 'frame_data_free'
+Lines executed:0.00% of 5
+
+Function 'ist_iter'
+Lines executed:0.00% of 8
+
+Function 'ost_iter'
+Lines executed:0.00% of 8
+
+Function 'ffmpeg_cleanup'
+Lines executed:0.00% of 41
+
+Function 'decode_interrupt_cb'
+Lines executed:0.00% of 2
+
+Function 'read_key'
+Lines executed:0.00% of 16
+
+Function 'term_init'
+Lines executed:0.00% of 24
+
+Function 'sigterm_handler'
+Lines executed:0.00% of 13
+
+Function 'term_exit'
+Lines executed:0.00% of 4
+
+File 'fftools/ffmpeg.c'
+Lines executed:0.00% of 488
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg.gcno##fftools#ffmpeg.c.gcov'
+
+File 'fftools/ffmpeg_utils.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg.gcno##fftools#ffmpeg_utils.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/unistd.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg.gcno###usr#include#x86_64-linux-gnu#bits#unistd.h.gcov'
+
+Lines executed:0.00% of 502

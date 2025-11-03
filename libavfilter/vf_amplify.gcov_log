@@ -1,0 +1,28 @@
+Function 'filter_frame'
+Lines executed:0.00% of 27
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'config_output'
+Lines executed:0.00% of 13
+
+Function 'amplify_frame'
+Lines executed:0.00% of 23
+
+Function 'init'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_amplify.c'
+Lines executed:0.00% of 70
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_amplify.gcno##libavfilter#vf_amplify.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_amplify.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_amplify.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 77

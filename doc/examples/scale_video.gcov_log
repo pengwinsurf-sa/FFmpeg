@@ -1,0 +1,15 @@
+Function 'main'
+Lines executed:0.00% of 47
+
+Function 'fill_yuv_image'
+Lines executed:0.00% of 10
+
+File 'doc/examples/scale_video.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#scale_video.gcno##doc#examples#scale_video.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#scale_video.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 57

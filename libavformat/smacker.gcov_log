@@ -1,0 +1,25 @@
+Function 'smacker_read_seek'
+Lines executed:0.00% of 22
+
+Function 'smacker_read_packet'
+Lines executed:0.00% of 108
+
+Function 'smacker_read_header'
+Lines executed:0.00% of 97
+
+Function 'smacker_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/smacker.c'
+Lines executed:0.00% of 226
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smacker.gcno##libavformat#smacker.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smacker.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smacker.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 232

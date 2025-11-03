@@ -1,0 +1,24 @@
+Function 'concatf_open'
+Lines executed:0.00% of 61
+
+Function 'concat_seek'
+Lines executed:0.00% of 25
+
+Function 'concat_read'
+Lines executed:0.00% of 19
+
+Function 'concat_open'
+Lines executed:0.00% of 43
+
+Function 'concat_close'
+Lines executed:0.00% of 9
+
+File 'libavformat/concat.c'
+Lines executed:0.00% of 153
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concat.gcno##libavformat#concat.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#concat.gcno##libavformat#url.h.gcov'
+
+Lines executed:0.00% of 157

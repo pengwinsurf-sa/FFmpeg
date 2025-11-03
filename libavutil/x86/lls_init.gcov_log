@@ -1,0 +1,8 @@
+Function 'ff_init_lls_x86'
+Lines executed:100.00% of 11
+
+File 'libavutil/x86/lls_init.c'
+Lines executed:100.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#x86#lls_init.gcno##libavutil#x86#lls_init.c.gcov'
+
+Lines executed:100.00% of 11

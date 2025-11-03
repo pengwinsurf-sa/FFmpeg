@@ -1,0 +1,155 @@
+Function 'ff_rv34_decode_end'
+Lines executed:0.00% of 4
+
+Function 'ff_rv34_decode_frame'
+Lines executed:0.00% of 155
+
+Function 'update_sar'
+Lines executed:0.00% of 5
+
+Function 'finish_frame'
+Lines executed:0.00% of 19
+
+Function 'get_slice_offset'
+Lines executed:0.00% of 5
+
+Function 'ff_rv34_decode_update_thread_context'
+Lines executed:0.00% of 17
+
+Function 'ff_rv34_decode_init'
+Lines executed:0.00% of 17
+
+Function 'rv34_decode_slice'
+Lines executed:0.00% of 59
+
+Function 'rv34_decoder_alloc'
+Lines executed:0.00% of 14
+
+Function 'rv34_decoder_free'
+Lines executed:0.00% of 9
+
+Function 'check_slice_end'
+Lines executed:0.00% of 12
+
+Function 'rv34_decode_intra_macroblock'
+Lines executed:0.00% of 47
+
+Function 'rv34_decode_inter_macroblock'
+Lines executed:0.00% of 75
+
+Function 'rv34_set_deblock_coef'
+Lines executed:0.00% of 30
+
+Function 'rv34_output_intra'
+Lines executed:0.00% of 43
+
+Function 'rv34_output_i16x16'
+Lines executed:0.00% of 52
+
+Function 'rv34_process_block'
+Lines executed:0.00% of 9
+
+Function 'rv34_pred_4x4_block'
+Lines executed:0.00% of 20
+
+Function 'rv34_decode_mv'
+Lines executed:0.00% of 84
+
+Function 'rv34_mc_2mv_skip'
+Lines executed:0.00% of 12
+
+Function 'rv34_mc_2mv'
+Lines executed:0.00% of 12
+
+Function 'rv4_weight'
+Lines executed:0.00% of 5
+
+Function 'rv34_mc'
+Lines executed:0.00% of 87
+
+Function 'rv34_pred_mv_rv3'
+Lines executed:0.00% of 33
+
+Function 'rv34_pred_mv_b'
+Lines executed:0.00% of 37
+
+Function 'rv34_pred_b_vector'
+Lines executed:0.00% of 10
+
+Function 'rv34_pred_mv'
+Lines executed:0.00% of 33
+
+Function 'rv34_decode_inter_mb_header'
+Lines executed:0.00% of 41
+
+Function 'rv34_decode_intra_mb_header'
+Lines executed:0.00% of 31
+
+Function 'ff_rv34_get_start_offset'
+Lines executed:0.00% of 5
+
+Function 'rv34_decode_block'
+Lines executed:0.00% of 36
+
+Function 'decode_subblock3'
+Lines executed:0.00% of 7
+
+Function 'decode_subblock'
+Lines executed:0.00% of 10
+
+Function 'decode_coeff'
+Lines executed:0.00% of 12
+
+Function 'rv34_decode_cbp'
+Lines executed:0.00% of 21
+
+Function 'rv34_init_tables'
+Lines executed:0.00% of 22
+
+Function 'rv34_gen_vlc'
+Lines executed:0.00% of 5
+
+Function 'rv34_gen_vlc_ext'
+Lines executed:0.00% of 19
+
+Function 'get_interleaved_se_golomb'
+Lines executed:0.00% of 20
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/rv34.c'
+Lines executed:0.00% of 1038
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno##libavcodec#rv34.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/rectangle.h'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno##libavcodec#rectangle.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv34.gcno##libavcodec#golomb.h.gcov'
+
+Lines executed:0.00% of 1151

@@ -1,0 +1,564 @@
+Function 'ff_qpeldsp_init'
+Lines executed:0.00% of 9
+
+Function 'ff_avg_dirac_pixels32_l4_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels16_l4_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels8_l4_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels32_l2_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels16_l2_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels8_l2_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels16_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_dirac_pixels8_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels32_l4_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels16_l4_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels8_l4_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels32_l2_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels16_l2_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels8_l2_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels16_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_dirac_pixels8_c'
+Lines executed:0.00% of 2
+
+Function 'ff_put_pixels8_l2_8'
+Lines executed:0.00% of 3
+
+Function 'ff_avg_pixels16x16_c'
+Lines executed:0.00% of 3
+
+Function 'ff_put_pixels16x16_c'
+Lines executed:0.00% of 3
+
+Function 'ff_avg_pixels8x8_c'
+Lines executed:0.00% of 3
+
+Function 'ff_put_pixels8x8_c'
+Lines executed:0.00% of 3
+
+Function 'avg_qpel16_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc32_c'
+Lines executed:0.00% of 15
+
+Function 'ff_avg_qpel16_mc32_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel16_mc12_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel16_mc33_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel16_mc13_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel16_mc31_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel16_mc11_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc03_c'
+Lines executed:0.00% of 7
+
+Function 'avg_qpel16_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel16_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc32_c'
+Lines executed:0.00% of 8
+
+Function 'ff_avg_qpel8_mc32_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel8_mc12_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel8_mc33_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel8_mc13_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel8_mc31_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'ff_avg_qpel8_mc11_old_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc03_c'
+Lines executed:0.00% of 7
+
+Function 'avg_qpel8_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'avg_qpel8_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'avg_mpeg4_qpel16_v_lowpass'
+Lines executed:0.00% of 1
+
+Function 'avg_mpeg4_qpel16_h_lowpass'
+Lines executed:0.00% of 1
+
+Function 'avg_mpeg4_qpel8_v_lowpass'
+Lines executed:0.00% of 1
+
+Function 'avg_mpeg4_qpel8_h_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel16_mc32_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel16_mc12_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel16_mc33_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel16_mc13_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel16_mc31_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel16_mc11_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel16_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel8_mc32_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel8_mc12_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel8_mc33_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel8_mc13_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel8_mc31_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_no_rnd_qpel8_mc11_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_qpel8_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_mpeg4_qpel16_v_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_mpeg4_qpel16_h_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_mpeg4_qpel8_v_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_mpeg4_qpel8_h_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel16_mc32_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel16_mc12_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel16_mc33_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel16_mc13_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel16_mc31_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel16_mc11_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel16_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel8_mc32_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel8_mc12_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel8_mc33_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel8_mc13_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel8_mc31_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'ff_put_qpel8_mc11_old_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_qpel8_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_mpeg4_qpel16_v_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_mpeg4_qpel16_h_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_mpeg4_qpel8_v_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_mpeg4_qpel8_h_lowpass'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_l4_8'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_l4_8'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels8_l4_8'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_l4_8'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_l2_8'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels8_l2_8'
+Lines executed:0.00% of 3
+
+Function 'avg_pixels16_l4_8'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_l4_8'
+Lines executed:0.00% of 3
+
+Function 'put_pixels16_8_c'
+No executable lines
+
+Function 'avg_pixels16_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_l2_8'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_l2_8'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_l2_8'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_l2_8'
+Lines executed:0.00% of 1
+
+File 'libavcodec/qpeldsp.c'
+Lines executed:0.00% of 185
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavcodec#qpeldsp.c.gcov'
+
+File 'libavcodec/pel_template.c'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavcodec#pel_template.c.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavcodec#copy_block.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File 'libavcodec/qpel_template.c'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavcodec#qpel_template.c.gcov'
+
+File 'libavcodec/rnd_avg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavcodec#rnd_avg.h.gcov'
+
+File 'libavcodec/hpel_template.c'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qpeldsp.gcno##libavcodec#hpel_template.c.gcov'
+
+Lines executed:0.00% of 242

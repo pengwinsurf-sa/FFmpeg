@@ -1,0 +1,144 @@
+Function 'ff_dca_xll_close'
+Lines executed:0.00% of 15
+
+Function 'ff_dca_xll_flush'
+Lines executed:0.00% of 3
+
+Function 'ff_dca_xll_filter_frame'
+Lines executed:0.00% of 101
+
+Function 'combine_residual_frame'
+Lines executed:0.00% of 58
+
+Function 'force_lossy_output'
+Lines executed:0.00% of 12
+
+Function 'scale_down_mix'
+Lines executed:0.00% of 15
+
+Function 'undo_down_mix'
+Lines executed:0.00% of 19
+
+Function 'ff_dca_xll_parse'
+Lines executed:0.00% of 9
+
+Function 'parse_frame_pbr'
+Lines executed:0.00% of 25
+
+Function 'parse_frame_no_pbr'
+Lines executed:0.00% of 13
+
+Function 'copy_to_pbr'
+Lines executed:0.00% of 7
+
+Function 'parse_frame'
+Lines executed:0.00% of 51
+
+Function 'parse_band_data'
+Lines executed:0.00% of 26
+
+Function 'parse_navi_table'
+Lines executed:0.00% of 31
+
+Function 'parse_sub_headers'
+Lines executed:0.00% of 32
+
+Function 'prescale_down_mix'
+Lines executed:0.00% of 12
+
+Function 'parse_common_header'
+Lines executed:0.00% of 60
+
+Function 'chs_assemble_freq_bands'
+Lines executed:0.00% of 15
+
+Function 'chs_assemble_msbs_lsbs'
+Lines executed:0.00% of 15
+
+Function 'chs_filter_band_data'
+Lines executed:0.00% of 38
+
+Function 'chs_clear_band_data'
+Lines executed:0.00% of 20
+
+Function 'chs_parse_band_data'
+Lines executed:0.00% of 85
+
+Function 'chs_alloc_lsb_band_data'
+Lines executed:0.00% of 16
+
+Function 'chs_alloc_msb_band_data'
+Lines executed:0.00% of 12
+
+Function 'chs_parse_header'
+Lines executed:0.00% of 152
+
+Function 'parse_dmix_coeffs'
+Lines executed:0.00% of 28
+
+Function 'get_rice_array'
+Lines executed:0.00% of 5
+
+Function 'get_linear_array'
+Lines executed:0.00% of 7
+
+Function 'get_rice_un'
+Lines executed:0.00% of 7
+
+Function 'ff_dca_check_crc'
+Lines executed:0.00% of 6
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/dca_xll.c'
+Lines executed:0.00% of 796
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#dca_xll.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#dcamath.h.gcov'
+
+File 'libavcodec/dca_core.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#dca_core.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/dcadec.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#dcadec.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_xll.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 929

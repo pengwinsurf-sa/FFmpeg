@@ -1,0 +1,91 @@
+Function 'avfilter_graph_parse_ptr'
+Lines executed:0.00% of 94
+
+Function 'avfilter_graph_segment_apply'
+Lines executed:0.00% of 21
+
+Function 'log_unknown_opt'
+Lines executed:0.00% of 13
+
+Function 'avfilter_graph_segment_link'
+Lines executed:0.00% of 27
+
+Function 'link_outputs'
+Lines executed:0.00% of 36
+
+Function 'link_inputs'
+Lines executed:0.00% of 24
+
+Function 'inout_add'
+Lines executed:0.00% of 13
+
+Function 'find_linklabel'
+Lines executed:0.00% of 20
+
+Function 'avfilter_graph_segment_init'
+Lines executed:0.00% of 15
+
+Function 'avfilter_graph_segment_apply_opts'
+Lines executed:0.00% of 17
+
+Function 'avfilter_graph_segment_create_filters'
+Lines executed:0.00% of 34
+
+Function 'avfilter_graph_segment_parse'
+Lines executed:0.00% of 33
+
+Function 'chain_parse'
+Lines executed:0.00% of 34
+
+Function 'filter_parse'
+Lines executed:0.00% of 43
+
+Function 'linklabels_parse'
+Lines executed:0.00% of 30
+
+Function 'avfilter_graph_segment_free'
+Lines executed:0.00% of 8
+
+Function 'chain_free'
+Lines executed:0.00% of 7
+
+Function 'filter_params_free'
+Lines executed:0.00% of 13
+
+Function 'pad_params_free'
+Lines executed:0.00% of 5
+
+Function 'avfilter_graph_parse'
+Lines executed:0.00% of 44
+
+Function 'avfilter_graph_parse2'
+Lines executed:0.00% of 14
+
+Function 'parse_sws_flags'
+Lines executed:0.00% of 12
+
+Function 'extract_inout'
+Lines executed:0.00% of 9
+
+Function 'avfilter_inout_free'
+Lines executed:0.00% of 7
+
+Function 'avfilter_inout_alloc'
+Lines executed:0.00% of 2
+
+Function 'parse_link_name'
+Lines executed:0.00% of 16
+
+File 'libavfilter/graphparser.c'
+Lines executed:0.00% of 586
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#graphparser.gcno##libavfilter#graphparser.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#graphparser.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#graphparser.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 591

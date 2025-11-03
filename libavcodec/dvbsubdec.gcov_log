@@ -1,0 +1,79 @@
+Function 'dvbsub_decode'
+Lines executed:0.00% of 82
+
+Function 'dvbsub_parse_display_definition_segment'
+Lines executed:0.00% of 28
+
+Function 'dvbsub_parse_page_segment'
+Lines executed:0.00% of 64
+
+Function 'dvbsub_parse_region_segment'
+Lines executed:0.00% of 104
+
+Function 'dvbsub_parse_clut_segment'
+Lines executed:0.00% of 61
+
+Function 'dvbsub_parse_object_segment'
+Lines executed:0.00% of 37
+
+Function 'dvbsub_parse_pixel_data_block'
+Lines executed:0.00% of 64
+
+Function 'save_subtitle_set'
+Lines executed:0.00% of 93
+
+Function 'compute_default_clut'
+Lines executed:0.00% of 43
+
+Function 'dvbsub_read_8bit_string'
+Lines executed:0.00% of 29
+
+Function 'dvbsub_read_4bit_string'
+Lines executed:0.00% of 99
+
+Function 'dvbsub_read_2bit_string'
+Lines executed:0.00% of 67
+
+Function 'dvbsub_close_decoder'
+Lines executed:0.00% of 12
+
+Function 'dvbsub_init_decoder'
+Lines executed:0.00% of 20
+
+Function 'init_default_clut'
+Lines executed:0.00% of 51
+
+Function 'delete_regions'
+Lines executed:0.00% of 8
+
+Function 'delete_region_display_list'
+Lines executed:0.00% of 26
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/dvbsubdec.c'
+Lines executed:0.00% of 854
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvbsubdec.gcno##libavcodec#dvbsubdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvbsubdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvbsubdec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvbsubdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvbsubdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvbsubdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 907

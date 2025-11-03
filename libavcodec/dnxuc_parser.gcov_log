@@ -1,0 +1,12 @@
+Function 'dnxuc_parse'
+Lines executed:0.00% of 32
+
+File 'libavcodec/dnxuc_parser.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxuc_parser.gcno##libavcodec#dnxuc_parser.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxuc_parser.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 32

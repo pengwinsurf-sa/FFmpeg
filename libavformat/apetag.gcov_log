@@ -1,0 +1,14 @@
+Function 'ff_ape_write_tag'
+Lines executed:0.00% of 43
+
+Function 'ff_ape_parse_tag'
+Lines executed:0.00% of 36
+
+Function 'ape_tag_read_field'
+Lines executed:0.00% of 48
+
+File 'libavformat/apetag.c'
+Lines executed:0.00% of 127
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apetag.gcno##libavformat#apetag.c.gcov'
+
+Lines executed:0.00% of 127

@@ -1,0 +1,72 @@
+Function 'uninit'
+Lines executed:0.00% of 13
+
+Function 'activate'
+Lines executed:0.00% of 22
+
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'config_input'
+Lines executed:0.00% of 23
+
+Function 'de_stereo_double'
+Lines executed:0.00% of 71
+
+Function 'get_final_double'
+Lines executed:0.00% of 16
+
+Function 'fluxlr_double'
+Lines executed:0.00% of 13
+
+Function 'flux_double'
+Lines executed:0.00% of 11
+
+Function 'get_centere_double'
+Lines executed:0.00% of 11
+
+Function 'de_tx_init_double'
+Lines executed:0.00% of 15
+
+Function 'de_stereo_float'
+Lines executed:0.00% of 56
+
+Function 'get_final_float'
+Lines executed:0.00% of 14
+
+Function 'fluxlr_float'
+Lines executed:0.00% of 13
+
+Function 'flux_float'
+Lines executed:0.00% of 11
+
+Function 'get_centere_float'
+Lines executed:0.00% of 11
+
+Function 'de_tx_init_float'
+Lines executed:0.00% of 15
+
+Function 'query_formats'
+Lines executed:0.00% of 12
+
+File 'libavfilter/af_dialoguenhance.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dialoguenhance.gcno##libavfilter#af_dialoguenhance.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dialoguenhance.gcno##libavfilter#filters.h.gcov'
+
+File 'libavfilter/dialoguenhance_template.c'
+Lines executed:0.00% of 365
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dialoguenhance.gcno##libavfilter#dialoguenhance_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dialoguenhance.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_dialoguenhance.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 464

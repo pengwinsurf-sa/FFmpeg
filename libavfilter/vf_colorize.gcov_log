@@ -1,0 +1,35 @@
+Function 'config_input'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 9
+
+Function 'rgb2yuv'
+Lines executed:0.00% of 8
+
+Function 'hsl2rgb'
+Lines executed:0.00% of 10
+
+Function 'hue2rgb'
+Lines executed:0.00% of 6
+
+Function 'do_slice'
+Lines executed:0.00% of 5
+
+Function 'colorize_slice16'
+Lines executed:0.00% of 20
+
+Function 'colorize_slice8'
+Lines executed:0.00% of 20
+
+Function 'colorizey_slice16'
+Lines executed:0.00% of 18
+
+Function 'colorizey_slice8'
+Lines executed:0.00% of 16
+
+File 'libavfilter/vf_colorize.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorize.gcno##libavfilter#vf_colorize.c.gcov'
+
+Lines executed:0.00% of 125

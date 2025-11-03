@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVDetectionBBoxHeader" kind="struct" language="C++" prot="public">
+    <compoundname>AVDetectionBBoxHeader</compoundname>
+    <includes refid="detection__bbox_8h" local="no">libavutil/detection_bbox.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVDetectionBBoxHeader_1a616a60dfc41f2e436be536b270fa56df" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char AVDetectionBBoxHeader::source[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>source</name>
+        <qualifiedname>AVDetectionBBoxHeader::source</qualifiedname>
+        <briefdescription>
+<para>Information about how the bounding box is generated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>for example, the DNN model name. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/detection_bbox.h" line="61" column="10" bodyfile="libavutil/detection_bbox.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDetectionBBoxHeader_1a05ef3b2efae4361928d55f829b8e1dbe" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t AVDetectionBBoxHeader::nb_bboxes</definition>
+        <argsstring></argsstring>
+        <name>nb_bboxes</name>
+        <qualifiedname>AVDetectionBBoxHeader::nb_bboxes</qualifiedname>
+        <briefdescription>
+<para>Number of bounding boxes in the array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/detection_bbox.h" line="66" column="14" bodyfile="libavutil/detection_bbox.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDetectionBBoxHeader_1afaa3d29e0e410f98b25fca46f17fe277" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t AVDetectionBBoxHeader::bboxes_offset</definition>
+        <argsstring></argsstring>
+        <name>bboxes_offset</name>
+        <qualifiedname>AVDetectionBBoxHeader::bboxes_offset</qualifiedname>
+        <briefdescription>
+<para>Offset in bytes from the beginning of this structure at which the array of bounding boxes starts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/detection_bbox.h" line="72" column="12" bodyfile="libavutil/detection_bbox.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="detection__bbox_8h_1adffa348f6af7e0148306450fee7449b9" compoundref="detection__bbox_8h" startline="84" endline="89">av_get_detection_bbox</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDetectionBBoxHeader_1a56520995c3de9ebe7c6eae1b94d79708" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t AVDetectionBBoxHeader::bbox_size</definition>
+        <argsstring></argsstring>
+        <name>bbox_size</name>
+        <qualifiedname>AVDetectionBBoxHeader::bbox_size</qualifiedname>
+        <briefdescription>
+<para>Size of each bounding box in bytes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/detection_bbox.h" line="77" column="12" bodyfile="libavutil/detection_bbox.h" bodystart="77" bodyend="-1"/>
+        <referencedby refid="detection__bbox_8h_1adffa348f6af7e0148306450fee7449b9" compoundref="detection__bbox_8h" startline="84" endline="89">av_get_detection_bbox</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/detection_bbox.h" line="56" column="1" bodyfile="libavutil/detection_bbox.h" bodystart="56" bodyend="78"/>
+    <listofallmembers>
+      <member refid="structAVDetectionBBoxHeader_1a56520995c3de9ebe7c6eae1b94d79708" prot="public" virt="non-virtual"><scope>AVDetectionBBoxHeader</scope><name>bbox_size</name></member>
+      <member refid="structAVDetectionBBoxHeader_1afaa3d29e0e410f98b25fca46f17fe277" prot="public" virt="non-virtual"><scope>AVDetectionBBoxHeader</scope><name>bboxes_offset</name></member>
+      <member refid="structAVDetectionBBoxHeader_1a05ef3b2efae4361928d55f829b8e1dbe" prot="public" virt="non-virtual"><scope>AVDetectionBBoxHeader</scope><name>nb_bboxes</name></member>
+      <member refid="structAVDetectionBBoxHeader_1a616a60dfc41f2e436be536b270fa56df" prot="public" virt="non-virtual"><scope>AVDetectionBBoxHeader</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

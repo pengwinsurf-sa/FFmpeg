@@ -25,7 +25,7 @@
 static av_always_inline int
 RENAME(encode_line)(FFV1Context *f, FFV1SliceContext *sc,
                     void *logctx,
-                    int w, TYPE *sample[3], int plane_index, int bits,
+                    int w, TYPE *const sample[3], int plane_index, int bits,
                     int ac, int pass1)
 {
     PlaneContext *const p = &sc->plane[plane_index];
@@ -189,6 +189,9 @@ static int RENAME(encode_rgb_frame)(FFV1Context *f, FFV1SliceContext *sc,
 
     sc->run_index = 0;
 
+    for (int p = 0; p < MAX_PLANES; ++p)
+        sample[p][2] = RENAME(sc->sample_buffer);
+
     memset(RENAME(sc->sample_buffer), 0, ring_size * MAX_PLANES *
            (w + 6) * sizeof(*RENAME(sc->sample_buffer)));
 
@@ -260,4 +263,3 @@ static int RENAME(encode_rgb_frame)(FFV1Context *f, FFV1SliceContext *sc,
     }
     return 0;
 }
-

@@ -1,0 +1,60 @@
+Function 'hds_write_trailer'
+Lines executed:0.00% of 17
+
+Function 'hds_write_packet'
+Lines executed:0.00% of 20
+
+Function 'hds_flush'
+Lines executed:0.00% of 32
+
+Function 'add_fragment'
+Lines executed:0.00% of 20
+
+Function 'hds_write_header'
+Lines executed:0.00% of 68
+
+Function 'close_file'
+Lines executed:0.00% of 9
+
+Function 'init_file'
+Lines executed:0.00% of 10
+
+Function 'write_abst'
+Lines executed:0.00% of 61
+
+Function 'update_size'
+Lines executed:0.00% of 6
+
+Function 'write_manifest'
+Lines executed:0.00% of 40
+
+Function 'hds_free'
+Lines executed:0.00% of 20
+
+Function 'hds_write'
+Lines executed:0.00% of 7
+
+Function 'parse_header'
+Lines executed:0.00% of 23
+
+File 'libavformat/hdsenc.c'
+Lines executed:0.00% of 325
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hdsenc.gcno##libavformat#hdsenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hdsenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hdsenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hdsenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hdsenc.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 333

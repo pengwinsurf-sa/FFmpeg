@@ -1,0 +1,82 @@
+Function 'ff_vvc_add_progress_listener'
+Lines executed:0.00% of 14
+
+Function 'ff_vvc_report_progress'
+Lines executed:0.00% of 13
+
+Function 'get_done_listener'
+Lines executed:0.00% of 14
+
+Function 'ff_vvc_report_frame_finished'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_frame_rpl'
+Lines executed:0.00% of 15
+
+Function 'ff_vvc_slice_rpl'
+Lines executed:0.00% of 47
+
+Function 'poc_lt'
+Lines executed:0.00% of 8
+
+Function 'init_slice_rpl'
+Lines executed:0.00% of 9
+
+Function 'add_candidate_ref'
+Lines executed:0.00% of 26
+
+Function 'check_candidate_ref'
+Lines executed:0.00% of 10
+
+Function 'generate_missing_ref'
+Lines executed:0.00% of 22
+
+Function 'find_ref_idx'
+Lines executed:0.00% of 7
+
+Function 'ff_vvc_bump_frame'
+Lines executed:0.00% of 27
+
+Function 'ff_vvc_output_frame'
+Lines executed:0.00% of 38
+
+Function 'ff_vvc_set_new_ref'
+Lines executed:0.00% of 28
+
+Function 'set_pict_type'
+Lines executed:0.00% of 18
+
+Function 'alloc_frame'
+Lines executed:0.00% of 52
+
+Function 'alloc_progress'
+Lines executed:0.00% of 8
+
+Function 'free_progress'
+Lines executed:0.00% of 7
+
+Function 'ff_vvc_flush_dpb'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_clear_refs'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_get_ref_list'
+Lines executed:0.00% of 6
+
+Function 'ff_vvc_unref_frame'
+Lines executed:0.00% of 19
+
+File 'libavcodec/vvc/refs.c'
+Lines executed:0.00% of 394
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#refs.gcno##libavcodec#vvc#refs.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#refs.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#refs.gcno##libavutil#refstruct.h.gcov'
+
+Lines executed:0.00% of 400

@@ -1,0 +1,12 @@
+Function 'ff_dct32_fixed'
+Lines executed:0.00% of 125
+
+File 'libavcodec/dct32_template.c'
+Lines executed:0.00% of 123
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dct32_fixed.gcno##libavcodec#dct32_template.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dct32_fixed.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 125

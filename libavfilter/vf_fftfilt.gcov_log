@@ -1,0 +1,63 @@
+Function 'uninit'
+Lines executed:0.00% of 15
+
+Function 'filter_frame'
+Lines executed:0.00% of 31
+
+Function 'copy_horizontal'
+Lines executed:0.00% of 15
+
+Function 'irdft_vertical'
+Lines executed:0.00% of 11
+
+Function 'rdft_vertical'
+Lines executed:0.00% of 11
+
+Function 'copy_vertical'
+Lines executed:0.00% of 17
+
+Function 'multiply_data'
+Lines executed:0.00% of 12
+
+Function 'config_props'
+Lines executed:0.00% of 54
+
+Function 'do_eval'
+Lines executed:0.00% of 16
+
+Function 'initialize'
+Lines executed:0.00% of 20
+
+Function 'irdft_horizontal16'
+Lines executed:0.00% of 23
+
+Function 'irdft_horizontal8'
+Lines executed:0.00% of 22
+
+Function 'rdft_horizontal16'
+Lines executed:0.00% of 19
+
+Function 'rdft_horizontal8'
+Lines executed:0.00% of 19
+
+Function 'copy_rev'
+Lines executed:0.00% of 7
+
+Function 'weight_V'
+Lines executed:0.00% of 4
+
+Function 'weight_U'
+Lines executed:0.00% of 1
+
+Function 'weight_Y'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_fftfilt.c'
+Lines executed:0.00% of 292
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fftfilt.gcno##libavfilter#vf_fftfilt.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_fftfilt.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 298

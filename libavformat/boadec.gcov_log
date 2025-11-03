@@ -1,0 +1,14 @@
+Function 'read_packet'
+Lines executed:0.00% of 3
+
+Function 'read_header'
+Lines executed:0.00% of 18
+
+Function 'probe'
+Lines executed:0.00% of 10
+
+File 'libavformat/boadec.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#boadec.gcno##libavformat#boadec.c.gcov'
+
+Lines executed:0.00% of 31

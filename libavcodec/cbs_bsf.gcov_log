@@ -1,0 +1,21 @@
+Function 'ff_cbs_bsf_generic_close'
+Lines executed:0.00% of 6
+
+Function 'ff_cbs_bsf_generic_init'
+Lines executed:0.00% of 28
+
+Function 'ff_cbs_bsf_generic_filter'
+Lines executed:0.00% of 31
+
+Function 'cbs_bsf_update_side_data'
+Lines executed:0.00% of 23
+
+File 'libavcodec/cbs_bsf.c'
+Lines executed:0.00% of 86
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_bsf.gcno##libavcodec#cbs_bsf.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cbs_bsf.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 88

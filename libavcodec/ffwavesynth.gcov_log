@@ -1,0 +1,36 @@
+Function 'wavesynth_close'
+Lines executed:0.00% of 5
+
+Function 'wavesynth_decode'
+Lines executed:0.00% of 30
+
+Function 'wavesynth_enter_intervals'
+Lines executed:0.00% of 20
+
+Function 'wavesynth_synth_sample'
+Lines executed:0.00% of 41
+
+Function 'wavesynth_init'
+Lines executed:0.00% of 22
+
+Function 'wavesynth_parse_extradata'
+Lines executed:0.00% of 61
+
+Function 'wavesynth_seek'
+Lines executed:0.00% of 40
+
+Function 'frac64'
+Lines executed:0.00% of 16
+
+Function 'pink_fill'
+Lines executed:0.00% of 14
+
+File 'libavcodec/ffwavesynth.c'
+Lines executed:0.00% of 247
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffwavesynth.gcno##libavcodec#ffwavesynth.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffwavesynth.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 249

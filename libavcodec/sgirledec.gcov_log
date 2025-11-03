@@ -1,0 +1,18 @@
+Function 'sgirle_decode_frame'
+Lines executed:0.00% of 9
+
+Function 'decode_sgirle8'
+Lines executed:0.00% of 32
+
+Function 'sgirle_decode_init'
+Lines executed:0.00% of 3
+
+File 'libavcodec/sgirledec.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sgirledec.gcno##libavcodec#sgirledec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sgirledec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 44

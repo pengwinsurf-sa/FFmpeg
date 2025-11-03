@@ -1,0 +1,59 @@
+Function 'ff_silk_init'
+Lines executed:0.00% of 12
+
+Function 'ff_silk_flush'
+Lines executed:0.00% of 7
+
+Function 'ff_silk_free'
+Lines executed:0.00% of 3
+
+Function 'ff_silk_decode_superframe'
+Lines executed:0.00% of 44
+
+Function 'silk_flush_frame'
+Lines executed:0.00% of 10
+
+Function 'silk_unmix_ms'
+Lines executed:0.00% of 23
+
+Function 'silk_decode_frame'
+Lines executed:0.00% of 135
+
+Function 'silk_decode_excitation'
+Lines executed:0.00% of 55
+
+Function 'silk_count_children'
+Lines executed:0.00% of 8
+
+Function 'silk_decode_lpc'
+Lines executed:0.00% of 59
+
+Function 'silk_lsf2lpc'
+Lines executed:0.00% of 54
+
+Function 'silk_lsp2poly'
+Lines executed:0.00% of 10
+
+Function 'silk_is_lpc_stable'
+Lines executed:0.00% of 39
+
+Function 'silk_stabilize_lsf'
+Lines executed:0.00% of 42
+
+File 'libavcodec/opus/silk.c'
+Lines executed:0.00% of 478
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#silk.gcno##libavcodec#opus#silk.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#silk.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#silk.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#silk.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 501

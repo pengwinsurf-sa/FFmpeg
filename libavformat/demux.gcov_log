@@ -1,0 +1,168 @@
+Function 'avformat_find_stream_info'
+Lines executed:0.00% of 370
+
+Function 'extract_extradata'
+Lines executed:0.00% of 28
+
+Function 'extract_extradata_init'
+Lines executed:0.00% of 27
+
+Function 'extract_extradata_check'
+Lines executed:0.00% of 6
+
+Function 'ff_rfps_calculate'
+Lines executed:0.00% of 45
+
+Function 'ff_rfps_add_frame'
+Lines executed:0.00% of 39
+
+Function 'tb_unreliable'
+Lines executed:0.00% of 16
+
+Function 'get_std_framerate'
+Lines executed:0.00% of 11
+
+Function 'compute_chapters_end'
+Lines executed:0.00% of 22
+
+Function 'chapter_start_cmp'
+Lines executed:0.00% of 6
+
+Function 'try_decode_frame'
+Lines executed:0.00% of 68
+
+Function 'has_codec_parameters'
+Lines executed:0.00% of 32
+
+Function 'estimate_timings'
+Lines executed:0.00% of 37
+
+Function 'estimate_timings_from_pts'
+Lines executed:0.00% of 94
+
+Function 'estimate_timings_from_bit_rate'
+Lines executed:0.00% of 28
+
+Function 'fill_all_stream_timings'
+Lines executed:0.00% of 10
+
+Function 'update_stream_timings'
+Lines executed:0.00% of 65
+
+Function 'av_read_frame'
+Lines executed:0.00% of 55
+
+Function 'read_frame_internal'
+Lines executed:0.00% of 125
+
+Function 'codec_close'
+Lines executed:0.00% of 27
+
+Function 'parse_packet'
+Lines executed:0.00% of 76
+
+Function 'compute_pkt_fields'
+Lines executed:0.00% of 117
+
+Function 'update_initial_durations'
+Lines executed:0.00% of 49
+
+Function 'update_initial_timestamps'
+Lines executed:0.00% of 36
+
+Function 'update_dts_from_pts'
+Lines executed:0.00% of 15
+
+Function 'select_from_pts_buffer'
+Lines executed:0.00% of 26
+
+Function 'has_decode_delay_been_guessed'
+Lines executed:0.00% of 11
+
+Function 'compute_frame_duration'
+Lines executed:0.00% of 42
+
+Function 'ff_read_packet'
+Lines executed:0.00% of 39
+
+Function 'ff_buffer_packet'
+Lines executed:0.00% of 3
+
+Function 'handle_new_packet'
+Lines executed:0.00% of 25
+
+Function 'update_timestamps'
+Lines executed:0.00% of 15
+
+Function 'update_wrap_reference'
+Lines executed:0.00% of 43
+
+Function 'probe_codec'
+Lines executed:0.00% of 39
+
+Function 'force_codec_ids'
+Lines executed:0.00% of 15
+
+Function 'avformat_close_input'
+Lines executed:0.00% of 16
+
+Function 'avformat_open_input'
+Lines executed:0.00% of 102
+
+Function 'update_stream_avctx'
+Lines executed:0.00% of 15
+
+Function 'init_input'
+Lines executed:0.00% of 19
+
+Function 'set_codec_from_probe_data'
+Lines executed:0.00% of 21
+
+Function 'find_probe_decoder'
+Lines executed:0.00% of 14
+
+Function 'ff_wrap_timestamp'
+Lines executed:0.00% of 2
+
+Function 'wrap_timestamp'
+Lines executed:0.00% of 8
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavformat/demux.c'
+Lines executed:0.00% of 1838
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno##libavformat#demux.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno##libavutil#common.h.gcov'
+
+File 'libavformat/avformat_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno##libavformat#avformat_internal.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#demux.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 1870

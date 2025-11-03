@@ -1,0 +1,83 @@
+Function 'enc_loopback'
+Lines executed:0.00% of 4
+
+Function 'encoder_thread'
+Lines executed:0.00% of 50
+
+Function 'enc_thread_init'
+Lines executed:0.00% of 13
+
+Function 'enc_thread_uninit'
+Lines executed:0.00% of 5
+
+Function 'enc_thread_set_name'
+Lines executed:0.00% of 12
+
+Function 'frame_encode'
+Lines executed:0.00% of 22
+
+Function 'forced_kf_apply'
+Lines executed:0.00% of 29
+
+Function 'encode_frame'
+Lines executed:0.00% of 71
+
+Function 'update_video_stats'
+Lines executed:0.00% of 44
+
+Function 'enc_stats_write'
+Lines executed:0.00% of 53
+
+Function 'do_subtitle_out'
+Lines executed:0.00% of 51
+
+Function 'check_recording_time'
+Lines executed:0.00% of 6
+
+Function 'enc_open'
+Lines executed:0.00% of 104
+
+Function 'hw_device_setup_for_encode'
+Lines executed:0.00% of 26
+
+Function 'enc_alloc'
+Lines executed:0.00% of 20
+
+Function 'enc_item_name'
+Lines executed:0.00% of 3
+
+Function 'enc_free'
+Lines executed:0.00% of 7
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 4
+
+File 'fftools/ffmpeg_enc.c'
+Lines executed:0.00% of 501
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno##fftools#ffmpeg_enc.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno##libavutil#thread.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_enc.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 524

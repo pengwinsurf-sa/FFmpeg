@@ -1,0 +1,67 @@
+Function 'sq_free'
+Lines executed:0.00% of 7
+
+Function 'sq_alloc'
+Lines executed:0.00% of 9
+
+Function 'sq_frame_samples'
+Lines executed:0.00% of 8
+
+Function 'sq_limit_frames'
+Lines executed:0.00% of 8
+
+Function 'sq_add_stream'
+Lines executed:0.00% of 18
+
+Function 'sq_receive'
+Lines executed:0.00% of 5
+
+Function 'receive_internal'
+Lines executed:0.00% of 13
+
+Function 'receive_for_stream'
+Lines executed:0.00% of 42
+
+Function 'receive_samples'
+Lines executed:0.00% of 42
+
+Function 'frame_is_aligned'
+Lines executed:0.00% of 6
+
+Function 'offset_audio'
+Lines executed:0.00% of 16
+
+Function 'sq_send'
+Lines executed:0.00% of 32
+
+Function 'overflow_heartbeat'
+Lines executed:0.00% of 34
+
+Function 'stream_update_ts'
+Lines executed:0.00% of 12
+
+Function 'queue_head_update'
+Lines executed:0.00% of 18
+
+Function 'finish_stream'
+Lines executed:0.00% of 24
+
+Function 'tb_update'
+Lines executed:0.00% of 10
+
+Function 'frame_end'
+Lines executed:0.00% of 2
+
+File 'fftools/sync_queue.c'
+Lines executed:0.00% of 302
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#sync_queue.gcno##fftools#sync_queue.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#sync_queue.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#sync_queue.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 306

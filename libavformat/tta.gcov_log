@@ -1,0 +1,21 @@
+Function 'tta_read_seek'
+Lines executed:0.00% of 8
+
+Function 'tta_read_packet'
+Lines executed:0.00% of 15
+
+Function 'tta_read_header'
+Lines executed:0.00% of 71
+
+Function 'tta_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/tta.c'
+Lines executed:0.00% of 99
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tta.gcno##libavformat#tta.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tta.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 101

@@ -1,0 +1,136 @@
+Function 'uninit'
+Lines executed:0.00% of 24
+
+Function 'config_output'
+Lines executed:0.00% of 22
+
+Function 'do_morpho'
+Lines executed:0.00% of 64
+
+Function 'morpho_sliceX'
+Lines executed:0.00% of 41
+
+Function 'morpho_slice'
+Lines executed:0.00% of 39
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_input_structure'
+Lines executed:0.00% of 10
+
+Function 'config_input'
+Lines executed:0.00% of 11
+
+Function 'read_iplane'
+Lines executed:0.00% of 17
+
+Function 'build_chord_set'
+Lines executed:0.00% of 77
+
+Function 'comp_chord'
+Lines executed:0.00% of 5
+
+Function 'comp_chord_length'
+Lines executed:0.00% of 5
+
+Function 'insert_chord_set'
+Lines executed:0.00% of 13
+
+Function 'erode'
+Lines executed:0.00% of 7
+
+Function 'dilate'
+Lines executed:0.00% of 7
+
+Function 'line_erode'
+Lines executed:0.00% of 12
+
+Function 'line_dilate'
+Lines executed:0.00% of 7
+
+Function 'compute_max_lut'
+Lines executed:0.00% of 5
+
+Function 'update_max_lut'
+Lines executed:0.00% of 5
+
+Function 'compute_max_row'
+Lines executed:0.00% of 16
+
+Function 'compute_min_lut'
+Lines executed:0.00% of 5
+
+Function 'update_min_lut'
+Lines executed:0.00% of 5
+
+Function 'compute_min_row'
+Lines executed:0.00% of 14
+
+Function 'circular_swap'
+Lines executed:0.00% of 7
+
+Function 'alloc_lut_if_necessary'
+Lines executed:0.00% of 14
+
+Function 'free_lut'
+Lines executed:0.00% of 12
+
+Function 'alloc_lut'
+Lines executed:0.00% of 21
+
+Function 'maxinplace16_fun'
+Lines executed:0.00% of 6
+
+Function 'max16_fun'
+Lines executed:0.00% of 7
+
+Function 'diffinplace16_fun'
+Lines executed:0.00% of 6
+
+Function 'diff16_fun'
+Lines executed:0.00% of 6
+
+Function 'mininplace16_fun'
+Lines executed:0.00% of 6
+
+Function 'min16_fun'
+Lines executed:0.00% of 7
+
+Function 'diffinplace_fun'
+Lines executed:0.00% of 4
+
+Function 'diff_fun'
+Lines executed:0.00% of 4
+
+Function 'maxinplace_fun'
+Lines executed:0.00% of 4
+
+Function 'max_fun'
+Lines executed:0.00% of 4
+
+Function 'mininplace_fun'
+Lines executed:0.00% of 4
+
+Function 'min_fun'
+Lines executed:0.00% of 4
+
+Function 'morpho_child_next'
+Lines executed:0.00% of 1
+
+Function 'morpho_framesync_preinit'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_morpho.c'
+Lines executed:0.00% of 526
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_morpho.gcno##libavfilter#vf_morpho.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_morpho.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_morpho.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 533

@@ -1,0 +1,74 @@
+Function 'ff_twinvq_decode_init'
+Lines executed:0.00% of 26
+
+Function 'ff_twinvq_decode_close'
+Lines executed:0.00% of 12
+
+Function 'init_bitstream_params'
+Lines executed:0.00% of 53
+
+Function 'construct_perm_table'
+Lines executed:0.00% of 27
+
+Function 'permutate_in_line'
+Lines executed:0.00% of 13
+
+Function 'init_mdct_win'
+Lines executed:0.00% of 30
+
+Function 'ff_twinvq_decode_frame'
+Lines executed:0.00% of 27
+
+Function 'read_and_decode_spectrum'
+Lines executed:0.00% of 37
+
+Function 'imdct_output'
+Lines executed:0.00% of 23
+
+Function 'imdct_and_window'
+Lines executed:0.00% of 34
+
+Function 'dec_lpc_spectrum_inv'
+Lines executed:0.00% of 16
+
+Function 'decode_lsp'
+Lines executed:0.00% of 29
+
+Function 'dec_gain'
+Lines executed:0.00% of 20
+
+Function 'dequant'
+Lines executed:0.00% of 29
+
+Function 'eval_lpcenv_2parts'
+Lines executed:0.00% of 13
+
+Function 'eval_lpcenv_or_interp'
+Lines executed:0.00% of 23
+
+Function 'eval_lpcenv'
+Lines executed:0.00% of 9
+
+Function 'eval_lpc_spectrum'
+Lines executed:0.00% of 13
+
+Function 'twinvq_mulawinv'
+Lines executed:0.00% of 5
+
+File 'libavcodec/twinvq.c'
+Lines executed:0.00% of 429
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvq.gcno##libavcodec#twinvq.c.gcov'
+
+File 'libavcodec/twinvq.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvq.gcno##libavcodec#twinvq.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvq.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#twinvq.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 439

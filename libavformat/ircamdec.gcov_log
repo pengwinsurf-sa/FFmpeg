@@ -1,0 +1,15 @@
+Function 'ircam_read_header'
+Lines executed:0.00% of 41
+
+Function 'ircam_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/ircamdec.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ircamdec.gcno##libavformat#ircamdec.c.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ircamdec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 48

@@ -1,0 +1,41 @@
+Function 'cinepak_decode_end'
+Lines executed:0.00% of 4
+
+Function 'cinepak_decode_frame'
+Lines executed:0.00% of 27
+
+Function 'cinepak_decode_init'
+Lines executed:0.00% of 14
+
+Function 'cinepak_decode'
+Lines executed:0.00% of 33
+
+Function 'cinepak_predecode_check'
+Lines executed:0.00% of 26
+
+Function 'cinepak_decode_strip'
+Lines executed:0.00% of 22
+
+Function 'cinepak_decode_vectors'
+Lines executed:0.00% of 93
+
+Function 'cinepak_decode_codebook'
+Lines executed:0.00% of 40
+
+File 'libavcodec/cinepak.c'
+Lines executed:0.00% of 249
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cinepak.gcno##libavcodec#cinepak.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cinepak.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cinepak.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cinepak.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 259

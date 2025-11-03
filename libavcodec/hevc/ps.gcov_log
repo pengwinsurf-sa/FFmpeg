@@ -1,0 +1,147 @@
+Function 'ff_hevc_compute_poc'
+Lines executed:0.00% of 13
+
+Function 'ff_hevc_ps_uninit'
+Lines executed:0.00% of 9
+
+Function 'ff_hevc_decode_nal_pps'
+Lines executed:0.00% of 204
+
+Function 'setup_pps'
+Lines executed:0.00% of 80
+
+Function 'pps_scc_extension'
+Lines executed:0.00% of 28
+
+Function 'pps_range_extensions'
+Lines executed:0.00% of 22
+
+Function 'pps_3d_extension'
+Lines executed:0.00% of 15
+
+Function 'delta_dlt'
+Lines executed:0.00% of 16
+
+Function 'pps_multilayer_extension'
+Lines executed:0.00% of 35
+
+Function 'colour_mapping_table'
+Lines executed:0.00% of 20
+
+Function 'colour_mapping_octants'
+Lines executed:0.00% of 25
+
+Function 'hevc_pps_free'
+Lines executed:0.00% of 15
+
+Function 'ff_hevc_decode_nal_sps'
+Lines executed:0.00% of 31
+
+Function 'hevc_sps_free'
+Lines executed:0.00% of 5
+
+Function 'ff_hevc_parse_sps'
+Lines executed:0.00% of 302
+
+Function 'map_pixel_format'
+Lines executed:0.00% of 33
+
+Function 'scaling_list_data'
+Lines executed:0.00% of 50
+
+Function 'set_default_scaling_list_data'
+Lines executed:0.00% of 25
+
+Function 'decode_vui'
+Lines executed:0.00% of 85
+
+Function 'ff_hevc_decode_nal_vps'
+Lines executed:0.00% of 113
+
+Function 'decode_vps_ext'
+Lines executed:0.00% of 175
+
+Function 'hevc_vps_free'
+Lines executed:0.00% of 5
+
+Function 'decode_hrd'
+Lines executed:0.00% of 42
+
+Function 'decode_sublayer_hrd'
+Lines executed:0.00% of 10
+
+Function 'parse_ptl'
+Lines executed:0.00% of 25
+
+Function 'decode_profile_tier_level'
+Lines executed:0.00% of 45
+
+Function 'ff_hevc_decode_short_term_rps'
+Lines executed:0.00% of 92
+
+Function 'remove_vps'
+Lines executed:0.00% of 8
+
+Function 'remove_sps'
+Lines executed:0.00% of 8
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 22
+
+Function 'get_ue_golomb_31'
+Lines executed:0.00% of 9
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 10
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/hevc/ps.c'
+Lines executed:0.00% of 1482
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavcodec#hevc#ps.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavcodec#golomb.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#ps.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1638

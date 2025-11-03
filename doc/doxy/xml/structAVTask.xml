@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVTask" kind="struct" language="C++" prot="public">
+    <compoundname>AVTask</compoundname>
+    <includes refid="executor_8h" local="no">libavutil/executor.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVTask_1a08116562fb8b34a5ce0ad58bf5f789c3" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVTask" kindref="compound">AVTask</ref> *</type>
+        <definition>AVTask* AVTask::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>AVTask::next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/executor.h" line="28" column="12" bodyfile="libavutil/executor.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AVTask</label>
+        <link refid="structAVTask"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libavutil/executor.h" line="27" column="1" bodyfile="libavutil/executor.h" bodystart="27" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structAVTask_1a08116562fb8b34a5ce0ad58bf5f789c3" prot="public" virt="non-virtual"><scope>AVTask</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

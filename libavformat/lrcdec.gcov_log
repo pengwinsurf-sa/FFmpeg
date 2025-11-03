@@ -1,0 +1,32 @@
+Function 'lrc_read_header'
+Lines executed:0.00% of 62
+
+Function 'lrc_probe'
+Lines executed:0.00% of 17
+
+Function 'read_line'
+Lines executed:0.00% of 11
+
+Function 'read_ts'
+Lines executed:0.00% of 13
+
+Function 'count_ts'
+Lines executed:0.00% of 17
+
+File 'libavformat/lrcdec.c'
+Lines executed:0.00% of 113
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lrcdec.gcno##libavformat#lrcdec.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lrcdec.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lrcdec.gcno##libavutil#common.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lrcdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 120

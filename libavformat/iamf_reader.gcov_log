@@ -1,0 +1,44 @@
+Function 'ff_iamf_read_deinit'
+Lines executed:0.00% of 10
+
+Function 'ff_iamf_read_packet'
+Lines executed:0.00% of 43
+
+Function 'parameter_block_obu'
+Lines executed:0.00% of 142
+
+Function 'audio_frame_obu'
+Lines executed:0.00% of 36
+
+Function 'find_stream_by_id'
+Lines executed:0.00% of 6
+
+File 'libavformat/iamf_reader.c'
+Lines executed:0.00% of 220
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno##libavformat#iamf_reader.c.gcov'
+
+File 'libavformat/iamf.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno##libavformat#iamf.h.gcov'
+
+File 'libavutil/iamf.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno##libavutil#iamf.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno##libavutil#rational.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_reader.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 237

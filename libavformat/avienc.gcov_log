@@ -1,0 +1,63 @@
+Function 'avi_deinit'
+Lines executed:0.00% of 10
+
+Function 'avi_write_trailer'
+Lines executed:0.00% of 45
+
+Function 'avi_write_packet_internal'
+Lines executed:0.00% of 47
+
+Function 'avi_write_packet'
+Lines executed:0.00% of 70
+
+Function 'write_skip_frames'
+Lines executed:0.00% of 13
+
+Function 'avi_write_idx1'
+Lines executed:0.00% of 44
+
+Function 'avi_write_ix'
+Lines executed:0.00% of 40
+
+Function 'update_odml_entry'
+Lines executed:0.00% of 24
+
+Function 'avi_write_header'
+Lines executed:0.00% of 226
+
+Function 'write_odml_master'
+Lines executed:0.00% of 17
+
+Function 'avi_write_counters'
+Lines executed:0.00% of 24
+
+Function 'avi_start_new_riff'
+Lines executed:0.00% of 14
+
+Function 'avi_init'
+Lines executed:0.00% of 8
+
+Function 'avi_add_ientry'
+Lines executed:0.00% of 28
+
+File 'libavformat/avienc.c'
+Lines executed:0.00% of 599
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avienc.gcno##libavformat#avienc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avienc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avienc.gcno##libavformat#avio_internal.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avienc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avienc.gcno##libavutil#avutil.h.gcov'
+
+Lines executed:0.00% of 610

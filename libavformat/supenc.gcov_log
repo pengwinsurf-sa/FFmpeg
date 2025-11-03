@@ -1,0 +1,15 @@
+Function 'sup_init'
+Lines executed:0.00% of 3
+
+Function 'sup_write_packet'
+Lines executed:0.00% of 25
+
+File 'libavformat/supenc.c'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#supenc.gcno##libavformat#supenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#supenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 28

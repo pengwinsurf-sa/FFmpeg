@@ -1,0 +1,52 @@
+Function 'uninit'
+Lines executed:0.00% of 37
+
+Function 'init'
+Lines executed:0.00% of 7
+
+Function 'activate'
+Lines executed:0.00% of 40
+
+Function 'filter_frame'
+Lines executed:0.00% of 38
+
+Function 'filter_channel'
+Lines executed:0.00% of 52
+
+Function 'detect_clicks'
+Lines executed:0.00% of 22
+
+Function 'detect_clips'
+Lines executed:0.00% of 26
+
+Function 'interpolation'
+Lines executed:0.00% of 27
+
+Function 'do_interpolation'
+Lines executed:0.00% of 19
+
+Function 'factorization'
+Lines executed:0.00% of 17
+
+Function 'find_index'
+Lines executed:0.00% of 12
+
+Function 'autoregression'
+Lines executed:0.00% of 23
+
+Function 'config_input'
+Lines executed:0.00% of 84
+
+File 'libavfilter/af_adeclick.c'
+Lines executed:0.00% of 396
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adeclick.gcno##libavfilter#af_adeclick.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adeclick.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adeclick.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 404

@@ -1,0 +1,135 @@
+Function 'av_write_uncoded_frame_query'
+Lines executed:0.00% of 5
+
+Function 'av_interleaved_write_uncoded_frame'
+Lines executed:0.00% of 2
+
+Function 'av_write_uncoded_frame'
+Lines executed:0.00% of 2
+
+Function 'write_uncoded_frame_internal'
+Lines executed:0.00% of 28
+
+Function 'uncoded_frame_free'
+Lines executed:0.00% of 4
+
+Function 'ff_write_chained'
+Lines executed:0.00% of 18
+
+Function 'ff_stream_add_bitstream_filter'
+Lines executed:0.00% of 24
+
+Function 'av_get_output_timestamp'
+Lines executed:0.00% of 5
+
+Function 'av_write_trailer'
+Lines executed:0.00% of 42
+
+Function 'av_interleaved_write_frame'
+Lines executed:0.00% of 9
+
+Function 'av_write_frame'
+Lines executed:0.00% of 25
+
+Function 'write_packets_common'
+Lines executed:0.00% of 14
+
+Function 'write_packets_from_bsfs'
+Lines executed:0.00% of 26
+
+Function 'write_packet_common'
+Lines executed:0.00% of 11
+
+Function 'interleaved_write_packet'
+Lines executed:0.00% of 11
+
+Function 'check_bitstream'
+Lines executed:0.00% of 8
+
+Function 'ff_interleaved_peek'
+Lines executed:0.00% of 7
+
+Function 'ff_get_muxer_ts_offset'
+Lines executed:0.00% of 7
+
+Function 'ff_interleave_packet_passthrough'
+Lines executed:0.00% of 2
+
+Function 'ff_interleave_packet_per_dts'
+Lines executed:0.00% of 51
+
+Function 'interleave_compare_dts'
+Lines executed:0.00% of 21
+
+Function 'ff_interleave_add_packet'
+Lines executed:0.00% of 50
+
+Function 'prepare_input_packet'
+Lines executed:0.00% of 7
+
+Function 'check_packet'
+Lines executed:0.00% of 7
+
+Function 'write_packet'
+Lines executed:0.00% of 24
+
+Function 'handle_avoid_negative_ts'
+Lines executed:0.00% of 42
+
+Function 'guess_pkt_duration'
+Lines executed:0.00% of 19
+
+Function 'compute_muxer_pkt_fields'
+Lines executed:0.00% of 57
+
+Function 'avformat_write_header'
+Lines executed:0.00% of 24
+
+Function 'avformat_init_output'
+Lines executed:0.00% of 9
+
+Function 'flush_if_needed'
+Lines executed:0.00% of 7
+
+Function 'init_pts'
+Lines executed:0.00% of 34
+
+Function 'init_muxer'
+Lines executed:0.00% of 128
+
+Function 'validate_codec_tag'
+Lines executed:0.00% of 15
+
+Function 'avformat_alloc_output_context2'
+Lines executed:0.00% of 38
+
+Function 'frac_add'
+Lines executed:0.00% of 15
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavformat/mux.c'
+Lines executed:0.00% of 790
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux.gcno##libavformat#mux.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 809

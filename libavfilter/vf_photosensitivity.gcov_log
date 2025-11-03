@@ -1,0 +1,33 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 67
+
+Function 'config_input'
+Lines executed:0.00% of 5
+
+Function 'get_badness'
+Lines executed:0.00% of 8
+
+Function 'blend_frame'
+Lines executed:0.00% of 8
+
+Function 'blend_frame_partial'
+Lines executed:0.00% of 16
+
+Function 'convert_frame'
+Lines executed:0.00% of 8
+
+Function 'convert_frame_partial'
+Lines executed:0.00% of 31
+
+File 'libavfilter/vf_photosensitivity.c'
+Lines executed:0.00% of 145
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_photosensitivity.gcno##libavfilter#vf_photosensitivity.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_photosensitivity.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 147

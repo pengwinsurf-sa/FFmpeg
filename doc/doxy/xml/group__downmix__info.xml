@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__downmix__info" kind="group">
+    <compoundname>downmix_info</compoundname>
+    <title>Audio downmix metadata</title>
+    <innerclass refid="structAVDownmixInfo" prot="public">AVDownmixInfo</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__downmix__info_1ga3e3654fedbe3e5485f00ea09396c3521" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVDownmixType</name>
+        <enumvalue id="group__downmix__info_1gga3e3654fedbe3e5485f00ea09396c3521a1184863af0dcd15f6851f2db10fa355c" prot="public">
+          <name>AV_DOWNMIX_TYPE_UNKNOWN</name>
+          <briefdescription>
+<para>Not indicated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__downmix__info_1gga3e3654fedbe3e5485f00ea09396c3521a63e63739b6ea34a5ec073ad6ead25f8e" prot="public">
+          <name>AV_DOWNMIX_TYPE_LORO</name>
+          <briefdescription>
+<para>Lo/Ro 2-channel downmix (Stereo). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__downmix__info_1gga3e3654fedbe3e5485f00ea09396c3521a3737f8fe65fe8b805b256efa8d1328ef" prot="public">
+          <name>AV_DOWNMIX_TYPE_LTRT</name>
+          <briefdescription>
+<para>Lt/Rt 2-channel downmix, Dolby Surround compatible. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__downmix__info_1gga3e3654fedbe3e5485f00ea09396c3521ac92fde94fbc0aa50b93071d995a36fca" prot="public">
+          <name>AV_DOWNMIX_TYPE_DPLII</name>
+          <briefdescription>
+<para>Lt/Rt 2-channel downmix, Dolby Pro Logic II compatible. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__downmix__info_1gga3e3654fedbe3e5485f00ea09396c3521ae8e1a1a755fccdddddbc9680694af182" prot="public">
+          <name>AV_DOWNMIX_TYPE_NB</name>
+          <briefdescription>
+<para>Number of downmix types. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Not part of ABI. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible downmix types. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/downmix_info.h" line="44" column="1" bodyfile="libavutil/downmix_info.h" bodystart="44" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__downmix__info_1gad4864d2789400dfb3e6bdc3c9c2eae4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVDownmixInfo" kindref="compound">AVDownmixInfo</ref> *</type>
+        <definition>AVDownmixInfo * av_downmix_info_update_side_data</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>av_downmix_info_update_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Get a frame&apos;s AV_FRAME_DATA_DOWNMIX_INFO side data for editing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the side data is absent, it is created and added to the frame.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frame for which the side data is to be obtained or created</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="structAVDownmixInfo" kindref="compound">AVDownmixInfo</ref> structure to be edited by the caller, or NULL if the structure cannot be allocated. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/downmix_info.h" line="105" column="15" declfile="libavutil/downmix_info.h" declline="105" declcolumn="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

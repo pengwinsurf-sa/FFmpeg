@@ -1,0 +1,25 @@
+Function 'read_packet'
+Lines executed:0.00% of 18
+
+Function 'read_header'
+Lines executed:0.00% of 27
+
+Function 'efi_read'
+Lines executed:0.00% of 11
+
+Function 'read_probe'
+Lines executed:0.00% of 12
+
+File 'libavformat/tty.c'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tty.gcno##libavformat#tty.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tty.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tty.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 68

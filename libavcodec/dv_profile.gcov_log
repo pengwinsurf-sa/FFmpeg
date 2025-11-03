@@ -1,0 +1,20 @@
+Function 'av_dv_codec_profile2'
+Lines executed:0.00% of 12
+
+Function 'av_dv_codec_profile'
+Lines executed:0.00% of 2
+
+Function 'av_dv_frame_profile'
+Lines executed:0.00% of 2
+
+Function 'ff_dv_frame_profile'
+Lines executed:0.00% of 15
+
+Function 'ff_dv_print_profiles'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dv_profile.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dv_profile.gcno##libavcodec#dv_profile.c.gcov'
+
+Lines executed:0.00% of 39

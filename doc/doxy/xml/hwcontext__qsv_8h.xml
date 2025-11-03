@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hwcontext__qsv_8h" kind="file" language="C++">
+    <compoundname>hwcontext_qsv.h</compoundname>
+    <includes local="no">mfxvideo.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/hwcontext_qsv.h</label>
+        <link refid="hwcontext__qsv_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mfxvideo.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVQSVDeviceContext" prot="public">AVQSVDeviceContext</innerclass>
+    <innerclass refid="structAVQSVFramesContext" prot="public">AVQSVFramesContext</innerclass>
+    <briefdescription>
+<para>An API-specific header for AV_HWDEVICE_TYPE_QSV. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="structAVHWFramesContext_1ad67ff3a5828a611d1b1cddd64fc1de71" kindref="member">AVHWFramesContext.pool</ref> must contain AVBufferRefs whose data pointer points to a mfxFrameSurface1 struct. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HWCONTEXT_QSV_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HWCONTEXT_QSV_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;mfxvideo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>An<sp/>API-specific<sp/>header<sp/>for<sp/>AV_HWDEVICE_TYPE_QSV.</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>AVHWFramesContext.pool<sp/>must<sp/>contain<sp/>AVBufferRefs<sp/>whose<sp/>data<sp/>pointer<sp/>points</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>to<sp/>a<sp/>mfxFrameSurface1<sp/>struct.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>is<sp/>allocated<sp/>as<sp/>AVHWDeviceContext.hwctx</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structAVQSVDeviceContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVQSVDeviceContext" kindref="compound">AVQSVDeviceContext</ref><sp/>{</highlight></codeline>
+<codeline lineno="36" refid="structAVQSVDeviceContext_1abfdc22dbded8e90950b3dfce3f3bd83d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>mfxSession<sp/><ref refid="structAVQSVDeviceContext_1abfdc22dbded8e90950b3dfce3f3bd83d" kindref="member">session</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>mfxLoader<sp/>handle<sp/>used<sp/>for<sp/>mfxSession<sp/>creation</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>field<sp/>is<sp/>only<sp/>available<sp/>for<sp/>oneVPL<sp/>user.<sp/>For<sp/>non-oneVPL<sp/>user,<sp/>this</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>field<sp/>must<sp/>be<sp/>set<sp/>to<sp/>NULL.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Filled<sp/>by<sp/>the<sp/>user<sp/>before<sp/>calling<sp/>av_hwdevice_ctx_init()<sp/>and<sp/>should<sp/>be</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>cast<sp/>to<sp/>mfxLoader<sp/>handle.<sp/>Deallocating<sp/>the<sp/>AVHWDeviceContext<sp/>will<sp/>always</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>release<sp/>this<sp/>interface.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structAVQSVDeviceContext_1a561ca800681d1e22b8ee4861ee446541" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structAVQSVDeviceContext_1a561ca800681d1e22b8ee4861ee446541" kindref="member">loader</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}<sp/><ref refid="structAVQSVDeviceContext" kindref="compound">AVQSVDeviceContext</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="50"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>This<sp/>struct<sp/>is<sp/>allocated<sp/>as<sp/>AVHWFramesContext.hwctx</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="structAVQSVFramesContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVQSVFramesContext" kindref="compound">AVQSVFramesContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>A<sp/>pointer<sp/>to<sp/>a<sp/>mfxFrameSurface1<sp/>struct</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>It<sp/>is<sp/>available<sp/>when<sp/>nb_surfaces<sp/>is<sp/>non-zero.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="structAVQSVFramesContext_1a748121791d286d4099c8073152973d70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>mfxFrameSurface1<sp/>*<ref refid="structAVQSVFramesContext_1a748121791d286d4099c8073152973d70" kindref="member">surfaces</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>frames<sp/>in<sp/>the<sp/>pool</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>It<sp/>is<sp/>0<sp/>for<sp/>dynamic<sp/>frame<sp/>pools<sp/>or<sp/>AVHWFramesContext.initial_pool_size</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>for<sp/>fixed<sp/>frame<sp/>pools.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Note<sp/>only<sp/>oneVPL<sp/>GPU<sp/>runtime<sp/>2.9+<sp/>can<sp/>support<sp/>dynamic<sp/>frame<sp/>pools</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>on<sp/>d3d11va<sp/>or<sp/>vaapi</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="structAVQSVFramesContext_1a80ce1c761479c7fe226d1eeed5f131ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVQSVFramesContext_1a80ce1c761479c7fe226d1eeed5f131ed" kindref="member">nb_surfaces</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>A<sp/>combination<sp/>of<sp/>MFX_MEMTYPE_*<sp/>describing<sp/>the<sp/>frame<sp/>pool.</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="structAVQSVFramesContext_1aadf9983d5965bd4c2cbe09c25fa2757a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVQSVFramesContext_1aadf9983d5965bd4c2cbe09c25fa2757a" kindref="member">frame_type</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>A<sp/>pointer<sp/>to<sp/>a<sp/>mfxFrameInfo<sp/>struct</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>It<sp/>is<sp/>available<sp/>when<sp/>nb_surfaces<sp/>is<sp/>0,<sp/>all<sp/>buffers<sp/>allocated<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>pool<sp/>have<sp/>the<sp/>same<sp/>mfxFrameInfo.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="structAVQSVFramesContext_1ac3115fe52af858a5e37123560dad3538" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>mfxFrameInfo<sp/>*<ref refid="structAVQSVFramesContext_1ac3115fe52af858a5e37123560dad3538" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/><ref refid="structAVQSVFramesContext" kindref="compound">AVQSVFramesContext</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HWCONTEXT_QSV_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hwcontext_qsv.h"/>
+  </compounddef>
+</doxygen>

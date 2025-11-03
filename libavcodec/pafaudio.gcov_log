@@ -1,0 +1,15 @@
+Function 'paf_audio_decode'
+Lines executed:0.00% of 22
+
+Function 'paf_audio_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/pafaudio.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pafaudio.gcno##libavcodec#pafaudio.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pafaudio.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 30

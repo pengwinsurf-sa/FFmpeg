@@ -1,0 +1,49 @@
+Function 'ff_v4l2_m2m_create_context'
+Lines executed:0.00% of 16
+
+Function 'ff_v4l2_m2m_codec_init'
+Lines executed:0.00% of 26
+
+Function 'ff_v4l2_m2m_codec_end'
+Lines executed:0.00% of 15
+
+Function 'v4l2_m2m_destroy_context'
+Lines executed:0.00% of 9
+
+Function 'ff_v4l2_m2m_codec_reinit'
+Lines executed:0.00% of 22
+
+Function 'v4l2_configure_contexts'
+Lines executed:0.00% of 49
+
+Function 'v4l2_probe_driver'
+Lines executed:0.00% of 23
+
+Function 'v4l2_prepare_contexts'
+Lines executed:0.00% of 31
+
+File 'libavcodec/v4l2_m2m.c'
+Lines executed:0.00% of 177
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m.gcno##libavcodec#v4l2_m2m.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/fcntl2.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m.gcno###usr#include#x86_64-linux-gnu#bits#fcntl2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 191

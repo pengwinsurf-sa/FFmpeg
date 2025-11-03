@@ -1,0 +1,18 @@
+Function 'main'
+Lines executed:0.00% of 89
+
+Function 'encode'
+Lines executed:0.00% of 15
+
+Function 'select_channel_layout'
+Lines executed:0.00% of 12
+
+File 'doc/examples/encode_audio.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#encode_audio.gcno##doc#examples#encode_audio.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#encode_audio.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 116

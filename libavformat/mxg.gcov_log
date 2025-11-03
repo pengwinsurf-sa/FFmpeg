@@ -1,0 +1,28 @@
+Function 'mxg_close'
+Lines executed:0.00% of 4
+
+Function 'mxg_read_packet'
+Lines executed:0.00% of 75
+
+Function 'mxg_update_cache'
+Lines executed:0.00% of 19
+
+Function 'mxg_find_startmarker'
+Lines executed:0.00% of 14
+
+Function 'mxg_read_header'
+Lines executed:0.00% of 22
+
+File 'libavformat/mxg.c'
+Lines executed:0.00% of 127
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxg.gcno##libavformat#mxg.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxg.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 134

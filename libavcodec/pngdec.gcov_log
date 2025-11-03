@@ -1,0 +1,118 @@
+Function 'png_dec_end'
+Lines executed:0.00% of 14
+
+Function 'png_dec_init'
+Lines executed:0.00% of 5
+
+Function 'update_thread_context'
+Lines executed:0.00% of 22
+
+Function 'decode_frame_apng'
+Lines executed:0.00% of 32
+
+Function 'decode_frame_png'
+Lines executed:0.00% of 36
+
+Function 'output_frame'
+Lines executed:0.00% of 14
+
+Function 'clear_frame_metadata'
+Lines executed:0.00% of 10
+
+Function 'decode_frame_common'
+Lines executed:0.00% of 233
+
+Function 'apng_reset_background'
+Lines executed:0.00% of 10
+
+Function 'handle_p_frame_apng'
+Lines executed:0.00% of 53
+
+Function 'handle_p_frame_png'
+Lines executed:0.00% of 13
+
+Function 'decode_fctl_chunk'
+Lines executed:0.00% of 40
+
+Function 'handle_small_bpp'
+Lines executed:0.00% of 58
+
+Function 'decode_sbit_chunk'
+Lines executed:0.00% of 22
+
+Function 'decode_iccp_chunk'
+Lines executed:0.00% of 21
+
+Function 'decode_trns_chunk'
+Lines executed:0.00% of 27
+
+Function 'decode_plte_chunk'
+Lines executed:0.00% of 14
+
+Function 'decode_idat_chunk'
+Lines executed:0.00% of 107
+
+Function 'populate_avctx_color_fields'
+Lines executed:0.00% of 81
+
+Function 'decode_phys_chunk'
+Lines executed:0.00% of 10
+
+Function 'decode_ihdr_chunk'
+Lines executed:0.00% of 33
+
+Function 'decode_text_chunk'
+Lines executed:0.00% of 31
+
+Function 'iso88591_to_utf8'
+Lines executed:0.00% of 15
+
+Function 'decode_zbuf'
+Lines executed:0.00% of 30
+
+Function 'png_decode_idat'
+Lines executed:0.00% of 18
+
+Function 'png_handle_row'
+Lines executed:0.00% of 50
+
+Function 'deloco_rgb16'
+Lines executed:0.00% of 1
+
+Function 'ff_png_filter_row'
+Lines executed:0.00% of 33
+
+Function 'ff_add_png_paeth_prediction'
+Lines executed:0.00% of 17
+
+Function 'png_put_interlaced_row'
+Lines executed:0.00% of 45
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/pngdec.c'
+Lines executed:0.00% of 1065
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdec.gcno##libavcodec#pngdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdec.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 1097

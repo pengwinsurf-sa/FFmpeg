@@ -1,0 +1,61 @@
+Function 'av_refstruct_pool_alloc_ext_c'
+Lines executed:0.00% of 30
+
+Function 'av_refstruct_pool_alloc'
+Lines executed:0.00% of 4
+
+Function 'refstruct_pool_uninit'
+Lines executed:0.00% of 14
+
+Function 'pool_unref'
+Lines executed:0.00% of 7
+
+Function 'av_refstruct_pool_get'
+Lines executed:0.00% of 4
+
+Function 'refstruct_pool_get_ext'
+Lines executed:0.00% of 37
+
+Function 'pool_reset_entry'
+Lines executed:0.00% of 4
+
+Function 'pool_return_entry'
+Lines executed:0.00% of 14
+
+Function 'pool_free_entry'
+Lines executed:0.00% of 5
+
+Function 'pool_free'
+Lines executed:0.00% of 6
+
+Function 'av_refstruct_exclusive'
+Lines executed:0.00% of 4
+
+Function 'av_refstruct_replace'
+Lines executed:0.00% of 9
+
+Function 'av_refstruct_ref_c'
+Lines executed:0.00% of 4
+
+Function 'av_refstruct_ref'
+Lines executed:0.00% of 4
+
+Function 'av_refstruct_unref'
+Lines executed:63.64% of 11
+
+Function 'av_refstruct_alloc_ext_c'
+Lines executed:0.00% of 14
+
+File 'libavutil/refstruct.c'
+Lines executed:3.07% of 163
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#refstruct.gcno##libavutil#refstruct.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#refstruct.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:50.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#refstruct.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:4.09% of 171

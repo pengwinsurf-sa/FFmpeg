@@ -1,0 +1,37 @@
+Function 'decode_end'
+Lines executed:0.00% of 5
+
+Function 'decode_tag'
+Lines executed:0.00% of 21
+
+Function 'decode_init'
+Lines executed:0.00% of 17
+
+Function 'nelly_decode_block'
+Lines executed:0.00% of 72
+
+File 'libavcodec/nellymoserdec.c'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoserdec.gcno##libavcodec#nellymoserdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoserdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoserdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoserdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoserdec.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nellymoserdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 115

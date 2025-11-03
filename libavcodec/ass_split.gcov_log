@@ -1,0 +1,60 @@
+Function 'ff_ass_style_get'
+Lines executed:0.00% of 8
+
+Function 'ff_ass_split_override_codes'
+Lines executed:0.00% of 78
+
+Function 'ff_ass_split_free'
+Lines executed:0.00% of 7
+
+Function 'ff_ass_split_dialog'
+Lines executed:0.00% of 23
+
+Function 'ff_ass_free_dialog'
+Lines executed:0.00% of 8
+
+Function 'free_section'
+Lines executed:0.00% of 16
+
+Function 'ff_ass_split'
+Lines executed:0.00% of 9
+
+Function 'ass_split'
+Lines executed:0.00% of 16
+
+Function 'ass_split_section'
+Lines executed:0.00% of 75
+
+Function 'get_default_field_orders'
+Lines executed:0.00% of 9
+
+Function 'realloc_section_array'
+Lines executed:0.00% of 13
+
+Function 'convert_alignment'
+Lines executed:0.00% of 5
+
+Function 'convert_timestamp'
+Lines executed:0.00% of 5
+
+Function 'convert_color'
+Lines executed:0.00% of 3
+
+Function 'convert_flt'
+Lines executed:0.00% of 2
+
+Function 'convert_int'
+Lines executed:0.00% of 2
+
+Function 'convert_str'
+Lines executed:0.00% of 11
+
+File 'libavcodec/ass_split.c'
+Lines executed:0.00% of 286
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ass_split.gcno##libavcodec#ass_split.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ass_split.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 290

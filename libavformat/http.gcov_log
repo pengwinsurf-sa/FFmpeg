@@ -1,0 +1,190 @@
+Function 'http_proxy_write'
+Lines executed:0.00% of 5
+
+Function 'http_proxy_open'
+Lines executed:0.00% of 51
+
+Function 'http_proxy_close'
+Lines executed:0.00% of 1
+
+Function 'http_get_short_seek'
+Lines executed:0.00% of 4
+
+Function 'http_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'http_seek'
+Lines executed:0.00% of 2
+
+Function 'http_seek_internal'
+Lines executed:0.00% of 47
+
+Function 'http_close'
+Lines executed:0.00% of 15
+
+Function 'http_shutdown'
+Lines executed:0.00% of 24
+
+Function 'http_write'
+Lines executed:0.00% of 13
+
+Function 'http_read'
+Lines executed:0.00% of 8
+
+Function 'store_icy'
+Lines executed:0.00% of 28
+
+Function 'update_metadata'
+Lines executed:0.00% of 19
+
+Function 'http_read_stream'
+Lines executed:0.00% of 37
+
+Function 'http_buf_read_compressed'
+Lines executed:0.00% of 17
+
+Function 'http_buf_read'
+Lines executed:0.00% of 43
+
+Function 'http_connect'
+Lines executed:0.00% of 101
+
+Function 'bprint_escaped_path'
+Lines executed:0.00% of 21
+
+Function 'http_read_header'
+Lines executed:0.00% of 28
+
+Function 'has_header'
+Lines executed:0.00% of 3
+
+Function 'get_cookies'
+Lines executed:0.00% of 45
+
+Function 'process_line'
+Lines executed:0.00% of 121
+
+Function 'parse_cache_control'
+Lines executed:0.00% of 16
+
+Function 'parse_expires'
+Lines executed:0.00% of 5
+
+Function 'cookie_string'
+Lines executed:0.00% of 12
+
+Function 'parse_cookie'
+Lines executed:0.00% of 34
+
+Function 'parse_set_cookie'
+Lines executed:0.00% of 20
+
+Function 'parse_http_date'
+Lines executed:0.00% of 15
+
+Function 'parse_icy'
+Lines executed:0.00% of 12
+
+Function 'parse_content_encoding'
+Lines executed:0.00% of 14
+
+Function 'parse_content_range'
+Lines executed:0.00% of 11
+
+Function 'parse_location'
+Lines executed:0.00% of 8
+
+Function 'check_http_code'
+Lines executed:0.00% of 8
+
+Function 'http_get_line'
+Lines executed:0.00% of 15
+
+Function 'http_getc'
+Lines executed:0.00% of 9
+
+Function 'http_accept'
+Lines executed:0.00% of 18
+
+Function 'http_open'
+Lines executed:0.00% of 33
+
+Function 'http_listen'
+Lines executed:0.00% of 24
+
+Function 'http_handshake'
+Lines executed:0.00% of 26
+
+Function 'handle_http_errors'
+Lines executed:0.00% of 4
+
+Function 'http_write_reply'
+Lines executed:0.00% of 39
+
+Function 'ff_http_get_new_location'
+Lines executed:0.00% of 3
+
+Function 'ff_http_averror'
+Lines executed:0.00% of 10
+
+Function 'ff_http_do_new_request2'
+Lines executed:0.00% of 37
+
+Function 'ff_http_do_new_request'
+Lines executed:0.00% of 2
+
+Function 'http_open_cnx'
+Lines executed:0.00% of 77
+
+Function 'redirect_cache_set'
+Lines executed:0.00% of 7
+
+Function 'redirect_cache_get'
+Lines executed:0.00% of 11
+
+Function 'http_should_reconnect'
+Lines executed:0.00% of 13
+
+Function 'http_open_cnx_internal'
+Lines executed:0.00% of 51
+
+Function 'ff_http_init_auth_state'
+Lines executed:0.00% of 6
+
+File 'libavformat/http.c'
+Lines executed:0.00% of 1145
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno##libavformat#http.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno###usr#include#stdlib.h.gcov'
+
+File 'libavutil/getenv_utf8.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#http.gcno##libavutil#getenv_utf8.h.gcov'
+
+Lines executed:0.00% of 1176

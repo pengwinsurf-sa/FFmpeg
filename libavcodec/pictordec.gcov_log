@@ -1,0 +1,26 @@
+Function 'decode_frame'
+Lines executed:0.00% of 132
+
+Function 'picmemset'
+Lines executed:0.00% of 41
+
+Function 'picmemset_8bpp'
+Lines executed:0.00% of 14
+
+File 'libavcodec/pictordec.c'
+Lines executed:0.00% of 160
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pictordec.gcno##libavcodec#pictordec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pictordec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pictordec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pictordec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 187

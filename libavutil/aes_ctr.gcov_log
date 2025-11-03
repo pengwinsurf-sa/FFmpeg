@@ -1,0 +1,46 @@
+Function 'av_aes_ctr_crypt'
+Lines executed:0.00% of 15
+
+Function 'av_aes_ctr_increment_iv'
+Lines executed:0.00% of 6
+
+Function 'av_aes_ctr_increment_be64'
+Lines executed:0.00% of 4
+
+Function 'av_aes_ctr_free'
+Lines executed:0.00% of 3
+
+Function 'av_aes_ctr_init'
+Lines executed:0.00% of 4
+
+Function 'av_aes_ctr_set_random_iv'
+Lines executed:0.00% of 6
+
+Function 'av_aes_ctr_get_iv'
+Lines executed:0.00% of 2
+
+Function 'av_aes_ctr_set_full_iv'
+Lines executed:0.00% of 5
+
+Function 'av_aes_ctr_set_iv'
+Lines executed:0.00% of 4
+
+Function 'av_aes_ctr_alloc'
+Lines executed:0.00% of 2
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavutil/aes_ctr.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#aes_ctr.gcno##libavutil#aes_ctr.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#aes_ctr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#aes_ctr.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 55

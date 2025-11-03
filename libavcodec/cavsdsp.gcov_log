@@ -1,0 +1,363 @@
+Function 'ff_cavsdsp_init'
+Lines executed:0.00% of 13
+
+Function 'avg_cavs_qpel16_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc23_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc32_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc12_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc21_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc33_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc31_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc13_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc11_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc22_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc03_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc02_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc01_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc30_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc20_c'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc10_c'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_hv_egpr'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_hv_egpr'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_hv_qq'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_hv_qq'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_hv_kk'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_hv_kk'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_hv_ii'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_hv_ii'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_hv_ff'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_hv_ff'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_hv_jj'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_hv_jj'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_h_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_v_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_v_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_h_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_h_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_v_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_v_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_h_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_h_hpel'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt16_v_hpel'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_v_hpel'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_filt8_h_hpel'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_hv_egpr'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_hv_egpr'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_hv_qq'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_hv_qq'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_hv_kk'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_hv_kk'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_hv_ii'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_hv_ii'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_hv_ff'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_hv_ff'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_hv_jj'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_hv_jj'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_h_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_v_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_v_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_h_qpel_r'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_h_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_v_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_v_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_h_qpel_l'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_h_hpel'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt16_v_hpel'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_v_hpel'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_filt8_h_hpel'
+Lines executed:0.00% of 1
+
+Function 'cavs_idct8_add_c'
+Lines executed:0.00% of 58
+
+Function 'cavs_filter_ch_c'
+Lines executed:0.00% of 12
+
+Function 'cavs_filter_cv_c'
+Lines executed:0.00% of 12
+
+Function 'cavs_filter_lh_c'
+Lines executed:0.00% of 12
+
+Function 'cavs_filter_lv_c'
+Lines executed:0.00% of 12
+
+Function 'loop_filter_c1'
+Lines executed:0.00% of 9
+
+Function 'loop_filter_c2'
+Lines executed:0.00% of 13
+
+Function 'loop_filter_l1'
+Lines executed:0.00% of 14
+
+Function 'loop_filter_l2'
+Lines executed:0.00% of 15
+
+File 'libavcodec/cavsdsp.c'
+Lines executed:0.00% of 294
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavsdsp.gcno##libavcodec#cavsdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavsdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 300

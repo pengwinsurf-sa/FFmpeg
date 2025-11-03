@@ -1,0 +1,36 @@
+Function 'ff_avc_decode_sps'
+Lines executed:0.00% of 123
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 6
+
+Function 'ff_avc_write_annexb_extradata'
+Lines executed:0.00% of 28
+
+Function 'ff_isom_write_avcc'
+Lines executed:0.00% of 84
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavformat/avc.c'
+Lines executed:0.00% of 196
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avc.gcno##libavformat#avc.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avc.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 258

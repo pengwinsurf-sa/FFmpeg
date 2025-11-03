@@ -1,0 +1,14 @@
+Function 'ff_kbd_window_init_fixed'
+Lines executed:0.00% of 3
+
+Function 'ff_kbd_window_init'
+Lines executed:0.00% of 3
+
+Function 'kbd_window_init'
+Lines executed:0.00% of 21
+
+File 'libavcodec/kbdwin.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kbdwin.gcno##libavcodec#kbdwin.c.gcov'
+
+Lines executed:0.00% of 27

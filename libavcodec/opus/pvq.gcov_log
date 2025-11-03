@@ -1,0 +1,87 @@
+Function 'ff_celt_pvq_uninit'
+Lines executed:0.00% of 3
+
+Function 'ff_celt_pvq_init'
+Lines executed:0.00% of 8
+
+Function 'pvq_encode_band'
+Lines executed:0.00% of 265
+
+Function 'pvq_decode_band'
+Lines executed:0.00% of 13
+
+Function 'celt_stereo_is_decouple'
+Lines executed:0.00% of 8
+
+Function 'celt_calc_theta'
+Lines executed:0.00% of 11
+
+Function 'celt_alg_unquant'
+Lines executed:0.00% of 17
+
+Function 'celt_alg_quant'
+Lines executed:0.00% of 8
+
+Function 'ppp_pvq_search_c'
+Lines executed:0.00% of 31
+
+Function 'celt_decode_pulses'
+Lines executed:0.00% of 3
+
+Function 'celt_encode_pulses'
+Lines executed:0.00% of 3
+
+Function 'celt_cwrsi'
+Lines executed:0.00% of 53
+
+Function 'celt_icwrsi'
+Lines executed:0.00% of 7
+
+Function 'celt_compute_qn'
+Lines executed:0.00% of 8
+
+Function 'celt_haar1'
+Lines executed:0.00% of 10
+
+Function 'celt_deinterleave_hadamard'
+Lines executed:0.00% of 10
+
+Function 'celt_interleave_hadamard'
+Lines executed:0.00% of 8
+
+Function 'celt_stereo_merge'
+Lines executed:0.00% of 24
+
+Function 'celt_exp_rotation'
+Lines executed:0.00% of 21
+
+Function 'celt_exp_rotation_impl'
+Lines executed:0.00% of 16
+
+Function 'celt_bits2pulses'
+Lines executed:0.00% of 9
+
+Function 'celt_log2tan'
+Lines executed:0.00% of 9
+
+File 'libavcodec/opus/pvq.c'
+Lines executed:0.00% of 513
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#pvq.gcno##libavcodec#opus#pvq.c.gcov'
+
+File 'libavcodec/opus/rc.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#pvq.gcno##libavcodec#opus#rc.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#pvq.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/opus/celt.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#pvq.gcno##libavcodec#opus#celt.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#pvq.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 545

@@ -1,0 +1,297 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 74
+
+Function 'config_output'
+Lines executed:0.00% of 48
+
+Function 'config_input'
+Lines executed:0.00% of 197
+
+Function 'graticule16_column'
+Lines executed:0.00% of 29
+
+Function 'graticule_column'
+Lines executed:0.00% of 28
+
+Function 'graticule16_row'
+Lines executed:0.00% of 29
+
+Function 'graticule_row'
+Lines executed:0.00% of 28
+
+Function 'graticule_none'
+Lines executed:0.00% of 2
+
+Function 'idraw_vtext16'
+Lines executed:0.00% of 16
+
+Function 'idraw_vtext'
+Lines executed:0.00% of 16
+
+Function 'idraw_htext16'
+Lines executed:0.00% of 17
+
+Function 'idraw_htext'
+Lines executed:0.00% of 17
+
+Function 'iblend_hline16'
+Lines executed:0.00% of 6
+
+Function 'iblend_hline'
+Lines executed:0.00% of 5
+
+Function 'iblend_vline16'
+Lines executed:0.00% of 7
+
+Function 'iblend_vline'
+Lines executed:0.00% of 6
+
+Function 'draw_vtext16'
+Lines executed:0.00% of 16
+
+Function 'draw_vtext'
+Lines executed:0.00% of 16
+
+Function 'draw_htext16'
+Lines executed:0.00% of 17
+
+Function 'draw_htext'
+Lines executed:0.00% of 17
+
+Function 'blend_hline16'
+Lines executed:0.00% of 6
+
+Function 'blend_hline'
+Lines executed:0.00% of 5
+
+Function 'blend_vline16'
+Lines executed:0.00% of 7
+
+Function 'blend_vline'
+Lines executed:0.00% of 6
+
+Function 'acolor_row'
+Lines executed:0.00% of 53
+
+Function 'acolor_row_mirror'
+Lines executed:0.00% of 7
+
+Function 'acolor_column'
+Lines executed:0.00% of 30
+
+Function 'acolor_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'acolor16_row'
+Lines executed:0.00% of 54
+
+Function 'acolor16_row_mirror'
+Lines executed:0.00% of 7
+
+Function 'acolor16_column'
+Lines executed:0.00% of 30
+
+Function 'acolor16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'color_row'
+Lines executed:0.00% of 48
+
+Function 'color_row_mirror'
+Lines executed:0.00% of 7
+
+Function 'color_column'
+Lines executed:0.00% of 30
+
+Function 'color_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'color16_row'
+Lines executed:0.00% of 49
+
+Function 'color16_row_mirror'
+Lines executed:0.00% of 7
+
+Function 'color16_column'
+Lines executed:0.00% of 30
+
+Function 'color16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'chroma_row'
+Lines executed:0.00% of 35
+
+Function 'chroma_row_mirror'
+Lines executed:0.00% of 4
+
+Function 'chroma_column'
+Lines executed:0.00% of 19
+
+Function 'chroma_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'chroma16_row'
+Lines executed:0.00% of 37
+
+Function 'chroma16_row_mirror'
+Lines executed:0.00% of 4
+
+Function 'chroma16_column'
+Lines executed:0.00% of 19
+
+Function 'chroma16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'yflat_column_mirror'
+Lines executed:0.00% of 5
+
+Function 'yflat_column'
+Lines executed:0.00% of 1
+
+Function 'yflat_row_mirror'
+Lines executed:0.00% of 1
+
+Function 'yflat_row'
+Lines executed:0.00% of 1
+
+Function 'xflat_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'xflat_column'
+Lines executed:0.00% of 1
+
+Function 'xflat_row_mirror'
+Lines executed:0.00% of 1
+
+Function 'xflat_row'
+Lines executed:0.00% of 1
+
+Function 'aflat_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'aflat_column'
+Lines executed:0.00% of 1
+
+Function 'aflat_row_mirror'
+Lines executed:0.00% of 1
+
+Function 'aflat_row'
+Lines executed:0.00% of 1
+
+Function 'yflat16_column_mirror'
+Lines executed:0.00% of 5
+
+Function 'yflat16_column'
+Lines executed:0.00% of 1
+
+Function 'yflat16_row_mirror'
+Lines executed:0.00% of 1
+
+Function 'yflat16_row'
+Lines executed:0.00% of 1
+
+Function 'xflat16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'xflat16_column'
+Lines executed:0.00% of 1
+
+Function 'xflat16_row_mirror'
+Lines executed:0.00% of 1
+
+Function 'xflat16_row'
+Lines executed:0.00% of 1
+
+Function 'aflat16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'aflat16_column'
+Lines executed:0.00% of 1
+
+Function 'aflat16_row_mirror'
+Lines executed:0.00% of 1
+
+Function 'aflat16_row'
+Lines executed:0.00% of 1
+
+Function 'flat_row'
+Lines executed:0.00% of 49
+
+Function 'flat_row_mirror'
+Lines executed:0.00% of 9
+
+Function 'flat_column'
+Lines executed:0.00% of 31
+
+Function 'flat_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'flat16_row'
+Lines executed:0.00% of 51
+
+Function 'flat16_row_mirror'
+Lines executed:0.00% of 9
+
+Function 'flat16_column'
+Lines executed:0.00% of 31
+
+Function 'flat16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'lowpass_row'
+Lines executed:0.00% of 56
+
+Function 'lowpass_row_mirror'
+Lines executed:0.00% of 3
+
+Function 'lowpass_column'
+Lines executed:0.00% of 23
+
+Function 'lowpass_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'lowpass16_row'
+Lines executed:0.00% of 60
+
+Function 'lowpass16_row_mirror'
+Lines executed:0.00% of 3
+
+Function 'lowpass16_column'
+Lines executed:0.00% of 23
+
+Function 'lowpass16_column_mirror'
+Lines executed:0.00% of 1
+
+Function 'envelope'
+Lines executed:0.00% of 5
+
+Function 'envelope16'
+Lines executed:0.00% of 5
+
+Function 'envelope_peak'
+Lines executed:0.00% of 48
+
+Function 'envelope_peak16'
+Lines executed:0.00% of 49
+
+Function 'envelope_instant'
+Lines executed:0.00% of 32
+
+Function 'envelope_instant16'
+Lines executed:0.00% of 33
+
+Function 'query_formats'
+Lines executed:0.00% of 43
+
+File 'libavfilter/vf_waveform.c'
+Lines executed:0.00% of 1690
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_waveform.gcno##libavfilter#vf_waveform.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_waveform.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 1694

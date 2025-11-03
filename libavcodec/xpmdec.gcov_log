@@ -1,0 +1,28 @@
+Function 'xpm_decode_close'
+Lines executed:0.00% of 6
+
+Function 'xpm_decode_frame'
+Lines executed:0.00% of 80
+
+Function 'color_string_to_rgba'
+Lines executed:0.00% of 56
+
+Function 'mod_strcspn'
+Lines executed:0.00% of 16
+
+Function 'color_table_compare'
+Lines executed:0.00% of 2
+
+File 'libavcodec/xpmdec.c'
+Lines executed:0.00% of 143
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xpmdec.gcno##libavcodec#xpmdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xpmdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xpmdec.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-bsearch.h.gcov'
+
+Lines executed:0.00% of 160

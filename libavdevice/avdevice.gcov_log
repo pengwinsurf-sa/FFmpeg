@@ -1,0 +1,26 @@
+Function 'avdevice_free_list_devices'
+Lines executed:0.00% of 16
+
+Function 'avdevice_list_output_sinks'
+Lines executed:0.00% of 5
+
+Function 'avdevice_list_input_sources'
+Lines executed:0.00% of 5
+
+Function 'list_devices_for_context'
+Lines executed:0.00% of 11
+
+Function 'avdevice_list_devices'
+Lines executed:0.00% of 19
+
+Function 'avdevice_dev_to_app_control_message'
+Lines executed:0.00% of 3
+
+Function 'avdevice_app_to_dev_control_message'
+Lines executed:0.00% of 3
+
+File 'libavdevice/avdevice.c'
+Lines executed:0.00% of 62
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#avdevice.gcno##libavdevice#avdevice.c.gcov'
+
+Lines executed:0.00% of 62

@@ -1,0 +1,49 @@
+Function 'gxf_read_timestamp'
+Lines executed:0.00% of 9
+
+Function 'gxf_seek'
+Lines executed:0.00% of 21
+
+Function 'gxf_packet'
+Lines executed:0.00% of 50
+
+Function 'gxf_resync_media'
+Lines executed:0.00% of 33
+
+Function 'gxf_header'
+Lines executed:0.00% of 100
+
+Function 'gxf_read_index'
+Lines executed:0.00% of 26
+
+Function 'gxf_track_tags'
+Lines executed:0.00% of 22
+
+Function 'gxf_material_tags'
+Lines executed:0.00% of 16
+
+Function 'get_sindex'
+Lines executed:0.00% of 71
+
+Function 'gxf_probe'
+Lines executed:0.00% of 6
+
+Function 'parse_packet_header'
+Lines executed:0.00% of 10
+
+Function 'add_timecode_metadata'
+Lines executed:0.00% of 13
+
+File 'libavformat/gxf.c'
+Lines executed:0.00% of 373
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gxf.gcno##libavformat#gxf.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gxf.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gxf.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 377

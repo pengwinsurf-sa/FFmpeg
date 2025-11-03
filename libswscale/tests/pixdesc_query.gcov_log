@@ -1,0 +1,79 @@
+Function 'main'
+Lines executed:0.00% of 25
+
+Function 'cmp_str'
+Lines executed:0.00% of 4
+
+Function 'isSwappedChroma'
+Lines executed:0.00% of 21
+
+Function 'isDataInHighBits'
+Lines executed:0.00% of 8
+
+Function 'usePal'
+Lines executed:0.00% of 4
+
+Function 'isPlanarRGB'
+Lines executed:0.00% of 4
+
+Function 'isPackedRGB'
+Lines executed:0.00% of 4
+
+Function 'isPlanar'
+Lines executed:0.00% of 4
+
+Function 'isPacked'
+Lines executed:0.00% of 6
+
+Function 'isALPHA'
+Lines executed:0.00% of 5
+
+Function 'isAnyRGB'
+Lines executed:0.00% of 5
+
+Function 'isBayer'
+Lines executed:0.00% of 4
+
+Function 'isBGRinInt'
+Lines executed:0.00% of 5
+
+Function 'isRGBinInt'
+Lines executed:0.00% of 5
+
+Function 'isGray'
+Lines executed:0.00% of 7
+
+Function 'isRGB'
+Lines executed:0.00% of 4
+
+Function 'isSemiPlanarYUV'
+No executable lines
+
+Function 'isPlanarYUV'
+No executable lines
+
+Function 'isYUV'
+No executable lines
+
+Function 'isBE'
+Lines executed:0.00% of 4
+
+Function 'isNBPS'
+Lines executed:0.00% of 4
+
+Function 'is16BPS'
+Lines executed:0.00% of 4
+
+File 'libswscale/tests/pixdesc_query.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#pixdesc_query.gcno##libswscale#tests#pixdesc_query.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#pixdesc_query.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#pixdesc_query.gcno##libswscale#swscale_internal.h.gcov'
+
+Lines executed:0.00% of 127

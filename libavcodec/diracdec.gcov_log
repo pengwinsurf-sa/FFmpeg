@@ -1,0 +1,208 @@
+Function 'dirac_decode_frame'
+Lines executed:0.00% of 60
+
+Function 'dirac_decode_data_unit'
+Lines executed:0.00% of 107
+
+Function 'get_delayed_pic'
+Lines executed:0.00% of 14
+
+Function 'dirac_decode_picture_header'
+Lines executed:0.00% of 49
+
+Function 'get_buffer_with_edge'
+Lines executed:0.00% of 16
+
+Function 'dirac_decode_frame_internal'
+Lines executed:0.00% of 57
+
+Function 'interpolate_refplane'
+Lines executed:0.00% of 19
+
+Function 'select_dsp_funcs'
+Lines executed:0.00% of 17
+
+Function 'mc_row'
+Lines executed:0.00% of 11
+
+Function 'block_mc'
+Lines executed:0.00% of 24
+
+Function 'add_dc'
+Lines executed:0.00% of 10
+
+Function 'mc_subpel'
+Lines executed:0.00% of 56
+
+Function 'init_obmc_weights'
+Lines executed:0.00% of 8
+
+Function 'init_obmc_weight'
+Lines executed:0.00% of 13
+
+Function 'init_obmc_weight_row'
+Lines executed:0.00% of 11
+
+Function 'weight'
+Lines executed:0.00% of 5
+
+Function 'dirac_unpack_block_motion_data'
+Lines executed:0.00% of 49
+
+Function 'propagate_block_data'
+Lines executed:0.00% of 10
+
+Function 'decode_block_params'
+Lines executed:0.00% of 21
+
+Function 'global_mv'
+Lines executed:0.00% of 12
+
+Function 'pred_mv'
+Lines executed:0.00% of 33
+
+Function 'pred_block_dc'
+Lines executed:0.00% of 23
+
+Function 'pred_block_mode'
+Lines executed:0.00% of 9
+
+Function 'pred_sbsplit'
+Lines executed:0.00% of 8
+
+Function 'dirac_unpack_idwt_params'
+Lines executed:0.00% of 61
+
+Function 'dirac_unpack_prediction_parameters'
+Lines executed:0.00% of 72
+
+Function 'init_planes'
+Lines executed:0.00% of 35
+
+Function 'decode_lowdelay'
+Lines executed:0.00% of 77
+
+Function 'decode_hq_slice_row'
+Lines executed:0.00% of 8
+
+Function 'decode_hq_slice'
+Lines executed:0.00% of 46
+
+Function 'subband_coeffs'
+Lines executed:0.00% of 12
+
+Function 'decode_lowdelay_slice'
+Lines executed:0.00% of 22
+
+Function 'decode_subband'
+Lines executed:0.00% of 34
+
+Function 'decode_component'
+Lines executed:0.00% of 36
+
+Function 'decode_subband_golomb'
+Lines executed:0.00% of 32
+
+Function 'decode_subband_arith'
+Lines executed:0.00% of 4
+
+Function 'intra_dc_prediction_10'
+Lines executed:0.00% of 1
+
+Function 'intra_dc_prediction_8'
+Lines executed:0.00% of 1
+
+Function 'codeblock'
+Lines executed:0.00% of 44
+
+Function 'coeff_unpack_arith_10'
+Lines executed:0.00% of 1
+
+Function 'coeff_unpack_arith_8'
+Lines executed:0.00% of 1
+
+Function 'dirac_decode_end'
+Lines executed:0.00% of 10
+
+Function 'dirac_decode_flush'
+Lines executed:0.00% of 6
+
+Function 'dirac_decode_init'
+Lines executed:0.00% of 17
+
+Function 'free_sequence_buffers'
+Lines executed:0.00% of 21
+
+Function 'alloc_buffers'
+Lines executed:0.00% of 17
+
+Function 'alloc_sequence_buffers'
+Lines executed:0.00% of 19
+
+Function 'remove_frame'
+Lines executed:0.00% of 11
+
+Function 'dirac_get_arith_int'
+Lines executed:0.00% of 5
+
+Function 'dirac_get_arith_uint'
+Lines executed:0.00% of 11
+
+Function 'dirac_get_arith_bit'
+Lines executed:0.00% of 22
+
+Function 'refill'
+Lines executed:0.00% of 20
+
+Function 'dirac_get_se_golomb'
+Lines executed:0.00% of 6
+
+Function 'get_interleaved_ue_golomb'
+Lines executed:0.00% of 23
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/diracdec.c'
+Lines executed:0.00% of 1173
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavcodec#diracdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/dirac_arith.h'
+Lines executed:0.00% of 54
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavcodec#dirac_arith.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#diracdec.gcno##libavcodec#golomb.h.gcov'
+
+Lines executed:0.00% of 1349

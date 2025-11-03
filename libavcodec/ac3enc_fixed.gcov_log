@@ -1,0 +1,42 @@
+Function 'ac3_fixed_encode_init'
+Lines executed:0.00% of 8
+
+Function 'ac3_fixed_mdct_init'
+Lines executed:0.00% of 10
+
+Function 'encode_frame'
+Lines executed:0.00% of 8
+
+Function 'compute_rematrixing_strategy'
+Lines executed:0.00% of 32
+
+Function 'apply_channel_coupling'
+Lines executed:0.00% of 130
+
+Function 'apply_mdct'
+Lines executed:0.00% of 20
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/ac3enc_fixed.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc_fixed.gcno##libavcodec#ac3enc_fixed.c.gcov'
+
+File 'libavcodec/ac3enc_template.c'
+Lines executed:0.00% of 172
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc_fixed.gcno##libavcodec#ac3enc_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc_fixed.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc_fixed.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ac3enc_fixed.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 219

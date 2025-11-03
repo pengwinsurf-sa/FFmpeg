@@ -1,0 +1,48 @@
+Function 'ff_flac_parse_streaminfo'
+Lines executed:0.00% of 48
+
+Function 'ff_flac_set_channel_layout'
+Lines executed:0.00% of 7
+
+Function 'ff_flac_is_extradata_valid'
+Lines executed:0.00% of 12
+
+Function 'ff_flac_decode_frame_header'
+Lines executed:0.00% of 61
+
+Function 'get_utf8'
+Lines executed:0.00% of 4
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/flac.c'
+Lines executed:0.00% of 100
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flac.gcno##libavcodec#flac.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flac.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flac.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flac.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flac.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 171

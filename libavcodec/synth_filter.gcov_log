@@ -1,0 +1,28 @@
+Function 'ff_synth_filter_init'
+Lines executed:100.00% of 7
+
+Function 'synth_filter_fixed_64'
+Lines executed:0.00% of 33
+
+Function 'synth_filter_fixed'
+Lines executed:0.00% of 26
+
+Function 'synth_filter_float_64'
+Lines executed:0.00% of 25
+
+Function 'synth_filter_float'
+Lines executed:100.00% of 25
+
+File 'libavcodec/synth_filter.c'
+Lines executed:29.91% of 107
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#synth_filter.gcno##libavcodec#synth_filter.c.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#synth_filter.gcno##libavcodec#dcamath.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#synth_filter.gcno##libavutil#common.h.gcov'
+
+Lines executed:27.59% of 116

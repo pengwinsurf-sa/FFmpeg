@@ -1,0 +1,2143 @@
+Function 'ff_h264qpel_init'
+Lines executed:68.42% of 19
+
+Function 'avg_h264_qpel16_mc32_14_c'
+Lines executed:0.00% of 10
+
+Function 'avg_h264_qpel16_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc00_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc32_14_c'
+Lines executed:0.00% of 8
+
+Function 'avg_h264_qpel8_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc00_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc32_14_c'
+Lines executed:0.00% of 7
+
+Function 'avg_h264_qpel4_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc00_14_c'
+Lines executed:0.00% of 4
+
+Function 'put_h264_qpel16_mc32_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc00_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc32_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc00_14_c'
+Lines executed:0.00% of 2
+
+Function 'put_h264_qpel4_mc32_14_c'
+Lines executed:0.00% of 2
+
+Function 'put_h264_qpel4_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc00_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc32_14_c'
+Lines executed:0.00% of 7
+
+Function 'put_h264_qpel2_mc12_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc23_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc21_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc22_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc33_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc13_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc31_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc11_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc03_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc02_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc01_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc30_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc20_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc10_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc00_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_hv_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_hv_lowpass_14'
+Lines executed:0.00% of 3
+
+Function 'avg_h264_qpel8_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_hv_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_hv_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_hv_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_hv_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_hv_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_v_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_h_lowpass_14'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_14_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_14_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_l2_14'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_l2_14'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_l2_14'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_l2_14'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_l2_14'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc32_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc12_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc23_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc21_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc22_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc33_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc13_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc31_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc11_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc03_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc02_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc01_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc30_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc20_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc10_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_mc00_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel8_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel4_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel16_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel8_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel4_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_hv_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_v_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_h264_qpel2_h_lowpass_12'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_12_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_12_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_l2_12'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_l2_12'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_l2_12'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_l2_12'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_l2_12'
+Lines executed:0.00% of 1
+
+Function 'avg_h264_qpel16_mc32_10_c'
+Lines executed:1000.00% of 1
+
+Function 'avg_h264_qpel16_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc00_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc32_10_c'
+Lines executed:800.00% of 1
+
+Function 'avg_h264_qpel8_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc00_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc32_10_c'
+Lines executed:700.00% of 1
+
+Function 'avg_h264_qpel4_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc00_10_c'
+Lines executed:400.00% of 1
+
+Function 'put_h264_qpel16_mc32_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc00_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc32_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc00_10_c'
+Lines executed:200.00% of 1
+
+Function 'put_h264_qpel4_mc32_10_c'
+Lines executed:200.00% of 1
+
+Function 'put_h264_qpel4_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc00_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc32_10_c'
+Lines executed:700.00% of 1
+
+Function 'put_h264_qpel2_mc12_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc23_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc21_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc22_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc33_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc13_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc31_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc11_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc03_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc02_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc01_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc30_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc20_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc10_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc00_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_hv_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_hv_lowpass_10'
+Lines executed:300.00% of 1
+
+Function 'avg_h264_qpel8_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_hv_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_hv_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_hv_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_hv_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_hv_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_v_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_h_lowpass_10'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels16_10_c'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels8_10_c'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16_l2_10'
+Lines executed:100.00% of 1
+
+Function 'put_pixels8_l2_10'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels16_l2_10'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels4_l2_10'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels8_l2_10'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc32_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc12_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc23_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc21_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc22_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc33_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc13_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc31_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc11_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc03_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc02_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc01_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc30_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc20_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc10_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc00_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_hv_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_v_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_h_lowpass_9'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels16_9_c'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels8_9_c'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16_l2_9'
+Lines executed:100.00% of 1
+
+Function 'put_pixels8_l2_9'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels16_l2_9'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels4_l2_9'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels8_l2_9'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_mc00_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_mc00_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_mc00_8_c'
+Lines executed:100.00% of 3
+
+Function 'put_h264_qpel16_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_mc00_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_mc00_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_mc00_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc32_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc12_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc23_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc21_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc22_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc33_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc13_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc31_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc11_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc03_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc02_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc01_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc30_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc20_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc10_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_mc00_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_hv_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel16_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_hv_lowpass_8'
+Lines executed:100.00% of 4
+
+Function 'avg_h264_qpel8_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel8_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_hv_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'avg_h264_qpel4_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_hv_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel16_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_hv_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel8_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_hv_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel4_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_hv_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_v_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_h264_qpel2_h_lowpass_8'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels16_8_c'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels8_8_c'
+Lines executed:100.00% of 1
+
+Function 'put_pixels16_l2_8'
+Lines executed:100.00% of 1
+
+Function 'put_pixels8_l2_8'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels16_l2_8'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels4_l2_8'
+Lines executed:100.00% of 1
+
+Function 'avg_pixels8_l2_8'
+Lines executed:100.00% of 1
+
+File 'libavcodec/h264qpel.c'
+Lines executed:68.42% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264qpel.gcno##libavcodec#h264qpel.c.gcov'
+
+File 'libavcodec/h264qpel_template.c'
+Lines executed:62.11% of 702
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264qpel.gcno##libavcodec#h264qpel_template.c.gcov'
+
+File 'libavcodec/pel_template.c'
+Lines executed:64.71% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264qpel.gcno##libavcodec#pel_template.c.gcov'
+
+File 'libavcodec/rnd_avg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264qpel.gcno##libavcodec#rnd_avg.h.gcov'
+
+File 'libavcodec/hpel_template.c'
+Lines executed:62.96% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264qpel.gcno##libavcodec#hpel_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264qpel.gcno##libavutil#common.h.gcov'
+
+Lines executed:62.79% of 774

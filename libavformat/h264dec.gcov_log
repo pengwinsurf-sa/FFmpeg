@@ -1,0 +1,40 @@
+Function 'h264_probe'
+Lines executed:0.00% of 73
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 15
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/h264dec.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#h264dec.gcno##libavformat#h264dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#h264dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#h264dec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#h264dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#h264dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#h264dec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 122

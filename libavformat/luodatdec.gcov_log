@@ -1,0 +1,18 @@
+Function 'dat_read_packet'
+Lines executed:0.00% of 41
+
+Function 'dat_read_header'
+Lines executed:0.00% of 4
+
+Function 'dat_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/luodatdec.c'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#luodatdec.gcno##libavformat#luodatdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#luodatdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 52

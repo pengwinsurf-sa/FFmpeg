@@ -1,0 +1,111 @@
+Function 'on2avc_decode_close'
+Lines executed:0.00% of 12
+
+Function 'on2avc_decode_init'
+Lines executed:0.00% of 57
+
+Function 'on2avc_free_vlcs'
+Lines executed:0.00% of 6
+
+Function 'on2avc_decode_frame'
+Lines executed:0.00% of 44
+
+Function 'on2avc_decode_subframe'
+Lines executed:0.00% of 52
+
+Function 'on2avc_reconstruct_channel'
+Lines executed:0.00% of 44
+
+Function 'on2avc_reconstruct_channel_ext'
+Lines executed:0.00% of 32
+
+Function 'wtf_44'
+Lines executed:0.00% of 64
+
+Function 'wtf_40'
+Lines executed:0.00% of 74
+
+Function 'wtf_end_1024'
+Lines executed:0.00% of 18
+
+Function 'wtf_end_512'
+Lines executed:0.00% of 18
+
+Function 'combine_fft'
+Lines executed:0.00% of 37
+
+Function 'twiddle'
+Lines executed:0.00% of 19
+
+Function 'pretwiddle'
+Lines executed:0.00% of 18
+
+Function 'zero_head_and_tail'
+Lines executed:0.00% of 4
+
+Function 'on2avc_apply_ms'
+Lines executed:0.00% of 16
+
+Function 'on2avc_read_channel_data'
+Lines executed:0.00% of 21
+
+Function 'on2avc_decode_pairs'
+Lines executed:0.00% of 38
+
+Function 'get_egolomb'
+Lines executed:0.00% of 9
+
+Function 'on2avc_decode_quads'
+Lines executed:0.00% of 8
+
+Function 'on2avc_decode_band_scales'
+Lines executed:0.00% of 27
+
+Function 'on2avc_decode_band_types'
+Lines executed:0.00% of 18
+
+Function 'on2avc_read_ms_info'
+Lines executed:0.00% of 13
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/on2avc.c'
+Lines executed:0.00% of 584
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavcodec#on2avc.c.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavutil#ffmath.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#on2avc.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 674

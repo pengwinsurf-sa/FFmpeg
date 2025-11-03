@@ -1,0 +1,46 @@
+Function 'activate'
+Lines executed:0.00% of 23
+
+Function 'request_frame'
+Lines executed:0.00% of 14
+
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'config_output'
+Lines executed:0.00% of 25
+
+Function 'echo_samples_s32p'
+Lines executed:0.00% of 3
+
+Function 'echo_samples_s16p'
+Lines executed:0.00% of 1
+
+Function 'echo_samples_fltp'
+Lines executed:0.00% of 1
+
+Function 'echo_samples_dblp'
+Lines executed:0.00% of 1
+
+Function 'init'
+Lines executed:0.00% of 38
+
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'fill_items'
+Lines executed:0.00% of 11
+
+File 'libavfilter/af_aecho.c'
+Lines executed:0.00% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aecho.gcno##libavfilter#af_aecho.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aecho.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aecho.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 143

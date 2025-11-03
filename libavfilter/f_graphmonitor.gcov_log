@@ -1,0 +1,61 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'activate'
+Lines executed:0.00% of 39
+
+Function 'create_frame'
+Lines executed:0.00% of 75
+
+Function 'draw_items'
+Lines executed:0.00% of 100
+
+Function 'filter_have_queued'
+Lines executed:0.00% of 9
+
+Function 'filter_have_eof'
+Lines executed:0.00% of 7
+
+Function 'drawtext'
+Lines executed:0.00% of 18
+
+Function 'clear_image'
+Lines executed:0.00% of 14
+
+Function 'query_formats'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 5
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 4
+
+File 'libavfilter/f_graphmonitor.c'
+Lines executed:0.00% of 286
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_graphmonitor.gcno##libavfilter#f_graphmonitor.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_graphmonitor.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_graphmonitor.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_graphmonitor.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_graphmonitor.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_graphmonitor.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 301

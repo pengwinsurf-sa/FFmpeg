@@ -1,0 +1,39 @@
+Function 'raw_read_packet'
+Lines executed:0.00% of 15
+
+Function 'tak_read_header'
+Lines executed:0.00% of 129
+
+Function 'tak_check_crc'
+Lines executed:0.00% of 2
+
+Function 'tak_probe'
+Lines executed:0.00% of 3
+
+Function 'get_bits64'
+Lines executed:0.00% of 16
+
+Function 'get_bits_long'
+Lines executed:0.00% of 2
+
+File 'libavformat/takdec.c'
+Lines executed:0.00% of 116
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#takdec.gcno##libavformat#takdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#takdec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#takdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#takdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#takdec.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 167

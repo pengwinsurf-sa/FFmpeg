@@ -1,0 +1,34 @@
+Function 'checkasm_check_nlmeans'
+Lines executed:89.86% of 69
+
+Function 'compute_weights_line_c'
+Lines executed:0.00% of 11
+
+Function 'compute_safe_ssd_integral_image_c'
+Lines executed:100.00% of 22
+
+File 'tests/checkasm/vf_nlmeans.c'
+Lines executed:98.08% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_nlmeans.gcno##tests#checkasm#vf_nlmeans.c.gcov'
+
+File 'libavfilter/vf_nlmeans_init.h'
+Lines executed:71.05% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_nlmeans.gcno##libavfilter#vf_nlmeans_init.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_nlmeans.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_nlmeans.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_nlmeans.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#vf_nlmeans.gcno##libavutil#emms.h.gcov'
+
+Lines executed:82.35% of 102

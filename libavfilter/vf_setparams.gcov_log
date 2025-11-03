@@ -1,0 +1,17 @@
+Function 'init_setfield'
+Lines executed:0.00% of 8
+
+Function 'init_setrange'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'query_formats'
+Lines executed:0.00% of 11
+
+File 'libavfilter/vf_setparams.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_setparams.gcno##libavfilter#vf_setparams.c.gcov'
+
+Lines executed:0.00% of 48

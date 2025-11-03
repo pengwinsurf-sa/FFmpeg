@@ -1,0 +1,14 @@
+Function 'ff_scene_sad_get_fn_x86'
+Lines executed:0.00% of 6
+
+Function 'scene_sad_avx2'
+Lines executed:0.00% of 1
+
+Function 'scene_sad_sse2'
+Lines executed:0.00% of 1
+
+File 'libavfilter/x86/scene_sad_init.c'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#scene_sad_init.gcno##libavfilter#x86#scene_sad_init.c.gcov'
+
+Lines executed:0.00% of 8

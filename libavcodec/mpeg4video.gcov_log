@@ -1,0 +1,24 @@
+Function 'ff_mpeg4_set_direct_mv'
+Lines executed:0.00% of 49
+
+Function 'ff_mpeg4_set_one_direct_mv'
+Lines executed:0.00% of 22
+
+Function 'ff_mpeg4_init_direct_mv'
+Lines executed:0.00% of 6
+
+Function 'ff_mpeg4_clean_buffers'
+Lines executed:0.00% of 18
+
+Function 'ff_mpeg4_get_video_packet_prefix_length'
+Lines executed:0.00% of 8
+
+File 'libavcodec/mpeg4video.c'
+Lines executed:0.00% of 102
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4video.gcno##libavcodec#mpeg4video.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg4video.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 103

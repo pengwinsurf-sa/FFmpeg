@@ -1,0 +1,15 @@
+Function 'ff_apv_dsp_init'
+Lines executed:100.00% of 4
+
+Function 'apv_decode_transquant_c'
+Lines executed:100.00% of 48
+
+File 'libavcodec/apv_dsp.c'
+Lines executed:100.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apv_dsp.gcno##libavcodec#apv_dsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apv_dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:100.00% of 52

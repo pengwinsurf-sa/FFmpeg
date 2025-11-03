@@ -1,0 +1,63 @@
+Function 'srt_encode_close'
+Lines executed:0.00% of 4
+
+Function 'text_encode_frame'
+Lines executed:0.00% of 2
+
+Function 'srt_encode_frame'
+Lines executed:0.00% of 2
+
+Function 'encode_frame'
+Lines executed:0.00% of 24
+
+Function 'srt_end_cb'
+Lines executed:0.00% of 3
+
+Function 'srt_move_cb'
+Lines executed:0.00% of 2
+
+Function 'srt_cancel_overrides_cb'
+Lines executed:0.00% of 4
+
+Function 'srt_alignment_cb'
+Lines executed:0.00% of 6
+
+Function 'srt_font_size_cb'
+Lines executed:0.00% of 5
+
+Function 'srt_font_name_cb'
+Lines executed:0.00% of 5
+
+Function 'srt_color_cb'
+Lines executed:0.00% of 6
+
+Function 'srt_style_cb'
+Lines executed:0.00% of 5
+
+Function 'srt_new_line_cb'
+Lines executed:0.00% of 3
+
+Function 'srt_text_cb'
+Lines executed:0.00% of 4
+
+Function 'srt_encode_init'
+Lines executed:0.00% of 5
+
+Function 'srt_style_apply'
+Lines executed:0.00% of 33
+
+Function 'srt_stack_push_pop'
+Lines executed:0.00% of 18
+
+Function 'srt_print'
+Lines executed:0.00% of 6
+
+File 'libavcodec/srtenc.c'
+Lines executed:0.00% of 135
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#srtenc.gcno##libavcodec#srtenc.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#srtenc.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 137

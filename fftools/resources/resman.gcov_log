@@ -1,0 +1,18 @@
+Function 'ff_resman_get_string'
+Lines executed:0.00% of 35
+
+Function 'ff_resman_uninit'
+Lines executed:0.00% of 5
+
+Function 'decompress_gzip'
+Lines executed:0.00% of 35
+
+File 'fftools/resources/resman.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#resources#resman.gcno##fftools#resources#resman.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#resources#resman.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 75

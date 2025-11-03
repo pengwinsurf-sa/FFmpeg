@@ -240,8 +240,10 @@ static void get_tag(AVFormatContext *s, const char *key, int type, int len, int 
     case ASF_UNICODE:
         avio_get_str16le(s->pb, len, value, 2 * len + 1);
         break;
-    case -1: // ASCI
-        avio_read(s->pb, value, len);
+    case -1:; // ASCII
+        int ret = ffio_read_size(s->pb, value, len);
+        if (ret < 0)
+            goto finish;
         value[len]=0;
         break;
     case ASF_BYTE_ARRAY:
@@ -1525,7 +1527,7 @@ static int asf_build_simple_index(AVFormatContext *s, int stream_index)
         int64_t itime, last_pos = -1;
         int pct, ict;
         int i;
-        int64_t av_unused gsize = avio_rl64(s->pb);
+        av_unused int64_t gsize = avio_rl64(s->pb);
         if ((ret = ff_get_guid(s->pb, &g)) < 0)
             goto end;
         itime = avio_rl64(s->pb);

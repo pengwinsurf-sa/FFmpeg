@@ -1,0 +1,29 @@
+Function 'sap_fetch_packet'
+Lines executed:0.00% of 34
+
+Function 'sap_read_header'
+Lines executed:0.00% of 90
+
+Function 'sap_read_close'
+Lines executed:0.00% of 8
+
+Function 'sap_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/sapdec.c'
+Lines executed:0.00% of 128
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapdec.gcno##libavformat#sapdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/poll2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapdec.gcno###usr#include#x86_64-linux-gnu#bits#poll2.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapdec.gcno##libavformat#url.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sapdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 135

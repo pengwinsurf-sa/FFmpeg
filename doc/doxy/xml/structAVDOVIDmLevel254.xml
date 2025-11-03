@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVDOVIDmLevel254" kind="struct" language="C++" prot="public">
+    <compoundname>AVDOVIDmLevel254</compoundname>
+    <includes refid="dovi__meta_8h" local="no">libavutil/dovi_meta.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVDOVIDmLevel254_1a7ce57f2630c539c8c627d9b20d513908" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel254::dm_mode</definition>
+        <argsstring></argsstring>
+        <name>dm_mode</name>
+        <qualifiedname>AVDOVIDmLevel254::dm_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="292" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVDOVIDmLevel254_1a2ebf5eee7ed56d1ad5cabe106db315cf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVDOVIDmLevel254::dm_version_index</definition>
+        <argsstring></argsstring>
+        <name>dm_version_index</name>
+        <qualifiedname>AVDOVIDmLevel254::dm_version_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/dovi_meta.h" line="293" column="13" bodyfile="libavutil/dovi_meta.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/dovi_meta.h" line="290" column="1" bodyfile="libavutil/dovi_meta.h" bodystart="290" bodyend="294"/>
+    <listofallmembers>
+      <member refid="structAVDOVIDmLevel254_1a7ce57f2630c539c8c627d9b20d513908" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel254</scope><name>dm_mode</name></member>
+      <member refid="structAVDOVIDmLevel254_1a2ebf5eee7ed56d1ad5cabe106db315cf" prot="public" virt="non-virtual"><scope>AVDOVIDmLevel254</scope><name>dm_version_index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

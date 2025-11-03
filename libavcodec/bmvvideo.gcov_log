@@ -1,0 +1,22 @@
+Function 'decode_init'
+Lines executed:0.00% of 9
+
+Function 'decode_frame'
+Lines executed:0.00% of 50
+
+Function 'decode_bmv_frame'
+Lines executed:0.00% of 90
+
+File 'libavcodec/bmvvideo.c'
+Lines executed:0.00% of 142
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmvvideo.gcno##libavcodec#bmvvideo.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmvvideo.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmvvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 149

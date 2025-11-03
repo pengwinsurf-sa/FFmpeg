@@ -1,0 +1,29 @@
+Function 'ff_mpadsp_init_x86'
+Lines executed:0.00% of 16
+
+Function 'ff_mpadsp_init_x86_tabs'
+Lines executed:0.00% of 13
+
+Function 'imdct36_blocks_avx'
+Lines executed:0.00% of 1
+
+Function 'imdct36_blocks_ssse3'
+Lines executed:0.00% of 1
+
+Function 'imdct36_blocks_sse3'
+Lines executed:0.00% of 1
+
+Function 'imdct36_blocks_sse2'
+Lines executed:0.00% of 1
+
+Function 'apply_window_mp3'
+Lines executed:0.00% of 31
+
+Function 'apply_window'
+Lines executed:0.00% of 9
+
+File 'libavcodec/x86/mpegaudiodsp.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpegaudiodsp.gcno##libavcodec#x86#mpegaudiodsp.c.gcov'
+
+Lines executed:0.00% of 73

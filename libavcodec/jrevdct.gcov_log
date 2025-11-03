@@ -1,0 +1,23 @@
+Function 'ff_jref_idct_add'
+Lines executed:0.00% of 4
+
+Function 'ff_jref_idct_put'
+Lines executed:0.00% of 4
+
+Function 'ff_j_rev_dct1'
+Lines executed:0.00% of 3
+
+Function 'ff_j_rev_dct2'
+Lines executed:0.00% of 12
+
+Function 'ff_j_rev_dct4'
+Lines executed:0.00% of 99
+
+Function 'ff_j_rev_dct'
+Lines executed:0.00% of 481
+
+File 'libavcodec/jrevdct.c'
+Lines executed:0.00% of 603
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jrevdct.gcno##libavcodec#jrevdct.c.gcov'
+
+Lines executed:0.00% of 603

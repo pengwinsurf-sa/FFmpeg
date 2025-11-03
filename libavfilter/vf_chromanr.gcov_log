@@ -1,0 +1,35 @@
+Function 'config_input'
+Lines executed:0.00% of 14
+
+Function 'filter_frame'
+Lines executed:0.00% of 34
+
+Function 'euclidean_e_slice16'
+Lines executed:0.00% of 1
+
+Function 'euclidean_e_slice8'
+Lines executed:0.00% of 1
+
+Function 'manhattan_e_slice16'
+Lines executed:0.00% of 1
+
+Function 'manhattan_e_slice8'
+Lines executed:0.00% of 1
+
+Function 'euclidean_slice16'
+Lines executed:0.00% of 1
+
+Function 'euclidean_slice8'
+Lines executed:0.00% of 1
+
+Function 'manhattan_slice16'
+Lines executed:0.00% of 1
+
+Function 'manhattan_slice8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_chromanr.c'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_chromanr.gcno##libavfilter#vf_chromanr.c.gcov'
+
+Lines executed:0.00% of 56

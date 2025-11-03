@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVD3D12VADeviceContext" kind="struct" language="C++" prot="public">
+    <compoundname>AVD3D12VADeviceContext</compoundname>
+    <includes refid="hwcontext__d3d12va_8h" local="no">libavutil/hwcontext_d3d12va.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVD3D12VADeviceContext_1a39e2b3a4184f1cbd598d3df7e0ca5c0b" prot="public" static="no" mutable="no">
+        <type>ID3D12Device *</type>
+        <definition>ID3D12Device* AVD3D12VADeviceContext::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <qualifiedname>AVD3D12VADeviceContext::device</qualifiedname>
+        <briefdescription>
+<para>Device used for objects creation and access. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This can also be used to set the libavcodec decoding device.</para>
+<para>Can be set by the user. This is the only mandatory field - the other device context fields are set from this and are available for convenience.</para>
+<para>Deallocating the <ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref> will always release this interface, and it does not matter whether it was user-allocated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="54" column="18" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VADeviceContext_1ae3966a7c21d4dd1b3c4d4f431b70bd9c" prot="public" static="no" mutable="no">
+        <type>ID3D12VideoDevice *</type>
+        <definition>ID3D12VideoDevice* AVD3D12VADeviceContext::video_device</definition>
+        <argsstring></argsstring>
+        <name>video_device</name>
+        <qualifiedname>AVD3D12VADeviceContext::video_device</qualifiedname>
+        <briefdescription>
+<para>If unset, this will be set from the device field on init. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Deallocating the <ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref> will always release this interface, and it does not matter whether it was user-allocated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="62" column="23" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VADeviceContext_1a8af426b80845e6582106bdc429ffdd66" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* AVD3D12VADeviceContext::lock) (void *lock_ctx)</definition>
+        <argsstring>)(void *lock_ctx)</argsstring>
+        <name>lock</name>
+        <qualifiedname>AVD3D12VADeviceContext::lock</qualifiedname>
+        <briefdescription>
+<para>Callbacks for locking. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>They protect access to the internal staging texture (for <ref refid="hwcontext_8h_1abf1b1664b8239d953ae2cac8b643815a" kindref="member">av_hwframe_transfer_data()</ref> calls). They do NOT protect access to hwcontext or decoder state in general.</para>
+<para>If unset on init, the hwcontext implementation will set them to use an internal mutex.</para>
+<para>The underlying lock must be recursive. lock_ctx is for free use by the locking implementation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="75" column="5" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VADeviceContext_1a058b46bb74932bbbdc1ae9eb33504736" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* AVD3D12VADeviceContext::unlock) (void *lock_ctx)</definition>
+        <argsstring>)(void *lock_ctx)</argsstring>
+        <name>unlock</name>
+        <qualifiedname>AVD3D12VADeviceContext::unlock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="76" column="5" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VADeviceContext_1a4f35c65fbc551d01b06bc8b8e27b18fe" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* AVD3D12VADeviceContext::lock_ctx</definition>
+        <argsstring></argsstring>
+        <name>lock_ctx</name>
+        <qualifiedname>AVD3D12VADeviceContext::lock_ctx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="77" column="10" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This struct is allocated as <ref refid="structAVHWDeviceContext_1a46055b48d1a40445d775b4ae24f77f20" kindref="member">AVHWDeviceContext.hwctx</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/hwcontext_d3d12va.h" line="43" column="1" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="43" bodyend="78"/>
+    <listofallmembers>
+      <member refid="structAVD3D12VADeviceContext_1a39e2b3a4184f1cbd598d3df7e0ca5c0b" prot="public" virt="non-virtual"><scope>AVD3D12VADeviceContext</scope><name>device</name></member>
+      <member refid="structAVD3D12VADeviceContext_1a8af426b80845e6582106bdc429ffdd66" prot="public" virt="non-virtual"><scope>AVD3D12VADeviceContext</scope><name>lock</name></member>
+      <member refid="structAVD3D12VADeviceContext_1a4f35c65fbc551d01b06bc8b8e27b18fe" prot="public" virt="non-virtual"><scope>AVD3D12VADeviceContext</scope><name>lock_ctx</name></member>
+      <member refid="structAVD3D12VADeviceContext_1a058b46bb74932bbbdc1ae9eb33504736" prot="public" virt="non-virtual"><scope>AVD3D12VADeviceContext</scope><name>unlock</name></member>
+      <member refid="structAVD3D12VADeviceContext_1ae3966a7c21d4dd1b3c4d4f431b70bd9c" prot="public" virt="non-virtual"><scope>AVD3D12VADeviceContext</scope><name>video_device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

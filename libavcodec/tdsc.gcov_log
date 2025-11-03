@@ -1,0 +1,51 @@
+Function 'tdsc_decode_frame'
+Lines executed:0.00% of 62
+
+Function 'tdsc_parse_dtsm'
+Lines executed:0.00% of 12
+
+Function 'tdsc_parse_tdsf'
+Lines executed:0.00% of 22
+
+Function 'tdsc_decode_tiles'
+Lines executed:0.00% of 49
+
+Function 'tdsc_decode_jpeg_tile'
+Lines executed:0.00% of 30
+
+Function 'tdsc_yuv2rgb'
+Lines executed:0.00% of 8
+
+Function 'tdsc_load_cursor'
+Lines executed:0.00% of 88
+
+Function 'tdsc_paint_cursor'
+Lines executed:0.00% of 30
+
+Function 'tdsc_init'
+Lines executed:0.00% of 24
+
+Function 'tdsc_close'
+Lines executed:0.00% of 10
+
+File 'libavcodec/tdsc.c'
+Lines executed:0.00% of 311
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tdsc.gcno##libavcodec#tdsc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tdsc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tdsc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tdsc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tdsc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 335

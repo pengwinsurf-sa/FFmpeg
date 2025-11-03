@@ -1,0 +1,18 @@
+Function 'main'
+Lines executed:0.00% of 68
+
+Function 'print_formats'
+Lines executed:0.00% of 4
+
+Function 'print_formats_internal'
+Lines executed:0.00% of 23
+
+File 'libavfilter/tests/filtfmts.c'
+Lines executed:0.00% of 91
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#tests#filtfmts.gcno##libavfilter#tests#filtfmts.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#tests#filtfmts.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 95

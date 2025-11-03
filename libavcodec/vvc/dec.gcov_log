@@ -1,0 +1,174 @@
+Function 'vvc_decode_init'
+Lines executed:0.00% of 29
+
+Function 'init_default_scale_m'
+Lines executed:0.00% of 5
+
+Function 'vvc_decode_free'
+Lines executed:0.00% of 13
+
+Function 'vvc_decode_flush'
+Lines executed:0.00% of 15
+
+Function 'vvc_decode_frame'
+Lines executed:0.00% of 16
+
+Function 'get_decoded_frame'
+Lines executed:0.00% of 11
+
+Function 'submit_frame'
+Lines executed:0.00% of 14
+
+Function 'wait_delayed_frame'
+Lines executed:0.00% of 10
+
+Function 'frame_end'
+Lines executed:0.00% of 24
+
+Function 'decode_nal_units'
+Lines executed:0.00% of 24
+
+Function 'decode_nal_unit'
+Lines executed:0.00% of 16
+
+Function 'decode_slice'
+Lines executed:0.00% of 23
+
+Function 'frame_setup'
+Lines executed:0.00% of 7
+
+Function 'export_frame_params'
+Lines executed:0.00% of 20
+
+Function 'slice_start'
+Lines executed:0.00% of 19
+
+Function 'frame_start'
+Lines executed:0.00% of 29
+
+Function 'check_film_grain'
+Lines executed:0.00% of 22
+
+Function 'set_side_data'
+Lines executed:0.00% of 4
+
+Function 'decode_prefix_sei'
+Lines executed:0.00% of 7
+
+Function 'frame_context_setup'
+Lines executed:0.00% of 20
+
+Function 'frame_context_init'
+Lines executed:0.00% of 13
+
+Function 'frame_context_free'
+Lines executed:0.00% of 16
+
+Function 'ref_frame'
+Lines executed:0.00% of 25
+
+Function 'slice_init_entry_points'
+Lines executed:0.00% of 54
+
+Function 'ep_init_cabac_decoder'
+Lines executed:0.00% of 13
+
+Function 'get_ep_size'
+Lines executed:0.00% of 20
+
+Function 'slices_realloc'
+Lines executed:0.00% of 15
+
+Function 'slices_free'
+Lines executed:0.00% of 13
+
+Function 'smvd_ref_idx'
+Lines executed:0.00% of 9
+
+Function 'smvd_find'
+Lines executed:0.00% of 13
+
+Function 'max_negtive'
+Lines executed:0.00% of 2
+
+Function 'min_positive'
+Lines executed:0.00% of 2
+
+Function 'ff_vvc_per_frame_init'
+Lines executed:0.00% of 2
+
+Function 'pic_arrays_init'
+Lines executed:0.00% of 31
+
+Function 'pic_arrays_free'
+Lines executed:0.00% of 7
+
+Function 'free_cus'
+Lines executed:0.00% of 5
+
+Function 'frame_context_for_each_tl'
+Lines executed:0.00% of 9
+
+Function 'ibc_tl_init'
+Lines executed:0.00% of 23
+
+Function 'ispmf_tl_init'
+Lines executed:0.00% of 9
+
+Function 'msm_tl_init'
+Lines executed:0.00% of 10
+
+Function 'pixel_buffer_nz_tl_init'
+Lines executed:0.00% of 28
+
+Function 'min_tu_nz_tl_init'
+Lines executed:0.00% of 14
+
+Function 'min_tu_tl_init'
+Lines executed:0.00% of 11
+
+Function 'min_pu_nz_tl_init'
+Lines executed:0.00% of 9
+
+Function 'min_pu_tl_init'
+Lines executed:0.00% of 7
+
+Function 'min_cb_nz_tl_init'
+Lines executed:0.00% of 17
+
+Function 'min_cb_tl_init'
+Lines executed:0.00% of 9
+
+Function 'ctu_nz_tl_init'
+Lines executed:0.00% of 15
+
+Function 'tl_zero'
+Lines executed:0.00% of 6
+
+Function 'tl_create'
+Lines executed:0.00% of 9
+
+Function 'tl_free'
+Lines executed:0.00% of 2
+
+File 'libavcodec/vvc/dec.c'
+Lines executed:0.00% of 713
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dec.gcno##libavcodec#vvc#dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dec.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#dec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 746

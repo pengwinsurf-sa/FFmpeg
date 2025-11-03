@@ -1,0 +1,37 @@
+Function 'ff_mpegvideoencdsp_init_x86'
+Lines executed:81.82% of 22
+
+Function 'draw_edges_mmx'
+Lines executed:100.00% of 26
+
+Function 'add_8x8basis_ssse3'
+Lines executed:0.00% of 9
+
+Function 'try_8x8basis_ssse3'
+Lines executed:0.00% of 7
+
+Function 'add_8x8basis_3dnow'
+Lines executed:0.00% of 9
+
+Function 'try_8x8basis_3dnow'
+Lines executed:0.00% of 7
+
+Function 'add_8x8basis_mmx'
+Lines executed:0.00% of 9
+
+Function 'try_8x8basis_mmx'
+Lines executed:0.00% of 7
+
+File 'libavcodec/x86/mpegvideoencdsp_init.c'
+Lines executed:91.30% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpegvideoencdsp_init.gcno##libavcodec#x86#mpegvideoencdsp_init.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpegvideoencdsp_init.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/x86/mpegvideoenc_qns_template.c'
+Lines executed:0.00% of 64
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#mpegvideoencdsp_init.gcno##libavcodec#x86#mpegvideoenc_qns_template.c.gcov'
+
+Lines executed:39.29% of 112

@@ -1,0 +1,298 @@
+Function 'ff_tx_mdct_gen_exp_int32'
+Lines executed:0.00% of 20
+
+Function 'ff_tx_dstI_int32_c'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_dctI_int32_c'
+Lines executed:0.00% of 11
+
+Function 'ff_tx_dcstI_init_int32_c'
+Lines executed:0.00% of 13
+
+Function 'ff_tx_dctIII_int32_c'
+Lines executed:0.00% of 25
+
+Function 'ff_tx_dctII_int32_c'
+Lines executed:0.00% of 30
+
+Function 'ff_tx_dct_init_int32_c'
+Lines executed:0.00% of 21
+
+Function 'ff_tx_rdft_r2i_mod2_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2i_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2r_mod2_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2r_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_c2r_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_r2c_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_rdft_init_int32_c'
+Lines executed:0.00% of 29
+
+Function 'ff_tx_mdct_pfa_15xM_fwd_int32_c'
+Lines executed:0.00% of 28
+
+Function 'ff_tx_mdct_pfa_9xM_fwd_int32_c'
+Lines executed:0.00% of 82
+
+Function 'ff_tx_mdct_pfa_7xM_fwd_int32_c'
+Lines executed:0.00% of 56
+
+Function 'ff_tx_mdct_pfa_5xM_fwd_int32_c'
+Lines executed:0.00% of 2
+
+Function 'ff_tx_mdct_pfa_3xM_fwd_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_15xM_inv_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_9xM_inv_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_7xM_inv_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_5xM_inv_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_3xM_inv_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_mdct_pfa_init_int32_c'
+Lines executed:0.00% of 22
+
+Function 'ff_tx_mdct_inv_full_int32_c'
+Lines executed:0.00% of 11
+
+Function 'ff_tx_mdct_inv_full_init_int32_c'
+Lines executed:0.00% of 6
+
+Function 'ff_tx_mdct_inv_int32_c'
+Lines executed:0.00% of 22
+
+Function 'ff_tx_mdct_fwd_int32_c'
+Lines executed:0.00% of 25
+
+Function 'ff_tx_mdct_init_int32_c'
+Lines executed:0.00% of 22
+
+Function 'ff_tx_mdct_naive_inv_int32_c'
+Lines executed:0.00% of 23
+
+Function 'ff_tx_mdct_naive_fwd_int32_c'
+Lines executed:0.00% of 13
+
+Function 'ff_tx_mdct_naive_init_int32_c'
+Lines executed:0.00% of 4
+
+Function 'ff_tx_fft_pfa_ns_int32_c'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_fft_pfa_int32_c'
+Lines executed:0.00% of 16
+
+Function 'ff_tx_fft_pfa_init_int32_c'
+Lines executed:0.00% of 53
+
+Function 'ff_tx_fft_naive_small_int32_c'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_fft_naive_int32_c'
+Lines executed:0.00% of 18
+
+Function 'ff_tx_fft_init_naive_small_int32_c'
+Lines executed:0.00% of 9
+
+Function 'ff_tx_fft_inplace_int32_c'
+Lines executed:0.00% of 19
+
+Function 'ff_tx_fft_int32_c'
+Lines executed:0.00% of 10
+
+Function 'ff_tx_fft_inplace_small_init_int32_c'
+Lines executed:0.00% of 4
+
+Function 'ff_tx_fft_init_int32_c'
+Lines executed:0.00% of 10
+
+Function 'ff_tx_fft2097152_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft1048576_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft524288_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft262144_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft131072_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft65536_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft32768_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft16384_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft8192_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft4096_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft2048_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft1024_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft512_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft256_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft128_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft64_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft32_ns_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft16_ns_int32_c'
+Lines executed:0.00% of 20
+
+Function 'ff_tx_fft8_ns_int32_c'
+Lines executed:0.00% of 13
+
+Function 'ff_tx_fft4_ns_int32_c'
+Lines executed:0.00% of 13
+
+Function 'ff_tx_fft2_ns_int32_c'
+Lines executed:0.00% of 8
+
+Function 'ff_tx_fft_sr_codelet_init_int32_c'
+Lines executed:0.00% of 3
+
+Function 'ff_tx_fft_sr_combine_int32_c'
+Lines executed:0.00% of 19
+
+Function 'ff_tx_fft15_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft9_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft7_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft5_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft3_int32_c'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_fft_factor_init_int32_c'
+Lines executed:0.00% of 8
+
+Function 'ff_tx_init_tabs_int32'
+Lines executed:0.00% of 16
+
+Function 'ff_tx_init_tab_9_int32'
+Lines executed:0.00% of 10
+
+Function 'ff_tx_init_tab_7_int32'
+Lines executed:0.00% of 8
+
+Function 'ff_tx_init_tab_53_int32'
+Lines executed:0.00% of 14
+
+Function 'ff_tx_init_tab_2097152_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_1048576_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_524288_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_262144_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_131072_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_65536_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_32768_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_16384_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_8192_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_4096_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_2048_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_1024_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_512_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_256_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_128_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_64_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_32_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_16_int32'
+Lines executed:0.00% of 1
+
+Function 'ff_tx_init_tab_8_int32'
+Lines executed:0.00% of 1
+
+File 'libavutil/tx_template.c'
+Lines executed:0.00% of 827
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx_int32.gcno##libavutil#tx_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx_int32.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tx_int32.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 832

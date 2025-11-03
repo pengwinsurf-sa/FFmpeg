@@ -1,0 +1,102 @@
+Function 'process_command'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 25
+
+Function 'uninit'
+Lines executed:0.00% of 15
+
+Function 'config_output'
+Lines executed:0.00% of 33
+
+Function 'query_formats'
+Lines executed:0.00% of 17
+
+Function 'activate'
+Lines executed:0.00% of 43
+
+Function 'check_ir'
+Lines executed:0.00% of 11
+
+Function 'convert_coeffs'
+Lines executed:0.00% of 89
+
+Function 'uninit_segment'
+Lines executed:0.00% of 28
+
+Function 'init_segment'
+Lines executed:0.00% of 55
+
+Function 'fir_frame'
+Lines executed:0.00% of 16
+
+Function 'fir_channels'
+Lines executed:0.00% of 7
+
+Function 'fir_channel'
+Lines executed:0.00% of 16
+
+Function 'fir_quantums_double'
+Lines executed:0.00% of 38
+
+Function 'fir_quantum_double'
+Lines executed:0.00% of 68
+
+Function 'fir_fadd_double'
+Lines executed:0.00% of 6
+
+Function 'convert_channel_double'
+Lines executed:0.00% of 22
+
+Function 'ir_scale_double'
+Lines executed:0.00% of 6
+
+Function 'ir_gain_double'
+Lines executed:0.00% of 12
+
+Function 'fir_quantums_float'
+Lines executed:0.00% of 36
+
+Function 'fir_quantum_float'
+Lines executed:0.00% of 66
+
+Function 'fir_fadd_float'
+Lines executed:0.00% of 6
+
+Function 'convert_channel_float'
+Lines executed:0.00% of 22
+
+Function 'ir_scale_float'
+Lines executed:0.00% of 6
+
+Function 'ir_gain_float'
+Lines executed:0.00% of 11
+
+Function 'dcmul_add_c'
+Lines executed:0.00% of 11
+
+Function 'fcmul_add_c'
+Lines executed:0.00% of 11
+
+File 'libavfilter/af_afir.c'
+Lines executed:0.00% of 358
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afir.gcno##libavfilter#af_afir.c.gcov'
+
+File 'libavfilter/af_afirdsp.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afir.gcno##libavfilter#af_afirdsp.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afir.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afir.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/afir_template.c'
+Lines executed:0.00% of 448
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afir.gcno##libavfilter#afir_template.c.gcov'
+
+Lines executed:0.00% of 840

@@ -1,0 +1,78 @@
+Function 'shorten_decode_close'
+Lines executed:0.00% of 10
+
+Function 'shorten_decode_frame'
+Lines executed:0.00% of 205
+
+Function 'read_header'
+Lines executed:0.00% of 72
+
+Function 'decode_subframe_lpc'
+Lines executed:0.00% of 33
+
+Function 'decode_wave_header'
+Lines executed:0.00% of 51
+
+Function 'decode_aiff_header'
+Lines executed:0.00% of 53
+
+Function 'init_offset'
+Lines executed:0.00% of 18
+
+Function 'fix_bitshift'
+Lines executed:0.00% of 9
+
+Function 'get_uint'
+Lines executed:0.00% of 5
+
+Function 'allocate_buffers'
+Lines executed:0.00% of 18
+
+Function 'shorten_decode_init'
+Lines executed:0.00% of 5
+
+Function 'get_ur_golomb_jpegls'
+Lines executed:0.00% of 49
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/shorten.c'
+Lines executed:0.00% of 416
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavcodec#shorten.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#shorten.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 553

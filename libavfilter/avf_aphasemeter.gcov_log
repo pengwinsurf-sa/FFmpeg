@@ -1,0 +1,55 @@
+Function 'init'
+Lines executed:0.00% of 11
+
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'activate'
+Lines executed:0.00% of 21
+
+Function 'filter_frame'
+Lines executed:0.00% of 100
+
+Function 'update_out_phase_detection'
+Lines executed:0.00% of 25
+
+Function 'update_mono_detection'
+Lines executed:0.00% of 23
+
+Function 'add_metadata'
+Lines executed:0.00% of 5
+
+Function 'config_video_output'
+Lines executed:0.00% of 17
+
+Function 'config_input'
+Lines executed:0.00% of 7
+
+Function 'query_formats'
+Lines executed:0.00% of 16
+
+File 'libavfilter/avf_aphasemeter.c'
+Lines executed:0.00% of 217
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_aphasemeter.gcno##libavfilter#avf_aphasemeter.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_aphasemeter.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_aphasemeter.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_aphasemeter.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_aphasemeter.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_aphasemeter.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 232

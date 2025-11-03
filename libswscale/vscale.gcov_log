@@ -1,0 +1,27 @@
+Function 'ff_init_vscale_pfn'
+Lines executed:85.25% of 61
+
+Function 'ff_init_vscale'
+Lines executed:100.00% of 28
+
+Function 'any_vscale'
+Lines executed:0.00% of 30
+
+Function 'packed_vscale'
+Lines executed:0.00% of 47
+
+Function 'chr_planar_vscale'
+Lines executed:0.00% of 23
+
+Function 'lum_planar_vscale'
+Lines executed:0.00% of 22
+
+File 'libswscale/vscale.c'
+Lines executed:34.03% of 191
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#vscale.gcno##libswscale#vscale.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:75.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#vscale.gcno##libswscale#swscale_internal.h.gcov'
+
+Lines executed:37.91% of 211

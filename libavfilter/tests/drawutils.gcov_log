@@ -1,0 +1,16 @@
+Function 'main'
+Lines executed:0.00% of 29
+
+File 'libavfilter/tests/drawutils.c'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#tests#drawutils.gcno##libavfilter#tests#drawutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#tests#drawutils.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#tests#drawutils.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 29

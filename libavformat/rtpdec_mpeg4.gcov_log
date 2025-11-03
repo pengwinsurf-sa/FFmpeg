@@ -1,0 +1,48 @@
+Function 'parse_sdp_line'
+Lines executed:0.00% of 5
+
+Function 'parse_fmtp'
+Lines executed:0.00% of 29
+
+Function 'aac_parse_packet'
+Lines executed:0.00% of 71
+
+Function 'rtp_parse_mp4_au'
+Lines executed:0.00% of 38
+
+Function 'parse_fmtp_config'
+Lines executed:0.00% of 5
+
+Function 'close_context'
+Lines executed:0.00% of 4
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/rtpdec_mpeg4.c'
+Lines executed:0.00% of 136
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_mpeg4.gcno##libavformat#rtpdec_mpeg4.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_mpeg4.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_mpeg4.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_mpeg4.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_mpeg4.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 186

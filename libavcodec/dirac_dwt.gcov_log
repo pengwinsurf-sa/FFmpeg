@@ -1,0 +1,266 @@
+Function 'ff_spatial_idwt_slice2'
+Lines executed:0.00% of 9
+
+Function 'ff_spatial_idwt_init'
+Lines executed:0.00% of 20
+
+Function 'spatial_idwt_init_12bit'
+Lines executed:0.00% of 94
+
+Function 'spatial_compose53i_init_12bit'
+Lines executed:0.00% of 11
+
+Function 'spatial_compose97i_init_12bit'
+Lines executed:0.00% of 7
+
+Function 'spatial_compose_daub97i_dy_12bit'
+Lines executed:0.00% of 22
+
+Function 'spatial_compose_fidelity_12bit'
+Lines executed:0.00% of 17
+
+Function 'spatial_compose_haari_dy_12bit'
+Lines executed:0.00% of 10
+
+Function 'spatial_compose_dd137i_dy_12bit'
+Lines executed:0.00% of 18
+
+Function 'spatial_compose_dirac53i_dy_12bit'
+Lines executed:0.00% of 16
+
+Function 'spatial_compose_dd97i_dy_12bit'
+Lines executed:0.00% of 18
+
+Function 'vertical_compose_daub97iL1_12bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iL0_12bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iH1_12bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iH0_12bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_fidelityiL0_12bit'
+Lines executed:0.00% of 14
+
+Function 'vertical_compose_fidelityiH0_12bit'
+Lines executed:0.00% of 14
+
+Function 'vertical_compose_haar_12bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_dd137iL0_12bit'
+Lines executed:0.00% of 10
+
+Function 'vertical_compose_dd97iH0_12bit'
+Lines executed:0.00% of 10
+
+Function 'vertical_compose_dirac53iH0_12bit'
+Lines executed:0.00% of 8
+
+Function 'horizontal_compose_daub97i_12bit'
+Lines executed:0.00% of 20
+
+Function 'horizontal_compose_fidelityi_12bit'
+Lines executed:0.00% of 21
+
+Function 'horizontal_compose_haar1i_12bit'
+Lines executed:0.00% of 12
+
+Function 'horizontal_compose_haar0i_12bit'
+Lines executed:0.00% of 5
+
+Function 'horizontal_compose_dd137i_12bit'
+Lines executed:0.00% of 16
+
+Function 'horizontal_compose_dd97i_12bit'
+Lines executed:0.00% of 14
+
+Function 'horizontal_compose_dirac53i_12bit'
+Lines executed:0.00% of 12
+
+Function 'vertical_compose53iL0_12bit'
+Lines executed:0.00% of 8
+
+Function 'spatial_idwt_init_10bit'
+Lines executed:0.00% of 71
+
+Function 'spatial_compose53i_init_10bit'
+Lines executed:0.00% of 5
+
+Function 'spatial_compose97i_init_10bit'
+Lines executed:0.00% of 7
+
+Function 'spatial_compose_daub97i_dy_10bit'
+Lines executed:0.00% of 22
+
+Function 'spatial_compose_fidelity_10bit'
+Lines executed:0.00% of 17
+
+Function 'spatial_compose_haari_dy_10bit'
+Lines executed:0.00% of 10
+
+Function 'spatial_compose_dd137i_dy_10bit'
+Lines executed:0.00% of 18
+
+Function 'spatial_compose_dirac53i_dy_10bit'
+Lines executed:0.00% of 16
+
+Function 'spatial_compose_dd97i_dy_10bit'
+Lines executed:0.00% of 18
+
+Function 'vertical_compose_daub97iL1_10bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iL0_10bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iH1_10bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iH0_10bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_fidelityiL0_10bit'
+Lines executed:0.00% of 14
+
+Function 'vertical_compose_fidelityiH0_10bit'
+Lines executed:0.00% of 14
+
+Function 'vertical_compose_haar_10bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_dd137iL0_10bit'
+Lines executed:0.00% of 10
+
+Function 'vertical_compose_dd97iH0_10bit'
+Lines executed:0.00% of 10
+
+Function 'vertical_compose_dirac53iH0_10bit'
+Lines executed:0.00% of 8
+
+Function 'horizontal_compose_daub97i_10bit'
+Lines executed:0.00% of 20
+
+Function 'horizontal_compose_fidelityi_10bit'
+Lines executed:0.00% of 16
+
+Function 'horizontal_compose_haar1i_10bit'
+Lines executed:0.00% of 5
+
+Function 'horizontal_compose_haar0i_10bit'
+Lines executed:0.00% of 5
+
+Function 'horizontal_compose_dd137i_10bit'
+Lines executed:0.00% of 16
+
+Function 'horizontal_compose_dd97i_10bit'
+Lines executed:0.00% of 14
+
+Function 'horizontal_compose_dirac53i_10bit'
+Lines executed:0.00% of 12
+
+Function 'vertical_compose53iL0_10bit'
+Lines executed:0.00% of 8
+
+Function 'spatial_idwt_init_8bit'
+Lines executed:0.00% of 71
+
+Function 'spatial_compose53i_init_8bit'
+Lines executed:0.00% of 5
+
+Function 'spatial_compose97i_init_8bit'
+Lines executed:0.00% of 7
+
+Function 'spatial_compose_daub97i_dy_8bit'
+Lines executed:0.00% of 22
+
+Function 'spatial_compose_fidelity_8bit'
+Lines executed:0.00% of 17
+
+Function 'spatial_compose_haari_dy_8bit'
+Lines executed:0.00% of 10
+
+Function 'spatial_compose_dd137i_dy_8bit'
+Lines executed:0.00% of 18
+
+Function 'spatial_compose_dirac53i_dy_8bit'
+Lines executed:0.00% of 16
+
+Function 'spatial_compose_dd97i_dy_8bit'
+Lines executed:0.00% of 18
+
+Function 'vertical_compose_daub97iL1_8bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iL0_8bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iH1_8bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_daub97iH0_8bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_fidelityiL0_8bit'
+Lines executed:0.00% of 14
+
+Function 'vertical_compose_fidelityiH0_8bit'
+Lines executed:0.00% of 14
+
+Function 'vertical_compose_haar_8bit'
+Lines executed:0.00% of 8
+
+Function 'vertical_compose_dd137iL0_8bit'
+Lines executed:0.00% of 10
+
+Function 'vertical_compose_dd97iH0_8bit'
+Lines executed:0.00% of 10
+
+Function 'vertical_compose_dirac53iH0_8bit'
+Lines executed:0.00% of 8
+
+Function 'horizontal_compose_daub97i_8bit'
+Lines executed:0.00% of 20
+
+Function 'horizontal_compose_fidelityi_8bit'
+Lines executed:0.00% of 16
+
+Function 'horizontal_compose_haar1i_8bit'
+Lines executed:0.00% of 5
+
+Function 'horizontal_compose_haar0i_8bit'
+Lines executed:0.00% of 5
+
+Function 'horizontal_compose_dd137i_8bit'
+Lines executed:0.00% of 16
+
+Function 'horizontal_compose_dd97i_8bit'
+Lines executed:0.00% of 14
+
+Function 'horizontal_compose_dirac53i_8bit'
+Lines executed:0.00% of 12
+
+Function 'vertical_compose53iL0_8bit'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dirac_dwt.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_dwt.gcno##libavcodec#dirac_dwt.c.gcov'
+
+File 'libavcodec/dirac_dwt_template.c'
+Lines executed:0.00% of 1536
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_dwt.gcno##libavcodec#dirac_dwt_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_dwt.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/internal.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dirac_dwt.gcno##libavutil#internal.h.gcov'
+
+Lines executed:0.00% of 1574

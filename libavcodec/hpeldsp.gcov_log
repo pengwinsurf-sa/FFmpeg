@@ -1,0 +1,164 @@
+Function 'ff_hpeldsp_init'
+Lines executed:0.00% of 14
+
+Function 'put_no_rnd_pixels16_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels16_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels8_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels4_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels2_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels2_y2_8_c'
+Lines executed:0.00% of 4
+
+Function 'put_pixels2_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels4_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels4_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels8_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels8_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_no_rnd_pixels8_l2_8'
+Lines executed:0.00% of 3
+
+Function 'avg_no_rnd_pixels16_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels16_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels16_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels8_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels2_xy2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels2_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels2_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_y2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_x2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_no_rnd_pixels8_l2_8'
+Lines executed:0.00% of 1
+
+Function 'put_pixels16_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels4_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels2_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels16_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_8_c'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels2_8_c'
+Lines executed:0.00% of 1
+
+Function 'put_pixels8_l2_8'
+No executable lines
+
+Function 'avg_pixels2_l2_8'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels4_l2_8'
+Lines executed:0.00% of 1
+
+Function 'avg_pixels8_l2_8'
+Lines executed:0.00% of 1
+
+File 'libavcodec/hpeldsp.c'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hpeldsp.gcno##libavcodec#hpeldsp.c.gcov'
+
+File 'libavcodec/hpel_template.c'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hpeldsp.gcno##libavcodec#hpel_template.c.gcov'
+
+File 'libavcodec/rnd_avg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hpeldsp.gcno##libavcodec#rnd_avg.h.gcov'
+
+File 'libavcodec/pel_template.c'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hpeldsp.gcno##libavcodec#pel_template.c.gcov'
+
+Lines executed:0.00% of 71

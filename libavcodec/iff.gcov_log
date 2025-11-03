@@ -1,0 +1,99 @@
+Function 'decode_frame'
+Lines executed:0.00% of 284
+
+Function 'parse_packet_header'
+Lines executed:0.00% of 47
+
+Function 'unsupported'
+Lines executed:0.00% of 4
+
+Function 'decode_delta_l'
+Lines executed:0.00% of 75
+
+Function 'decode_delta_e'
+Lines executed:0.00% of 38
+
+Function 'decode_delta_d'
+Lines executed:0.00% of 37
+
+Function 'decode_long_vertical_delta2'
+Lines executed:0.00% of 55
+
+Function 'decode_short_vertical_delta2'
+Lines executed:0.00% of 40
+
+Function 'decode_long_vertical_delta'
+Lines executed:0.00% of 52
+
+Function 'decode_short_vertical_delta'
+Lines executed:0.00% of 42
+
+Function 'decode_delta_j'
+Lines executed:0.00% of 62
+
+Function 'decode_byte_vertical_delta'
+Lines executed:0.00% of 43
+
+Function 'decode_short_horizontal_delta'
+Lines executed:0.00% of 35
+
+Function 'decode_deep_tvdc32'
+Lines executed:0.00% of 26
+
+Function 'decode_deep_rle32'
+Lines executed:0.00% of 29
+
+Function 'decode_rgbn'
+Lines executed:0.00% of 7
+
+Function 'decode_rgb8'
+Lines executed:0.00% of 6
+
+Function 'decode_byterun2'
+Lines executed:0.00% of 48
+
+Function 'decode_byterun'
+Lines executed:0.00% of 24
+
+Function 'decode_ham_plane32'
+Lines executed:0.00% of 12
+
+Function 'decodeplane32'
+Lines executed:0.00% of 16
+
+Function 'decodeplane8'
+Lines executed:0.00% of 11
+
+Function 'decode_init'
+Lines executed:0.00% of 35
+
+Function 'decode_end'
+Lines executed:0.00% of 11
+
+Function 'extract_header'
+Lines executed:0.00% of 82
+
+Function 'cmap_read_palette'
+Lines executed:0.00% of 30
+
+File 'libavcodec/iff.c'
+Lines executed:0.00% of 1089
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#iff.gcno##libavcodec#iff.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#iff.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#iff.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#iff.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#iff.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 1151

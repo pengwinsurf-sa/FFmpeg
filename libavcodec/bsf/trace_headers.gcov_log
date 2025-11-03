@@ -1,0 +1,14 @@
+Function 'trace_headers'
+Lines executed:0.00% of 32
+
+Function 'trace_headers_close'
+Lines executed:0.00% of 5
+
+Function 'trace_headers_init'
+Lines executed:0.00% of 14
+
+File 'libavcodec/bsf/trace_headers.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#trace_headers.gcno##libavcodec#bsf#trace_headers.c.gcov'
+
+Lines executed:0.00% of 51

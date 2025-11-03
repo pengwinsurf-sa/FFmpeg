@@ -1,0 +1,42 @@
+Function 'av_hmac_calc'
+Lines executed:0.00% of 4
+
+Function 'av_hmac_final'
+Lines executed:0.00% of 14
+
+Function 'av_hmac_update'
+Lines executed:0.00% of 3
+
+Function 'av_hmac_init'
+Lines executed:0.00% of 19
+
+Function 'av_hmac_free'
+Lines executed:0.00% of 4
+
+Function 'av_hmac_alloc'
+Lines executed:0.00% of 58
+
+Function 'sha512_init'
+Lines executed:0.00% of 1
+
+Function 'sha384_init'
+Lines executed:0.00% of 1
+
+Function 'sha256_init'
+Lines executed:0.00% of 1
+
+Function 'sha224_init'
+Lines executed:0.00% of 1
+
+Function 'sha160_init'
+Lines executed:0.00% of 1
+
+File 'libavutil/hmac.c'
+Lines executed:0.00% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hmac.gcno##libavutil#hmac.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hmac.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 107

@@ -1,0 +1,89 @@
+Function 'config_props_out'
+Lines executed:0.00% of 7
+
+Function 'config_props_in'
+Lines executed:0.00% of 3
+
+Function 'filter_frame'
+Lines executed:0.00% of 123
+
+Function 'update_sample_stats'
+Lines executed:0.00% of 8
+
+Function 'update_sample_stats_16'
+Lines executed:0.00% of 13
+
+Function 'dump_color_property'
+Lines executed:0.00% of 19
+
+Function 'dump_ambient_viewing_environment'
+Lines executed:0.00% of 6
+
+Function 'dump_dovi_metadata'
+Lines executed:0.00% of 96
+
+Function 'dump_sei_film_grain_params_metadata'
+Lines executed:0.00% of 80
+
+Function 'dump_sei_unregistered_metadata'
+Lines executed:0.00% of 14
+
+Function 'dump_video_enc_params'
+Lines executed:0.00% of 14
+
+Function 'dump_dynamic_hdr_vivid'
+Lines executed:0.00% of 55
+
+Function 'dump_dynamic_hdr_plus'
+Lines executed:0.00% of 64
+
+Function 'dump_mastering_display'
+Lines executed:0.00% of 8
+
+Function 'dump_detection_bbox'
+Lines executed:0.00% of 21
+
+Function 'dump_roi'
+Lines executed:0.00% of 14
+
+Function 'dump_s12m_timecode'
+Lines executed:0.00% of 10
+
+Function 'dump_stereo3d'
+Lines executed:0.00% of 14
+
+Function 'dump_spherical'
+Lines executed:0.00% of 16
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_showinfo.c'
+Lines executed:0.00% of 568
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno##libavfilter#vf_showinfo.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/dovi_meta.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno##libavutil#dovi_meta.h.gcov'
+
+File 'libavutil/detection_bbox.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno##libavutil#detection_bbox.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_showinfo.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 591

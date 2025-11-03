@@ -1,0 +1,12 @@
+Function 'ff_rtp_send_vp9'
+Lines executed:0.00% of 18
+
+File 'libavformat/rtpenc_vp9.c'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_vp9.gcno##libavformat#rtpenc_vp9.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_vp9.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 18

@@ -1201,7 +1201,7 @@ static int mkv_assemble_codecprivate(AVFormatContext *s, AVIOContext *dyn_cp,
                                      uint8_t **codecpriv, int *codecpriv_size,
                                      unsigned *max_payload_size)
 {
-    MatroskaMuxContext av_unused *const mkv = s->priv_data;
+    av_unused MatroskaMuxContext *const mkv = s->priv_data;
     unsigned size_to_reserve = 0;
     int ret;
 
@@ -2869,7 +2869,7 @@ static int mkv_write_block(void *logctx, MatroskaMuxContext *mkv,
             size_t payload_size = sizeof(t35_buf) - 6;
 
             bytestream_put_byte(&payload, ITU_T_T35_COUNTRY_CODE_US);
-            bytestream_put_be16(&payload, ITU_T_T35_PROVIDER_CODE_SMTPE);
+            bytestream_put_be16(&payload, ITU_T_T35_PROVIDER_CODE_SAMSUNG);
             bytestream_put_be16(&payload, 0x01); // provider_oriented_code
             bytestream_put_byte(&payload, 0x04); // application_identifier
 

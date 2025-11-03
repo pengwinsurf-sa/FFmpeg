@@ -1,0 +1,41 @@
+Function 'avpriv_float_dsp_alloc'
+Lines executed:100.00% of 17
+
+Function 'ff_scalarproduct_double_c'
+Lines executed:100.00% of 5
+
+Function 'butterflies_float_c'
+Lines executed:100.00% of 7
+
+Function 'vector_fmul_reverse_c'
+Lines executed:100.00% of 6
+
+Function 'vector_fmul_add_c'
+Lines executed:100.00% of 5
+
+Function 'vector_fmul_window_c'
+Lines executed:100.00% of 13
+
+Function 'vector_dmul_scalar_c'
+Lines executed:100.00% of 5
+
+Function 'vector_fmul_scalar_c'
+Lines executed:100.00% of 5
+
+Function 'vector_dmac_scalar_c'
+Lines executed:100.00% of 5
+
+Function 'vector_fmac_scalar_c'
+Lines executed:100.00% of 5
+
+Function 'vector_dmul_c'
+Lines executed:100.00% of 5
+
+Function 'vector_fmul_c'
+Lines executed:100.00% of 5
+
+File 'libavutil/float_dsp.c'
+Lines executed:100.00% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#float_dsp.gcno##libavutil#float_dsp.c.gcov'
+
+Lines executed:100.00% of 83

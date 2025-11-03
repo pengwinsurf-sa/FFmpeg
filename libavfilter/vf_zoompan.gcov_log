@@ -1,0 +1,32 @@
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'activate'
+Lines executed:0.00% of 52
+
+Function 'output_single_frame'
+Lines executed:0.00% of 83
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'init'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_zoompan.c'
+Lines executed:0.00% of 159
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_zoompan.gcno##libavfilter#vf_zoompan.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_zoompan.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_zoompan.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_zoompan.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 168

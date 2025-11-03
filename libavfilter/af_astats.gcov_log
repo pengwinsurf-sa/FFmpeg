@@ -1,0 +1,53 @@
+Function 'uninit'
+Lines executed:0.00% of 11
+
+Function 'print_stats'
+Lines executed:0.00% of 161
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'filter_channel'
+Lines executed:0.00% of 48
+
+Function 'set_metadata'
+Lines executed:0.00% of 158
+
+Function 'set_meta'
+Lines executed:0.00% of 11
+
+Function 'update_stat'
+Lines executed:0.00% of 79
+
+Function 'calc_noise_floor'
+Lines executed:0.00% of 35
+
+Function 'calc_entropy'
+Lines executed:0.00% of 7
+
+Function 'bit_depth'
+Lines executed:0.00% of 17
+
+Function 'config_output'
+Lines executed:0.00% of 19
+
+Function 'reset_stats'
+Lines executed:0.00% of 45
+
+File 'libavfilter/af_astats.c'
+Lines executed:0.00% of 598
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_astats.gcno##libavfilter#af_astats.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_astats.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_astats.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_astats.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 607

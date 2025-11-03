@@ -1,0 +1,63 @@
+Function 'print_filtergraphs'
+Lines executed:0.00% of 4
+
+Function 'print_filtergraphs_priv'
+Lines executed:0.00% of 58
+
+Function 'print_filtergraph'
+Lines executed:0.00% of 26
+
+Function 'init_graphprint'
+Lines executed:0.00% of 58
+
+Function 'uninit_graphprint'
+Lines executed:0.00% of 8
+
+Function 'print_streams'
+Lines executed:0.00% of 167
+
+Function 'print_filtergraph_single'
+Lines executed:0.00% of 64
+
+Function 'print_filter'
+Lines executed:0.00% of 60
+
+Function 'print_section_header_id'
+Lines executed:0.00% of 17
+
+Function 'print_sanizied_id'
+Lines executed:0.00% of 12
+
+Function 'print_link'
+Lines executed:0.00% of 46
+
+Function 'print_hwframescontext'
+Lines executed:0.00% of 22
+
+Function 'print_hwdevicecontext'
+Lines executed:0.00% of 5
+
+Function 'get_extension'
+Lines executed:0.00% of 14
+
+File 'fftools/graph/graphprint.c'
+Lines executed:0.00% of 548
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#graph#graphprint.gcno##fftools#graph#graphprint.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#graph#graphprint.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#graph#graphprint.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#graph#graphprint.gcno##libavutil#avstring.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#graph#graphprint.gcno##libavutil#avutil.h.gcov'
+
+Lines executed:0.00% of 561

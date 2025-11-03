@@ -1,0 +1,15 @@
+Function 'activate'
+Lines executed:0.00% of 37
+
+Function 'split_init'
+Lines executed:0.00% of 11
+
+File 'libavfilter/split.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#split.gcno##libavfilter#split.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#split.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 48

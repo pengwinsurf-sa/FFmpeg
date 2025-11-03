@@ -1,0 +1,47 @@
+Function 'av_find_info_tag'
+Lines executed:0.00% of 26
+
+Function 'av_parse_time'
+Lines executed:0.00% of 106
+
+Function 'av_timegm'
+Lines executed:0.00% of 10
+
+Function 'av_small_strptime'
+Lines executed:0.00% of 60
+
+Function 'date_get_month'
+Lines executed:0.00% of 10
+
+Function 'av_get_known_color_name'
+Lines executed:0.00% of 7
+
+Function 'av_parse_color'
+Lines executed:0.00% of 62
+
+Function 'av_parse_video_rate'
+Lines executed:0.00% of 11
+
+Function 'av_parse_video_size'
+Lines executed:0.00% of 20
+
+Function 'av_parse_ratio'
+Lines executed:0.00% of 10
+
+File 'libavutil/parseutils.c'
+Lines executed:0.00% of 308
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#parseutils.gcno##libavutil#parseutils.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#parseutils.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#parseutils.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-bsearch.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#parseutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 322

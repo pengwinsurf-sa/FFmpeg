@@ -1,0 +1,85 @@
+Function 'png_enc_close'
+Lines executed:0.00% of 9
+
+Function 'png_enc_init'
+Lines executed:0.00% of 75
+
+Function 'encode_apng'
+Lines executed:0.00% of 104
+
+Function 'apng_encode_frame'
+Lines executed:0.00% of 85
+
+Function 'apng_do_inverse_blend'
+Lines executed:0.00% of 73
+
+Function 'encode_png'
+Lines executed:0.00% of 30
+
+Function 'add_icc_profile_size'
+Lines executed:0.00% of 16
+
+Function 'encode_frame'
+Lines executed:0.00% of 61
+
+Function 'encode_headers'
+Lines executed:0.00% of 92
+
+Function 'png_write_iccp'
+Lines executed:0.00% of 27
+
+Function 'png_get_gama'
+Lines executed:0.00% of 5
+
+Function 'png_get_chrm'
+Lines executed:0.00% of 12
+
+Function 'png_write_row'
+Lines executed:0.00% of 14
+
+Function 'png_write_image_data'
+Lines executed:0.00% of 17
+
+Function 'png_write_chunk'
+Lines executed:0.00% of 15
+
+Function 'png_choose_filter'
+Lines executed:0.00% of 21
+
+Function 'png_filter_row'
+Lines executed:0.00% of 21
+
+Function 'sub_left_prediction'
+Lines executed:0.00% of 13
+
+Function 'sub_png_paeth_prediction'
+Lines executed:0.00% of 17
+
+Function 'png_get_interlaced_row'
+Lines executed:0.00% of 27
+
+File 'libavcodec/pngenc.c'
+Lines executed:0.00% of 714
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngenc.gcno##libavcodec#pngenc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngenc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngenc.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngenc.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 734

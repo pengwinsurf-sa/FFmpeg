@@ -1,0 +1,11 @@
+Function 'ff_idctdsp_init_x86'
+Lines executed:47.17% of 53
+
+Function 'ff_init_scantable_permutation_x86'
+Lines executed:60.00% of 5
+
+File 'libavcodec/x86/idctdsp_init.c'
+Lines executed:48.28% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#idctdsp_init.gcno##libavcodec#x86#idctdsp_init.c.gcov'
+
+Lines executed:48.28% of 58

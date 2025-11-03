@@ -1,0 +1,11 @@
+Function 'avfilter_get_by_name'
+Lines executed:0.00% of 7
+
+Function 'av_filter_iterate'
+Lines executed:0.00% of 6
+
+File 'libavfilter/allfilters.c'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#allfilters.gcno##libavfilter#allfilters.c.gcov'
+
+Lines executed:0.00% of 13

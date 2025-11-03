@@ -273,16 +273,11 @@ cglobal hevc_idct_%1x%1_dc_%2, 1, 2, 1, coeff, tmp
     sar               tmpd, (15 - %2)
     movd                m0, tmpd
     SPLATW              m0, xm0
-    mova [coeffq+mmsize*0], m0
-    mova [coeffq+mmsize*1], m0
-    mova [coeffq+mmsize*2], m0
-    mova [coeffq+mmsize*3], m0
-%if mmsize == 16
-    mova [coeffq+mmsize*4], m0
-    mova [coeffq+mmsize*5], m0
-    mova [coeffq+mmsize*6], m0
-    mova [coeffq+mmsize*7], m0
-%endif
+%assign %%offset 0
+%rep 2*%1*%1/mmsize
+    mova [coeffq+%%offset], m0
+    %assign %%offset %%offset+mmsize
+%endrep
     RET
 %endmacro
 
@@ -532,7 +527,7 @@ cglobal hevc_idct_8x8_%1, 1, 1, 8, coeffs
 ; %1, %2 - transform constants
 ; %3, %4 - regs with interleaved coeffs
 ; %5 - 1/0 SWAP or add
-; %6, %7 - registers for intermidiate sums
+; %6, %7 - registers for intermediate sums
 ; %8 - accumulator register
 %macro ADD_ROWS 8
     pmaddwd %6, %3, %1
@@ -809,10 +804,8 @@ cglobal hevc_idct_32x32_%1, 1, 6, 16, 256, coeffs
 %endmacro
 
 %macro INIT_IDCT_DC 1
-INIT_MMX mmxext
-IDCT_DC_NL  4,      %1
-
 INIT_XMM sse2
+IDCT_DC_NL  4,      %1
 IDCT_DC_NL  8,      %1
 IDCT_DC    16,  4,  %1
 IDCT_DC    32, 16,  %1

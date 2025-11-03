@@ -1,0 +1,78 @@
+Function 'config_input_secondary'
+Lines executed:0.00% of 6
+
+Function 'convolve_child_next'
+Lines executed:0.00% of 1
+
+Function 'convolve_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 17
+
+Function 'init'
+Lines executed:0.00% of 17
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 35
+
+Function 'do_convolve'
+Lines executed:0.00% of 49
+
+Function 'prepare_secondary'
+Lines executed:0.00% of 17
+
+Function 'prepare_impulse'
+Lines executed:0.00% of 30
+
+Function 'complex_divide'
+Lines executed:0.00% of 22
+
+Function 'complex_xcorrelate'
+Lines executed:0.00% of 19
+
+Function 'complex_multiply'
+Lines executed:0.00% of 21
+
+Function 'get_output'
+Lines executed:0.00% of 45
+
+Function 'get_xoutput'
+Lines executed:0.00% of 13
+
+Function 'ifft_horizontal'
+Lines executed:0.00% of 13
+
+Function 'ifft_vertical'
+Lines executed:0.00% of 17
+
+Function 'fft_vertical'
+Lines executed:0.00% of 17
+
+Function 'get_input'
+Lines executed:0.00% of 43
+
+Function 'get_zeropadded_input'
+Lines executed:0.00% of 54
+
+Function 'fft_horizontal'
+Lines executed:0.00% of 13
+
+Function 'config_input_impulse'
+Lines executed:0.00% of 5
+
+Function 'config_input'
+Lines executed:0.00% of 24
+
+File 'libavfilter/vf_convolve.c'
+Lines executed:0.00% of 477
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_convolve.gcno##libavfilter#vf_convolve.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_convolve.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 483

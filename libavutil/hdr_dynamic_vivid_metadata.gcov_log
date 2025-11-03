@@ -1,0 +1,15 @@
+Function 'av_dynamic_hdr_vivid_create_side_data'
+Lines executed:0.00% of 7
+
+Function 'av_dynamic_hdr_vivid_alloc'
+Lines executed:0.00% of 5
+
+File 'libavutil/hdr_dynamic_vivid_metadata.c'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_vivid_metadata.gcno##libavutil#hdr_dynamic_vivid_metadata.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hdr_dynamic_vivid_metadata.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 12

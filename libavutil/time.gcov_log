@@ -1,0 +1,17 @@
+Function 'av_usleep'
+Lines executed:0.00% of 4
+
+Function 'av_gettime_relative_is_monotonic'
+Lines executed:0.00% of 2
+
+Function 'av_gettime_relative'
+Lines executed:0.00% of 4
+
+Function 'av_gettime'
+Lines executed:0.00% of 4
+
+File 'libavutil/time.c'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#time.gcno##libavutil#time.c.gcov'
+
+Lines executed:0.00% of 14

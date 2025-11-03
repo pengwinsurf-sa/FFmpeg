@@ -1,0 +1,165 @@
+Function 'decode_frame'
+Lines executed:0.00% of 125
+
+Function 'copy_output'
+Lines executed:0.00% of 12
+
+Function 'read_frame_header'
+Lines executed:0.00% of 26
+
+Function 'decode_8'
+Lines executed:0.00% of 12
+
+Function 'decode_6'
+Lines executed:0.00% of 8
+
+Function 'decode_5'
+Lines executed:0.00% of 4
+
+Function 'decode_4'
+Lines executed:0.00% of 3
+
+Function 'decode_3'
+Lines executed:0.00% of 3
+
+Function 'decode_2'
+Lines executed:0.00% of 6
+
+Function 'codec2subblock'
+Lines executed:0.00% of 55
+
+Function 'good_mvec'
+Lines executed:0.00% of 7
+
+Function 'opcode_0xf8'
+Lines executed:0.00% of 15
+
+Function 'opcode_0xf7'
+Lines executed:0.00% of 20
+
+Function 'draw_glyph'
+Lines executed:0.00% of 12
+
+Function 'copy_block'
+Lines executed:0.00% of 28
+
+Function 'decode_nop'
+Lines executed:0.00% of 3
+
+Function 'decode_0'
+Lines executed:0.00% of 10
+
+Function 'process_xpal'
+Lines executed:0.00% of 35
+
+Function 'process_ftch'
+Lines executed:0.00% of 24
+
+Function 'process_frame_obj'
+Lines executed:0.00% of 103
+
+Function 'old_codec48'
+Lines executed:0.00% of 46
+
+Function 'codec48_block'
+Lines executed:0.00% of 95
+
+Function 'old_codec47'
+Lines executed:0.00% of 62
+
+Function 'codec47_comp1'
+Lines executed:0.00% of 24
+
+Function 'codec47_read_interptable'
+Lines executed:0.00% of 11
+
+Function 'process_block'
+Lines executed:0.00% of 55
+
+Function 'old_codec37'
+Lines executed:0.00% of 109
+
+Function 'codec37_mv'
+Lines executed:0.00% of 12
+
+Function 'old_codec20'
+Lines executed:0.00% of 8
+
+Function 'old_codec2'
+Lines executed:0.00% of 11
+
+Function 'old_codec31'
+Lines executed:0.00% of 36
+
+Function 'old_codec1'
+Lines executed:0.00% of 30
+
+Function 'old_codec21'
+Lines executed:0.00% of 29
+
+Function 'old_codec23'
+Lines executed:0.00% of 36
+
+Function 'rle_decode'
+Lines executed:0.00% of 13
+
+Function 'old_codec4'
+Lines executed:0.00% of 47
+
+Function 'decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_init'
+Lines executed:0.00% of 23
+
+Function 'codec4_gen_tiles'
+Lines executed:0.00% of 36
+
+Function 'codec33_gen_tiles'
+Lines executed:0.00% of 46
+
+Function 'init_buffers'
+Lines executed:0.00% of 12
+
+Function 'destroy_buffers'
+Lines executed:0.00% of 12
+
+Function 'make_glyphs'
+Lines executed:0.00% of 44
+
+Function 'which_direction'
+Lines executed:0.00% of 14
+
+File 'libavcodec/sanm.c'
+Lines executed:0.00% of 1258
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno##libavcodec#sanm.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno##libavcodec#copy_block.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sanm.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+Lines executed:0.00% of 1326

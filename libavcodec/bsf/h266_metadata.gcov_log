@@ -1,0 +1,11 @@
+Function 'h266_metadata_init'
+Lines executed:0.00% of 2
+
+Function 'h266_metadata_update_fragment'
+Lines executed:0.00% of 43
+
+File 'libavcodec/bsf/h266_metadata.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h266_metadata.gcno##libavcodec#bsf#h266_metadata.c.gcov'
+
+Lines executed:0.00% of 45

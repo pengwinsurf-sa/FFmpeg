@@ -1,0 +1,33 @@
+Function 'av_ripemd_final'
+Lines executed:0.00% of 10
+
+Function 'av_ripemd_update'
+Lines executed:0.00% of 19
+
+Function 'av_ripemd_init'
+Lines executed:0.00% of 44
+
+Function 'ripemd320_transform'
+Lines executed:0.00% of 27
+
+Function 'ripemd160_transform'
+Lines executed:0.00% of 29
+
+Function 'ripemd256_transform'
+Lines executed:0.00% of 20
+
+Function 'ripemd128_transform'
+Lines executed:0.00% of 21
+
+Function 'av_ripemd_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/ripemd.c'
+Lines executed:0.00% of 170
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#ripemd.gcno##libavutil#ripemd.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#ripemd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 172

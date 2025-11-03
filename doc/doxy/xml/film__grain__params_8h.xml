@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="film__grain__params_8h" kind="file" language="C++">
+    <compoundname>film_grain_params.h</compoundname>
+    <includes refid="frame_8h" local="yes">frame.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="5">
+        <label>avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/film_grain_params.h</label>
+        <link refid="film__grain__params_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>errno.h</label>
+      </node>
+      <node id="8">
+        <label>inttypes.h</label>
+      </node>
+      <node id="17">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="24">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVFilmGrainAOMParams" prot="public">AVFilmGrainAOMParams</innerclass>
+    <innerclass refid="structAVFilmGrainH274Params" prot="public">AVFilmGrainH274Params</innerclass>
+    <innerclass refid="structAVFilmGrainParams" prot="public">AVFilmGrainParams</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fc" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVFilmGrainParamsType</name>
+        <enumvalue id="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fcafebd12feae6f3962f1996c7125f6b9d5" prot="public">
+          <name>AV_FILM_GRAIN_PARAMS_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fcae2a9f58a2cd6b75fe936f716ba75bf6f" prot="public">
+          <name>AV_FILM_GRAIN_PARAMS_AV1</name>
+          <briefdescription>
+<para>The union is valid when interpreted as <ref refid="structAVFilmGrainAOMParams" kindref="compound">AVFilmGrainAOMParams</ref> (codec.aom) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fca91312a6967e04bb294324e97c24b2828" prot="public">
+          <name>AV_FILM_GRAIN_PARAMS_H274</name>
+          <briefdescription>
+<para>The union is valid when interpreted as <ref refid="structAVFilmGrainH274Params" kindref="compound">AVFilmGrainH274Params</ref> (codec.h274) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/film_grain_params.h" line="24" column="1" bodyfile="libavutil/film_grain_params.h" bodystart="24" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="film__grain__params_8h_1aee530d6c32f0f0f0e121eb8ff0dfe55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> *</type>
+        <definition>AVFilmGrainParams * av_film_grain_params_alloc</definition>
+        <argsstring>(size_t *size)</argsstring>
+        <name>av_film_grain_params_alloc</name>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate an <ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> structure and set its fields to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The resulting struct can be freed using <ref refid="group__lavu__mem__funcs_1ga0cc84043ea2167ad005c86e11d0bcdba" kindref="member">av_freep()</ref>. If size is not NULL it will be set to the number of bytes allocated.</para>
+<para><simplesect kind="return"><para>An <ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> filled with default values or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/film_grain_params.h" line="260" column="19" declfile="libavutil/film_grain_params.h" declline="260" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="film__grain__params_8h_1aace64a3c0b51ba5091166b784e6ad489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> *</type>
+        <definition>AVFilmGrainParams * av_film_grain_params_create_side_data</definition>
+        <argsstring>(AVFrame *frame)</argsstring>
+        <name>av_film_grain_params_create_side_data</name>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a complete <ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> and add it to the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frame which side data is added to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> structure to be filled by caller. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/film_grain_params.h" line="269" column="19" declfile="libavutil/film_grain_params.h" declline="269" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="film__grain__params_8h_1ab329124a27522dd54d537e2dc51f7f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref> *</type>
+        <definition>const AVFilmGrainParams * av_film_grain_params_select</definition>
+        <argsstring>(const AVFrame *frame)</argsstring>
+        <name>av_film_grain_params_select</name>
+        <param>
+          <type>const <ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Select the most appropriate film grain parameters set for the frame, taking into account the frame&apos;s format, resolution and video signal characteristics. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>, for H.274, this may select a film grain parameter set with greater chroma resolution than the frame. Users should take care to correctly adjust the chroma grain frequency to the frame. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/film_grain_params.h" line="280" column="25" declfile="libavutil/film_grain_params.h" declline="280" declcolumn="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_FILM_GRAIN_PARAMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_FILM_GRAIN_PARAMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="frame_8h" kindref="compound">frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fc" kindref="member">AVFilmGrainParamsType</ref><sp/>{</highlight></codeline>
+<codeline lineno="25" refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fcafebd12feae6f3962f1996c7125f6b9d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fcafebd12feae6f3962f1996c7125f6b9d5" kindref="member">AV_FILM_GRAIN_PARAMS_NONE</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>union<sp/>is<sp/>valid<sp/>when<sp/>interpreted<sp/>as<sp/>AVFilmGrainAOMParams<sp/>(codec.aom)</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fcae2a9f58a2cd6b75fe936f716ba75bf6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fcae2a9f58a2cd6b75fe936f716ba75bf6f" kindref="member">AV_FILM_GRAIN_PARAMS_AV1</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>union<sp/>is<sp/>valid<sp/>when<sp/>interpreted<sp/>as<sp/>AVFilmGrainH274Params<sp/>(codec.h274)</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fca91312a6967e04bb294324e97c24b2828" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fca91312a6967e04bb294324e97c24b2828" kindref="member">AV_FILM_GRAIN_PARAMS_H274</ref>,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="38"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>This<sp/>structure<sp/>describes<sp/>how<sp/>to<sp/>handle<sp/>film<sp/>grain<sp/>synthesis<sp/>for<sp/>AOM<sp/>codecs.</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>must<sp/>be<sp/>allocated<sp/>as<sp/>part<sp/>of<sp/>AVFilmGrainParams<sp/>using</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_film_grain_params_alloc().<sp/>Its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="structAVFilmGrainAOMParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVFilmGrainAOMParams" kindref="compound">AVFilmGrainAOMParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>points,<sp/>and<sp/>the<sp/>scale<sp/>and<sp/>value<sp/>for<sp/>each<sp/>point<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>piecewise<sp/>linear<sp/>scaling<sp/>function<sp/>for<sp/>the<sp/>uma<sp/>plane.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structAVFilmGrainAOMParams_1afe6f2963d8542e365e8d624642c838f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1afe6f2963d8542e365e8d624642c838f5" kindref="member">num_y_points</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structAVFilmGrainAOMParams_1aea216ca7386c9adc8aad67c37669d16e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVFilmGrainAOMParams_1aea216ca7386c9adc8aad67c37669d16e" kindref="member">y_points</ref>[14][2<sp/></highlight><highlight class="comment">/*<sp/>value,<sp/>scaling<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Signals<sp/>whether<sp/>to<sp/>derive<sp/>the<sp/>chroma<sp/>scaling<sp/>function<sp/>from<sp/>the<sp/>luma.</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Not<sp/>equivalent<sp/>to<sp/>copying<sp/>the<sp/>luma<sp/>values<sp/>and<sp/>scales.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structAVFilmGrainAOMParams_1a2a9ffe4ad9e50755a2d00befe0a98c1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a2a9ffe4ad9e50755a2d00befe0a98c1a" kindref="member">chroma_scaling_from_luma</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>chroma_scaling_from_luma<sp/>is<sp/>set<sp/>to<sp/>0,<sp/>signals<sp/>the<sp/>chroma<sp/>scaling</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>function<sp/>parameters.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structAVFilmGrainAOMParams_1a755fa0aa10ce6d1a1a1cb7bf621380fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a755fa0aa10ce6d1a1a1cb7bf621380fe" kindref="member">num_uv_points</ref>[2<sp/></highlight><highlight class="comment">/*<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="63" refid="structAVFilmGrainAOMParams_1a9f3be6cbd20bfde01609d801c4a23626" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVFilmGrainAOMParams_1a9f3be6cbd20bfde01609d801c4a23626" kindref="member">uv_points</ref>[2<sp/></highlight><highlight class="comment">/*<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">][10][2<sp/></highlight><highlight class="comment">/*<sp/>value,<sp/>scaling<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>shift<sp/>applied<sp/>to<sp/>the<sp/>chroma<sp/>components.<sp/>For<sp/>AV1,<sp/>its<sp/>within</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>[8;<sp/>11]<sp/>and<sp/>determines<sp/>the<sp/>range<sp/>and<sp/>quantization<sp/>of<sp/>the<sp/>film<sp/>grain.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structAVFilmGrainAOMParams_1a3841d0f9a7a3e38b03f067f340f55861" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a3841d0f9a7a3e38b03f067f340f55861" kindref="member">scaling_shift</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>auto-regression<sp/>lag.</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="structAVFilmGrainAOMParams_1a84e2704e112186dadbabbedac0a4f8c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a84e2704e112186dadbabbedac0a4f8c6" kindref="member">ar_coeff_lag</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Luma<sp/>auto-regression<sp/>coefficients.<sp/>The<sp/>number<sp/>of<sp/>coefficients<sp/>is<sp/>given<sp/>by</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>2<sp/>*<sp/>ar_coeff_lag<sp/>*<sp/>(ar_coeff_lag<sp/>+<sp/>1).</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="structAVFilmGrainAOMParams_1af641986b607993ffe627b76c95640644" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/><ref refid="structAVFilmGrainAOMParams_1af641986b607993ffe627b76c95640644" kindref="member">ar_coeffs_y</ref>[24];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Chroma<sp/>auto-regression<sp/>coefficients.<sp/>The<sp/>number<sp/>of<sp/>coefficients<sp/>is<sp/>given<sp/>by</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>2<sp/>*<sp/>ar_coeff_lag<sp/>*<sp/>(ar_coeff_lag<sp/>+<sp/>1)<sp/>+<sp/>!!num_y_points.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="structAVFilmGrainAOMParams_1aa6873498e2baff1d553f832e3b2f7faf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/><ref refid="structAVFilmGrainAOMParams_1aa6873498e2baff1d553f832e3b2f7faf" kindref="member">ar_coeffs_uv</ref>[2<sp/></highlight><highlight class="comment">/*<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">][25];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>range<sp/>of<sp/>the<sp/>auto-regressive<sp/>coefficients.<sp/>Values<sp/>of<sp/>6,</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>7,<sp/>8<sp/>and<sp/>so<sp/>on<sp/>represent<sp/>a<sp/>range<sp/>of<sp/>[-2,<sp/>2),<sp/>[-1,<sp/>1),<sp/>[-0.5,<sp/>0.5)<sp/>and</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>so<sp/>on.<sp/>For<sp/>AV1<sp/>must<sp/>be<sp/>between<sp/>6<sp/>and<sp/>9.</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="structAVFilmGrainAOMParams_1a8fc51a36ad8f5f5aaa6c8a943351a36f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a8fc51a36ad8f5f5aaa6c8a943351a36f" kindref="member">ar_coeff_shift</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Signals<sp/>the<sp/>down<sp/>shift<sp/>applied<sp/>to<sp/>the<sp/>generated<sp/>gaussian<sp/>numbers<sp/>during</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>synthesis.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="structAVFilmGrainAOMParams_1a43cb8295c434f35879f08e0717123aa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a43cb8295c434f35879f08e0717123aa0" kindref="member">grain_scale_shift</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>luma/chroma<sp/>multipliers<sp/>for<sp/>the<sp/>index<sp/>to<sp/>the<sp/>component</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>scaling<sp/>function.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="structAVFilmGrainAOMParams_1aba2786909f13c22e939827501e109a0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1aba2786909f13c22e939827501e109a0d" kindref="member">uv_mult</ref>[2<sp/></highlight><highlight class="comment">/*<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="106" refid="structAVFilmGrainAOMParams_1a55b1391991f88f4c246a145a9fa9a336" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a55b1391991f88f4c246a145a9fa9a336" kindref="member">uv_mult_luma</ref>[2<sp/></highlight><highlight class="comment">/*<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Offset<sp/>used<sp/>for<sp/>component<sp/>scaling<sp/>function.<sp/>For<sp/>AV1<sp/>its<sp/>a<sp/>9-bit<sp/>value</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>with<sp/>a<sp/>range<sp/>[-256,<sp/>255]</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="structAVFilmGrainAOMParams_1a87de827beedda4567454e9907785f39c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a87de827beedda4567454e9907785f39c" kindref="member">uv_offset</ref>[2<sp/></highlight><highlight class="comment">/*<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Signals<sp/>whether<sp/>to<sp/>overlap<sp/>film<sp/>grain<sp/>blocks.</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="structAVFilmGrainAOMParams_1a7ba402ee8ead9502dd989218cc30affe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a7ba402ee8ead9502dd989218cc30affe" kindref="member">overlap_flag</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Signals<sp/>to<sp/>clip<sp/>to<sp/>limited<sp/>color<sp/>levels<sp/>after<sp/>film<sp/>grain<sp/>application.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structAVFilmGrainAOMParams_1a3826c5b74eb8a5d6e2d98c069824db6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainAOMParams_1a3826c5b74eb8a5d6e2d98c069824db6c" kindref="member">limit_output_range</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}<sp/><ref refid="structAVFilmGrainAOMParams" kindref="compound">AVFilmGrainAOMParams</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="125"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>This<sp/>structure<sp/>describes<sp/>how<sp/>to<sp/>handle<sp/>film<sp/>grain<sp/>synthesis<sp/>for<sp/>codecs<sp/>using</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>the<sp/>ITU-T<sp/>H.274<sp/>Versatile<sp/>suplemental<sp/>enhancement<sp/>information<sp/>message.</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>must<sp/>be<sp/>allocated<sp/>as<sp/>part<sp/>of<sp/>AVFilmGrainParams<sp/>using</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_film_grain_params_alloc().<sp/>Its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="structAVFilmGrainH274Params" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVFilmGrainH274Params" kindref="compound">AVFilmGrainH274Params</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>film<sp/>grain<sp/>simulation<sp/>mode.</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>0<sp/>=<sp/>Frequency<sp/>filtering,<sp/>1<sp/>=<sp/>Auto-regression</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structAVFilmGrainH274Params_1a579a0c5a712871eda106e6b13bea8574" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainH274Params_1a579a0c5a712871eda106e6b13bea8574" kindref="member">model_id</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>blending<sp/>mode<sp/>used<sp/>to<sp/>blend<sp/>the<sp/>simulated<sp/>film<sp/>grain</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>with<sp/>the<sp/>decoded<sp/>images.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>0<sp/>=<sp/>Additive,<sp/>1<sp/>=<sp/>Multiplicative</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="structAVFilmGrainH274Params_1a1024e8411b16f3a0463b3f88434ca7d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainH274Params_1a1024e8411b16f3a0463b3f88434ca7d0" kindref="member">blending_mode_id</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>a<sp/>scale<sp/>factor<sp/>used<sp/>in<sp/>the<sp/>film<sp/>grain<sp/>characterization<sp/>equations.</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="structAVFilmGrainH274Params_1a1bee3c9a5eb0eaeae61c558f07cf26d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainH274Params_1a1bee3c9a5eb0eaeae61c558f07cf26d3" kindref="member">log2_scale_factor</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Indicates<sp/>if<sp/>the<sp/>modelling<sp/>of<sp/>film<sp/>grain<sp/>for<sp/>a<sp/>given<sp/>component<sp/>is<sp/>present.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="structAVFilmGrainH274Params_1aa555f71a5bbbf860a2cf2ef692619b9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainH274Params_1aa555f71a5bbbf860a2cf2ef692619b9a" kindref="member">component_model_present</ref>[3<sp/></highlight><highlight class="comment">/*<sp/>y,<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>number<sp/>of<sp/>intensity<sp/>intervals<sp/>for<sp/>which<sp/>a<sp/>specific<sp/>set<sp/>of</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>model<sp/>values<sp/>has<sp/>been<sp/>estimated,<sp/>with<sp/>a<sp/>range<sp/>of<sp/>[1,<sp/>256].</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="structAVFilmGrainH274Params_1ae4247301316906d227be9106e683fa02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structAVFilmGrainH274Params_1ae4247301316906d227be9106e683fa02" kindref="member">num_intensity_intervals</ref>[3<sp/></highlight><highlight class="comment">/*<sp/>y,<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>number<sp/>of<sp/>model<sp/>values<sp/>present<sp/>for<sp/>each<sp/>intensity<sp/>interval</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>which<sp/>the<sp/>film<sp/>grain<sp/>has<sp/>been<sp/>modelled,<sp/>with<sp/>a<sp/>range<sp/>of<sp/>[1,<sp/>6].</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="structAVFilmGrainH274Params_1afe9a68f91c1d21320826d33abab346ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVFilmGrainH274Params_1afe9a68f91c1d21320826d33abab346ea" kindref="member">num_model_values</ref>[3<sp/></highlight><highlight class="comment">/*<sp/>y,<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>lower<sp/>ounds<sp/>of<sp/>each<sp/>intensity<sp/>interval<sp/>for<sp/>whichthe<sp/>set<sp/>of</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>model<sp/>values<sp/>applies<sp/>for<sp/>the<sp/>component.</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="structAVFilmGrainH274Params_1a1281f91840b25141d6b228e7974013c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVFilmGrainH274Params_1a1281f91840b25141d6b228e7974013c5" kindref="member">intensity_interval_lower_bound</ref>[3<sp/></highlight><highlight class="comment">/*<sp/>y,<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">][256<sp/></highlight><highlight class="comment">/*<sp/>intensity<sp/>interval<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>upper<sp/>bound<sp/>of<sp/>each<sp/>intensity<sp/>interval<sp/>for<sp/>which<sp/>the<sp/>set<sp/>of</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>model<sp/>values<sp/>applies<sp/>for<sp/>the<sp/>component.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="structAVFilmGrainH274Params_1a07c0b1341b1694ff4e500a58becc0885" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structAVFilmGrainH274Params_1a07c0b1341b1694ff4e500a58becc0885" kindref="member">intensity_interval_upper_bound</ref>[3<sp/></highlight><highlight class="comment">/*<sp/>y,<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">][256<sp/></highlight><highlight class="comment">/*<sp/>intensity<sp/>interval<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>model<sp/>values<sp/>for<sp/>the<sp/>component<sp/>for<sp/>each<sp/>intensity<sp/>interval.</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>When<sp/>model_id<sp/>==<sp/>0,<sp/>the<sp/>following<sp/>applies:</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>For<sp/>comp_model_value[y],<sp/>the<sp/>range<sp/>of<sp/>values<sp/>is<sp/>[0,<sp/>2^bit_depth_luma<sp/>-<sp/>1]</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>For<sp/>comp_model_value[cb..cr],<sp/>the<sp/>range<sp/>of<sp/>values<sp/>is<sp/>[0,<sp/>2^bit_depth_chroma<sp/>-<sp/>1]</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>-<sp/>Otherwise,<sp/>the<sp/>following<sp/>applies:</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>For<sp/>comp_model_value[y],<sp/>the<sp/>range<sp/>of<sp/>values<sp/>is<sp/>[-2^(bit_depth_luma<sp/>-<sp/>1),<sp/>2^(bit_depth_luma<sp/>-<sp/>1)<sp/>-<sp/>1]</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>For<sp/>comp_model_value[cb..cr],<sp/>the<sp/>range<sp/>of<sp/>values<sp/>is<sp/>[-2^(bit_depth_chroma<sp/>-<sp/>1),<sp/>2^(bit_depth_chroma<sp/>-<sp/>1)<sp/>-<sp/>1]</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="structAVFilmGrainH274Params_1a1ce7cfe173e3ce7e402acf6ece578a7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="structAVFilmGrainH274Params_1a1ce7cfe173e3ce7e402acf6ece578a7c" kindref="member">comp_model_value</ref>[3<sp/></highlight><highlight class="comment">/*<sp/>y,<sp/>cb,<sp/>cr<sp/>*/</highlight><highlight class="normal">][256<sp/></highlight><highlight class="comment">/*<sp/>intensity<sp/>interval<sp/>*/</highlight><highlight class="normal">][6<sp/></highlight><highlight class="comment">/*<sp/>model<sp/>value<sp/>*/</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}<sp/><ref refid="structAVFilmGrainH274Params" kindref="compound">AVFilmGrainH274Params</ref>;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="193"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*<sp/>This<sp/>structure<sp/>describes<sp/>how<sp/>to<sp/>handle<sp/>film<sp/>grain<sp/>synthesis<sp/>in<sp/>video</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/>*<sp/>for<sp/>specific<sp/>codecs.<sp/>Must<sp/>be<sp/>present<sp/>on<sp/>every<sp/>frame<sp/>where<sp/>film<sp/>grain<sp/>is</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>*<sp/>meant<sp/>to<sp/>be<sp/>synthesised<sp/>for<sp/>correct<sp/>presentation.</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>struct<sp/>must<sp/>be<sp/>allocated<sp/>with<sp/>av_film_grain_params_alloc()<sp/>and</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>its<sp/>size<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI.</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="structAVFilmGrainParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Specifies<sp/>the<sp/>codec<sp/>for<sp/>which<sp/>this<sp/>structure<sp/>is<sp/>valid.</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="structAVFilmGrainParams_1ab423e30922ba95b14658c1a61aacc59e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="film__grain__params_8h_1a435a764870a06eba97a5aa9dfec932fc" kindref="member">AVFilmGrainParamsType</ref><sp/><ref refid="structAVFilmGrainParams_1ab423e30922ba95b14658c1a61aacc59e" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Seed<sp/>to<sp/>use<sp/>for<sp/>the<sp/>synthesis<sp/>process,<sp/>if<sp/>the<sp/>codec<sp/>allows<sp/>for<sp/>it.</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@note<sp/>For<sp/>H.264,<sp/>this<sp/>refers<sp/>to<sp/>`pic_offset`<sp/>as<sp/>defined<sp/>in</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>SMPTE<sp/>RDD<sp/>5-2006.</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="structAVFilmGrainParams_1abff3ec031f8e4dab7762a2314f77c152" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structAVFilmGrainParams_1abff3ec031f8e4dab7762a2314f77c152" kindref="member">seed</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Intended<sp/>display<sp/>resolution.<sp/>May<sp/>be<sp/>0<sp/>if<sp/>the<sp/>codec<sp/>does<sp/>not<sp/>specify</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>any<sp/>restrictions.</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="structAVFilmGrainParams_1a921dab20a37b703c55682aa756403b8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainParams_1ab9cf96f4655c80720e9a090284165d05" kindref="member">width</ref>,<sp/><ref refid="structAVFilmGrainParams_1a921dab20a37b703c55682aa756403b8b" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Intended<sp/>subsampling<sp/>ratio,<sp/>or<sp/>0<sp/>for<sp/>luma-only<sp/>streams.</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="structAVFilmGrainParams_1a8361043a38b6dfdabd3fab9163c6b608" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainParams_1a8361043a38b6dfdabd3fab9163c6b608" kindref="member">subsampling_x</ref>,<sp/><ref refid="structAVFilmGrainParams_1af2556e0a5bed07dcedb0428c1543d2a5" kindref="member">subsampling_y</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Intended<sp/>video<sp/>signal<sp/>characteristics.</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="structAVFilmGrainParams_1a77f8a9033b1f02483d1c7b083e1e5765" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a3da0bf691418bc22c4bcbe6583ad589a" kindref="member">AVColorRange</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVFilmGrainParams_1a77f8a9033b1f02483d1c7b083e1e5765" kindref="member">color_range</ref>;</highlight></codeline>
+<codeline lineno="231" refid="structAVFilmGrainParams_1a67c39f1df9f1bbc0ddd62c9a3ac3bd4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad384ee5a840bafd73daef08e6d9cafe7" kindref="member">AVColorPrimaries</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVFilmGrainParams_1a67c39f1df9f1bbc0ddd62c9a3ac3bd4e" kindref="member">color_primaries</ref>;</highlight></codeline>
+<codeline lineno="232" refid="structAVFilmGrainParams_1acf59e18869b6c1d4cb3b8f3d1da39663" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/><ref refid="structAVFilmGrainParams_1acf59e18869b6c1d4cb3b8f3d1da39663" kindref="member">color_trc</ref>;</highlight></codeline>
+<codeline lineno="233" refid="structAVFilmGrainParams_1ae7426c0a6c3a5ce23db1ac051984691b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1aff71a069509a1ad3ff54d53a1c894c85" kindref="member">AVColorSpace</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVFilmGrainParams_1ae7426c0a6c3a5ce23db1ac051984691b" kindref="member">color_space</ref>;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Intended<sp/>bit<sp/>depth,<sp/>or<sp/>0<sp/>for<sp/>unknown/unspecified.</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="structAVFilmGrainParams_1aa7fd9b1df834d195ffcbb22afd9d9541" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainParams_1aa7fd9b1df834d195ffcbb22afd9d9541" kindref="member">bit_depth_luma</ref>;</highlight></codeline>
+<codeline lineno="239" refid="structAVFilmGrainParams_1a8917938545b8d7393dcdc8d70181fc91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainParams_1a8917938545b8d7393dcdc8d70181fc91" kindref="member">bit_depth_chroma</ref>;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Additional<sp/>fields<sp/>may<sp/>be<sp/>added<sp/>both<sp/>here<sp/>and<sp/>in<sp/>any<sp/>structure<sp/>included.</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>a<sp/>codec&apos;s<sp/>film<sp/>grain<sp/>structure<sp/>differs<sp/>slightly<sp/>over<sp/>another</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>codec&apos;s,<sp/>fields<sp/>within<sp/>may<sp/>change<sp/>meaning<sp/>depending<sp/>on<sp/>the<sp/>type.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="247" refid="structAVFilmGrainParams_1a716fd6fa99bdcaf4ba42df905eb967a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVFilmGrainAOMParams" kindref="compound">AVFilmGrainAOMParams</ref><sp/><ref refid="structAVFilmGrainParams_1a716fd6fa99bdcaf4ba42df905eb967a6" kindref="member">aom</ref>;</highlight></codeline>
+<codeline lineno="248" refid="structAVFilmGrainParams_1a760623dcd4a9089765347f4b0c21e506" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVFilmGrainH274Params" kindref="compound">AVFilmGrainH274Params</ref><sp/><ref refid="structAVFilmGrainParams_1a760623dcd4a9089765347f4b0c21e506" kindref="member">h274</ref>;</highlight></codeline>
+<codeline lineno="249" refid="structAVFilmGrainParams_1a5e642e041278fdf65fecc8b8b9b2ec04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="structAVFilmGrainParams_1a5e642e041278fdf65fecc8b8b9b2ec04" kindref="member">codec</ref>;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}<sp/><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref>;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="252"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>an<sp/>AVFilmGrainParams<sp/>structure<sp/>and<sp/>set<sp/>its<sp/>fields<sp/>to</highlight></codeline>
+<codeline lineno="254"><highlight class="comment"><sp/>*<sp/>default<sp/>values.<sp/>The<sp/>resulting<sp/>struct<sp/>can<sp/>be<sp/>freed<sp/>using<sp/>av_freep().</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/>*<sp/>If<sp/>size<sp/>is<sp/>not<sp/>NULL<sp/>it<sp/>will<sp/>be<sp/>set<sp/>to<sp/>the<sp/>number<sp/>of<sp/>bytes<sp/>allocated.</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/>*<sp/>@return<sp/>An<sp/>AVFilmGrainParams<sp/>filled<sp/>with<sp/>default<sp/>values<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="film__grain__params_8h_1aee530d6c32f0f0f0e121eb8ff0dfe55b" refkind="member"><highlight class="normal"><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref><sp/>*<ref refid="film__grain__params_8h_1aee530d6c32f0f0f0e121eb8ff0dfe55b" kindref="member">av_film_grain_params_alloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="262"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>complete<sp/>AVFilmGrainParams<sp/>and<sp/>add<sp/>it<sp/>to<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>The<sp/>frame<sp/>which<sp/>side<sp/>data<sp/>is<sp/>added<sp/>to.</highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>AVFilmGrainParams<sp/>structure<sp/>to<sp/>be<sp/>filled<sp/>by<sp/>caller.</highlight></codeline>
+<codeline lineno="268"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="film__grain__params_8h_1aace64a3c0b51ba5091166b784e6ad489" refkind="member"><highlight class="normal"><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref><sp/>*<ref refid="film__grain__params_8h_1aace64a3c0b51ba5091166b784e6ad489" kindref="member">av_film_grain_params_create_side_data</ref>(<ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="271"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/>*<sp/>Select<sp/>the<sp/>most<sp/>appropriate<sp/>film<sp/>grain<sp/>parameters<sp/>set<sp/>for<sp/>the<sp/>frame,</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/>*<sp/>taking<sp/>into<sp/>account<sp/>the<sp/>frame&apos;s<sp/>format,<sp/>resolution<sp/>and<sp/>video<sp/>signal</highlight></codeline>
+<codeline lineno="274"><highlight class="comment"><sp/>*<sp/>characteristics.</highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/>*<sp/>@note,<sp/>for<sp/>H.274,<sp/>this<sp/>may<sp/>select<sp/>a<sp/>film<sp/>grain<sp/>parameter<sp/>set<sp/>with</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/>*<sp/>greater<sp/>chroma<sp/>resolution<sp/>than<sp/>the<sp/>frame.<sp/>Users<sp/>should<sp/>take<sp/>care<sp/>to</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/>*<sp/>correctly<sp/>adjust<sp/>the<sp/>chroma<sp/>grain<sp/>frequency<sp/>to<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="film__grain__params_8h_1ab329124a27522dd54d537e2dc51f7f61" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilmGrainParams" kindref="compound">AVFilmGrainParams</ref><sp/>*<ref refid="film__grain__params_8h_1ab329124a27522dd54d537e2dc51f7f61" kindref="member">av_film_grain_params_select</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_FILM_GRAIN_PARAMS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/film_grain_params.h"/>
+  </compounddef>
+</doxygen>

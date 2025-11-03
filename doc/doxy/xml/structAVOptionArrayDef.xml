@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVOptionArrayDef" kind="struct" language="C++" prot="public">
+    <compoundname>AVOptionArrayDef</compoundname>
+    <includes refid="opt_8h" local="no">libavutil/opt.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVOptionArrayDef_1a2bd6dbdee3c738b74c12bfda5fe1e254" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* AVOptionArrayDef::def</definition>
+        <argsstring></argsstring>
+        <name>def</name>
+        <qualifiedname>AVOptionArrayDef::def</qualifiedname>
+        <briefdescription>
+<para>Native access only. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value of the option, as would be serialized by <ref refid="group__opt__get__funcs_1gaf31144e60f9ce89dbe8cbea57a0b232c" kindref="member">av_opt_get()</ref> (i.e. using the value of sep as the separator). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/opt.h" line="402" column="24" bodyfile="libavutil/opt.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVOptionArrayDef_1a2d82df5ff2a0bf4017abe4a43e93727a" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVOptionArrayDef::size_min</definition>
+        <argsstring></argsstring>
+        <name>size_min</name>
+        <qualifiedname>AVOptionArrayDef::size_min</qualifiedname>
+        <briefdescription>
+<para>Minimum number of elements in the array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>When this field is non-zero, def must be non-NULL and contain at least this number of elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/opt.h" line="408" column="25" bodyfile="libavutil/opt.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVOptionArrayDef_1a3e4cb4183665a54d21111f40c17b13a3" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVOptionArrayDef::size_max</definition>
+        <argsstring></argsstring>
+        <name>size_max</name>
+        <qualifiedname>AVOptionArrayDef::size_max</qualifiedname>
+        <briefdescription>
+<para>Maximum number of elements in the array, 0 when unlimited. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/opt.h" line="412" column="25" bodyfile="libavutil/opt.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVOptionArrayDef_1aae9b582de05bea64c28969486ae1109d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char AVOptionArrayDef::sep</definition>
+        <argsstring></argsstring>
+        <name>sep</name>
+        <qualifiedname>AVOptionArrayDef::sep</qualifiedname>
+        <briefdescription>
+<para>Separator between array elements in string representations of this option, used by <ref refid="group__opt__set__funcs_1ga5fd4b92bdf4f392a2847f711676a7537" kindref="member">av_opt_set()</ref> and <ref refid="group__opt__get__funcs_1gaf31144e60f9ce89dbe8cbea57a0b232c" kindref="member">av_opt_get()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It must be a printable ASCII character, excluding alphanumeric and the backslash. A comma is used when sep=0.</para>
+<para>The separator and the backslash must be backslash-escaped in order to appear in string representations of the option value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/opt.h" line="423" column="25" bodyfile="libavutil/opt.h" bodystart="423" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>May be set as default_val for AV_OPT_TYPE_FLAG_ARRAY options. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/opt.h" line="395" column="1" bodyfile="libavutil/opt.h" bodystart="395" bodyend="424"/>
+    <listofallmembers>
+      <member refid="structAVOptionArrayDef_1a2bd6dbdee3c738b74c12bfda5fe1e254" prot="public" virt="non-virtual"><scope>AVOptionArrayDef</scope><name>def</name></member>
+      <member refid="structAVOptionArrayDef_1aae9b582de05bea64c28969486ae1109d" prot="public" virt="non-virtual"><scope>AVOptionArrayDef</scope><name>sep</name></member>
+      <member refid="structAVOptionArrayDef_1a3e4cb4183665a54d21111f40c17b13a3" prot="public" virt="non-virtual"><scope>AVOptionArrayDef</scope><name>size_max</name></member>
+      <member refid="structAVOptionArrayDef_1a2d82df5ff2a0bf4017abe4a43e93727a" prot="public" virt="non-virtual"><scope>AVOptionArrayDef</scope><name>size_min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

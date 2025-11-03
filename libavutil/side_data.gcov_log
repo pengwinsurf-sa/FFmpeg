@@ -1,0 +1,51 @@
+Function 'av_frame_side_data_get_c'
+Lines executed:0.00% of 4
+
+Function 'av_frame_side_data_clone'
+Lines executed:0.00% of 37
+
+Function 'av_frame_side_data_add'
+Lines executed:0.00% of 15
+
+Function 'av_frame_side_data_new'
+Lines executed:0.00% of 15
+
+Function 'replace_side_data_from_buf'
+Lines executed:0.00% of 8
+
+Function 'ff_frame_side_data_add_from_buf'
+Lines executed:0.00% of 3
+
+Function 'add_side_data_from_buf_ext'
+Lines executed:0.00% of 14
+
+Function 'av_frame_side_data_free'
+Lines executed:83.33% of 6
+
+Function 'av_frame_side_data_remove_by_props'
+Lines executed:0.00% of 10
+
+Function 'av_frame_side_data_remove'
+Lines executed:0.00% of 9
+
+Function 'remove_side_data_by_entry'
+Lines executed:0.00% of 9
+
+Function 'free_side_data_entry'
+Lines executed:0.00% of 6
+
+Function 'av_frame_side_data_name'
+Lines executed:0.00% of 3
+
+Function 'av_frame_side_data_desc'
+Lines executed:0.00% of 4
+
+File 'libavutil/side_data.c'
+Lines executed:3.55% of 141
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#side_data.gcno##libavutil#side_data.c.gcov'
+
+File 'libavutil/frame.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#side_data.gcno##libavutil#frame.h.gcov'
+
+Lines executed:3.50% of 143

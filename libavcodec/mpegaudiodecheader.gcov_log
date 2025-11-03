@@ -1,0 +1,15 @@
+Function 'ff_mpa_decode_header'
+Lines executed:0.00% of 22
+
+Function 'avpriv_mpegaudio_decode_header'
+Lines executed:0.00% of 51
+
+File 'libavcodec/mpegaudiodecheader.c'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodecheader.gcno##libavcodec#mpegaudiodecheader.c.gcov'
+
+File 'libavcodec/mpegaudiodecheader.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpegaudiodecheader.gcno##libavcodec#mpegaudiodecheader.h.gcov'
+
+Lines executed:0.00% of 73

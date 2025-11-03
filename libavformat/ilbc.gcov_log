@@ -1,0 +1,17 @@
+Function 'ilbc_read_packet'
+Lines executed:0.00% of 8
+
+Function 'ilbc_read_header'
+Lines executed:0.00% of 23
+
+Function 'ilbc_probe'
+Lines executed:0.00% of 3
+
+Function 'ilbc_write_header'
+Lines executed:0.00% of 9
+
+File 'libavformat/ilbc.c'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ilbc.gcno##libavformat#ilbc.c.gcov'
+
+Lines executed:0.00% of 43

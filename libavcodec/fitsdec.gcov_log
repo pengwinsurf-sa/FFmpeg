@@ -1,0 +1,25 @@
+Function 'fits_decode_frame'
+Lines executed:0.00% of 68
+
+Function 'fits_read_header'
+Lines executed:0.00% of 46
+
+Function 'fill_data_min_max'
+Lines executed:0.00% of 17
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/fitsdec.c'
+Lines executed:0.00% of 118
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsdec.gcno##libavcodec#fitsdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fitsdec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 133

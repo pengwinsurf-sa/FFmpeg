@@ -1,0 +1,54 @@
+Function 'uninit'
+Lines executed:0.00% of 15
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 26
+
+Function 'process_frame'
+Lines executed:0.00% of 13
+
+Function 'config_input_ref'
+Lines executed:0.00% of 20
+
+Function 'do_vif'
+Lines executed:0.00% of 20
+
+Function 'set_meta'
+Lines executed:0.00% of 7
+
+Function 'offset_16bit'
+Lines executed:0.00% of 1
+
+Function 'offset_8bit'
+Lines executed:0.00% of 1
+
+Function 'compute_vif2'
+Lines executed:0.00% of 79
+
+Function 'vif_filter1d'
+Lines executed:0.00% of 49
+
+Function 'vif_xx_yy_xy'
+Lines executed:0.00% of 17
+
+Function 'vif_statistic'
+Lines executed:0.00% of 45
+
+Function 'vif_child_next'
+Lines executed:0.00% of 1
+
+Function 'vif_framesync_preinit'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_vif.c'
+Lines executed:0.00% of 297
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vif.gcno##libavfilter#vf_vif.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vif.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 299

@@ -1,0 +1,35 @@
+Function 'process_command'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 22
+
+Function 'averageiir2d'
+Lines executed:0.00% of 14
+
+Function 'config_input'
+Lines executed:0.00% of 22
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'build_lut'
+Lines executed:0.00% of 10
+
+Function 'filter_slow16'
+Lines executed:0.00% of 1
+
+Function 'filter_slow8'
+Lines executed:0.00% of 1
+
+Function 'filter_lut16'
+Lines executed:0.00% of 1
+
+Function 'filter_lut8'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_avgblur.c'
+Lines executed:0.00% of 88
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_avgblur.gcno##libavfilter#vf_avgblur.c.gcov'
+
+Lines executed:0.00% of 88

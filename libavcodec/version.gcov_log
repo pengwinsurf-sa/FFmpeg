@@ -1,0 +1,14 @@
+Function 'avcodec_license'
+Lines executed:0.00% of 2
+
+Function 'avcodec_configuration'
+Lines executed:0.00% of 2
+
+Function 'avcodec_version'
+Lines executed:0.00% of 4
+
+File 'libavcodec/version.c'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#version.gcno##libavcodec#version.c.gcov'
+
+Lines executed:0.00% of 8

@@ -1,0 +1,68 @@
+Function 'udp_close'
+Lines executed:0.00% of 23
+
+Function 'udp_write'
+Lines executed:0.00% of 28
+
+Function 'udp_read'
+Lines executed:0.00% of 51
+
+Function 'udplite_open'
+Lines executed:0.00% of 4
+
+Function 'udp_open'
+Lines executed:0.00% of 193
+
+Function 'circular_buffer_task_tx'
+Lines executed:0.00% of 71
+
+Function 'circular_buffer_task_rx'
+Lines executed:0.00% of 41
+
+Function 'udp_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'ff_udp_get_local_port'
+Lines executed:0.00% of 3
+
+Function 'ff_udp_set_remote_url'
+Lines executed:0.00% of 20
+
+Function 'udp_port'
+Lines executed:0.00% of 7
+
+Function 'udp_socket_create'
+Lines executed:0.00% of 26
+
+Function 'udp_set_url'
+Lines executed:0.00% of 9
+
+Function 'udp_set_multicast_sources'
+Lines executed:0.00% of 29
+
+Function 'udp_leave_multicast_group'
+Lines executed:0.00% of 17
+
+Function 'udp_join_multicast_group'
+Lines executed:0.00% of 17
+
+Function 'udp_set_multicast_ttl'
+Lines executed:0.00% of 13
+
+File 'libavformat/udp.c'
+Lines executed:0.00% of 542
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#udp.gcno##libavformat#udp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/socket2.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#udp.gcno###usr#include#x86_64-linux-gnu#bits#socket2.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#udp.gcno##libavutil#thread.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#udp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 555

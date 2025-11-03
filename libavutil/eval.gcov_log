@@ -1,0 +1,75 @@
+Function 'av_expr_parse_and_eval'
+Lines executed:0.00% of 9
+
+Function 'av_expr_eval'
+Lines executed:0.00% of 5
+
+Function 'av_expr_count_func'
+Lines executed:0.00% of 2
+
+Function 'av_expr_count_vars'
+Lines executed:0.00% of 2
+
+Function 'expr_count'
+Lines executed:0.00% of 7
+
+Function 'av_expr_parse'
+Lines executed:0.00% of 43
+
+Function 'verify_expr'
+Lines executed:0.00% of 16
+
+Function 'parse_expr'
+Lines executed:0.00% of 29
+
+Function 'parse_subexpr'
+Lines executed:0.00% of 17
+
+Function 'parse_term'
+Lines executed:0.00% of 17
+
+Function 'parse_factor'
+Lines executed:0.00% of 19
+
+Function 'parse_dB'
+Lines executed:0.00% of 12
+
+Function 'parse_primary'
+Lines executed:0.00% of 128
+
+Function 'av_expr_free'
+Lines executed:0.00% of 8
+
+Function 'eval_expr'
+Lines executed:0.00% of 140
+
+Function 'etime'
+Lines executed:0.00% of 2
+
+Function 'strmatch'
+Lines executed:0.00% of 5
+
+Function 'av_strtod'
+Lines executed:0.00% of 26
+
+File 'libavutil/eval.c'
+Lines executed:0.00% of 465
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#eval.gcno##libavutil#eval.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#eval.gcno##libavutil#avstring.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#eval.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/sfc64.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#eval.gcno##libavutil#sfc64.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#eval.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 487

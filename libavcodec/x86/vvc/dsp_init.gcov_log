@@ -1,0 +1,689 @@
+Function 'ff_vvc_dsp_init_x86'
+Lines executed:100.00% of 39
+
+Function 'vvc_alf_classify_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_filter_chroma_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_filter_luma_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_classify_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_filter_chroma_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_filter_luma_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_classify_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_filter_chroma_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_alf_filter_luma_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_w_avg_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_avg_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_w_avg_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_avg_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_w_avg_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_avg_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels16_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels16_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels128_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels64_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels32_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels128_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels64_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels32_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v32_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h32_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v32_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h32_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels128_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels64_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels32_8_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv2_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v2_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h2_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels128_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels64_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels32_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels16_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels8_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels4_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels2_12_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv2_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v2_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h2_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels128_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels64_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels32_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels16_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels8_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels4_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels2_10_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_hv4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_v4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_8tap_h4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_hv2_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_v2_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_4tap_h2_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels128_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels64_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels32_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels16_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels8_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels4_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_put_pixels2_8_sse4'
+Lines executed:100.00% of 1
+
+Function 'vvc_apply_bdof_12_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_apply_bdof_10_avx2'
+Lines executed:100.00% of 1
+
+Function 'vvc_apply_bdof_8_avx2'
+Lines executed:100.00% of 1
+
+File 'libavcodec/x86/vvc/dsp_init.c'
+Lines executed:100.00% of 280
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#vvc#dsp_init.gcno##libavcodec#x86#vvc#dsp_init.c.gcov'
+
+Lines executed:100.00% of 280

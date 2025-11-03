@@ -1,0 +1,28 @@
+Function 'yop_read_seek'
+Lines executed:0.00% of 14
+
+Function 'yop_read_close'
+Lines executed:0.00% of 4
+
+Function 'yop_read_packet'
+Lines executed:0.00% of 37
+
+Function 'yop_read_header'
+Lines executed:0.00% of 35
+
+Function 'yop_probe'
+Lines executed:0.00% of 12
+
+File 'libavformat/yop.c'
+Lines executed:0.00% of 99
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yop.gcno##libavformat#yop.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yop.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#yop.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 102

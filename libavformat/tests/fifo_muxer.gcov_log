@@ -1,0 +1,103 @@
+Function 'main'
+Lines executed:0.00% of 6
+
+Function 'run_test'
+Lines executed:0.00% of 40
+
+Function 'fifo_overflow_drop_test'
+Lines executed:0.00% of 33
+
+Function 'fifo_basic_test'
+Lines executed:0.00% of 31
+
+Function 'initialize_fifo_tst_muxer_chain'
+Lines executed:0.00% of 15
+
+Function 'prepare_packet'
+Lines executed:0.00% of 9
+
+Function 'failing_deinit'
+Lines executed:0.00% of 10
+
+Function 'fifo_test_trailer'
+Lines executed:0.00% of 3
+
+Function 'fifo_test_packet'
+Lines executed:0.00% of 18
+
+Function 'fifo_test_header'
+Lines executed:0.00% of 3
+
+Function 'fifo_deinit'
+Lines executed:0.00% of 7
+
+Function 'fifo_write_trailer'
+Lines executed:0.00% of 27
+
+Function 'fifo_write_packet'
+Lines executed:0.00% of 26
+
+Function 'fifo_write_header'
+Lines executed:0.00% of 9
+
+Function 'fifo_init'
+Lines executed:0.00% of 23
+
+Function 'fifo_mux_init'
+Lines executed:0.00% of 18
+
+Function 'fifo_consumer_thread'
+Lines executed:0.00% of 49
+
+Function 'fifo_thread_recover'
+Lines executed:0.00% of 16
+
+Function 'fifo_thread_attempt_recovery'
+Lines executed:0.00% of 48
+
+Function 'fifo_thread_process_recovery_failure'
+Lines executed:0.00% of 16
+
+Function 'free_message'
+Lines executed:0.00% of 1
+
+Function 'fifo_thread_dispatch_message'
+Lines executed:0.00% of 18
+
+Function 'fifo_thread_write_trailer'
+Lines executed:0.00% of 9
+
+Function 'fifo_thread_write_packet'
+Lines executed:0.00% of 37
+
+Function 'next_duration'
+Lines executed:0.00% of 6
+
+Function 'fifo_thread_write_header'
+Lines executed:0.00% of 25
+
+File 'libavformat/tests/fifo_muxer.c'
+Lines executed:0.00% of 157
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#fifo_muxer.gcno##libavformat#tests#fifo_muxer.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#fifo_muxer.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#fifo_muxer.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#fifo_muxer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/fifo.c'
+Lines executed:0.00% of 329
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#fifo_muxer.gcno##libavformat#fifo.c.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tests#fifo_muxer.gcno##libavutil#thread.h.gcov'
+
+Lines executed:0.00% of 503

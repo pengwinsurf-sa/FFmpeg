@@ -1,0 +1,110 @@
+Function 'main'
+Lines executed:0.00% of 23
+
+Function 'print_entries'
+Lines executed:0.00% of 14
+
+Function 'av_frame_apply_cropping'
+Lines executed:0.00% of 39
+
+Function 'calc_cropping_offsets'
+Lines executed:0.00% of 15
+
+Function 'av_frame_remove_side_data'
+Lines executed:0.00% of 3
+
+Function 'av_frame_copy'
+Lines executed:0.00% of 7
+
+Function 'frame_copy_audio'
+Lines executed:0.00% of 12
+
+Function 'frame_copy_video'
+Lines executed:0.00% of 15
+
+Function 'av_frame_get_side_data'
+Lines executed:0.00% of 5
+
+Function 'av_frame_new_side_data'
+Lines executed:0.00% of 7
+
+Function 'av_frame_new_side_data_from_buf'
+Lines executed:0.00% of 3
+
+Function 'av_frame_get_plane_buffer'
+Lines executed:0.00% of 19
+
+Function 'av_frame_copy_props'
+Lines executed:0.00% of 2
+
+Function 'av_frame_make_writable'
+Lines executed:0.00% of 31
+
+Function 'av_frame_is_writable'
+Lines executed:0.00% of 8
+
+Function 'av_frame_move_ref'
+Lines executed:0.00% of 8
+
+Function 'av_frame_unref'
+Lines executed:0.00% of 16
+
+Function 'av_frame_clone'
+Lines executed:0.00% of 6
+
+Function 'av_frame_replace'
+Lines executed:0.00% of 72
+
+Function 'av_frame_ref'
+Lines executed:0.00% of 60
+
+Function 'frame_copy_props'
+Lines executed:0.00% of 46
+
+Function 'av_frame_get_buffer'
+Lines executed:0.00% of 7
+
+Function 'get_audio_buffer'
+Lines executed:0.00% of 38
+
+Function 'get_video_buffer'
+Lines executed:0.00% of 44
+
+Function 'av_frame_free'
+Lines executed:0.00% of 4
+
+Function 'av_frame_alloc'
+Lines executed:0.00% of 5
+
+Function 'get_frame_defaults'
+Lines executed:0.00% of 17
+
+File 'libavutil/tests/side_data_array.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno##libavutil#tests#side_data_array.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno###usr#include#x86_64-linux-gnu#bits#stdio.h.gcov'
+
+File 'libavutil/frame.c'
+Lines executed:0.00% of 481
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno##libavutil#frame.c.gcov'
+
+File 'libavutil/imgutils.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno##libavutil#imgutils.h.gcov'
+
+File 'libavutil/frame.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno##libavutil#frame.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#side_data_array.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 526

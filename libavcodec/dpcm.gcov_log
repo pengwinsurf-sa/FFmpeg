@@ -1,0 +1,26 @@
+Function 'dpcm_flush'
+Lines executed:0.00% of 4
+
+Function 'dpcm_decode_frame'
+Lines executed:0.00% of 140
+
+Function 'dpcm_decode_init'
+Lines executed:0.00% of 50
+
+File 'libavcodec/dpcm.c'
+Lines executed:0.00% of 173
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dpcm.gcno##libavcodec#dpcm.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dpcm.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dpcm.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dpcm.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 194

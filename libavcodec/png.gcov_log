@@ -1,0 +1,11 @@
+Function 'ff_png_pass_row_size'
+Lines executed:0.00% of 7
+
+Function 'ff_png_get_nb_channels'
+Lines executed:0.00% of 8
+
+File 'libavcodec/png.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#png.gcno##libavcodec#png.c.gcov'
+
+Lines executed:0.00% of 15

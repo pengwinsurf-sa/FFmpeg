@@ -1,0 +1,129 @@
+Function 'encode_end'
+Lines executed:0.00% of 13
+
+Function 'encode_frame'
+Lines executed:0.00% of 346
+
+Function 'calculate_visual_weight'
+Lines executed:0.00% of 23
+
+Function 'ratecontrol_1pass'
+Lines executed:0.00% of 39
+
+Function 'qscale2qlog'
+Lines executed:0.00% of 3
+
+Function 'update_last_header_values'
+Lines executed:0.00% of 15
+
+Function 'encode_header'
+Lines executed:0.00% of 55
+
+Function 'encode_qlogs'
+Lines executed:0.00% of 8
+
+Function 'correlate'
+Lines executed:0.00% of 19
+
+Function 'decorrelate'
+Lines executed:0.00% of 15
+
+Function 'dequantize'
+Lines executed:0.00% of 15
+
+Function 'quantize'
+Lines executed:0.00% of 40
+
+Function 'encode_blocks'
+Lines executed:0.00% of 15
+
+Function 'iterative_me'
+Lines executed:0.00% of 238
+
+Function 'encode_subband_c0run'
+Lines executed:0.00% of 75
+
+Function 'get_4block_rd'
+Lines executed:0.00% of 47
+
+Function 'get_block_rd'
+Lines executed:0.00% of 64
+
+Function 'get_block_bits'
+Lines executed:0.00% of 21
+
+Function 'get_dc'
+Lines executed:0.00% of 50
+
+Function 'encode_q_branch2'
+Lines executed:0.00% of 45
+
+Function 'encode_q_branch'
+Lines executed:0.00% of 208
+
+Function 'get_penalty_factor'
+Lines executed:0.00% of 14
+
+Function 'encode_init'
+Lines executed:0.00% of 83
+
+Function 'get_encode_buffer'
+Lines executed:0.00% of 14
+
+Function 'put_symbol2'
+Lines executed:0.00% of 11
+
+Function 'put_symbol'
+Lines executed:0.00% of 20
+
+Function 'init_ref'
+Lines executed:0.00% of 10
+
+Function 'set_blocks'
+Lines executed:0.00% of 20
+
+Function 'pred_mv'
+Lines executed:0.00% of 12
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+Function 'put_rac'
+Lines executed:0.00% of 14
+
+Function 'renorm_encoder'
+Lines executed:0.00% of 12
+
+File 'libavcodec/snowenc.c'
+Lines executed:0.00% of 1366
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavcodec#snowenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/snow.h'
+Lines executed:0.00% of 150
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavcodec#snow.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavcodec#rangecoder.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snowenc.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 1575

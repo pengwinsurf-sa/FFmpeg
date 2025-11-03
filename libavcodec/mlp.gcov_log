@@ -1,0 +1,27 @@
+Function 'ff_mlp_calculate_parity'
+Lines executed:0.00% of 15
+
+Function 'ff_mlp_restart_checksum'
+Lines executed:0.00% of 12
+
+Function 'ff_mlp_checksum8'
+Lines executed:0.00% of 4
+
+Function 'ff_mlp_checksum16'
+Lines executed:0.00% of 5
+
+Function 'ff_mlp_init_crc'
+Lines executed:0.00% of 4
+
+Function 'mlp_init_crc'
+Lines executed:0.00% of 5
+
+File 'libavcodec/mlp.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp.gcno##libavcodec#mlp.c.gcov'
+
+File 'libavcodec/mlp.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp.gcno##libavcodec#mlp.h.gcov'
+
+Lines executed:0.00% of 45

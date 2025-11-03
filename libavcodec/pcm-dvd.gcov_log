@@ -1,0 +1,29 @@
+Function 'pcm_dvd_decode_frame'
+Lines executed:0.00% of 44
+
+Function 'pcm_dvd_decode_samples'
+Lines executed:0.00% of 67
+
+Function 'pcm_dvd_parse_header'
+Lines executed:0.00% of 49
+
+Function 'pcm_dvd_decode_init'
+Lines executed:0.00% of 4
+
+File 'libavcodec/pcm-dvd.c'
+Lines executed:0.00% of 152
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pcm-dvd.gcno##libavcodec#pcm-dvd.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pcm-dvd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pcm-dvd.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pcm-dvd.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 164

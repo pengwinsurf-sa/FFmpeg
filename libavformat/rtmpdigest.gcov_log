@@ -1,0 +1,11 @@
+Function 'ff_rtmp_calc_digest_pos'
+Lines executed:0.00% of 6
+
+Function 'ff_rtmp_calc_digest'
+Lines executed:0.00% of 12
+
+File 'libavformat/rtmpdigest.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmpdigest.gcno##libavformat#rtmpdigest.c.gcov'
+
+Lines executed:0.00% of 18

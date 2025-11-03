@@ -1,0 +1,14 @@
+Function 'av1_parser_close'
+Lines executed:0.00% of 5
+
+Function 'av1_parser_init'
+Lines executed:0.00% of 8
+
+Function 'av1_parser_parse'
+Lines executed:0.00% of 86
+
+File 'libavcodec/av1_parser.c'
+Lines executed:0.00% of 99
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#av1_parser.gcno##libavcodec#av1_parser.c.gcov'
+
+Lines executed:0.00% of 99

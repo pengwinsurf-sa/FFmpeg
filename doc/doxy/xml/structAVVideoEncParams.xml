@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVVideoEncParams" kind="struct" language="C++" prot="public">
+    <compoundname>AVVideoEncParams</compoundname>
+    <includes refid="video__enc__params_8h" local="no">libavutil/video_enc_params.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVVideoEncParams_1aca5b6334196a79c8987334e7dac931c9" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AVVideoEncParams::nb_blocks</definition>
+        <argsstring></argsstring>
+        <name>nb_blocks</name>
+        <qualifiedname>AVVideoEncParams::nb_blocks</qualifiedname>
+        <briefdescription>
+<para>Number of blocks in the array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May be 0, in which case no per-block information is present. In this case the values of blocks_offset / block_size are unspecified and should not be accessed. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="81" column="18" bodyfile="libavutil/video_enc_params.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVideoEncParams_1af30a1b920629802802567ae233065f39" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t AVVideoEncParams::blocks_offset</definition>
+        <argsstring></argsstring>
+        <name>blocks_offset</name>
+        <qualifiedname>AVVideoEncParams::blocks_offset</qualifiedname>
+        <briefdescription>
+<para>Offset in bytes from the beginning of this structure at which the array of blocks starts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="86" column="12" bodyfile="libavutil/video_enc_params.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="video__enc__params_8h_1a8c60988cd15689aaeffa365d97a82c90" compoundref="video__enc__params_8h" startline="143" endline="148">av_video_enc_params_block</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVideoEncParams_1a61424e76b2d8ec3d6d80de6ef9efe975" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t AVVideoEncParams::block_size</definition>
+        <argsstring></argsstring>
+        <name>block_size</name>
+        <qualifiedname>AVVideoEncParams::block_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="90" column="12" bodyfile="libavutil/video_enc_params.h" bodystart="90" bodyend="-1"/>
+        <referencedby refid="video__enc__params_8h_1a8c60988cd15689aaeffa365d97a82c90" compoundref="video__enc__params_8h" startline="143" endline="148">av_video_enc_params_block</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVideoEncParams_1a6445e5af228fd8349a7ac83d69705364" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="video__enc__params_8h_1af50af6452ba562f068d67dd2c0154fea" kindref="member">AVVideoEncParamsType</ref></type>
+        <definition>enum AVVideoEncParamsType AVVideoEncParams::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>AVVideoEncParams::type</qualifiedname>
+        <briefdescription>
+<para>Type of the parameters (the codec they are used with). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="95" column="30" bodyfile="libavutil/video_enc_params.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t AVVideoEncParams::qp</definition>
+        <argsstring></argsstring>
+        <name>qp</name>
+        <qualifiedname>AVVideoEncParams::qp</qualifiedname>
+        <briefdescription>
+<para>Base quantisation parameter for the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The final quantiser for a given block in a given plane is obtained from this value, possibly combined with <javadoccode>delta_qp</javadoccode> and the per-block delta in a manner documented for each type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="103" column="13" bodyfile="libavutil/video_enc_params.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVVideoEncParams_1a01d00c4d7b75e7962795f747956ee53b" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t AVVideoEncParams::delta_qp[4][2]</definition>
+        <argsstring>[4][2]</argsstring>
+        <name>delta_qp</name>
+        <qualifiedname>AVVideoEncParams::delta_qp</qualifiedname>
+        <briefdescription>
+<para>Quantisation parameter offset from the base (per-frame) qp for a given plane (first index) and AC/DC coefficients (second index). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/video_enc_params.h" line="109" column="13" bodyfile="libavutil/video_enc_params.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Video encoding parameters for a given frame. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This struct is allocated along with an optional array of per-block <ref refid="structAVVideoBlockParams" kindref="compound">AVVideoBlockParams</ref> descriptors. Must be allocated with <ref refid="video__enc__params_8h_1ad545c6225e84060f462e392033fa635c" kindref="member">av_video_enc_params_alloc()</ref>. </para>
+    </detaileddescription>
+    <location file="libavutil/video_enc_params.h" line="73" column="1" bodyfile="libavutil/video_enc_params.h" bodystart="73" bodyend="110"/>
+    <listofallmembers>
+      <member refid="structAVVideoEncParams_1a61424e76b2d8ec3d6d80de6ef9efe975" prot="public" virt="non-virtual"><scope>AVVideoEncParams</scope><name>block_size</name></member>
+      <member refid="structAVVideoEncParams_1af30a1b920629802802567ae233065f39" prot="public" virt="non-virtual"><scope>AVVideoEncParams</scope><name>blocks_offset</name></member>
+      <member refid="structAVVideoEncParams_1a01d00c4d7b75e7962795f747956ee53b" prot="public" virt="non-virtual"><scope>AVVideoEncParams</scope><name>delta_qp</name></member>
+      <member refid="structAVVideoEncParams_1aca5b6334196a79c8987334e7dac931c9" prot="public" virt="non-virtual"><scope>AVVideoEncParams</scope><name>nb_blocks</name></member>
+      <member refid="structAVVideoEncParams_1af292520b789d02d0eb3aebc71d561161" prot="public" virt="non-virtual"><scope>AVVideoEncParams</scope><name>qp</name></member>
+      <member refid="structAVVideoEncParams_1a6445e5af228fd8349a7ac83d69705364" prot="public" virt="non-virtual"><scope>AVVideoEncParams</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

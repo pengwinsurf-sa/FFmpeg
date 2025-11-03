@@ -1,0 +1,15 @@
+Function 'ff_ea_idct_put_c'
+Lines executed:0.00% of 12
+
+Function 'ea_idct_col'
+Lines executed:0.00% of 12
+
+File 'libavcodec/eaidct.c'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#eaidct.gcno##libavcodec#eaidct.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#eaidct.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 24

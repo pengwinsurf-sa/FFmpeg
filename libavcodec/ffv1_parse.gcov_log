@@ -1,0 +1,32 @@
+Function 'ff_ffv1_parse_header'
+Lines executed:0.00% of 184
+
+Function 'ff_ffv1_read_extra_header'
+Lines executed:0.00% of 90
+
+Function 'ff_ffv1_read_quant_tables'
+Lines executed:0.00% of 10
+
+Function 'read_quant_table'
+Lines executed:0.00% of 15
+
+Function 'get_rac'
+Lines executed:0.00% of 21
+
+File 'libavcodec/ffv1_parse.c'
+Lines executed:0.00% of 295
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parse.gcno##libavcodec#ffv1_parse.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parse.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parse.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parse.gcno##libavcodec#rangecoder.h.gcov'
+
+Lines executed:0.00% of 320

@@ -1,0 +1,98 @@
+Function 'nut_write_deinit'
+Lines executed:0.00% of 11
+
+Function 'nut_write_trailer'
+Lines executed:0.00% of 13
+
+Function 'nut_write_packet'
+Lines executed:0.00% of 163
+
+Function 'write_sm_data'
+Lines executed:0.00% of 79
+
+Function 'find_best_header_idx'
+Lines executed:0.00% of 11
+
+Function 'get_needed_flags'
+Lines executed:0.00% of 22
+
+Function 'nut_write_header'
+Lines executed:0.00% of 59
+
+Function 'write_headers'
+Lines executed:0.00% of 33
+
+Function 'write_index'
+Lines executed:0.00% of 35
+
+Function 'write_chapter'
+Lines executed:0.00% of 19
+
+Function 'write_streaminfo'
+Lines executed:0.00% of 30
+
+Function 'write_globalinfo'
+Lines executed:0.00% of 20
+
+Function 'add_info'
+Lines executed:0.00% of 5
+
+Function 'write_streamheader'
+Lines executed:0.00% of 38
+
+Function 'write_mainheader'
+Lines executed:0.00% of 55
+
+Function 'put_packet'
+Lines executed:0.00% of 15
+
+Function 'put_str'
+Lines executed:0.00% of 5
+
+Function 'put_v'
+Lines executed:0.00% of 6
+
+Function 'build_frame_code'
+Lines executed:0.00% of 102
+
+Function 'find_header_idx'
+Lines executed:0.00% of 8
+
+Function 'find_expected_header'
+Lines executed:0.00% of 39
+
+Function 'choose_timebase'
+Lines executed:0.00% of 8
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/nutenc.c'
+Lines executed:0.00% of 764
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno##libavformat#nutenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#nutenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 778

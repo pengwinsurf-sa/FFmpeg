@@ -1,0 +1,32 @@
+Function 'aax_read_close'
+Lines executed:0.00% of 6
+
+Function 'aax_read_packet'
+Lines executed:0.00% of 48
+
+Function 'aax_read_header'
+Lines executed:0.00% of 116
+
+Function 'get_pts'
+Lines executed:0.00% of 7
+
+Function 'aax_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/aaxdec.c'
+Lines executed:0.00% of 177
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aaxdec.gcno##libavformat#aaxdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aaxdec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aaxdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aaxdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 186

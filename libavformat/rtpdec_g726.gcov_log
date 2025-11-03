@@ -1,0 +1,17 @@
+Function 'g726_40_init'
+Lines executed:0.00% of 1
+
+Function 'g726_32_init'
+Lines executed:0.00% of 1
+
+Function 'g726_24_init'
+Lines executed:0.00% of 1
+
+Function 'g726_16_init'
+Lines executed:0.00% of 1
+
+File 'libavformat/rtpdec_g726.c'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_g726.gcno##libavformat#rtpdec_g726.c.gcov'
+
+Lines executed:0.00% of 4

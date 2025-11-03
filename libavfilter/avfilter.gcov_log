@@ -1,0 +1,214 @@
+Function 'ff_filter_execute'
+Lines executed:0.00% of 2
+
+Function 'ff_outlink_frame_wanted'
+Lines executed:0.00% of 3
+
+Function 'ff_filter_init_hw_frames'
+Lines executed:0.00% of 10
+
+Function 'avfilter_get_class'
+Lines executed:0.00% of 2
+
+Function 'ff_inoutlink_check_flow'
+Lines executed:0.00% of 5
+
+Function 'ff_outlink_get_status'
+Lines executed:0.00% of 3
+
+Function 'ff_inlink_set_status'
+Lines executed:0.00% of 13
+
+Function 'ff_inlink_request_frame'
+Lines executed:0.00% of 7
+
+Function 'ff_inlink_process_commands'
+Lines executed:0.00% of 11
+
+Function 'ff_inlink_make_frame_writable'
+Lines executed:0.00% of 25
+
+Function 'ff_inlink_peek_frame'
+Lines executed:0.00% of 3
+
+Function 'ff_inlink_consume_samples'
+Lines executed:0.00% of 16
+
+Function 'ff_inlink_consume_frame'
+Lines executed:0.00% of 12
+
+Function 'consume_update'
+Lines executed:0.00% of 9
+
+Function 'ff_inlink_check_available_samples'
+Lines executed:0.00% of 5
+
+Function 'ff_inlink_queued_samples'
+Lines executed:0.00% of 3
+
+Function 'ff_inlink_check_available_frame'
+Lines executed:0.00% of 3
+
+Function 'ff_inlink_queued_frames'
+Lines executed:0.00% of 3
+
+Function 'ff_inlink_acknowledge_status'
+Lines executed:0.00% of 13
+
+Function 'ff_filter_activate'
+Lines executed:0.00% of 10
+
+Function 'filter_activate_default'
+Lines executed:0.00% of 26
+
+Function 'forward_status_change'
+Lines executed:0.00% of 19
+
+Function 'filter_frame_to_filter'
+Lines executed:0.00% of 20
+
+Function 'take_samples'
+Lines executed:0.00% of 39
+
+Function 'ff_filter_frame'
+Lines executed:0.00% of 35
+
+Function 'filter_frame_framed'
+Lines executed:0.00% of 23
+
+Function 'evaluate_timeline_at_frame'
+Lines executed:0.00% of 11
+
+Function 'default_filter_frame'
+Lines executed:0.00% of 2
+
+Function 'avfilter_link_get_hw_frames_ctx'
+Lines executed:0.00% of 4
+
+Function 'avfilter_pad_get_type'
+Lines executed:0.00% of 2
+
+Function 'avfilter_pad_get_name'
+Lines executed:0.00% of 2
+
+Function 'avfilter_init_str'
+Lines executed:0.00% of 18
+
+Function 'avfilter_init_dict'
+Lines executed:0.00% of 24
+
+Function 'ff_filter_process_command'
+Lines executed:0.00% of 6
+
+Function 'ff_filter_opt_parse'
+Lines executed:0.00% of 33
+
+Function 'ff_filter_get_nb_threads'
+Lines executed:0.00% of 4
+
+Function 'avfilter_free'
+Lines executed:0.00% of 33
+
+Function 'free_link'
+Lines executed:0.00% of 17
+
+Function 'ff_filter_alloc'
+Lines executed:0.00% of 52
+
+Function 'default_execute'
+Lines executed:0.00% of 7
+
+Function 'filter_child_class_iterate'
+Lines executed:0.00% of 5
+
+Function 'filter_child_next'
+Lines executed:0.00% of 3
+
+Function 'default_filter_name'
+Lines executed:0.00% of 3
+
+Function 'avfilter_filter_pad_count'
+Lines executed:0.00% of 2
+
+Function 'avfilter_process_command'
+Lines executed:0.00% of 14
+
+Function 'set_enable_expr'
+Lines executed:0.00% of 25
+
+Function 'request_frame_to_filter'
+Lines executed:0.00% of 15
+
+Function 'guess_status_pts'
+Lines executed:0.00% of 14
+
+Function 'ff_request_frame'
+Lines executed:0.00% of 12
+
+Function 'ff_filter_config_links'
+Lines executed:0.00% of 78
+
+Function 'avfilter_insert_filter'
+Lines executed:0.00% of 27
+
+Function 'link_set_out_status'
+Lines executed:0.00% of 10
+
+Function 'ff_avfilter_link_set_in_status'
+Lines executed:0.00% of 10
+
+Function 'ff_filter_set_ready'
+Lines executed:0.00% of 4
+
+Function 'update_link_current_pts'
+Lines executed:0.00% of 8
+
+Function 'link_free'
+Lines executed:0.00% of 10
+
+Function 'avfilter_link'
+Lines executed:0.00% of 34
+
+Function 'ff_append_outpad_free_name'
+Lines executed:0.00% of 3
+
+Function 'ff_append_outpad'
+Lines executed:0.00% of 2
+
+Function 'ff_append_inpad_free_name'
+Lines executed:0.00% of 3
+
+Function 'ff_append_inpad'
+Lines executed:0.00% of 2
+
+Function 'append_pad'
+Lines executed:0.00% of 20
+
+Function 'command_queue_pop'
+Lines executed:0.00% of 8
+
+File 'libavfilter/avfilter.c'
+Lines executed:0.00% of 834
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avfilter.gcno##libavfilter#avfilter.c.gcov'
+
+File 'libavfilter/framequeue.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avfilter.gcno##libavfilter#framequeue.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avfilter.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avfilter.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avfilter.gcno##libavutil#avutil.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avfilter.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 847

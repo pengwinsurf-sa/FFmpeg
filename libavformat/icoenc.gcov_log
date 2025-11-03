@@ -1,0 +1,24 @@
+Function 'ico_deinit'
+Lines executed:0.00% of 4
+
+Function 'ico_write_trailer'
+Lines executed:0.00% of 19
+
+Function 'ico_write_packet'
+Lines executed:0.00% of 27
+
+Function 'ico_write_header'
+Lines executed:0.00% of 20
+
+Function 'ico_check_attributes'
+Lines executed:0.00% of 18
+
+File 'libavformat/icoenc.c'
+Lines executed:0.00% of 86
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icoenc.gcno##libavformat#icoenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icoenc.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 88

@@ -1,0 +1,23 @@
+Function 'main'
+Lines executed:0.00% of 33
+
+Function 'test_encode_decode'
+Lines executed:0.00% of 38
+
+File 'libavutil/tests/base64.c'
+Lines executed:0.00% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#base64.gcno##libavutil#tests#base64.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#base64.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#base64.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#base64.gcno##libavutil#x86#timer.h.gcov'
+
+Lines executed:0.00% of 71

@@ -1,0 +1,84 @@
+Function 'decode_frame'
+Lines executed:0.00% of 48
+
+Function 'decode_slice'
+Lines executed:0.00% of 224
+
+Function 'add_median_prediction'
+Lines executed:0.00% of 5
+
+Function 'left_prediction'
+Lines executed:0.00% of 4
+
+Function 'draw_slice'
+Lines executed:0.00% of 17
+
+Function 'decode_bgr_bitstream'
+Lines executed:0.00% of 48
+
+Function 'decode_gray_bitstream'
+Lines executed:0.00% of 22
+
+Function 'decode_plane_bitstream'
+Lines executed:0.00% of 50
+
+Function 'decode_422_bitstream'
+Lines executed:0.00% of 21
+
+Function 'decode_init'
+Lines executed:0.00% of 227
+
+Function 'decode_end'
+Lines executed:0.00% of 9
+
+Function 'read_old_huffman_tables'
+Lines executed:0.00% of 30
+
+Function 'read_huffman_tables'
+Lines executed:0.00% of 19
+
+Function 'generate_joint_tables'
+Lines executed:0.00% of 70
+
+Function 'read_len_table'
+Lines executed:0.00% of 21
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+File 'libavcodec/huffyuvdec.c'
+Lines executed:0.00% of 754
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavcodec#huffyuvdec.c.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffyuvdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 825

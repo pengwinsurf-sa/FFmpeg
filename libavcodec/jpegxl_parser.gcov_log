@@ -1,0 +1,101 @@
+Function 'jpegxl_parse'
+Lines executed:0.00% of 47
+
+Function 'try_parse'
+Lines executed:0.00% of 84
+
+Function 'skip_boxes'
+Lines executed:0.00% of 39
+
+Function 'parse_frame_header'
+Lines executed:0.00% of 186
+
+Function 'skip_extensions'
+Lines executed:0.00% of 11
+
+Function 'skip_icc_profile'
+Lines executed:0.00% of 39
+
+Function 'populate_fields'
+Lines executed:0.00% of 67
+
+Function 'icc_context'
+Lines executed:0.00% of 12
+
+Function 'entropy_decoder_init'
+Lines executed:0.00% of 9
+
+Function 'read_distribution_bundle'
+Lines executed:0.00% of 52
+
+Function 'read_vlc_prefix'
+Lines executed:0.00% of 112
+
+Function 'read_simple_vlc_prefix'
+Lines executed:0.00% of 40
+
+Function 'gen_alias_map'
+Lines executed:0.00% of 41
+
+Function 'read_dist_clustering'
+Lines executed:0.00% of 43
+
+Function 'dist_bundle_close'
+Lines executed:0.00% of 7
+
+Function 'populate_distribution'
+Lines executed:0.00% of 69
+
+Function 'decode_hybrid_varlen_uint'
+Lines executed:0.00% of 34
+
+Function 'read_ans_symbol'
+Lines executed:0.00% of 25
+
+Function 'read_prefix_symbol'
+Lines executed:0.00% of 4
+
+Function 'read_hybrid_uint'
+Lines executed:0.00% of 14
+
+Function 'read_hybrid_uint_conf'
+Lines executed:0.00% of 9
+
+Function 'jxl_u64'
+Lines executed:0.00% of 15
+
+Function 'get_bits_long'
+Lines executed:0.00% of 2
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/jpegxl_parser.c'
+Lines executed:0.00% of 859
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno##libavcodec#jpegxl_parser.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpegxl_parser.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 963

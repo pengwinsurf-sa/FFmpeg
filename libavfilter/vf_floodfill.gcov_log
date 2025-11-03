@@ -1,0 +1,68 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 55
+
+Function 'config_input'
+Lines executed:0.00% of 32
+
+Function 'pick_pixel4_16'
+Lines executed:0.00% of 10
+
+Function 'pick_pixel4'
+Lines executed:0.00% of 10
+
+Function 'pick_pixel3_16'
+Lines executed:0.00% of 8
+
+Function 'pick_pixel3'
+Lines executed:0.00% of 8
+
+Function 'pick_pixel1_16'
+Lines executed:0.00% of 4
+
+Function 'pick_pixel1'
+Lines executed:0.00% of 4
+
+Function 'set_pixel4_16'
+Lines executed:0.00% of 6
+
+Function 'set_pixel4'
+Lines executed:0.00% of 6
+
+Function 'set_pixel3_16'
+Lines executed:0.00% of 5
+
+Function 'set_pixel3'
+Lines executed:0.00% of 5
+
+Function 'set_pixel1_16'
+Lines executed:0.00% of 3
+
+Function 'set_pixel1'
+Lines executed:0.00% of 3
+
+Function 'is_same1_16'
+Lines executed:0.00% of 4
+
+Function 'is_same1'
+Lines executed:0.00% of 4
+
+Function 'is_same3_16'
+Lines executed:0.00% of 6
+
+Function 'is_same3'
+Lines executed:0.00% of 6
+
+Function 'is_same4_16'
+Lines executed:0.00% of 7
+
+Function 'is_same4'
+Lines executed:0.00% of 7
+
+File 'libavfilter/vf_floodfill.c'
+Lines executed:0.00% of 197
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_floodfill.gcno##libavfilter#vf_floodfill.c.gcov'
+
+Lines executed:0.00% of 197

@@ -1,0 +1,35 @@
+Function 'ff_vc1dsp_init_x86'
+Lines executed:100.00% of 32
+
+Function 'avg_vc1_mspel_mc00_16_sse2'
+Lines executed:100.00% of 1
+
+Function 'put_vc1_mspel_mc00_16_sse2'
+Lines executed:100.00% of 1
+
+Function 'avg_vc1_mspel_mc00_8_mmxext'
+Lines executed:100.00% of 1
+
+Function 'put_vc1_mspel_mc00_8_mmx'
+Lines executed:100.00% of 1
+
+Function 'vc1_h_loop_filter16_sse4'
+Lines executed:100.00% of 4
+
+Function 'vc1_h_loop_filter16_ssse3'
+Lines executed:100.00% of 1
+
+Function 'vc1_v_loop_filter16_ssse3'
+Lines executed:100.00% of 1
+
+Function 'vc1_h_loop_filter16_sse2'
+Lines executed:100.00% of 1
+
+Function 'vc1_v_loop_filter16_sse2'
+Lines executed:100.00% of 1
+
+File 'libavcodec/x86/vc1dsp_init.c'
+Lines executed:100.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#vc1dsp_init.gcno##libavcodec#x86#vc1dsp_init.c.gcov'
+
+Lines executed:100.00% of 46

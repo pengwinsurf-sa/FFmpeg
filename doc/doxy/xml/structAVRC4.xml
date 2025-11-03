@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVRC4" kind="struct" language="C++" prot="public">
+    <compoundname>AVRC4</compoundname>
+    <includes refid="rc4_8h" local="no">libavutil/rc4.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVRC4_1a4525a640160c4bec88ae7861e4dc9186" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AVRC4::state[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>state</name>
+        <qualifiedname>AVRC4::state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/rc4.h" line="33" column="13" bodyfile="libavutil/rc4.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRC4_1abc7f4de3a5ee2d586cff221c041141cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRC4::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>AVRC4::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/rc4.h" line="34" column="9" bodyfile="libavutil/rc4.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRC4_1a9de74041a3a7fed19e415f795bb6e455" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRC4::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>AVRC4::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/rc4.h" line="34" column="11" bodyfile="libavutil/rc4.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/rc4.h" line="32" column="1" bodyfile="libavutil/rc4.h" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structAVRC4_1a4525a640160c4bec88ae7861e4dc9186" prot="public" virt="non-virtual"><scope>AVRC4</scope><name>state</name></member>
+      <member refid="structAVRC4_1abc7f4de3a5ee2d586cff221c041141cb" prot="public" virt="non-virtual"><scope>AVRC4</scope><name>x</name></member>
+      <member refid="structAVRC4_1a9de74041a3a7fed19e415f795bb6e455" prot="public" virt="non-virtual"><scope>AVRC4</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

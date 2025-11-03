@@ -1,0 +1,29 @@
+Function 'decode_init'
+Lines executed:0.00% of 27
+
+Function 'decode_frame'
+Lines executed:0.00% of 77
+
+Function 'kmvc_decode_inter_8x8'
+Lines executed:0.00% of 76
+
+Function 'kmvc_decode_intra_8x8'
+Lines executed:0.00% of 66
+
+File 'libavcodec/kmvc.c'
+Lines executed:0.00% of 221
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kmvc.gcno##libavcodec#kmvc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kmvc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kmvc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kmvc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 246

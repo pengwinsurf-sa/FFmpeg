@@ -1,0 +1,47 @@
+Function 'main'
+Lines executed:0.00% of 53
+
+Function 'run_test'
+Lines executed:0.00% of 8
+
+Function 'run_single_test'
+Lines executed:0.00% of 13
+
+Function 'check_pixfmt_descriptors'
+Lines executed:0.00% of 33
+
+Function 'av_pixelutils_get_sad_fn'
+Lines executed:0.00% of 10
+
+Function 'block_sad_32x32_c'
+Lines executed:0.00% of 9
+
+Function 'block_sad_16x16_c'
+Lines executed:0.00% of 1
+
+Function 'block_sad_8x8_c'
+Lines executed:0.00% of 1
+
+Function 'block_sad_4x4_c'
+Lines executed:0.00% of 1
+
+Function 'block_sad_2x2_c'
+Lines executed:0.00% of 1
+
+File 'libavutil/tests/pixelutils.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixelutils.gcno##libavutil#tests#pixelutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixelutils.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixelutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/pixelutils.c'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#pixelutils.gcno##libavutil#pixelutils.c.gcov'
+
+Lines executed:0.00% of 130

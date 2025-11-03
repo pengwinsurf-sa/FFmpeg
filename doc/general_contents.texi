@@ -162,7 +162,7 @@ Then pass @code{--enable-libmp3lame} to configure to enable it.
 
 @section LCEVCdec
 
-FFmpeg can make use of the liblcevc_dec library for LCEVC enhacement layer
+FFmpeg can make use of the liblcevc_dec library for LCEVC enhancement layer
 decoding on supported bitstreams.
 
 Go to @url{https://github.com/v-novaltd/LCEVCdec} and follow the instructions
@@ -249,6 +249,14 @@ FFmpeg can make use of the Fraunhofer AAC library for AAC decoding & encoding.
 Go to @url{http://sourceforge.net/projects/opencore-amr/} and follow the
 instructions for installing the library.
 Then pass @code{--enable-libfdk-aac} to configure to enable it.
+
+@subsection Fraunhofer MPEG-H 3D Audio decoder library
+
+FFmpeg can make use of the Fraunhofer MPEG-H decoder library for MPEG-H 3DA decoding.
+
+Go to @url{https://github.com/Fraunhofer-IIS/mpeghdec} and follow the
+instructions for installing the library.
+Then pass @code{--enable-libmpeghdec --enable-nonfree} to configure to enable it.
 
 @subsection LC3 library
 
@@ -1244,6 +1252,7 @@ following image formats are supported:
 @item ADPCM Nintendo THP  @tab     @tab  X
 @item ADPCM Playstation      @tab     @tab  X
 @item ADPCM QT IMA           @tab  X  @tab  X
+@item ADPCM Sanyo            @tab     @tab  X
 @item ADPCM SEGA CRI ADX     @tab  X  @tab  X
     @tab Used in Sega Dreamcast games.
 @item ADPCM Shockwave Flash  @tab  X  @tab  X
@@ -1343,6 +1352,8 @@ following image formats are supported:
 @item MP3 (MPEG audio layer 3)  @tab  E  @tab IX
     @tab encoding supported through external library LAME, ADU MP3 and MP3onMP4 also supported
 @item MPEG-4 Audio Lossless Coding (ALS)  @tab     @tab  X
+@item MPEG-H 3D Audio        @tab     @tab  E
+    @tab decoding supported through external library libmpeghdec
 @item MobiClip FastAudio     @tab     @tab  X
 @item Musepack SV7           @tab     @tab  X
 @item Musepack SV8           @tab     @tab  X

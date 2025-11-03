@@ -1,0 +1,12 @@
+Function 'dump_extradata'
+Lines executed:0.00% of 29
+
+File 'libavcodec/bsf/dump_extradata.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dump_extradata.gcno##libavcodec#bsf#dump_extradata.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dump_extradata.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 29

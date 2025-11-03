@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="csp_8h" kind="file" language="C++">
+    <compoundname>csp.h</compoundname>
+    <includes refid="pixfmt_8h" local="yes">pixfmt.h</includes>
+    <includes refid="rational_8h" local="yes">rational.h</includes>
+    <includedby refid="dovi__meta_8h" local="yes">libavutil/dovi_meta.h</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/csp.h</label>
+        <link refid="csp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>libavutil/csp.h</label>
+        <link refid="csp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>libavutil/dovi_meta.h</label>
+        <link refid="dovi__meta_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structAVLumaCoefficients" prot="public">AVLumaCoefficients</innerclass>
+    <innerclass refid="structAVCIExy" prot="public">AVCIExy</innerclass>
+    <innerclass refid="structAVPrimaryCoefficients" prot="public">AVPrimaryCoefficients</innerclass>
+    <innerclass refid="structAVColorPrimariesDesc" prot="public">AVColorPrimariesDesc</innerclass>
+    <sectiondef kind="typedef">
+      <member refid="group__lavu__math__csp_1ga5a11f2862052a01f3a5777b939237752" kind="typedef"><name>AVWhitepointCoefficients</name></member>
+      <member refid="group__lavu__math__csp_1ga0ce8a1b8f342255eca16c7b3e9e103bf" kind="typedef"><name>av_csp_trc_function</name></member>
+      <member refid="group__lavu__math__csp_1gaa44eb0f916052cf80c51536099c59843" kind="typedef"><name>av_csp_eotf_function</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__math__csp_1ga034901e0adcbebacb871f52a855a602a" kind="function"><name>av_csp_luma_coeffs_from_avcsp</name></member>
+      <member refid="group__lavu__math__csp_1ga70f19e851f0f0bfa24c56e62a540e477" kind="function"><name>av_csp_primaries_desc_from_id</name></member>
+      <member refid="group__lavu__math__csp_1ga1ad5a7e4fce153b115cbe23e405ea145" kind="function"><name>av_csp_primaries_id_from_desc</name></member>
+      <member refid="group__lavu__math__csp_1gaee369159d52aec550c6aa2e5d9a0e65f" kind="function"><name>av_csp_approximate_trc_gamma</name></member>
+      <member refid="group__lavu__math__csp_1ga55f130f366f96e0e2059811d575c2f03" kind="function"><name>av_csp_trc_func_from_id</name></member>
+      <member refid="group__lavu__math__csp_1gad725a18975d463093079b5a97c59b095" kind="function"><name>av_csp_trc_func_inv_from_id</name></member>
+      <member refid="group__lavu__math__csp_1gaee1601d6e7fac83548989aa7bed50cda" kind="function"><name>av_csp_itu_eotf</name></member>
+      <member refid="group__lavu__math__csp_1gaa2e4fdd448becf7f104ea10914a7e290" kind="function"><name>av_csp_itu_eotf_inv</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Colorspace value utility functions for libavutil. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Ronald S. Bultje <ulink url="mailto:rsbultje@gmail.com">rsbultje@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Leo Izen <ulink url="mailto:leo.izen@gmail.com">leo.izen@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Kevin Wheatley <ulink url="mailto:kevin.j.wheatley@gmail.com">kevin.j.wheatley@gmail.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2015<sp/>Kevin<sp/>Wheatley<sp/>&lt;kevin.j.wheatley@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2016<sp/>Ronald<sp/>S.<sp/>Bultje<sp/>&lt;rsbultje@gmail.com&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2023<sp/>Leo<sp/>Izen<sp/>&lt;leo.izen@gmail.com&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_CSP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_CSP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pixfmt_8h" kindref="compound">pixfmt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rational_8h" kindref="compound">rational.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>Colorspace<sp/>value<sp/>utility<sp/>functions<sp/>for<sp/>libavutil.</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_math_csp</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>@author<sp/>Ronald<sp/>S.<sp/>Bultje<sp/>&lt;rsbultje@gmail.com&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>@author<sp/>Leo<sp/>Izen<sp/>&lt;leo.izen@gmail.com&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@author<sp/>Kevin<sp/>Wheatley<sp/>&lt;kevin.j.wheatley@gmail.com&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="38"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_math_csp<sp/>Colorspace<sp/>Utility</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_math</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="44"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>Struct<sp/>containing<sp/>luma<sp/>coefficients<sp/>to<sp/>be<sp/>used<sp/>for<sp/>RGB<sp/>to<sp/>YUV/YCoCg,<sp/>or<sp/>similar</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>calculations.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="structAVLumaCoefficients" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVLumaCoefficients" kindref="compound">AVLumaCoefficients</ref><sp/>{</highlight></codeline>
+<codeline lineno="49" refid="structAVLumaCoefficients_1a500bdbec33dd40a5457be89bd0f489a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVLumaCoefficients_1a582918f2c1b9a2f082f108bcfd598aa6" kindref="member">cr</ref>,<sp/><ref refid="structAVLumaCoefficients_1ab64acab5a92d3e202c18491ab571b0f0" kindref="member">cg</ref>,<sp/><ref refid="structAVLumaCoefficients_1a500bdbec33dd40a5457be89bd0f489a4" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/><ref refid="structAVLumaCoefficients" kindref="compound">AVLumaCoefficients</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="52"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>Struct<sp/>containing<sp/>chromaticity<sp/>x<sp/>and<sp/>y<sp/>values<sp/>for<sp/>the<sp/>standard<sp/>CIE<sp/>1931</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>chromaticity<sp/>definition.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structAVCIExy" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref><sp/>{</highlight></codeline>
+<codeline lineno="57" refid="structAVCIExy_1a081b20c1e491a7dc8abe75c3c5b49ad7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><ref refid="structAVCIExy_1a081b20c1e491a7dc8abe75c3c5b49ad7" kindref="member">x</ref>,<sp/><ref refid="structAVCIExy_1afc299715d40d4eabe874459afcc4bc8f" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<sp/><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>Struct<sp/>defining<sp/>the<sp/>red,<sp/>green,<sp/>and<sp/>blue<sp/>primary<sp/>locations<sp/>in<sp/>terms<sp/>of<sp/>CIE</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>1931<sp/>chromaticity<sp/>x<sp/>and<sp/>y.</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="structAVPrimaryCoefficients" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVPrimaryCoefficients" kindref="compound">AVPrimaryCoefficients</ref><sp/>{</highlight></codeline>
+<codeline lineno="65" refid="structAVPrimaryCoefficients_1a8e79eee3a278539cc0349dfe00422cbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref><sp/><ref refid="structAVPrimaryCoefficients_1a603828c0376e6f4e728e992371938321" kindref="member">r</ref>,<sp/><ref refid="structAVPrimaryCoefficients_1a83f986cfb96f7f41a2badb1dbfda3296" kindref="member">g</ref>,<sp/><ref refid="structAVPrimaryCoefficients_1a8e79eee3a278539cc0349dfe00422cbd" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="structAVPrimaryCoefficients" kindref="compound">AVPrimaryCoefficients</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>Struct<sp/>defining<sp/>white<sp/>point<sp/>location<sp/>in<sp/>terms<sp/>of<sp/>CIE<sp/>1931<sp/>chromaticity<sp/>x</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>and<sp/>y.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__lavu__math__csp_1ga5a11f2862052a01f3a5777b939237752" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structAVCIExy" kindref="compound">AVCIExy</ref><sp/><ref refid="group__lavu__math__csp_1ga5a11f2862052a01f3a5777b939237752" kindref="member">AVWhitepointCoefficients</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>Struct<sp/>that<sp/>contains<sp/>both<sp/>white<sp/>point<sp/>location<sp/>and<sp/>primaries<sp/>location,<sp/>providing</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>the<sp/>complete<sp/>description<sp/>of<sp/>a<sp/>color<sp/>gamut.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="structAVColorPrimariesDesc" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVColorPrimariesDesc" kindref="compound">AVColorPrimariesDesc</ref><sp/>{</highlight></codeline>
+<codeline lineno="79" refid="structAVColorPrimariesDesc_1a32842bba5d7717d8abcceec0d3476390" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVCIExy" kindref="compound">AVWhitepointCoefficients</ref><sp/><ref refid="structAVColorPrimariesDesc_1a32842bba5d7717d8abcceec0d3476390" kindref="member">wp</ref>;</highlight></codeline>
+<codeline lineno="80" refid="structAVColorPrimariesDesc_1a59da66fa72273c4b7703aa0bfb46536f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVPrimaryCoefficients" kindref="compound">AVPrimaryCoefficients</ref><sp/><ref refid="structAVColorPrimariesDesc_1a59da66fa72273c4b7703aa0bfb46536f" kindref="member">prim</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/><ref refid="structAVColorPrimariesDesc" kindref="compound">AVColorPrimariesDesc</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="83"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>Function<sp/>pointer<sp/>representing<sp/>a<sp/>double<sp/>-&gt;<sp/>double<sp/>transfer<sp/>function<sp/>that</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>performs<sp/>either<sp/>an<sp/>OETF<sp/>transfer<sp/>function,<sp/>or<sp/>alternatively<sp/>an<sp/>inverse<sp/>EOTF</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/>function<sp/>(in<sp/>particular,<sp/>for<sp/>SMPTE<sp/>ST<sp/>2084<sp/>/<sp/>PQ).<sp/>This<sp/>function<sp/>inputs</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>linear<sp/>light,<sp/>and<sp/>outputs<sp/>gamma<sp/>encoded<sp/>light.</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>See<sp/>ITU-T<sp/>H.273<sp/>for<sp/>more<sp/>information.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__lavu__math__csp_1ga0ce8a1b8f342255eca16c7b3e9e103bf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>double<sp/>(*<ref refid="group__lavu__math__csp_1ga0ce8a1b8f342255eca16c7b3e9e103bf" kindref="member">av_csp_trc_function</ref>)(double);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="93"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>Retrieves<sp/>the<sp/>Luma<sp/>coefficients<sp/>necessary<sp/>to<sp/>construct<sp/>a<sp/>conversion<sp/>matrix</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>from<sp/>an<sp/>enum<sp/>constant<sp/>describing<sp/>the<sp/>colorspace.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>@param<sp/>csp<sp/>An<sp/>enum<sp/>constant<sp/>indicating<sp/>YUV<sp/>or<sp/>similar<sp/>colorspace.</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>Luma<sp/>coefficients<sp/>associated<sp/>with<sp/>that<sp/>colorspace,<sp/>or<sp/>NULL</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>if<sp/>the<sp/>constant<sp/>is<sp/>unknown<sp/>to<sp/>libavutil.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__lavu__math__csp_1ga034901e0adcbebacb871f52a855a602a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVLumaCoefficients" kindref="compound">AVLumaCoefficients</ref><sp/>*<ref refid="group__lavu__math__csp_1ga034901e0adcbebacb871f52a855a602a" kindref="member">av_csp_luma_coeffs_from_avcsp</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1aff71a069509a1ad3ff54d53a1c894c85" kindref="member">AVColorSpace</ref><sp/>csp);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="102"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>Retrieves<sp/>a<sp/>complete<sp/>gamut<sp/>description<sp/>from<sp/>an<sp/>enum<sp/>constant<sp/>describing<sp/>the</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>color<sp/>primaries.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>@param<sp/>prm<sp/>An<sp/>enum<sp/>constant<sp/>indicating<sp/>primaries</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>description<sp/>of<sp/>the<sp/>colorspace<sp/>gamut<sp/>associated<sp/>with<sp/>that<sp/>enum</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>constant,<sp/>or<sp/>NULL<sp/>if<sp/>the<sp/>constant<sp/>is<sp/>unknown<sp/>to<sp/>libavutil.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="group__lavu__math__csp_1ga70f19e851f0f0bfa24c56e62a540e477" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVColorPrimariesDesc" kindref="compound">AVColorPrimariesDesc</ref><sp/>*<ref refid="group__lavu__math__csp_1ga70f19e851f0f0bfa24c56e62a540e477" kindref="member">av_csp_primaries_desc_from_id</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad384ee5a840bafd73daef08e6d9cafe7" kindref="member">AVColorPrimaries</ref><sp/>prm);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="111"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*<sp/>Detects<sp/>which<sp/>enum<sp/>AVColorPrimaries<sp/>constant<sp/>corresponds<sp/>to<sp/>the<sp/>given<sp/>complete</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>gamut<sp/>description.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>@see<sp/>enum<sp/>AVColorPrimaries</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>@param<sp/>prm<sp/>A<sp/>description<sp/>of<sp/>the<sp/>colorspace<sp/>gamut</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>enum<sp/>constant<sp/>associated<sp/>with<sp/>this<sp/>gamut,<sp/>or</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>AVCOL_PRI_UNSPECIFIED<sp/>if<sp/>no<sp/>clear<sp/>match<sp/>can<sp/>be<sp/>idenitified.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="group__lavu__math__csp_1ga1ad5a7e4fce153b115cbe23e405ea145" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad384ee5a840bafd73daef08e6d9cafe7" kindref="member">AVColorPrimaries</ref><sp/><ref refid="group__lavu__math__csp_1ga1ad5a7e4fce153b115cbe23e405ea145" kindref="member">av_csp_primaries_id_from_desc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVColorPrimariesDesc" kindref="compound">AVColorPrimariesDesc</ref><sp/>*prm);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="121"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>Determine<sp/>a<sp/>suitable<sp/>&apos;gamma&apos;<sp/>value<sp/>to<sp/>match<sp/>the<sp/>supplied</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>AVColorTransferCharacteristic.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/>See<sp/>Apple<sp/>Technical<sp/>Note<sp/>TN2257<sp/>(https://developer.apple.com/library/mac/technotes/tn2257/_index.html)</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>returns<sp/>the<sp/>gamma<sp/>exponent<sp/>for<sp/>the<sp/>OETF.<sp/>For<sp/>example,<sp/>sRGB<sp/>is<sp/>approximated</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>by<sp/>gamma<sp/>2.2,<sp/>not<sp/>by<sp/>gamma<sp/>0.45455.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>@return<sp/>Will<sp/>return<sp/>an<sp/>approximation<sp/>to<sp/>the<sp/>simple<sp/>gamma<sp/>function<sp/>matching</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>supplied<sp/>Transfer<sp/>Characteristic,<sp/>Will<sp/>return<sp/>0.0<sp/>for<sp/>any</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>we<sp/>cannot<sp/>reasonably<sp/>match<sp/>against.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="group__lavu__math__csp_1gaee369159d52aec550c6aa2e5d9a0e65f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__lavu__math__csp_1gaee369159d52aec550c6aa2e5d9a0e65f" kindref="member">av_csp_approximate_trc_gamma</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/>trc);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="136"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>Determine<sp/>the<sp/>function<sp/>needed<sp/>to<sp/>apply<sp/>the<sp/>given</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>AVColorTransferCharacteristic<sp/>to<sp/>linear<sp/>input.</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/>The<sp/>function<sp/>returned<sp/>should<sp/>expect<sp/>a<sp/>nominal<sp/>domain<sp/>and<sp/>range<sp/>of<sp/>[0.0-1.0]</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*<sp/>values<sp/>outside<sp/>of<sp/>this<sp/>range<sp/>maybe<sp/>valid<sp/>depending<sp/>on<sp/>the<sp/>chosen</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/>*<sp/>characteristic<sp/>function.</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*<sp/>@return<sp/>Will<sp/>return<sp/>pointer<sp/>to<sp/>the<sp/>function<sp/>matching<sp/>the</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>supplied<sp/>Transfer<sp/>Characteristic.<sp/>If<sp/>unspecified<sp/>will</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>NULL:</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="group__lavu__math__csp_1ga55f130f366f96e0e2059811d575c2f03" refkind="member"><highlight class="normal"><ref refid="group__lavu__math__csp_1ga0ce8a1b8f342255eca16c7b3e9e103bf" kindref="member">av_csp_trc_function</ref><sp/><ref refid="group__lavu__math__csp_1ga55f130f366f96e0e2059811d575c2f03" kindref="member">av_csp_trc_func_from_id</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/>trc);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="150"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*<sp/>Returns<sp/>the<sp/>mathematical<sp/>inverse<sp/>of<sp/>the<sp/>corresponding<sp/>TRC<sp/>function.</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="group__lavu__math__csp_1gad725a18975d463093079b5a97c59b095" refkind="member"><highlight class="normal"><ref refid="group__lavu__math__csp_1ga0ce8a1b8f342255eca16c7b3e9e103bf" kindref="member">av_csp_trc_function</ref><sp/><ref refid="group__lavu__math__csp_1gad725a18975d463093079b5a97c59b095" kindref="member">av_csp_trc_func_inv_from_id</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/>trc);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="155"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>Function<sp/>pointer<sp/>representing<sp/>an<sp/>ITU<sp/>EOTF<sp/>transfer<sp/>for<sp/>a<sp/>given<sp/>reference</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*<sp/>display<sp/>configuration.</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*<sp/>@param<sp/>Lw<sp/>The<sp/>white<sp/>point<sp/>luminance<sp/>of<sp/>the<sp/>display,<sp/>in<sp/>nits<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>*<sp/>@param<sp/>Lb<sp/>The<sp/>black<sp/>point<sp/>luminance<sp/>of<sp/>the<sp/>display,<sp/>in<sp/>nits<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="group__lavu__math__csp_1gaa44eb0f916052cf80c51536099c59843" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group__lavu__math__csp_1gaa44eb0f916052cf80c51536099c59843" kindref="member">av_csp_eotf_function</ref>)(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Lw,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Lb,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c[3]);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="164"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/>Returns<sp/>the<sp/>ITU<sp/>EOTF<sp/>corresponding<sp/>to<sp/>a<sp/>given<sp/>TRC.<sp/>This<sp/>converts<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*<sp/>signal<sp/>level<sp/>[0,1]<sp/>to<sp/>the<sp/>raw<sp/>output<sp/>display<sp/>luminance<sp/>in<sp/>nits<sp/>(cd/m^2).</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>done<sp/>per<sp/>channel<sp/>in<sp/>RGB<sp/>space,<sp/>except<sp/>for<sp/>AVCOL_TRC_SMPTE428,<sp/>which</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*<sp/>assumes<sp/>CIE<sp/>XYZ<sp/>in-<sp/>and<sp/>output.</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/>@return<sp/>A<sp/>pointer<sp/>to<sp/>the<sp/>function<sp/>implementing<sp/>the<sp/>given<sp/>TRC,<sp/>or<sp/>NULL<sp/>if<sp/>no</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>such<sp/>function<sp/>is<sp/>defined.</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/>@note<sp/>In<sp/>general,<sp/>the<sp/>resulting<sp/>function<sp/>is<sp/>defined<sp/>(wherever<sp/>possible)<sp/>for</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>out-of-range<sp/>values,<sp/>even<sp/>though<sp/>these<sp/>values<sp/>do<sp/>not<sp/>have<sp/>a<sp/>physical</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>meaning<sp/>on<sp/>the<sp/>given<sp/>display.<sp/>Users<sp/>should<sp/>clamp<sp/>inputs<sp/>(or<sp/>outputs)</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>this<sp/>behavior<sp/>is<sp/>not<sp/>desired.</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>is<sp/>also<sp/>the<sp/>case<sp/>for<sp/>functions<sp/>like<sp/>PQ,<sp/>which<sp/>are<sp/>defined<sp/>over<sp/>an</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>absolute<sp/>signal<sp/>range<sp/>independent<sp/>of<sp/>the<sp/>target<sp/>display<sp/>capabilities.</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="group__lavu__math__csp_1gaee1601d6e7fac83548989aa7bed50cda" refkind="member"><highlight class="normal"><ref refid="group__lavu__math__csp_1gaa44eb0f916052cf80c51536099c59843" kindref="member">av_csp_eotf_function</ref><sp/><ref refid="group__lavu__math__csp_1gaee1601d6e7fac83548989aa7bed50cda" kindref="member">av_csp_itu_eotf</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/>trc);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="183"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>*<sp/>Returns<sp/>the<sp/>mathematical<sp/>inverse<sp/>of<sp/>the<sp/>corresponding<sp/>EOTF.</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="group__lavu__math__csp_1gaa2e4fdd448becf7f104ea10914a7e290" refkind="member"><highlight class="normal"><ref refid="group__lavu__math__csp_1gaa44eb0f916052cf80c51536099c59843" kindref="member">av_csp_eotf_function</ref><sp/><ref refid="group__lavu__math__csp_1gaa2e4fdd448becf7f104ea10914a7e290" kindref="member">av_csp_itu_eotf_inv</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1ad4791ea14975f098b649db7fcd731ce6" kindref="member">AVColorTransferCharacteristic</ref><sp/>trc);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="188"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_CSP_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/csp.h"/>
+  </compounddef>
+</doxygen>

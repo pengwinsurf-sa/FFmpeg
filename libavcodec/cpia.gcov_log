@@ -1,0 +1,14 @@
+Function 'cpia_decode_end'
+Lines executed:0.00% of 4
+
+Function 'cpia_decode_init'
+Lines executed:0.00% of 6
+
+Function 'cpia_decode_frame'
+Lines executed:0.00% of 84
+
+File 'libavcodec/cpia.c'
+Lines executed:0.00% of 94
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cpia.gcno##libavcodec#cpia.c.gcov'
+
+Lines executed:0.00% of 94

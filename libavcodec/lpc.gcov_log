@@ -1,0 +1,47 @@
+Function 'ff_lpc_end'
+Lines executed:100.00% of 3
+
+Function 'ff_lpc_init'
+Lines executed:100.00% of 11
+
+Function 'ff_lpc_calc_coefs'
+Lines executed:0.00% of 70
+
+Function 'ff_lpc_calc_ref_coefs_f'
+Lines executed:0.00% of 15
+
+Function 'ff_lpc_calc_ref_coefs'
+Lines executed:0.00% of 6
+
+Function 'quantize_lpc_coefs'
+Lines executed:0.00% of 27
+
+Function 'lpc_compute_autocorr_c'
+Lines executed:100.00% of 14
+
+Function 'lpc_apply_welch_window_c'
+Lines executed:91.67% of 24
+
+Function 'compute_ref_coefs'
+Lines executed:0.00% of 19
+
+Function 'compute_lpc_coefs'
+Lines executed:0.00% of 28
+
+File 'libavcodec/lpc.c'
+Lines executed:27.17% of 184
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lpc.gcno##libavcodec#lpc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lpc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lpc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/lpc_functions.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lpc.gcno##libavcodec#lpc_functions.h.gcov'
+
+Lines executed:23.04% of 217

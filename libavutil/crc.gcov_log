@@ -1,0 +1,42 @@
+Function 'av_crc'
+Lines executed:0.00% of 14
+
+Function 'av_crc_get_table'
+Lines executed:0.00% of 12
+
+Function 'av_crc_init'
+Lines executed:0.00% of 21
+
+Function 'AV_CRC_16_ANSI_LE_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_32_IEEE_LE_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_32_IEEE_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_24_IEEE_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_16_CCITT_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_16_ANSI_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_8_EBU_init_table_once'
+Lines executed:0.00% of 1
+
+Function 'AV_CRC_8_ATM_init_table_once'
+Lines executed:0.00% of 1
+
+File 'libavutil/crc.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#crc.gcno##libavutil#crc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#crc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 55

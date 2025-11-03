@@ -1,0 +1,14 @@
+Function 'wsaud_read_packet'
+Lines executed:0.00% of 25
+
+Function 'wsaud_read_header'
+Lines executed:0.00% of 31
+
+Function 'wsaud_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/westwood_aud.c'
+Lines executed:0.00% of 65
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#westwood_aud.gcno##libavformat#westwood_aud.c.gcov'
+
+Lines executed:0.00% of 65

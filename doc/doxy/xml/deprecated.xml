@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Global <ref refid="structAVCodec_1a41e0031e9dc197ab5915f59d7d9c8dd3" kindref="member">AVCodec::ch_layouts</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000005"/>use <ref refid="group__lavc__decoding_1gadd58e6b0bbca99fdbc547efbaa6b0ef1" kindref="member">avcodec_get_supported_config()</ref>  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="structAVCodec_1a1bbb0e2b9dfb22d311cbc66730b86626" kindref="member">AVCodec::pix_fmts</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000002"/>use <ref refid="group__lavc__decoding_1gadd58e6b0bbca99fdbc547efbaa6b0ef1" kindref="member">avcodec_get_supported_config()</ref>  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="structAVCodec_1aa9d17e53b4b3e27e741b97f0cdb43c69" kindref="member">AVCodec::sample_fmts</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000004"/>use <ref refid="group__lavc__decoding_1gadd58e6b0bbca99fdbc547efbaa6b0ef1" kindref="member">avcodec_get_supported_config()</ref>  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="structAVCodec_1a443e9ed8ca3cefcf0a518ab856df94aa" kindref="member">AVCodec::supported_framerates</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>use <ref refid="group__lavc__decoding_1gadd58e6b0bbca99fdbc547efbaa6b0ef1" kindref="member">avcodec_get_supported_config()</ref>  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="structAVCodec_1a5795bf22dc477bda4f95c76ee4075c12" kindref="member">AVCodec::supported_samplerates</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000003"/>use <ref refid="group__lavc__decoding_1gadd58e6b0bbca99fdbc547efbaa6b0ef1" kindref="member">avcodec_get_supported_config()</ref>  </para>
+</listitem>
+<varlistentry><term>File <ref refid="dict_8h" kindref="compound">dict.h</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000006"/> AVDictionary is provided for compatibility with libav. It is both in implementation as well as API inefficient. It does not scale and is extremely slow with large dictionaries. It is recommended that new code uses our tree container from tree.c/h where applicable, which uses AVL trees to achieve O(log n) performance. </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

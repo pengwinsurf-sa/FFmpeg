@@ -1,0 +1,21 @@
+Function 'wc3_read_packet'
+Lines executed:0.00% of 58
+
+Function 'wc3_read_header'
+Lines executed:0.00% of 73
+
+Function 'wc3_probe'
+Lines executed:0.00% of 5
+
+Function 'wc3_read_close'
+Lines executed:0.00% of 4
+
+File 'libavformat/wc3movie.c'
+Lines executed:0.00% of 136
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wc3movie.gcno##libavformat#wc3movie.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wc3movie.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 140

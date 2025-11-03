@@ -1,0 +1,48 @@
+Function 'mermaid_print_int'
+Lines executed:0.00% of 3
+
+Function 'mermaid_print_str'
+Lines executed:0.00% of 3
+
+Function 'mermaid_print_value'
+Lines executed:0.00% of 50
+
+Function 'mermaid_print_section_footer'
+Lines executed:0.00% of 92
+
+Function 'mermaid_print_section_header'
+Lines executed:0.00% of 100
+
+Function 'set_str'
+Lines executed:0.00% of 6
+
+Function 'mermaid_uninit'
+Lines executed:0.00% of 10
+
+Function 'mermaid_init_html'
+Lines executed:0.00% of 6
+
+Function 'mermaid_init'
+Lines executed:0.00% of 4
+
+Function 'has_link_pair'
+Lines executed:0.00% of 8
+
+Function 'av_diagram_init'
+Lines executed:0.00% of 4
+
+Function 'writer_printf'
+Lines executed:0.00% of 6
+
+Function 'tf_get_section'
+Lines executed:0.00% of 5
+
+File 'fftools/textformat/tf_mermaid.c'
+Lines executed:0.00% of 278
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tf_mermaid.gcno##fftools#textformat#tf_mermaid.c.gcov'
+
+File 'fftools/textformat/tf_internal.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#tf_mermaid.gcno##fftools#textformat#tf_internal.h.gcov'
+
+Lines executed:0.00% of 297

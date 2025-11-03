@@ -1,0 +1,15 @@
+Function 'ass_decode_frame'
+Lines executed:0.00% of 12
+
+Function 'ass_decode_init'
+Lines executed:0.00% of 10
+
+File 'libavcodec/assdec.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#assdec.gcno##libavcodec#assdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#assdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 22

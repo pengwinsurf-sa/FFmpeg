@@ -1,0 +1,114 @@
+Function 'ff_dwt_init'
+Lines executed:0.00% of 6
+
+Function 'ff_dsputil_init_dwt'
+Lines executed:100.00% of 6
+
+Function 'ff_w97_32_c'
+Lines executed:0.00% of 2
+
+Function 'ff_w53_32_c'
+Lines executed:0.00% of 2
+
+Function 'w97_16_c'
+Lines executed:0.00% of 2
+
+Function 'w53_16_c'
+Lines executed:0.00% of 2
+
+Function 'w97_8_c'
+Lines executed:0.00% of 2
+
+Function 'w53_8_c'
+Lines executed:0.00% of 2
+
+Function 'w_c'
+Lines executed:0.00% of 30
+
+Function 'ff_spatial_idwt'
+Lines executed:0.00% of 7
+
+Function 'spatial_idwt_slice'
+Lines executed:0.00% of 13
+
+Function 'spatial_idwt_init'
+Lines executed:0.00% of 11
+
+Function 'ff_spatial_idwt_buffered_slice'
+Lines executed:0.00% of 13
+
+Function 'ff_spatial_idwt_buffered_init'
+Lines executed:0.00% of 11
+
+Function 'spatial_compose97i_dy'
+Lines executed:0.00% of 40
+
+Function 'spatial_compose97i_dy_buffered'
+Lines executed:0.00% of 28
+
+Function 'spatial_compose97i_init'
+Lines executed:0.00% of 7
+
+Function 'spatial_compose97i_buffered_init'
+Lines executed:0.00% of 7
+
+Function 'snow_vertical_compose97i'
+Lines executed:0.00% of 8
+
+Function 'snow_horizontal_compose97i'
+Lines executed:0.00% of 20
+
+Function 'spatial_compose53i_dy'
+Lines executed:0.00% of 22
+
+Function 'spatial_compose53i_dy_buffered'
+Lines executed:0.00% of 22
+
+Function 'spatial_compose53i_init'
+Lines executed:0.00% of 5
+
+Function 'spatial_compose53i_buffered_init'
+Lines executed:0.00% of 5
+
+Function 'horizontal_compose53i'
+Lines executed:0.00% of 18
+
+Function 'ff_spatial_dwt'
+Lines executed:0.00% of 11
+
+Function 'spatial_decompose97i'
+Lines executed:0.00% of 31
+
+Function 'horizontal_decompose97i'
+Lines executed:0.00% of 34
+
+Function 'spatial_decompose53i'
+Lines executed:0.00% of 20
+
+Function 'horizontal_decompose53i'
+Lines executed:0.00% of 12
+
+Function 'ff_slice_buffer_destroy'
+Lines executed:0.00% of 9
+
+Function 'ff_slice_buffer_flush'
+Lines executed:0.00% of 6
+
+Function 'ff_slice_buffer_release'
+Lines executed:0.00% of 9
+
+Function 'ff_slice_buffer_load_line'
+Lines executed:0.00% of 8
+
+Function 'ff_slice_buffer_init'
+Lines executed:0.00% of 22
+
+File 'libavcodec/snow_dwt.c'
+Lines executed:1.34% of 447
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snow_dwt.gcno##libavcodec#snow_dwt.c.gcov'
+
+File 'libavutil/internal.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#snow_dwt.gcno##libavutil#internal.h.gcov'
+
+Lines executed:1.32% of 453

@@ -1,0 +1,49 @@
+Function 'uninit'
+Lines executed:0.00% of 21
+
+Function 'config_output'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 21
+
+Function 'config_input'
+Lines executed:0.00% of 8
+
+Function 'query_formats'
+Lines executed:0.00% of 26
+
+Function 'activate'
+Lines executed:0.00% of 34
+
+Function 'convert_coeffs'
+Lines executed:0.00% of 117
+
+Function 'headphone_frame'
+Lines executed:0.00% of 24
+
+Function 'check_ir'
+Lines executed:0.00% of 17
+
+Function 'headphone_fast_convolute'
+Lines executed:0.00% of 66
+
+Function 'headphone_convolute'
+Lines executed:0.00% of 50
+
+Function 'parse_map'
+Lines executed:0.00% of 27
+
+File 'libavfilter/af_headphone.c'
+Lines executed:0.00% of 416
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_headphone.gcno##libavfilter#af_headphone.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_headphone.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_headphone.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 422

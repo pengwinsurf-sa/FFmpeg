@@ -1,0 +1,20 @@
+Function 'av_mediacodec_render_buffer_at_time'
+Lines executed:0.00% of 2
+
+Function 'av_mediacodec_release_buffer'
+Lines executed:0.00% of 2
+
+Function 'av_mediacodec_default_free'
+Lines executed:0.00% of 2
+
+Function 'av_mediacodec_default_init'
+Lines executed:0.00% of 2
+
+Function 'av_mediacodec_alloc_context'
+Lines executed:0.00% of 2
+
+File 'libavcodec/mediacodec.c'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mediacodec.gcno##libavcodec#mediacodec.c.gcov'
+
+Lines executed:0.00% of 10

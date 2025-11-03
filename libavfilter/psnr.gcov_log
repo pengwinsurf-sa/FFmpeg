@@ -1,0 +1,14 @@
+Function 'ff_psnr_init'
+Lines executed:0.00% of 4
+
+Function 'sse_line_16bit'
+Lines executed:0.00% of 9
+
+Function 'sse_line_8bit'
+Lines executed:0.00% of 7
+
+File 'libavfilter/psnr.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#psnr.gcno##libavfilter#psnr.c.gcov'
+
+Lines executed:0.00% of 20

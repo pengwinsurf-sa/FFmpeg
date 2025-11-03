@@ -1,0 +1,75 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'request_frame'
+Lines executed:0.00% of 15
+
+Function 'filter_frame'
+Lines executed:0.00% of 45
+
+Function 'config_input'
+Lines executed:0.00% of 25
+
+Function 'get_median_factor'
+Lines executed:0.00% of 11
+
+Function 'get_pm_factor'
+Lines executed:0.00% of 10
+
+Function 'get_cm_factor'
+Lines executed:0.00% of 10
+
+Function 'get_qm_factor'
+Lines executed:0.00% of 10
+
+Function 'get_hm_factor'
+Lines executed:0.00% of 9
+
+Function 'get_gm_factor'
+Lines executed:0.00% of 9
+
+Function 'get_am_factor'
+Lines executed:0.00% of 9
+
+Function 'calc_avgy16'
+Lines executed:0.00% of 15
+
+Function 'calc_avgy8'
+Lines executed:0.00% of 13
+
+Function 'deflicker16'
+Lines executed:0.00% of 15
+
+Function 'deflicker8'
+Lines executed:0.00% of 11
+
+Function 'ff_bufqueue_discard_all'
+Lines executed:0.00% of 5
+
+Function 'ff_bufqueue_get'
+Lines executed:0.00% of 7
+
+Function 'ff_bufqueue_add'
+Lines executed:0.00% of 8
+
+File 'libavfilter/vf_deflicker.c'
+Lines executed:0.00% of 196
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deflicker.gcno##libavfilter#vf_deflicker.c.gcov'
+
+File 'libavfilter/bufferqueue.h'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deflicker.gcno##libavfilter#bufferqueue.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deflicker.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deflicker.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deflicker.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 232

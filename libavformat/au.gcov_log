@@ -1,0 +1,35 @@
+Function 'au_write_trailer'
+Lines executed:0.00% of 11
+
+Function 'au_write_header'
+Lines executed:0.00% of 27
+
+Function 'au_get_annotations'
+Lines executed:0.00% of 15
+
+Function 'au_read_header'
+Lines executed:0.00% of 57
+
+Function 'au_read_annotation'
+Lines executed:0.00% of 44
+
+Function 'au_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/au.c'
+Lines executed:0.00% of 157
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#au.gcno##libavformat#au.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#au.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#au.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#au.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 163

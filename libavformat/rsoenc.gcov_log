@@ -1,0 +1,15 @@
+Function 'rso_write_trailer'
+Lines executed:0.00% of 17
+
+Function 'rso_write_header'
+Lines executed:0.00% of 21
+
+File 'libavformat/rsoenc.c'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rsoenc.gcno##libavformat#rsoenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rsoenc.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 38

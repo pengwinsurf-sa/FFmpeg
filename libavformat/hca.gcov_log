@@ -1,0 +1,22 @@
+Function 'hca_read_packet'
+Lines executed:0.00% of 6
+
+Function 'hca_read_header'
+Lines executed:0.00% of 65
+
+Function 'hca_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/hca.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hca.gcno##libavformat#hca.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hca.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hca.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 75

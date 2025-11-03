@@ -1,0 +1,27 @@
+Function 'process_command'
+Lines executed:0.00% of 20
+
+Function 'filter_frame'
+Lines executed:0.00% of 56
+
+Function 'config_output'
+Lines executed:0.00% of 8
+
+Function 'config_input'
+Lines executed:0.00% of 68
+
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'query_formats'
+Lines executed:0.00% of 3
+
+File 'libavfilter/vf_crop.c'
+Lines executed:0.00% of 160
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_crop.gcno##libavfilter#vf_crop.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_crop.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 162

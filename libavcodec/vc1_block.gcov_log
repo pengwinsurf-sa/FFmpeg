@@ -1,0 +1,118 @@
+Function 'ff_vc1_decode_blocks'
+Lines executed:0.00% of 27
+
+Function 'vc1_decode_skip_blocks'
+Lines executed:0.00% of 17
+
+Function 'vc1_decode_b_blocks'
+Lines executed:0.00% of 66
+
+Function 'vc1_decode_p_blocks'
+Lines executed:0.00% of 73
+
+Function 'vc1_decode_i_blocks_adv'
+Lines executed:0.00% of 130
+
+Function 'vc1_decode_i_blocks'
+Lines executed:0.00% of 80
+
+Function 'vc1_decode_b_mb_intfr'
+Lines executed:0.00% of 306
+
+Function 'vc1_decode_b_mb_intfi'
+Lines executed:0.00% of 137
+
+Function 'vc1_decode_b_mb'
+Lines executed:0.00% of 122
+
+Function 'vc1_decode_p_mb_intfi'
+Lines executed:0.00% of 97
+
+Function 'vc1_decode_p_mb_intfr'
+Lines executed:0.00% of 170
+
+Function 'vc1_decode_p_mb'
+Lines executed:0.00% of 175
+
+Function 'vc1_decode_p_block'
+Lines executed:0.00% of 119
+
+Function 'vc1_decode_intra_block'
+Lines executed:0.00% of 119
+
+Function 'vc1_decode_i_block_adv'
+Lines executed:0.00% of 106
+
+Function 'vc1_decode_i_block'
+Lines executed:0.00% of 71
+
+Function 'vc1_decode_ac_coeff'
+Lines executed:0.00% of 42
+
+Function 'ff_vc1_pred_dc'
+Lines executed:0.00% of 41
+
+Function 'vc1_i_pred_dc'
+Lines executed:0.00% of 26
+
+Function 'vc1_b_mc'
+Lines executed:0.00% of 10
+
+Function 'vc1_put_blocks_clamped'
+Lines executed:0.00% of 60
+
+Function 'init_block_index'
+Lines executed:0.00% of 8
+
+Function 'ff_update_block_index'
+Lines executed:0.00% of 13
+
+Function 'decode210'
+Lines executed:0.00% of 3
+
+Function 'decode012'
+Lines executed:0.00% of 5
+
+Function 'get_bits1'
+No executable lines
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/vc1_block.c'
+Lines executed:0.00% of 1956
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavcodec#vc1_block.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/vc1_pred.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavcodec#vc1_pred.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/mpegvideo.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc1_block.gcno##libavcodec#mpegvideo.h.gcov'
+
+Lines executed:0.00% of 2033

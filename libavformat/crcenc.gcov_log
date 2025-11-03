@@ -1,0 +1,14 @@
+Function 'crc_write_trailer'
+Lines executed:0.00% of 4
+
+Function 'crc_write_packet'
+Lines executed:0.00% of 4
+
+Function 'crc_init'
+Lines executed:0.00% of 4
+
+File 'libavformat/crcenc.c'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#crcenc.gcno##libavformat#crcenc.c.gcov'
+
+Lines executed:0.00% of 12

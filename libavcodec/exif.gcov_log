@@ -1,0 +1,29 @@
+Function 'avpriv_exif_decode_ifd'
+Lines executed:0.00% of 9
+
+Function 'ff_exif_decode_ifd'
+Lines executed:0.00% of 11
+
+Function 'exif_decode_tag'
+Lines executed:0.00% of 38
+
+Function 'exif_add_metadata'
+Lines executed:0.00% of 20
+
+File 'libavcodec/exif.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exif.gcno##libavcodec#exif.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exif.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exif.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#exif.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 78

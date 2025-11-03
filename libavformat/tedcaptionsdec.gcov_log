@@ -1,0 +1,55 @@
+Function 'tedcaptions_read_seek'
+Lines executed:0.00% of 3
+
+Function 'tedcaptions_read_probe'
+Lines executed:0.00% of 14
+
+Function 'tedcaptions_read_close'
+Lines executed:0.00% of 4
+
+Function 'tedcaptions_read_packet'
+Lines executed:0.00% of 3
+
+Function 'tedcaptions_read_header'
+Lines executed:0.00% of 27
+
+Function 'parse_file'
+Lines executed:0.00% of 74
+
+Function 'parse_int'
+Lines executed:0.00% of 10
+
+Function 'parse_boolean'
+Lines executed:0.00% of 14
+
+Function 'parse_label'
+Lines executed:0.00% of 7
+
+Function 'parse_string'
+Lines executed:0.00% of 24
+
+Function 'expect_byte'
+Lines executed:0.00% of 6
+
+Function 'skip_spaces'
+Lines executed:0.00% of 5
+
+Function 'next_byte'
+Lines executed:0.00% of 5
+
+Function 'av_bprint_utf8'
+Lines executed:0.00% of 9
+
+File 'libavformat/tedcaptionsdec.c'
+Lines executed:0.00% of 201
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tedcaptionsdec.gcno##libavformat#tedcaptionsdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tedcaptionsdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tedcaptionsdec.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 205

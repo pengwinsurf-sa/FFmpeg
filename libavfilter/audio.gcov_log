@@ -1,0 +1,20 @@
+Function 'ff_parse_channel_layout'
+Lines executed:0.00% of 13
+
+Function 'ff_parse_sample_rate'
+Lines executed:0.00% of 8
+
+Function 'ff_get_audio_buffer'
+Lines executed:0.00% of 7
+
+Function 'ff_default_get_audio_buffer'
+Lines executed:0.00% of 31
+
+Function 'ff_null_get_audio_buffer'
+Lines executed:0.00% of 2
+
+File 'libavfilter/audio.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#audio.gcno##libavfilter#audio.c.gcov'
+
+Lines executed:0.00% of 61

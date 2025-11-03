@@ -1,0 +1,12 @@
+Function 'ff_rtp_send_amr'
+Lines executed:0.00% of 33
+
+File 'libavformat/rtpenc_amr.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_amr.gcno##libavformat#rtpenc_amr.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_amr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 33

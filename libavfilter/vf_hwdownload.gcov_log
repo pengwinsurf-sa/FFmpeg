@@ -1,0 +1,20 @@
+Function 'hwdownload_uninit'
+Lines executed:0.00% of 4
+
+Function 'hwdownload_filter_frame'
+Lines executed:0.00% of 33
+
+Function 'hwdownload_config_output'
+Lines executed:0.00% of 20
+
+Function 'hwdownload_config_input'
+Lines executed:0.00% of 12
+
+Function 'hwdownload_query_formats'
+Lines executed:0.00% of 7
+
+File 'libavfilter/vf_hwdownload.c'
+Lines executed:0.00% of 76
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_hwdownload.gcno##libavfilter#vf_hwdownload.c.gcov'
+
+Lines executed:0.00% of 76

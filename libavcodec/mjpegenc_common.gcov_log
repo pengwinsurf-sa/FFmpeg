@@ -1,0 +1,73 @@
+Function 'ff_mjpeg_encode_check_pix_fmt'
+Lines executed:0.00% of 8
+
+Function 'ff_mjpeg_encode_dc'
+Lines executed:0.00% of 22
+
+Function 'ff_mjpeg_encode_picture_trailer'
+Lines executed:0.00% of 4
+
+Function 'ff_mjpeg_build_huffman_codes'
+Lines executed:0.00% of 13
+
+Function 'ff_mjpeg_escape_FF'
+Lines executed:0.00% of 42
+
+Function 'ff_mjpeg_encode_picture_header'
+Lines executed:0.00% of 64
+
+Function 'ff_mjpeg_init_hvsample'
+Lines executed:0.00% of 21
+
+Function 'jpeg_put_comments'
+Lines executed:0.00% of 69
+
+Function 'ff_mjpeg_add_icc_profile_size'
+Lines executed:0.00% of 14
+
+Function 'jpeg_table_header'
+Lines executed:0.00% of 44
+
+Function 'put_huffman_table'
+Lines executed:0.00% of 10
+
+Function 'put_marker'
+Lines executed:0.00% of 4
+
+Function 'skip_put_bytes'
+Lines executed:0.00% of 6
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/mjpegenc_common.c'
+Lines executed:0.00% of 289
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_common.gcno##libavcodec#mjpegenc_common.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_common.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_common.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_common.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_common.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mjpegenc.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc_common.gcno##libavcodec#mjpegenc.h.gcov'
+
+Lines executed:0.00% of 356

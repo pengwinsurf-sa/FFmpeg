@@ -1,0 +1,8 @@
+Function 'ff_threshold_init_x86'
+Lines executed:100.00% of 13
+
+File 'libavfilter/x86/vf_threshold_init.c'
+Lines executed:100.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_threshold_init.gcno##libavfilter#x86#vf_threshold_init.c.gcov'
+
+Lines executed:100.00% of 13

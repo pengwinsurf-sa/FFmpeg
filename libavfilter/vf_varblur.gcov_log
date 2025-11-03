@@ -1,0 +1,51 @@
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'config_output'
+Lines executed:0.00% of 35
+
+Function 'varblur_frame'
+Lines executed:0.00% of 12
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'blur_frame'
+Lines executed:0.00% of 30
+
+Function 'blur_planes'
+Lines executed:0.00% of 27
+
+Function 'blur_plane32'
+Lines executed:0.00% of 3
+
+Function 'blur_plane16'
+Lines executed:0.00% of 3
+
+Function 'blur_plane8'
+Lines executed:0.00% of 1
+
+Function 'compute_sat32'
+Lines executed:0.00% of 1
+
+Function 'compute_sat16'
+Lines executed:0.00% of 1
+
+Function 'compute_sat8'
+Lines executed:0.00% of 1
+
+Function 'varblur_child_next'
+Lines executed:0.00% of 1
+
+Function 'varblur_framesync_preinit'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_varblur.c'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_varblur.gcno##libavfilter#vf_varblur.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_varblur.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 126

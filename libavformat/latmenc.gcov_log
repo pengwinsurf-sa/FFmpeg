@@ -1,0 +1,66 @@
+Function 'latm_check_bitstream'
+Lines executed:0.00% of 9
+
+Function 'latm_write_packet'
+Lines executed:0.00% of 63
+
+Function 'latm_write_frame_header'
+Lines executed:0.00% of 52
+
+Function 'copy_bits'
+Lines executed:0.00% of 9
+
+Function 'latm_write_header'
+Lines executed:0.00% of 8
+
+Function 'latm_decode_extradata'
+Lines executed:0.00% of 17
+
+Function 'ff_copy_pce_data'
+Lines executed:0.00% of 46
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/latmenc.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavformat#latmenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mpeg4audio_copy_pce.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavcodec#mpeg4audio_copy_pce.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#latmenc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 256

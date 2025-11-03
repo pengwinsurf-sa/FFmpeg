@@ -1,0 +1,59 @@
+Function 'ff_ebur128_sample_peak'
+Lines executed:0.00% of 5
+
+Function 'ff_ebur128_loudness_range'
+Lines executed:0.00% of 2
+
+Function 'ff_ebur128_loudness_range_multiple'
+Lines executed:0.00% of 57
+
+Function 'ff_ebur128_loudness_shortterm'
+Lines executed:0.00% of 15
+
+Function 'ff_ebur128_loudness_global'
+Lines executed:0.00% of 2
+
+Function 'ff_ebur128_relative_threshold'
+Lines executed:0.00% of 8
+
+Function 'ebur128_gated_loudness'
+Lines executed:0.00% of 26
+
+Function 'ebur128_calc_relative_threshold'
+Lines executed:0.00% of 13
+
+Function 'ff_ebur128_add_frames_double'
+Lines executed:0.00% of 1
+
+Function 'ebur128_add_frames_planar_double'
+Lines executed:0.00% of 4
+
+Function 'ff_ebur128_set_channel'
+Lines executed:0.00% of 6
+
+Function 'ebur128_calc_gating_block'
+Lines executed:0.00% of 35
+
+Function 'ebur128_filter_double'
+Lines executed:0.00% of 1
+
+Function 'ff_ebur128_destroy'
+Lines executed:0.00% of 11
+
+Function 'ff_ebur128_init'
+Lines executed:0.00% of 59
+
+Function 'init_histogram'
+Lines executed:0.00% of 10
+
+Function 'ebur128_init_channel_map'
+Lines executed:0.00% of 39
+
+Function 'ebur128_init_filter'
+Lines executed:0.00% of 37
+
+File 'libavfilter/ebur128.c'
+Lines executed:0.00% of 331
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#ebur128.gcno##libavfilter#ebur128.c.gcov'
+
+Lines executed:0.00% of 331

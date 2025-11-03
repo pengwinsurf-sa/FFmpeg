@@ -1,0 +1,42 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 43
+
+Function 'config_output'
+Lines executed:0.00% of 31
+
+Function 'deblockv16_strong'
+Lines executed:0.00% of 4
+
+Function 'deblockv8_strong'
+Lines executed:0.00% of 1
+
+Function 'deblockh16_strong'
+Lines executed:0.00% of 1
+
+Function 'deblockh8_strong'
+Lines executed:0.00% of 1
+
+Function 'deblockv16_weak'
+Lines executed:0.00% of 1
+
+Function 'deblockv8_weak'
+Lines executed:0.00% of 1
+
+Function 'deblockh16_weak'
+Lines executed:0.00% of 1
+
+Function 'deblockh8_weak'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_deblock.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deblock.gcno##libavfilter#vf_deblock.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deblock.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 90

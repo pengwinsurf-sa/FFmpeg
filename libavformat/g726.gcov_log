@@ -1,0 +1,11 @@
+Function 'g726_read_packet'
+Lines executed:0.00% of 4
+
+Function 'g726_read_header'
+Lines executed:0.00% of 11
+
+File 'libavformat/g726.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#g726.gcno##libavformat#g726.c.gcov'
+
+Lines executed:0.00% of 15

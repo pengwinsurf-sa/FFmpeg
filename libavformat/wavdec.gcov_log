@@ -1,0 +1,62 @@
+Function 'w64_read_header'
+Lines executed:0.00% of 92
+
+Function 'w64_probe'
+Lines executed:0.00% of 5
+
+Function 'wav_read_seek'
+Lines executed:0.00% of 16
+
+Function 'wav_read_packet'
+Lines executed:0.00% of 66
+
+Function 'find_guid'
+Lines executed:0.00% of 10
+
+Function 'wav_read_header'
+Lines executed:0.00% of 224
+
+Function 'wav_parse_bext_tag'
+Lines executed:0.00% of 35
+
+Function 'wav_parse_bext_string'
+Lines executed:0.00% of 8
+
+Function 'wav_parse_xma2_tag'
+Lines executed:0.00% of 28
+
+Function 'wav_parse_fmt_tag'
+Lines executed:0.00% of 10
+
+Function 'wav_probe'
+Lines executed:0.00% of 8
+
+Function 'find_tag'
+Lines executed:0.00% of 8
+
+Function 'wav_seek_tag'
+No executable lines
+
+Function 'next_tag'
+Lines executed:0.00% of 5
+
+Function 'set_spdif'
+Lines executed:0.00% of 20
+
+File 'libavformat/wavdec.c'
+Lines executed:0.00% of 528
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavdec.gcno##libavformat#wavdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wavdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 535

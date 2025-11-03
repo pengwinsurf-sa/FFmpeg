@@ -1,0 +1,24 @@
+Function 'xface_encode_frame'
+Lines executed:0.00% of 54
+
+Function 'push_integer'
+Lines executed:0.00% of 6
+
+Function 'encode_block'
+Lines executed:0.00% of 25
+
+Function 'push_greys'
+Lines executed:0.00% of 15
+
+Function 'all_black'
+Lines executed:0.00% of 9
+
+File 'libavcodec/xfaceenc.c'
+Lines executed:0.00% of 107
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xfaceenc.gcno##libavcodec#xfaceenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xfaceenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 109

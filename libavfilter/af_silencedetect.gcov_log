@@ -1,0 +1,52 @@
+Function 'uninit'
+Lines executed:0.00% of 24
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'config_input'
+Lines executed:0.00% of 34
+
+Function 'silencedetect_s16p'
+Lines executed:0.00% of 17
+
+Function 'silencedetect_s32p'
+Lines executed:0.00% of 1
+
+Function 'silencedetect_fltp'
+Lines executed:0.00% of 1
+
+Function 'silencedetect_dblp'
+Lines executed:0.00% of 1
+
+Function 'silencedetect_s16'
+Lines executed:0.00% of 1
+
+Function 'silencedetect_s32'
+Lines executed:0.00% of 1
+
+Function 'silencedetect_flt'
+Lines executed:0.00% of 1
+
+Function 'silencedetect_dbl'
+Lines executed:0.00% of 1
+
+Function 'set_meta'
+Lines executed:0.00% of 9
+
+Function 'av_ts_make_time_string'
+Lines executed:0.00% of 2
+
+File 'libavfilter/af_silencedetect.c'
+Lines executed:0.00% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_silencedetect.gcno##libavfilter#af_silencedetect.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_silencedetect.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_silencedetect.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 109

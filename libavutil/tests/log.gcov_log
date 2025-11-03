@@ -1,0 +1,96 @@
+Function 'main'
+Lines executed:0.00% of 28
+
+Function 'call_log_format_line2'
+Lines executed:0.00% of 8
+
+Function 'avpriv_report_missing_feature'
+Lines executed:0.00% of 6
+
+Function 'avpriv_request_sample'
+Lines executed:0.00% of 6
+
+Function 'missing_feature_sample'
+Lines executed:0.00% of 6
+
+Function 'av_log_set_callback'
+Lines executed:0.00% of 3
+
+Function 'av_log_get_flags'
+Lines executed:0.00% of 2
+
+Function 'av_log_set_flags'
+Lines executed:0.00% of 3
+
+Function 'av_log_set_level'
+Lines executed:0.00% of 3
+
+Function 'av_log_get_level'
+Lines executed:0.00% of 2
+
+Function 'av_vlog'
+Lines executed:0.00% of 9
+
+Function 'av_log_once'
+Lines executed:0.00% of 7
+
+Function 'av_log'
+Lines executed:0.00% of 6
+
+Function 'av_log_default_callback'
+Lines executed:0.00% of 56
+
+Function 'av_log_format_line2'
+Lines executed:0.00% of 7
+
+Function 'av_log_format_line'
+Lines executed:0.00% of 3
+
+Function 'format_line'
+Lines executed:0.00% of 28
+
+Function 'format_date_now'
+Lines executed:0.00% of 13
+
+Function 'get_level_str'
+Lines executed:0.00% of 20
+
+Function 'get_category'
+Lines executed:0.00% of 9
+
+Function 'av_default_get_category'
+Lines executed:0.00% of 2
+
+Function 'av_default_item_name'
+Lines executed:0.00% of 2
+
+Function 'colored_fputs'
+Lines executed:0.00% of 8
+
+Function 'ansi_fputs'
+Lines executed:0.00% of 14
+
+Function 'check_color_terminal'
+Lines executed:0.00% of 10
+
+File 'libavutil/tests/log.c'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#log.gcno##libavutil#tests#log.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#log.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/log.c'
+Lines executed:0.00% of 216
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#log.gcno##libavutil#log.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#log.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#log.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 261

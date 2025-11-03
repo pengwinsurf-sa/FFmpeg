@@ -1,0 +1,30 @@
+Function 'seq_read_packet'
+Lines executed:0.00% of 35
+
+Function 'seq_read_header'
+Lines executed:0.00% of 37
+
+Function 'seq_read_close'
+Lines executed:0.00% of 6
+
+Function 'seq_parse_frame_data'
+Lines executed:0.00% of 33
+
+Function 'seq_fill_buffer'
+Lines executed:0.00% of 9
+
+Function 'seq_init_frame_buffers'
+Lines executed:0.00% of 14
+
+Function 'seq_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/tiertexseq.c'
+Lines executed:0.00% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tiertexseq.gcno##libavformat#tiertexseq.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tiertexseq.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 141

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVCodecParser" kind="struct" language="C++" prot="public">
+    <compoundname>AVCodecParser</compoundname>
+    <includes refid="avcodec_8h" local="no">libavcodec/avcodec.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVCodecParser_1a354b8519ee9d5b5ae6048a2ad4c91113" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVCodecParser::codec_ids[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>codec_ids</name>
+        <qualifiedname>AVCodecParser::codec_ids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2727" column="9" bodyfile="libavcodec/avcodec.h" bodystart="2727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCodecParser_1a33c342399b903fe66ee3560003346ce1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVCodecParser::priv_data_size</definition>
+        <argsstring></argsstring>
+        <name>priv_data_size</name>
+        <qualifiedname>AVCodecParser::priv_data_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2728" column="9" bodyfile="libavcodec/avcodec.h" bodystart="2728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCodecParser_1a5ab163d5b9fa3f1901e96809acd7ed20" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* AVCodecParser::parser_init) (AVCodecParserContext *s)</definition>
+        <argsstring>)(AVCodecParserContext *s)</argsstring>
+        <name>parser_init</name>
+        <qualifiedname>AVCodecParser::parser_init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2729" column="5" bodyfile="libavcodec/avcodec.h" bodystart="2729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCodecParser_1a5699fb20c9a821c827a74322ccd529ef" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* AVCodecParser::parser_parse) (AVCodecParserContext *s, AVCodecContext *avctx, const uint8_t **poutbuf, int *poutbuf_size, const uint8_t *buf, int buf_size)</definition>
+        <argsstring>)(AVCodecParserContext *s, AVCodecContext *avctx, const uint8_t **poutbuf, int *poutbuf_size, const uint8_t *buf, int buf_size)</argsstring>
+        <name>parser_parse</name>
+        <qualifiedname>AVCodecParser::parser_parse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2732" column="5" bodyfile="libavcodec/avcodec.h" bodystart="2732" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCodecParser_1a52ff1b3d42b0fc2e9c7982212f8e6c29" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* AVCodecParser::parser_close) (AVCodecParserContext *s)</definition>
+        <argsstring>)(AVCodecParserContext *s)</argsstring>
+        <name>parser_close</name>
+        <qualifiedname>AVCodecParser::parser_close</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2736" column="5" bodyfile="libavcodec/avcodec.h" bodystart="2736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCodecParser_1a3892ba0125d96730e73b88393752468b" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* AVCodecParser::split) (AVCodecContext *avctx, const uint8_t *buf, int buf_size)</definition>
+        <argsstring>)(AVCodecContext *avctx, const uint8_t *buf, int buf_size)</argsstring>
+        <name>split</name>
+        <qualifiedname>AVCodecParser::split</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2737" column="5" bodyfile="libavcodec/avcodec.h" bodystart="2737" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavcodec/avcodec.h" line="2726" column="1" bodyfile="libavcodec/avcodec.h" bodystart="2726" bodyend="2738"/>
+    <listofallmembers>
+      <member refid="structAVCodecParser_1a354b8519ee9d5b5ae6048a2ad4c91113" prot="public" virt="non-virtual"><scope>AVCodecParser</scope><name>codec_ids</name></member>
+      <member refid="structAVCodecParser_1a52ff1b3d42b0fc2e9c7982212f8e6c29" prot="public" virt="non-virtual"><scope>AVCodecParser</scope><name>parser_close</name></member>
+      <member refid="structAVCodecParser_1a5ab163d5b9fa3f1901e96809acd7ed20" prot="public" virt="non-virtual"><scope>AVCodecParser</scope><name>parser_init</name></member>
+      <member refid="structAVCodecParser_1a5699fb20c9a821c827a74322ccd529ef" prot="public" virt="non-virtual"><scope>AVCodecParser</scope><name>parser_parse</name></member>
+      <member refid="structAVCodecParser_1a33c342399b903fe66ee3560003346ce1" prot="public" virt="non-virtual"><scope>AVCodecParser</scope><name>priv_data_size</name></member>
+      <member refid="structAVCodecParser_1a3892ba0125d96730e73b88393752468b" prot="public" virt="non-virtual"><scope>AVCodecParser</scope><name>split</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

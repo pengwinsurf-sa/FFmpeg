@@ -1,0 +1,8 @@
+Function 'ff_audiodsp_init_x86'
+Lines executed:92.86% of 14
+
+File 'libavcodec/x86/audiodsp_init.c'
+Lines executed:92.86% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#audiodsp_init.gcno##libavcodec#x86#audiodsp_init.c.gcov'
+
+Lines executed:92.86% of 14

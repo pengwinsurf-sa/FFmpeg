@@ -1,0 +1,20 @@
+Function 'ff_lowbias32'
+Lines executed:0.00% of 7
+
+Function 'ff_oklab_int_to_srgb_u8'
+Lines executed:0.00% of 12
+
+Function 'ff_srgb_u8_to_oklab_int'
+Lines executed:0.00% of 15
+
+Function 'cbrt01_int'
+Lines executed:0.00% of 10
+
+Function 'ff_linear_int_to_srgb_u8'
+Lines executed:0.00% of 9
+
+File 'libavfilter/palette.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#palette.gcno##libavfilter#palette.c.gcov'
+
+Lines executed:0.00% of 53

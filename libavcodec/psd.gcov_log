@@ -1,0 +1,26 @@
+Function 'decode_frame'
+Lines executed:0.00% of 190
+
+Function 'decode_rle'
+Lines executed:0.00% of 41
+
+Function 'decode_header'
+Lines executed:0.00% of 105
+
+File 'libavcodec/psd.c'
+Lines executed:0.00% of 314
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#psd.gcno##libavcodec#psd.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#psd.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#psd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#psd.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 336

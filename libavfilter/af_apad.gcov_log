@@ -1,0 +1,24 @@
+Function 'config_output'
+Lines executed:0.00% of 10
+
+Function 'activate'
+Lines executed:0.00% of 25
+
+Function 'push_frame'
+Lines executed:0.00% of 24
+
+Function 'filter_frame'
+Lines executed:0.00% of 8
+
+Function 'init'
+Lines executed:0.00% of 6
+
+File 'libavfilter/af_apad.c'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_apad.gcno##libavfilter#af_apad.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_apad.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 73

@@ -1,0 +1,67 @@
+Function 'geq_uninit'
+Lines executed:0.00% of 9
+
+Function 'geq_filter_frame'
+Lines executed:0.00% of 40
+
+Function 'slice_geq_filter'
+Lines executed:0.00% of 41
+
+Function 'geq_config_props'
+Lines executed:0.00% of 9
+
+Function 'geq_query_formats'
+Lines executed:0.00% of 6
+
+Function 'geq_init'
+Lines executed:0.00% of 49
+
+Function 'alphasum'
+Lines executed:0.00% of 1
+
+Function 'crsub'
+Lines executed:0.00% of 1
+
+Function 'cbsum'
+Lines executed:0.00% of 1
+
+Function 'lumsum'
+Lines executed:0.00% of 1
+
+Function 'alpha'
+Lines executed:0.00% of 1
+
+Function 'cr'
+Lines executed:0.00% of 1
+
+Function 'cb'
+Lines executed:0.00% of 1
+
+Function 'lum'
+Lines executed:0.00% of 1
+
+Function 'getpix_integrate'
+Lines executed:0.00% of 10
+
+Function 'getpix_integrate_internal'
+Lines executed:0.00% of 14
+
+Function 'calculate_sums'
+Lines executed:0.00% of 28
+
+Function 'getpix'
+Lines executed:0.00% of 42
+
+File 'libavfilter/vf_geq.c'
+Lines executed:0.00% of 252
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_geq.gcno##libavfilter#vf_geq.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_geq.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_geq.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 256

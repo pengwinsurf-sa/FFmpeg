@@ -1,0 +1,15 @@
+Function 'm101_decode_frame'
+Lines executed:0.00% of 41
+
+Function 'm101_decode_init'
+Lines executed:0.00% of 10
+
+File 'libavcodec/m101.c'
+Lines executed:0.00% of 49
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#m101.gcno##libavcodec#m101.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#m101.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 51

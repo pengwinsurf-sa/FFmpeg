@@ -1,0 +1,54 @@
+Function 'activate'
+Lines executed:0.00% of 29
+
+Function 'config_output'
+Lines executed:0.00% of 42
+
+Function 'draw_gradients_slice32_planar'
+Lines executed:0.00% of 26
+
+Function 'draw_gradients_slice16'
+Lines executed:0.00% of 16
+
+Function 'draw_gradients_slice'
+Lines executed:0.00% of 16
+
+Function 'project'
+Lines executed:0.00% of 36
+
+Function 'lerp_colors32'
+Lines executed:0.00% of 30
+
+Function 'lerp_colors16'
+Lines executed:0.00% of 15
+
+Function 'lerp_colors'
+Lines executed:0.00% of 15
+
+Function 'lerp_color16'
+Lines executed:0.00% of 6
+
+Function 'lerp_color'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vsrc_gradients.c'
+Lines executed:0.00% of 226
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_gradients.gcno##libavfilter#vsrc_gradients.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_gradients.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_gradients.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_gradients.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_gradients.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 237

@@ -1,0 +1,54 @@
+Function 'vorbis_parser_close'
+Lines executed:0.00% of 4
+
+Function 'vorbis_parse'
+Lines executed:0.00% of 13
+
+Function 'av_vorbis_parse_init'
+Lines executed:0.00% of 9
+
+Function 'av_vorbis_parse_free'
+Lines executed:0.00% of 3
+
+Function 'av_vorbis_parse_reset'
+Lines executed:0.00% of 4
+
+Function 'av_vorbis_parse_frame'
+Lines executed:0.00% of 2
+
+Function 'av_vorbis_parse_frame_flags'
+Lines executed:0.00% of 30
+
+Function 'vorbis_parse_init'
+Lines executed:0.00% of 14
+
+Function 'parse_setup_header'
+Lines executed:0.00% of 93
+
+Function 'parse_id_header'
+Lines executed:0.00% of 16
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/vorbis_parser.c'
+Lines executed:0.00% of 152
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis_parser.gcno##libavcodec#vorbis_parser.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis_parser.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis_parser.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis_parser.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis_parser.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 207

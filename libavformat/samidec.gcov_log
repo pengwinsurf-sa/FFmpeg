@@ -1,0 +1,11 @@
+Function 'sami_read_header'
+Lines executed:0.00% of 52
+
+Function 'sami_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/samidec.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#samidec.gcno##libavformat#samidec.c.gcov'
+
+Lines executed:0.00% of 58

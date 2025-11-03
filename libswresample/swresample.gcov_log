@@ -1,0 +1,79 @@
+Function 'swr_next_pts'
+Lines executed:0.00% of 25
+
+Function 'swr_set_compensation'
+Lines executed:0.00% of 10
+
+Function 'swr_get_out_samples'
+Lines executed:0.00% of 10
+
+Function 'swr_get_delay'
+Lines executed:0.00% of 4
+
+Function 'swr_inject_silence'
+Lines executed:0.00% of 24
+
+Function 'swr_drop_output'
+Lines executed:0.00% of 6
+
+Function 'swr_convert'
+Lines executed:0.00% of 76
+
+Function 'swr_is_initialized'
+Lines executed:0.00% of 2
+
+Function 'swr_convert_internal'
+Lines executed:0.00% of 82
+
+Function 'resample'
+Lines executed:0.00% of 67
+
+Function 'buf_set'
+Lines executed:0.00% of 8
+
+Function 'fill_audiodata'
+Lines executed:0.00% of 10
+
+Function 'copy'
+Lines executed:0.00% of 11
+
+Function 'swri_realloc_audio'
+Lines executed:0.00% of 19
+
+Function 'swr_init'
+Lines executed:0.00% of 178
+
+Function 'swr_close'
+Lines executed:0.00% of 3
+
+Function 'swr_free'
+Lines executed:0.00% of 11
+
+Function 'clear_context'
+Lines executed:0.00% of 24
+
+Function 'free_temp'
+Lines executed:0.00% of 4
+
+Function 'set_audiodata_fmt'
+Lines executed:0.00% of 7
+
+Function 'swr_alloc_set_opts2'
+Lines executed:0.00% of 26
+
+Function 'swr_set_channel_mapping'
+Lines executed:0.00% of 4
+
+File 'libswresample/swresample.c'
+Lines executed:0.00% of 605
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#swresample.gcno##libswresample#swresample.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#swresample.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#swresample.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 611

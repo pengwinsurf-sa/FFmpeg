@@ -1,0 +1,75 @@
+Function 'ff_h2645_packet_uninit'
+Lines executed:0.00% of 12
+
+Function 'ff_h2645_packet_split'
+Lines executed:0.00% of 108
+
+Function 'alloc_rbsp_buffer'
+Lines executed:0.00% of 28
+
+Function 'find_next_start_code'
+Lines executed:0.00% of 8
+
+Function 'h264_parse_nal_header'
+Lines executed:0.00% of 16
+
+Function 'hevc_parse_nal_header'
+Lines executed:0.00% of 9
+
+Function 'vvc_parse_nal_header'
+Lines executed:0.00% of 17
+
+Function 'get_bit_length'
+Lines executed:0.00% of 14
+
+Function 'h264_nal_unit_name'
+Lines executed:0.00% of 3
+
+Function 'hevc_nal_unit_name'
+Lines executed:0.00% of 3
+
+Function 'vvc_nal_unit_name'
+Lines executed:0.00% of 3
+
+Function 'ff_h2645_extract_rbsp'
+Lines executed:0.00% of 56
+
+Function 'get_nalsize'
+Lines executed:0.00% of 9
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/h2645_parse.c'
+Lines executed:0.00% of 227
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavcodec#h2645_parse.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavutil#error.h.gcov'
+
+File 'libavcodec/h2645_parse.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavcodec#h2645_parse.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_parse.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 303

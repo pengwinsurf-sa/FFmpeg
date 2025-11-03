@@ -1,0 +1,58 @@
+Function 'process_command'
+Lines executed:0.00% of 9
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'filter_slice'
+Lines executed:0.00% of 18
+
+Function 'config_input'
+Lines executed:0.00% of 32
+
+Function 'check_params'
+Lines executed:0.00% of 12
+
+Function 'hmuladd'
+Lines executed:0.00% of 4
+
+Function 'hsub'
+Lines executed:0.00% of 4
+
+Function 'hadd'
+Lines executed:0.00% of 4
+
+Function 'filter_plane_16'
+Lines executed:0.00% of 76
+
+Function 'filter_plane_14'
+Lines executed:0.00% of 74
+
+Function 'filter_plane_12'
+Lines executed:0.00% of 74
+
+Function 'filter_plane_10'
+Lines executed:0.00% of 74
+
+Function 'filter_plane_9'
+Lines executed:0.00% of 74
+
+Function 'filter_plane_8'
+Lines executed:0.00% of 74
+
+File 'libavfilter/vf_median.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_median.gcno##libavfilter#vf_median.c.gcov'
+
+File 'libavfilter/median_template.c'
+Lines executed:0.00% of 518
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_median.gcno##libavfilter#median_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_median.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 626

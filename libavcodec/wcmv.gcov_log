@@ -1,0 +1,22 @@
+Function 'decode_close'
+Lines executed:0.00% of 5
+
+Function 'decode_init'
+Lines executed:0.00% of 12
+
+Function 'decode_frame'
+Lines executed:0.00% of 127
+
+File 'libavcodec/wcmv.c'
+Lines executed:0.00% of 120
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wcmv.gcno##libavcodec#wcmv.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wcmv.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wcmv.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 144

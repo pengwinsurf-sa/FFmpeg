@@ -1,0 +1,99 @@
+Function 'mov_text_encode_frame'
+Lines executed:0.00% of 36
+
+Function 'mov_text_new_line_cb'
+Lines executed:0.00% of 5
+
+Function 'mov_text_text_cb'
+Lines executed:0.00% of 6
+
+Function 'utf8_strlen'
+Lines executed:0.00% of 13
+
+Function 'mov_text_cancel_overrides_cb'
+Lines executed:0.00% of 8
+
+Function 'mov_text_dialog'
+Lines executed:0.00% of 5
+
+Function 'mov_text_ass_style_set'
+Lines executed:0.00% of 16
+
+Function 'mov_text_end_cb'
+Lines executed:0.00% of 3
+
+Function 'mov_text_font_size_cb'
+Lines executed:0.00% of 3
+
+Function 'mov_text_font_size_set'
+Lines executed:0.00% of 5
+
+Function 'mov_text_font_name_cb'
+Lines executed:0.00% of 3
+
+Function 'mov_text_font_name_set'
+Lines executed:0.00% of 5
+
+Function 'find_font_id'
+Lines executed:0.00% of 5
+
+Function 'mov_text_alpha_cb'
+Lines executed:0.00% of 15
+
+Function 'mov_text_alpha_set'
+Lines executed:0.00% of 5
+
+Function 'mov_text_color_cb'
+Lines executed:0.00% of 15
+
+Function 'mov_text_color_set'
+Lines executed:0.00% of 5
+
+Function 'mov_text_style_cb'
+Lines executed:0.00% of 12
+
+Function 'mov_text_style_set'
+Lines executed:0.00% of 4
+
+Function 'mov_text_style_start'
+Lines executed:0.00% of 25
+
+Function 'mov_text_encode_init'
+Lines executed:0.00% of 8
+
+Function 'encode_sample_description'
+Lines executed:0.00% of 89
+
+Function 'mov_text_encode_close'
+Lines executed:0.00% of 6
+
+Function 'encode_hclr'
+Lines executed:0.00% of 8
+
+Function 'encode_hlit'
+Lines executed:0.00% of 9
+
+Function 'encode_styl'
+Lines executed:0.00% of 19
+
+File 'libavcodec/movtextenc.c'
+Lines executed:0.00% of 319
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#movtextenc.gcno##libavcodec#movtextenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#movtextenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#movtextenc.gcno##libavutil#bprint.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#movtextenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#movtextenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 333

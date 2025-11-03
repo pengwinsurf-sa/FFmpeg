@@ -1,0 +1,25 @@
+Function 'vid_read_packet'
+Lines executed:0.00% of 52
+
+Function 'read_frame'
+Lines executed:0.00% of 80
+
+Function 'vid_read_header'
+Lines executed:0.00% of 17
+
+Function 'vid_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/bethsoftvid.c'
+Lines executed:0.00% of 149
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bethsoftvid.gcno##libavformat#bethsoftvid.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bethsoftvid.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bethsoftvid.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 153

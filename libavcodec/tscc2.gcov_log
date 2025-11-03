@@ -1,0 +1,45 @@
+Function 'tscc2_decode_init'
+Lines executed:0.00% of 15
+
+Function 'tscc2_decode_end'
+Lines executed:0.00% of 5
+
+Function 'tscc2_decode_frame'
+Lines executed:0.00% of 82
+
+Function 'tscc2_decode_slice'
+Lines executed:0.00% of 32
+
+Function 'tscc2_decode_mb'
+Lines executed:0.00% of 72
+
+Function 'tscc2_idct4_put'
+Lines executed:0.00% of 16
+
+Function 'tscc2_init_vlcs'
+Lines executed:0.00% of 12
+
+Function 'tscc2_init_vlc'
+Lines executed:0.00% of 7
+
+File 'libavcodec/tscc2.c'
+Lines executed:0.00% of 174
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc2.gcno##libavcodec#tscc2.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc2.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc2.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc2.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tscc2.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 241

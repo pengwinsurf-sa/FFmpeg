@@ -1,0 +1,63 @@
+Function 'ff_msmpeg4_decode_motion'
+Lines executed:0.00% of 39
+
+Function 'ff_msmpeg4_decode_block'
+Lines executed:0.00% of 130
+
+Function 'msmpeg4_decode_dc'
+Lines executed:0.00% of 46
+
+Function 'ff_msmpeg4_decode_ext_header'
+Lines executed:0.00% of 22
+
+Function 'ff_msmpeg4_decode_picture_header'
+Lines executed:0.00% of 97
+
+Function 'ff_msmpeg4_decode_init'
+Lines executed:0.00% of 20
+
+Function 'msmpeg4_decode_init_static'
+Lines executed:0.00% of 26
+
+Function 'msmpeg4v34_decode_mb'
+Lines executed:0.00% of 58
+
+Function 'msmpeg4v12_decode_mb'
+Lines executed:0.00% of 70
+
+Function 'msmpeg4v2_decode_motion'
+Lines executed:0.00% of 20
+
+Function 'decode012'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/msmpeg4dec.c'
+Lines executed:0.00% of 488
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4dec.gcno##libavcodec#msmpeg4dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 558

@@ -1,0 +1,24 @@
+Function 'v4l2_decode_close'
+Lines executed:0.00% of 2
+
+Function 'v4l2_decode_init'
+Lines executed:0.00% of 21
+
+Function 'v4l2_receive_frame'
+Lines executed:0.00% of 29
+
+Function 'v4l2_prepare_decoder'
+Lines executed:0.00% of 18
+
+Function 'v4l2_try_start'
+Lines executed:0.00% of 39
+
+File 'libavcodec/v4l2_m2m_dec.c'
+Lines executed:0.00% of 107
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m_dec.gcno##libavcodec#v4l2_m2m_dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_m2m_dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 109

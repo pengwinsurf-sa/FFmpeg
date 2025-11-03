@@ -1,0 +1,97 @@
+Function 'av_dump_format'
+Lines executed:0.00% of 62
+
+Function 'dump_stream_group'
+Lines executed:0.00% of 121
+
+Function 'dump_stream_format'
+Lines executed:0.00% of 66
+
+Function 'dump_disposition'
+Lines executed:0.00% of 40
+
+Function 'dump_sidedata'
+Lines executed:0.00% of 83
+
+Function 'dump_cropping'
+Lines executed:0.00% of 10
+
+Function 'dump_s12m_timecode'
+Lines executed:0.00% of 9
+
+Function 'dump_dovi_conf'
+Lines executed:0.00% of 11
+
+Function 'dump_spherical'
+Lines executed:0.00% of 18
+
+Function 'dump_ambient_viewing_environment_metadata'
+Lines executed:0.00% of 4
+
+Function 'dump_mastering_display_metadata'
+Lines executed:0.00% of 5
+
+Function 'dump_cpb'
+Lines executed:0.00% of 11
+
+Function 'dump_audioservicetype'
+Lines executed:0.00% of 36
+
+Function 'dump_stereo3d'
+Lines executed:0.00% of 17
+
+Function 'dump_replaygain'
+Lines executed:0.00% of 10
+
+Function 'print_peak'
+Lines executed:0.00% of 7
+
+Function 'print_gain'
+Lines executed:0.00% of 7
+
+Function 'dump_paramchange'
+Lines executed:0.00% of 28
+
+Function 'dump_metadata'
+Lines executed:0.00% of 4
+
+Function 'dump_dictionary'
+Lines executed:0.00% of 16
+
+Function 'print_fps'
+Lines executed:0.00% of 10
+
+Function 'av_pkt_dump_log2'
+Lines executed:0.00% of 3
+
+Function 'av_pkt_dump2'
+Lines executed:0.00% of 3
+
+Function 'pkt_dump_internal'
+Lines executed:0.00% of 19
+
+Function 'av_hex_dump_log'
+Lines executed:0.00% of 3
+
+Function 'av_hex_dump'
+Lines executed:0.00% of 3
+
+Function 'hex_dump_internal'
+Lines executed:0.00% of 18
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavformat/dump.c'
+Lines executed:0.00% of 620
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dump.gcno##libavformat#dump.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dump.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dump.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 629

@@ -1,0 +1,90 @@
+Function 'avtext_get_formatter_by_name'
+Lines executed:0.00% of 6
+
+Function 'avtextwriter_context_open'
+Lines executed:0.00% of 26
+
+Function 'avtextwriter_context_close'
+Lines executed:0.00% of 12
+
+Function 'writercontext_child_next'
+Lines executed:0.00% of 3
+
+Function 'writercontext_get_writer_name'
+Lines executed:0.00% of 3
+
+Function 'avtext_print_integers'
+Lines executed:0.00% of 21
+
+Function 'avtext_print_data_hash'
+Lines executed:0.00% of 12
+
+Function 'avtext_print_data'
+Lines executed:0.00% of 23
+
+Function 'avtext_print_ts'
+Lines executed:0.00% of 5
+
+Function 'avtext_print_time'
+Lines executed:0.00% of 13
+
+Function 'avtext_print_rational'
+Lines executed:0.00% of 5
+
+Function 'avtext_print_string'
+Lines executed:0.00% of 25
+
+Function 'avtext_print_unit_int'
+Lines executed:0.00% of 7
+
+Function 'value_string'
+Lines executed:0.00% of 40
+
+Function 'validate_string'
+Lines executed:0.00% of 36
+
+Function 'avtext_print_integer'
+Lines executed:0.00% of 12
+
+Function 'avtext_print_section_footer'
+Lines executed:0.00% of 13
+
+Function 'avtext_print_section_header'
+Lines executed:0.00% of 13
+
+Function 'avtext_context_open'
+Lines executed:0.00% of 77
+
+Function 'avtext_context_close'
+Lines executed:0.00% of 18
+
+Function 'bprint_bytes'
+Lines executed:0.00% of 5
+
+Function 'textcontext_child_next'
+Lines executed:0.00% of 3
+
+Function 'textcontext_get_formatter_name'
+Lines executed:0.00% of 3
+
+File 'fftools/textformat/avtextformat.c'
+Lines executed:0.00% of 372
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#avtextformat.gcno##fftools#textformat#avtextformat.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#avtextformat.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#avtextformat.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#avtextformat.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#textformat#avtextformat.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 381

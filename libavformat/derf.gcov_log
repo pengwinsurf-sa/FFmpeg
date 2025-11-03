@@ -1,0 +1,11 @@
+Function 'derf_read_header'
+Lines executed:0.00% of 22
+
+Function 'derf_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/derf.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#derf.gcno##libavformat#derf.c.gcov'
+
+Lines executed:0.00% of 26

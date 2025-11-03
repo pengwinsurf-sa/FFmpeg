@@ -1,0 +1,28 @@
+Function 'gopher_read'
+Lines executed:0.00% of 6
+
+Function 'gopher_open'
+Lines executed:0.00% of 26
+
+Function 'gopher_close'
+No executable lines
+
+Function 'gopher_connect'
+Lines executed:0.00% of 21
+
+Function 'gopher_write'
+No executable lines
+
+File 'libavformat/gopher.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gopher.gcno##libavformat#gopher.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gopher.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#gopher.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 53

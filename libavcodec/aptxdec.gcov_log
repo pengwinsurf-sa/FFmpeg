@@ -1,0 +1,42 @@
+Function 'aptx_decode_frame'
+Lines executed:0.00% of 20
+
+Function 'aptx_decode_samples'
+Lines executed:0.00% of 17
+
+Function 'aptxhd_unpack_codeword'
+Lines executed:0.00% of 18
+
+Function 'aptx_unpack_codeword'
+Lines executed:0.00% of 8
+
+Function 'aptx_decode_channel'
+Lines executed:0.00% of 7
+
+Function 'aptx_qmf_tree_synthesis'
+Lines executed:0.00% of 36
+
+Function 'aptx_check_parity'
+Lines executed:0.00% of 6
+
+File 'libavcodec/aptxdec.c'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aptxdec.gcno##libavcodec#aptxdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aptxdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aptxdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/aptx.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aptxdec.gcno##libavcodec#aptx.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aptxdec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 112

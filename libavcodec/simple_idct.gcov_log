@@ -1,0 +1,106 @@
+Function 'ff_simple_idct44_add'
+Lines executed:0.00% of 7
+
+Function 'ff_simple_idct48_add'
+Lines executed:0.00% of 7
+
+Function 'ff_simple_idct84_add'
+Lines executed:0.00% of 7
+
+Function 'idct4row'
+Lines executed:0.00% of 16
+
+Function 'idct4col_add'
+Lines executed:0.00% of 21
+
+Function 'ff_simple_idct248_put'
+Lines executed:0.00% of 20
+
+Function 'idct4col_put'
+Lines executed:0.00% of 18
+
+Function 'ff_simple_idct_put_int32_10bit'
+Lines executed:0.00% of 10
+
+Function 'idctSparseColPut_int32_10bit'
+Lines executed:0.00% of 21
+
+Function 'idctRowCondDC_int32_10bit'
+Lines executed:0.00% of 40
+
+Function 'ff_simple_idct_int16_12bit'
+Lines executed:0.00% of 7
+
+Function 'ff_simple_idct_add_int16_12bit'
+Lines executed:0.00% of 9
+
+Function 'ff_simple_idct_put_int16_12bit'
+Lines executed:0.00% of 10
+
+Function 'idctSparseColAdd_int16_12bit'
+Lines executed:0.00% of 19
+
+Function 'idctSparseColPut_int16_12bit'
+Lines executed:0.00% of 19
+
+Function 'idctSparseCol_int16_12bit'
+Lines executed:0.00% of 12
+
+Function 'idctRowCondDC_int16_12bit'
+Lines executed:0.00% of 49
+
+Function 'ff_simple_idct_int16_10bit'
+Lines executed:0.00% of 7
+
+Function 'ff_simple_idct_add_int16_10bit'
+Lines executed:0.00% of 9
+
+Function 'ff_simple_idct_put_int16_10bit'
+Lines executed:0.00% of 10
+
+Function 'idctSparseColAdd_int16_10bit'
+Lines executed:0.00% of 19
+
+Function 'idctSparseColPut_int16_10bit'
+Lines executed:0.00% of 19
+
+Function 'idctSparseCol_int16_10bit'
+Lines executed:0.00% of 12
+
+Function 'idctRowCondDC_int16_10bit'
+Lines executed:0.00% of 49
+
+Function 'ff_simple_idct_int16_8bit'
+Lines executed:0.00% of 7
+
+Function 'ff_simple_idct_add_int16_8bit'
+Lines executed:0.00% of 9
+
+Function 'ff_simple_idct_put_int16_8bit'
+Lines executed:0.00% of 10
+
+Function 'idctSparseColAdd_int16_8bit'
+Lines executed:0.00% of 19
+
+Function 'idctSparseColPut_int16_8bit'
+Lines executed:0.00% of 19
+
+Function 'idctSparseCol_int16_8bit'
+Lines executed:0.00% of 12
+
+Function 'idctRowCondDC_int16_8bit'
+Lines executed:0.00% of 49
+
+File 'libavcodec/simple_idct.c'
+Lines executed:0.00% of 93
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#simple_idct.gcno##libavcodec#simple_idct.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#simple_idct.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/simple_idct_template.c'
+Lines executed:0.00% of 571
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#simple_idct.gcno##libavcodec#simple_idct_template.c.gcov'
+
+Lines executed:0.00% of 669

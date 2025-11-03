@@ -1,0 +1,11 @@
+Function 'vvc_probe'
+Lines executed:0.00% of 25
+
+Function 'check_temporal_id'
+Lines executed:0.00% of 8
+
+File 'libavformat/vvcdec.c'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vvcdec.gcno##libavformat#vvcdec.c.gcov'
+
+Lines executed:0.00% of 33

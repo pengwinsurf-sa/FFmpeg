@@ -1,0 +1,31 @@
+Function 'sds_read_packet'
+Lines executed:0.00% of 21
+
+Function 'sds_read_header'
+Lines executed:0.00% of 29
+
+Function 'byte4_read'
+Lines executed:0.00% of 7
+
+Function 'byte3_read'
+Lines executed:0.00% of 7
+
+Function 'byte2_read'
+Lines executed:0.00% of 6
+
+Function 'sds_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/sdsdec.c'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdsdec.gcno##libavformat#sdsdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdsdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sdsdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 76

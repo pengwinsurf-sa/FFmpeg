@@ -1,0 +1,20 @@
+Function 'ff_takdsp_init'
+Lines executed:100.00% of 7
+
+Function 'decorrelate_sf'
+Lines executed:100.00% of 8
+
+Function 'decorrelate_sm'
+Lines executed:100.00% of 9
+
+Function 'decorrelate_sr'
+Lines executed:100.00% of 7
+
+Function 'decorrelate_ls'
+Lines executed:100.00% of 7
+
+File 'libavcodec/takdsp.c'
+Lines executed:100.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdsp.gcno##libavcodec#takdsp.c.gcov'
+
+Lines executed:100.00% of 38

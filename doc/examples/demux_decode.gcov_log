@@ -1,0 +1,39 @@
+Function 'main'
+Lines executed:0.00% of 98
+
+Function 'get_format_from_sample_fmt'
+Lines executed:0.00% of 12
+
+Function 'open_codec_context'
+Lines executed:0.00% of 26
+
+Function 'decode_packet'
+Lines executed:0.00% of 19
+
+Function 'output_audio_frame'
+Lines executed:0.00% of 8
+
+Function 'output_video_frame'
+Lines executed:0.00% of 13
+
+File 'doc/examples/demux_decode.c'
+Lines executed:0.00% of 165
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#demux_decode.gcno##doc#examples#demux_decode.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#demux_decode.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#demux_decode.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#demux_decode.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/imgutils.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#demux_decode.gcno##libavutil#imgutils.h.gcov'
+
+Lines executed:0.00% of 176

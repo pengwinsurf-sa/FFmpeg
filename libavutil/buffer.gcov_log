@@ -1,0 +1,78 @@
+Function 'av_buffer_pool_buffer_get_opaque'
+Lines executed:0.00% of 4
+
+Function 'av_buffer_pool_get'
+Lines executed:0.00% of 19
+
+Function 'pool_alloc_buffer'
+Lines executed:0.00% of 18
+
+Function 'pool_release_buffer'
+Lines executed:0.00% of 10
+
+Function 'av_buffer_pool_uninit'
+Lines executed:0.00% of 10
+
+Function 'buffer_pool_free'
+Lines executed:0.00% of 7
+
+Function 'buffer_pool_flush'
+Lines executed:0.00% of 7
+
+Function 'av_buffer_pool_init'
+Lines executed:0.00% of 10
+
+Function 'av_buffer_pool_init2'
+Lines executed:0.00% of 13
+
+Function 'av_buffer_replace'
+Lines executed:0.00% of 15
+
+Function 'av_buffer_realloc'
+Lines executed:0.00% of 30
+
+Function 'av_buffer_make_writable'
+Lines executed:0.00% of 8
+
+Function 'av_buffer_get_ref_count'
+Lines executed:0.00% of 2
+
+Function 'av_buffer_get_opaque'
+Lines executed:0.00% of 2
+
+Function 'av_buffer_is_writable'
+Lines executed:0.00% of 3
+
+Function 'av_buffer_unref'
+Lines executed:66.67% of 3
+
+Function 'buffer_replace'
+Lines executed:0.00% of 13
+
+Function 'av_buffer_ref'
+Lines executed:0.00% of 6
+
+Function 'av_buffer_allocz'
+Lines executed:0.00% of 5
+
+Function 'av_buffer_alloc'
+Lines executed:0.00% of 8
+
+Function 'av_buffer_default_free'
+Lines executed:0.00% of 3
+
+Function 'av_buffer_create'
+Lines executed:0.00% of 8
+
+Function 'buffer_create'
+Lines executed:0.00% of 14
+
+File 'libavutil/buffer.c'
+Lines executed:0.93% of 214
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#buffer.gcno##libavutil#buffer.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#buffer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.92% of 218

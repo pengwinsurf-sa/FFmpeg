@@ -1,0 +1,63 @@
+Function 'aic_decode_close'
+Lines executed:0.00% of 4
+
+Function 'aic_decode_init'
+Lines executed:0.00% of 24
+
+Function 'aic_decode_frame'
+Lines executed:0.00% of 39
+
+Function 'aic_decode_slice'
+Lines executed:0.00% of 72
+
+Function 'recombine_block_il'
+Lines executed:0.00% of 14
+
+Function 'recombine_block'
+Lines executed:0.00% of 14
+
+Function 'aic_decode_coeffs'
+Lines executed:0.00% of 46
+
+Function 'aic_decode_header'
+Lines executed:0.00% of 26
+
+Function 'get_ue_golomb'
+Lines executed:0.00% of 17
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/aic.c'
+Lines executed:0.00% of 197
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavcodec#aic.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavcodec#unary.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aic.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 273

@@ -1,0 +1,22 @@
+Function 'thd_probe'
+Lines executed:0.00% of 23
+
+Function 'mlp_probe'
+Lines executed:0.00% of 2
+
+Function 'mlp_read_header'
+Lines executed:0.00% of 23
+
+File 'libavformat/mlpdec.c'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mlpdec.gcno##libavformat#mlpdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mlpdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mlp_parse.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mlpdec.gcno##libavcodec#mlp_parse.h.gcov'
+
+Lines executed:0.00% of 48

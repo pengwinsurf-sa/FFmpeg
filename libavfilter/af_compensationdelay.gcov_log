@@ -1,0 +1,17 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'process_command'
+Lines executed:0.00% of 9
+
+Function 'filter_frame'
+Lines executed:0.00% of 35
+
+Function 'config_input'
+Lines executed:0.00% of 13
+
+File 'libavfilter/af_compensationdelay.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_compensationdelay.gcno##libavfilter#af_compensationdelay.c.gcov'
+
+Lines executed:0.00% of 61

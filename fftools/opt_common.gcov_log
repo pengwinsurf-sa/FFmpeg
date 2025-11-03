@@ -1,0 +1,174 @@
+Function 'show_sinks'
+Lines executed:0.00% of 28
+
+Function 'show_sources'
+Lines executed:0.00% of 30
+
+Function 'show_sinks_sources_parse_arg'
+Lines executed:0.00% of 15
+
+Function 'print_device_sinks'
+Lines executed:0.00% of 15
+
+Function 'print_device_sources'
+Lines executed:0.00% of 12
+
+Function 'print_device_list'
+Lines executed:0.00% of 14
+
+Function 'opt_loglevel'
+Lines executed:0.00% of 56
+
+Function 'opt_max_alloc'
+Lines executed:0.00% of 9
+
+Function 'opt_report'
+Lines executed:0.00% of 2
+
+Function 'init_report'
+Lines executed:0.00% of 61
+
+Function 'log_callback_report'
+Lines executed:0.00% of 12
+
+Function 'expand_filename_template'
+Lines executed:0.00% of 18
+
+Function 'opt_cpucount'
+Lines executed:0.00% of 10
+
+Function 'opt_cpuflags'
+Lines executed:0.00% of 6
+
+Function 'show_dispositions'
+Lines executed:0.00% of 6
+
+Function 'show_sample_fmts'
+Lines executed:0.00% of 6
+
+Function 'show_layouts'
+Lines executed:0.00% of 23
+
+Function 'show_pix_fmts'
+Lines executed:0.00% of 18
+
+Function 'show_colors'
+Lines executed:0.00% of 8
+
+Function 'show_protocols'
+Lines executed:0.00% of 10
+
+Function 'show_devices'
+Lines executed:0.00% of 2
+
+Function 'show_demuxers'
+Lines executed:0.00% of 2
+
+Function 'show_muxers'
+Lines executed:0.00% of 2
+
+Function 'show_formats'
+Lines executed:0.00% of 2
+
+Function 'show_formats_devices'
+Lines executed:0.00% of 51
+
+Function 'show_filters'
+Lines executed:0.00% of 29
+
+Function 'show_bsfs'
+Lines executed:0.00% of 8
+
+Function 'show_encoders'
+Lines executed:0.00% of 2
+
+Function 'show_decoders'
+Lines executed:0.00% of 2
+
+Function 'print_codecs'
+Lines executed:0.00% of 23
+
+Function 'show_codecs'
+Lines executed:0.00% of 32
+
+Function 'get_codecs_sorted'
+Lines executed:0.00% of 13
+
+Function 'compare_codec_desc'
+Lines executed:0.00% of 5
+
+Function 'print_codecs_for_id'
+Lines executed:0.00% of 8
+
+Function 'show_help'
+Lines executed:0.00% of 27
+
+Function 'show_help_bsf'
+Lines executed:0.00% of 18
+
+Function 'show_help_filter'
+Lines executed:0.00% of 36
+
+Function 'show_help_muxer'
+Lines executed:0.00% of 22
+
+Function 'show_help_protocol'
+Lines executed:0.00% of 10
+
+Function 'show_help_demuxer'
+Lines executed:0.00% of 10
+
+Function 'show_help_codec'
+Lines executed:0.00% of 19
+
+Function 'next_codec_for_id'
+Lines executed:0.00% of 6
+
+Function 'print_codec'
+Lines executed:0.00% of 62
+
+Function 'get_channel_layout_desc'
+Lines executed:0.00% of 6
+
+Function 'show_buildconf'
+Lines executed:0.00% of 4
+
+Function 'show_version'
+Lines executed:0.00% of 5
+
+Function 'show_banner'
+Lines executed:0.00% of 6
+
+Function 'print_buildconf'
+Lines executed:0.00% of 14
+
+Function 'print_program_info'
+Lines executed:0.00% of 9
+
+Function 'print_all_libs_info'
+Lines executed:0.00% of 9
+
+Function 'show_license'
+Lines executed:0.00% of 3
+
+File 'fftools/opt_common.c'
+Lines executed:0.00% of 797
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#opt_common.gcno##fftools#opt_common.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#opt_common.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#opt_common.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#opt_common.gcno##libavutil#avutil.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#opt_common.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 806

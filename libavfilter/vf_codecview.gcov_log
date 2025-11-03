@@ -1,0 +1,32 @@
+Function 'config_input'
+Lines executed:0.00% of 7
+
+Function 'filter_frame'
+Lines executed:0.00% of 78
+
+Function 'draw_arrow'
+Lines executed:0.00% of 27
+
+Function 'draw_line'
+Lines executed:0.00% of 33
+
+Function 'clip_line'
+Lines executed:0.00% of 10
+
+File 'libavfilter/vf_codecview.c'
+Lines executed:0.00% of 145
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_codecview.gcno##libavfilter#vf_codecview.c.gcov'
+
+File 'libavfilter/qp_table.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_codecview.gcno##libavfilter#qp_table.h.gcov'
+
+File 'libavutil/video_enc_params.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_codecview.gcno##libavutil#video_enc_params.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_codecview.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 155

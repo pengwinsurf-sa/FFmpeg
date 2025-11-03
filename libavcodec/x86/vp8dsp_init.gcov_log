@@ -1,0 +1,107 @@
+Function 'ff_vp8dsp_init_x86'
+Lines executed:100.00% of 38
+
+Function 'ff_vp78dsp_init_x86'
+Lines executed:100.00% of 24
+
+Function 'ff_put_vp8_bilinear16_hv_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear8_hv_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear4_hv_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear16_hv_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear8_hv_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear4_hv_mmxext'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h6v6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h6v4_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h4v6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h4v4_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel16_h6v6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel16_h6v6_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h6v6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h6v6_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h6v4_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h6v4_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h4v6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h4v6_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h4v4_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel8_h4v4_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h6v6_mmxext'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h6v4_mmxext'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h4v6_mmxext'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel4_h4v4_mmxext'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear16_v_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear16_h_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel16_v6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel16_h6_ssse3'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear16_v_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_bilinear16_h_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel16_v6_sse2'
+Lines executed:100.00% of 1
+
+Function 'ff_put_vp8_epel16_h6_sse2'
+Lines executed:100.00% of 1
+
+File 'libavcodec/x86/vp8dsp_init.c'
+Lines executed:100.00% of 99
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#vp8dsp_init.gcno##libavcodec#x86#vp8dsp_init.c.gcov'
+
+Lines executed:100.00% of 99

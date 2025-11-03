@@ -1,0 +1,41 @@
+Function 'ff_http_auth_create_response'
+Lines executed:0.00% of 28
+
+Function 'make_digest_auth'
+Lines executed:0.00% of 65
+
+Function 'update_md5_strings'
+Lines executed:0.00% of 9
+
+Function 'ff_http_auth_handle_header'
+Lines executed:0.00% of 24
+
+Function 'choose_qop'
+Lines executed:0.00% of 10
+
+Function 'handle_digest_update'
+Lines executed:0.00% of 6
+
+Function 'handle_digest_params'
+Lines executed:0.00% of 21
+
+Function 'handle_basic_params'
+Lines executed:0.00% of 5
+
+File 'libavformat/httpauth.c'
+Lines executed:0.00% of 162
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#httpauth.gcno##libavformat#httpauth.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#httpauth.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#httpauth.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#httpauth.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 168

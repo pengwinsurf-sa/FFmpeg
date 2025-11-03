@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVContentLightMetadata" kind="struct" language="C++" prot="public">
+    <compoundname>AVContentLightMetadata</compoundname>
+    <includes refid="mastering__display__metadata_8h" local="no">libavutil/mastering_display_metadata.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVContentLightMetadata_1a9d2d7743a599c9b2f2a07a9504625b92" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVContentLightMetadata::MaxCLL</definition>
+        <argsstring></argsstring>
+        <name>MaxCLL</name>
+        <qualifiedname>AVContentLightMetadata::MaxCLL</qualifiedname>
+        <briefdescription>
+<para>Max content light level (cd/m^2). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="111" column="14" bodyfile="libavutil/mastering_display_metadata.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVContentLightMetadata_1a4e9bfc44c6b87bbf096141fae12e1692" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVContentLightMetadata::MaxFALL</definition>
+        <argsstring></argsstring>
+        <name>MaxFALL</name>
+        <qualifiedname>AVContentLightMetadata::MaxFALL</qualifiedname>
+        <briefdescription>
+<para>Max average light level per frame (cd/m^2). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/mastering_display_metadata.h" line="116" column="14" bodyfile="libavutil/mastering_display_metadata.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Content light level needed by to transmit HDR over HDMI (CTA-861.3). </para>
+    </briefdescription>
+    <detaileddescription>
+<para>To be used as payload of a <ref refid="structAVFrameSideData" kindref="compound">AVFrameSideData</ref> or <ref refid="structAVPacketSideData" kindref="compound">AVPacketSideData</ref> with the appropriate type.</para>
+<para><simplesect kind="note"><para>The struct should be allocated with <ref refid="mastering__display__metadata_8h_1a686b55b7e63bc8ec4df356645f12ee9d" kindref="member">av_content_light_metadata_alloc()</ref> and its size is not a part of the public ABI. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="libavutil/mastering_display_metadata.h" line="107" column="1" bodyfile="libavutil/mastering_display_metadata.h" bodystart="107" bodyend="117"/>
+    <listofallmembers>
+      <member refid="structAVContentLightMetadata_1a9d2d7743a599c9b2f2a07a9504625b92" prot="public" virt="non-virtual"><scope>AVContentLightMetadata</scope><name>MaxCLL</name></member>
+      <member refid="structAVContentLightMetadata_1a4e9bfc44c6b87bbf096141fae12e1692" prot="public" virt="non-virtual"><scope>AVContentLightMetadata</scope><name>MaxFALL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

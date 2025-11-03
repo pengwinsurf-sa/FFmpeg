@@ -1,0 +1,27 @@
+Function 'main'
+Lines executed:0.00% of 9
+
+Function 'show_codec_opts'
+Lines executed:0.00% of 14
+
+Function 'show_format_opts'
+Lines executed:0.00% of 19
+
+Function 'show_opts'
+Lines executed:0.00% of 8
+
+Function 'print_option'
+Lines executed:0.00% of 28
+
+Function 'print_usage'
+Lines executed:0.00% of 5
+
+File 'tools/enum_options.c'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#enum_options.gcno##tools#enum_options.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#enum_options.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 83

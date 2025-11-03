@@ -1,0 +1,63 @@
+Function 'ff_jpegls_decode_picture'
+Lines executed:0.00% of 156
+
+Function 'ls_decode_line'
+Lines executed:0.00% of 87
+
+Function 'ls_get_code_runterm'
+Lines executed:0.00% of 22
+
+Function 'ls_get_code_regular'
+Lines executed:0.00% of 11
+
+Function 'ff_jpegls_decode_lse'
+Lines executed:0.00% of 56
+
+Function 'ff_jpegls_update_state_regular'
+Lines executed:0.00% of 14
+
+Function 'ff_jpegls_downscale_state'
+Lines executed:0.00% of 7
+
+Function 'ff_jpegls_quantize'
+Lines executed:0.00% of 13
+
+Function 'get_ur_golomb_jpegls'
+Lines executed:0.00% of 51
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/jpeglsdec.c'
+Lines executed:0.00% of 296
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavcodec#jpeglsdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/jpegls.h'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavcodec#jpegls.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeglsdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 427

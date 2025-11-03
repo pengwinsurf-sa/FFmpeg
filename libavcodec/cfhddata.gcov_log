@@ -1,0 +1,11 @@
+Function 'ff_cfhd_init_vlcs'
+Lines executed:0.00% of 8
+
+Function 'cfhd_init_vlc'
+Lines executed:0.00% of 30
+
+File 'libavcodec/cfhddata.c'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cfhddata.gcno##libavcodec#cfhddata.c.gcov'
+
+Lines executed:0.00% of 38

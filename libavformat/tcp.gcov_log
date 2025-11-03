@@ -1,0 +1,44 @@
+Function 'tcp_get_window_size'
+Lines executed:0.00% of 7
+
+Function 'tcp_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'tcp_close'
+Lines executed:0.00% of 4
+
+Function 'tcp_shutdown'
+Lines executed:0.00% of 7
+
+Function 'tcp_write'
+Lines executed:0.00% of 8
+
+Function 'tcp_read'
+Lines executed:0.00% of 16
+
+Function 'tcp_accept'
+Lines executed:0.00% of 13
+
+Function 'tcp_open'
+Lines executed:0.00% of 87
+
+Function 'customize_fd'
+Lines executed:0.00% of 32
+
+File 'libavformat/tcp.c'
+Lines executed:0.00% of 166
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tcp.gcno##libavformat#tcp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/socket2.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tcp.gcno###usr#include#x86_64-linux-gnu#bits#socket2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tcp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/byteswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#tcp.gcno###usr#include#x86_64-linux-gnu#bits#byteswap.h.gcov'
+
+Lines executed:0.00% of 177

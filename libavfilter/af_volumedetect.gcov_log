@@ -1,0 +1,14 @@
+Function 'uninit'
+Lines executed:0.00% of 3
+
+Function 'print_stats'
+Lines executed:0.00% of 33
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+File 'libavfilter/af_volumedetect.c'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_volumedetect.gcno##libavfilter#af_volumedetect.c.gcov'
+
+Lines executed:0.00% of 52

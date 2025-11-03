@@ -1,0 +1,133 @@
+Function 'uninit'
+Lines executed:0.00% of 35
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 44
+
+Function 'config_input_ref'
+Lines executed:0.00% of 28
+
+Function 'generate_density_map'
+Lines executed:0.00% of 119
+
+Function 'config_input_main'
+Lines executed:0.00% of 17
+
+Function 'init'
+Lines executed:0.00% of 20
+
+Function 'parse_heatmaps'
+Lines executed:0.00% of 41
+
+Function 'do_ssim360'
+Lines executed:0.00% of 71
+
+Function 'generate_tape_maps'
+Lines executed:0.00% of 39
+
+Function 'generate_eye_tape_map'
+Lines executed:0.00% of 34
+
+Function 'get_tape_angular_resolution'
+Lines executed:0.00% of 12
+
+Function 'get_projected_map'
+Lines executed:0.00% of 23
+
+Function 'get_rotated_cubemap_map'
+Lines executed:0.00% of 26
+
+Function 'get_cubemap32_map'
+Lines executed:0.00% of 12
+
+Function 'get_cubemap_face_map'
+Lines executed:0.00% of 18
+
+Function 'get_barrel_split_map'
+Lines executed:0.00% of 25
+
+Function 'get_barrel_map'
+Lines executed:0.00% of 15
+
+Function 'compute_bilinear_map'
+Lines executed:0.00% of 23
+
+Function 'ssim360_tape'
+Lines executed:0.00% of 41
+
+Function 'get_heat'
+Lines executed:0.00% of 12
+
+Function 'ssim360_4x4x2_tape'
+Lines executed:0.00% of 20
+
+Function 'get_bilinear_sample'
+Lines executed:0.00% of 19
+
+Function 'ssim360_plane_8bit'
+Lines executed:0.00% of 17
+
+Function 'ssim360_plane_16bit'
+Lines executed:0.00% of 16
+
+Function 'ssim360_endn_8bit'
+Lines executed:0.00% of 11
+
+Function 'ssim360_endn_16bit'
+Lines executed:0.00% of 11
+
+Function 'ssim360_end1'
+Lines executed:0.00% of 11
+
+Function 'ssim360_end1x'
+Lines executed:0.00% of 11
+
+Function 'ssim360_4x4xn_8bit'
+Lines executed:0.00% of 18
+
+Function 'ssim360_4x4xn_16bit'
+Lines executed:0.00% of 22
+
+Function 'map_alloc'
+Lines executed:0.00% of 11
+
+Function 'map_list_free'
+Lines executed:0.00% of 9
+
+Function 'set_meta'
+Lines executed:0.00% of 11
+
+Function 'ssim360_child_next'
+Lines executed:0.00% of 1
+
+Function 'ssim360_framesync_preinit'
+Lines executed:0.00% of 1
+
+File 'libavfilter/vf_ssim360.c'
+Lines executed:0.00% of 832
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim360.gcno##libavfilter#vf_ssim360.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim360.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim360.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim360.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-float.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim360.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_ssim360.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 848

@@ -1,0 +1,15 @@
+Function 'main'
+Lines executed:0.00% of 34
+
+Function 'print_cpu_flags'
+Lines executed:0.00% of 9
+
+File 'libavutil/tests/cpu.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#cpu.gcno##libavutil#tests#cpu.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#cpu.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 43

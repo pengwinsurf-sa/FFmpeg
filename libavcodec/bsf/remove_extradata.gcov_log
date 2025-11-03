@@ -1,0 +1,23 @@
+Function 'remove_extradata'
+Lines executed:0.00% of 37
+
+Function 'vc1_split'
+Lines executed:0.00% of 9
+
+Function 'mpeg4video_split'
+Lines executed:0.00% of 7
+
+Function 'hevc_split'
+Lines executed:0.00% of 17
+
+Function 'h264_split'
+Lines executed:0.00% of 18
+
+Function 'av1_split'
+Lines executed:0.00% of 10
+
+File 'libavcodec/bsf/remove_extradata.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#remove_extradata.gcno##libavcodec#bsf#remove_extradata.c.gcov'
+
+Lines executed:0.00% of 98

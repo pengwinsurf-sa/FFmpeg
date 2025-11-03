@@ -1,0 +1,358 @@
+Function 'uninit'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 7
+
+Function 'process_command'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'config_output'
+Lines executed:0.00% of 562
+
+Function 'v360_slice'
+Lines executed:0.00% of 52
+
+Function 'set_dimensions'
+Lines executed:0.00% of 6
+
+Function 'fov_from_dfov'
+Lines executed:0.00% of 46
+
+Function 'allocate_plane'
+Lines executed:0.00% of 20
+
+Function 'input_flip'
+Lines executed:0.00% of 10
+
+Function 'rotate'
+Lines executed:0.00% of 12
+
+Function 'calculate_rotation'
+Lines executed:0.00% of 25
+
+Function 'multiply_quaternion'
+Lines executed:0.00% of 6
+
+Function 'xyz_to_octahedron'
+Lines executed:0.00% of 28
+
+Function 'octahedron_to_xyz'
+Lines executed:0.00% of 14
+
+Function 'xyz_to_tspyramid'
+Lines executed:0.00% of 56
+
+Function 'tspyramid_to_xyz'
+Lines executed:0.00% of 37
+
+Function 'barrelsplit_to_xyz'
+Lines executed:0.00% of 43
+
+Function 'xyz_to_barrelsplit'
+Lines executed:0.00% of 54
+
+Function 'xyz_to_barrel'
+Lines executed:0.00% of 37
+
+Function 'barrel_to_xyz'
+Lines executed:0.00% of 38
+
+Function 'xyz_to_dfisheye'
+Lines executed:0.00% of 23
+
+Function 'dfisheye_to_xyz'
+Lines executed:0.00% of 16
+
+Function 'xyz_to_tetrahedron'
+Lines executed:0.00% of 27
+
+Function 'tetrahedron_to_xyz'
+Lines executed:0.00% of 7
+
+Function 'perspective_to_xyz'
+Lines executed:0.00% of 24
+
+Function 'xyz_to_cylindricalea'
+Lines executed:0.00% of 16
+
+Function 'cylindricalea_to_xyz'
+Lines executed:0.00% of 13
+
+Function 'prepare_cylindricalea_out'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_cylindrical'
+Lines executed:0.00% of 16
+
+Function 'prepare_cylindrical_in'
+Lines executed:0.00% of 5
+
+Function 'cylindrical_to_xyz'
+Lines executed:0.00% of 13
+
+Function 'prepare_cylindrical_out'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_pannini'
+Lines executed:0.00% of 19
+
+Function 'pannini_to_xyz'
+Lines executed:0.00% of 14
+
+Function 'xyz_to_fisheye'
+Lines executed:0.00% of 19
+
+Function 'fisheye_to_xyz'
+Lines executed:0.00% of 13
+
+Function 'prepare_fisheye_out'
+Lines executed:0.00% of 5
+
+Function 'flat_to_xyz'
+Lines executed:0.00% of 7
+
+Function 'prepare_flat_out'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_eac'
+Lines executed:0.00% of 29
+
+Function 'eac_to_xyz'
+Lines executed:0.00% of 57
+
+Function 'prepare_eac_out'
+Lines executed:0.00% of 15
+
+Function 'xyz_to_sinusoidal'
+Lines executed:0.00% of 14
+
+Function 'sinusoidal_to_xyz'
+Lines executed:0.00% of 11
+
+Function 'xyz_to_hammer'
+Lines executed:0.00% of 16
+
+Function 'hammer_to_xyz'
+Lines executed:0.00% of 15
+
+Function 'ball_to_xyz'
+Lines executed:0.00% of 14
+
+Function 'xyz_to_ball'
+Lines executed:0.00% of 15
+
+Function 'mercator_to_xyz'
+Lines executed:0.00% of 12
+
+Function 'xyz_to_mercator'
+Lines executed:0.00% of 16
+
+Function 'xyz_to_flat'
+Lines executed:0.00% of 22
+
+Function 'prepare_flat_in'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_hequirect'
+Lines executed:0.00% of 15
+
+Function 'xyz_to_equirect'
+Lines executed:0.00% of 20
+
+Function 'xyz_to_orthographic'
+Lines executed:0.00% of 18
+
+Function 'prepare_orthographic_in'
+Lines executed:0.00% of 5
+
+Function 'orthographic_to_xyz'
+Lines executed:0.00% of 14
+
+Function 'prepare_orthographic_out'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_equisolid'
+Lines executed:0.00% of 18
+
+Function 'prepare_equisolid_in'
+Lines executed:0.00% of 5
+
+Function 'equisolid_to_xyz'
+Lines executed:0.00% of 10
+
+Function 'prepare_equisolid_out'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_stereographic'
+Lines executed:0.00% of 18
+
+Function 'prepare_stereographic_in'
+Lines executed:0.00% of 5
+
+Function 'stereographic_to_xyz'
+Lines executed:0.00% of 10
+
+Function 'prepare_stereographic_out'
+Lines executed:0.00% of 5
+
+Function 'hequirect_to_xyz'
+Lines executed:0.00% of 11
+
+Function 'equirect_to_xyz'
+Lines executed:0.00% of 11
+
+Function 'prepare_equirect_out'
+Lines executed:0.00% of 5
+
+Function 'xyz_to_cube6x1'
+Lines executed:0.00% of 43
+
+Function 'xyz_to_cube1x6'
+Lines executed:0.00% of 43
+
+Function 'cube6x1_to_xyz'
+Lines executed:0.00% of 12
+
+Function 'cube1x6_to_xyz'
+Lines executed:0.00% of 12
+
+Function 'xyz_to_cube3x2'
+Lines executed:0.00% of 54
+
+Function 'cube3x2_to_xyz'
+Lines executed:0.00% of 16
+
+Function 'process_cube_coordinates'
+Lines executed:0.00% of 147
+
+Function 'xyz_to_cube'
+Lines executed:0.00% of 50
+
+Function 'cube_to_xyz'
+Lines executed:0.00% of 42
+
+Function 'normalize_vector'
+Lines executed:0.00% of 6
+
+Function 'rotate_cube_face_inverse'
+Lines executed:0.00% of 19
+
+Function 'rotate_cube_face'
+Lines executed:0.00% of 19
+
+Function 'prepare_cube_out'
+Lines executed:0.00% of 28
+
+Function 'prepare_cube_in'
+Lines executed:0.00% of 24
+
+Function 'mitchell_kernel'
+Lines executed:0.00% of 11
+
+Function 'calculate_cubic_bc_coeffs'
+Lines executed:0.00% of 22
+
+Function 'gaussian_kernel'
+Lines executed:0.00% of 11
+
+Function 'calculate_gaussian_coeffs'
+Lines executed:0.00% of 11
+
+Function 'spline16_kernel'
+Lines executed:0.00% of 11
+
+Function 'calculate_spline16_coeffs'
+Lines executed:0.00% of 6
+
+Function 'lanczos_kernel'
+Lines executed:0.00% of 11
+
+Function 'calculate_lanczos_coeffs'
+Lines executed:0.00% of 11
+
+Function 'bicubic_kernel'
+Lines executed:0.00% of 11
+
+Function 'calculate_bicubic_coeffs'
+Lines executed:0.00% of 8
+
+Function 'lagrange_kernel'
+Lines executed:0.00% of 15
+
+Function 'bilinear_kernel'
+Lines executed:0.00% of 10
+
+Function 'nearest_kernel'
+Lines executed:0.00% of 6
+
+Function 'ff_v360_init'
+Lines executed:0.00% of 16
+
+Function 'remap4_16bit_line_c'
+Lines executed:0.00% of 4
+
+Function 'remap3_16bit_line_c'
+Lines executed:0.00% of 1
+
+Function 'remap2_16bit_line_c'
+Lines executed:0.00% of 1
+
+Function 'remap4_8bit_line_c'
+Lines executed:0.00% of 4
+
+Function 'remap3_8bit_line_c'
+Lines executed:0.00% of 1
+
+Function 'remap2_8bit_line_c'
+Lines executed:0.00% of 1
+
+Function 'remap4_16bit_slice'
+Lines executed:0.00% of 3
+
+Function 'remap3_16bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap2_16bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap1_16bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap4_8bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap3_8bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap2_8bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap1_8bit_slice'
+Lines executed:0.00% of 1
+
+Function 'remap1_16bit_line_c'
+Lines executed:0.00% of 1
+
+Function 'remap1_8bit_line_c'
+Lines executed:0.00% of 1
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_v360.c'
+Lines executed:0.00% of 2457
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_v360.gcno##libavfilter#vf_v360.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_v360.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_v360.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 2471

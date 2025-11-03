@@ -1,0 +1,50 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'init'
+Lines executed:0.00% of 26
+
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'nlmeans_plane'
+Lines executed:0.00% of 24
+
+Function 'weight_averages'
+Lines executed:0.00% of 14
+
+Function 'nlmeans_slice'
+Lines executed:0.00% of 29
+
+Function 'config_input'
+Lines executed:0.00% of 19
+
+Function 'compute_ssd_integral_image'
+Lines executed:0.00% of 27
+
+Function 'compute_unsafe_ssd_integral_image'
+Lines executed:0.00% of 17
+
+Function 'compute_weights_line_c'
+Lines executed:0.00% of 11
+
+Function 'compute_safe_ssd_integral_image_c'
+Lines executed:0.00% of 22
+
+File 'libavfilter/vf_nlmeans.c'
+Lines executed:0.00% of 170
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_nlmeans.gcno##libavfilter#vf_nlmeans.c.gcov'
+
+File 'libavfilter/vf_nlmeans_init.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_nlmeans.gcno##libavfilter#vf_nlmeans_init.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_nlmeans.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_nlmeans.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 215

@@ -1,0 +1,25 @@
+Function 'bethsoftvid_decode_end'
+Lines executed:0.00% of 4
+
+Function 'bethsoftvid_decode_frame'
+Lines executed:0.00% of 74
+
+Function 'set_palette'
+Lines executed:0.00% of 10
+
+Function 'bethsoftvid_decode_init'
+Lines executed:0.00% of 6
+
+File 'libavcodec/bethsoftvideo.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bethsoftvideo.gcno##libavcodec#bethsoftvideo.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bethsoftvideo.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bethsoftvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 94

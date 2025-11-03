@@ -1,0 +1,22 @@
+Function 'ff_rtp_send_h264_hevc'
+Lines executed:0.00% of 21
+
+Function 'nal_send'
+Lines executed:0.00% of 67
+
+Function 'flush_buffered'
+Lines executed:0.00% of 12
+
+File 'libavformat/rtpenc_h264_hevc.c'
+Lines executed:0.00% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h264_hevc.gcno##libavformat#rtpenc_h264_hevc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h264_hevc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_h264_hevc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 100

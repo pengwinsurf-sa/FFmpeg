@@ -1,0 +1,112 @@
+Function 'get_audio_buffer'
+Lines executed:0.00% of 6
+
+Function 'acrossfade_config_output'
+Lines executed:0.00% of 15
+
+Function 'activate'
+Lines executed:0.00% of 95
+
+Function 'check_input'
+Lines executed:0.00% of 3
+
+Function 'crossfade_samples_s32'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_s16'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_flt'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_dbl'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_s32p'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_s16p'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_fltp'
+Lines executed:0.00% of 1
+
+Function 'crossfade_samples_dblp'
+Lines executed:0.00% of 1
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 35
+
+Function 'init'
+Lines executed:0.00% of 4
+
+Function 'config_output'
+Lines executed:0.00% of 35
+
+Function 'scale_samples_s32'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_s16'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_flt'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_dbl'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_s32p'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_s16p'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_fltp'
+Lines executed:0.00% of 1
+
+Function 'scale_samples_dblp'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_s32'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_s16'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_flt'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_dbl'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_s32p'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_s16p'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_fltp'
+Lines executed:0.00% of 1
+
+Function 'fade_samples_dblp'
+Lines executed:0.00% of 1
+
+Function 'fade_gain'
+Lines executed:0.00% of 73
+
+File 'libavfilter/af_afade.c'
+Lines executed:0.00% of 291
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afade.gcno##libavfilter#af_afade.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afade.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afade.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 295

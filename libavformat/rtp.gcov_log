@@ -1,0 +1,17 @@
+Function 'ff_rtp_codec_id'
+Lines executed:0.00% of 5
+
+Function 'ff_rtp_enc_name'
+Lines executed:0.00% of 5
+
+Function 'ff_rtp_get_payload_type'
+Lines executed:0.00% of 27
+
+Function 'ff_rtp_get_codec_info'
+Lines executed:0.00% of 14
+
+File 'libavformat/rtp.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtp.gcno##libavformat#rtp.c.gcov'
+
+Lines executed:0.00% of 51

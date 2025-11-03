@@ -1,0 +1,29 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'config_input'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 83
+
+Function 'query_formats'
+Lines executed:0.00% of 3
+
+File 'libavfilter/vf_swaprect.c'
+Lines executed:0.00% of 93
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_swaprect.gcno##libavfilter#vf_swaprect.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_swaprect.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_swaprect.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_swaprect.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 102

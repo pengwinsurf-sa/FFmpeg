@@ -1,0 +1,119 @@
+Function 'swri_rematrix'
+Lines executed:0.00% of 57
+
+Function 'swri_rematrix_free'
+Lines executed:0.00% of 6
+
+Function 'swri_rematrix_init'
+Lines executed:0.00% of 74
+
+Function 'auto_matrix'
+Lines executed:0.00% of 17
+
+Function 'swr_build_matrix2'
+Lines executed:0.00% of 56
+
+Function 'build_matrix'
+Lines executed:0.00% of 153
+
+Function 'sane_layout'
+Lines executed:0.00% of 15
+
+Function 'clean_layout'
+Lines executed:0.00% of 9
+
+Function 'swr_set_matrix'
+Lines executed:0.00% of 13
+
+Function 'get_mix_any_func_s32'
+Lines executed:0.00% of 14
+
+Function 'mix8to2_s32'
+Lines executed:0.00% of 7
+
+Function 'mix6to2_s32'
+Lines executed:0.00% of 7
+
+Function 'copy_s32'
+Lines executed:0.00% of 6
+
+Function 'sum2_s32'
+Lines executed:0.00% of 7
+
+Function 'get_mix_any_func_clip_s16'
+Lines executed:0.00% of 14
+
+Function 'mix8to2_clip_s16'
+Lines executed:0.00% of 10
+
+Function 'mix6to2_clip_s16'
+Lines executed:0.00% of 7
+
+Function 'copy_clip_s16'
+Lines executed:0.00% of 6
+
+Function 'sum2_clip_s16'
+Lines executed:0.00% of 7
+
+Function 'get_mix_any_func_s16'
+Lines executed:0.00% of 14
+
+Function 'mix8to2_s16'
+Lines executed:0.00% of 7
+
+Function 'mix6to2_s16'
+Lines executed:0.00% of 7
+
+Function 'copy_s16'
+Lines executed:0.00% of 6
+
+Function 'sum2_s16'
+Lines executed:0.00% of 7
+
+Function 'get_mix_any_func_double'
+Lines executed:0.00% of 14
+
+Function 'mix8to2_double'
+Lines executed:0.00% of 7
+
+Function 'mix6to2_double'
+Lines executed:0.00% of 7
+
+Function 'copy_double'
+Lines executed:0.00% of 6
+
+Function 'sum2_double'
+Lines executed:0.00% of 7
+
+Function 'get_mix_any_func_float'
+Lines executed:0.00% of 14
+
+Function 'mix8to2_float'
+Lines executed:0.00% of 7
+
+Function 'mix6to2_float'
+Lines executed:0.00% of 7
+
+Function 'copy_float'
+Lines executed:0.00% of 6
+
+Function 'sum2_float'
+Lines executed:0.00% of 7
+
+File 'libswresample/rematrix.c'
+Lines executed:0.00% of 396
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#rematrix.gcno##libswresample#rematrix.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#rematrix.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libswresample/rematrix_template.c'
+Lines executed:0.00% of 246
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#rematrix.gcno##libswresample#rematrix_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#rematrix.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 649

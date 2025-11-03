@@ -1,0 +1,56 @@
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+Function 'filter_slice'
+Lines executed:0.00% of 40
+
+Function 'get_video_buffer'
+Lines executed:0.00% of 5
+
+Function 'config_props_output'
+Lines executed:0.00% of 47
+
+Function 'transpose_8x8_64_c'
+Lines executed:0.00% of 8
+
+Function 'transpose_block_64_c'
+Lines executed:0.00% of 1
+
+Function 'transpose_8x8_48_c'
+Lines executed:0.00% of 3
+
+Function 'transpose_block_48_c'
+Lines executed:0.00% of 7
+
+Function 'transpose_8x8_32_c'
+Lines executed:0.00% of 8
+
+Function 'transpose_block_32_c'
+Lines executed:0.00% of 1
+
+Function 'transpose_8x8_24_c'
+Lines executed:0.00% of 3
+
+Function 'transpose_block_24_c'
+Lines executed:0.00% of 7
+
+Function 'transpose_8x8_16_c'
+Lines executed:0.00% of 8
+
+Function 'transpose_block_16_c'
+Lines executed:0.00% of 1
+
+Function 'transpose_8x8_8_c'
+Lines executed:0.00% of 8
+
+Function 'transpose_block_8_c'
+Lines executed:0.00% of 1
+
+Function 'query_formats'
+Lines executed:0.00% of 11
+
+File 'libavfilter/vf_transpose.c'
+Lines executed:0.00% of 188
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_transpose.gcno##libavfilter#vf_transpose.c.gcov'
+
+Lines executed:0.00% of 188

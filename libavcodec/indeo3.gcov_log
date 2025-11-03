@@ -1,0 +1,75 @@
+Function 'decode_close'
+Lines executed:0.00% of 3
+
+Function 'decode_frame'
+Lines executed:0.00% of 28
+
+Function 'decode_init'
+Lines executed:0.00% of 8
+
+Function 'output_plane'
+Lines executed:0.00% of 15
+
+Function 'decode_frame_headers'
+Lines executed:0.00% of 85
+
+Function 'decode_plane'
+Lines executed:0.00% of 34
+
+Function 'parse_bintree'
+Lines executed:0.00% of 73
+
+Function 'decode_cell'
+Lines executed:0.00% of 80
+
+Function 'decode_cell_data'
+Lines executed:0.00% of 103
+
+Function 'copy_cell'
+Lines executed:0.00% of 30
+
+Function 'allocate_frame_buffers'
+Lines executed:0.00% of 33
+
+Function 'free_frame_buffers'
+Lines executed:0.00% of 8
+
+Function 'build_requant_tab'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/indeo3.c'
+Lines executed:0.00% of 479
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavcodec#indeo3.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/copy_block.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavcodec#copy_block.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#indeo3.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 539

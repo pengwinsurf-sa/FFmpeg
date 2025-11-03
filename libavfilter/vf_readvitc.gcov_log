@@ -1,0 +1,31 @@
+Function 'filter_frame'
+Lines executed:0.00% of 10
+
+Function 'config_props'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 10
+
+Function 'make_vitc_tc_string'
+Lines executed:0.00% of 13
+
+Function 'read_vitc_line'
+Lines executed:0.00% of 39
+
+Function 'get_vitc_crc'
+Lines executed:0.00% of 15
+
+File 'libavfilter/vf_readvitc.c'
+Lines executed:0.00% of 89
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_readvitc.gcno##libavfilter#vf_readvitc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_readvitc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_readvitc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 93

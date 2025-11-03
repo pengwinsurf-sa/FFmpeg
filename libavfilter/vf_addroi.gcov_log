@@ -1,0 +1,17 @@
+Function 'addroi_uninit'
+Lines executed:0.00% of 7
+
+Function 'addroi_init'
+Lines executed:0.00% of 9
+
+Function 'addroi_filter_frame'
+Lines executed:0.00% of 59
+
+Function 'addroi_config_input'
+Lines executed:0.00% of 26
+
+File 'libavfilter/vf_addroi.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_addroi.gcno##libavfilter#vf_addroi.c.gcov'
+
+Lines executed:0.00% of 101

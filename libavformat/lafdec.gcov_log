@@ -1,0 +1,28 @@
+Function 'laf_read_seek'
+Lines executed:0.00% of 4
+
+Function 'laf_read_close'
+Lines executed:0.00% of 4
+
+Function 'laf_read_packet'
+Lines executed:0.00% of 58
+
+Function 'laf_read_header'
+Lines executed:0.00% of 69
+
+Function 'laf_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/lafdec.c'
+Lines executed:0.00% of 133
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lafdec.gcno##libavformat#lafdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lafdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lafdec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 139

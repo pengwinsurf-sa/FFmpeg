@@ -1,0 +1,15 @@
+Function 'main'
+Lines executed:0.00% of 20
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavcodec/tests/mpeg12framerate.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#mpeg12framerate.gcno##libavcodec#tests#mpeg12framerate.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#mpeg12framerate.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 25

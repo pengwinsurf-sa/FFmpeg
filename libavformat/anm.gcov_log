@@ -1,0 +1,18 @@
+Function 'read_packet'
+Lines executed:0.00% of 38
+
+Function 'read_header'
+Lines executed:0.00% of 54
+
+Function 'probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/anm.c'
+Lines executed:0.00% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#anm.gcno##libavformat#anm.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#anm.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 97

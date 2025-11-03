@@ -1,0 +1,20 @@
+Function 'mace_decode_frame'
+Lines executed:0.00% of 29
+
+Function 'mace_decode_init'
+Lines executed:0.00% of 4
+
+Function 'chomp6'
+Lines executed:0.00% of 19
+
+Function 'chomp3'
+Lines executed:0.00% of 6
+
+Function 'read_table'
+Lines executed:0.00% of 8
+
+File 'libavcodec/mace.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mace.gcno##libavcodec#mace.c.gcov'
+
+Lines executed:0.00% of 66

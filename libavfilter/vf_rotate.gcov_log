@@ -1,0 +1,50 @@
+Function 'process_command'
+Lines executed:0.00% of 11
+
+Function 'filter_frame'
+Lines executed:0.00% of 39
+
+Function 'filter_slice'
+Lines executed:0.00% of 106
+
+Function 'config_props'
+Lines executed:0.00% of 42
+
+Function 'interpolate_bilinear16'
+Lines executed:0.00% of 17
+
+Function 'interpolate_bilinear8'
+Lines executed:0.00% of 17
+
+Function 'int_sin'
+Lines executed:0.00% of 12
+
+Function 'get_rotated_h'
+Lines executed:0.00% of 8
+
+Function 'get_rotated_w'
+Lines executed:0.00% of 8
+
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_rotate.c'
+Lines executed:0.00% of 264
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_rotate.gcno##libavfilter#vf_rotate.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_rotate.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_rotate.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_rotate.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 271

@@ -1,0 +1,147 @@
+Function 'ff_hevc_hls_mvd_coding'
+Lines executed:0.00% of 40
+
+Function 'ff_hevc_hls_residual_coding'
+Lines executed:0.00% of 399
+
+Function 'ff_hevc_res_scale_sign_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_log2_res_scale_abs'
+Lines executed:0.00% of 5
+
+Function 'ff_hevc_cbf_luma_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_cbf_cb_cr_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_split_transform_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_no_residual_syntax_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_mvp_lx_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_ref_idx_lx_decode'
+Lines executed:0.00% of 10
+
+Function 'ff_hevc_inter_pred_idc_decode'
+Lines executed:0.00% of 5
+
+Function 'ff_hevc_merge_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_merge_idx_decode'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_intra_chroma_pred_mode_decode'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_rem_intra_luma_pred_mode_decode'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_mpm_idx_decode'
+Lines executed:0.00% of 5
+
+Function 'ff_hevc_prev_intra_luma_pred_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_pcm_flag_decode'
+Lines executed:0.00% of 8
+
+Function 'ff_hevc_part_mode_decode'
+Lines executed:0.00% of 16
+
+Function 'ff_hevc_split_coding_unit_flag_decode'
+Lines executed:0.00% of 15
+
+Function 'ff_hevc_pred_mode_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_cu_chroma_qp_offset_idx'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_cu_chroma_qp_offset_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_cu_qp_delta_sign_flag'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_cu_qp_delta_abs'
+Lines executed:0.00% of 17
+
+Function 'ff_hevc_skip_flag_decode'
+Lines executed:0.00% of 7
+
+Function 'ff_hevc_cu_transquant_bypass_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_end_of_slice_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_sao_eo_class_decode'
+Lines executed:0.00% of 4
+
+Function 'ff_hevc_sao_offset_sign_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_sao_offset_abs_decode'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_sao_band_position_decode'
+Lines executed:0.00% of 6
+
+Function 'ff_hevc_sao_type_idx_decode'
+Lines executed:0.00% of 4
+
+Function 'ff_hevc_sao_merge_flag_decode'
+Lines executed:0.00% of 2
+
+Function 'ff_hevc_cabac_init'
+Lines executed:0.00% of 40
+
+Function 'cabac_init_state'
+Lines executed:0.00% of 17
+
+Function 'load_states'
+Lines executed:0.00% of 7
+
+Function 'ff_hevc_save_states'
+Lines executed:0.00% of 9
+
+Function 'skip_bytes'
+Lines executed:0.00% of 8
+
+Function 'get_cabac_terminate'
+No executable lines
+
+Function 'get_cabac'
+Lines executed:0.00% of 9
+
+Function 'renorm_cabac_decoder_once'
+Lines executed:0.00% of 12
+
+File 'libavcodec/hevc/cabac.c'
+Lines executed:0.00% of 650
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#cabac.gcno##libavcodec#hevc#cabac.c.gcov'
+
+File 'libavcodec/x86/cabac.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#cabac.gcno##libavcodec#x86#cabac.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#cabac.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#cabac.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/cabac_functions.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#cabac.gcno##libavcodec#cabac_functions.h.gcov'
+
+Lines executed:0.00% of 703

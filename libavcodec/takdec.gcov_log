@@ -1,0 +1,70 @@
+Function 'tak_decode_close'
+Lines executed:0.00% of 4
+
+Function 'update_thread_context'
+Lines executed:0.00% of 8
+
+Function 'tak_decode_frame'
+Lines executed:0.00% of 213
+
+Function 'decorrelate'
+Lines executed:0.00% of 84
+
+Function 'decode_channel'
+Lines executed:0.00% of 27
+
+Function 'decode_subframe'
+Lines executed:0.00% of 74
+
+Function 'get_bits_esc4'
+Lines executed:0.00% of 4
+
+Function 'decode_residues'
+Lines executed:0.00% of 45
+
+Function 'decode_segment'
+Lines executed:0.00% of 33
+
+Function 'decode_lpc'
+Lines executed:0.00% of 44
+
+Function 'tak_decode_init'
+Lines executed:0.00% of 8
+
+Function 'set_bps_params'
+Lines executed:0.00% of 14
+
+Function 'bits_align_le'
+Lines executed:0.00% of 5
+
+Function 'bits_skip_le'
+Lines executed:0.00% of 15
+
+Function 'bits_read_nz_le'
+No executable lines
+
+File 'libavcodec/takdec.c'
+Lines executed:0.00% of 481
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdec.gcno##libavcodec#takdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bitstream_template.h'
+Lines executed:0.00% of 82
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdec.gcno##libavcodec#bitstream_template.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#takdec.gcno##libavcodec#unary.h.gcov'
+
+Lines executed:0.00% of 578

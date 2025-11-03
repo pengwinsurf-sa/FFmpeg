@@ -1,0 +1,78 @@
+Function 'uninit'
+Lines executed:0.00% of 17
+
+Function 'free_blocks'
+Lines executed:0.00% of 6
+
+Function 'filter_frame'
+Lines executed:0.00% of 26
+
+Function 'interpolate'
+Lines executed:0.00% of 54
+
+Function 'bilateral_obmc'
+Lines executed:0.00% of 45
+
+Function 'var_size_bmc'
+Lines executed:0.00% of 27
+
+Function 'set_frame_data'
+Lines executed:0.00% of 40
+
+Function 'bidirectional_obmc'
+Lines executed:0.00% of 37
+
+Function 'detect_scene_change'
+Lines executed:0.00% of 18
+
+Function 'inject_frame'
+Lines executed:0.00% of 54
+
+Function 'cluster_mvs'
+Lines executed:0.00% of 61
+
+Function 'var_size_bme'
+Lines executed:0.00% of 40
+
+Function 'bilateral_me'
+Lines executed:0.00% of 14
+
+Function 'search_mv'
+Lines executed:0.00% of 96
+
+Function 'config_output'
+Lines executed:0.00% of 9
+
+Function 'config_input'
+Lines executed:0.00% of 47
+
+Function 'get_sad_ob'
+Lines executed:0.00% of 20
+
+Function 'get_sbad_ob'
+Lines executed:0.00% of 20
+
+Function 'get_sbad'
+Lines executed:0.00% of 18
+
+File 'libavfilter/vf_minterpolate.c'
+Lines executed:0.00% of 631
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_minterpolate.gcno##libavfilter#vf_minterpolate.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_minterpolate.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_minterpolate.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_minterpolate.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_minterpolate.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 649

@@ -1,0 +1,21 @@
+Function 'filter_frame'
+Lines executed:0.00% of 12
+
+Function 'flip_bayer'
+Lines executed:0.00% of 24
+
+Function 'get_video_buffer'
+Lines executed:0.00% of 12
+
+Function 'config_input'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_vflip.c'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vflip.gcno##libavfilter#vf_vflip.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vflip.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 54

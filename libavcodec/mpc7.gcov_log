@@ -1,0 +1,53 @@
+Function 'mpc7_decode_close'
+Lines executed:0.00% of 5
+
+Function 'mpc7_decode_flush'
+Lines executed:0.00% of 7
+
+Function 'mpc7_decode_frame'
+Lines executed:0.00% of 131
+
+Function 'get_scale_idx'
+Lines executed:0.00% of 5
+
+Function 'idx_to_quant'
+Lines executed:0.00% of 30
+
+Function 'mpc7_decode_init'
+Lines executed:0.00% of 33
+
+Function 'mpc7_init_static'
+Lines executed:0.00% of 16
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/mpc7.c'
+Lines executed:0.00% of 171
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno##libavcodec#mpc7.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpc7.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:0.00% of 237

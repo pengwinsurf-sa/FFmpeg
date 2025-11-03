@@ -1,0 +1,24 @@
+Function 'av_content_light_metadata_create_side_data'
+Lines executed:0.00% of 7
+
+Function 'av_content_light_metadata_alloc'
+Lines executed:0.00% of 5
+
+Function 'av_mastering_display_metadata_create_side_data'
+Lines executed:0.00% of 14
+
+Function 'av_mastering_display_metadata_alloc_size'
+Lines executed:0.00% of 6
+
+Function 'av_mastering_display_metadata_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/mastering_display_metadata.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#mastering_display_metadata.gcno##libavutil#mastering_display_metadata.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#mastering_display_metadata.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 34

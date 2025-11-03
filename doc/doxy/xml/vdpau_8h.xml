@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="vdpau_8h" kind="file" language="C++">
+    <compoundname>vdpau.h</compoundname>
+    <includes local="no">vdpau/vdpau.h</includes>
+    <includes local="yes">libavutil/avconfig.h</includes>
+    <includes refid="attributes_8h" local="yes">libavutil/attributes.h</includes>
+    <includes refid="avcodec_8h" local="yes">avcodec.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>codec_desc.h</label>
+        <link refid="codec__desc_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>libavcodec/codec_id.h</label>
+        <link refid="codec__id_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>defs.h</label>
+        <link refid="defs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>packet.h</label>
+        <link refid="packet_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>version.h</label>
+        <link refid="libavcodec_2version_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>version_major.h</label>
+        <link refid="libavcodec_2version__major_8h"/>
+      </node>
+      <node id="4">
+        <label>libavutil/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="8">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>libavutil/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libavutil/channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>libavutil/dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>libavutil/samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>errno.h</label>
+      </node>
+      <node id="11">
+        <label>inttypes.h</label>
+      </node>
+      <node id="3">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="12">
+        <label>limits.h</label>
+      </node>
+      <node id="13">
+        <label>math.h</label>
+      </node>
+      <node id="26">
+        <label>stdarg.h</label>
+      </node>
+      <node id="18">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="14">
+        <label>stdio.h</label>
+      </node>
+      <node id="15">
+        <label>stdlib.h</label>
+      </node>
+      <node id="16">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>vdpau/vdpau.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVVDPAUContext" prot="public">AVVDPAUContext</innerclass>
+    <sectiondef kind="typedef">
+      <member refid="group__lavc__codec__hwaccel__vdpau_1ga1f243045ef2673ebe2a50a8431f3dfa7" kind="typedef"><name>AVVDPAU_Render2</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavc__codec__hwaccel__vdpau_1gac56d6b1b4478056afc0e0a8f52271afa" kind="function"><name>av_vdpau_bind_context</name></member>
+      <member refid="group__lavc__codec__hwaccel__vdpau_1gad4354a22f2f4d44000515e836b7863af" kind="function"><name>av_vdpau_get_surface_parameters</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Public libavcodec VDPAU header. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>The<sp/>Video<sp/>Decode<sp/>and<sp/>Presentation<sp/>API<sp/>for<sp/>UNIX<sp/>(VDPAU)<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>hardware-accelerated<sp/>decoding<sp/>of<sp/>MPEG-1/2,<sp/>H.264<sp/>and<sp/>VC-1.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2008<sp/>NVIDIA</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVCODEC_VDPAU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVCODEC_VDPAU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavc_codec_hwaccel_vdpau</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>Public<sp/>libavcodec<sp/>VDPAU<sp/>header.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="34"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavc_codec_hwaccel_vdpau<sp/>VDPAU<sp/>Decoder<sp/>and<sp/>Renderer</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavc_codec_hwaccel</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>VDPAU<sp/>hardware<sp/>acceleration<sp/>has<sp/>two<sp/>modules</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>-<sp/>VDPAU<sp/>decoding</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>-<sp/>VDPAU<sp/>presentation</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>The<sp/>VDPAU<sp/>decoding<sp/>module<sp/>parses<sp/>all<sp/>headers<sp/>using<sp/>FFmpeg</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>parsing<sp/>mechanisms<sp/>and<sp/>uses<sp/>VDPAU<sp/>for<sp/>the<sp/>actual<sp/>decoding.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>As<sp/>per<sp/>the<sp/>current<sp/>implementation,<sp/>the<sp/>actual<sp/>decoding</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>and<sp/>rendering<sp/>(API<sp/>calls)<sp/>are<sp/>done<sp/>as<sp/>part<sp/>of<sp/>the<sp/>VDPAU</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>presentation<sp/>(vo_vdpau.c)<sp/>module.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vdpau/vdpau.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;libavutil/avconfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="attributes_8h" kindref="compound">libavutil/attributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avcodec_8h" kindref="compound">avcodec.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVFrame" kindref="compound">AVFrame</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__lavc__codec__hwaccel__vdpau_1ga1f243045ef2673ebe2a50a8431f3dfa7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*<ref refid="group__lavc__codec__hwaccel__vdpau_1ga1f243045ef2673ebe2a50a8431f3dfa7" kindref="member">AVVDPAU_Render2</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdpPictureInfo<sp/>*,<sp/>uint32_t,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdpBitstreamBuffer<sp/>*);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="66"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>This<sp/>structure<sp/>is<sp/>used<sp/>to<sp/>share<sp/>data<sp/>between<sp/>the<sp/>libavcodec<sp/>library<sp/>and</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>the<sp/>client<sp/>video<sp/>application.</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>This<sp/>structure<sp/>will<sp/>be<sp/>allocated<sp/>and<sp/>stored<sp/>in<sp/>AVCodecContext.hwaccel_context</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>by<sp/>av_vdpau_bind_context().<sp/>Members<sp/>can<sp/>be<sp/>set<sp/>by<sp/>the<sp/>user<sp/>once</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>during<sp/>initialization<sp/>or<sp/>through<sp/>each<sp/>AVCodecContext.get_buffer()</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>function<sp/>call.<sp/>In<sp/>any<sp/>case,<sp/>they<sp/>must<sp/>be<sp/>valid<sp/>prior<sp/>to<sp/>calling</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>decoding<sp/>functions.</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>The<sp/>size<sp/>of<sp/>this<sp/>structure<sp/>is<sp/>not<sp/>a<sp/>part<sp/>of<sp/>the<sp/>public<sp/>ABI<sp/>and<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>be<sp/>used<sp/>outside<sp/>of<sp/>libavcodec.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="structAVVDPAUContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVVDPAUContext" kindref="compound">AVVDPAUContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>VDPAU<sp/>decoder<sp/>handle</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Set<sp/>by<sp/>user.</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="structAVVDPAUContext_1a54b51de52e8b936c93272cad8e94e395" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VdpDecoder<sp/><ref refid="structAVVDPAUContext_1a54b51de52e8b936c93272cad8e94e395" kindref="member">decoder</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>VDPAU<sp/>decoder<sp/>render<sp/>callback</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Set<sp/>by<sp/>the<sp/>user.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="structAVVDPAUContext_1ac007e73409f8171d5aa26c2c1b72454c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VdpDecoderRender<sp/>*<ref refid="structAVVDPAUContext_1ac007e73409f8171d5aa26c2c1b72454c" kindref="member">render</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="structAVVDPAUContext_1af220e2bf6c0093dd63c8384dccccd3d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__lavc__codec__hwaccel__vdpau_1ga1f243045ef2673ebe2a50a8431f3dfa7" kindref="member">AVVDPAU_Render2</ref><sp/><ref refid="structAVVDPAUContext_1af220e2bf6c0093dd63c8384dccccd3d8" kindref="member">render2</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}<sp/><ref refid="structAVVDPAUContext" kindref="compound">AVVDPAUContext</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="96"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>Associate<sp/>a<sp/>VDPAU<sp/>device<sp/>with<sp/>a<sp/>codec<sp/>context<sp/>for<sp/>hardware<sp/>acceleration.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>meant<sp/>to<sp/>be<sp/>called<sp/>from<sp/>the<sp/>get_format()<sp/>codec<sp/>callback,</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>or<sp/>earlier.<sp/>It<sp/>can<sp/>also<sp/>be<sp/>called<sp/>after<sp/>avcodec_flush_buffers()<sp/>to<sp/>change</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>the<sp/>underlying<sp/>VDPAU<sp/>device<sp/>mid-stream<sp/>(e.g.<sp/>to<sp/>recover<sp/>from<sp/>non-transparent</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>display<sp/>preemption).</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>@note<sp/>get_format()<sp/>must<sp/>return<sp/>AV_PIX_FMT_VDPAU<sp/>if<sp/>this<sp/>function<sp/>completes</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>successfully.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>@param<sp/>avctx<sp/>decoding<sp/>context<sp/>whose<sp/>get_format()<sp/>callback<sp/>is<sp/>invoked</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>@param<sp/>device<sp/>VDPAU<sp/>device<sp/>handle<sp/>to<sp/>use<sp/>for<sp/>hardware<sp/>acceleration</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*<sp/>@param<sp/>get_proc_address<sp/>VDPAU<sp/>device<sp/>driver</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/>zero<sp/>of<sp/>more<sp/>OR&apos;d<sp/>AV_HWACCEL_FLAG_*<sp/>flags</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>@return<sp/>0<sp/>on<sp/>success,<sp/>an<sp/>AVERROR<sp/>code<sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="group__lavc__codec__hwaccel__vdpau_1gac56d6b1b4478056afc0e0a8f52271afa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavc__codec__hwaccel__vdpau_1gac56d6b1b4478056afc0e0a8f52271afa" kindref="member">av_vdpau_bind_context</ref>(<ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*avctx,<sp/>VdpDevice<sp/>device,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VdpGetProcAddress<sp/>*get_proc_address,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="116"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*<sp/>Gets<sp/>the<sp/>parameters<sp/>to<sp/>create<sp/>an<sp/>adequate<sp/>VDPAU<sp/>video<sp/>surface<sp/>for<sp/>the<sp/>codec</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>context<sp/>using<sp/>VDPAU<sp/>hardware<sp/>decoding<sp/>acceleration.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>@note<sp/>Behavior<sp/>is<sp/>undefined<sp/>if<sp/>the<sp/>context<sp/>was<sp/>not<sp/>successfully<sp/>bound<sp/>to<sp/>a</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>VDPAU<sp/>device<sp/>using<sp/>av_vdpau_bind_context().</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>@param<sp/>avctx<sp/>the<sp/>codec<sp/>context<sp/>being<sp/>used<sp/>for<sp/>decoding<sp/>the<sp/>stream</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/>@param<sp/>type<sp/>storage<sp/>space<sp/>for<sp/>the<sp/>VDPAU<sp/>video<sp/>surface<sp/>chroma<sp/>type</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(or<sp/>NULL<sp/>to<sp/>ignore)</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>@param<sp/>width<sp/>storage<sp/>space<sp/>for<sp/>the<sp/>VDPAU<sp/>video<sp/>surface<sp/>pixel<sp/>width</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(or<sp/>NULL<sp/>to<sp/>ignore)</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>@param<sp/>height<sp/>storage<sp/>space<sp/>for<sp/>the<sp/>VDPAU<sp/>video<sp/>surface<sp/>pixel<sp/>height</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(or<sp/>NULL<sp/>to<sp/>ignore)</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>@return<sp/>0<sp/>on<sp/>success,<sp/>a<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="group__lavc__codec__hwaccel__vdpau_1gad4354a22f2f4d44000515e836b7863af" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavc__codec__hwaccel__vdpau_1gad4354a22f2f4d44000515e836b7863af" kindref="member">av_vdpau_get_surface_parameters</ref>(<ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref><sp/>*avctx,<sp/>VdpChromaType<sp/>*type,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>*<ref refid="demux__decode_8c_1a2474a5474cbff19523a51eb1de01cda4" kindref="member">width</ref>,<sp/>uint32_t<sp/>*<ref refid="demux__decode_8c_1ad12fc34ce789bce6c8a05d8a17138534" kindref="member">height</ref>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="136"><highlight class="comment">/**<sp/>@}<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVCODEC_VDPAU_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavcodec/vdpau.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+Function 'ff_metadata_conv_ctx'
+Lines executed:0.00% of 10
+
+Function 'ff_metadata_conv'
+Lines executed:0.00% of 22
+
+File 'libavformat/metadata.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#metadata.gcno##libavformat#metadata.c.gcov'
+
+Lines executed:0.00% of 32

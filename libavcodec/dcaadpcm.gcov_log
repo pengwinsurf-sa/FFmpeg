@@ -1,0 +1,59 @@
+Function 'ff_dcaadpcm_free'
+Lines executed:0.00% of 3
+
+Function 'ff_dcaadpcm_init'
+Lines executed:0.00% of 6
+
+Function 'ff_dcaadpcm_do_real'
+Lines executed:0.00% of 30
+
+Function 'precalc'
+Lines executed:0.00% of 12
+
+Function 'ff_dcaadpcm_subband_analysis'
+Lines executed:0.00% of 19
+
+Function 'calc_prediction_gain'
+Lines executed:0.00% of 12
+
+Function 'find_best_filter'
+Lines executed:0.00% of 23
+
+Function 'apply_filter'
+Lines executed:0.00% of 25
+
+Function 'ff_dca_core_dequantize'
+Lines executed:0.00% of 17
+
+Function 'ff_dcaadpcm_predict'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dcaadpcm.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno##libavcodec#dcaadpcm.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/dcaenc.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno##libavcodec#dcaenc.h.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno##libavcodec#dcamath.h.gcov'
+
+File 'libavcodec/dca_core.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno##libavcodec#dca_core.h.gcov'
+
+File 'libavcodec/dcaadpcm.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcaadpcm.gcno##libavcodec#dcaadpcm.h.gcov'
+
+Lines executed:0.00% of 155

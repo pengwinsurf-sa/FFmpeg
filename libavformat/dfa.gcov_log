@@ -1,0 +1,14 @@
+Function 'dfa_read_packet'
+Lines executed:0.00% of 23
+
+Function 'dfa_read_header'
+Lines executed:0.00% of 28
+
+Function 'dfa_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/dfa.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dfa.gcno##libavformat#dfa.c.gcov'
+
+Lines executed:0.00% of 55

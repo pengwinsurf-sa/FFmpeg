@@ -1,0 +1,109 @@
+Function 'ff_ivi_mc_avg_4x4_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_avg_4x4_no_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_avg_8x8_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_avg_8x8_no_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_4x4_delta'
+Lines executed:0.00% of 1
+
+Function 'ivi_mc_4x4_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_4x4_no_delta'
+Lines executed:0.00% of 1
+
+Function 'ivi_mc_4x4_no_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_8x8_delta'
+Lines executed:0.00% of 1
+
+Function 'ivi_mc_8x8_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_mc_8x8_no_delta'
+Lines executed:0.00% of 1
+
+Function 'ivi_mc_8x8_no_delta'
+Lines executed:0.00% of 1
+
+Function 'ff_ivi_put_dc_pixel_8x8'
+Lines executed:0.00% of 10
+
+Function 'ff_ivi_put_pixels_8x8'
+Lines executed:0.00% of 6
+
+Function 'ff_ivi_col_slant4'
+Lines executed:0.00% of 12
+
+Function 'ff_ivi_row_slant4'
+Lines executed:0.00% of 11
+
+Function 'ff_ivi_dc_col_slant'
+Lines executed:0.00% of 9
+
+Function 'ff_ivi_col_slant8'
+Lines executed:0.00% of 15
+
+Function 'ff_ivi_dc_row_slant'
+Lines executed:0.00% of 11
+
+Function 'ff_ivi_row_slant8'
+Lines executed:0.00% of 11
+
+Function 'ff_ivi_dc_slant_2d'
+Lines executed:0.00% of 8
+
+Function 'ff_ivi_inverse_slant_4x4'
+Lines executed:0.00% of 23
+
+Function 'ff_ivi_inverse_slant_8x8'
+Lines executed:0.00% of 23
+
+Function 'ff_ivi_dc_haar_2d'
+Lines executed:0.00% of 8
+
+Function 'ff_ivi_col_haar4'
+Lines executed:0.00% of 12
+
+Function 'ff_ivi_row_haar4'
+Lines executed:0.00% of 11
+
+Function 'ff_ivi_inverse_haar_4x4'
+Lines executed:0.00% of 26
+
+Function 'ff_ivi_col_haar8'
+Lines executed:0.00% of 14
+
+Function 'ff_ivi_row_haar8'
+Lines executed:0.00% of 12
+
+Function 'ff_ivi_inverse_haar_8x8'
+Lines executed:0.00% of 30
+
+Function 'ff_ivi_recompose_haar'
+Lines executed:0.00% of 32
+
+Function 'ff_ivi_recompose53'
+Lines executed:0.00% of 105
+
+File 'libavcodec/ivi_dsp.c'
+Lines executed:0.00% of 400
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi_dsp.gcno##libavcodec#ivi_dsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi_dsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi_dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 405

@@ -1,0 +1,27 @@
+Function 'lavfi_read_packet'
+Lines executed:0.00% of 75
+
+Function 'lavfi_free_frame'
+Lines executed:0.00% of 4
+
+Function 'create_subcc_packet'
+Lines executed:0.00% of 11
+
+Function 'lavfi_read_header'
+Lines executed:0.00% of 155
+
+Function 'create_subcc_streams'
+Lines executed:0.00% of 16
+
+Function 'lavfi_read_close'
+Lines executed:0.00% of 9
+
+File 'libavdevice/lavfi.c'
+Lines executed:0.00% of 268
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#lavfi.gcno##libavdevice#lavfi.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#lavfi.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 270

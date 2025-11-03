@@ -1,0 +1,11 @@
+Function 'ff_g722dsp_init'
+Lines executed:100.00% of 4
+
+Function 'g722_apply_qmf'
+Lines executed:100.00% of 26
+
+File 'libavcodec/g722dsp.c'
+Lines executed:100.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722dsp.gcno##libavcodec#g722dsp.c.gcov'
+
+Lines executed:100.00% of 30

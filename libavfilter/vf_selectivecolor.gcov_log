@@ -1,0 +1,86 @@
+Function 'filter_frame'
+Lines executed:0.00% of 24
+
+Function 'selective_color_direct_relative_16'
+Lines executed:0.00% of 1
+
+Function 'selective_color_direct_absolute_16'
+Lines executed:0.00% of 1
+
+Function 'selective_color_indirect_relative_16'
+Lines executed:0.00% of 1
+
+Function 'selective_color_indirect_absolute_16'
+Lines executed:0.00% of 1
+
+Function 'selective_color_16'
+Lines executed:0.00% of 4
+
+Function 'selective_color_direct_relative_8'
+Lines executed:0.00% of 1
+
+Function 'selective_color_direct_absolute_8'
+Lines executed:0.00% of 1
+
+Function 'selective_color_indirect_relative_8'
+Lines executed:0.00% of 1
+
+Function 'selective_color_indirect_absolute_8'
+Lines executed:0.00% of 1
+
+Function 'selective_color_8'
+Lines executed:0.00% of 4
+
+Function 'comp_adjust'
+Lines executed:0.00% of 9
+
+Function 'config_input'
+Lines executed:0.00% of 28
+
+Function 'parse_psfile'
+Lines executed:0.00% of 30
+
+Function 'register_range'
+Lines executed:0.00% of 22
+
+Function 'get_blacks_scale16'
+Lines executed:0.00% of 1
+
+Function 'get_whites_scale16'
+Lines executed:0.00% of 1
+
+Function 'get_neutrals_scale16'
+Lines executed:0.00% of 1
+
+Function 'get_blacks_scale8'
+Lines executed:0.00% of 1
+
+Function 'get_whites_scale8'
+Lines executed:0.00% of 1
+
+Function 'get_neutrals_scale8'
+Lines executed:0.00% of 1
+
+Function 'get_cmy_scale'
+Lines executed:0.00% of 6
+
+Function 'get_rgb_scale'
+Lines executed:0.00% of 2
+
+File 'libavfilter/vf_selectivecolor.c'
+Lines executed:0.00% of 132
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_selectivecolor.gcno##libavfilter#vf_selectivecolor.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_selectivecolor.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_selectivecolor.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_selectivecolor.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 147

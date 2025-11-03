@@ -1,0 +1,118 @@
+Function 'flush'
+Lines executed:0.00% of 4
+
+Function 'decode_init'
+Lines executed:0.00% of 117
+
+Function 'decode_end'
+Lines executed:0.00% of 39
+
+Function 'decode_frame'
+Lines executed:0.00% of 89
+
+Function 'read_frame_data'
+Lines executed:0.00% of 133
+
+Function 'read_diff_float_data'
+Lines executed:0.00% of 133
+
+Function 'multiply'
+Lines executed:0.00% of 33
+
+Function 'revert_channel_correlation'
+Lines executed:0.00% of 70
+
+Function 'read_channel_data'
+Lines executed:0.00% of 33
+
+Function 'decode_blocks'
+Lines executed:0.00% of 60
+
+Function 'decode_blocks_ind'
+Lines executed:0.00% of 23
+
+Function 'zero_remaining'
+Lines executed:0.00% of 7
+
+Function 'read_decode_block'
+Lines executed:0.00% of 4
+
+Function 'decode_block'
+Lines executed:0.00% of 16
+
+Function 'read_block'
+Lines executed:0.00% of 11
+
+Function 'decode_var_block_data'
+Lines executed:0.00% of 63
+
+Function 'read_var_block_data'
+Lines executed:0.00% of 160
+
+Function 'read_const_block_data'
+Lines executed:0.00% of 21
+
+Function 'get_block_sizes'
+Lines executed:0.00% of 21
+
+Function 'parcor_to_lpc'
+Lines executed:0.00% of 10
+
+Function 'decode_rice'
+Lines executed:0.00% of 10
+
+Function 'parse_bs_info'
+Lines executed:0.00% of 10
+
+Function 'read_specific_config'
+Lines executed:0.00% of 91
+
+Function 'av_div_sf_ieee754'
+Lines executed:0.00% of 8
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/alsdec.c'
+Lines executed:0.00% of 1063
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavcodec#alsdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/softfloat_ieee754.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavutil#softfloat_ieee754.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavcodec#unary.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#alsdec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1198

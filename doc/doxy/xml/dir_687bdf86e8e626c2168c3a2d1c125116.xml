@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_687bdf86e8e626c2168c3a2d1c125116" kind="dir">
+    <compoundname>doc/examples</compoundname>
+    <innerfile refid="avio__list__dir_8c">avio_list_dir.c</innerfile>
+    <innerfile refid="avio__read__callback_8c">avio_read_callback.c</innerfile>
+    <innerfile refid="decode__audio_8c">decode_audio.c</innerfile>
+    <innerfile refid="decode__filter__audio_8c">decode_filter_audio.c</innerfile>
+    <innerfile refid="decode__filter__video_8c">decode_filter_video.c</innerfile>
+    <innerfile refid="decode__video_8c">decode_video.c</innerfile>
+    <innerfile refid="demux__decode_8c">demux_decode.c</innerfile>
+    <innerfile refid="encode__audio_8c">encode_audio.c</innerfile>
+    <innerfile refid="encode__video_8c">encode_video.c</innerfile>
+    <innerfile refid="extract__mvs_8c">extract_mvs.c</innerfile>
+    <innerfile refid="filter__audio_8c">filter_audio.c</innerfile>
+    <innerfile refid="hw__decode_8c">hw_decode.c</innerfile>
+    <innerfile refid="mux_8c">mux.c</innerfile>
+    <innerfile refid="remux_8c">remux.c</innerfile>
+    <innerfile refid="resample__audio_8c">resample_audio.c</innerfile>
+    <innerfile refid="scale__video_8c">scale_video.c</innerfile>
+    <innerfile refid="show__metadata_8c">show_metadata.c</innerfile>
+    <innerfile refid="transcode_8c">transcode.c</innerfile>
+    <innerfile refid="transcode__aac_8c">transcode_aac.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="doc/examples/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,810 @@
+Function 'ff_sws_init_output_funcs'
+Lines executed:38.19% of 432
+
+Function 'yuv2vyu444_X_c'
+Lines executed:0.00% of 26
+
+Function 'yuv2vyu444_2_c'
+Lines executed:0.00% of 23
+
+Function 'yuv2vyu444_1_c'
+Lines executed:0.00% of 30
+
+Function 'yuv2y216le_X_c'
+Lines executed:0.00% of 22
+
+Function 'yuv2y212le_X_c'
+Lines executed:0.00% of 3
+
+Function 'yuv2y210le_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2uyva_1_c'
+Lines executed:0.00% of 37
+
+Function 'yuv2uyva_2_c'
+Lines executed:0.00% of 29
+
+Function 'yuv2uyva_X_c'
+Lines executed:0.00% of 28
+
+Function 'yuv2ayuv_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ayuv_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ayuv_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2vuyX_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2vuyX_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2vuyX_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xv36be_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xv36le_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xv36_X_c'
+Lines executed:0.00% of 17
+
+Function 'yuv2v30xle_X_c'
+Lines executed:0.00% of 14
+
+Function 'yuv2xv30le_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xv48be_X_c'
+Lines executed:0.00% of 30
+
+Function 'yuv2xv48le_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ayuv64be_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ayuv64le_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ya8_X_c'
+Lines executed:0.00% of 19
+
+Function 'yuv2ya8_2_c'
+Lines executed:0.00% of 18
+
+Function 'yuv2ya8_1_c'
+Lines executed:0.00% of 14
+
+Function 'yuv2gbrpf32_full_X_c'
+Lines executed:103.64% of 55
+
+Function 'yuv2gbrp16_full_X_c'
+Lines executed:106.67% of 45
+
+Function 'yuv2gbrp_full_X_c'
+Lines executed:94.23% of 52
+
+Function 'yuv2x2bgr10_full_1_c'
+Lines executed:0.00% of 48
+
+Function 'yuv2x2bgr10_full_2_c'
+Lines executed:0.00% of 25
+
+Function 'yuv2x2bgr10_full_X_c'
+Lines executed:0.00% of 24
+
+Function 'yuv2x2rgb10_full_1_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2x2rgb10_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2x2rgb10_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb8_full_1_c'
+Lines executed:0.00% of 50
+
+Function 'yuv2rgb8_full_2_c'
+Lines executed:0.00% of 2
+
+Function 'yuv2rgb8_full_X_c'
+Lines executed:0.00% of 2
+
+Function 'yuv2bgr8_full_1_c'
+Lines executed:0.00% of 2
+
+Function 'yuv2bgr8_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr8_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb4_byte_full_1_c'
+Lines executed:0.00% of 17
+
+Function 'yuv2rgb4_byte_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb4_byte_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr4_byte_full_1_c'
+Lines executed:0.00% of 2
+
+Function 'yuv2bgr4_byte_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr4_byte_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb24_full_1_c'
+Lines executed:0.00% of 5
+
+Function 'yuv2rgb24_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb24_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr24_full_1_c'
+Lines executed:0.00% of 5
+
+Function 'yuv2bgr24_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr24_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xrgb32_full_1_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2xrgb32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xrgb32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx32_full_1_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2rgbx32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xbgr32_full_1_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2xbgr32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2xbgr32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgrx32_full_1_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2bgrx32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgrx32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2argb32_full_1_c'
+Lines executed:0.00% of 7
+
+Function 'yuv2argb32_full_2_c'
+Lines executed:0.00% of 5
+
+Function 'yuv2argb32_full_X_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2rgba32_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2abgr32_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2abgr32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2abgr32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra32_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra32_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra32_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2x2bgr10_1_c'
+Lines executed:0.00% of 40
+
+Function 'yuv2x2bgr10_2_c'
+Lines executed:0.00% of 22
+
+Function 'yuv2x2bgr10_X_c'
+Lines executed:0.00% of 21
+
+Function 'yuv2x2rgb10_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2x2rgb10_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2x2rgb10_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb4b_1_c'
+Lines executed:430.00% of 10
+
+Function 'yuv2rgb4b_2_c'
+Lines executed:2200.00% of 1
+
+Function 'yuv2rgb4b_X_c'
+Lines executed:2100.00% of 1
+
+Function 'yuv2rgb4_1_c'
+Lines executed:100.00% of 3
+
+Function 'yuv2rgb4_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb4_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb8_1_c'
+Lines executed:100.00% of 7
+
+Function 'yuv2rgb8_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb8_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb12_1_c'
+Lines executed:100.00% of 16
+
+Function 'yuv2rgb12_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb12_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb15_1_c'
+Lines executed:100.00% of 7
+
+Function 'yuv2rgb15_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb15_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb16_1_c'
+Lines executed:100.00% of 7
+
+Function 'yuv2rgb16_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb16_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgr24_1_c'
+Lines executed:100.00% of 11
+
+Function 'yuv2bgr24_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgr24_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb24_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb24_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb24_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx32_1_c'
+Lines executed:100.00% of 8
+
+Function 'yuv2rgbx32_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx32_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx32_1_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx32_1_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx32_1_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgba32_1_c'
+Lines executed:0.00% of 13
+
+Function 'yuv2rgba32_2_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2rgba32_X_c'
+Lines executed:0.00% of 9
+
+Function 'yuv2rgba32_1_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba32_1_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba32_1_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgrx64le_full_1_c'
+Lines executed:0.00% of 46
+
+Function 'yuv2bgrx64le_full_2_c'
+Lines executed:0.00% of 30
+
+Function 'yuv2bgrx64le_full_X_c'
+Lines executed:0.00% of 29
+
+Function 'yuv2bgrx64be_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgrx64be_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgrx64be_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra64le_full_1_c'
+Lines executed:0.00% of 5
+
+Function 'yuv2bgra64le_full_2_c'
+Lines executed:0.00% of 4
+
+Function 'yuv2bgra64le_full_X_c'
+Lines executed:0.00% of 5
+
+Function 'yuv2bgra64be_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra64be_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra64be_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64le_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64le_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64le_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64be_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64be_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64be_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64le_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64le_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64le_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64be_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64be_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64be_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr48le_full_1_c'
+Lines executed:0.00% of 3
+
+Function 'yuv2bgr48le_full_2_c'
+Lines executed:0.00% of 2
+
+Function 'yuv2bgr48le_full_X_c'
+Lines executed:0.00% of 2
+
+Function 'yuv2bgr48be_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr48be_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr48be_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb48le_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb48le_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb48le_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb48be_full_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb48be_full_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb48be_full_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ya16le_1_c'
+Lines executed:0.00% of 17
+
+Function 'yuv2ya16le_2_c'
+Lines executed:0.00% of 18
+
+Function 'yuv2ya16le_X_c'
+Lines executed:0.00% of 19
+
+Function 'yuv2ya16be_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ya16be_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2ya16be_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgrx64le_1_c'
+Lines executed:100.00% of 62
+
+Function 'yuv2bgrx64le_2_c'
+Lines executed:100.00% of 38
+
+Function 'yuv2bgrx64le_X_c'
+Lines executed:100.00% of 39
+
+Function 'yuv2bgrx64be_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgrx64be_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgrx64be_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgra64le_1_c'
+Lines executed:0.00% of 9
+
+Function 'yuv2bgra64le_2_c'
+Lines executed:0.00% of 6
+
+Function 'yuv2bgra64le_X_c'
+Lines executed:0.00% of 8
+
+Function 'yuv2bgra64be_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra64be_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgra64be_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgbx64le_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx64le_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx64le_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx64be_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx64be_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgbx64be_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgba64le_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64le_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64le_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64be_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64be_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgba64be_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2bgr48le_1_c'
+Lines executed:100.00% of 9
+
+Function 'yuv2bgr48le_2_c'
+Lines executed:100.00% of 5
+
+Function 'yuv2bgr48le_X_c'
+Lines executed:100.00% of 5
+
+Function 'yuv2bgr48be_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgr48be_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2bgr48be_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb48le_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb48le_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb48le_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb48be_1_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb48be_2_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb48be_X_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2uyvy422_1_c'
+Lines executed:0.00% of 28
+
+Function 'yuv2uyvy422_2_c'
+Lines executed:0.00% of 21
+
+Function 'yuv2uyvy422_X_c'
+Lines executed:0.00% of 22
+
+Function 'yuv2yvyu422_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2yvyu422_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2yvyu422_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2yuyv422_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2yuyv422_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2yuyv422_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2monoblack_1_c'
+Lines executed:0.00% of 31
+
+Function 'yuv2monoblack_2_c'
+Lines executed:0.00% of 43
+
+Function 'yuv2monoblack_X_c'
+Lines executed:0.00% of 31
+
+Function 'yuv2monowhite_1_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2monowhite_2_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2monowhite_X_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2nv20cX_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2nv20cX_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2nv20lX_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2nv20lX_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2nv20l1_BE_c'
+Lines executed:0.00% of 7
+
+Function 'yuv2nv20l1_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p012cX_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p012cX_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p012lX_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p012lX_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p012l1_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p012l1_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p010cX_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p010cX_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p010lX_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p010lX_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p010l1_BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p010l1_LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2p01xcX_c'
+Lines executed:0.00% of 13
+
+Function 'yuv2p01xlX_c'
+Lines executed:0.00% of 9
+
+Function 'yuv2nv12cX_c'
+Lines executed:77.42% of 31
+
+Function 'yuv2plane1_8_c'
+Lines executed:100.00% of 6
+
+Function 'yuv2planeX_8_c'
+Lines executed:100.00% of 9
+
+Function 'yuv2nv12cX_16BE_c'
+Lines executed:0.00% of 16
+
+Function 'yuv2nv12cX_16LE_c'
+Lines executed:0.00% of 3
+
+Function 'yuv2planeX_16LE_c'
+Lines executed:0.00% of 9
+
+Function 'yuv2plane1_16LE_c'
+Lines executed:0.00% of 8
+
+Function 'yuv2planeX_16BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_16BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_14LE_c'
+Lines executed:0.00% of 8
+
+Function 'yuv2plane1_14LE_c'
+Lines executed:0.00% of 7
+
+Function 'yuv2planeX_14BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_14BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_12LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_12LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_12BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_12BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_10LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_10LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_10BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_10BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_9LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_9LE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_9BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2plane1_9BE_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2planeX_floatBE_c'
+Lines executed:0.00% of 12
+
+Function 'yuv2planeX_floatLE_c'
+Lines executed:0.00% of 12
+
+Function 'yuv2plane1_floatBE_c'
+Lines executed:0.00% of 11
+
+Function 'yuv2plane1_floatLE_c'
+Lines executed:0.00% of 11
+
+File 'libswscale/output.c'
+Lines executed:29.84% of 2195
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#output.gcno##libswscale#output.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:95.12% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#output.gcno##libswscale#swscale_internal.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:35.71% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#output.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:80.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#output.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#output.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:31.30% of 2259

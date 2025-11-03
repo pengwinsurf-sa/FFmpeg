@@ -1,0 +1,26 @@
+Function 'thp_read_packet'
+Lines executed:0.00% of 29
+
+Function 'thp_read_header'
+Lines executed:0.00% of 66
+
+Function 'thp_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/thp.c'
+Lines executed:0.00% of 93
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#thp.gcno##libavformat#thp.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#thp.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#thp.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#thp.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 101

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structStreamContext" kind="struct" language="C++" prot="public">
+    <compoundname>StreamContext</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStreamContext_1aac6343407e89e94dc2ed7d132413b1fe" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+        <definition>AVCodecContext* StreamContext::dec_ctx</definition>
+        <argsstring></argsstring>
+        <name>dec_ctx</name>
+        <qualifiedname>StreamContext::dec_ctx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/transcode.c" line="55" column="20" bodyfile="doc/examples/transcode.c" bodystart="55" bodyend="-1"/>
+        <referencedby refid="transcode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="transcode_8c" startline="554" endline="691">main</referencedby>
+        <referencedby refid="transcode_8c_1abd04bf1a933d4d2698482f4949c61fed" compoundref="transcode_8c" startline="62" endline="127">open_input_file</referencedby>
+        <referencedby refid="transcode_8c_1ab6c33edf9a42e2f71594a7cdc6276407" compoundref="transcode_8c" startline="129" endline="258">open_output_file</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structStreamContext_1af86c875c8ccdb645c4e91510bfaddcac" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+        <definition>AVCodecContext* StreamContext::enc_ctx</definition>
+        <argsstring></argsstring>
+        <name>enc_ctx</name>
+        <qualifiedname>StreamContext::enc_ctx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/transcode.c" line="56" column="20" bodyfile="doc/examples/transcode.c" bodystart="56" bodyend="-1"/>
+        <referencedby refid="transcode_8c_1a0911d751b11fdf9780825b79badfae91" compoundref="transcode_8c" startline="463" endline="502">encode_write_frame</referencedby>
+        <referencedby refid="transcode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="transcode_8c" startline="554" endline="691">main</referencedby>
+        <referencedby refid="transcode_8c_1ab6c33edf9a42e2f71594a7cdc6276407" compoundref="transcode_8c" startline="129" endline="258">open_output_file</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structStreamContext_1a99a1e228a0bc67af190989d0aef17f57" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+        <definition>AVFrame* StreamContext::dec_frame</definition>
+        <argsstring></argsstring>
+        <name>dec_frame</name>
+        <qualifiedname>StreamContext::dec_frame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/transcode.c" line="58" column="13" bodyfile="doc/examples/transcode.c" bodystart="58" bodyend="-1"/>
+        <referencedby refid="transcode_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="transcode_8c" startline="554" endline="691">main</referencedby>
+        <referencedby refid="transcode_8c_1abd04bf1a933d4d2698482f4949c61fed" compoundref="transcode_8c" startline="62" endline="127">open_input_file</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>AVBufferRef</label>
+        <link refid="structAVBufferRef"/>
+      </node>
+      <node id="10">
+        <label>AVChannelCustom</label>
+        <link refid="structAVChannelCustom"/>
+      </node>
+      <node id="9">
+        <label>AVChannelLayout</label>
+        <link refid="structAVChannelLayout"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>map</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AVClass</label>
+        <link refid="structAVClass"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>option</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>child_class_iterate</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>AVCodec</label>
+        <link refid="structAVCodec"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>supported_framerates</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>priv_class</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>profiles</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layouts</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AVCodecContext</label>
+        <link refid="structAVCodecContext"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>av_class</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>codec</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>framerate</edgelabel>
+          <edgelabel>pkt_timebase</edgelabel>
+          <edgelabel>sample_aspect_ratio</edgelabel>
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layout</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>rc_override</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>hwaccel</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>hw_device_ctx</edgelabel>
+          <edgelabel>hw_frames_ctx</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>codec_descriptor</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>coded_side_data</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>decoded_side_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>AVCodecDescriptor</label>
+        <link refid="structAVCodecDescriptor"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>profiles</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>AVFrame</label>
+        <link refid="structAVFrame"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>sample_aspect_ratio</edgelabel>
+          <edgelabel>time_base</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>buf</edgelabel>
+          <edgelabel>extended_buf</edgelabel>
+          <edgelabel>hw_frames_ctx</edgelabel>
+          <edgelabel>opaque_ref</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>side_data</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ch_layout</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>AVFrameSideData</label>
+        <link refid="structAVFrameSideData"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>AVHWAccel</label>
+        <link refid="structAVHWAccel"/>
+      </node>
+      <node id="4">
+        <label>AVOption</label>
+        <link refid="structAVOption"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>q</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>arr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AVOptionArrayDef</label>
+        <link refid="structAVOptionArrayDef"/>
+      </node>
+      <node id="15">
+        <label>AVPacketSideData</label>
+        <link refid="structAVPacketSideData"/>
+      </node>
+      <node id="8">
+        <label>AVProfile</label>
+        <link refid="structAVProfile"/>
+      </node>
+      <node id="5">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+      <node id="11">
+        <label>RcOverride</label>
+        <link refid="structRcOverride"/>
+      </node>
+      <node id="1">
+        <label>StreamContext</label>
+        <link refid="structStreamContext"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>dec_ctx</edgelabel>
+          <edgelabel>enc_ctx</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>dec_frame</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="doc/examples/transcode.c" line="54" column="1" bodyfile="doc/examples/transcode.c" bodystart="54" bodyend="59"/>
+    <listofallmembers>
+      <member refid="structStreamContext_1aac6343407e89e94dc2ed7d132413b1fe" prot="public" virt="non-virtual"><scope>StreamContext</scope><name>dec_ctx</name></member>
+      <member refid="structStreamContext_1a99a1e228a0bc67af190989d0aef17f57" prot="public" virt="non-virtual"><scope>StreamContext</scope><name>dec_frame</name></member>
+      <member refid="structStreamContext_1af86c875c8ccdb645c4e91510bfaddcac" prot="public" virt="non-virtual"><scope>StreamContext</scope><name>enc_ctx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

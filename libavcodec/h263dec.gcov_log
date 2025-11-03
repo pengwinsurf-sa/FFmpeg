@@ -1,0 +1,49 @@
+Function 'ff_h263_decode_frame'
+Lines executed:0.00% of 149
+
+Function 'decode_slice'
+Lines executed:0.00% of 149
+
+Function 'report_decode_progress'
+Lines executed:0.00% of 4
+
+Function 'ff_h263_decode_init'
+Lines executed:0.00% of 53
+
+Function 'h263_get_format'
+Lines executed:0.00% of 7
+
+Function 'ff_update_block_index'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 16
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/h263dec.c'
+Lines executed:0.00% of 336
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dec.gcno##libavcodec#h263dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/h263.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dec.gcno##libavcodec#h263.h.gcov'
+
+File 'libavcodec/mpegvideo.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dec.gcno##libavcodec#mpegvideo.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h263dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 393

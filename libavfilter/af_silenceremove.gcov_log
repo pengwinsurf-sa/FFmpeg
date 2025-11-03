@@ -1,0 +1,94 @@
+Function 'uninit'
+Lines executed:0.00% of 13
+
+Function 'activate'
+Lines executed:0.00% of 23
+
+Function 'filter_frame'
+Lines executed:0.00% of 76
+
+Function 'config_output'
+Lines executed:0.00% of 52
+
+Function 'config_input'
+Lines executed:0.00% of 13
+
+Function 'clear_windows'
+Lines executed:0.00% of 14
+
+Function 'init'
+Lines executed:0.00% of 6
+
+Function 'filter_stop_dbl'
+Lines executed:0.00% of 60
+
+Function 'filter_start_dbl'
+Lines executed:0.00% of 57
+
+Function 'compute_dev_dbl'
+Lines executed:0.00% of 9
+
+Function 'compute_rms_dbl'
+Lines executed:0.00% of 6
+
+Function 'compute_ptp_dbl'
+Lines executed:0.00% of 13
+
+Function 'compute_peak_dbl'
+Lines executed:0.00% of 11
+
+Function 'compute_median_dbl'
+Lines executed:0.00% of 16
+
+Function 'compute_avg_dbl'
+Lines executed:0.00% of 6
+
+Function 'queue_sample_dbl'
+Lines executed:0.00% of 15
+
+Function 'flush_dbl'
+Lines executed:0.00% of 15
+
+Function 'filter_stop_flt'
+Lines executed:0.00% of 60
+
+Function 'filter_start_flt'
+Lines executed:0.00% of 57
+
+Function 'compute_dev_flt'
+Lines executed:0.00% of 9
+
+Function 'compute_rms_flt'
+Lines executed:0.00% of 6
+
+Function 'compute_ptp_flt'
+Lines executed:0.00% of 13
+
+Function 'compute_peak_flt'
+Lines executed:0.00% of 11
+
+Function 'compute_median_flt'
+Lines executed:0.00% of 16
+
+Function 'compute_avg_flt'
+Lines executed:0.00% of 6
+
+Function 'queue_sample_flt'
+Lines executed:0.00% of 15
+
+Function 'flush_flt'
+Lines executed:0.00% of 15
+
+File 'libavfilter/af_silenceremove.c'
+Lines executed:0.00% of 195
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_silenceremove.gcno##libavfilter#af_silenceremove.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_silenceremove.gcno##libavfilter#filters.h.gcov'
+
+File 'libavfilter/silenceremove_template.c'
+Lines executed:0.00% of 624
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_silenceremove.gcno##libavfilter#silenceremove_template.c.gcov'
+
+Lines executed:0.00% of 821

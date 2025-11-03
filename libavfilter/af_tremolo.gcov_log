@@ -1,0 +1,14 @@
+Function 'config_input'
+Lines executed:0.00% of 14
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+File 'libavfilter/af_tremolo.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_tremolo.gcno##libavfilter#af_tremolo.c.gcov'
+
+Lines executed:0.00% of 47

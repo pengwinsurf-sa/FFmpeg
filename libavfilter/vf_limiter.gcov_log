@@ -1,0 +1,30 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 20
+
+Function 'filter_slice'
+Lines executed:0.00% of 19
+
+Function 'config_input'
+Lines executed:0.00% of 21
+
+Function 'limiter16'
+Lines executed:0.00% of 4
+
+Function 'limiter8'
+Lines executed:0.00% of 1
+
+Function 'init'
+Lines executed:0.00% of 4
+
+File 'libavfilter/vf_limiter.c'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_limiter.gcno##libavfilter#vf_limiter.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_limiter.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 74

@@ -1,0 +1,102 @@
+Function 'ff_vvc_predict_ciip'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_predict_inter'
+Lines executed:0.00% of 11
+
+Function 'predict_inter'
+Lines executed:0.00% of 13
+
+Function 'pred_affine_blk'
+Lines executed:0.00% of 36
+
+Function 'derive_affine_mvc'
+Lines executed:0.00% of 12
+
+Function 'pred_regular_blk'
+Lines executed:0.00% of 18
+
+Function 'derive_sb_mv'
+Lines executed:0.00% of 18
+
+Function 'dmvr_mv_refine'
+Lines executed:0.00% of 48
+
+Function 'parametric_mv_refine'
+Lines executed:0.00% of 26
+
+Function 'pred_regular'
+Lines executed:0.00% of 34
+
+Function 'ciip_derive_intra_weight'
+Lines executed:0.00% of 14
+
+Function 'pred_gpm_blk'
+Lines executed:0.00% of 41
+
+Function 'pred_get_refs'
+Lines executed:0.00% of 7
+
+Function 'luma_prof_bi'
+Lines executed:0.00% of 16
+
+Function 'luma_prof'
+Lines executed:0.00% of 22
+
+Function 'luma_prof_uni'
+Lines executed:0.00% of 29
+
+Function 'mc_bi_scaled'
+Lines executed:0.00% of 16
+
+Function 'mc_uni_scaled'
+Lines executed:0.00% of 26
+
+Function 'mc_scaled'
+Lines executed:0.00% of 15
+
+Function 'emulated_edge_scaled'
+Lines executed:0.00% of 12
+
+Function 'scaled_ref_pos_and_step'
+Lines executed:0.00% of 17
+
+Function 'mc_bi'
+Lines executed:0.00% of 38
+
+Function 'mc_uni'
+Lines executed:0.00% of 25
+
+Function 'mc'
+Lines executed:0.00% of 20
+
+Function 'derive_weight'
+Lines executed:0.00% of 20
+
+Function 'derive_weight_uni'
+Lines executed:0.00% of 12
+
+Function 'emulated_edge'
+Lines executed:0.00% of 48
+
+Function 'emulated_half'
+Lines executed:0.00% of 7
+
+Function 'emulated_edge_no_wrap'
+Lines executed:0.00% of 17
+
+Function 'clip_to_subpic'
+Lines executed:0.00% of 10
+
+Function 'subpic_get_rect'
+Lines executed:0.00% of 10
+
+File 'libavcodec/vvc/inter.c'
+Lines executed:0.00% of 640
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#inter.gcno##libavcodec#vvc#inter.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#inter.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 642

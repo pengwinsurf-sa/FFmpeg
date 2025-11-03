@@ -1,0 +1,15 @@
+Function 'dvaudio_parse'
+Lines executed:0.00% of 6
+
+Function 'dv_get_audio_sample_count'
+Lines executed:0.00% of 9
+
+File 'libavcodec/dvaudio_parser.c'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvaudio_parser.gcno##libavcodec#dvaudio_parser.c.gcov'
+
+File 'libavcodec/dvaudio.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvaudio_parser.gcno##libavcodec#dvaudio.h.gcov'
+
+Lines executed:0.00% of 15

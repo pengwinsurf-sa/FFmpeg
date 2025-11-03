@@ -1,0 +1,125 @@
+Function 'rgb2rgb_init_x86'
+Lines executed:78.72% of 47
+
+Function 'deinterleave_bytes_avx'
+Lines executed:100.00% of 1
+
+Function 'deinterleave_bytes_sse2'
+Lines executed:100.00% of 1
+
+Function 'interleave_bytes_sse2'
+Lines executed:87.50% of 16
+
+Function 'rgb2rgb_init_mmxext'
+Lines executed:100.00% of 30
+
+Function 'uyvytoyuv420_mmxext'
+Lines executed:0.00% of 12
+
+Function 'yuyvtoyuv422_mmxext'
+Lines executed:0.00% of 11
+
+Function 'yuyvtoyuv420_mmxext'
+Lines executed:0.00% of 12
+
+Function 'extract_odd2avg_mmxext'
+Lines executed:0.00% of 17
+
+Function 'extract_odd2_mmxext'
+Lines executed:0.00% of 15
+
+Function 'extract_even2avg_mmxext'
+Lines executed:0.00% of 15
+
+Function 'extract_odd_mmxext'
+Lines executed:0.00% of 13
+
+Function 'extract_even_mmxext'
+Lines executed:0.00% of 12
+
+Function 'yvu9_to_yuy2_mmxext'
+Lines executed:0.00% of 23
+
+Function 'vu9_to_vu12_mmxext'
+Lines executed:0.00% of 21
+
+Function 'planar2x_mmxext'
+Lines executed:0.00% of 33
+
+Function 'yuy2toyv12_mmxext'
+Lines executed:0.00% of 13
+
+Function 'yuv422ptoyuy2_mmxext'
+Lines executed:0.00% of 3
+
+Function 'yuv422ptouyvy_mmxext'
+Lines executed:0.00% of 3
+
+Function 'yv12touyvy_mmxext'
+Lines executed:0.00% of 3
+
+Function 'yuvPlanartouyvy_mmxext'
+Lines executed:0.00% of 11
+
+Function 'yv12toyuy2_mmxext'
+Lines executed:0.00% of 3
+
+Function 'yuvPlanartoyuy2_mmxext'
+Lines executed:0.00% of 11
+
+Function 'rgb24tobgr24_mmxext'
+Lines executed:0.00% of 18
+
+Function 'rgb16to32_mmxext'
+Lines executed:0.00% of 24
+
+Function 'rgb15to32_mmxext'
+Lines executed:0.00% of 24
+
+Function 'rgb16tobgr24_mmxext'
+Lines executed:0.00% of 22
+
+Function 'rgb15tobgr24_mmxext'
+Lines executed:0.00% of 22
+
+Function 'rgb24to15_mmxext'
+Lines executed:0.00% of 21
+
+Function 'rgb24tobgr15_mmxext'
+Lines executed:0.00% of 21
+
+Function 'rgb24to16_mmxext'
+Lines executed:0.00% of 21
+
+Function 'rgb24tobgr16_mmxext'
+Lines executed:0.00% of 21
+
+Function 'rgb32tobgr15_mmxext'
+Lines executed:0.00% of 19
+
+Function 'rgb32to15_mmxext'
+Lines executed:0.00% of 14
+
+Function 'rgb32tobgr16_mmxext'
+Lines executed:0.00% of 19
+
+Function 'rgb32to16_mmxext'
+Lines executed:0.00% of 14
+
+Function 'rgb16to15_mmxext'
+Lines executed:0.00% of 26
+
+Function 'rgb15to16_mmxext'
+Lines executed:0.00% of 25
+
+Function 'rgb32tobgr24_mmxext'
+Lines executed:0.00% of 20
+
+Function 'rgb24tobgr32_mmxext'
+Lines executed:0.00% of 21
+
+File 'libswscale/x86/rgb2rgb.c'
+Lines executed:12.24% of 678
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#x86#rgb2rgb.gcno##libswscale#x86#rgb2rgb.c.gcov'
+
+Lines executed:12.24% of 678

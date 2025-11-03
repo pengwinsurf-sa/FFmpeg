@@ -1,0 +1,185 @@
+Function 'ff_colorspacedsp_init'
+Lines executed:100.00% of 16
+
+Function 'multiply3x3_c'
+Lines executed:100.00% of 19
+
+Function 'yuv2yuv_420p12to12_c'
+Lines executed:100.00% of 43
+
+Function 'yuv2yuv_420p10to12_c'
+Lines executed:100.00% of 41
+
+Function 'yuv2yuv_420p8to12_c'
+Lines executed:100.00% of 41
+
+Function 'rgb2yuv_fsb_420p12_c'
+Lines executed:0.00% of 98
+
+Function 'rgb2yuv_420p12_c'
+Lines executed:100.00% of 39
+
+Function 'yuv2rgb_420p12_c'
+Lines executed:100.00% of 47
+
+Function 'yuv2yuv_420p12to10_c'
+Lines executed:100.00% of 41
+
+Function 'yuv2yuv_420p10to10_c'
+Lines executed:100.00% of 41
+
+Function 'yuv2yuv_420p8to10_c'
+Lines executed:100.00% of 41
+
+Function 'rgb2yuv_fsb_420p10_c'
+Lines executed:0.00% of 98
+
+Function 'rgb2yuv_420p10_c'
+Lines executed:100.00% of 39
+
+Function 'yuv2rgb_420p10_c'
+Lines executed:100.00% of 47
+
+Function 'yuv2yuv_420p12to8_c'
+Lines executed:100.00% of 44
+
+Function 'yuv2yuv_420p10to8_c'
+Lines executed:100.00% of 41
+
+Function 'yuv2yuv_420p8to8_c'
+Lines executed:100.00% of 41
+
+Function 'rgb2yuv_fsb_420p8_c'
+Lines executed:0.00% of 98
+
+Function 'rgb2yuv_420p8_c'
+Lines executed:100.00% of 39
+
+Function 'yuv2rgb_420p8_c'
+Lines executed:100.00% of 47
+
+Function 'yuv2yuv_422p12to12_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2yuv_422p10to12_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2yuv_422p8to12_c'
+Lines executed:100.00% of 35
+
+Function 'rgb2yuv_fsb_422p12_c'
+Lines executed:0.00% of 79
+
+Function 'rgb2yuv_422p12_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2rgb_422p12_c'
+Lines executed:100.00% of 37
+
+Function 'yuv2yuv_422p12to10_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2yuv_422p10to10_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2yuv_422p8to10_c'
+Lines executed:100.00% of 35
+
+Function 'rgb2yuv_fsb_422p10_c'
+Lines executed:0.00% of 79
+
+Function 'rgb2yuv_422p10_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2rgb_422p10_c'
+Lines executed:100.00% of 37
+
+Function 'yuv2yuv_422p12to8_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2yuv_422p10to8_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2yuv_422p8to8_c'
+Lines executed:100.00% of 35
+
+Function 'rgb2yuv_fsb_422p8_c'
+Lines executed:0.00% of 79
+
+Function 'rgb2yuv_422p8_c'
+Lines executed:100.00% of 35
+
+Function 'yuv2rgb_422p8_c'
+Lines executed:100.00% of 37
+
+Function 'yuv2yuv_444p12to12_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2yuv_444p10to12_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2yuv_444p8to12_c'
+Lines executed:100.00% of 33
+
+Function 'rgb2yuv_fsb_444p12_c'
+Lines executed:0.00% of 68
+
+Function 'rgb2yuv_444p12_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2rgb_444p12_c'
+Lines executed:100.00% of 32
+
+Function 'yuv2yuv_444p12to10_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2yuv_444p10to10_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2yuv_444p8to10_c'
+Lines executed:100.00% of 33
+
+Function 'rgb2yuv_fsb_444p10_c'
+Lines executed:0.00% of 68
+
+Function 'rgb2yuv_444p10_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2rgb_444p10_c'
+Lines executed:100.00% of 32
+
+Function 'yuv2yuv_444p12to8_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2yuv_444p10to8_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2yuv_444p8to8_c'
+Lines executed:100.00% of 33
+
+Function 'rgb2yuv_fsb_444p8_c'
+Lines executed:0.00% of 68
+
+Function 'rgb2yuv_444p8_c'
+Lines executed:100.00% of 33
+
+Function 'yuv2rgb_444p8_c'
+Lines executed:100.00% of 32
+
+File 'libavfilter/colorspacedsp.c'
+Lines executed:100.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspacedsp.gcno##libavfilter#colorspacedsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspacedsp.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/colorspacedsp_yuv2yuv_template.c'
+Lines executed:100.00% of 1022
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspacedsp.gcno##libavfilter#colorspacedsp_yuv2yuv_template.c.gcov'
+
+File 'libavfilter/colorspacedsp_template.c'
+Lines executed:47.54% of 1588
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspacedsp.gcno##libavfilter#colorspacedsp_template.c.gcov'
+
+Lines executed:68.57% of 2650

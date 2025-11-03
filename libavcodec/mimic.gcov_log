@@ -1,0 +1,52 @@
+Function 'mimic_decode_frame'
+Lines executed:0.00% of 88
+
+Function 'flip_swap_frame'
+Lines executed:0.00% of 9
+
+Function 'decode'
+Lines executed:0.00% of 44
+
+Function 'vlc_decode_block'
+Lines executed:0.00% of 37
+
+Function 'mimic_decode_update_thread_context'
+Lines executed:0.00% of 9
+
+Function 'mimic_decode_init'
+Lines executed:0.00% of 12
+
+Function 'mimic_init_static'
+Lines executed:0.00% of 3
+
+Function 'mimic_decode_end'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/mimic.c'
+Lines executed:0.00% of 157
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mimic.gcno##libavcodec#mimic.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mimic.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mimic.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mimic.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mimic.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mimic.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 219

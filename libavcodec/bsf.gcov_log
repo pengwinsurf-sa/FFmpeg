@@ -1,0 +1,80 @@
+Function 'av_bsf_get_null_filter'
+Lines executed:0.00% of 3
+
+Function 'av_bsf_list_parse_str'
+Lines executed:0.00% of 18
+
+Function 'bsf_parse_single'
+Lines executed:0.00% of 5
+
+Function 'av_bsf_list_finalize'
+Lines executed:0.00% of 16
+
+Function 'av_bsf_list_append2'
+Lines executed:0.00% of 2
+
+Function 'bsf_list_append_internal'
+Lines executed:0.00% of 24
+
+Function 'av_bsf_list_append'
+Lines executed:0.00% of 2
+
+Function 'av_bsf_list_free'
+Lines executed:0.00% of 7
+
+Function 'av_bsf_list_alloc'
+Lines executed:0.00% of 2
+
+Function 'bsf_list_item_name'
+Lines executed:0.00% of 16
+
+Function 'bsf_list_close'
+Lines executed:0.00% of 8
+
+Function 'bsf_list_flush'
+Lines executed:0.00% of 6
+
+Function 'bsf_list_filter'
+Lines executed:0.00% of 26
+
+Function 'bsf_list_init'
+Lines executed:0.00% of 19
+
+Function 'ff_bsf_get_packet_ref'
+Lines executed:0.00% of 6
+
+Function 'ff_bsf_get_packet'
+Lines executed:0.00% of 10
+
+Function 'av_bsf_receive_packet'
+Lines executed:0.00% of 2
+
+Function 'av_bsf_send_packet'
+Lines executed:0.00% of 16
+
+Function 'av_bsf_flush'
+Lines executed:0.00% of 7
+
+Function 'av_bsf_init'
+Lines executed:0.00% of 20
+
+Function 'av_bsf_alloc'
+Lines executed:0.00% of 31
+
+Function 'av_bsf_get_class'
+Lines executed:0.00% of 2
+
+Function 'bsf_to_name'
+Lines executed:0.00% of 2
+
+Function 'bsf_child_next'
+Lines executed:0.00% of 4
+
+Function 'av_bsf_free'
+Lines executed:0.00% of 16
+
+File 'libavcodec/bsf.c'
+Lines executed:0.00% of 270
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf.gcno##libavcodec#bsf.c.gcov'
+
+Lines executed:0.00% of 270

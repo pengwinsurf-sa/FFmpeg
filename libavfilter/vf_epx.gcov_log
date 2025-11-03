@@ -1,0 +1,17 @@
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'config_output'
+Lines executed:0.00% of 16
+
+Function 'epx3_slice'
+Lines executed:0.00% of 59
+
+Function 'epx2_slice'
+Lines executed:0.00% of 44
+
+File 'libavfilter/vf_epx.c'
+Lines executed:0.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_epx.gcno##libavfilter#vf_epx.c.gcov'
+
+Lines executed:0.00% of 134

@@ -1,0 +1,89 @@
+Function 'ff_v4l2_context_init'
+Lines executed:0.00% of 52
+
+Function 'ff_v4l2_context_release'
+Lines executed:0.00% of 7
+
+Function 'ff_v4l2_context_set_format'
+Lines executed:0.00% of 2
+
+Function 'ff_v4l2_context_get_format'
+Lines executed:0.00% of 14
+
+Function 'ff_v4l2_context_dequeue_packet'
+Lines executed:0.00% of 7
+
+Function 'ff_v4l2_context_dequeue_frame'
+Lines executed:0.00% of 7
+
+Function 'ff_v4l2_context_enqueue_packet'
+Lines executed:0.00% of 15
+
+Function 'ff_v4l2_context_enqueue_frame'
+Lines executed:0.00% of 15
+
+Function 'ff_v4l2_context_set_status'
+Lines executed:0.00% of 8
+
+Function 'v4l2_get_coded_format'
+Lines executed:0.00% of 15
+
+Function 'v4l2_get_raw_format'
+Lines executed:0.00% of 19
+
+Function 'v4l2_try_raw_format'
+Lines executed:0.00% of 12
+
+Function 'v4l2_release_buffers'
+Lines executed:0.00% of 12
+
+Function 'v4l2_getfree_v4l2buf'
+Lines executed:0.00% of 9
+
+Function 'v4l2_dequeue_v4l2buf'
+Lines executed:0.00% of 83
+
+Function 'v4l2_stop_encode'
+Lines executed:0.00% of 8
+
+Function 'v4l2_stop_decode'
+Lines executed:0.00% of 8
+
+Function 'v4l2_handle_event'
+Lines executed:0.00% of 32
+
+Function 'v4l2_start_decode'
+Lines executed:0.00% of 6
+
+Function 'v4l2_save_to_context'
+Lines executed:0.00% of 18
+
+Function 'v4l2_get_framesize_compressed'
+Lines executed:0.00% of 8
+
+Function 'v4l2_resolution_changed'
+Lines executed:0.00% of 9
+
+Function 'v4l2_get_sar'
+Lines executed:0.00% of 12
+
+Function 'ctx_to_m2mctx'
+Lines executed:0.00% of 4
+
+File 'libavcodec/v4l2_context.c'
+Lines executed:0.00% of 373
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_context.gcno##libavcodec#v4l2_context.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_context.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_context.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/poll2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_context.gcno###usr#include#x86_64-linux-gnu#bits#poll2.h.gcov'
+
+Lines executed:0.00% of 382

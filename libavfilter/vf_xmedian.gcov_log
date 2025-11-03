@@ -1,0 +1,49 @@
+Function 'tmedian_filter_frame'
+Lines executed:0.00% of 28
+
+Function 'xmedian_child_next'
+Lines executed:0.00% of 1
+
+Function 'xmedian_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'xmedian_init'
+Lines executed:0.00% of 14
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'uninit'
+Lines executed:0.00% of 9
+
+Function 'config_output'
+Lines executed:0.00% of 52
+
+Function 'process_frame'
+Lines executed:0.00% of 23
+
+Function 'update_index'
+Lines executed:0.00% of 8
+
+Function 'median_frames16'
+Lines executed:0.00% of 5
+
+Function 'median_frames8'
+Lines executed:0.00% of 5
+
+Function 'init'
+Lines executed:0.00% of 10
+
+File 'libavfilter/vf_xmedian.c'
+Lines executed:0.00% of 155
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xmedian.gcno##libavfilter#vf_xmedian.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xmedian.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xmedian.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 160

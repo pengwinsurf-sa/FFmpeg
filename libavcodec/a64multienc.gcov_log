@@ -1,0 +1,27 @@
+Function 'a64multi_encode_frame'
+Lines executed:0.00% of 62
+
+Function 'a64_compress_colram'
+Lines executed:0.00% of 10
+
+Function 'a64multi_encode_init'
+Lines executed:0.00% of 31
+
+Function 'a64multi_close_encoder'
+Lines executed:0.00% of 8
+
+Function 'render_charset'
+Lines executed:0.00% of 52
+
+Function 'to_meta_with_crop'
+Lines executed:0.00% of 18
+
+File 'libavcodec/a64multienc.c'
+Lines executed:0.00% of 179
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#a64multienc.gcno##libavcodec#a64multienc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#a64multienc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 181

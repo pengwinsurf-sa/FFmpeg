@@ -1,0 +1,15 @@
+Function 'ff_msmp4_vc1_vlcs_init_once'
+Lines executed:0.00% of 4
+
+Function 'msmp4_vc1_vlcs_init'
+Lines executed:0.00% of 13
+
+File 'libavcodec/msmpeg4_vc1_data.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4_vc1_data.gcno##libavcodec#msmpeg4_vc1_data.c.gcov'
+
+File 'libavcodec/vlc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msmpeg4_vc1_data.gcno##libavcodec#vlc.h.gcov'
+
+Lines executed:0.00% of 17

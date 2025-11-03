@@ -1,0 +1,22 @@
+Function 'dv_error_marker_filter'
+Lines executed:0.00% of 26
+
+Function 'dv_error_marker_init'
+Lines executed:0.00% of 8
+
+Function 'setdc'
+Lines executed:0.00% of 14
+
+File 'libavcodec/bsf/dv_error_marker.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dv_error_marker.gcno##libavcodec#bsf#dv_error_marker.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dv_error_marker.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dv_error_marker.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 48

@@ -1,0 +1,112 @@
+Function 'showspectrumpic_filter_frame'
+Lines executed:0.00% of 12
+
+Function 'showspectrumpic_request_frame'
+Lines executed:0.00% of 55
+
+Function 'activate'
+Lines executed:0.00% of 61
+
+Function 'plot_spectrum_column'
+Lines executed:0.00% of 115
+
+Function 'clear_combine_buffer'
+Lines executed:0.00% of 8
+
+Function 'scale_magnitudes'
+Lines executed:0.00% of 7
+
+Function 'acalc_magnitudes'
+Lines executed:0.00% of 9
+
+Function 'calc_channel_uphases'
+Lines executed:0.00% of 14
+
+Function 'unwrap'
+Lines executed:0.00% of 15
+
+Function 'calc_channel_phases'
+Lines executed:0.00% of 9
+
+Function 'calc_channel_magnitudes'
+Lines executed:0.00% of 10
+
+Function 'config_output'
+Lines executed:0.00% of 160
+
+Function 'plot_channel_log'
+Lines executed:0.00% of 23
+
+Function 'plot_channel_lin'
+Lines executed:0.00% of 13
+
+Function 'get_value'
+Lines executed:0.00% of 14
+
+Function 'draw_legend'
+Lines executed:0.00% of 149
+
+Function 'get_iscale'
+Lines executed:0.00% of 24
+
+Function 'get_scale'
+Lines executed:0.00% of 25
+
+Function 'inv_log_scale'
+Lines executed:0.00% of 2
+
+Function 'get_hz'
+Lines executed:0.00% of 6
+
+Function 'log_scale'
+Lines executed:0.00% of 2
+
+Function 'get_time'
+Lines executed:0.00% of 10
+
+Function 'pick_color'
+Lines executed:0.00% of 31
+
+Function 'color_range'
+Lines executed:0.00% of 31
+
+Function 'drawtext'
+Lines executed:0.00% of 35
+
+Function 'run_channel_fft'
+Lines executed:0.00% of 74
+
+Function 'query_formats'
+Lines executed:0.00% of 9
+
+Function 'uninit'
+Lines executed:0.00% of 44
+
+Function 'generate_window_func'
+Lines executed:0.00% of 124
+
+File 'libavfilter/avf_showspectrum.c'
+Lines executed:0.00% of 945
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspectrum.gcno##libavfilter#avf_showspectrum.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspectrum.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspectrum.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspectrum.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspectrum.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/window_func.h'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#avf_showspectrum.gcno##libavfilter#window_func.h.gcov'
+
+Lines executed:0.00% of 1091

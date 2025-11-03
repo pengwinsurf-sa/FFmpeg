@@ -1,0 +1,60 @@
+Function 'ff_hls_senc_decrypt_frame'
+Lines executed:0.00% of 5
+
+Function 'decrypt_audio_frame'
+Lines executed:0.00% of 19
+
+Function 'decrypt_sync_frame'
+Lines executed:0.00% of 10
+
+Function 'get_next_sync_frame'
+Lines executed:0.00% of 5
+
+Function 'get_next_ac3_eac3_sync_frame'
+Lines executed:0.00% of 16
+
+Function 'get_next_adts_frame'
+Lines executed:0.00% of 14
+
+Function 'decrypt_video_frame'
+Lines executed:0.00% of 28
+
+Function 'decrypt_nal_unit'
+Lines executed:0.00% of 20
+
+Function 'get_next_nal_unit'
+Lines executed:0.00% of 17
+
+Function 'remove_scep_3_bytes'
+Lines executed:0.00% of 12
+
+Function 'ff_hls_senc_parse_audio_setup_info'
+Lines executed:0.00% of 52
+
+Function 'ff_hls_senc_read_audio_setup_info'
+Lines executed:0.00% of 19
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavformat/hls_sample_encryption.c'
+Lines executed:0.00% of 191
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls_sample_encryption.gcno##libavformat#hls_sample_encryption.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls_sample_encryption.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls_sample_encryption.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls_sample_encryption.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hls_sample_encryption.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 234

@@ -1,0 +1,14 @@
+Function 'ff_iamf_uninit_context'
+Lines executed:0.00% of 19
+
+Function 'ff_iamf_free_mix_presentation'
+Lines executed:0.00% of 8
+
+Function 'ff_iamf_free_audio_element'
+Lines executed:0.00% of 9
+
+File 'libavformat/iamf.c'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf.gcno##libavformat#iamf.c.gcov'
+
+Lines executed:0.00% of 36

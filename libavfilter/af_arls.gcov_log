@@ -1,0 +1,50 @@
+Function 'uninit'
+Lines executed:0.00% of 12
+
+Function 'init'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 38
+
+Function 'filter_channels_double'
+Lines executed:0.00% of 14
+
+Function 'process_sample_double'
+Lines executed:0.00% of 46
+
+Function 'fir_sample_double'
+Lines executed:0.00% of 11
+
+Function 'filter_channels_float'
+Lines executed:0.00% of 14
+
+Function 'process_sample_float'
+Lines executed:0.00% of 46
+
+Function 'fir_sample_float'
+Lines executed:0.00% of 9
+
+Function 'activate'
+Lines executed:0.00% of 42
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/af_arls.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arls.gcno##libavfilter#af_arls.c.gcov'
+
+File 'libavfilter/arls_template.c'
+Lines executed:0.00% of 208
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arls.gcno##libavfilter#arls_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arls.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_arls.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 313

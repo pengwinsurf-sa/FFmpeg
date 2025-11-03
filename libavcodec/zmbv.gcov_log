@@ -1,0 +1,30 @@
+Function 'decode_end'
+Lines executed:0.00% of 7
+
+Function 'decode_init'
+Lines executed:0.00% of 15
+
+Function 'decode_frame'
+Lines executed:0.00% of 132
+
+Function 'zmbv_decode_intra'
+Lines executed:0.00% of 7
+
+Function 'zmbv_decode_xor_32'
+Lines executed:0.00% of 49
+
+Function 'zmbv_decode_xor_16'
+Lines executed:0.00% of 49
+
+Function 'zmbv_decode_xor_8'
+Lines executed:0.00% of 51
+
+File 'libavcodec/zmbv.c'
+Lines executed:0.00% of 306
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#zmbv.gcno##libavcodec#zmbv.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#zmbv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 310

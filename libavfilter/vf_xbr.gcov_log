@@ -1,0 +1,26 @@
+Function 'init'
+Lines executed:0.00% of 18
+
+Function 'filter_frame'
+Lines executed:0.00% of 19
+
+Function 'config_output'
+Lines executed:0.00% of 7
+
+Function 'xbr4x'
+Lines executed:0.00% of 69
+
+Function 'xbr3x'
+Lines executed:0.00% of 8
+
+Function 'xbr2x'
+Lines executed:0.00% of 7
+
+Function 'pixel_diff'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_xbr.c'
+Lines executed:0.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_xbr.gcno##libavfilter#vf_xbr.c.gcov'
+
+Lines executed:0.00% of 134

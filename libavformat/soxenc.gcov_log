@@ -1,0 +1,23 @@
+Function 'sox_write_trailer'
+Lines executed:0.00% of 15
+
+Function 'sox_write_header'
+Lines executed:0.00% of 37
+
+File 'libavformat/soxenc.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#soxenc.gcno##libavformat#soxenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#soxenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#soxenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#soxenc.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 52

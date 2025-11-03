@@ -1,0 +1,8 @@
+Function 'ff_pixelutils_sad_init_x86'
+Lines executed:0.00% of 20
+
+File 'libavutil/x86/pixelutils_init.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#x86#pixelutils_init.gcno##libavutil#x86#pixelutils_init.c.gcov'
+
+Lines executed:0.00% of 20

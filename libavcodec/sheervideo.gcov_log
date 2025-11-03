@@ -1,0 +1,121 @@
+Function 'decode_end'
+Lines executed:0.00% of 5
+
+Function 'decode_frame'
+Lines executed:0.00% of 166
+
+Function 'build_vlc'
+Lines executed:0.00% of 14
+
+Function 'decode_rgb'
+Lines executed:0.00% of 46
+
+Function 'decode_rgbi'
+Lines executed:0.00% of 40
+
+Function 'decode_argb'
+Lines executed:0.00% of 54
+
+Function 'decode_argbi'
+Lines executed:0.00% of 46
+
+Function 'decode_rgbx'
+Lines executed:0.00% of 52
+
+Function 'decode_rgbxi'
+Lines executed:0.00% of 26
+
+Function 'decode_argx'
+Lines executed:0.00% of 63
+
+Function 'decode_argxi'
+Lines executed:0.00% of 30
+
+Function 'decode_aybr'
+Lines executed:0.00% of 64
+
+Function 'decode_aybri'
+Lines executed:0.00% of 56
+
+Function 'decode_ybr'
+Lines executed:0.00% of 52
+
+Function 'decode_ybri'
+Lines executed:0.00% of 46
+
+Function 'decode_byry'
+Lines executed:0.00% of 59
+
+Function 'decode_byryi'
+Lines executed:0.00% of 52
+
+Function 'decode_ybyr'
+Lines executed:0.00% of 59
+
+Function 'decode_c82p'
+Lines executed:0.00% of 77
+
+Function 'decode_c82i'
+Lines executed:0.00% of 36
+
+Function 'decode_ca2p'
+Lines executed:0.00% of 77
+
+Function 'decode_ca2i'
+Lines executed:0.00% of 36
+
+Function 'decode_yry10'
+Lines executed:0.00% of 59
+
+Function 'decode_yry10i'
+Lines executed:0.00% of 29
+
+Function 'decode_ybr10'
+Lines executed:0.00% of 52
+
+Function 'decode_ybr10i'
+Lines executed:0.00% of 26
+
+Function 'decode_ca4p'
+Lines executed:0.00% of 63
+
+Function 'decode_ca4i'
+Lines executed:0.00% of 30
+
+Function 'bits_read_vlc_be'
+Lines executed:0.00% of 28
+
+Function 'bits_priv_set_idx_be'
+Lines executed:0.00% of 6
+
+Function 'bits_read_nz_be'
+Lines executed:0.00% of 12
+
+Function 'bits_read_bit_be'
+Lines executed:0.00% of 9
+
+Function 'bits_init_be'
+Lines executed:0.00% of 16
+
+Function 'bits_priv_refill_32_be'
+Lines executed:0.00% of 8
+
+Function 'bits_priv_refill_64_be'
+No executable lines
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/sheervideo.c'
+Lines executed:0.00% of 1412
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sheervideo.gcno##libavcodec#sheervideo.c.gcov'
+
+File 'libavcodec/bitstream_template.h'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sheervideo.gcno##libavcodec#bitstream_template.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sheervideo.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 1496

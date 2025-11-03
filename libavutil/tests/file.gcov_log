@@ -1,0 +1,26 @@
+Function 'main'
+Lines executed:0.00% of 10
+
+Function 'av_file_unmap'
+Lines executed:0.00% of 3
+
+Function 'av_file_map'
+Lines executed:0.00% of 37
+
+File 'libavutil/tests/file.c'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#file.gcno##libavutil#tests#file.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#file.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/file.c'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#file.gcno##libavutil#file.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#file.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 50

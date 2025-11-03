@@ -1,0 +1,49 @@
+Function 'ff_aac_search_for_tns'
+Lines executed:0.00% of 41
+
+Function 'quantize_coefs'
+Lines executed:0.00% of 16
+
+Function 'ff_aac_apply_tns'
+Lines executed:0.00% of 27
+
+Function 'ff_aac_encode_tns_info'
+Lines executed:0.00% of 25
+
+Function 'compress_coeffs'
+Lines executed:0.00% of 9
+
+Function 'compute_lpc_coefs'
+Lines executed:0.00% of 28
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/aacenc_tns.c'
+Lines executed:0.00% of 103
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_tns.gcno##libavcodec#aacenc_tns.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_tns.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/aacenc_utils.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_tns.gcno##libavcodec#aacenc_utils.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_tns.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/lpc_functions.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_tns.gcno##libavcodec#lpc_functions.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacenc_tns.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 170

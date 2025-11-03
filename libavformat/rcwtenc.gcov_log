@@ -1,0 +1,21 @@
+Function 'rcwt_write_trailer'
+Lines executed:0.00% of 3
+
+Function 'rcwt_write_packet'
+Lines executed:0.00% of 25
+
+Function 'rcwt_write_header'
+Lines executed:0.00% of 14
+
+Function 'rcwt_flush_cluster'
+Lines executed:0.00% of 8
+
+File 'libavformat/rcwtenc.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rcwtenc.gcno##libavformat#rcwtenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rcwtenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 50

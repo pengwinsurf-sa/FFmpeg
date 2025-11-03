@@ -1,0 +1,14 @@
+Function 'swscale_license'
+Lines executed:0.00% of 2
+
+Function 'swscale_configuration'
+Lines executed:0.00% of 2
+
+Function 'swscale_version'
+Lines executed:0.00% of 3
+
+File 'libswscale/version.c'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#version.gcno##libswscale#version.c.gcov'
+
+Lines executed:0.00% of 7

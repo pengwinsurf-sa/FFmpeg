@@ -1,0 +1,18 @@
+Function 'cng_encode_frame'
+Lines executed:0.00% of 25
+
+Function 'cng_encode_init'
+Lines executed:0.00% of 10
+
+Function 'cng_encode_close'
+Lines executed:0.00% of 6
+
+File 'libavcodec/cngenc.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cngenc.gcno##libavcodec#cngenc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cngenc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 41

@@ -1,0 +1,40 @@
+Function 'main'
+Lines executed:0.00% of 14
+
+Function 'ff_htmlmarkup_to_ass'
+Lines executed:0.00% of 131
+
+Function 'handle_open_brace'
+Lines executed:0.00% of 12
+
+Function 'scanbraces'
+Lines executed:0.00% of 7
+
+Function 'html_color_parse'
+Lines executed:0.00% of 8
+
+File 'libavcodec/tests/htmlsubtitles.c'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#htmlsubtitles.gcno##libavcodec#tests#htmlsubtitles.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#htmlsubtitles.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/htmlsubtitles.c'
+Lines executed:0.00% of 148
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#htmlsubtitles.gcno##libavcodec#htmlsubtitles.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#htmlsubtitles.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#htmlsubtitles.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#tests#htmlsubtitles.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 172

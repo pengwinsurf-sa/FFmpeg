@@ -1,0 +1,12 @@
+Function 'ff_dvdsub_parse_palette'
+Lines executed:0.00% of 9
+
+File 'libavcodec/dvdsub.c'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsub.gcno##libavcodec#dvdsub.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsub.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 9

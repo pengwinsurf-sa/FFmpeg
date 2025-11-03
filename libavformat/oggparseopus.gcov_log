@@ -1,0 +1,21 @@
+Function 'opus_packet'
+Lines executed:0.00% of 52
+
+Function 'opus_duration'
+Lines executed:0.00% of 14
+
+Function 'opus_header'
+Lines executed:0.00% of 16
+
+Function 'parse_opus_header'
+Lines executed:0.00% of 24
+
+File 'libavformat/oggparseopus.c'
+Lines executed:0.00% of 104
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparseopus.gcno##libavformat#oggparseopus.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparseopus.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 106

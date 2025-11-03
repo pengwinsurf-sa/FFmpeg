@@ -1,0 +1,185 @@
+Function 'of_open'
+Lines executed:0.00% of 99
+
+Function 'mux_alloc'
+Lines executed:0.00% of 9
+
+Function 'output_file_item_name'
+Lines executed:0.00% of 3
+
+Function 'process_forced_keyframes'
+Lines executed:0.00% of 25
+
+Function 'parse_forced_key_frames'
+Lines executed:0.00% of 50
+
+Function 'compare_int64'
+Lines executed:0.00% of 2
+
+Function 'set_dispositions'
+Lines executed:0.00% of 39
+
+Function 'copy_meta'
+Lines executed:0.00% of 42
+
+Function 'copy_metadata'
+Lines executed:0.00% of 41
+
+Function 'copy_chapters'
+Lines executed:0.00% of 26
+
+Function 'of_add_metadata'
+Lines executed:0.00% of 40
+
+Function 'parse_meta_type'
+Lines executed:0.00% of 17
+
+Function 'of_add_programs'
+Lines executed:0.00% of 37
+
+Function 'of_add_groups'
+Lines executed:0.00% of 16
+
+Function 'of_parse_group_token'
+Lines executed:0.00% of 91
+
+Function 'of_map_group'
+Lines executed:0.00% of 76
+
+Function 'of_serialize_options'
+Lines executed:0.00% of 11
+
+Function 'of_parse_iamf_submixes'
+Lines executed:0.00% of 93
+
+Function 'of_parse_iamf_audio_element_layers'
+Lines executed:0.00% of 50
+
+Function 'setup_sync_queues'
+Lines executed:0.00% of 48
+
+Function 'create_streams'
+Lines executed:0.00% of 67
+
+Function 'of_add_attachments'
+Lines executed:0.00% of 60
+
+Function 'map_manual'
+Lines executed:0.00% of 41
+
+Function 'map_auto_data'
+Lines executed:0.00% of 12
+
+Function 'map_auto_subtitle'
+Lines executed:0.00% of 27
+
+Function 'map_auto_audio'
+Lines executed:0.00% of 28
+
+Function 'map_auto_video'
+Lines executed:0.00% of 34
+
+Function 'ost_add'
+Lines executed:0.00% of 263
+
+Function 'set_encoder_id'
+Lines executed:0.00% of 13
+
+Function 'streamcopy_init'
+Lines executed:0.00% of 85
+
+Function 'ost_bind_filter'
+Lines executed:0.00% of 58
+
+Function 'new_stream_subtitle'
+Lines executed:0.00% of 24
+
+Function 'new_stream_audio'
+Lines executed:0.00% of 24
+
+Function 'new_stream_video'
+Lines executed:0.00% of 149
+
+Function 'pix_fmt_parse'
+Lines executed:0.00% of 29
+
+Function 'choose_pixel_fmt'
+Lines executed:0.00% of 16
+
+Function 'parse_matrix_coeffs'
+Lines executed:0.00% of 12
+
+Function 'ost_get_filters'
+Lines executed:0.00% of 20
+
+Function 'mux_stream_alloc'
+Lines executed:0.00% of 14
+
+Function 'output_stream_item_name'
+Lines executed:0.00% of 3
+
+Function 'enc_stats_init'
+Lines executed:0.00% of 60
+
+Function 'unescape'
+Lines executed:0.00% of 22
+
+Function 'of_enc_stats_close'
+Lines executed:0.00% of 7
+
+Function 'enc_stats_get_file'
+Lines executed:0.00% of 19
+
+Function 'get_preset_file_2'
+Lines executed:0.00% of 20
+
+Function 'get_line'
+Lines executed:0.00% of 8
+
+Function 'choose_encoder'
+Lines executed:0.00% of 24
+
+Function 'check_opt_bitexact'
+Lines executed:0.00% of 8
+
+File 'fftools/ffmpeg_mux_init.c'
+Lines executed:0.00% of 1941
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##fftools#ffmpeg_mux_init.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/iamf.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##libavutil#iamf.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##libavutil#rational.h.gcov'
+
+File 'fftools/fopen_utf8.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##fftools#fopen_utf8.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno###usr#include#stdlib.h.gcov'
+
+File 'libavutil/getenv_utf8.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##libavutil#getenv_utf8.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_mux_init.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 1962

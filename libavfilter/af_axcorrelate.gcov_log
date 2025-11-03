@@ -1,0 +1,46 @@
+Function 'uninit'
+Lines executed:0.00% of 12
+
+Function 'config_output'
+Lines executed:0.00% of 23
+
+Function 'activate'
+Lines executed:0.00% of 69
+
+Function 'xcorrelate_best_d'
+Lines executed:0.00% of 5
+
+Function 'xcorrelate_best_f'
+Lines executed:0.00% of 5
+
+Function 'xcorrelate_fast_d'
+Lines executed:0.00% of 1
+
+Function 'xcorrelate_fast_f'
+Lines executed:0.00% of 1
+
+Function 'xcorrelate_slow_d'
+Lines executed:0.00% of 1
+
+Function 'xcorrelate_slow_f'
+Lines executed:0.00% of 1
+
+Function 'xcorrelate_d'
+Lines executed:0.00% of 1
+
+Function 'xcorrelate_f'
+Lines executed:0.00% of 1
+
+File 'libavfilter/af_axcorrelate.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_axcorrelate.gcno##libavfilter#af_axcorrelate.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_axcorrelate.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_axcorrelate.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 120

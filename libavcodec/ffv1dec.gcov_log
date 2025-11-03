@@ -1,0 +1,126 @@
+Function 'ffv1_decode_close'
+Lines executed:0.00% of 8
+
+Function 'update_thread_context'
+Lines executed:0.00% of 42
+
+Function 'decode_frame'
+Lines executed:0.00% of 60
+
+Function 'decode_slices'
+Lines executed:0.00% of 61
+
+Function 'decode_header'
+Lines executed:0.00% of 24
+
+Function 'find_next_slice'
+Lines executed:0.00% of 15
+
+Function 'decode_init'
+Lines executed:0.00% of 8
+
+Function 'read_header'
+Lines executed:0.00% of 73
+
+Function 'decode_slice'
+Lines executed:0.00% of 97
+
+Function 'decode_remap'
+Lines executed:0.00% of 41
+
+Function 'decode_current_mul'
+Lines executed:0.00% of 6
+
+Function 'decode_slice_header'
+Lines executed:0.00% of 65
+
+Function 'decode_plane'
+Lines executed:0.00% of 137
+
+Function 'decode_rgb_frame32'
+Lines executed:0.00% of 65
+
+Function 'get_context32'
+Lines executed:0.00% of 16
+
+Function 'decode_rgb_frame'
+Lines executed:0.00% of 68
+
+Function 'get_context'
+Lines executed:0.00% of 16
+
+Function 'get_vlc_symbol'
+Lines executed:0.00% of 25
+
+Function 'get_symbol_inline'
+Lines executed:0.00% of 32
+
+Function 'update_vlc_state'
+Lines executed:0.00% of 19
+
+Function 'get_ur_golomb'
+Lines executed:0.00% of 27
+
+Function 'get_rac'
+No executable lines
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/ffv1dec.c'
+Lines executed:0.00% of 534
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#ffv1dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/ffv1dec_template.c'
+Lines executed:0.00% of 265
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#ffv1dec_template.c.gcov'
+
+File 'libavcodec/ffv1_template.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#ffv1_template.c.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavcodec/ffv1.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#ffv1.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1dec.gcno##libavcodec#rangecoder.h.gcov'
+
+Lines executed:0.00% of 999

@@ -1,0 +1,42 @@
+Function 'webvtt_encode_init'
+Lines executed:0.00% of 5
+
+Function 'webvtt_encode_close'
+Lines executed:0.00% of 4
+
+Function 'webvtt_encode_frame'
+Lines executed:0.00% of 22
+
+Function 'webvtt_end_cb'
+Lines executed:0.00% of 3
+
+Function 'webvtt_cancel_overrides_cb'
+Lines executed:0.00% of 4
+
+Function 'webvtt_style_cb'
+Lines executed:0.00% of 5
+
+Function 'webvtt_new_line_cb'
+Lines executed:0.00% of 3
+
+Function 'webvtt_text_cb'
+Lines executed:0.00% of 4
+
+Function 'webvtt_style_apply'
+Lines executed:0.00% of 17
+
+Function 'webvtt_stack_push_pop'
+Lines executed:0.00% of 18
+
+Function 'webvtt_print'
+Lines executed:0.00% of 6
+
+File 'libavcodec/webvttenc.c'
+Lines executed:0.00% of 89
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webvttenc.gcno##libavcodec#webvttenc.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webvttenc.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 91

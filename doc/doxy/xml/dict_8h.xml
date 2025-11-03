@@ -1,0 +1,745 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dict_8h" kind="file" language="C++">
+    <compoundname>dict.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="show__metadata_8c" local="no">doc/examples/show_metadata.c</includedby>
+    <includedby refid="avcodec_8h" local="yes">libavcodec/avcodec.h</includedby>
+    <includedby refid="bsf_8h" local="yes">libavcodec/bsf.h</includedby>
+    <includedby refid="packet_8h" local="yes">libavcodec/packet.h</includedby>
+    <includedby refid="avdevice_8h" local="yes">libavdevice/avdevice.h</includedby>
+    <includedby refid="avfilter_8h" local="yes">libavfilter/avfilter.h</includedby>
+    <includedby refid="avformat_8h" local="yes">libavformat/avformat.h</includedby>
+    <includedby refid="avio_8h" local="yes">libavformat/avio.h</includedby>
+    <includedby refid="frame_8h" local="yes">libavutil/frame.h</includedby>
+    <includedby refid="iamf_8h" local="yes">libavutil/iamf.h</includedby>
+    <includedby refid="opt_8h" local="yes">libavutil/opt.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>doc/examples/avio_list_dir.c</label>
+        <link refid="avio__list__dir_8c"/>
+      </node>
+      <node id="5">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="6">
+        <label>doc/examples/decode_audio.c</label>
+        <link refid="decode__audio_8c"/>
+      </node>
+      <node id="7">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="8">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="9">
+        <label>doc/examples/decode_video.c</label>
+        <link refid="decode__video_8c"/>
+      </node>
+      <node id="10">
+        <label>doc/examples/demux_decode.c</label>
+        <link refid="demux__decode_8c"/>
+      </node>
+      <node id="11">
+        <label>doc/examples/encode_audio.c</label>
+        <link refid="encode__audio_8c"/>
+      </node>
+      <node id="12">
+        <label>doc/examples/encode_video.c</label>
+        <link refid="encode__video_8c"/>
+      </node>
+      <node id="13">
+        <label>doc/examples/extract_mvs.c</label>
+        <link refid="extract__mvs_8c"/>
+      </node>
+      <node id="28">
+        <label>doc/examples/filter_audio.c</label>
+        <link refid="filter__audio_8c"/>
+      </node>
+      <node id="14">
+        <label>doc/examples/hw_decode.c</label>
+        <link refid="hw__decode_8c"/>
+      </node>
+      <node id="15">
+        <label>doc/examples/mux.c</label>
+        <link refid="mux_8c"/>
+      </node>
+      <node id="25">
+        <label>doc/examples/remux.c</label>
+        <link refid="remux_8c"/>
+      </node>
+      <node id="50">
+        <label>doc/examples/resample_audio.c</label>
+        <link refid="resample__audio_8c"/>
+      </node>
+      <node id="52">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="2">
+        <label>doc/examples/show_metadata.c</label>
+        <link refid="show__metadata_8c"/>
+      </node>
+      <node id="16">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="17">
+        <label>doc/examples/transcode_aac.c</label>
+        <link refid="transcode__aac_8c"/>
+      </node>
+      <node id="3">
+        <label>libavcodec/avcodec.h</label>
+        <link refid="avcodec_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>libavcodec/avdct.h</label>
+        <link refid="avdct_8h"/>
+      </node>
+      <node id="21">
+        <label>libavcodec/bsf.h</label>
+        <link refid="bsf_8h"/>
+      </node>
+      <node id="40">
+        <label>libavcodec/codec.h</label>
+        <link refid="codec_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>libavcodec/codec_par.h</label>
+        <link refid="codec__par_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>libavcodec/mediacodec.h</label>
+        <link refid="mediacodec_8h"/>
+      </node>
+      <node id="22">
+        <label>libavcodec/packet.h</label>
+        <link refid="packet_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>libavcodec/vdpau.h</label>
+        <link refid="vdpau_8h"/>
+      </node>
+      <node id="20">
+        <label>libavcodec/videotoolbox.h</label>
+        <link refid="videotoolbox_8h"/>
+      </node>
+      <node id="26">
+        <label>libavdevice/avdevice.h</label>
+        <link refid="avdevice_8h"/>
+      </node>
+      <node id="27">
+        <label>libavfilter/avfilter.h</label>
+        <link refid="avfilter_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>libavfilter/buffersrc.h</label>
+        <link refid="buffersrc_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>libavformat/avformat.h</label>
+        <link refid="avformat_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>libavformat/avio.h</label>
+        <link refid="avio_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>libavutil/ambient_viewing_environment.h</label>
+        <link refid="ambient__viewing__environment_8h"/>
+      </node>
+      <node id="34">
+        <label>libavutil/detection_bbox.h</label>
+        <link refid="detection__bbox_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>libavutil/downmix_info.h</label>
+        <link refid="downmix__info_8h"/>
+      </node>
+      <node id="36">
+        <label>libavutil/film_grain_params.h</label>
+        <link refid="film__grain__params_8h"/>
+      </node>
+      <node id="32">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>libavutil/hdr_dynamic_metadata.h</label>
+        <link refid="hdr__dynamic__metadata_8h"/>
+      </node>
+      <node id="38">
+        <label>libavutil/hdr_dynamic_vivid_metadata.h</label>
+        <link refid="hdr__dynamic__vivid__metadata_8h"/>
+      </node>
+      <node id="39">
+        <label>libavutil/hwcontext.h</label>
+        <link refid="hwcontext_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>libavutil/hwcontext_amf.h</label>
+        <link refid="hwcontext__amf_8h"/>
+      </node>
+      <node id="43">
+        <label>libavutil/hwcontext_opencl.h</label>
+        <link refid="hwcontext__opencl_8h"/>
+      </node>
+      <node id="44">
+        <label>libavutil/hwcontext_videotoolbox.h</label>
+        <link refid="hwcontext__videotoolbox_8h"/>
+      </node>
+      <node id="42">
+        <label>libavutil/hwcontext_vulkan.h</label>
+        <link refid="hwcontext__vulkan_8h"/>
+      </node>
+      <node id="53">
+        <label>libavutil/iamf.h</label>
+        <link refid="iamf_8h"/>
+      </node>
+      <node id="45">
+        <label>libavutil/mastering_display_metadata.h</label>
+        <link refid="mastering__display__metadata_8h"/>
+      </node>
+      <node id="54">
+        <label>libavutil/opt.h</label>
+        <link refid="opt_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>libavutil/stereo3d.h</label>
+        <link refid="stereo3d_8h"/>
+      </node>
+      <node id="47">
+        <label>libavutil/video_enc_params.h</label>
+        <link refid="video__enc__params_8h"/>
+      </node>
+      <node id="48">
+        <label>libavutil/video_hint.h</label>
+        <link refid="video__hint_8h"/>
+      </node>
+      <node id="49">
+        <label>libswresample/swresample.h</label>
+        <link refid="swresample_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>libswscale/swscale.h</label>
+        <link refid="swscale_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structAVDictionaryEntry" prot="public">AVDictionaryEntry</innerclass>
+    <sectiondef kind="user-defined">
+      <header>AVDictionary Flags</header>
+      <description><para>Flags that influence behavior of the matching of keys or insertion to the dictionary. </para>
+</description>
+      <member refid="group__lavu__dict_1gad9cbc53cec515b72ae7caa2e194c6bc0" kind="define"><name>AV_DICT_MATCH_CASE</name></member>
+      <member refid="group__lavu__dict_1ga341bbd1ea599dfb0510f419e5272fecc" kind="define"><name>AV_DICT_IGNORE_SUFFIX</name></member>
+      <member refid="group__lavu__dict_1gacb0ce4f20c15bf174f93590ace0fc8fd" kind="define"><name>AV_DICT_DONT_STRDUP_KEY</name></member>
+      <member refid="group__lavu__dict_1ga7a9a991cb7837b10ffd44725263de425" kind="define"><name>AV_DICT_DONT_STRDUP_VAL</name></member>
+      <member refid="group__lavu__dict_1ga8ed4237acfc3d68484301a5d1859936c" kind="define"><name>AV_DICT_DONT_OVERWRITE</name></member>
+      <member refid="group__lavu__dict_1ga64018c01d1e8c44d1d8c03dfb099f2c2" kind="define"><name>AV_DICT_APPEND</name></member>
+      <member refid="group__lavu__dict_1ga14e9f9a502fbd2990028fc47b494dc34" kind="define"><name>AV_DICT_MULTIKEY</name></member>
+      <member refid="group__lavu__dict_1gafab1a503680b8cbbdb37ced142e32b6d" kind="define"><name>AV_DICT_DEDUP</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kind="typedef"><name>AVDictionary</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__dict_1ga246f5c0ff557f9585bbc8c36efb57537" kind="function"><name>av_dict_get</name></member>
+      <member refid="group__lavu__dict_1ga363d73ef1c14dbbad5f40988809ac57a" kind="function"><name>av_dict_iterate</name></member>
+      <member refid="group__lavu__dict_1gad21456d6601aa096c7c78dce8848d50a" kind="function"><name>av_dict_count</name></member>
+      <member refid="group__lavu__dict_1ga8d9c2de72b310cef8e6a28c9cd3acbbe" kind="function"><name>av_dict_set</name></member>
+      <member refid="group__lavu__dict_1gafd013a88620b2da7d497b083f6ea7d29" kind="function"><name>av_dict_set_int</name></member>
+      <member refid="group__lavu__dict_1gaca5ff7c251e60bd13164d13c82f21b79" kind="function"><name>av_dict_parse_string</name></member>
+      <member refid="group__lavu__dict_1ga59a6372b124b306e3a2233723c5cdc78" kind="function"><name>av_dict_copy</name></member>
+      <member refid="group__lavu__dict_1ga1bafd682b1fbb90e48a4cc3814b820f7" kind="function"><name>av_dict_free</name></member>
+      <member refid="group__lavu__dict_1ga480ab3fb3ac6cae8e60e97f58ec30b66" kind="function"><name>av_dict_get_string</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Public dictionary API. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000006"><xreftitle>Deprecated</xreftitle><xrefdescription><para>AVDictionary is provided for compatibility with libav. It is both in implementation as well as API inefficient. It does not scale and is extremely slow with large dictionaries. It is recommended that new code uses our tree container from tree.c/h where applicable, which uses AVL trees to achieve O(log n) performance. </para>
+</xrefdescription></xrefsect></para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Public<sp/>dictionary<sp/>API.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@deprecated</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/>AVDictionary<sp/>is<sp/>provided<sp/>for<sp/>compatibility<sp/>with<sp/>libav.<sp/>It<sp/>is<sp/>both<sp/>in</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/><sp/>implementation<sp/>as<sp/>well<sp/>as<sp/>API<sp/>inefficient.<sp/>It<sp/>does<sp/>not<sp/>scale<sp/>and<sp/>is</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/><sp/>extremely<sp/>slow<sp/>with<sp/>large<sp/>dictionaries.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/>It<sp/>is<sp/>recommended<sp/>that<sp/>new<sp/>code<sp/>uses<sp/>our<sp/>tree<sp/>container<sp/>from<sp/>tree.c/h</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/>where<sp/>applicable,<sp/>which<sp/>uses<sp/>AVL<sp/>trees<sp/>to<sp/>achieve<sp/>O(log<sp/>n)<sp/>performance.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_DICT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_DICT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>@addtogroup<sp/>lavu_dict<sp/>AVDictionary</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_data</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>@brief<sp/>Simple<sp/>key:value<sp/>store</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>Dictionaries<sp/>are<sp/>used<sp/>for<sp/>storing<sp/>key-value<sp/>pairs.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>-<sp/>To<sp/>**create<sp/>an<sp/>AVDictionary**,<sp/>simply<sp/>pass<sp/>an<sp/>address<sp/>of<sp/>a<sp/>NULL</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/><sp/><sp/>pointer<sp/>to<sp/>av_dict_set().<sp/>NULL<sp/>can<sp/>be<sp/>used<sp/>as<sp/>an<sp/>empty<sp/>dictionary</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/><sp/><sp/>wherever<sp/>a<sp/>pointer<sp/>to<sp/>an<sp/>AVDictionary<sp/>is<sp/>required.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>-<sp/>To<sp/>**insert<sp/>an<sp/>entry**,<sp/>use<sp/>av_dict_set().</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>-<sp/>Use<sp/>av_dict_get()<sp/>to<sp/>**retrieve<sp/>an<sp/>entry**.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>-<sp/>To<sp/>**iterate<sp/>over<sp/>all<sp/>entries**,<sp/>use<sp/>av_dict_iterate().</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>-<sp/>In<sp/>order<sp/>to<sp/>**free<sp/>the<sp/>dictionary<sp/>and<sp/>all<sp/>its<sp/>contents**,<sp/>use<sp/>av_dict_free().</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>@code</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/>AVDictionary<sp/>*d<sp/>=<sp/>NULL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>&quot;create&quot;<sp/>an<sp/>empty<sp/>dictionary</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/>AVDictionaryEntry<sp/>*t<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/>av_dict_set(&amp;d,<sp/>&quot;foo&quot;,<sp/>&quot;bar&quot;,<sp/>0);<sp/>//<sp/>add<sp/>an<sp/>entry</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/>char<sp/>*k<sp/>=<sp/>av_strdup(&quot;key&quot;);<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>if<sp/>your<sp/>strings<sp/>are<sp/>already<sp/>allocated,</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/>char<sp/>*v<sp/>=<sp/>av_strdup(&quot;value&quot;);<sp/><sp/><sp/><sp/><sp/>//<sp/>you<sp/>can<sp/>avoid<sp/>copying<sp/>them<sp/>like<sp/>this</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/>av_dict_set(&amp;d,<sp/>k,<sp/>v,<sp/>AV_DICT_DONT_STRDUP_KEY<sp/>|<sp/>AV_DICT_DONT_STRDUP_VAL);</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/>while<sp/>((t<sp/>=<sp/>av_dict_iterate(d,<sp/>t)))<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;....&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>iterate<sp/>over<sp/>all<sp/>entries<sp/>in<sp/>d</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/>av_dict_free(&amp;d);</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>@endcode</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>@name<sp/>AVDictionary<sp/>Flags</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>Flags<sp/>that<sp/>influence<sp/>behavior<sp/>of<sp/>the<sp/>matching<sp/>of<sp/>keys<sp/>or<sp/>insertion<sp/>to<sp/>the<sp/>dictionary.</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="group__lavu__dict_1gad9cbc53cec515b72ae7caa2e194c6bc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_MATCH_CASE<sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>Only<sp/>get<sp/>an<sp/>entry<sp/>with<sp/>exact-case<sp/>key<sp/>match.<sp/>Only<sp/>relevant<sp/>in<sp/>av_dict_get().<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_IGNORE_SUFFIX<sp/><sp/><sp/>2<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>Return<sp/>first<sp/>entry<sp/>in<sp/>a<sp/>dictionary<sp/>whose<sp/>first<sp/>part<sp/>corresponds<sp/>to<sp/>the<sp/>search<sp/>key,</highlight></codeline>
+<codeline lineno="76" refid="group__lavu__dict_1ga341bbd1ea599dfb0510f419e5272fecc" refkind="member"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ignoring<sp/>the<sp/>suffix<sp/>of<sp/>the<sp/>found<sp/>key<sp/>string.<sp/>Only<sp/>relevant<sp/>in<sp/>av_dict_get().<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_DONT_STRDUP_KEY<sp/>4<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>Take<sp/>ownership<sp/>of<sp/>a<sp/>key<sp/>that&apos;s<sp/>been</highlight></codeline>
+<codeline lineno="78" refid="group__lavu__dict_1gacb0ce4f20c15bf174f93590ace0fc8fd" refkind="member"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allocated<sp/>with<sp/>av_malloc()<sp/>or<sp/>another<sp/>memory<sp/>allocation<sp/>function.<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_DONT_STRDUP_VAL<sp/>8<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>Take<sp/>ownership<sp/>of<sp/>a<sp/>value<sp/>that&apos;s<sp/>been</highlight></codeline>
+<codeline lineno="80" refid="group__lavu__dict_1ga7a9a991cb7837b10ffd44725263de425" refkind="member"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allocated<sp/>with<sp/>av_malloc()<sp/>or<sp/>another<sp/>memory<sp/>allocation<sp/>function.<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="group__lavu__dict_1ga8ed4237acfc3d68484301a5d1859936c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_DONT_OVERWRITE<sp/>16<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>Don&apos;t<sp/>overwrite<sp/>existing<sp/>entries.<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_APPEND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>If<sp/>the<sp/>entry<sp/>already<sp/>exists,<sp/>append<sp/>to<sp/>it.<sp/><sp/>Note<sp/>that<sp/>no</highlight></codeline>
+<codeline lineno="83" refid="group__lavu__dict_1ga64018c01d1e8c44d1d8c03dfb099f2c2" refkind="member"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delimiter<sp/>is<sp/>added,<sp/>the<sp/>strings<sp/>are<sp/>simply<sp/>concatenated.<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="group__lavu__dict_1ga14e9f9a502fbd2990028fc47b494dc34" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_MULTIKEY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>64<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>Allow<sp/>to<sp/>store<sp/>several<sp/>equal<sp/>keys<sp/>in<sp/>the<sp/>dictionary<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="group__lavu__dict_1gafab1a503680b8cbbdb37ced142e32b6d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_DICT_DEDUP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>128<sp/><sp/><sp/></highlight><highlight class="comment">/**&lt;<sp/>If<sp/>inserting<sp/>a<sp/>value<sp/>that<sp/>already<sp/>exists<sp/>for<sp/>a<sp/>key,<sp/>do<sp/>nothing.<sp/>Only<sp/>relevant<sp/>with<sp/>AV_DICT_MULTIKEY.<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="86"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="structAVDictionaryEntry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDictionaryEntry" kindref="compound">AVDictionaryEntry</ref><sp/>{</highlight></codeline>
+<codeline lineno="91" refid="structAVDictionaryEntry_1a38fc80176f8f839282bb61c03392e194" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVDictionaryEntry_1a38fc80176f8f839282bb61c03392e194" kindref="member">key</ref>;</highlight></codeline>
+<codeline lineno="92" refid="structAVDictionaryEntry_1aa38678f2cad36f120d42e56449c5edb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structAVDictionaryEntry_1aa38678f2cad36f120d42e56449c5edb4" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}<sp/><ref refid="structAVDictionaryEntry" kindref="compound">AVDictionaryEntry</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="97"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>Get<sp/>a<sp/>dictionary<sp/>entry<sp/>with<sp/>matching<sp/>key.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>The<sp/>returned<sp/>entry<sp/>key<sp/>or<sp/>value<sp/>must<sp/>not<sp/>be<sp/>changed,<sp/>or<sp/>it<sp/>will</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>cause<sp/>undefined<sp/>behavior.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>@param<sp/>prev<sp/><sp/>Set<sp/>to<sp/>the<sp/>previous<sp/>matching<sp/>element<sp/>to<sp/>find<sp/>the<sp/>next.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>set<sp/>to<sp/>NULL<sp/>the<sp/>first<sp/>matching<sp/>element<sp/>is<sp/>returned.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>@param<sp/>key<sp/><sp/><sp/>Matching<sp/>key</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/>A<sp/>collection<sp/>of<sp/>AV_DICT_*<sp/>flags<sp/>controlling<sp/>how<sp/>the</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entry<sp/>is<sp/>retrieved</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/>Found<sp/>entry<sp/>or<sp/>NULL<sp/>in<sp/>case<sp/>no<sp/>matching<sp/>entry<sp/>was<sp/>found<sp/>in<sp/>the<sp/>dictionary</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__lavu__dict_1ga246f5c0ff557f9585bbc8c36efb57537" refkind="member"><highlight class="normal"><ref refid="structAVDictionaryEntry" kindref="compound">AVDictionaryEntry</ref><sp/>*<ref refid="group__lavu__dict_1ga246f5c0ff557f9585bbc8c36efb57537" kindref="member">av_dict_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDictionaryEntry" kindref="compound">AVDictionaryEntry</ref><sp/>*prev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="114"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>Iterate<sp/>over<sp/>a<sp/>dictionary</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*<sp/>Iterates<sp/>through<sp/>all<sp/>entries<sp/>in<sp/>the<sp/>dictionary.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>@warning<sp/>The<sp/>returned<sp/>AVDictionaryEntry<sp/>key/value<sp/>must<sp/>not<sp/>be<sp/>changed.</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>@warning<sp/>As<sp/>av_dict_set()<sp/>invalidates<sp/>all<sp/>previous<sp/>entries<sp/>returned</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>by<sp/>this<sp/>function,<sp/>it<sp/>must<sp/>not<sp/>be<sp/>called<sp/>while<sp/>iterating<sp/>over<sp/>the<sp/>dict.</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/>Typical<sp/>usage:</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/>@code</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>const<sp/>AVDictionaryEntry<sp/>*e<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>while<sp/>((e<sp/>=<sp/>av_dict_iterate(m,<sp/>e)))<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>//<sp/>...</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>@param<sp/>m<sp/><sp/><sp/><sp/><sp/>The<sp/>dictionary<sp/>to<sp/>iterate<sp/>over</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>@param<sp/>prev<sp/><sp/>Pointer<sp/>to<sp/>the<sp/>previous<sp/>AVDictionaryEntry,<sp/>NULL<sp/>initially</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/>@retval<sp/>AVDictionaryEntry*<sp/>The<sp/>next<sp/>element<sp/>in<sp/>the<sp/>dictionary</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/>@retval<sp/>NULL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>No<sp/>more<sp/>elements<sp/>in<sp/>the<sp/>dictionary</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="group__lavu__dict_1ga363d73ef1c14dbbad5f40988809ac57a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDictionaryEntry" kindref="compound">AVDictionaryEntry</ref><sp/>*<ref refid="group__lavu__dict_1ga363d73ef1c14dbbad5f40988809ac57a" kindref="member">av_dict_iterate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*m,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVDictionaryEntry" kindref="compound">AVDictionaryEntry</ref><sp/>*prev);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="141"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/>*<sp/>Get<sp/>number<sp/>of<sp/>entries<sp/>in<sp/>dictionary.</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*<sp/>@param<sp/>m<sp/>dictionary</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/>number<sp/>of<sp/>entries<sp/>in<sp/>dictionary</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="group__lavu__dict_1gad21456d6601aa096c7c78dce8848d50a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1gad21456d6601aa096c7c78dce8848d50a" kindref="member">av_dict_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*m);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="149"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*<sp/>Set<sp/>the<sp/>given<sp/>entry<sp/>in<sp/>*pm,<sp/>overwriting<sp/>an<sp/>existing<sp/>entry.</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>Note:<sp/>If<sp/>AV_DICT_DONT_STRDUP_KEY<sp/>or<sp/>AV_DICT_DONT_STRDUP_VAL<sp/>is<sp/>set,</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>these<sp/>arguments<sp/>will<sp/>be<sp/>freed<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>@warning<sp/>Adding<sp/>a<sp/>new<sp/>entry<sp/>to<sp/>a<sp/>dictionary<sp/>invalidates<sp/>all<sp/>existing<sp/>entries</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>previously<sp/>returned<sp/>with<sp/>av_dict_get()<sp/>or<sp/>av_dict_iterate().</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*<sp/>@param<sp/>pm<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pointer<sp/>to<sp/>a<sp/>pointer<sp/>to<sp/>a<sp/>dictionary<sp/>struct.<sp/>If<sp/>*pm<sp/>is<sp/>NULL</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>dictionary<sp/>struct<sp/>is<sp/>allocated<sp/>and<sp/>put<sp/>in<sp/>*pm.</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>*<sp/>@param<sp/>key<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entry<sp/>key<sp/>to<sp/>add<sp/>to<sp/>*pm<sp/>(will<sp/>either<sp/>be<sp/>av_strduped<sp/>or<sp/>added<sp/>as<sp/>a<sp/>new<sp/>key<sp/>depending<sp/>on<sp/>flags)</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*<sp/>@param<sp/>value<sp/><sp/><sp/><sp/><sp/>Entry<sp/>value<sp/>to<sp/>add<sp/>to<sp/>*pm<sp/>(will<sp/>be<sp/>av_strduped<sp/>or<sp/>added<sp/>as<sp/>a<sp/>new<sp/>key<sp/>depending<sp/>on<sp/>flags).</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Passing<sp/>a<sp/>NULL<sp/>value<sp/>will<sp/>cause<sp/>an<sp/>existing<sp/>entry<sp/>to<sp/>be<sp/>deleted.</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;=<sp/>0<sp/>on<sp/>success<sp/>otherwise<sp/>an<sp/>error<sp/>code<sp/>&lt;0</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="group__lavu__dict_1ga8d9c2de72b310cef8e6a28c9cd3acbbe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga8d9c2de72b310cef8e6a28c9cd3acbbe" kindref="member">av_dict_set</ref>(<ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>**pm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="168"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*<sp/>Convenience<sp/>wrapper<sp/>for<sp/>av_dict_set()<sp/>that<sp/>converts<sp/>the<sp/>value<sp/>to<sp/>a<sp/>string</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/>and<sp/>stores<sp/>it.</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>*<sp/>Note:<sp/>If<sp/>::AV_DICT_DONT_STRDUP_KEY<sp/>is<sp/>set,<sp/>key<sp/>will<sp/>be<sp/>freed<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="group__lavu__dict_1gafd013a88620b2da7d497b083f6ea7d29" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1gafd013a88620b2da7d497b083f6ea7d29" kindref="member">av_dict_set_int</ref>(<ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>**pm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/>int64_t<sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="176"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*<sp/>Parse<sp/>the<sp/>key/value<sp/>pairs<sp/>list<sp/>and<sp/>add<sp/>the<sp/>parsed<sp/>entries<sp/>to<sp/>a<sp/>dictionary.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*<sp/>In<sp/>case<sp/>of<sp/>failure,<sp/>all<sp/>the<sp/>successfully<sp/>set<sp/>entries<sp/>are<sp/>stored<sp/>in</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*<sp/>*pm.<sp/>You<sp/>may<sp/>need<sp/>to<sp/>manually<sp/>free<sp/>the<sp/>created<sp/>dictionary.</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/>*<sp/>@param<sp/>key_val_sep<sp/><sp/>A<sp/>0-terminated<sp/>list<sp/>of<sp/>characters<sp/>used<sp/>to<sp/>separate</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key<sp/>from<sp/>value</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>*<sp/>@param<sp/>pairs_sep<sp/><sp/><sp/><sp/>A<sp/>0-terminated<sp/>list<sp/>of<sp/>characters<sp/>used<sp/>to<sp/>separate</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>two<sp/>pairs<sp/>from<sp/>each<sp/>other</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Flags<sp/>to<sp/>use<sp/>when<sp/>adding<sp/>to<sp/>the<sp/>dictionary.</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::AV_DICT_DONT_STRDUP_KEY<sp/>and<sp/>::AV_DICT_DONT_STRDUP_VAL</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>are<sp/>ignored<sp/>since<sp/>the<sp/>key/value<sp/>tokens<sp/>will<sp/>always</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>be<sp/>duplicated.</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>on<sp/>success,<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="group__lavu__dict_1gaca5ff7c251e60bd13164d13c82f21b79" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1gaca5ff7c251e60bd13164d13c82f21b79" kindref="member">av_dict_parse_string</ref>(<ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>**pm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_val_sep,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pairs_sep,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="197"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*<sp/>Copy<sp/>entries<sp/>from<sp/>one<sp/>AVDictionary<sp/>struct<sp/>into<sp/>another.</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*<sp/>@note<sp/>Metadata<sp/>is<sp/>read<sp/>using<sp/>the<sp/>::AV_DICT_IGNORE_SUFFIX<sp/>flag</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/>@param<sp/>dst<sp/><sp/><sp/>Pointer<sp/>to<sp/>a<sp/>pointer<sp/>to<sp/>a<sp/>AVDictionary<sp/>struct<sp/>to<sp/>copy<sp/>into.<sp/>If<sp/>*dst<sp/>is<sp/>NULL,</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this<sp/>function<sp/>will<sp/>allocate<sp/>a<sp/>struct<sp/>for<sp/>you<sp/>and<sp/>put<sp/>it<sp/>in<sp/>*dst</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/>*<sp/>@param<sp/>src<sp/><sp/><sp/>Pointer<sp/>to<sp/>the<sp/>source<sp/>AVDictionary<sp/>struct<sp/>to<sp/>copy<sp/>items<sp/>from.</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/>Flags<sp/>to<sp/>use<sp/>when<sp/>setting<sp/>entries<sp/>in<sp/>*dst</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>*<sp/>@return<sp/>0<sp/>on<sp/>success,<sp/>negative<sp/>AVERROR<sp/>code<sp/>on<sp/>failure.<sp/>If<sp/>dst<sp/>was<sp/>allocated</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>by<sp/>this<sp/>function,<sp/>callers<sp/>should<sp/>free<sp/>the<sp/>associated<sp/>memory.</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="group__lavu__dict_1ga59a6372b124b306e3a2233723c5cdc78" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga59a6372b124b306e3a2233723c5cdc78" kindref="member">av_dict_copy</ref>(<ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>**dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="212"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*<sp/>Free<sp/>all<sp/>the<sp/>memory<sp/>allocated<sp/>for<sp/>an<sp/>AVDictionary<sp/>struct</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*<sp/>and<sp/>all<sp/>keys<sp/>and<sp/>values.</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="group__lavu__dict_1ga1bafd682b1fbb90e48a4cc3814b820f7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga1bafd682b1fbb90e48a4cc3814b820f7" kindref="member">av_dict_free</ref>(<ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>**m);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="218"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/>*<sp/>Get<sp/>dictionary<sp/>entries<sp/>as<sp/>a<sp/>string.</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/>*<sp/>Create<sp/>a<sp/>string<sp/>containing<sp/>dictionary&apos;s<sp/>entries.</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>*<sp/>Such<sp/>string<sp/>may<sp/>be<sp/>passed<sp/>back<sp/>to<sp/>av_dict_parse_string().</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>*<sp/>@note<sp/>String<sp/>is<sp/>escaped<sp/>with<sp/>backslashes<sp/>(&apos;\&apos;).</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*<sp/>@warning<sp/>Separators<sp/>cannot<sp/>be<sp/>neither<sp/>&apos;\\&apos;<sp/>nor<sp/>&apos;\0&apos;.<sp/>They<sp/>also<sp/>cannot<sp/>be<sp/>the<sp/>same.</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/>m<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>dictionary</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>buffer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pointer<sp/>to<sp/>buffer<sp/>that<sp/>will<sp/>be<sp/>allocated<sp/>with<sp/>string<sp/>containg<sp/>entries.</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Buffer<sp/>must<sp/>be<sp/>freed<sp/>by<sp/>the<sp/>caller<sp/>when<sp/>is<sp/>no<sp/>longer<sp/>needed.</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/>key_val_sep<sp/><sp/><sp/>Character<sp/>used<sp/>to<sp/>separate<sp/>key<sp/>from<sp/>value</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/>pairs_sep<sp/><sp/><sp/><sp/><sp/>Character<sp/>used<sp/>to<sp/>separate<sp/>two<sp/>pairs<sp/>from<sp/>each<sp/>other</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;=<sp/>0<sp/>on<sp/>success,<sp/>negative<sp/>on<sp/>error</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="group__lavu__dict_1ga480ab3fb3ac6cae8e60e97f58ec30b66" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga480ab3fb3ac6cae8e60e97f58ec30b66" kindref="member">av_dict_get_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__lavu__dict_1ga1d7cc0833bee918994a600556410315f" kindref="member">AVDictionary</ref><sp/>*m,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**buffer,</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>key_val_sep,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>pairs_sep);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="238"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_DICT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/dict.h"/>
+  </compounddef>
+</doxygen>

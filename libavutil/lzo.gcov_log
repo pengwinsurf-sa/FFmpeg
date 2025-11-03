@@ -1,0 +1,21 @@
+Function 'av_lzo1x_decode'
+Lines executed:0.00% of 61
+
+Function 'copy_backptr'
+Lines executed:0.00% of 11
+
+Function 'copy'
+Lines executed:0.00% of 21
+
+Function 'get_len'
+Lines executed:0.00% of 15
+
+File 'libavutil/lzo.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#lzo.gcno##libavutil#lzo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#lzo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 108

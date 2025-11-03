@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hash_8h" kind="file" language="C++">
+    <compoundname>hash.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/hash.h</label>
+        <link refid="hash_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <member refid="group__lavu__hash__generic_1gaff5173f8837eb3afbd20b52528833d72" kind="define"><name>AV_HASH_MAX_SIZE</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavu__hash__generic_1gad1e018687f3a0e9baf3fb6d3af0dd10b" kind="function"><name>av_hash_alloc</name></member>
+      <member refid="group__lavu__hash__generic_1gadd204c00234c1f0ed710376a448bc77d" kind="function"><name>av_hash_names</name></member>
+      <member refid="group__lavu__hash__generic_1ga5e12e548f508b11d02ec29abbabe8cb5" kind="function"><name>av_hash_get_name</name></member>
+      <member refid="group__lavu__hash__generic_1ga8bf8f94e3ebf73f838d017f83352d880" kind="function"><name>av_hash_get_size</name></member>
+      <member refid="group__lavu__hash__generic_1ga84ef872a731eb5c2637ddcd0f0976bca" kind="function"><name>av_hash_init</name></member>
+      <member refid="group__lavu__hash__generic_1gaa94897ebd6e994788dbc1bf98fb935f3" kind="function"><name>av_hash_update</name></member>
+      <member refid="group__lavu__hash__generic_1gaeff9a69f576f8f94e33a0b43a08baa70" kind="function"><name>av_hash_final</name></member>
+      <member refid="group__lavu__hash__generic_1ga65e1a59bf9c2076eda5884e89249af12" kind="function"><name>av_hash_final_bin</name></member>
+      <member refid="group__lavu__hash__generic_1ga8316ebcbe11caebc88b4c4afc0eef16c" kind="function"><name>av_hash_final_hex</name></member>
+      <member refid="group__lavu__hash__generic_1ga2300a29e15fd439bcac2f9bc35b730ca" kind="function"><name>av_hash_final_b64</name></member>
+      <member refid="group__lavu__hash__generic_1ga1e8bac529966e9af25f3608d3a1515ab" kind="function"><name>av_hash_freep</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Generic hashing API. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2013<sp/>Reimar<sp/>Döffinger<sp/>&lt;Reimar.Doeffinger@gmx.de&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_hash_generic</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Generic<sp/>hashing<sp/>API</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HASH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HASH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_hash<sp/>Hash<sp/>Functions</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavu_crypto</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>Hash<sp/>functions<sp/>useful<sp/>in<sp/>multimedia.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>Hash<sp/>functions<sp/>are<sp/>widely<sp/>used<sp/>in<sp/>multimedia,<sp/>from<sp/>error<sp/>checking<sp/>and</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>concealment<sp/>to<sp/>internal<sp/>regression<sp/>testing.<sp/>libavutil<sp/>has<sp/>efficient</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>implementations<sp/>of<sp/>a<sp/>variety<sp/>of<sp/>hash<sp/>functions<sp/>that<sp/>may<sp/>be<sp/>useful<sp/>for</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>and<sp/>other<sp/>multimedia<sp/>applications.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavu_hash_generic<sp/>Generic<sp/>Hashing<sp/>API</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>An<sp/>abstraction<sp/>layer<sp/>for<sp/>all<sp/>hash<sp/>functions<sp/>supported<sp/>by<sp/>libavutil.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>If<sp/>your<sp/>application<sp/>needs<sp/>to<sp/>support<sp/>a<sp/>wide<sp/>range<sp/>of<sp/>different<sp/>hash</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>functions,<sp/>then<sp/>the<sp/>Generic<sp/>Hashing<sp/>API<sp/>is<sp/>for<sp/>you.<sp/>It<sp/>provides<sp/>a<sp/>generic,</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>reusable<sp/>API<sp/>for<sp/>@ref<sp/>lavu_hash<sp/>&quot;all<sp/>hash<sp/>functions&quot;<sp/>implemented<sp/>in<sp/>libavutil.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>If<sp/>you<sp/>just<sp/>need<sp/>to<sp/>use<sp/>one<sp/>particular<sp/>hash<sp/>function,<sp/>use<sp/>the<sp/>@ref<sp/>lavu_hash</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>&quot;individual<sp/>hash&quot;<sp/>directly.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>@section<sp/>Sample<sp/>Code</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>A<sp/>basic<sp/>template<sp/>for<sp/>using<sp/>the<sp/>Generic<sp/>Hashing<sp/>API<sp/>follows:</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>@code</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>struct<sp/>AVHashContext<sp/>*ctx<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>const<sp/>char<sp/>*hash_name<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>uint8_t<sp/>*output_buf<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>//<sp/>Select<sp/>from<sp/>a<sp/>string<sp/>returned<sp/>by<sp/>av_hash_names()</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>hash_name<sp/>=<sp/>...;</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*<sp/>//<sp/>Allocate<sp/>a<sp/>hash<sp/>context</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>ret<sp/>=<sp/>av_hash_alloc(&amp;ctx,<sp/>hash_name);</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>if<sp/>(ret<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>return<sp/>ret;</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>//<sp/>Initialize<sp/>the<sp/>hash<sp/>context</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>av_hash_init(ctx);</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>//<sp/>Update<sp/>the<sp/>hash<sp/>context<sp/>with<sp/>data</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>while<sp/>(data_left)<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>av_hash_update(ctx,<sp/>data,<sp/>size);</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*<sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/>//<sp/>Now<sp/>we<sp/>have<sp/>no<sp/>more<sp/>data,<sp/>so<sp/>it<sp/>is<sp/>time<sp/>to<sp/>finalize<sp/>the<sp/>hash<sp/>and<sp/>get<sp/>the</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>//<sp/>output.<sp/>But<sp/>we<sp/>need<sp/>to<sp/>first<sp/>allocate<sp/>an<sp/>output<sp/>buffer.<sp/>Note<sp/>that<sp/>you<sp/>can</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>//<sp/>use<sp/>any<sp/>memory<sp/>allocation<sp/>function,<sp/>including<sp/>malloc(),<sp/>not<sp/>just</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>//<sp/>av_malloc().</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>output_buf<sp/>=<sp/>av_malloc(av_hash_get_size(ctx));</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>if<sp/>(!output_buf)</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>return<sp/>AVERROR(ENOMEM);</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>//<sp/>Finalize<sp/>the<sp/>hash<sp/>context.</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>//<sp/>You<sp/>can<sp/>use<sp/>any<sp/>of<sp/>the<sp/>av_hash_final*()<sp/>functions<sp/>provided,<sp/>for<sp/>other</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>//<sp/>output<sp/>formats.<sp/>If<sp/>you<sp/>do<sp/>so,<sp/>be<sp/>sure<sp/>to<sp/>adjust<sp/>the<sp/>memory<sp/>allocation</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>//<sp/>above.<sp/>See<sp/>the<sp/>function<sp/>documentation<sp/>below<sp/>for<sp/>the<sp/>exact<sp/>amount<sp/>of<sp/>extra</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>//<sp/>memory<sp/>needed.</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>av_hash_final(ctx,<sp/>output_buffer);</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>//<sp/>Free<sp/>the<sp/>context</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>av_hash_freep(&amp;ctx);</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>@endcode</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>@section<sp/>Hash<sp/>Function-Specific<sp/>Information</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>CRC32<sp/>hash<sp/>is<sp/>selected,<sp/>the<sp/>#AV_CRC_32_IEEE<sp/>polynomial<sp/>will<sp/>be</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>used.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>If<sp/>the<sp/>Murmur3<sp/>hash<sp/>is<sp/>selected,<sp/>the<sp/>default<sp/>seed<sp/>will<sp/>be<sp/>used.<sp/>See<sp/>@ref</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>lavu_murmur3_seedinfo<sp/>&quot;Murmur3&quot;<sp/>for<sp/>more<sp/>information.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="108"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>@example<sp/>ffhash.c</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>This<sp/>example<sp/>is<sp/>a<sp/>simple<sp/>command<sp/>line<sp/>application<sp/>that<sp/>takes<sp/>one<sp/>or<sp/>more</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>arguments.<sp/>It<sp/>demonstrates<sp/>a<sp/>typical<sp/>use<sp/>of<sp/>the<sp/>hashing<sp/>API<sp/>with<sp/>allocation,</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*<sp/>initialization,<sp/>updating,<sp/>and<sp/>finalizing.</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">AVHashContext;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="117"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>a<sp/>hash<sp/>context<sp/>for<sp/>the<sp/>algorithm<sp/>specified<sp/>by<sp/>name.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/>&gt;=<sp/>0<sp/>for<sp/>success,<sp/>a<sp/>negative<sp/>error<sp/>code<sp/>for<sp/>failure</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>@note<sp/>The<sp/>context<sp/>is<sp/>not<sp/>initialized<sp/>after<sp/>a<sp/>call<sp/>to<sp/>this<sp/>function;<sp/>you<sp/>must</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>call<sp/>av_hash_init()<sp/>to<sp/>do<sp/>so.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="group__lavu__hash__generic_1gad1e018687f3a0e9baf3fb6d3af0dd10b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1gad1e018687f3a0e9baf3fb6d3af0dd10b" kindref="member">av_hash_alloc</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>**ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="127"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>names<sp/>of<sp/>available<sp/>hash<sp/>algorithms.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>can<sp/>be<sp/>used<sp/>to<sp/>enumerate<sp/>the<sp/>algorithms.</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/>i<sp/><sp/>Index<sp/>of<sp/>the<sp/>hash<sp/>algorithm,<sp/>starting<sp/>from<sp/>0</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pointer<sp/>to<sp/>a<sp/>static<sp/>string<sp/>or<sp/>`NULL`<sp/>if<sp/>`i`<sp/>is<sp/>out<sp/>of<sp/>range</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="group__lavu__hash__generic_1gadd204c00234c1f0ed710376a448bc77d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavu__hash__generic_1gadd204c00234c1f0ed710376a448bc77d" kindref="member">av_hash_names</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="137"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>name<sp/>of<sp/>the<sp/>algorithm<sp/>corresponding<sp/>to<sp/>the<sp/>given<sp/>hash<sp/>context.</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="group__lavu__hash__generic_1ga5e12e548f508b11d02ec29abbabe8cb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__lavu__hash__generic_1ga5e12e548f508b11d02ec29abbabe8cb5" kindref="member">av_hash_get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="142"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*<sp/>Maximum<sp/>value<sp/>that<sp/>av_hash_get_size()<sp/>will<sp/>currently<sp/>return.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>You<sp/>can<sp/>use<sp/>this<sp/>if<sp/>you<sp/>absolutely<sp/>want<sp/>or<sp/>need<sp/>to<sp/>use<sp/>static<sp/>allocation<sp/>for</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>the<sp/>output<sp/>buffer<sp/>and<sp/>are<sp/>fine<sp/>with<sp/>not<sp/>supporting<sp/>hashes<sp/>newly<sp/>added<sp/>to</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>libavutil<sp/>without<sp/>recompilation.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*<sp/>@warning</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*<sp/>Adding<sp/>new<sp/>hashes<sp/>with<sp/>larger<sp/>sizes,<sp/>and<sp/>increasing<sp/>the<sp/>macro<sp/>while<sp/>doing</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*<sp/>so,<sp/>will<sp/>not<sp/>be<sp/>considered<sp/>an<sp/>ABI<sp/>change.<sp/>To<sp/>prevent<sp/>your<sp/>code<sp/>from</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>overflowing<sp/>a<sp/>buffer,<sp/>either<sp/>dynamically<sp/>allocate<sp/>the<sp/>output<sp/>buffer<sp/>with</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>av_hash_get_size(),<sp/>or<sp/>limit<sp/>your<sp/>use<sp/>of<sp/>the<sp/>Hashing<sp/>API<sp/>to<sp/>hashes<sp/>that<sp/>are</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*<sp/>already<sp/>in<sp/>FFmpeg<sp/>during<sp/>the<sp/>time<sp/>of<sp/>compilation.</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="group__lavu__hash__generic_1gaff5173f8837eb3afbd20b52528833d72" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_HASH_MAX_SIZE<sp/>64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="158"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>size<sp/>of<sp/>the<sp/>resulting<sp/>hash<sp/>value<sp/>in<sp/>bytes.</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*<sp/>The<sp/>maximum<sp/>value<sp/>this<sp/>function<sp/>will<sp/>currently<sp/>return<sp/>is<sp/>available<sp/>as<sp/>macro</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*<sp/>#AV_HASH_MAX_SIZE.</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>ctx<sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Size<sp/>of<sp/>the<sp/>hash<sp/>value<sp/>in<sp/>bytes</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="group__lavu__hash__generic_1ga8bf8f94e3ebf73f838d017f83352d880" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1ga8bf8f94e3ebf73f838d017f83352d880" kindref="member">av_hash_get_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="169"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/>Initialize<sp/>or<sp/>reset<sp/>a<sp/>hash<sp/>context.</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="group__lavu__hash__generic_1ga84ef872a731eb5c2637ddcd0f0976bca" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1ga84ef872a731eb5c2637ddcd0f0976bca" kindref="member">av_hash_init</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="176"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/>*<sp/>Update<sp/>a<sp/>hash<sp/>context<sp/>with<sp/>additional<sp/>data.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>src<sp/>Data<sp/>to<sp/>be<sp/>added<sp/>to<sp/>the<sp/>hash<sp/>context</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>len<sp/>Size<sp/>of<sp/>the<sp/>additional<sp/>data</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="group__lavu__hash__generic_1gaa94897ebd6e994788dbc1bf98fb935f3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1gaa94897ebd6e994788dbc1bf98fb935f3" kindref="member">av_hash_update</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="185"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*<sp/>Finalize<sp/>a<sp/>hash<sp/>context<sp/>and<sp/>compute<sp/>the<sp/>actual<sp/>hash<sp/>value.</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*<sp/>The<sp/>minimum<sp/>size<sp/>of<sp/>`dst`<sp/>buffer<sp/>is<sp/>given<sp/>by<sp/>av_hash_get_size()<sp/>or</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/>#AV_HASH_MAX_SIZE.<sp/>The<sp/>use<sp/>of<sp/>the<sp/>latter<sp/>macro<sp/>is<sp/>discouraged.</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>not<sp/>safe<sp/>to<sp/>update<sp/>or<sp/>finalize<sp/>a<sp/>hash<sp/>context<sp/>again,<sp/>if<sp/>it<sp/>has<sp/>already</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*<sp/>been<sp/>finalized.</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/><sp/><sp/><sp/>dst<sp/>Where<sp/>the<sp/>final<sp/>hash<sp/>value<sp/>will<sp/>be<sp/>stored</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/>*<sp/>@see<sp/>av_hash_final_bin()<sp/>provides<sp/>an<sp/>alternative<sp/>API</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="group__lavu__hash__generic_1gaeff9a69f576f8f94e33a0b43a08baa70" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1gaeff9a69f576f8f94e33a0b43a08baa70" kindref="member">av_hash_final</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx,<sp/>uint8_t<sp/>*dst);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="201"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/>Finalize<sp/>a<sp/>hash<sp/>context<sp/>and<sp/>store<sp/>the<sp/>actual<sp/>hash<sp/>value<sp/>in<sp/>a<sp/>buffer.</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>not<sp/>safe<sp/>to<sp/>update<sp/>or<sp/>finalize<sp/>a<sp/>hash<sp/>context<sp/>again,<sp/>if<sp/>it<sp/>has<sp/>already</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/>*<sp/>been<sp/>finalized.</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>*<sp/>If<sp/>`size`<sp/>is<sp/>smaller<sp/>than<sp/>the<sp/>hash<sp/>size<sp/>(given<sp/>by<sp/>av_hash_get_size()),<sp/>the</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*<sp/>hash<sp/>is<sp/>truncated;<sp/>if<sp/>size<sp/>is<sp/>larger,<sp/>the<sp/>buffer<sp/>is<sp/>padded<sp/>with<sp/>0.</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/><sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/><sp/><sp/><sp/>dst<sp/><sp/>Where<sp/>the<sp/>final<sp/>hash<sp/>value<sp/>will<sp/>be<sp/>stored</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>size<sp/>Number<sp/>of<sp/>bytes<sp/>to<sp/>write<sp/>to<sp/>`dst`</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="group__lavu__hash__generic_1ga65e1a59bf9c2076eda5884e89249af12" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1ga65e1a59bf9c2076eda5884e89249af12" kindref="member">av_hash_final_bin</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx,<sp/>uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="216"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/>*<sp/>Finalize<sp/>a<sp/>hash<sp/>context<sp/>and<sp/>store<sp/>the<sp/>hexadecimal<sp/>representation<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/>*<sp/>actual<sp/>hash<sp/>value<sp/>as<sp/>a<sp/>string.</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>not<sp/>safe<sp/>to<sp/>update<sp/>or<sp/>finalize<sp/>a<sp/>hash<sp/>context<sp/>again,<sp/>if<sp/>it<sp/>has<sp/>already</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/>*<sp/>been<sp/>finalized.</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>*<sp/>The<sp/>string<sp/>is<sp/>always<sp/>0-terminated.</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*<sp/>If<sp/>`size`<sp/>is<sp/>smaller<sp/>than<sp/>`2<sp/>*<sp/>hash_size<sp/>+<sp/>1`,<sp/>where<sp/>`hash_size`<sp/>is<sp/>the</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*<sp/>value<sp/>returned<sp/>by<sp/>av_hash_get_size(),<sp/>the<sp/>string<sp/>will<sp/>be<sp/>truncated.</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/><sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/><sp/><sp/><sp/>dst<sp/><sp/>Where<sp/>the<sp/>string<sp/>will<sp/>be<sp/>stored</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>size<sp/>Maximum<sp/>number<sp/>of<sp/>bytes<sp/>to<sp/>write<sp/>to<sp/>`dst`</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="group__lavu__hash__generic_1ga8316ebcbe11caebc88b4c4afc0eef16c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1ga8316ebcbe11caebc88b4c4afc0eef16c" kindref="member">av_hash_final_hex</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx,<sp/>uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="234"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/>*<sp/>Finalize<sp/>a<sp/>hash<sp/>context<sp/>and<sp/>store<sp/>the<sp/>Base64<sp/>representation<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/>*<sp/>actual<sp/>hash<sp/>value<sp/>as<sp/>a<sp/>string.</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>not<sp/>safe<sp/>to<sp/>update<sp/>or<sp/>finalize<sp/>a<sp/>hash<sp/>context<sp/>again,<sp/>if<sp/>it<sp/>has<sp/>already</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*<sp/>been<sp/>finalized.</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*<sp/>The<sp/>string<sp/>is<sp/>always<sp/>0-terminated.</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/>*<sp/>If<sp/>`size`<sp/>is<sp/>smaller<sp/>than<sp/>AV_BASE64_SIZE(hash_size),<sp/>where<sp/>`hash_size`<sp/>is</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/>*<sp/>the<sp/>value<sp/>returned<sp/>by<sp/>av_hash_get_size(),<sp/>the<sp/>string<sp/>will<sp/>be<sp/>truncated.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/><sp/>Hash<sp/>context</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/><sp/><sp/><sp/>dst<sp/><sp/>Where<sp/>the<sp/>final<sp/>hash<sp/>value<sp/>will<sp/>be<sp/>stored</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/><sp/>size<sp/>Maximum<sp/>number<sp/>of<sp/>bytes<sp/>to<sp/>write<sp/>to<sp/>`dst`</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="group__lavu__hash__generic_1ga2300a29e15fd439bcac2f9bc35b730ca" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1ga2300a29e15fd439bcac2f9bc35b730ca" kindref="member">av_hash_final_b64</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>*ctx,<sp/>uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="252"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/>*<sp/>Free<sp/>hash<sp/>context<sp/>and<sp/>set<sp/>hash<sp/>context<sp/>pointer<sp/>to<sp/>`NULL`.</highlight></codeline>
+<codeline lineno="254"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/>*<sp/>@param[in,out]<sp/>ctx<sp/><sp/>Pointer<sp/>to<sp/>hash<sp/>context</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="group__lavu__hash__generic_1ga1e8bac529966e9af25f3608d3a1515ab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavu__hash__generic_1ga1e8bac529966e9af25f3608d3a1515ab" kindref="member">av_hash_freep</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>AVHashContext<sp/>**ctx);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="259"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HASH_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hash.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+Function 'amr_parse_sdp_line'
+Lines executed:0.00% of 10
+
+Function 'amr_parse_fmtp'
+Lines executed:0.00% of 15
+
+Function 'amr_handle_packet'
+Lines executed:0.00% of 44
+
+Function 'amr_init'
+Lines executed:0.00% of 3
+
+File 'libavformat/rtpdec_amr.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_amr.gcno##libavformat#rtpdec_amr.c.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_amr.gcno###usr#include#stdlib.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_amr.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 72

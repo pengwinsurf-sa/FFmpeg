@@ -1,0 +1,20 @@
+Function 'ff_timefilter_eval'
+Lines executed:0.00% of 2
+
+Function 'ff_timefilter_update'
+Lines executed:0.00% of 10
+
+Function 'ff_timefilter_reset'
+Lines executed:0.00% of 3
+
+Function 'ff_timefilter_destroy'
+Lines executed:0.00% of 3
+
+Function 'ff_timefilter_new'
+Lines executed:0.00% of 10
+
+File 'libavdevice/timefilter.c'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#timefilter.gcno##libavdevice#timefilter.c.gcov'
+
+Lines executed:0.00% of 28

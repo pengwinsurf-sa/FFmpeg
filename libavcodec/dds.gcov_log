@@ -1,0 +1,26 @@
+Function 'dds_decode'
+Lines executed:0.00% of 96
+
+Function 'run_postproc'
+Lines executed:0.00% of 86
+
+Function 'parse_pixel_format'
+Lines executed:0.00% of 248
+
+File 'libavcodec/dds.c'
+Lines executed:0.00% of 406
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dds.gcno##libavcodec#dds.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dds.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dds.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dds.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 430

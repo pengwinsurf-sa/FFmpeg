@@ -1,0 +1,55 @@
+Function 'rtp_get_multi_file_handle'
+Lines executed:0.00% of 8
+
+Function 'rtp_get_file_handle'
+Lines executed:0.00% of 3
+
+Function 'ff_rtp_get_local_rtp_port'
+Lines executed:0.00% of 3
+
+Function 'rtp_close'
+Lines executed:0.00% of 7
+
+Function 'rtp_write'
+Lines executed:0.00% of 60
+
+Function 'rtp_read'
+Lines executed:0.00% of 38
+
+Function 'rtp_open'
+Lines executed:0.00% of 110
+
+Function 'build_udp_url'
+Lines executed:0.00% of 22
+
+Function 'url_add_option'
+Lines executed:0.00% of 13
+
+Function 'ff_rtp_set_remote_url'
+Lines executed:0.00% of 18
+
+File 'libavformat/rtpproto.c'
+Lines executed:0.00% of 267
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpproto.gcno##libavformat#rtpproto.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/byteswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpproto.gcno###usr#include#x86_64-linux-gnu#bits#byteswap.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpproto.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/poll2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpproto.gcno###usr#include#x86_64-linux-gnu#bits#poll2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/socket2.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpproto.gcno###usr#include#x86_64-linux-gnu#bits#socket2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpproto.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 282

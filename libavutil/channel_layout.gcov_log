@@ -1,0 +1,91 @@
+Function 'av_channel_layout_retype'
+Lines executed:0.00% of 72
+
+Function 'av_channel_layout_subset'
+Lines executed:0.00% of 9
+
+Function 'av_channel_layout_standard'
+Lines executed:0.00% of 7
+
+Function 'av_channel_layout_default'
+Lines executed:0.00% of 8
+
+Function 'av_channel_layout_compare'
+Lines executed:0.00% of 12
+
+Function 'av_channel_layout_check'
+Lines executed:0.00% of 19
+
+Function 'av_channel_layout_index_from_string'
+Lines executed:0.00% of 22
+
+Function 'av_channel_layout_index_from_channel'
+Lines executed:0.00% of 16
+
+Function 'av_channel_layout_channel_from_string'
+Lines executed:0.00% of 4
+
+Function 'av_channel_layout_channel_from_index'
+Lines executed:0.00% of 14
+
+Function 'av_channel_layout_describe'
+Lines executed:0.00% of 9
+
+Function 'av_channel_layout_describe_bprint'
+Lines executed:0.00% of 33
+
+Function 'try_describe_ambisonic'
+Lines executed:0.00% of 23
+
+Function 'canonical_order'
+Lines executed:0.00% of 12
+
+Function 'av_channel_layout_ambisonic_order'
+Lines executed:0.00% of 18
+
+Function 'av_channel_layout_copy'
+Lines executed:0.00% of 9
+
+Function 'av_channel_layout_uninit'
+Lines executed:85.71% of 7
+
+Function 'av_channel_layout_from_string'
+Lines executed:0.00% of 77
+
+Function 'parse_channel_list'
+Lines executed:0.00% of 31
+
+Function 'av_channel_layout_from_mask'
+Lines executed:0.00% of 6
+
+Function 'av_channel_layout_custom_init'
+Lines executed:0.00% of 11
+
+Function 'av_channel_from_string'
+Lines executed:0.00% of 17
+
+Function 'av_channel_description'
+Lines executed:0.00% of 7
+
+Function 'av_channel_description_bprint'
+Lines executed:0.00% of 14
+
+Function 'av_channel_name'
+Lines executed:0.00% of 7
+
+Function 'av_channel_name_bprint'
+Lines executed:0.00% of 14
+
+File 'libavutil/channel_layout.c'
+Lines executed:0.86% of 466
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#channel_layout.gcno##libavutil#channel_layout.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#channel_layout.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:25.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#channel_layout.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:1.05% of 478

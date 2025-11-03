@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVCPBProperties" kind="struct" language="C++" prot="public">
+    <compoundname>AVCPBProperties</compoundname>
+    <includes refid="defs_8h" local="no">libavcodec/defs.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVCPBProperties_1a20928ba0a499db68a363d5f29088f106" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t AVCPBProperties::max_bitrate</definition>
+        <argsstring></argsstring>
+        <name>max_bitrate</name>
+        <qualifiedname>AVCPBProperties::max_bitrate</qualifiedname>
+        <briefdescription>
+<para>Maximum bitrate of the stream, in bits per second. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Zero if unknown or unspecified. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="284" column="13" bodyfile="libavcodec/defs.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCPBProperties_1a6cbe488de00be048b989c07eb345e58b" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t AVCPBProperties::min_bitrate</definition>
+        <argsstring></argsstring>
+        <name>min_bitrate</name>
+        <qualifiedname>AVCPBProperties::min_bitrate</qualifiedname>
+        <briefdescription>
+<para>Minimum bitrate of the stream, in bits per second. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Zero if unknown or unspecified. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="289" column="13" bodyfile="libavcodec/defs.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCPBProperties_1a20066fcefdf7e6bfd861d2a976101961" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t AVCPBProperties::avg_bitrate</definition>
+        <argsstring></argsstring>
+        <name>avg_bitrate</name>
+        <qualifiedname>AVCPBProperties::avg_bitrate</qualifiedname>
+        <briefdescription>
+<para>Average bitrate of the stream, in bits per second. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Zero if unknown or unspecified. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="294" column="13" bodyfile="libavcodec/defs.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCPBProperties_1a5ca2317a4e3a9081de274cb580269bbc" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t AVCPBProperties::buffer_size</definition>
+        <argsstring></argsstring>
+        <name>buffer_size</name>
+        <qualifiedname>AVCPBProperties::buffer_size</qualifiedname>
+        <briefdescription>
+<para>The size of the buffer to which the ratecontrol is applied, in bits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Zero if unknown or unspecified. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="300" column="13" bodyfile="libavcodec/defs.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCPBProperties_1a6141d02537b3c72528570f7c577bbd83" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t AVCPBProperties::vbv_delay</definition>
+        <argsstring></argsstring>
+        <name>vbv_delay</name>
+        <qualifiedname>AVCPBProperties::vbv_delay</qualifiedname>
+        <briefdescription>
+<para>The delay between the time the packet this structure is associated with is received and the time when it should be decoded, in periods of a 27MHz clock. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>UINT64_MAX when unknown or unspecified. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="309" column="14" bodyfile="libavcodec/defs.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This structure describes the bitrate properties of an encoded bitstream. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>It roughly corresponds to a subset the VBV parameters for MPEG-2 or HRD parameters for H.264/HEVC. </para>
+    </detaileddescription>
+    <location file="libavcodec/defs.h" line="279" column="1" bodyfile="libavcodec/defs.h" bodystart="279" bodyend="310"/>
+    <listofallmembers>
+      <member refid="structAVCPBProperties_1a20066fcefdf7e6bfd861d2a976101961" prot="public" virt="non-virtual"><scope>AVCPBProperties</scope><name>avg_bitrate</name></member>
+      <member refid="structAVCPBProperties_1a5ca2317a4e3a9081de274cb580269bbc" prot="public" virt="non-virtual"><scope>AVCPBProperties</scope><name>buffer_size</name></member>
+      <member refid="structAVCPBProperties_1a20928ba0a499db68a363d5f29088f106" prot="public" virt="non-virtual"><scope>AVCPBProperties</scope><name>max_bitrate</name></member>
+      <member refid="structAVCPBProperties_1a6cbe488de00be048b989c07eb345e58b" prot="public" virt="non-virtual"><scope>AVCPBProperties</scope><name>min_bitrate</name></member>
+      <member refid="structAVCPBProperties_1a6141d02537b3c72528570f7c577bbd83" prot="public" virt="non-virtual"><scope>AVCPBProperties</scope><name>vbv_delay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

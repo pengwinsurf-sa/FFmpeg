@@ -1,0 +1,15 @@
+Function 'g723_1_read_packet'
+Lines executed:0.00% of 16
+
+Function 'g723_1_init'
+Lines executed:0.00% of 11
+
+File 'libavformat/g723_1.c'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#g723_1.gcno##libavformat#g723_1.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#g723_1.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 27

@@ -1,0 +1,11 @@
+Function 'avformat_get_mov_audio_tags'
+Lines executed:0.00% of 2
+
+Function 'avformat_get_mov_video_tags'
+Lines executed:0.00% of 2
+
+File 'libavformat/isom_tags.c'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#isom_tags.gcno##libavformat#isom_tags.c.gcov'
+
+Lines executed:0.00% of 4

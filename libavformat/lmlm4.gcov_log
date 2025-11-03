@@ -1,0 +1,18 @@
+Function 'lmlm4_read_packet'
+Lines executed:0.00% of 27
+
+Function 'lmlm4_read_header'
+Lines executed:0.00% of 12
+
+Function 'lmlm4_probe'
+Lines executed:0.00% of 17
+
+File 'libavformat/lmlm4.c'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lmlm4.gcno##libavformat#lmlm4.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lmlm4.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 56

@@ -1,0 +1,53 @@
+Function 'process_command'
+Lines executed:0.00% of 21
+
+Function 'activate'
+Lines executed:0.00% of 51
+
+Function 'decode_packet'
+Lines executed:0.00% of 29
+
+Function 'rewind_file'
+Lines executed:0.00% of 16
+
+Function 'movie_config_output_props'
+Lines executed:0.00% of 16
+
+Function 'movie_query_formats'
+Lines executed:0.00% of 30
+
+Function 'movie_uninit'
+Lines executed:0.00% of 13
+
+Function 'movie_common_init'
+Lines executed:0.00% of 84
+
+Function 'guess_channel_layout'
+Lines executed:0.00% of 11
+
+Function 'open_stream'
+Lines executed:0.00% of 20
+
+Function 'get_buffer'
+Lines executed:0.00% of 32
+
+Function 'find_stream'
+Lines executed:0.00% of 32
+
+File 'libavfilter/src_movie.c'
+Lines executed:0.00% of 348
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_movie.gcno##libavfilter#src_movie.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_movie.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_movie.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#src_movie.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 355

@@ -1,0 +1,27 @@
+Function 'siff_read_packet'
+Lines executed:0.00% of 44
+
+Function 'siff_read_header'
+Lines executed:0.00% of 18
+
+Function 'siff_parse_soun'
+Lines executed:0.00% of 12
+
+Function 'siff_parse_vbv1'
+Lines executed:0.00% of 40
+
+Function 'create_audio_stream'
+Lines executed:0.00% of 12
+
+Function 'siff_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/siff.c'
+Lines executed:0.00% of 129
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#siff.gcno##libavformat#siff.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#siff.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 131

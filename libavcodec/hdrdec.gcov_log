@@ -1,0 +1,26 @@
+Function 'hdr_decode_frame'
+Lines executed:0.00% of 103
+
+Function 'decompress'
+Lines executed:0.00% of 21
+
+Function 'hdr_get_line'
+Lines executed:0.00% of 11
+
+File 'libavcodec/hdrdec.c'
+Lines executed:0.00% of 118
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hdrdec.gcno##libavcodec#hdrdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hdrdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hdrdec.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hdrdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 135

@@ -1,0 +1,37 @@
+Function 'qt_rtp_close'
+Lines executed:0.00% of 4
+
+Function 'qt_rtp_parse_packet'
+Lines executed:0.00% of 162
+
+Function 'qt_rtp_init'
+Lines executed:0.00% of 4
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavformat/rtpdec_qt.c'
+Lines executed:0.00% of 137
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qt.gcno##libavformat#rtpdec_qt.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qt.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qt.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qt.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_qt.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 189

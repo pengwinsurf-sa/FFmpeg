@@ -1,0 +1,14 @@
+Function 'ff_v4l2_format_v4l2_to_avfmt'
+Lines executed:0.00% of 6
+
+Function 'ff_v4l2_format_avfmt_to_v4l2'
+Lines executed:0.00% of 5
+
+Function 'ff_v4l2_format_avcodec_to_v4l2'
+Lines executed:0.00% of 5
+
+File 'libavcodec/v4l2_fmt.c'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#v4l2_fmt.gcno##libavcodec#v4l2_fmt.c.gcov'
+
+Lines executed:0.00% of 16

@@ -1,0 +1,66 @@
+Function 'config_input'
+Lines executed:0.00% of 15
+
+Function 'filter_frame'
+Lines executed:0.00% of 7
+
+Function 'init_matrix'
+Lines executed:0.00% of 16
+
+Function 'shue_rotate_matrix'
+Lines executed:0.00% of 16
+
+Function 'hue_rotate_matrix'
+Lines executed:0.00% of 25
+
+Function 'transform_point'
+Lines executed:0.00% of 6
+
+Function 'z_shear_matrix'
+Lines executed:0.00% of 8
+
+Function 'z_rotate_matrix'
+Lines executed:0.00% of 8
+
+Function 'y_rotate_matrix'
+Lines executed:0.00% of 8
+
+Function 'x_rotate_matrix'
+Lines executed:0.00% of 8
+
+Function 'matrix2imatrix'
+Lines executed:0.00% of 5
+
+Function 'saturation_matrix'
+Lines executed:0.00% of 18
+
+Function 'colorscale_matrix'
+Lines executed:0.00% of 8
+
+Function 'matrix_multiply'
+Lines executed:0.00% of 12
+
+Function 'do_slice_16_1'
+Lines executed:0.00% of 4
+
+Function 'do_slice_8_1'
+Lines executed:0.00% of 4
+
+Function 'do_slice_16_0'
+Lines executed:0.00% of 3
+
+Function 'do_slice_8_0'
+Lines executed:0.00% of 3
+
+Function 'get_triplet'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_huesaturation.c'
+Lines executed:0.00% of 174
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_huesaturation.gcno##libavfilter#vf_huesaturation.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_huesaturation.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 180

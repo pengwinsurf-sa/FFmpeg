@@ -1,0 +1,23 @@
+Function 'ff_celt_bitalloc'
+Lines executed:0.00% of 226
+
+Function 'ff_celt_quant_bands'
+Lines executed:0.00% of 65
+
+File 'libavcodec/opus/celt.c'
+Lines executed:0.00% of 270
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#celt.gcno##libavcodec#opus#celt.c.gcov'
+
+File 'libavcodec/opus/rc.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#celt.gcno##libavcodec#opus#rc.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#celt.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#celt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 291

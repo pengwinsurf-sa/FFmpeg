@@ -1,0 +1,28 @@
+Function 'decode_end'
+Lines executed:0.00% of 5
+
+Function 'decode_init'
+Lines executed:0.00% of 8
+
+Function 'decode_frame'
+Lines executed:0.00% of 52
+
+Function 'vb_decode_framedata'
+Lines executed:0.00% of 84
+
+Function 'vb_decode_palette'
+Lines executed:0.00% of 13
+
+File 'libavcodec/vb.c'
+Lines executed:0.00% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vb.gcno##libavcodec#vb.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vb.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 162

@@ -1,0 +1,20 @@
+Function 'checkasm_check_bswapdsp'
+Lines executed:73.91% of 23
+
+File 'tests/checkasm/bswapdsp.c'
+Lines executed:100.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#bswapdsp.gcno##tests#checkasm#bswapdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#bswapdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#bswapdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#bswapdsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:73.91% of 23

@@ -1,0 +1,58 @@
+Function 'ff_prim_superset'
+Lines executed:0.00% of 4
+
+Function 'test_point_gamut'
+Lines executed:0.00% of 7
+
+Function 'test_point_line'
+Lines executed:0.00% of 2
+
+Function 'ff_sws_ipt_lms2rgb'
+Lines executed:0.00% of 4
+
+Function 'ff_sws_ipt_rgb2lms'
+Lines executed:0.00% of 9
+
+Function 'ff_sws_get_adaptation'
+Lines executed:0.00% of 8
+
+Function 'apply_chromatic_adaptation'
+Lines executed:0.00% of 27
+
+Function 'ff_sws_xyz2rgb'
+Lines executed:0.00% of 4
+
+Function 'ff_sws_rgb2xyz'
+Lines executed:0.00% of 23
+
+Function 'cie_Z'
+Lines executed:0.00% of 5
+
+Function 'ff_sws_matrix3x3_apply'
+Lines executed:0.00% of 5
+
+Function 'ff_sws_matrix3x3_invert'
+Lines executed:0.00% of 25
+
+Function 'ff_sws_matrix3x3_mul'
+Lines executed:0.00% of 9
+
+Function 'ff_q_equal'
+Lines executed:0.00% of 4
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libswscale/csputils.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#csputils.gcno##libswscale#csputils.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#csputils.gcno##libavutil#rational.h.gcov'
+
+File 'libswscale/format.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#csputils.gcno##libswscale#format.h.gcov'
+
+Lines executed:0.00% of 141

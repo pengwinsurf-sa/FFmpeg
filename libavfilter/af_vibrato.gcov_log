@@ -1,0 +1,14 @@
+Function 'config_input'
+Lines executed:0.00% of 18
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'filter_frame'
+Lines executed:0.00% of 50
+
+File 'libavfilter/af_vibrato.c'
+Lines executed:0.00% of 76
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_vibrato.gcno##libavfilter#af_vibrato.c.gcov'
+
+Lines executed:0.00% of 76

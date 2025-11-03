@@ -1,0 +1,18 @@
+Function 'ff_cfhdencdsp_init'
+Lines executed:0.00% of 5
+
+Function 'vert_filter'
+Lines executed:0.00% of 21
+
+Function 'horiz_filter'
+Lines executed:0.00% of 7
+
+File 'libavcodec/cfhdencdsp.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cfhdencdsp.gcno##libavcodec#cfhdencdsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cfhdencdsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 33

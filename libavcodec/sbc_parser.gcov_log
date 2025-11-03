@@ -1,0 +1,15 @@
+Function 'sbc_parse'
+Lines executed:0.00% of 27
+
+Function 'sbc_parse_header'
+Lines executed:0.00% of 31
+
+File 'libavcodec/sbc_parser.c'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbc_parser.gcno##libavcodec#sbc_parser.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbc_parser.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 58

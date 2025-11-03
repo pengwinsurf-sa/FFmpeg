@@ -1,0 +1,18 @@
+Function 'av_display_matrix_flip'
+Lines executed:0.00% of 7
+
+Function 'av_display_rotation_set'
+Lines executed:0.00% of 11
+
+Function 'av_display_rotation_get'
+Lines executed:0.00% of 8
+
+File 'libavutil/display.c'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#display.gcno##libavutil#display.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#display.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 26

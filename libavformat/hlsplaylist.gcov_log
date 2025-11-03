@@ -1,0 +1,37 @@
+Function 'ff_hls_write_end_list'
+Lines executed:0.00% of 3
+
+Function 'ff_hls_write_file_entry'
+Lines executed:0.00% of 38
+
+Function 'ff_hls_write_init_file'
+Lines executed:0.00% of 6
+
+Function 'ff_hls_write_playlist_header'
+Lines executed:0.00% of 14
+
+Function 'ff_hls_write_stream_info'
+Lines executed:0.00% of 19
+
+Function 'ff_hls_write_subtitle_rendition'
+Lines executed:0.00% of 10
+
+Function 'ff_hls_write_audio_rendition'
+Lines executed:0.00% of 9
+
+Function 'ff_hls_write_playlist_version'
+Lines executed:0.00% of 4
+
+File 'libavformat/hlsplaylist.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsplaylist.gcno##libavformat#hlsplaylist.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsplaylist.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#hlsplaylist.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 103

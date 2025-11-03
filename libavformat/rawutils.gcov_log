@@ -1,0 +1,15 @@
+Function 'ff_get_packet_palette'
+Lines executed:0.00% of 15
+
+Function 'ff_reshuffle_raw_rgb'
+Lines executed:0.00% of 32
+
+File 'libavformat/rawutils.c'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawutils.gcno##libavformat#rawutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 47

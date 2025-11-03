@@ -1,0 +1,18 @@
+Function 'md5_close'
+Lines executed:0.00% of 22
+
+Function 'md5_write'
+Lines executed:0.00% of 4
+
+Function 'md5_open'
+Lines executed:0.00% of 7
+
+File 'libavformat/md5proto.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#md5proto.gcno##libavformat#md5proto.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#md5proto.gcno##libavformat#url.h.gcov'
+
+Lines executed:0.00% of 33

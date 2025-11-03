@@ -1,0 +1,15 @@
+Function 'realtext_decode_frame'
+Lines executed:0.00% of 12
+
+Function 'rt_event_to_ass'
+Lines executed:0.00% of 19
+
+File 'libavcodec/realtextdec.c'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#realtextdec.gcno##libavcodec#realtextdec.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#realtextdec.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 31

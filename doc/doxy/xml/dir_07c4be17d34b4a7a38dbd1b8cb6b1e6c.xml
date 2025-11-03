@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_07c4be17d34b4a7a38dbd1b8cb6b1e6c" kind="dir">
+    <compoundname>libavfilter</compoundname>
+    <innerfile refid="avfilter_8h">avfilter.h</innerfile>
+    <innerfile refid="buffersink_8h">buffersink.h</innerfile>
+    <innerfile refid="buffersrc_8h">buffersrc.h</innerfile>
+    <innerfile refid="libavfilter_2version_8h">version.h</innerfile>
+    <innerfile refid="libavfilter_2version__major_8h">version_major.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavfilter/"/>
+  </compounddef>
+</doxygen>

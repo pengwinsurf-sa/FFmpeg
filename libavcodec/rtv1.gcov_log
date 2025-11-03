@@ -1,0 +1,18 @@
+Function 'decode_frame'
+Lines executed:0.00% of 30
+
+Function 'decode_rtv1'
+Lines executed:0.00% of 34
+
+Function 'decode_init'
+Lines executed:0.00% of 5
+
+File 'libavcodec/rtv1.c'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtv1.gcno##libavcodec#rtv1.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtv1.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 69

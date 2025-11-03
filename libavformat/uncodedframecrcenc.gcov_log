@@ -1,0 +1,24 @@
+Function 'write_packet'
+Lines executed:0.00% of 2
+
+Function 'write_frame'
+Lines executed:0.00% of 26
+
+Function 'write_header'
+Lines executed:0.00% of 2
+
+Function 'audio_frame_cksum'
+Lines executed:0.00% of 38
+
+Function 'video_frame_cksum'
+Lines executed:0.00% of 21
+
+File 'libavformat/uncodedframecrcenc.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#uncodedframecrcenc.gcno##libavformat#uncodedframecrcenc.c.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#uncodedframecrcenc.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 89

@@ -1,0 +1,21 @@
+Function 'avcodec_get_type'
+Lines executed:0.00% of 3
+
+Function 'avcodec_descriptor_get_by_name'
+Lines executed:0.00% of 5
+
+Function 'avcodec_descriptor_next'
+Lines executed:0.00% of 4
+
+Function 'avcodec_descriptor_get'
+Lines executed:0.00% of 19
+
+File 'libavcodec/codec_desc.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#codec_desc.gcno##libavcodec#codec_desc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#codec_desc.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-bsearch.h.gcov'
+
+Lines executed:0.00% of 31

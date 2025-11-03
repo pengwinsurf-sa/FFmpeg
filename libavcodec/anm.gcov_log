@@ -1,0 +1,25 @@
+Function 'decode_end'
+Lines executed:0.00% of 4
+
+Function 'decode_frame'
+Lines executed:0.00% of 61
+
+Function 'op'
+Lines executed:0.00% of 30
+
+Function 'decode_init'
+Lines executed:0.00% of 15
+
+File 'libavcodec/anm.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#anm.gcno##libavcodec#anm.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#anm.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#anm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 110

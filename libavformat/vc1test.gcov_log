@@ -1,0 +1,14 @@
+Function 'vc1t_read_packet'
+Lines executed:0.00% of 16
+
+Function 'vc1t_read_header'
+Lines executed:0.00% of 27
+
+Function 'vc1t_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/vc1test.c'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vc1test.gcno##libavformat#vc1test.c.gcov'
+
+Lines executed:0.00% of 50

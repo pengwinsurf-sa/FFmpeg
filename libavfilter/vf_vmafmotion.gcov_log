@@ -1,0 +1,55 @@
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'init'
+Lines executed:0.00% of 14
+
+Function 'filter_frame'
+Lines executed:0.00% of 4
+
+Function 'ff_vmafmotion_uninit'
+Lines executed:0.00% of 5
+
+Function 'config_input_ref'
+Lines executed:0.00% of 5
+
+Function 'query_formats'
+Lines executed:0.00% of 12
+
+Function 'ff_vmafmotion_init'
+Lines executed:0.00% of 21
+
+Function 'do_vmafmotion'
+Lines executed:0.00% of 10
+
+Function 'set_meta'
+Lines executed:0.00% of 7
+
+Function 'ff_vmafmotion_process'
+Lines executed:0.00% of 12
+
+Function 'convolution_y_10bit'
+Lines executed:0.00% of 1
+
+Function 'convolution_y_8bit'
+Lines executed:0.00% of 1
+
+Function 'convolution_x'
+Lines executed:0.00% of 27
+
+Function 'image_sad'
+Lines executed:0.00% of 11
+
+File 'libavfilter/vf_vmafmotion.c'
+Lines executed:0.00% of 131
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vmafmotion.gcno##libavfilter#vf_vmafmotion.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vmafmotion.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_vmafmotion.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 138

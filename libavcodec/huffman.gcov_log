@@ -1,0 +1,20 @@
+Function 'ff_huff_build_tree'
+Lines executed:0.00% of 28
+
+Function 'build_huff_tree'
+Lines executed:0.00% of 7
+
+Function 'get_tree_codes'
+Lines executed:0.00% of 11
+
+Function 'ff_huff_gen_len_table'
+Lines executed:0.00% of 40
+
+Function 'heap_sift'
+Lines executed:0.00% of 9
+
+File 'libavcodec/huffman.c'
+Lines executed:0.00% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#huffman.gcno##libavcodec#huffman.c.gcov'
+
+Lines executed:0.00% of 95

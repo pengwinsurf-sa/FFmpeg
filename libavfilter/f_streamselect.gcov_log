@@ -1,0 +1,29 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'init'
+Lines executed:0.00% of 19
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'parse_mapping'
+Lines executed:0.00% of 34
+
+Function 'parse_definition'
+Lines executed:0.00% of 16
+
+Function 'config_output'
+Lines executed:0.00% of 37
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'process_frame'
+Lines executed:0.00% of 26
+
+File 'libavfilter/f_streamselect.c'
+Lines executed:0.00% of 147
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#f_streamselect.gcno##libavfilter#f_streamselect.c.gcov'
+
+Lines executed:0.00% of 147

@@ -1,0 +1,21 @@
+Function 'decode_end'
+Lines executed:0.00% of 7
+
+Function 'decode_init'
+Lines executed:0.00% of 3
+
+Function 'decode_frame'
+Lines executed:0.00% of 68
+
+Function 'decode_flush'
+Lines executed:0.00% of 1
+
+File 'libavcodec/kgv1dec.c'
+Lines executed:0.00% of 77
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kgv1dec.gcno##libavcodec#kgv1dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#kgv1dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 79

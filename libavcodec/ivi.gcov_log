@@ -1,0 +1,82 @@
+Function 'ff_ivi_decode_close'
+Lines executed:0.00% of 9
+
+Function 'ff_ivi_decode_frame'
+Lines executed:0.00% of 124
+
+Function 'decode_band'
+Lines executed:0.00% of 91
+
+Function 'prepare_buf'
+Lines executed:0.00% of 5
+
+Function 'ivi_output_plane'
+Lines executed:0.00% of 20
+
+Function 'ivi_process_empty_tile'
+Lines executed:0.00% of 82
+
+Function 'ivi_decode_blocks'
+Lines executed:0.00% of 92
+
+Function 'ivi_decode_coded_blocks'
+Lines executed:0.00% of 63
+
+Function 'ivi_dec_tile_data_size'
+Lines executed:0.00% of 9
+
+Function 'ff_ivi_init_tiles'
+Lines executed:0.00% of 29
+
+Function 'ivi_init_tiles'
+Lines executed:0.00% of 23
+
+Function 'ff_ivi_init_planes'
+Lines executed:0.00% of 36
+
+Function 'ivi_free_buffers'
+Lines executed:0.00% of 18
+
+Function 'ff_ivi_dec_huff_desc'
+Lines executed:0.00% of 30
+
+Function 'ivi_huff_desc_copy'
+Lines executed:0.00% of 4
+
+Function 'ff_ivi_init_static_vlc'
+Lines executed:0.00% of 4
+
+Function 'ivi_init_static_vlc'
+Lines executed:0.00% of 11
+
+Function 'ivi_create_huff_from_desc'
+Lines executed:0.00% of 18
+
+Function 'ivi_mc'
+Lines executed:0.00% of 19
+
+File 'libavcodec/ivi.c'
+Lines executed:0.00% of 604
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi.gcno##libavcodec#ivi.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/ivi.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi.gcno##libavcodec#ivi.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ivi.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 687

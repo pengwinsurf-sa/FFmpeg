@@ -1,0 +1,24 @@
+Function 'ff_standardize_creation_time'
+Lines executed:0.00% of 5
+
+Function 'ff_parse_creation_time_metadata'
+Lines executed:0.00% of 10
+
+Function 'ff_format_output_open'
+Lines executed:0.00% of 4
+
+Function 'ff_format_shift_data'
+Lines executed:0.00% of 35
+
+Function 'avformat_query_codec'
+Lines executed:0.00% of 21
+
+File 'libavformat/mux_utils.c'
+Lines executed:0.00% of 73
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux_utils.gcno##libavformat#mux_utils.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mux_utils.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 75

@@ -1,0 +1,95 @@
+Function 'main'
+Lines executed:0.00% of 23
+
+Function 'check_image_fill_black'
+Lines executed:0.00% of 27
+
+Function 'check_image_fill'
+Lines executed:0.00% of 26
+
+Function 'av_image_fill_black'
+Lines executed:0.00% of 35
+
+Function 'av_image_fill_color'
+Lines executed:0.00% of 42
+
+Function 'memset_bytes'
+Lines executed:0.00% of 14
+
+Function 'av_image_copy_to_buffer'
+Lines executed:0.00% of 22
+
+Function 'av_image_get_buffer_size'
+Lines executed:0.00% of 18
+
+Function 'av_image_fill_arrays'
+Lines executed:0.00% of 9
+
+Function 'av_image_copy_uc_from'
+Lines executed:0.00% of 3
+
+Function 'av_image_copy'
+Lines executed:0.00% of 8
+
+Function 'image_copy'
+Lines executed:0.00% of 19
+
+Function 'av_image_copy_plane'
+Lines executed:0.00% of 3
+
+Function 'av_image_copy_plane_uc_from'
+Lines executed:0.00% of 6
+
+Function 'image_copy_plane'
+Lines executed:0.00% of 8
+
+Function 'av_image_check_sar'
+Lines executed:0.00% of 9
+
+Function 'av_image_check_size'
+Lines executed:0.00% of 2
+
+Function 'av_image_check_size2'
+Lines executed:0.00% of 13
+
+Function 'av_image_alloc'
+Lines executed:0.00% of 32
+
+Function 'avpriv_set_systematic_pal2'
+Lines executed:0.00% of 26
+
+Function 'av_image_fill_pointers'
+Lines executed:0.00% of 16
+
+Function 'av_image_fill_plane_sizes'
+Lines executed:0.00% of 17
+
+Function 'av_image_fill_linesizes'
+Lines executed:0.00% of 12
+
+Function 'av_image_get_linesize'
+Lines executed:0.00% of 7
+
+Function 'image_get_linesize'
+Lines executed:0.00% of 10
+
+Function 'av_image_fill_max_pixsteps'
+Lines executed:0.00% of 12
+
+File 'libavutil/tests/imgutils.c'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#imgutils.gcno##libavutil#tests#imgutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#imgutils.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#imgutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/imgutils.c'
+Lines executed:0.00% of 341
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#imgutils.gcno##libavutil#imgutils.c.gcov'
+
+Lines executed:0.00% of 419

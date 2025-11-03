@@ -1,0 +1,43 @@
+Function 'mpjpeg_read_packet'
+Lines executed:0.00% of 45
+
+Function 'mpjpeg_get_boundary'
+Lines executed:0.00% of 29
+
+Function 'parse_multipart_header'
+Lines executed:0.00% of 37
+
+Function 'parse_content_length'
+Lines executed:0.00% of 6
+
+Function 'mpjpeg_read_header'
+Lines executed:0.00% of 18
+
+Function 'mpjpeg_read_probe'
+Lines executed:0.00% of 7
+
+Function 'mpjpeg_read_close'
+Lines executed:0.00% of 5
+
+Function 'split_tag_value'
+Lines executed:0.00% of 20
+
+Function 'get_line'
+Lines executed:0.00% of 6
+
+Function 'trim_right'
+Lines executed:0.00% of 6
+
+File 'libavformat/mpjpegdec.c'
+Lines executed:0.00% of 174
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpjpegdec.gcno##libavformat#mpjpegdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpjpegdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpjpegdec.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 179

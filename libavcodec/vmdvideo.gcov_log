@@ -1,0 +1,31 @@
+Function 'vmdvideo_decode_frame'
+Lines executed:0.00% of 16
+
+Function 'vmdvideo_decode_init'
+Lines executed:0.00% of 28
+
+Function 'vmdvideo_decode_end'
+Lines executed:0.00% of 6
+
+Function 'vmd_decode'
+Lines executed:0.00% of 133
+
+Function 'rle_unpack'
+Lines executed:0.00% of 33
+
+Function 'lz_unpack'
+Lines executed:0.00% of 57
+
+File 'libavcodec/vmdvideo.c'
+Lines executed:0.00% of 242
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmdvideo.gcno##libavcodec#vmdvideo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmdvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vmdvideo.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 273

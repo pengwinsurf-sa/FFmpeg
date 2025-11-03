@@ -1,0 +1,14 @@
+Function 'voc_write_trailer'
+Lines executed:0.00% of 3
+
+Function 'voc_write_packet'
+Lines executed:0.00% of 28
+
+Function 'voc_write_header'
+Lines executed:0.00% of 15
+
+File 'libavformat/vocenc.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vocenc.gcno##libavformat#vocenc.c.gcov'
+
+Lines executed:0.00% of 46

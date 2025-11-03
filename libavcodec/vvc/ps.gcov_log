@@ -1,0 +1,191 @@
+Function 'ff_vvc_decode_sh'
+Lines executed:0.00% of 6
+
+Function 'sh_derive'
+Lines executed:0.00% of 20
+
+Function 'sh_entry_points'
+Lines executed:0.00% of 12
+
+Function 'sh_partition_constraints'
+Lines executed:0.00% of 24
+
+Function 'sh_deblock_offsets'
+Lines executed:0.00% of 10
+
+Function 'sh_inter'
+Lines executed:0.00% of 7
+
+Function 'sh_slice_address'
+Lines executed:0.00% of 18
+
+Function 'sh_alf_aps'
+Lines executed:0.00% of 16
+
+Function 'ff_vvc_decode_aps'
+Lines executed:0.00% of 14
+
+Function 'aps_decode_scaling'
+Lines executed:0.00% of 11
+
+Function 'scaling_derive'
+Lines executed:0.00% of 44
+
+Function 'aps_decode_alf'
+Lines executed:0.00% of 8
+
+Function 'alf_free'
+Lines executed:0.00% of 4
+
+Function 'alf_derive'
+Lines executed:0.00% of 5
+
+Function 'alf_cc'
+Lines executed:0.00% of 19
+
+Function 'alf_chroma'
+Lines executed:0.00% of 13
+
+Function 'alf_luma'
+Lines executed:0.00% of 8
+
+Function 'ff_vvc_ps_uninit'
+Lines executed:0.00% of 12
+
+Function 'ff_vvc_frame_ps_free'
+Lines executed:0.00% of 8
+
+Function 'ff_vvc_decode_frame_ps'
+Lines executed:0.00% of 22
+
+Function 'decode_frame_ps'
+Lines executed:0.00% of 18
+
+Function 'decode_ph'
+Lines executed:0.00% of 9
+
+Function 'ph_derive'
+Lines executed:0.00% of 12
+
+Function 'ph_vb'
+Lines executed:0.00% of 8
+
+Function 'ph_vb_pos'
+Lines executed:0.00% of 8
+
+Function 'lmcs_derive_lut'
+Lines executed:0.00% of 58
+
+Function 'ph_compute_poc'
+Lines executed:0.00% of 14
+
+Function 'pred_weight_table'
+Lines executed:0.00% of 12
+
+Function 'decode_ps'
+Lines executed:0.00% of 17
+
+Function 'decode_pps'
+Lines executed:0.00% of 12
+
+Function 'pps_alloc'
+Lines executed:0.00% of 12
+
+Function 'pps_free'
+Lines executed:0.00% of 9
+
+Function 'pps_derive'
+Lines executed:0.00% of 15
+
+Function 'pps_subpic'
+Lines executed:0.00% of 13
+
+Function 'pps_slice_map'
+Lines executed:0.00% of 8
+
+Function 'pps_no_rect_slice'
+Lines executed:0.00% of 23
+
+Function 'pps_rect_slice'
+Lines executed:0.00% of 27
+
+Function 'pps_multi_tiles_slice'
+Lines executed:0.00% of 21
+
+Function 'pps_one_tile_slices'
+Lines executed:0.00% of 17
+
+Function 'pps_single_slice_per_subpic'
+Lines executed:0.00% of 9
+
+Function 'pps_subpic_slice'
+Lines executed:0.00% of 8
+
+Function 'pps_subpic_one_or_more_tiles_slice'
+Lines executed:0.00% of 9
+
+Function 'pps_subpic_less_than_one_tile_slice'
+Lines executed:0.00% of 7
+
+Function 'subpic_tiles'
+Lines executed:0.00% of 15
+
+Function 'pps_single_slice_picture'
+Lines executed:0.00% of 10
+
+Function 'pps_bd'
+Lines executed:0.00% of 20
+
+Function 'pps_width_height'
+Lines executed:0.00% of 18
+
+Function 'pps_chroma_qp_offset'
+Lines executed:0.00% of 9
+
+Function 'decode_sps'
+Lines executed:0.00% of 15
+
+Function 'sps_alloc'
+Lines executed:0.00% of 12
+
+Function 'sps_free'
+Lines executed:0.00% of 4
+
+Function 'sps_derive'
+Lines executed:0.00% of 33
+
+Function 'sps_export_stream_params'
+Lines executed:0.00% of 6
+
+Function 'sps_vui'
+Lines executed:0.00% of 25
+
+Function 'sps_ladf'
+Lines executed:0.00% of 9
+
+Function 'sps_chroma_qp_table'
+Lines executed:0.00% of 31
+
+Function 'sps_bit_depth'
+Lines executed:0.00% of 7
+
+Function 'sps_map_pixel_format'
+Lines executed:0.00% of 30
+
+File 'libavcodec/vvc/ps.c'
+Lines executed:0.00% of 857
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ps.gcno##libavcodec#vvc#ps.c.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ps.gcno##libavutil#refstruct.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ps.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#ps.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 871

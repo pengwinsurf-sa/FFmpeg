@@ -1,0 +1,11 @@
+Function 'aea_write_trailer'
+Lines executed:0.00% of 13
+
+Function 'aea_write_header'
+Lines executed:0.00% of 25
+
+File 'libavformat/aeaenc.c'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aeaenc.gcno##libavformat#aeaenc.c.gcov'
+
+Lines executed:0.00% of 38

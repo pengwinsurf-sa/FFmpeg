@@ -1,0 +1,22 @@
+Function 'aasc_decode_end'
+Lines executed:0.00% of 4
+
+Function 'aasc_decode_frame'
+Lines executed:0.00% of 49
+
+Function 'aasc_decode_init'
+Lines executed:0.00% of 25
+
+File 'libavcodec/aasc.c'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aasc.gcno##libavcodec#aasc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aasc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aasc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 78

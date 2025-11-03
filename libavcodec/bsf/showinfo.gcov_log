@@ -1,0 +1,19 @@
+Function 'showinfo_filter'
+Lines executed:0.00% of 15
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavcodec/bsf/showinfo.c'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#showinfo.gcno##libavcodec#bsf#showinfo.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#showinfo.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#showinfo.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 21

@@ -1,0 +1,22 @@
+Function 'read_packet'
+Lines executed:0.00% of 43
+
+Function 'read_header'
+Lines executed:0.00% of 31
+
+Function 'probe'
+Lines executed:0.00% of 13
+
+File 'libavformat/mm.c'
+Lines executed:0.00% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mm.gcno##libavformat#mm.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mm.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 87

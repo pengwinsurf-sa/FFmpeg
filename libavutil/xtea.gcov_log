@@ -1,0 +1,37 @@
+Function 'av_xtea_le_crypt'
+Lines executed:0.00% of 3
+
+Function 'av_xtea_crypt'
+Lines executed:0.00% of 3
+
+Function 'xtea_crypt'
+Lines executed:0.00% of 19
+
+Function 'xtea_le_crypt_ecb'
+Lines executed:0.00% of 21
+
+Function 'xtea_crypt_ecb'
+Lines executed:0.00% of 82
+
+Function 'av_xtea_le_init'
+Lines executed:0.00% of 5
+
+Function 'av_xtea_init'
+Lines executed:0.00% of 5
+
+Function 'av_xtea_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/xtea.c'
+Lines executed:0.00% of 136
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#xtea.gcno##libavutil#xtea.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#xtea.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#xtea.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 140

@@ -1,0 +1,38 @@
+Function 'g722_encode_frame'
+Lines executed:0.00% of 36
+
+Function 'g722_encode_no_trellis'
+Lines executed:0.00% of 5
+
+Function 'g722_encode_trellis'
+Lines executed:0.00% of 77
+
+Function 'encode_low'
+Lines executed:0.00% of 10
+
+Function 'filter_samples'
+Lines executed:0.00% of 14
+
+Function 'g722_encode_init'
+Lines executed:0.00% of 33
+
+Function 'g722_encode_close'
+Lines executed:0.00% of 8
+
+File 'libavcodec/g722enc.c'
+Lines executed:0.00% of 167
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722enc.gcno##libavcodec#g722enc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722enc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/encode.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722enc.gcno##libavcodec#encode.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g722enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 183

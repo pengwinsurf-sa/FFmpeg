@@ -1,0 +1,29 @@
+Function 'ff_ass_bprint_text_event'
+Lines executed:0.00% of 18
+
+Function 'ff_ass_decoder_flush'
+Lines executed:0.00% of 5
+
+Function 'ff_ass_add_rect'
+Lines executed:0.00% of 2
+
+Function 'ff_ass_add_rect2'
+Lines executed:0.00% of 23
+
+Function 'ff_ass_get_dialog'
+Lines executed:0.00% of 2
+
+Function 'ff_ass_subtitle_header_default'
+Lines executed:0.00% of 2
+
+Function 'ff_ass_subtitle_header'
+Lines executed:0.00% of 2
+
+Function 'ff_ass_subtitle_header_full'
+Lines executed:0.00% of 6
+
+File 'libavcodec/ass.c'
+Lines executed:0.00% of 60
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ass.gcno##libavcodec#ass.c.gcov'
+
+Lines executed:0.00% of 60

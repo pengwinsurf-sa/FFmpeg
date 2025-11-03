@@ -1,0 +1,62 @@
+Function 'filter_frame'
+Lines executed:0.00% of 207
+
+Function 'compute_sat_hue_metrics16'
+Lines executed:0.00% of 29
+
+Function 'compute_sat_hue_metrics8'
+Lines executed:0.00% of 28
+
+Function 'filter16_vrep'
+Lines executed:0.00% of 27
+
+Function 'filter8_vrep'
+Lines executed:0.00% of 26
+
+Function 'filter16_tout'
+Lines executed:0.00% of 29
+
+Function 'filter8_tout'
+Lines executed:0.00% of 27
+
+Function 'filter16_brng'
+Lines executed:0.00% of 28
+
+Function 'filter8_brng'
+Lines executed:0.00% of 27
+
+Function 'burn_frame16'
+Lines executed:0.00% of 8
+
+Function 'burn_frame8'
+Lines executed:0.00% of 7
+
+Function 'config_output'
+Lines executed:0.00% of 26
+
+Function 'alloc_frame'
+Lines executed:0.00% of 10
+
+Function 'uninit'
+Lines executed:0.00% of 11
+
+Function 'init'
+Lines executed:0.00% of 12
+
+File 'libavfilter/vf_signalstats.c'
+Lines executed:0.00% of 492
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_signalstats.gcno##libavfilter#vf_signalstats.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_signalstats.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_signalstats.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_signalstats.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 502

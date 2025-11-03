@@ -1,0 +1,292 @@
+Function 'main'
+Lines executed:0.00% of 118
+
+Function 'check_section_show_entries'
+Lines executed:0.00% of 5
+
+Function 'opt_show_stream_groups'
+Lines executed:0.00% of 1
+
+Function 'opt_show_programs'
+Lines executed:0.00% of 1
+
+Function 'opt_show_streams'
+Lines executed:0.00% of 1
+
+Function 'opt_show_program_version'
+Lines executed:0.00% of 1
+
+Function 'opt_show_pixel_formats'
+Lines executed:0.00% of 1
+
+Function 'opt_show_packets'
+Lines executed:0.00% of 1
+
+Function 'opt_show_library_versions'
+Lines executed:0.00% of 1
+
+Function 'opt_show_frames'
+Lines executed:0.00% of 1
+
+Function 'opt_show_format'
+Lines executed:0.00% of 1
+
+Function 'opt_show_error'
+Lines executed:0.00% of 1
+
+Function 'opt_show_chapters'
+Lines executed:0.00% of 1
+
+Function 'opt_show_versions'
+Lines executed:0.00% of 4
+
+Function 'opt_sections'
+Lines executed:0.00% of 6
+
+Function 'print_section'
+Lines executed:0.00% of 15
+
+Function 'opt_pretty'
+Lines executed:0.00% of 6
+
+Function 'opt_read_intervals'
+Lines executed:0.00% of 2
+
+Function 'parse_read_intervals'
+Lines executed:0.00% of 32
+
+Function 'parse_read_interval'
+Lines executed:0.00% of 51
+
+Function 'show_help_default'
+Lines executed:0.00% of 8
+
+Function 'opt_print_filename'
+Lines executed:0.00% of 4
+
+Function 'opt_output_file_o'
+Lines executed:0.00% of 9
+
+Function 'opt_input_file_i'
+Lines executed:0.00% of 3
+
+Function 'opt_input_file'
+Lines executed:0.00% of 9
+
+Function 'opt_show_entries'
+Lines executed:0.00% of 28
+
+Function 'match_section'
+Lines executed:0.00% of 13
+
+Function 'mark_section_show_entries'
+Lines executed:0.00% of 8
+
+Function 'opt_format'
+Lines executed:0.00% of 5
+
+Function 'opt_show_optional_fields'
+Lines executed:0.00% of 10
+
+Function 'ffprobe_show_pixel_formats'
+Lines executed:0.00% of 37
+
+Function 'ffprobe_show_library_versions'
+Lines executed:0.00% of 11
+
+Function 'ffprobe_show_program_version'
+Lines executed:0.00% of 11
+
+Function 'show_usage'
+Lines executed:0.00% of 5
+
+Function 'probe_file'
+Lines executed:0.00% of 63
+
+Function 'close_input_file'
+Lines executed:0.00% of 8
+
+Function 'open_input_file'
+Lines executed:0.00% of 75
+
+Function 'show_error'
+Lines executed:0.00% of 6
+
+Function 'show_format'
+Lines executed:0.00% of 25
+
+Function 'show_chapters'
+Lines executed:0.00% of 18
+
+Function 'show_stream_groups'
+Lines executed:0.00% of 10
+
+Function 'show_stream_group'
+Lines executed:0.00% of 31
+
+Function 'print_stream_group_params'
+Lines executed:0.00% of 10
+
+Function 'print_iamf_mix_presentation_params'
+Lines executed:0.00% of 15
+
+Function 'print_iamf_submix_params'
+Lines executed:0.00% of 40
+
+Function 'print_iamf_audio_element_params'
+Lines executed:0.00% of 25
+
+Function 'print_iamf_param_definition'
+Lines executed:0.00% of 50
+
+Function 'print_tile_grid_params'
+Lines executed:0.00% of 19
+
+Function 'show_programs'
+Lines executed:0.00% of 12
+
+Function 'show_program'
+Lines executed:0.00% of 22
+
+Function 'show_streams'
+Lines executed:0.00% of 10
+
+Function 'show_stream'
+Lines executed:0.00% of 145
+
+Function 'print_dispositions'
+Lines executed:0.00% of 8
+
+Function 'read_packets'
+Lines executed:0.00% of 11
+
+Function 'read_interval_packets'
+Lines executed:0.00% of 127
+
+Function 'log_read_interval'
+Lines executed:0.00% of 14
+
+Function 'show_frame'
+Lines executed:0.00% of 69
+
+Function 'print_frame_side_data'
+Lines executed:0.00% of 46
+
+Function 'show_subtitle'
+Lines executed:0.00% of 15
+
+Function 'show_packet'
+Lines executed:0.00% of 41
+
+Function 'show_log'
+Lines executed:0.00% of 24
+
+Function 'clear_log'
+Lines executed:0.00% of 12
+
+Function 'print_chroma_location'
+Lines executed:0.00% of 6
+
+Function 'print_color_trc'
+Lines executed:0.00% of 6
+
+Function 'print_primaries'
+Lines executed:0.00% of 6
+
+Function 'print_color_space'
+Lines executed:0.00% of 6
+
+Function 'print_color_range'
+Lines executed:0.00% of 6
+
+Function 'print_pixel_format'
+Lines executed:0.00% of 17
+
+Function 'print_private_data'
+Lines executed:0.00% of 9
+
+Function 'print_pkt_side_data'
+Lines executed:0.00% of 78
+
+Function 'print_film_grain_params'
+Lines executed:0.00% of 78
+
+Function 'print_ambient_viewing_environment'
+Lines executed:0.00% of 5
+
+Function 'print_dynamic_hdr_vivid'
+Lines executed:0.00% of 47
+
+Function 'print_dynamic_hdr10_plus'
+Lines executed:0.00% of 52
+
+Function 'print_dovi_metadata'
+Lines executed:0.00% of 111
+
+Function 'print_context_light_level'
+Lines executed:0.00% of 4
+
+Function 'print_mastering_display_metadata'
+Lines executed:0.00% of 14
+
+Function 'print_displaymatrix'
+Lines executed:0.00% of 7
+
+Function 'show_tags'
+Lines executed:0.00% of 9
+
+Function 'log_callback'
+Lines executed:0.00% of 35
+
+Function 'get_stream_group_type'
+Lines executed:0.00% of 3
+
+Function 'get_raw_string_type'
+Lines executed:0.00% of 2
+
+Function 'get_frame_side_data_type'
+Lines executed:0.00% of 3
+
+Function 'get_packet_side_data_type'
+Lines executed:0.00% of 3
+
+Function 'print_error'
+Lines executed:0.00% of 3
+
+File 'fftools/ffprobe.c'
+Lines executed:0.00% of 1847
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##fftools#ffprobe.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##libavutil#avutil.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/iamf.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##libavutil#iamf.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/dovi_meta.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##libavutil#dovi_meta.h.gcov'
+
+File 'fftools/cmdutils.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffprobe.gcno##fftools#cmdutils.h.gcov'
+
+Lines executed:0.00% of 1872

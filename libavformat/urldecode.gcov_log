@@ -1,0 +1,12 @@
+Function 'ff_urldecode'
+Lines executed:0.00% of 38
+
+File 'libavformat/urldecode.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#urldecode.gcno##libavformat#urldecode.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#urldecode.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 38

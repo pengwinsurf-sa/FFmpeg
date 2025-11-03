@@ -1,0 +1,37 @@
+Function 'channelmap_config_input'
+Lines executed:0.00% of 15
+
+Function 'channelmap_filter_frame'
+Lines executed:0.00% of 32
+
+Function 'channelmap_query_formats'
+Lines executed:0.00% of 10
+
+Function 'channelmap_init'
+Lines executed:0.00% of 128
+
+Function 'check_idx_and_id'
+Lines executed:0.00% of 11
+
+Function 'get_channel'
+Lines executed:0.00% of 12
+
+Function 'get_channel_idx'
+Lines executed:0.00% of 13
+
+Function 'channelmap_uninit'
+Lines executed:0.00% of 5
+
+File 'libavfilter/af_channelmap.c'
+Lines executed:0.00% of 222
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_channelmap.gcno##libavfilter#af_channelmap.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_channelmap.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_channelmap.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 226

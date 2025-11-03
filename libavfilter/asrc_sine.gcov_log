@@ -1,0 +1,34 @@
+Function 'activate'
+Lines executed:0.00% of 45
+
+Function 'config_props'
+Lines executed:0.00% of 4
+
+Function 'query_formats'
+Lines executed:0.00% of 10
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 13
+
+Function 'sampling_init'
+Lines executed:0.00% of 15
+
+Function 'make_sin_table'
+Lines executed:0.00% of 24
+
+File 'libavfilter/asrc_sine.c'
+Lines executed:0.00% of 113
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#asrc_sine.gcno##libavfilter#asrc_sine.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#asrc_sine.gcno##libavutil#rational.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#asrc_sine.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 117

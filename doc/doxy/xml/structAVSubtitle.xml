@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVSubtitle" kind="struct" language="C++" prot="public">
+    <compoundname>AVSubtitle</compoundname>
+    <includes refid="avcodec_8h" local="no">libavcodec/avcodec.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVSubtitle_1a03cabc402df10e7ee9b92df6284b09c1" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t AVSubtitle::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <qualifiedname>AVSubtitle::format</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2076" column="14" bodyfile="libavcodec/avcodec.h" bodystart="2076" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVSubtitle_1a271f635c9e734310a43277f819159c68" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t AVSubtitle::start_display_time</definition>
+        <argsstring></argsstring>
+        <name>start_display_time</name>
+        <qualifiedname>AVSubtitle::start_display_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2077" column="14" bodyfile="libavcodec/avcodec.h" bodystart="2077" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVSubtitle_1a354cdfa51cda54c914a569ee3f7493c0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t AVSubtitle::end_display_time</definition>
+        <argsstring></argsstring>
+        <name>end_display_time</name>
+        <qualifiedname>AVSubtitle::end_display_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2078" column="14" bodyfile="libavcodec/avcodec.h" bodystart="2078" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVSubtitle_1a89491b1f6998eceb6221791fd50087df" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned AVSubtitle::num_rects</definition>
+        <argsstring></argsstring>
+        <name>num_rects</name>
+        <qualifiedname>AVSubtitle::num_rects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2079" column="14" bodyfile="libavcodec/avcodec.h" bodystart="2079" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVSubtitle_1ad37c2315a9e36ed700f64cb971e22298" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVSubtitleRect" kindref="compound">AVSubtitleRect</ref> **</type>
+        <definition>AVSubtitleRect** AVSubtitle::rects</definition>
+        <argsstring></argsstring>
+        <name>rects</name>
+        <qualifiedname>AVSubtitle::rects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2080" column="20" bodyfile="libavcodec/avcodec.h" bodystart="2080" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVSubtitle_1af7cc390bba4f9d6c32e391ca59d117a2" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t AVSubtitle::pts</definition>
+        <argsstring></argsstring>
+        <name>pts</name>
+        <qualifiedname>AVSubtitle::pts</qualifiedname>
+        <briefdescription>
+<para>Same as packet pts, in AV_TIME_BASE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2081" column="13" bodyfile="libavcodec/avcodec.h" bodystart="2081" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AVSubtitle</label>
+        <link refid="structAVSubtitle"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>rects</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AVSubtitleRect</label>
+        <link refid="structAVSubtitleRect"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavcodec/avcodec.h" line="2075" column="1" bodyfile="libavcodec/avcodec.h" bodystart="2075" bodyend="2082"/>
+    <listofallmembers>
+      <member refid="structAVSubtitle_1a354cdfa51cda54c914a569ee3f7493c0" prot="public" virt="non-virtual"><scope>AVSubtitle</scope><name>end_display_time</name></member>
+      <member refid="structAVSubtitle_1a03cabc402df10e7ee9b92df6284b09c1" prot="public" virt="non-virtual"><scope>AVSubtitle</scope><name>format</name></member>
+      <member refid="structAVSubtitle_1a89491b1f6998eceb6221791fd50087df" prot="public" virt="non-virtual"><scope>AVSubtitle</scope><name>num_rects</name></member>
+      <member refid="structAVSubtitle_1af7cc390bba4f9d6c32e391ca59d117a2" prot="public" virt="non-virtual"><scope>AVSubtitle</scope><name>pts</name></member>
+      <member refid="structAVSubtitle_1ad37c2315a9e36ed700f64cb971e22298" prot="public" virt="non-virtual"><scope>AVSubtitle</scope><name>rects</name></member>
+      <member refid="structAVSubtitle_1a271f635c9e734310a43277f819159c68" prot="public" virt="non-virtual"><scope>AVSubtitle</scope><name>start_display_time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

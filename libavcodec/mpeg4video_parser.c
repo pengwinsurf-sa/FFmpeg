@@ -27,6 +27,7 @@
 #include "mpegvideo.h"
 #include "mpeg4videodec.h"
 #include "mpeg4videodefs.h"
+#include "parser_internal.h"
 
 struct Mp4vParseContext {
     ParseContext pc;
@@ -84,7 +85,7 @@ static int mpeg4_decode_header(AVCodecParserContext *s1, AVCodecContext *avctx,
 {
     struct Mp4vParseContext *pc = s1->priv_data;
     Mpeg4DecContext *dec_ctx = &pc->dec_ctx;
-    MpegEncContext *s = &dec_ctx->m;
+    MPVContext *const s = &dec_ctx->h.c;
     GetBitContext gb1, *gb = &gb1;
     int ret;
 
@@ -124,7 +125,7 @@ static av_cold int mpeg4video_parse_init(AVCodecParserContext *s)
 
     pc->first_picture           = 1;
     pc->dec_ctx.quant_precision       = 5;
-    pc->dec_ctx.m.slice_context_count = 1;
+    pc->dec_ctx.h.c.slice_context_count = 1;
     pc->dec_ctx.showed_packed_warning = 1;
     return 0;
 }
@@ -155,10 +156,10 @@ static int mpeg4video_parse(AVCodecParserContext *s,
     return next;
 }
 
-const AVCodecParser ff_mpeg4video_parser = {
-    .codec_ids      = { AV_CODEC_ID_MPEG4 },
+const FFCodecParser ff_mpeg4video_parser = {
+    PARSER_CODEC_LIST(AV_CODEC_ID_MPEG4),
     .priv_data_size = sizeof(struct Mp4vParseContext),
-    .parser_init    = mpeg4video_parse_init,
-    .parser_parse   = mpeg4video_parse,
-    .parser_close   = ff_parse_close,
+    .init           = mpeg4video_parse_init,
+    .parse          = mpeg4video_parse,
+    .close          = ff_parse_close,
 };

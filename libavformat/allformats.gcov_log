@@ -1,0 +1,14 @@
+Function 'avpriv_register_devices'
+Lines executed:0.00% of 4
+
+Function 'av_demuxer_iterate'
+Lines executed:0.00% of 13
+
+Function 'av_muxer_iterate'
+Lines executed:0.00% of 13
+
+File 'libavformat/allformats.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#allformats.gcno##libavformat#allformats.c.gcov'
+
+Lines executed:0.00% of 30

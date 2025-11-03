@@ -1,0 +1,43 @@
+Function 'rtsp_write_close'
+Lines executed:0.00% of 8
+
+Function 'rtsp_write_packet'
+Lines executed:0.00% of 28
+
+Function 'ff_rtsp_tcp_write_packet'
+Lines executed:0.00% of 34
+
+Function 'rtsp_write_header'
+Lines executed:0.00% of 8
+
+Function 'rtsp_write_record'
+Lines executed:0.00% of 14
+
+Function 'ff_rtsp_setup_output_streams'
+Lines executed:0.00% of 32
+
+File 'libavformat/rtspenc.c'
+Lines executed:0.00% of 111
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtspenc.gcno##libavformat#rtspenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/poll2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtspenc.gcno###usr#include#x86_64-linux-gnu#bits#poll2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtspenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtspenc.gcno##libavformat#url.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtspenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavformat/rtspcodes.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtspenc.gcno##libavformat#rtspcodes.h.gcov'
+
+Lines executed:0.00% of 124

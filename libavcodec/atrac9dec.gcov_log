@@ -1,0 +1,89 @@
+Function 'atrac9_decode_init'
+Lines executed:0.00% of 86
+
+Function 'atrac9_init_static'
+Lines executed:0.00% of 22
+
+Function 'atrac9_init_vlc'
+Lines executed:0.00% of 5
+
+Function 'atrac9_decode_close'
+Lines executed:0.00% of 5
+
+Function 'atrac9_decode_flush'
+Lines executed:0.00% of 11
+
+Function 'atrac9_decode_frame'
+Lines executed:0.00% of 31
+
+Function 'atrac9_decode_block'
+Lines executed:0.00% of 90
+
+Function 'apply_band_extension'
+Lines executed:0.00% of 80
+
+Function 'fill_with_noise'
+Lines executed:0.00% of 11
+
+Function 'apply_scalefactors'
+Lines executed:0.00% of 11
+
+Function 'apply_intensity_stereo'
+Lines executed:0.00% of 11
+
+Function 'dequantize'
+Lines executed:0.00% of 12
+
+Function 'read_coeffs_fine'
+Lines executed:0.00% of 15
+
+Function 'read_coeffs_coarse'
+Lines executed:0.00% of 38
+
+Function 'calc_codebook_idx'
+Lines executed:0.00% of 26
+
+Function 'read_scalefactors'
+Lines executed:0.00% of 55
+
+Function 'parse_band_ext'
+Lines executed:0.00% of 40
+
+Function 'calc_precision'
+Lines executed:0.00% of 35
+
+Function 'parse_gradient'
+Lines executed:0.00% of 28
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/atrac9dec.c'
+Lines executed:0.00% of 539
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno##libavcodec#atrac9dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#atrac9dec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 622

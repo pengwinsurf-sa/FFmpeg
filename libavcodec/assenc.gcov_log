@@ -1,0 +1,15 @@
+Function 'ass_encode_frame'
+Lines executed:0.00% of 13
+
+Function 'ass_encode_init'
+Lines executed:0.00% of 9
+
+File 'libavcodec/assenc.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#assenc.gcno##libavcodec#assenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#assenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 22

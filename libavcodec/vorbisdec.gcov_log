@@ -1,0 +1,84 @@
+Function 'vorbis_decode_flush'
+Lines executed:0.00% of 9
+
+Function 'vorbis_decode_close'
+Lines executed:0.00% of 4
+
+Function 'vorbis_decode_frame'
+Lines executed:0.00% of 69
+
+Function 'vorbis_parse_audio_packet'
+Lines executed:0.00% of 124
+
+Function 'vorbis_residue_decode'
+Lines executed:0.00% of 155
+
+Function 'vorbis_floor1_decode'
+Lines executed:0.00% of 79
+
+Function 'vorbis_floor0_decode'
+Lines executed:0.00% of 59
+
+Function 'vorbis_decode_init'
+Lines executed:0.00% of 43
+
+Function 'vorbis_parse_id_hdr'
+Lines executed:0.00% of 57
+
+Function 'vorbis_parse_setup_hdr'
+Lines executed:0.00% of 29
+
+Function 'vorbis_parse_setup_hdr_modes'
+Lines executed:0.00% of 13
+
+Function 'create_map'
+Lines executed:0.00% of 19
+
+Function 'vorbis_parse_setup_hdr_mappings'
+Lines executed:0.00% of 44
+
+Function 'vorbis_parse_setup_hdr_residues'
+Lines executed:0.00% of 42
+
+Function 'vorbis_parse_setup_hdr_floors'
+Lines executed:0.00% of 86
+
+Function 'vorbis_parse_setup_hdr_tdtransforms'
+Lines executed:0.00% of 9
+
+Function 'vorbis_parse_setup_hdr_codebooks'
+Lines executed:0.00% of 137
+
+Function 'vorbis_free'
+Lines executed:0.00% of 33
+
+Function 'vorbisfloat2float'
+Lines executed:0.00% of 6
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 2
+
+File 'libavcodec/vorbisdec.c'
+Lines executed:0.00% of 945
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbisdec.gcno##libavcodec#vorbisdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbisdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 70
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbisdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbisdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbisdec.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 1024

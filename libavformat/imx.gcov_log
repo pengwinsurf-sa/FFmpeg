@@ -1,0 +1,22 @@
+Function 'simbiosis_imx_read_packet'
+Lines executed:0.00% of 46
+
+Function 'simbiosis_imx_read_header'
+Lines executed:0.00% of 26
+
+Function 'simbiosis_imx_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/imx.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#imx.gcno##libavformat#imx.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#imx.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#imx.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 78

@@ -1,0 +1,26 @@
+Function 'filter_frame'
+Lines executed:0.00% of 63
+
+Function 'frame_needs_copy'
+Lines executed:0.00% of 5
+
+Function 'buffer_needs_copy'
+Lines executed:0.00% of 29
+
+Function 'get_video_buffer'
+Lines executed:0.00% of 16
+
+Function 'config_output'
+No executable lines
+
+Function 'config_input'
+Lines executed:0.00% of 74
+
+Function 'query_formats'
+Lines executed:0.00% of 2
+
+File 'libavfilter/vf_pad.c'
+Lines executed:0.00% of 189
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_pad.gcno##libavfilter#vf_pad.c.gcov'
+
+Lines executed:0.00% of 189

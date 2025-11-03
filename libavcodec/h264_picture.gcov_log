@@ -1,0 +1,35 @@
+Function 'ff_h264_field_end'
+Lines executed:0.00% of 38
+
+Function 'ff_h264_set_erpic'
+Lines executed:0.00% of 13
+
+Function 'ff_h264_replace_picture'
+Lines executed:0.00% of 20
+
+Function 'ff_h264_ref_picture'
+Lines executed:0.00% of 18
+
+Function 'h264_copy_picture_params'
+Lines executed:0.00% of 36
+
+Function 'ff_h264_unref_picture'
+Lines executed:0.00% of 15
+
+File 'libavcodec/h264_picture.c'
+Lines executed:0.00% of 131
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_picture.gcno##libavcodec#h264_picture.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_picture.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_picture.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_picture.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 140

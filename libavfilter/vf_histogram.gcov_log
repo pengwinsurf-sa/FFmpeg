@@ -1,0 +1,24 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 148
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'config_input'
+Lines executed:0.00% of 102
+
+Function 'query_formats'
+Lines executed:0.00% of 24
+
+File 'libavfilter/vf_histogram.c'
+Lines executed:0.00% of 292
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_histogram.gcno##libavfilter#vf_histogram.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_histogram.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 298

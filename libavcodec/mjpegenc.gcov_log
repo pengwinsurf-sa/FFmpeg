@@ -1,0 +1,86 @@
+Function 'mjpeg_get_supported_config'
+Lines executed:0.00% of 9
+
+Function 'amv_encode_picture'
+Lines executed:0.00% of 18
+
+Function 'mjpeg_encode_init'
+Lines executed:0.00% of 40
+
+Function 'mjpeg_encode_mb'
+Lines executed:0.00% of 31
+
+Function 'mjpeg_record_mb'
+Lines executed:0.00% of 23
+
+Function 'encode_block'
+Lines executed:0.00% of 48
+
+Function 'record_block'
+Lines executed:0.00% of 31
+
+Function 'mjpeg_encode_coef'
+Lines executed:0.00% of 13
+
+Function 'mjpeg_encode_close'
+Lines executed:0.00% of 5
+
+Function 'alloc_huffman'
+Lines executed:0.00% of 9
+
+Function 'ff_mjpeg_encode_stuffing'
+Lines executed:0.00% of 30
+
+Function 'mjpeg_build_optimal_huffman'
+Lines executed:0.00% of 35
+
+Function 'mjpeg_encode_picture_frame'
+Lines executed:0.00% of 33
+
+Function 'mjpeg_amv_encode_picture_header'
+Lines executed:0.00% of 7
+
+Function 'mjpeg_encode_picture_header'
+Lines executed:0.00% of 9
+
+Function 'init_uni_ac_vlc'
+Lines executed:0.00% of 14
+
+Function 'put_marker'
+Lines executed:0.00% of 4
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/mjpegenc.c'
+Lines executed:0.00% of 334
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavcodec#mjpegenc.c.gcov'
+
+File 'libavcodec/mpegvideoenc.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavcodec#mpegvideoenc.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mjpegenc_huffman.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavcodec#mjpegenc_huffman.h.gcov'
+
+File 'libavcodec/mjpegenc.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavcodec#mjpegenc.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mjpegenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 383

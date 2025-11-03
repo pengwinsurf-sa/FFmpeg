@@ -1,0 +1,52 @@
+Function 'swri_resample_dsp_init'
+Lines executed:0.00% of 24
+
+Function 'resample_linear_double'
+Lines executed:0.00% of 32
+
+Function 'resample_common_double'
+Lines executed:0.00% of 33
+
+Function 'resample_one_double'
+Lines executed:0.00% of 8
+
+Function 'resample_linear_float'
+Lines executed:0.00% of 32
+
+Function 'resample_common_float'
+Lines executed:0.00% of 33
+
+Function 'resample_one_float'
+Lines executed:0.00% of 8
+
+Function 'resample_linear_int32'
+Lines executed:0.00% of 34
+
+Function 'resample_common_int32'
+Lines executed:0.00% of 33
+
+Function 'resample_one_int32'
+Lines executed:0.00% of 8
+
+Function 'resample_linear_int16'
+Lines executed:0.00% of 34
+
+Function 'resample_common_int16'
+Lines executed:0.00% of 33
+
+Function 'resample_one_int16'
+Lines executed:0.00% of 8
+
+File 'libswresample/resample_dsp.c'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#resample_dsp.gcno##libswresample#resample_dsp.c.gcov'
+
+File 'libswresample/resample_template.c'
+Lines executed:0.00% of 366
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#resample_dsp.gcno##libswresample#resample_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswresample#resample_dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 396

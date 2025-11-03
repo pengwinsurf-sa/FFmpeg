@@ -1,0 +1,56 @@
+Function 'activate'
+Lines executed:0.00% of 13
+
+Function 'config_props'
+Lines executed:0.00% of 25
+
+Function 'query_formats'
+Lines executed:0.00% of 34
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'init_audio'
+Lines executed:0.00% of 28
+
+Function 'av_buffersrc_get_nb_failed_requests'
+Lines executed:0.00% of 2
+
+Function 'init_video'
+Lines executed:0.00% of 19
+
+Function 'av_buffersrc_close'
+Lines executed:0.00% of 11
+
+Function 'av_buffersrc_add_frame_flags'
+Lines executed:0.00% of 35
+
+Function 'av_buffersrc_add_frame'
+Lines executed:0.00% of 2
+
+Function 'av_buffersrc_write_frame'
+Lines executed:0.00% of 2
+
+Function 'av_buffersrc_parameters_set'
+Lines executed:0.00% of 40
+
+Function 'av_buffersrc_parameters_alloc'
+Lines executed:0.00% of 7
+
+File 'libavfilter/buffersrc.c'
+Lines executed:0.00% of 218
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersrc.gcno##libavfilter#buffersrc.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersrc.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersrc.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#buffersrc.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 224

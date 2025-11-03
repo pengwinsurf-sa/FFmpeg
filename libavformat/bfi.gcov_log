@@ -1,0 +1,14 @@
+Function 'bfi_read_packet'
+Lines executed:0.00% of 33
+
+Function 'bfi_read_header'
+Lines executed:0.00% of 44
+
+Function 'bfi_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/bfi.c'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#bfi.gcno##libavformat#bfi.c.gcov'
+
+Lines executed:0.00% of 80

@@ -1,0 +1,25 @@
+Function 'decode_init'
+Lines executed:0.00% of 6
+
+Function 'wnv1_init_static'
+Lines executed:0.00% of 3
+
+Function 'decode_frame'
+Lines executed:0.00% of 52
+
+Function 'wnv1_get_code'
+Lines executed:0.00% of 24
+
+File 'libavcodec/wnv1.c'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wnv1.gcno##libavcodec#wnv1.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wnv1.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wnv1.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 85

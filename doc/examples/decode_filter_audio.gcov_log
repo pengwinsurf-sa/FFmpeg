@@ -1,0 +1,29 @@
+Function 'main'
+Lines executed:0.00% of 68
+
+Function 'print_frame'
+Lines executed:0.00% of 10
+
+Function 'init_filters'
+Lines executed:0.00% of 70
+
+Function 'open_input_file'
+Lines executed:0.00% of 20
+
+File 'doc/examples/decode_filter_audio.c'
+Lines executed:0.00% of 159
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_audio.gcno##doc#examples#decode_filter_audio.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_audio.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_audio.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#decode_filter_audio.gcno##libavutil#avutil.h.gcov'
+
+Lines executed:0.00% of 168

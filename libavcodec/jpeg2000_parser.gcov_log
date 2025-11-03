@@ -1,0 +1,11 @@
+Function 'jpeg2000_parse'
+Lines executed:0.00% of 14
+
+Function 'find_frame_end'
+Lines executed:0.00% of 77
+
+File 'libavcodec/jpeg2000_parser.c'
+Lines executed:0.00% of 91
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000_parser.gcno##libavcodec#jpeg2000_parser.c.gcov'
+
+Lines executed:0.00% of 91

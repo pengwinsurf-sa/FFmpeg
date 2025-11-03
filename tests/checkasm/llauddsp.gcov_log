@@ -1,0 +1,30 @@
+Function 'checkasm_check_llauddsp'
+Lines executed:100.00% of 6
+
+Function 'check_scalarproduct_and_madd_int32'
+Lines executed:80.00% of 35
+
+Function 'check_scalarproduct_and_madd_int16'
+Lines executed:95.65% of 23
+
+File 'tests/checkasm/llauddsp.c'
+Lines executed:96.15% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llauddsp.gcno##tests#checkasm#llauddsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llauddsp.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llauddsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llauddsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#llauddsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:87.50% of 64

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVXTEA" kind="struct" language="C++" prot="public">
+    <compoundname>AVXTEA</compoundname>
+    <includes refid="xtea_8h" local="no">libavutil/xtea.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVXTEA_1a18f428a5b5e2f2d0afb754df292d06e3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t AVXTEA::key[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>key</name>
+        <qualifiedname>AVXTEA::key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/xtea.h" line="36" column="14" bodyfile="libavutil/xtea.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/xtea.h" line="35" column="1" bodyfile="libavutil/xtea.h" bodystart="35" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structAVXTEA_1a18f428a5b5e2f2d0afb754df292d06e3" prot="public" virt="non-virtual"><scope>AVXTEA</scope><name>key</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

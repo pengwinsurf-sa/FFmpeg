@@ -1,0 +1,113 @@
+Function 'ff_yuv2rgb_c_init_tables'
+Lines executed:80.35% of 229
+
+Function 'ff_yuv2rgb_get_func_ptr'
+Lines executed:55.56% of 63
+
+Function 'yuv422p_bgr4_byte'
+Lines executed:0.00% of 1
+
+Function 'yuv422p_bgr4'
+Lines executed:0.00% of 1
+
+Function 'yuv422p_bgr8'
+Lines executed:0.00% of 1
+
+Function 'yuv422p_bgr12'
+Lines executed:0.00% of 1
+
+Function 'yuv422p_bgr15'
+Lines executed:100.00% of 1
+
+Function 'yuv422p_bgr16'
+Lines executed:100.00% of 1
+
+Function 'yuv422p_gbrp_c'
+Lines executed:100.00% of 1
+
+Function 'yuv422p_bgr24_c'
+Lines executed:100.00% of 1
+
+Function 'yuv422p_rgb24_c'
+Lines executed:100.00% of 1
+
+Function 'yuva422p_argb_c'
+Lines executed:0.00% of 1
+
+Function 'yuva422p_rgba_c'
+Lines executed:0.00% of 1
+
+Function 'yuv422p_rgb32_c'
+Lines executed:100.00% of 1
+
+Function 'yuv422p_bgr48_c'
+Lines executed:0.00% of 1
+
+Function 'yuv422p_rgb48_c'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_4b_ordered_dither'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_4_ordered_dither'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_8_ordered_dither'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_12_ordered_dither'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_15_ordered_dither'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb_c_16_ordered_dither'
+Lines executed:100.00% of 1
+
+Function 'yuv420p_gbrp_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb_c_24_bgr'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb_c_24_rgb'
+Lines executed:100.00% of 1
+
+Function 'yuva2argb_c'
+Lines executed:100.00% of 1
+
+Function 'yuva2rgba_c'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb_c_32'
+Lines executed:100.00% of 1
+
+Function 'yuv2rgb_c_bgr48'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_48'
+Lines executed:0.00% of 1
+
+Function 'yuv2rgb_c_1_ordered_dither'
+Lines executed:0.00% of 35
+
+Function 'sws_getCoefficients'
+Lines executed:0.00% of 4
+
+File 'libswscale/yuv2rgb.c'
+Lines executed:64.71% of 340
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#yuv2rgb.gcno##libswscale#yuv2rgb.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:60.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#yuv2rgb.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:60.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#yuv2rgb.gcno##libavutil#bswap.h.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:55.56% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#yuv2rgb.gcno##libswscale#swscale_internal.h.gcov'
+
+Lines executed:64.35% of 359

@@ -1,0 +1,101 @@
+Function 'ff_h2645_sei_reset'
+Lines executed:0.00% of 15
+
+Function 'ff_h2645_sei_to_context'
+Lines executed:0.00% of 2
+
+Function 'ff_h2645_sei_to_frame'
+Lines executed:0.00% of 112
+
+Function 'h2645_sei_to_side_data'
+Lines executed:0.00% of 81
+
+Function 'ff_h2645_sei_ctx_replace'
+Lines executed:0.00% of 27
+
+Function 'ff_h2645_sei_message_decode'
+Lines executed:0.00% of 45
+
+Function 'decode_nal_sei_mastering_display_info'
+Lines executed:0.00% of 15
+
+Function 'decode_film_grain_characteristics'
+Lines executed:0.00% of 46
+
+Function 'decode_ambient_viewing_environment'
+Lines executed:0.00% of 11
+
+Function 'decode_frame_packing_arrangement'
+Lines executed:0.00% of 27
+
+Function 'decode_display_orientation'
+Lines executed:0.00% of 7
+
+Function 'decode_unregistered_user_data'
+Lines executed:0.00% of 26
+
+Function 'decode_registered_user_data'
+Lines executed:0.00% of 77
+
+Function 'decode_registered_user_data_lcevc'
+Lines executed:0.00% of 7
+
+Function 'decode_registered_user_data_dynamic_hdr_vivid'
+Lines executed:0.00% of 14
+
+Function 'decode_registered_user_data_dynamic_hdr_plus'
+Lines executed:0.00% of 15
+
+Function 'get_ue_golomb_long'
+Lines executed:0.00% of 15
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/h2645_sei.c'
+Lines executed:0.00% of 478
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavcodec#h2645_sei.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/refstruct.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavutil#refstruct.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h2645_sei.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 574

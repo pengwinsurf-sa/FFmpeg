@@ -1,0 +1,44 @@
+Function 'opus_decode_init'
+Lines executed:0.00% of 47
+
+Function 'opus_decode_close'
+Lines executed:0.00% of 16
+
+Function 'opus_decode_flush'
+Lines executed:0.00% of 14
+
+Function 'opus_decode_packet'
+Lines executed:0.00% of 104
+
+Function 'opus_decode_subpacket'
+Lines executed:0.00% of 51
+
+Function 'opus_decode_frame'
+Lines executed:0.00% of 106
+
+Function 'opus_decode_redundancy'
+Lines executed:0.00% of 14
+
+Function 'opus_init_resample'
+Lines executed:0.00% of 14
+
+Function 'opus_flush_resample'
+Lines executed:0.00% of 27
+
+File 'libavcodec/opus/dec.c'
+Lines executed:0.00% of 385
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec.gcno##libavcodec#opus#dec.c.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec.gcno##libavutil#ffmath.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/opus/rc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#dec.gcno##libavcodec#opus#rc.h.gcov'
+
+Lines executed:0.00% of 393

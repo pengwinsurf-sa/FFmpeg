@@ -1,0 +1,27 @@
+Function 'checkasm_check_sw_yuv2yuv'
+Lines executed:100.00% of 4
+
+Function 'check_semiplanar'
+Lines executed:87.69% of 65
+
+File 'tests/checkasm/sw_yuv2yuv.c'
+Lines executed:96.49% of 57
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2yuv.gcno##tests#checkasm#sw_yuv2yuv.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2yuv.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2yuv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2yuv.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#sw_yuv2yuv.gcno##libavutil#emms.h.gcov'
+
+Lines executed:88.41% of 69

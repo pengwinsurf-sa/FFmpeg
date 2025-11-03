@@ -1,0 +1,23 @@
+Function 'process_command'
+Lines executed:0.00% of 6
+
+Function 'config_input'
+Lines executed:0.00% of 8
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 33
+
+Function 'distortion_process'
+Lines executed:0.00% of 26
+
+Function 'set_params'
+Lines executed:0.00% of 42
+
+File 'libavfilter/af_aexciter.c'
+Lines executed:0.00% of 119
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aexciter.gcno##libavfilter#af_aexciter.c.gcov'
+
+Lines executed:0.00% of 119

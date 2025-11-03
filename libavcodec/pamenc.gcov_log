@@ -1,0 +1,16 @@
+Function 'pam_encode_frame'
+Lines executed:0.00% of 80
+
+File 'libavcodec/pamenc.c'
+Lines executed:0.00% of 76
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pamenc.gcno##libavcodec#pamenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pamenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pamenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 80

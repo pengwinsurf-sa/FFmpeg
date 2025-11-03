@@ -1,0 +1,86 @@
+Function 'g723_1_encode_frame'
+Lines executed:0.00% of 88
+
+Function 'pack_bitstream'
+Lines executed:0.00% of 52
+
+Function 'fcb_search'
+Lines executed:0.00% of 15
+
+Function 'pack_fcb_param'
+Lines executed:0.00% of 18
+
+Function 'get_fcb_param'
+Lines executed:0.00% of 93
+
+Function 'sub_acb_contrib'
+Lines executed:0.00% of 8
+
+Function 'acb_search'
+Lines executed:0.00% of 63
+
+Function 'synth_percept_filter'
+Lines executed:0.00% of 21
+
+Function 'harmonic_noise_sub'
+Lines executed:0.00% of 7
+
+Function 'harmonic_filter'
+Lines executed:0.00% of 6
+
+Function 'comp_harmonic_coeff'
+Lines executed:0.00% of 43
+
+Function 'estimate_pitch'
+Lines executed:0.00% of 45
+
+Function 'perceptual_filter'
+Lines executed:0.00% of 19
+
+Function 'iir_filter'
+Lines executed:0.00% of 9
+
+Function 'lsp_quantize'
+Lines executed:0.00% of 24
+
+Function 'lpc2lsp'
+Lines executed:0.00% of 46
+
+Function 'comp_lpc_coeff'
+Lines executed:0.00% of 11
+
+Function 'levinson_durbin'
+Lines executed:0.00% of 21
+
+Function 'comp_autocorr'
+Lines executed:0.00% of 18
+
+Function 'highpass_filter'
+Lines executed:0.00% of 7
+
+Function 'g723_1_encode_init'
+Lines executed:0.00% of 17
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 18
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 9
+
+File 'libavcodec/g723_1enc.c'
+Lines executed:0.00% of 606
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1enc.gcno##libavcodec#g723_1enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1enc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1enc.gcno##libavcodec#put_bits.h.gcov'
+
+Lines executed:0.00% of 658

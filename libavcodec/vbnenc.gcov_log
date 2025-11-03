@@ -1,0 +1,23 @@
+Function 'vbn_init'
+Lines executed:0.00% of 4
+
+Function 'vbn_encode'
+Lines executed:0.00% of 82
+
+File 'libavcodec/vbnenc.c'
+Lines executed:0.00% of 66
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vbnenc.gcno##libavcodec#vbnenc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vbnenc.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vbnenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vbnenc.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 86

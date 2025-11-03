@@ -1,0 +1,11 @@
+Function 'xmd_read_header'
+Lines executed:0.00% of 21
+
+Function 'xmd_probe'
+Lines executed:0.00% of 6
+
+File 'libavformat/xmd.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#xmd.gcno##libavformat#xmd.c.gcov'
+
+Lines executed:0.00% of 27

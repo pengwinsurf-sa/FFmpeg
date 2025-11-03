@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavfi__buffersink" kind="group">
+    <compoundname>lavfi_buffersink</compoundname>
+    <title>Buffer sink API</title>
+    <innerfile refid="buffersink_8h">buffersink.h</innerfile>
+    <innergroup refid="group__lavfi__buffersink__accessors">Buffer sink accessors</innergroup>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__lavfi__buffersink_1ga71ae9c529c8da51681e12faa37d1a395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_buffersink_get_frame_flags</definition>
+        <argsstring>(AVFilterContext *ctx, AVFrame *frame, int flags)</argsstring>
+        <name>av_buffersink_get_frame_flags</name>
+        <param>
+          <type><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Get a frame with filtered data from sink and put it in frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to a buffersink or abuffersink filter context. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to an allocated frame that will be filled with data. The data must be freed using <ref refid="group__lavu__frame_1ga0a2b687f9c1c5ed0089b01fd61227108" kindref="member">av_frame_unref()</ref> / <ref refid="group__lavu__frame_1ga979d73f3228814aee56aeca0636e37cc" kindref="member">av_frame_free()</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a combination of AV_BUFFERSINK_FLAG_* flags</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&gt;= 0 in for success, a negative AVERROR code for failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersink.h" line="77" column="5" declfile="libavfilter/buffersink.h" declline="77" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavfi__buffersink_1ga359d7d1e42c27ca14c07559d4e9adba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_buffersink_set_frame_size</definition>
+        <argsstring>(AVFilterContext *ctx, unsigned frame_size)</argsstring>
+        <name>av_buffersink_set_frame_size</name>
+        <param>
+          <type><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>frame_size</declname>
+        </param>
+        <briefdescription>
+<para>Set the frame size for an audio buffer sink. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>All calls to av_buffersink_get_buffer_ref will return a buffer with exactly the specified number of samples, or <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref> if there is not enough. The last buffer at EOF will be padded with 0. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersink.h" line="100" column="6" declfile="libavfilter/buffersink.h" declline="100" declcolumn="6"/>
+        <referencedby refid="transcode_8c_1a54ad76df48ef886861a2f12bc7a9e7e4" compoundref="transcode_8c" startline="260" endline="423">init_filter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_buffersink_get_frame</definition>
+        <argsstring>(AVFilterContext *ctx, AVFrame *frame)</argsstring>
+        <name>av_buffersink_get_frame</name>
+        <param>
+          <type><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Get a frame with filtered data from sink and put it in frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to a context of a buffersink or abuffersink <ref refid="structAVFilter" kindref="compound">AVFilter</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to an allocated frame that will be filled with data. The data must be freed using <ref refid="group__lavu__frame_1ga0a2b687f9c1c5ed0089b01fd61227108" kindref="member">av_frame_unref()</ref> / <ref refid="group__lavu__frame_1ga979d73f3228814aee56aeca0636e37cc" kindref="member">av_frame_free()</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>&gt;= 0 if a frame was successfully returned.</para>
+</listitem><listitem><para><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref> if no frames are available at this point; more input frames must be added to the filtergraph to get more output.</para>
+</listitem><listitem><para>AVERROR_EOF if there will be no more output frames on this sink.</para>
+</listitem><listitem><para>A different negative AVERROR code in other failure cases. </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersink.h" line="145" column="5" declfile="libavfilter/buffersink.h" declline="145" declcolumn="5"/>
+        <referencedby refid="transcode_8c_1a255192428438daf73b9f8060c0815712" compoundref="transcode_8c" startline="504" endline="542">filter_encode_write_frame</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__filter__audio_8c" startline="223" endline="321">main</referencedby>
+        <referencedby refid="filter__audio_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="filter__audio_8c" startline="267" endline="358">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavfi__buffersink_1ga9c06b3744579f165cc032160c154828a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_buffersink_get_samples</definition>
+        <argsstring>(AVFilterContext *ctx, AVFrame *frame, int nb_samples)</argsstring>
+        <name>av_buffersink_get_samples</name>
+        <param>
+          <type><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_samples</declname>
+        </param>
+        <briefdescription>
+<para>Same as <ref refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kindref="member">av_buffersink_get_frame()</ref>, but with the ability to specify the number of samples read. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is less efficient than <ref refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kindref="member">av_buffersink_get_frame()</ref>, because it copies the data around.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to a context of the abuffersink <ref refid="structAVFilter" kindref="compound">AVFilter</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to an allocated frame that will be filled with data. The data must be freed using <ref refid="group__lavu__frame_1ga0a2b687f9c1c5ed0089b01fd61227108" kindref="member">av_frame_unref()</ref> / <ref refid="group__lavu__frame_1ga979d73f3228814aee56aeca0636e37cc" kindref="member">av_frame_free()</ref> frame will contain exactly nb_samples audio samples, except at the end of stream, when it can contain less than nb_samples.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The return codes have the same meaning as for <ref refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kindref="member">av_buffersink_get_frame()</ref>.</para>
+</simplesect>
+<simplesect kind="warning"><para>do not mix this function with <ref refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kindref="member">av_buffersink_get_frame()</ref>. Use only one or the other with a single sink, not both. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersink.h" line="164" column="5" declfile="libavfilter/buffersink.h" declline="164" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__lavfi__buffersink_1ga9453fc0e81d30237080b51575da0f0d8" prot="public" static="no">
+        <name>AV_BUFFERSINK_FLAG_PEEK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>Tell av_buffersink_get_buffer_ref() to read video/samples buffer reference, but not remove it from the buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is useful if you need only to read a video/samples buffer, without to fetch it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersink.h" line="84" column="9" bodyfile="libavfilter/buffersink.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__lavfi__buffersink_1gade670e86ece8d740194c916fa1ea6cc0" prot="public" static="no">
+        <name>AV_BUFFERSINK_FLAG_NO_REQUEST</name>
+        <initializer>2</initializer>
+        <briefdescription>
+<para>Tell av_buffersink_get_buffer_ref() not to request a frame from its input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If a frame is already buffered, it is read (and removed from the buffer), but if no frame is present, return <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavfilter/buffersink.h" line="91" column="9" bodyfile="libavfilter/buffersink.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The buffersink and abuffersink filters are there to connect filter graphs to applications. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>They have a single input, connected to the graph, and no output. Frames must be extracted using <ref refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kindref="member">av_buffersink_get_frame()</ref> or <ref refid="group__lavfi__buffersink_1ga9c06b3744579f165cc032160c154828a" kindref="member">av_buffersink_get_samples()</ref>.</para>
+<para>The format negotiated by the graph during configuration can be obtained using the accessor functions:<itemizedlist>
+<listitem><para><ref refid="group__lavfi__buffersink__accessors_1gabc82f65ec7f4fa47c5216260639258a1" kindref="member">av_buffersink_get_time_base()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1ga402ddbef6f7347869725696846ac81eb" kindref="member">av_buffersink_get_format()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1ga55614fd28de2fa05b04f427390061d5b" kindref="member">av_buffersink_get_frame_rate()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1gac8c86515d2ef56090395dfd74854c835" kindref="member">av_buffersink_get_w()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1ga955ecf3680e71e10429d7500343be25c" kindref="member">av_buffersink_get_h()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1gaa38ee33e1c7f6f7cb190bd2330e5f848" kindref="member">av_buffersink_get_sample_aspect_ratio()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1gace78881c41bf449527826b95d21279a2" kindref="member">av_buffersink_get_channels()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1gaad918036937648701c09f9612f42706e" kindref="member">av_buffersink_get_ch_layout()</ref>,</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1ga2af714e82f48759551acdbc4488ded4a" kindref="member">av_buffersink_get_sample_rate()</ref>.</para>
+</listitem><listitem><para><ref refid="group__lavfi__buffersink__accessors_1ga7cca1d4b0601d9b79d0f29ac991a6061" kindref="member">av_buffersink_get_side_data()</ref>.</para>
+</listitem></itemizedlist>
+</para>
+<para>The layout returned by <ref refid="group__lavfi__buffersink__accessors_1gaad918036937648701c09f9612f42706e" kindref="member">av_buffersink_get_ch_layout()</ref> must de uninitialized by the caller.</para>
+<para>The format can be constrained by setting options, using <ref refid="group__opt__set__funcs_1ga5fd4b92bdf4f392a2847f711676a7537" kindref="member">av_opt_set()</ref> and related functions with the AV_OPT_SEARCH_CHILDREN flag.<itemizedlist>
+<listitem><para>pixel_formats (array of pixel formats),</para>
+</listitem><listitem><para>colorspaces (array of int),</para>
+</listitem><listitem><para>colorranges (array of int),</para>
+</listitem><listitem><para>sample_formats (array of sample formats),</para>
+</listitem><listitem><para>samplerates (array of int),</para>
+</listitem><listitem><para>channel_layouts (array of channel layouts) If an option is not set, all corresponding formats are accepted. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

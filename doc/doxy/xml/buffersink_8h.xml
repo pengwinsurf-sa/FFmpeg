@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="buffersink_8h" kind="file" language="C++">
+    <compoundname>buffersink.h</compoundname>
+    <includes refid="avfilter_8h" local="yes">avfilter.h</includes>
+    <includedby refid="decode__filter__audio_8c" local="no">doc/examples/decode_filter_audio.c</includedby>
+    <includedby refid="decode__filter__video_8c" local="no">doc/examples/decode_filter_video.c</includedby>
+    <includedby refid="filter__audio_8c" local="no">doc/examples/filter_audio.c</includedby>
+    <includedby refid="transcode_8c" local="no">doc/examples/transcode.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>avfilter.h</label>
+        <link refid="avfilter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>libavfilter/version.h</label>
+        <link refid="libavfilter_2version_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>libavfilter/version_major.h</label>
+        <link refid="libavfilter_2version__major_8h"/>
+      </node>
+      <node id="4">
+        <label>libavutil/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="5">
+        <label>libavutil/avutil.h</label>
+        <link refid="avutil_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>libavutil/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>channel_layout.h</label>
+        <link refid="channel__layout_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>libavutil/dict.h</label>
+        <link refid="dict_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>error.h</label>
+        <link refid="error_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>libavutil/frame.h</label>
+        <link refid="frame_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>intfloat.h</label>
+        <link refid="intfloat_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>macros.h</label>
+        <link refid="macros_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mathematics.h</label>
+        <link refid="mathematics_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>mem.h</label>
+        <link refid="mem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>pixfmt.h</label>
+        <link refid="pixfmt_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rational.h</label>
+        <link refid="rational_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>samplefmt.h</label>
+        <link refid="samplefmt_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>version.h</label>
+        <link refid="libavutil_2version_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>errno.h</label>
+      </node>
+      <node id="8">
+        <label>inttypes.h</label>
+      </node>
+      <node id="17">
+        <label>libavutil/avconfig.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="24">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="11">
+        <label>stdint.h</label>
+      </node>
+      <node id="12">
+        <label>stdio.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="14">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>doc/examples/decode_filter_audio.c</label>
+        <link refid="decode__filter__audio_8c"/>
+      </node>
+      <node id="3">
+        <label>doc/examples/decode_filter_video.c</label>
+        <link refid="decode__filter__video_8c"/>
+      </node>
+      <node id="4">
+        <label>doc/examples/filter_audio.c</label>
+        <link refid="filter__audio_8c"/>
+      </node>
+      <node id="5">
+        <label>doc/examples/transcode.c</label>
+        <link refid="transcode_8c"/>
+      </node>
+      <node id="1">
+        <label>libavfilter/buffersink.h</label>
+        <link refid="buffersink_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <member refid="group__lavfi__buffersink_1ga9453fc0e81d30237080b51575da0f0d8" kind="define"><name>AV_BUFFERSINK_FLAG_PEEK</name></member>
+      <member refid="group__lavfi__buffersink_1gade670e86ece8d740194c916fa1ea6cc0" kind="define"><name>AV_BUFFERSINK_FLAG_NO_REQUEST</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__lavfi__buffersink_1ga71ae9c529c8da51681e12faa37d1a395" kind="function"><name>av_buffersink_get_frame_flags</name></member>
+      <member refid="group__lavfi__buffersink_1ga359d7d1e42c27ca14c07559d4e9adba7" kind="function"><name>av_buffersink_set_frame_size</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga1eb8bbf583ffb7cc29aaa1944b1e699c" kind="function"><name>av_buffersink_get_type</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gabc82f65ec7f4fa47c5216260639258a1" kind="function"><name>av_buffersink_get_time_base</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga402ddbef6f7347869725696846ac81eb" kind="function"><name>av_buffersink_get_format</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga55614fd28de2fa05b04f427390061d5b" kind="function"><name>av_buffersink_get_frame_rate</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gac8c86515d2ef56090395dfd74854c835" kind="function"><name>av_buffersink_get_w</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga955ecf3680e71e10429d7500343be25c" kind="function"><name>av_buffersink_get_h</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gaa38ee33e1c7f6f7cb190bd2330e5f848" kind="function"><name>av_buffersink_get_sample_aspect_ratio</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gaad817cdcf5493c385126e8e17c5717f2" kind="function"><name>av_buffersink_get_colorspace</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gab80976e506ab88d23d94bb6d7a4051bd" kind="function"><name>av_buffersink_get_color_range</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gace78881c41bf449527826b95d21279a2" kind="function"><name>av_buffersink_get_channels</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1gaad918036937648701c09f9612f42706e" kind="function"><name>av_buffersink_get_ch_layout</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga2af714e82f48759551acdbc4488ded4a" kind="function"><name>av_buffersink_get_sample_rate</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga0e34e0529da6906449524ca1be706794" kind="function"><name>av_buffersink_get_hw_frames_ctx</name></member>
+      <member refid="group__lavfi__buffersink__accessors_1ga7cca1d4b0601d9b79d0f29ac991a6061" kind="function"><name>av_buffersink_get_side_data</name></member>
+      <member refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kind="function"><name>av_buffersink_get_frame</name></member>
+      <member refid="group__lavfi__buffersink_1ga9c06b3744579f165cc032160c154828a" kind="function"><name>av_buffersink_get_samples</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>memory buffer sink API for audio and video </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVFILTER_BUFFERSINK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVFILTER_BUFFERSINK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="22"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavfi_buffersink</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>memory<sp/>buffer<sp/>sink<sp/>API<sp/>for<sp/>audio<sp/>and<sp/>video</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="avfilter_8h" kindref="compound">avfilter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavfi_buffersink<sp/>Buffer<sp/>sink<sp/>API</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>@ingroup<sp/>lavfi</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>The<sp/>buffersink<sp/>and<sp/>abuffersink<sp/>filters<sp/>are<sp/>there<sp/>to<sp/>connect<sp/>filter<sp/>graphs</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>to<sp/>applications.<sp/>They<sp/>have<sp/>a<sp/>single<sp/>input,<sp/>connected<sp/>to<sp/>the<sp/>graph,<sp/>and<sp/>no</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>output.<sp/>Frames<sp/>must<sp/>be<sp/>extracted<sp/>using<sp/>av_buffersink_get_frame()<sp/>or</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>av_buffersink_get_samples().</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>The<sp/>format<sp/>negotiated<sp/>by<sp/>the<sp/>graph<sp/>during<sp/>configuration<sp/>can<sp/>be<sp/>obtained</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>using<sp/>the<sp/>accessor<sp/>functions:</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_time_base(),</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_format(),</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_frame_rate(),</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_w(),</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_h(),</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_sample_aspect_ratio(),</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_channels(),</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_ch_layout(),</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_sample_rate().</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>-<sp/>av_buffersink_get_side_data().</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>The<sp/>layout<sp/>returned<sp/>by<sp/>av_buffersink_get_ch_layout()<sp/>must<sp/>de<sp/>uninitialized</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>by<sp/>the<sp/>caller.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>The<sp/>format<sp/>can<sp/>be<sp/>constrained<sp/>by<sp/>setting<sp/>options,<sp/>using<sp/>av_opt_set()<sp/>and</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>related<sp/>functions<sp/>with<sp/>the<sp/>AV_OPT_SEARCH_CHILDREN<sp/>flag.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/><sp/>-<sp/>pixel_formats<sp/>(array<sp/>of<sp/>pixel<sp/>formats),</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/><sp/>-<sp/>colorspaces<sp/>(array<sp/>of<sp/>int),</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/>-<sp/>colorranges<sp/>(array<sp/>of<sp/>int),</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/><sp/>-<sp/>sample_formats<sp/>(array<sp/>of<sp/>sample<sp/>formats),</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/><sp/>-<sp/>samplerates<sp/>(array<sp/>of<sp/>int),</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/><sp/>-<sp/>channel_layouts<sp/>(array<sp/>of<sp/>channel<sp/>layouts)</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>If<sp/>an<sp/>option<sp/>is<sp/>not<sp/>set,<sp/>all<sp/>corresponding<sp/>formats<sp/>are<sp/>accepted.</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="67"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>Get<sp/>a<sp/>frame<sp/>with<sp/>filtered<sp/>data<sp/>from<sp/>sink<sp/>and<sp/>put<sp/>it<sp/>in<sp/>frame.</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/><sp/><sp/><sp/>pointer<sp/>to<sp/>a<sp/>buffersink<sp/>or<sp/>abuffersink<sp/>filter<sp/>context.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/><sp/>pointer<sp/>to<sp/>an<sp/>allocated<sp/>frame<sp/>that<sp/>will<sp/>be<sp/>filled<sp/>with<sp/>data.</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>data<sp/>must<sp/>be<sp/>freed<sp/>using<sp/>av_frame_unref()<sp/>/<sp/>av_frame_free()</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>@param<sp/>flags<sp/><sp/>a<sp/>combination<sp/>of<sp/>AV_BUFFERSINK_FLAG_*<sp/>flags</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>@return<sp/><sp/>&gt;=<sp/>0<sp/>in<sp/>for<sp/>success,<sp/>a<sp/>negative<sp/>AVERROR<sp/>code<sp/>for<sp/>failure.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="group__lavfi__buffersink_1ga71ae9c529c8da51681e12faa37d1a395" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavfi__buffersink_1ga71ae9c529c8da51681e12faa37d1a395" kindref="member">av_buffersink_get_frame_flags</ref>(<ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx,<sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="79"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>Tell<sp/>av_buffersink_get_buffer_ref()<sp/>to<sp/>read<sp/>video/samples<sp/>buffer</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>reference,<sp/>but<sp/>not<sp/>remove<sp/>it<sp/>from<sp/>the<sp/>buffer.<sp/>This<sp/>is<sp/>useful<sp/>if<sp/>you</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>need<sp/>only<sp/>to<sp/>read<sp/>a<sp/>video/samples<sp/>buffer,<sp/>without<sp/>to<sp/>fetch<sp/>it.</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="group__lavfi__buffersink_1ga9453fc0e81d30237080b51575da0f0d8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_BUFFERSINK_FLAG_PEEK<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="86"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>Tell<sp/>av_buffersink_get_buffer_ref()<sp/>not<sp/>to<sp/>request<sp/>a<sp/>frame<sp/>from<sp/>its<sp/>input.</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>If<sp/>a<sp/>frame<sp/>is<sp/>already<sp/>buffered,<sp/>it<sp/>is<sp/>read<sp/>(and<sp/>removed<sp/>from<sp/>the<sp/>buffer),</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>but<sp/>if<sp/>no<sp/>frame<sp/>is<sp/>present,<sp/>return<sp/>AVERROR(EAGAIN).</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__lavfi__buffersink_1gade670e86ece8d740194c916fa1ea6cc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AV_BUFFERSINK_FLAG_NO_REQUEST<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="93"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>Set<sp/>the<sp/>frame<sp/>size<sp/>for<sp/>an<sp/>audio<sp/>buffer<sp/>sink.</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>All<sp/>calls<sp/>to<sp/>av_buffersink_get_buffer_ref<sp/>will<sp/>return<sp/>a<sp/>buffer<sp/>with</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>exactly<sp/>the<sp/>specified<sp/>number<sp/>of<sp/>samples,<sp/>or<sp/>AVERROR(EAGAIN)<sp/>if<sp/>there<sp/>is</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>not<sp/>enough.<sp/>The<sp/>last<sp/>buffer<sp/>at<sp/>EOF<sp/>will<sp/>be<sp/>padded<sp/>with<sp/>0.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__lavfi__buffersink_1ga359d7d1e42c27ca14c07559d4e9adba7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__lavfi__buffersink_1ga359d7d1e42c27ca14c07559d4e9adba7" kindref="member">av_buffersink_set_frame_size</ref>(<ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>frame_size);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="102"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>@defgroup<sp/>lavfi_buffersink_accessors<sp/>Buffer<sp/>sink<sp/>accessors</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>properties<sp/>of<sp/>the<sp/>stream</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>@{</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="group__lavfi__buffersink__accessors_1ga1eb8bbf583ffb7cc29aaa1944b1e699c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__lavu__misc_1ga9a84bba4713dfced21a1a56163be1f48" kindref="member">AVMediaType</ref><sp/><ref refid="group__lavfi__buffersink__accessors_1ga1eb8bbf583ffb7cc29aaa1944b1e699c" kindref="member">av_buffersink_get_type</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="109" refid="group__lavfi__buffersink__accessors_1gabc82f65ec7f4fa47c5216260639258a1" refkind="member"><highlight class="normal"><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1gabc82f65ec7f4fa47c5216260639258a1" kindref="member">av_buffersink_get_time_base</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="110" refid="group__lavfi__buffersink__accessors_1ga402ddbef6f7347869725696846ac81eb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1ga402ddbef6f7347869725696846ac81eb" kindref="member">av_buffersink_get_format</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="group__lavfi__buffersink__accessors_1ga55614fd28de2fa05b04f427390061d5b" refkind="member"><highlight class="normal"><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1ga55614fd28de2fa05b04f427390061d5b" kindref="member">av_buffersink_get_frame_rate</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="113" refid="group__lavfi__buffersink__accessors_1gac8c86515d2ef56090395dfd74854c835" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1gac8c86515d2ef56090395dfd74854c835" kindref="member">av_buffersink_get_w</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="114" refid="group__lavfi__buffersink__accessors_1ga955ecf3680e71e10429d7500343be25c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1ga955ecf3680e71e10429d7500343be25c" kindref="member">av_buffersink_get_h</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="115" refid="group__lavfi__buffersink__accessors_1gaa38ee33e1c7f6f7cb190bd2330e5f848" refkind="member"><highlight class="normal"><ref refid="structAVRational" kindref="compound">AVRational</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1gaa38ee33e1c7f6f7cb190bd2330e5f848" kindref="member">av_buffersink_get_sample_aspect_ratio</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="116" refid="group__lavfi__buffersink__accessors_1gaad817cdcf5493c385126e8e17c5717f2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1aff71a069509a1ad3ff54d53a1c894c85" kindref="member">AVColorSpace</ref><sp/><ref refid="group__lavfi__buffersink__accessors_1gaad817cdcf5493c385126e8e17c5717f2" kindref="member">av_buffersink_get_colorspace</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="117" refid="group__lavfi__buffersink__accessors_1gab80976e506ab88d23d94bb6d7a4051bd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="pixfmt_8h_1a3da0bf691418bc22c4bcbe6583ad589a" kindref="member">AVColorRange</ref><sp/><ref refid="group__lavfi__buffersink__accessors_1gab80976e506ab88d23d94bb6d7a4051bd" kindref="member">av_buffersink_get_color_range</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="group__lavfi__buffersink__accessors_1gace78881c41bf449527826b95d21279a2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1gace78881c41bf449527826b95d21279a2" kindref="member">av_buffersink_get_channels</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="120" refid="group__lavfi__buffersink__accessors_1gaad918036937648701c09f9612f42706e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1gaad918036937648701c09f9612f42706e" kindref="member">av_buffersink_get_ch_layout</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structAVChannelLayout" kindref="compound">AVChannelLayout</ref><sp/>*ch_layout);</highlight></codeline>
+<codeline lineno="122" refid="group__lavfi__buffersink__accessors_1ga2af714e82f48759551acdbc4488ded4a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1ga2af714e82f48759551acdbc4488ded4a" kindref="member">av_buffersink_get_sample_rate</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="group__lavfi__buffersink__accessors_1ga0e34e0529da6906449524ca1be706794" refkind="member"><highlight class="normal"><ref refid="structAVBufferRef" kindref="compound">AVBufferRef</ref><sp/>*<sp/><sp/><sp/><sp/><ref refid="group__lavfi__buffersink__accessors_1ga0e34e0529da6906449524ca1be706794" kindref="member">av_buffersink_get_hw_frames_ctx</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="group__lavfi__buffersink__accessors_1ga7cca1d4b0601d9b79d0f29ac991a6061" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFrameSideData" kindref="compound">AVFrameSideData</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="group__lavfi__buffersink__accessors_1ga7cca1d4b0601d9b79d0f29ac991a6061" kindref="member">av_buffersink_get_side_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*nb_side_data);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="129"><highlight class="comment">/**<sp/>@}<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="131"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>Get<sp/>a<sp/>frame<sp/>with<sp/>filtered<sp/>data<sp/>from<sp/>sink<sp/>and<sp/>put<sp/>it<sp/>in<sp/>frame.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/>pointer<sp/>to<sp/>a<sp/>context<sp/>of<sp/>a<sp/>buffersink<sp/>or<sp/>abuffersink<sp/>AVFilter.</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>pointer<sp/>to<sp/>an<sp/>allocated<sp/>frame<sp/>that<sp/>will<sp/>be<sp/>filled<sp/>with<sp/>data.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>data<sp/>must<sp/>be<sp/>freed<sp/>using<sp/>av_frame_unref()<sp/>/<sp/>av_frame_free()</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>@return</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>&gt;=<sp/>0<sp/>if<sp/>a<sp/>frame<sp/>was<sp/>successfully<sp/>returned.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>AVERROR(EAGAIN)<sp/>if<sp/>no<sp/>frames<sp/>are<sp/>available<sp/>at<sp/>this<sp/>point;<sp/>more</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input<sp/>frames<sp/>must<sp/>be<sp/>added<sp/>to<sp/>the<sp/>filtergraph<sp/>to<sp/>get<sp/>more<sp/>output.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>AVERROR_EOF<sp/>if<sp/>there<sp/>will<sp/>be<sp/>no<sp/>more<sp/>output<sp/>frames<sp/>on<sp/>this<sp/>sink.</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>A<sp/>different<sp/>negative<sp/>AVERROR<sp/>code<sp/>in<sp/>other<sp/>failure<sp/>cases.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavfi__buffersink_1ga653228f4cbca427c654d844a5fc59cfa" kindref="member">av_buffersink_get_frame</ref>(<ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx,<sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="147"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>Same<sp/>as<sp/>av_buffersink_get_frame(),<sp/>but<sp/>with<sp/>the<sp/>ability<sp/>to<sp/>specify<sp/>the<sp/>number</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*<sp/>of<sp/>samples<sp/>read.<sp/>This<sp/>function<sp/>is<sp/>less<sp/>efficient<sp/>than</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/>*<sp/>av_buffersink_get_frame(),<sp/>because<sp/>it<sp/>copies<sp/>the<sp/>data<sp/>around.</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>@param<sp/>ctx<sp/>pointer<sp/>to<sp/>a<sp/>context<sp/>of<sp/>the<sp/>abuffersink<sp/>AVFilter.</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>@param<sp/>frame<sp/>pointer<sp/>to<sp/>an<sp/>allocated<sp/>frame<sp/>that<sp/>will<sp/>be<sp/>filled<sp/>with<sp/>data.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>data<sp/>must<sp/>be<sp/>freed<sp/>using<sp/>av_frame_unref()<sp/>/<sp/>av_frame_free()</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frame<sp/>will<sp/>contain<sp/>exactly<sp/>nb_samples<sp/>audio<sp/>samples,<sp/>except<sp/>at</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>end<sp/>of<sp/>stream,<sp/>when<sp/>it<sp/>can<sp/>contain<sp/>less<sp/>than<sp/>nb_samples.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*<sp/>@return<sp/>The<sp/>return<sp/>codes<sp/>have<sp/>the<sp/>same<sp/>meaning<sp/>as<sp/>for</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>av_buffersink_get_frame().</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*<sp/>@warning<sp/>do<sp/>not<sp/>mix<sp/>this<sp/>function<sp/>with<sp/>av_buffersink_get_frame().<sp/>Use<sp/>only<sp/>one<sp/>or</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/>*<sp/>the<sp/>other<sp/>with<sp/>a<sp/>single<sp/>sink,<sp/>not<sp/>both.</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="group__lavfi__buffersink_1ga9c06b3744579f165cc032160c154828a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__lavfi__buffersink_1ga9c06b3744579f165cc032160c154828a" kindref="member">av_buffersink_get_samples</ref>(<ref refid="structAVFilterContext" kindref="compound">AVFilterContext</ref><sp/>*ctx,<sp/><ref refid="structAVFrame" kindref="compound">AVFrame</ref><sp/>*<ref refid="demux__decode_8c_1ad7d33d579a8d4241a5e643e39287a209" kindref="member">frame</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_samples);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="166"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*<sp/>@}</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVFILTER_BUFFERSINK_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavfilter/buffersink.h"/>
+  </compounddef>
+</doxygen>

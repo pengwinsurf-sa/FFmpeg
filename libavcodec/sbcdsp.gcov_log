@@ -1,0 +1,42 @@
+Function 'ff_sbcdsp_init'
+Lines executed:0.00% of 13
+
+Function 'sbc_calc_scalefactors_j'
+Lines executed:0.00% of 51
+
+Function 'sbc_calc_scalefactors'
+Lines executed:0.00% of 10
+
+Function 'sbc_enc_process_input_8s'
+Lines executed:0.00% of 54
+
+Function 'sbc_enc_process_input_4s'
+Lines executed:0.00% of 18
+
+Function 'sbc_analyze_1b_8s_simd_even'
+Lines executed:0.00% of 4
+
+Function 'sbc_analyze_1b_8s_simd_odd'
+Lines executed:0.00% of 4
+
+Function 'sbc_analyze_4b_8s_simd'
+Lines executed:0.00% of 9
+
+Function 'sbc_analyze_4b_4s_simd'
+Lines executed:0.00% of 9
+
+Function 'sbc_analyze_8_simd'
+Lines executed:0.00% of 22
+
+Function 'sbc_analyze_4_simd'
+Lines executed:0.00% of 3
+
+File 'libavcodec/sbcdsp.c'
+Lines executed:0.00% of 193
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcdsp.gcno##libavcodec#sbcdsp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sbcdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 197

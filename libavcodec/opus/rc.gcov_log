@@ -1,0 +1,89 @@
+Function 'ff_opus_rc_enc_init'
+Lines executed:0.00% of 9
+
+Function 'ff_opus_rc_enc_end'
+Lines executed:0.00% of 41
+
+Function 'ff_opus_rc_dec_raw_init'
+Lines executed:0.00% of 6
+
+Function 'ff_opus_rc_dec_init'
+Lines executed:0.00% of 30
+
+Function 'ff_opus_rc_enc_laplace'
+Lines executed:0.00% of 29
+
+Function 'ff_opus_rc_dec_laplace'
+Lines executed:0.00% of 28
+
+Function 'ff_opus_rc_enc_uint_tri'
+Lines executed:0.00% of 11
+
+Function 'ff_opus_rc_dec_uint_tri'
+Lines executed:0.00% of 15
+
+Function 'ff_opus_rc_enc_uint_step'
+Lines executed:0.00% of 6
+
+Function 'ff_opus_rc_dec_uint_step'
+Lines executed:0.00% of 9
+
+Function 'ff_opus_rc_enc_uint'
+Lines executed:0.00% of 5
+
+Function 'ff_opus_rc_dec_uint'
+Lines executed:0.00% of 11
+
+Function 'ff_opus_rc_put_raw'
+Lines executed:0.00% of 17
+
+Function 'ff_opus_rc_get_raw'
+Lines executed:0.00% of 11
+
+Function 'ff_opus_rc_enc_log'
+Lines executed:0.00% of 4
+
+Function 'ff_opus_rc_dec_log'
+Lines executed:0.00% of 11
+
+Function 'ff_opus_rc_enc_cdf'
+Lines executed:0.00% of 3
+
+Function 'ff_opus_rc_dec_cdf'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/opus/rc.c'
+Lines executed:0.00% of 233
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno##libavcodec#opus#rc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#opus#rc.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 285

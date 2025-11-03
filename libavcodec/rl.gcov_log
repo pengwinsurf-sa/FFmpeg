@@ -1,0 +1,18 @@
+Function 'ff_rl_init_vlc'
+Lines executed:0.00% of 28
+
+Function 'ff_rl_init'
+Lines executed:0.00% of 27
+
+Function 'ff_rl_init_level_run'
+Lines executed:0.00% of 10
+
+File 'libavcodec/rl.c'
+Lines executed:0.00% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rl.gcno##libavcodec#rl.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rl.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 65

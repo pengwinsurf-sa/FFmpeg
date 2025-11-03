@@ -1,0 +1,29 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'config_input'
+Lines executed:0.00% of 9
+
+Function 'filter_channels_dblp'
+Lines executed:0.00% of 1
+
+Function 'filter_channels_fltp'
+Lines executed:0.00% of 1
+
+Function 'get_coeffs'
+Lines executed:0.00% of 98
+
+Function 'calc_q_factors'
+Lines executed:0.00% of 4
+
+File 'libavfilter/af_asupercut.c'
+Lines executed:0.00% of 143
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asupercut.gcno##libavfilter#af_asupercut.c.gcov'
+
+Lines executed:0.00% of 143

@@ -1,0 +1,18 @@
+Function 'shuffleplanes_filter_frame'
+Lines executed:0.00% of 29
+
+Function 'shuffleplanes_config_input'
+Lines executed:0.00% of 12
+
+Function 'query_formats'
+Lines executed:0.00% of 17
+
+File 'libavfilter/vf_shuffleplanes.c'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shuffleplanes.gcno##libavfilter#vf_shuffleplanes.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_shuffleplanes.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 58

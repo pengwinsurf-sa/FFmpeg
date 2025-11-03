@@ -1,0 +1,26 @@
+Function 'icecast_write'
+Lines executed:0.00% of 22
+
+Function 'icecast_open'
+Lines executed:0.00% of 64
+
+Function 'icecast_close'
+Lines executed:0.00% of 4
+
+File 'libavformat/icecast.c'
+Lines executed:0.00% of 84
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icecast.gcno##libavformat#icecast.c.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icecast.gcno##libavformat#url.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icecast.gcno##libavutil#bprint.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#icecast.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 90

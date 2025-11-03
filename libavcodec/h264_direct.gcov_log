@@ -1,0 +1,49 @@
+Function 'ff_h264_pred_direct_motion'
+Lines executed:0.00% of 5
+
+Function 'pred_temp_direct_motion'
+Lines executed:0.00% of 196
+
+Function 'pred_spatial_direct_motion'
+Lines executed:0.00% of 203
+
+Function 'await_reference_mb_row'
+Lines executed:0.00% of 8
+
+Function 'ff_h264_direct_ref_list_init'
+Lines executed:0.00% of 40
+
+Function 'fill_colmap'
+Lines executed:0.00% of 25
+
+Function 'ff_h264_direct_dist_scale_factor'
+Lines executed:0.00% of 15
+
+Function 'get_scale_factor'
+Lines executed:0.00% of 19
+
+File 'libavcodec/h264_direct.c'
+Lines executed:0.00% of 454
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_direct.gcno##libavcodec#h264_direct.c.gcov'
+
+File 'libavcodec/rectangle.h'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_direct.gcno##libavcodec#rectangle.h.gcov'
+
+File 'libavcodec/h264_parse.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_direct.gcno##libavcodec#h264_parse.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_direct.gcno##libavcodec#x86#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_direct.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_direct.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 511

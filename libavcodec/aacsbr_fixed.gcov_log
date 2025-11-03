@@ -1,0 +1,163 @@
+Function 'ff_aac_sbr_apply_fixed'
+Lines executed:0.00% of 57
+
+Function 'sbr_env_estimate'
+Lines executed:0.00% of 38
+
+Function 'sbr_mapping'
+Lines executed:0.00% of 34
+
+Function 'sbr_x_gen'
+Lines executed:0.00% of 22
+
+Function 'sbr_hf_gen'
+Lines executed:0.00% of 19
+
+Function 'sbr_lf_gen'
+Lines executed:0.00% of 15
+
+Function 'sbr_qmf_synthesis'
+Lines executed:0.00% of 34
+
+Function 'sbr_qmf_analysis'
+Lines executed:0.00% of 20
+
+Function 'ff_aac_sbr_decode_extension_fixed'
+Lines executed:0.00% of 48
+
+Function 'sbr_reset'
+Lines executed:0.00% of 9
+
+Function 'read_sbr_data'
+Lines executed:0.00% of 31
+
+Function 'read_sbr_channel_pair_element'
+Lines executed:0.00% of 35
+
+Function 'read_sbr_single_channel_element'
+Lines executed:0.00% of 11
+
+Function 'read_sbr_extension'
+Lines executed:0.00% of 17
+
+Function 'read_sbr_noise'
+Lines executed:0.00% of 40
+
+Function 'read_sbr_envelope'
+Lines executed:0.00% of 55
+
+Function 'read_sbr_invf'
+Lines executed:0.00% of 6
+
+Function 'read_sbr_dtdf'
+Lines executed:0.00% of 13
+
+Function 'copy_sbr_grid'
+Lines executed:0.00% of 13
+
+Function 'read_sbr_grid'
+Lines executed:0.00% of 96
+
+Function 'sbr_make_f_derived'
+Lines executed:0.00% of 43
+
+Function 'sbr_hf_calc_npatches'
+Lines executed:0.00% of 34
+
+Function 'sbr_make_f_master'
+Lines executed:0.00% of 142
+
+Function 'check_n_master'
+Lines executed:0.00% of 7
+
+Function 'read_sbr_header'
+Lines executed:0.00% of 40
+
+Function 'sbr_make_f_tablelim'
+Lines executed:0.00% of 36
+
+Function 'ff_aac_sbr_ctx_close_fixed'
+Lines executed:0.00% of 5
+
+Function 'ff_aac_sbr_ctx_alloc_init_fixed'
+Lines executed:0.00% of 32
+
+Function 'sbr_turnoff'
+Lines executed:0.00% of 9
+
+Function 'ff_aac_sbr_init_fixed'
+Lines executed:0.00% of 3
+
+Function 'sbr_hf_assemble'
+Lines executed:0.00% of 78
+
+Function 'sbr_gain_calc'
+Lines executed:0.00% of 69
+
+Function 'sbr_chirp'
+Lines executed:0.00% of 17
+
+Function 'sbr_hf_inverse_filter'
+Lines executed:0.00% of 82
+
+Function 'sbr_dequant'
+Lines executed:0.00% of 55
+
+Function 'make_bands'
+Lines executed:0.00% of 28
+
+Function 'fixed_log'
+Lines executed:0.00% of 12
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_int2sf'
+Lines executed:0.00% of 15
+
+Function 'av_add_sf'
+Lines executed:0.00% of 6
+
+Function 'av_div_sf'
+Lines executed:0.00% of 13
+
+File 'libavcodec/aacsbr_template.c'
+Lines executed:0.00% of 908
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavcodec#aacsbr_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/softfloat.h'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavutil#softfloat.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/aacps.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavcodec#aacps.h.gcov'
+
+File 'libavcodec/aacsbr_fixed.c'
+Lines executed:0.00% of 316
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aacsbr_fixed.gcno##libavcodec#aacsbr_fixed.c.gcov'
+
+Lines executed:0.00% of 1356

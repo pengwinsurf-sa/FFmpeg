@@ -1,0 +1,12 @@
+Function 'ff_aac_ac3_parse'
+Lines executed:0.00% of 107
+
+File 'libavcodec/aac_ac3_parser.c'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac_ac3_parser.gcno##libavcodec#aac_ac3_parser.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#aac_ac3_parser.gcno##libavcodec#get_bits.h.gcov'
+
+Lines executed:0.00% of 107

@@ -1,0 +1,59 @@
+Function 'corr_child_next'
+Lines executed:0.00% of 1
+
+Function 'corr_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 15
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 20
+
+Function 'config_input_ref'
+Lines executed:0.00% of 30
+
+Function 'init'
+Lines executed:0.00% of 4
+
+Function 'do_corr'
+Lines executed:0.00% of 52
+
+Function 'corr_slice16'
+Lines executed:0.00% of 1
+
+Function 'corr_slice8'
+Lines executed:0.00% of 1
+
+Function 'sum_slice16'
+Lines executed:0.00% of 1
+
+Function 'sum_slice8'
+Lines executed:0.00% of 1
+
+Function 'set_meta'
+Lines executed:0.00% of 15
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_corr.c'
+Lines executed:0.00% of 142
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_corr.gcno##libavfilter#vf_corr.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_corr.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_corr.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_corr.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 151

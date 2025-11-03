@@ -1,0 +1,43 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 28
+
+Function 'config_input1'
+Lines executed:0.00% of 13
+
+Function 'config_input0'
+Lines executed:0.00% of 20
+
+Function 'midequalizer16'
+Lines executed:0.00% of 18
+
+Function 'midequalizer8'
+Lines executed:0.00% of 14
+
+Function 'compute_histogram16'
+Lines executed:0.00% of 14
+
+Function 'compute_histogram8'
+Lines executed:0.00% of 12
+
+Function 'process_frame'
+Lines executed:0.00% of 27
+
+File 'libavfilter/vf_midequalizer.c'
+Lines executed:0.00% of 151
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_midequalizer.gcno##libavfilter#vf_midequalizer.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_midequalizer.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_midequalizer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 156

@@ -1,0 +1,11 @@
+Function 'ff_pngdsp_init'
+Lines executed:0.00% of 5
+
+Function 'add_bytes_l2_c'
+Lines executed:0.00% of 9
+
+File 'libavcodec/pngdsp.c'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pngdsp.gcno##libavcodec#pngdsp.c.gcov'
+
+Lines executed:0.00% of 14

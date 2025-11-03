@@ -1,0 +1,42 @@
+Function 'rtp_write_trailer'
+Lines executed:0.00% of 6
+
+Function 'rtp_write_packet'
+Lines executed:0.00% of 92
+
+Function 'rtp_send_ilbc'
+Lines executed:0.00% of 27
+
+Function 'rtp_send_mpegts_raw'
+Lines executed:0.00% of 16
+
+Function 'rtp_send_raw'
+Lines executed:0.00% of 12
+
+Function 'rtp_send_mpegaudio'
+Lines executed:0.00% of 32
+
+Function 'rtp_send_samples'
+Lines executed:0.00% of 16
+
+Function 'ff_rtp_send_data'
+Lines executed:0.00% of 14
+
+Function 'rtcp_send_sr'
+Lines executed:0.00% of 35
+
+Function 'rtp_write_header'
+Lines executed:0.00% of 119
+
+Function 'is_supported'
+Lines executed:0.00% of 4
+
+File 'libavformat/rtpenc.c'
+Lines executed:0.00% of 371
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc.gcno##libavformat#rtpenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 373

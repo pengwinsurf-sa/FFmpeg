@@ -1,0 +1,12 @@
+Function 'ff_canopus_parse_info_tag'
+Lines executed:0.00% of 25
+
+File 'libavcodec/canopus.c'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#canopus.gcno##libavcodec#canopus.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#canopus.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 25

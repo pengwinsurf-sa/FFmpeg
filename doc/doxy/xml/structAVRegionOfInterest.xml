@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVRegionOfInterest" kind="struct" language="C++" prot="public">
+    <compoundname>AVRegionOfInterest</compoundname>
+    <includes refid="frame_8h" local="no">libavutil/frame.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVRegionOfInterest_1a5c75595b7003be167ed674bf565654db" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t AVRegionOfInterest::self_size</definition>
+        <argsstring></argsstring>
+        <name>self_size</name>
+        <qualifiedname>AVRegionOfInterest::self_size</qualifiedname>
+        <briefdescription>
+<para>Must be set to the size of this data structure (that is, sizeof(AVRegionOfInterest)). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/frame.h" line="341" column="14" bodyfile="libavutil/frame.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRegionOfInterest_1af07ce47d1c824676f790d95e23ff9caf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRegionOfInterest::top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <qualifiedname>AVRegionOfInterest::top</qualifiedname>
+        <briefdescription>
+<para>Distance in pixels from the top edge of the frame to the top and bottom edges and from the left edge of the frame to the left and right edges of the rectangle defining this region of interest. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The constraints on a region are encoder dependent, so the region actually affected may be slightly larger for alignment or other reasons. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/frame.h" line="351" column="9" bodyfile="libavutil/frame.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRegionOfInterest_1a04201e2f63181c3007c4dfe0c7b8c815" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRegionOfInterest::bottom</definition>
+        <argsstring></argsstring>
+        <name>bottom</name>
+        <qualifiedname>AVRegionOfInterest::bottom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/frame.h" line="352" column="9" bodyfile="libavutil/frame.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRegionOfInterest_1a66cec26997f55f6ac16822f5a6ea3100" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRegionOfInterest::left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <qualifiedname>AVRegionOfInterest::left</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/frame.h" line="353" column="9" bodyfile="libavutil/frame.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRegionOfInterest_1a3a7e57502405cc44afd3ff3693ef3389" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRegionOfInterest::right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <qualifiedname>AVRegionOfInterest::right</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/frame.h" line="354" column="9" bodyfile="libavutil/frame.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRegionOfInterest_1ae7421571aad4d48b63e91274ba424ee0" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational AVRegionOfInterest::qoffset</definition>
+        <argsstring></argsstring>
+        <name>qoffset</name>
+        <qualifiedname>AVRegionOfInterest::qoffset</qualifiedname>
+        <briefdescription>
+<para>Quantisation offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be in the range -1 to +1. A value of zero indicates no quality change. A negative value asks for better quality (less quantisation), while a positive value asks for worse quality (greater quantisation).</para>
+<para>The range is calibrated so that the extreme values indicate the largest possible offset - if the rest of the frame is encoded with the worst possible quality, an offset of -1 indicates that this region should be encoded with the best possible quality anyway. Intermediate values are then interpolated in some codec-dependent way.</para>
+<para>For example, in 10-bit H.264 the quantisation parameter varies between -12 and 51. A typical qoffset value of -1/10 therefore indicates that this region should be encoded with a QP around one-tenth of the full range better than the rest of the frame. So, if most of the frame were to be encoded with a QP of around 30, this region would get a QP of around 24 (an offset of approximately -1/10 * (51 - -12) = -6.3). An extreme value of -1 would indicate that this region should be encoded with the best possible quality regardless of the treatment of the rest of the frame - that is, should be encoded at a QP of -12. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/frame.h" line="378" column="16" bodyfile="libavutil/frame.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure describing a single Region Of Interest. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>When multiple regions are defined in a single side-data block, they should be ordered from most to least important - some encoders are only capable of supporting a limited number of distinct regions, so will have to truncate the list.</para>
+<para>When overlapping regions are defined, the first region containing a given area of the frame applies. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+      <node id="1">
+        <label>AVRegionOfInterest</label>
+        <link refid="structAVRegionOfInterest"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>qoffset</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libavutil/frame.h" line="336" column="1" bodyfile="libavutil/frame.h" bodystart="336" bodyend="379"/>
+    <listofallmembers>
+      <member refid="structAVRegionOfInterest_1a04201e2f63181c3007c4dfe0c7b8c815" prot="public" virt="non-virtual"><scope>AVRegionOfInterest</scope><name>bottom</name></member>
+      <member refid="structAVRegionOfInterest_1a66cec26997f55f6ac16822f5a6ea3100" prot="public" virt="non-virtual"><scope>AVRegionOfInterest</scope><name>left</name></member>
+      <member refid="structAVRegionOfInterest_1ae7421571aad4d48b63e91274ba424ee0" prot="public" virt="non-virtual"><scope>AVRegionOfInterest</scope><name>qoffset</name></member>
+      <member refid="structAVRegionOfInterest_1a3a7e57502405cc44afd3ff3693ef3389" prot="public" virt="non-virtual"><scope>AVRegionOfInterest</scope><name>right</name></member>
+      <member refid="structAVRegionOfInterest_1a5c75595b7003be167ed674bf565654db" prot="public" virt="non-virtual"><scope>AVRegionOfInterest</scope><name>self_size</name></member>
+      <member refid="structAVRegionOfInterest_1af07ce47d1c824676f790d95e23ff9caf" prot="public" virt="non-virtual"><scope>AVRegionOfInterest</scope><name>top</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

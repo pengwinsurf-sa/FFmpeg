@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structSwsFilter" kind="struct" language="C++" prot="public">
+    <compoundname>SwsFilter</compoundname>
+    <includes refid="swscale_8h" local="no">libswscale/swscale.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSwsFilter_1a6eefe9f0f67a9f24d282ed32bb9725d2" prot="public" static="no" mutable="no">
+        <type><ref refid="structSwsVector" kindref="compound">SwsVector</ref> *</type>
+        <definition>SwsVector* SwsFilter::lumH</definition>
+        <argsstring></argsstring>
+        <name>lumH</name>
+        <qualifiedname>SwsFilter::lumH</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libswscale/swscale.h" line="396" column="15" bodyfile="libswscale/swscale.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSwsFilter_1abe07a7a5d01eba45fe6120691b078109" prot="public" static="no" mutable="no">
+        <type><ref refid="structSwsVector" kindref="compound">SwsVector</ref> *</type>
+        <definition>SwsVector* SwsFilter::lumV</definition>
+        <argsstring></argsstring>
+        <name>lumV</name>
+        <qualifiedname>SwsFilter::lumV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libswscale/swscale.h" line="397" column="15" bodyfile="libswscale/swscale.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSwsFilter_1af0a5dbf3ce675d51ac2531a0e7ee58bf" prot="public" static="no" mutable="no">
+        <type><ref refid="structSwsVector" kindref="compound">SwsVector</ref> *</type>
+        <definition>SwsVector* SwsFilter::chrH</definition>
+        <argsstring></argsstring>
+        <name>chrH</name>
+        <qualifiedname>SwsFilter::chrH</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libswscale/swscale.h" line="398" column="15" bodyfile="libswscale/swscale.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSwsFilter_1a4e196620d61289c6369acc4cf0b732bb" prot="public" static="no" mutable="no">
+        <type><ref refid="structSwsVector" kindref="compound">SwsVector</ref> *</type>
+        <definition>SwsVector* SwsFilter::chrV</definition>
+        <argsstring></argsstring>
+        <name>chrV</name>
+        <qualifiedname>SwsFilter::chrV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libswscale/swscale.h" line="399" column="15" bodyfile="libswscale/swscale.h" bodystart="399" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SwsFilter</label>
+        <link refid="structSwsFilter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>chrH</edgelabel>
+          <edgelabel>chrV</edgelabel>
+          <edgelabel>lumH</edgelabel>
+          <edgelabel>lumV</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SwsVector</label>
+        <link refid="structSwsVector"/>
+      </node>
+    </collaborationgraph>
+    <location file="libswscale/swscale.h" line="395" column="1" bodyfile="libswscale/swscale.h" bodystart="395" bodyend="400"/>
+    <listofallmembers>
+      <member refid="structSwsFilter_1af0a5dbf3ce675d51ac2531a0e7ee58bf" prot="public" virt="non-virtual"><scope>SwsFilter</scope><name>chrH</name></member>
+      <member refid="structSwsFilter_1a4e196620d61289c6369acc4cf0b732bb" prot="public" virt="non-virtual"><scope>SwsFilter</scope><name>chrV</name></member>
+      <member refid="structSwsFilter_1a6eefe9f0f67a9f24d282ed32bb9725d2" prot="public" virt="non-virtual"><scope>SwsFilter</scope><name>lumH</name></member>
+      <member refid="structSwsFilter_1abe07a7a5d01eba45fe6120691b078109" prot="public" virt="non-virtual"><scope>SwsFilter</scope><name>lumV</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+Function 'ff_gradfun_init_x86'
+Lines executed:0.00% of 9
+
+Function 'gradfun_blur_line_sse2'
+Lines executed:0.00% of 10
+
+Function 'gradfun_filter_line_ssse3'
+Lines executed:0.00% of 10
+
+Function 'gradfun_filter_line_mmxext'
+Lines executed:0.00% of 10
+
+File 'libavfilter/x86/vf_gradfun_init.c'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_gradfun_init.gcno##libavfilter#x86#vf_gradfun_init.c.gcov'
+
+Lines executed:0.00% of 39

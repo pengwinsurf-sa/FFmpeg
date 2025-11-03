@@ -1,0 +1,33 @@
+Function 'escape130_decode_frame'
+Lines executed:0.00% of 158
+
+Function 'decode_skip_count'
+Lines executed:0.00% of 17
+
+Function 'escape130_decode_close'
+Lines executed:0.00% of 6
+
+Function 'escape130_decode_init'
+Lines executed:0.00% of 27
+
+File 'libavcodec/escape130.c'
+Lines executed:0.00% of 158
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape130.gcno##libavcodec#escape130.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape130.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape130.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape130.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#escape130.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 208

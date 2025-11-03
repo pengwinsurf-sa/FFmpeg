@@ -1,0 +1,83 @@
+Function 'qdmc_decode_frame'
+Lines executed:0.00% of 38
+
+Function 'qdmc_flush'
+Lines executed:0.00% of 7
+
+Function 'decode_frame'
+Lines executed:0.00% of 41
+
+Function 'add_waves'
+Lines executed:0.00% of 14
+
+Function 'add_wave0'
+Lines executed:0.00% of 14
+
+Function 'add_wave'
+Lines executed:0.00% of 26
+
+Function 'add_noise'
+Lines executed:0.00% of 23
+
+Function 'lin_calc'
+Lines executed:0.00% of 19
+
+Function 'read_wave_data'
+Lines executed:0.00% of 48
+
+Function 'add_tone'
+Lines executed:0.00% of 11
+
+Function 'read_noise_data'
+Lines executed:0.00% of 24
+
+Function 'skip_label'
+Lines executed:0.00% of 20
+
+Function 'qdmc_get_vlc'
+Lines executed:0.00% of 22
+
+Function 'qdmc_decode_close'
+Lines executed:0.00% of 4
+
+Function 'qdmc_decode_init'
+Lines executed:0.00% of 83
+
+Function 'make_noises'
+Lines executed:0.00% of 15
+
+Function 'qdmc_init_static_data'
+Lines executed:0.00% of 14
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/qdmc.c'
+Lines executed:0.00% of 348
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno##libavcodec#qdmc.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#qdmc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 425

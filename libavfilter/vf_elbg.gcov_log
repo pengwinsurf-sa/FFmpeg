@@ -1,0 +1,20 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'filter_frame'
+Lines executed:0.00% of 56
+
+Function 'config_input'
+Lines executed:0.00% of 14
+
+Function 'query_formats'
+Lines executed:0.00% of 10
+
+Function 'init'
+Lines executed:0.00% of 9
+
+File 'libavfilter/vf_elbg.c'
+Lines executed:0.00% of 96
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_elbg.gcno##libavfilter#vf_elbg.c.gcov'
+
+Lines executed:0.00% of 96

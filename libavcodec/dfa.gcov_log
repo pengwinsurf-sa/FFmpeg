@@ -1,0 +1,46 @@
+Function 'dfa_decode_end'
+Lines executed:0.00% of 4
+
+Function 'dfa_decode_frame'
+Lines executed:0.00% of 63
+
+Function 'decode_blck'
+Lines executed:0.00% of 5
+
+Function 'decode_tdlt'
+Lines executed:0.00% of 18
+
+Function 'decode_wdlt'
+Lines executed:0.00% of 39
+
+Function 'decode_bdlt'
+Lines executed:0.00% of 24
+
+Function 'decode_dds1'
+Lines executed:0.00% of 33
+
+Function 'decode_dsw1'
+Lines executed:0.00% of 24
+
+Function 'decode_tsw1'
+Lines executed:0.00% of 28
+
+Function 'decode_copy'
+Lines executed:0.00% of 4
+
+Function 'dfa_decode_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dfa.c'
+Lines executed:0.00% of 227
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dfa.gcno##libavcodec#dfa.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dfa.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dfa.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 250

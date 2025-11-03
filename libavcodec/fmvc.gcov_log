@@ -1,0 +1,32 @@
+Function 'decode_close'
+Lines executed:0.00% of 6
+
+Function 'decode_init'
+Lines executed:0.00% of 59
+
+Function 'decode_frame'
+Lines executed:0.00% of 104
+
+Function 'decode_type1'
+Lines executed:0.00% of 90
+
+Function 'decode_type2'
+Lines executed:0.00% of 168
+
+File 'libavcodec/fmvc.c'
+Lines executed:0.00% of 394
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fmvc.gcno##libavcodec#fmvc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fmvc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fmvc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#fmvc.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 427

@@ -1,0 +1,34 @@
+Function 'obu_check_bitstream'
+Lines executed:0.00% of 2
+
+Function 'hevc_check_bitstream'
+Lines executed:0.00% of 6
+
+Function 'vvc_check_bitstream'
+Lines executed:0.00% of 4
+
+Function 'h264_check_bitstream'
+Lines executed:0.00% of 4
+
+Function 'force_one_stream'
+Lines executed:0.00% of 4
+
+Function 'adx_write_trailer'
+Lines executed:0.00% of 13
+
+Function 'ff_raw_write_packet'
+Lines executed:0.00% of 3
+
+File 'libavformat/rawenc.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawenc.gcno##libavformat#rawenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawenc.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 36

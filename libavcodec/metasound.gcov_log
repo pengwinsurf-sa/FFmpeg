@@ -1,0 +1,42 @@
+Function 'metasound_decode_init'
+Lines executed:0.00% of 75
+
+Function 'metasound_read_bitstream'
+Lines executed:0.00% of 95
+
+Function 'read_cb_data'
+Lines executed:0.00% of 7
+
+Function 'dec_bark_env'
+Lines executed:0.00% of 30
+
+Function 'decode_ppc'
+Lines executed:0.00% of 36
+
+Function 'add_peak'
+Lines executed:0.00% of 13
+
+Function 'twinvq_mulawinv'
+Lines executed:0.00% of 5
+
+File 'libavcodec/metasound.c'
+Lines executed:0.00% of 207
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#metasound.gcno##libavcodec#metasound.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#metasound.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#metasound.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/twinvq.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#metasound.gcno##libavcodec#twinvq.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#metasound.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 261

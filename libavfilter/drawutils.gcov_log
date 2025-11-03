@@ -1,0 +1,63 @@
+Function 'ff_draw_supported_pixel_formats'
+Lines executed:0.00% of 8
+
+Function 'ff_draw_round_to_sub'
+Lines executed:0.00% of 6
+
+Function 'ff_blend_mask'
+Lines executed:0.00% of 88
+
+Function 'blend_line_hv'
+Lines executed:0.00% of 13
+
+Function 'blend_line_hv16'
+Lines executed:0.00% of 13
+
+Function 'blend_pixel'
+Lines executed:0.00% of 15
+
+Function 'blend_pixel16'
+Lines executed:0.00% of 16
+
+Function 'ff_blend_rectangle'
+Lines executed:0.00% of 52
+
+Function 'blend_line16'
+Lines executed:0.00% of 17
+
+Function 'blend_line'
+Lines executed:0.00% of 14
+
+Function 'ff_fill_rectangle'
+Lines executed:0.00% of 20
+
+Function 'ff_copy_rectangle2'
+Lines executed:0.00% of 13
+
+Function 'ff_draw_color'
+Lines executed:0.00% of 30
+
+Function 'ff_draw_init'
+Lines executed:0.00% of 2
+
+Function 'ff_draw_init2'
+Lines executed:0.00% of 48
+
+Function 'ff_fill_ayuv_map'
+Lines executed:0.00% of 4
+
+Function 'ff_fill_rgba_map'
+Lines executed:0.00% of 4
+
+Function 'fill_map'
+Lines executed:0.00% of 25
+
+File 'libavfilter/drawutils.c'
+Lines executed:0.00% of 384
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#drawutils.gcno##libavfilter#drawutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#drawutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 388

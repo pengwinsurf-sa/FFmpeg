@@ -1,0 +1,29 @@
+Function 'ff_xvid_idct_init'
+Lines executed:0.00% of 7
+
+Function 'xvid_idct_add'
+Lines executed:0.00% of 4
+
+Function 'xvid_idct_put'
+Lines executed:0.00% of 4
+
+Function 'ff_xvid_idct'
+Lines executed:0.00% of 24
+
+Function 'idct_col_3'
+Lines executed:0.00% of 26
+
+Function 'idct_col_4'
+Lines executed:0.00% of 32
+
+Function 'idct_col_8'
+Lines executed:0.00% of 38
+
+Function 'idct_row'
+Lines executed:0.00% of 67
+
+File 'libavcodec/xvididct.c'
+Lines executed:0.00% of 202
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xvididct.gcno##libavcodec#xvididct.c.gcov'
+
+Lines executed:0.00% of 202

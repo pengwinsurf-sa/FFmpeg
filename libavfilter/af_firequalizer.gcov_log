@@ -1,0 +1,66 @@
+Function 'process_command'
+Lines executed:0.00% of 27
+
+Function 'request_frame'
+Lines executed:0.00% of 12
+
+Function 'filter_frame'
+Lines executed:0.00% of 27
+
+Function 'config_input'
+Lines executed:0.00% of 67
+
+Function 'generate_kernel'
+Lines executed:0.00% of 108
+
+Function 'generate_min_phase_kernel'
+Lines executed:0.00% of 29
+
+Function 'cubic_interpolate_func'
+Lines executed:0.00% of 50
+
+Function 'gain_interpolate_func'
+Lines executed:0.00% of 21
+
+Function 'entry_func'
+Lines executed:0.00% of 19
+
+Function 'dump_fir'
+Lines executed:0.00% of 44
+
+Function 'fast_convolute2'
+Lines executed:0.00% of 45
+
+Function 'fast_convolute_nonlinear'
+Lines executed:0.00% of 28
+
+Function 'fast_convolute'
+Lines executed:0.00% of 27
+
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'common_uninit'
+Lines executed:0.00% of 24
+
+File 'libavfilter/af_firequalizer.c'
+Lines executed:0.00% of 512
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_firequalizer.gcno##libavfilter#af_firequalizer.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_firequalizer.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_firequalizer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_firequalizer.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-bsearch.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_firequalizer.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 534

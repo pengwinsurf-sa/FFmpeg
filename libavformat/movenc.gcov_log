@@ -1,0 +1,702 @@
+Function 'avif_write_trailer'
+Lines executed:0.00% of 38
+
+Function 'mov_check_bitstream'
+Lines executed:0.00% of 11
+
+Function 'mov_write_trailer'
+Lines executed:0.00% of 92
+
+Function 'shift_data'
+Lines executed:0.00% of 8
+
+Function 'compute_sidx_size'
+Lines executed:0.00% of 7
+
+Function 'compute_moov_size'
+Lines executed:0.00% of 12
+
+Function 'get_sidx_size'
+Lines executed:0.00% of 7
+
+Function 'get_moov_size'
+Lines executed:0.00% of 7
+
+Function 'mov_write_header'
+Lines executed:0.00% of 114
+
+Function 'mov_init'
+Lines executed:0.00% of 280
+
+Function 'mov_init_iamf_track'
+Lines executed:0.00% of 46
+
+Function 'mov_create_dvd_sub_decoder_specific_info'
+Lines executed:0.00% of 29
+
+Function 'rgb_to_yuv'
+Lines executed:0.00% of 13
+
+Function 'mov_free'
+Lines executed:0.00% of 32
+
+Function 'enable_tracks'
+Lines executed:0.00% of 26
+
+Function 'mov_create_timecode_track'
+Lines executed:0.00% of 32
+
+Function 'mov_create_chapter_track'
+Lines executed:0.00% of 39
+
+Function 'mov_write_packet'
+Lines executed:0.00% of 71
+
+Function 'mov_write_emsg_tag'
+Lines executed:0.00% of 19
+
+Function 'mov_build_iamf_packet'
+Lines executed:0.00% of 27
+
+Function 'mov_write_subtitle_end_packet'
+Lines executed:0.00% of 14
+
+Function 'mov_write_single_packet'
+Lines executed:0.00% of 56
+
+Function 'ff_mov_write_packet'
+Lines executed:0.00% of 226
+
+Function 'check_pkt'
+Lines executed:0.00% of 19
+
+Function 'mov_auto_flush_fragment'
+Lines executed:0.00% of 7
+
+Function 'mov_flush_fragment'
+Lines executed:0.00% of 127
+
+Function 'mov_finish_fragment'
+Lines executed:0.00% of 19
+
+Function 'mov_write_squashed_packets'
+Lines executed:0.00% of 15
+
+Function 'mov_write_squashed_packet'
+Lines executed:0.00% of 21
+
+Function 'mov_flush_fragment_interleaving'
+Lines executed:0.00% of 16
+
+Function 'mov_parse_truehd_frame'
+Lines executed:0.00% of 8
+
+Function 'mov_parse_vc1_frame'
+Lines executed:0.00% of 50
+
+Function 'mov_parse_mpeg2_frame'
+Lines executed:0.00% of 13
+
+Function 'mov_write_identification'
+Lines executed:0.00% of 18
+
+Function 'mov_write_uuidprof_tag'
+Lines executed:0.00% of 56
+
+Function 'mov_write_ftyp_tag'
+Lines executed:0.00% of 74
+
+Function 'mov_write_ftyp_tag_internal'
+Lines executed:0.00% of 34
+
+Function 'mov_write_mdat_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_mfra_tag'
+Lines executed:0.00% of 24
+
+Function 'mov_write_tfra_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_moof_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_prft_tag'
+Lines executed:0.00% of 31
+
+Function 'mov_write_sidx_tags'
+Lines executed:0.00% of 18
+
+Function 'mov_write_sidx_tag'
+Lines executed:0.00% of 46
+
+Function 'mov_write_moof_tag_internal'
+Lines executed:0.00% of 17
+
+Function 'mov_write_traf_tag'
+Lines executed:0.00% of 27
+
+Function 'mov_write_tfdt_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_prune_frag_info'
+Lines executed:0.00% of 12
+
+Function 'mov_add_tfra_entries'
+Lines executed:0.00% of 22
+
+Function 'mov_write_tfrf_tags'
+Lines executed:0.00% of 7
+
+Function 'mov_write_tfrf_tag'
+Lines executed:0.00% of 21
+
+Function 'mov_write_tfxd_tag'
+Lines executed:0.00% of 12
+
+Function 'mov_write_trun_tag'
+Lines executed:0.00% of 44
+
+Function 'mov_write_tfhd_tag'
+Lines executed:0.00% of 38
+
+Function 'mov_write_mfhd_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_isml_manifest'
+Lines executed:0.00% of 87
+
+Function 'param_write_hex'
+Lines executed:0.00% of 6
+
+Function 'mov_write_moov_tag'
+Lines executed:0.00% of 55
+
+Function 'mov_setup_track_ids'
+Lines executed:0.00% of 20
+
+Function 'build_chunks'
+Lines executed:0.00% of 16
+
+Function 'mov_write_pssh_tag'
+Lines executed:0.00% of 26
+
+Function 'mov_write_uuidusmt_tag'
+Lines executed:0.00% of 26
+
+Function 'mov_write_psp_udta_tag'
+Lines executed:0.00% of 12
+
+Function 'mov_write_udta_tag'
+Lines executed:0.00% of 42
+
+Function 'mov_write_chpl_tag'
+Lines executed:0.00% of 18
+
+Function 'mov_write_3gp_udta_tag'
+Lines executed:0.00% of 17
+
+Function 'ascii_to_wc'
+Lines executed:0.00% of 7
+
+Function 'mov_write_raw_metadata_tag'
+Lines executed:0.00% of 11
+
+Function 'mov_write_meta_tag'
+Lines executed:0.00% of 22
+
+Function 'mov_write_mdta_ilst_tag'
+Lines executed:0.00% of 14
+
+Function 'mov_write_mdta_keys_tag'
+Lines executed:0.00% of 21
+
+Function 'mov_write_mdta_hdlr_tag'
+Lines executed:0.00% of 11
+
+Function 'mov_write_ilst_tag'
+Lines executed:0.00% of 35
+
+Function 'mov_write_covr'
+Lines executed:0.00% of 17
+
+Function 'mov_write_int8_metadata'
+Lines executed:0.00% of 15
+
+Function 'mov_write_trkn_tag'
+Lines executed:0.00% of 20
+
+Function 'mov_write_loci_tag'
+Lines executed:0.00% of 39
+
+Function 'mov_write_tmpo_tag'
+Lines executed:0.00% of 13
+
+Function 'mov_write_string_metadata'
+Lines executed:0.00% of 5
+
+Function 'get_metadata_lang'
+Lines executed:0.00% of 16
+
+Function 'mov_write_string_tag'
+Lines executed:0.00% of 9
+
+Function 'mov_write_string_data_tag'
+Lines executed:0.00% of 16
+
+Function 'mov_write_itunes_hdlr_tag'
+Lines executed:0.00% of 11
+
+Function 'mov_write_mvhd_tag'
+Lines executed:0.00% of 42
+
+Function 'mov_write_mvex_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_trex_tag'
+Lines executed:0.00% of 10
+
+Function 'mov_write_iods_tag'
+Lines executed:0.00% of 24
+
+Function 'mov_write_trak_tag'
+Lines executed:0.00% of 40
+
+Function 'mov_write_track_udta_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_track_kinds'
+Lines executed:0.00% of 10
+
+Function 'mov_write_track_kind'
+Lines executed:0.00% of 14
+
+Function 'mov_write_track_metadata'
+Lines executed:0.00% of 8
+
+Function 'mov_write_udta_sdp'
+Lines executed:0.00% of 15
+
+Function 'mov_write_uuid_tag_psp'
+Lines executed:0.00% of 15
+
+Function 'mov_write_tref_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_edts_tag'
+Lines executed:0.00% of 57
+
+Function 'mov_write_tapt_tag'
+Lines executed:0.00% of 22
+
+Function 'mov_write_tkhd_tag'
+Lines executed:0.00% of 73
+
+Function 'write_matrix'
+Lines executed:0.00% of 11
+
+Function 'mov_write_mdia_tag'
+Lines executed:0.00% of 9
+
+Function 'mov_write_mdhd_tag'
+Lines executed:0.00% of 23
+
+Function 'calc_pts_duration'
+Lines executed:0.00% of 6
+
+Function 'get_pts_range'
+Lines executed:0.00% of 15
+
+Function 'mov_write_minf_tag'
+Lines executed:0.00% of 28
+
+Function 'mov_write_hmhd_tag'
+Lines executed:0.00% of 10
+
+Function 'mov_write_iprp_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_ipma_tag'
+Lines executed:0.00% of 14
+
+Function 'mov_write_ipco_tag'
+Lines executed:0.00% of 12
+
+Function 'mov_write_pixi_tag'
+Lines executed:0.00% of 11
+
+Function 'mov_write_ispe_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_iref_tag'
+Lines executed:0.00% of 14
+
+Function 'mov_write_iinf_tag'
+Lines executed:0.00% of 18
+
+Function 'mov_write_iloc_tag'
+Lines executed:0.00% of 16
+
+Function 'mov_write_pitm_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_hdlr_tag'
+Lines executed:0.00% of 47
+
+Function 'mov_write_vmhd_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_smhd_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_gmhd_tag'
+Lines executed:0.00% of 39
+
+Function 'mov_write_tcmi_tag'
+Lines executed:0.00% of 19
+
+Function 'mov_write_sthd_tag'
+Lines executed:0.00% of 5
+
+Function 'mov_write_nmhd_tag'
+Lines executed:0.00% of 5
+
+Function 'mov_write_dinf_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_stbl_tag'
+Lines executed:0.00% of 29
+
+Function 'mov_preroll_write_stbl_atoms'
+Lines executed:0.00% of 57
+
+Function 'mov_write_dref_tag'
+Lines executed:0.00% of 9
+
+Function 'mov_write_stts_tag'
+Lines executed:0.00% of 34
+
+Function 'mov_write_ctts_tag'
+Lines executed:0.00% of 30
+
+Function 'mov_write_stsd_tag'
+Lines executed:0.00% of 21
+
+Function 'mov_write_gpmd_tag'
+Lines executed:0.00% of 9
+
+Function 'mov_write_tmcd_tag'
+Lines executed:0.00% of 28
+
+Function 'mov_write_source_reference_tag'
+Lines executed:0.00% of 13
+
+Function 'mov_write_rtp_tag'
+Lines executed:0.00% of 14
+
+Function 'mov_write_video_tag'
+Lines executed:0.00% of 192
+
+Function 'mov_write_aux_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_ccst_tag'
+Lines executed:0.00% of 9
+
+Function 'find_compressor'
+Lines executed:0.00% of 29
+
+Function 'mov_write_amve_tag'
+Lines executed:0.00% of 18
+
+Function 'mov_write_mdcv_tag'
+Lines executed:0.00% of 23
+
+Function 'mov_write_clli_tag'
+Lines executed:0.00% of 12
+
+Function 'mov_write_colr_tag'
+Lines executed:0.00% of 25
+
+Function 'mov_write_gama_tag'
+Lines executed:0.00% of 15
+
+Function 'mov_write_pasp_tag'
+Lines executed:0.00% of 9
+
+Function 'mov_write_clap_tag'
+Lines executed:0.00% of 20
+
+Function 'mov_write_dvcc_dvvc_tag'
+Lines executed:0.00% of 11
+
+Function 'mov_write_vexu_tag'
+Lines executed:0.00% of 25
+
+Function 'mov_write_eyes_tag'
+Lines executed:0.00% of 31
+
+Function 'mov_write_vexu_proj_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_hfov_tag'
+Lines executed:0.00% of 5
+
+Function 'mov_write_sv3d_tag'
+Lines executed:0.00% of 44
+
+Function 'mov_write_st3d_tag'
+Lines executed:0.00% of 14
+
+Function 'mov_write_subtitle_tag'
+Lines executed:0.00% of 28
+
+Function 'mov_write_fiel_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_uuid_tag_ipod'
+Lines executed:0.00% of 9
+
+Function 'mov_find_codec_tag'
+Lines executed:0.00% of 12
+
+Function 'validate_codec_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_get_codec_tag'
+Lines executed:0.00% of 45
+
+Function 'mov_get_rawvideo_codec_tag'
+Lines executed:0.00% of 16
+
+Function 'mov_get_h264_codec_tag'
+Lines executed:0.00% of 34
+
+Function 'mov_get_mpeg2_xdcam_codec_tag'
+Lines executed:0.00% of 36
+
+Function 'mov_get_dv_codec_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_dpxe_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_avid_tag'
+Lines executed:0.00% of 71
+
+Function 'mov_write_vvcc_tag'
+Lines executed:0.00% of 10
+
+Function 'mov_write_evcc_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_lhvc_tag'
+Lines executed:0.00% of 12
+
+Function 'mov_write_hvcc_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_vpcc_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_av3c_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_av3c'
+Lines executed:0.00% of 10
+
+Function 'mov_write_avcc_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_av1c_tag'
+Lines executed:0.00% of 6
+
+Function 'mov_write_d263_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_audio_tag'
+Lines executed:0.00% of 116
+
+Function 'mov_write_pcmc_tag'
+Lines executed:0.00% of 15
+
+Function 'mov_write_chnl_tag'
+Lines executed:0.00% of 29
+
+Function 'mov_write_btrt_tag'
+Lines executed:0.00% of 10
+
+Function 'get_samples_per_packet'
+Lines executed:0.00% of 7
+
+Function 'get_cluster_duration'
+Lines executed:0.00% of 10
+
+Function 'mov_write_glbl_tag'
+Lines executed:0.00% of 5
+
+Function 'mov_write_dvc1_tag'
+Lines executed:0.00% of 9
+
+Function 'mov_write_dvc1_structs'
+Lines executed:0.00% of 117
+
+Function 'mov_write_wave_tag'
+Lines executed:0.00% of 30
+
+Function 'mov_write_chan_tag'
+Lines executed:0.00% of 34
+
+Function 'mov_write_SA3D_tag'
+Lines executed:0.00% of 42
+
+Function 'mov_write_dmlp_tag'
+Lines executed:0.00% of 15
+
+Function 'mov_write_dops_tag'
+Lines executed:0.00% of 22
+
+Function 'mov_write_dfla_tag'
+Lines executed:0.00% of 11
+
+Function 'mov_write_wfex_tag'
+Lines executed:0.00% of 7
+
+Function 'mov_write_ms_tag'
+Lines executed:0.00% of 8
+
+Function 'mov_write_esds_tag'
+Lines executed:0.00% of 30
+
+Function 'calculate_mpeg4_bit_rates'
+Lines executed:0.00% of 29
+
+Function 'put_descr'
+Lines executed:0.00% of 7
+
+Function 'mov_write_enda_tag_be'
+Lines executed:0.00% of 5
+
+Function 'mov_write_enda_tag'
+Lines executed:0.00% of 5
+
+Function 'mov_write_eac3_tag'
+Lines executed:0.00% of 43
+
+Function 'handle_eac3'
+Lines executed:0.00% of 88
+
+Function 'mov_write_ac3_tag'
+Lines executed:0.00% of 27
+
+Function 'mov_write_amr_tag'
+Lines executed:0.00% of 10
+
+Function 'mov_write_iacb_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_sdtp_tag'
+Lines executed:0.00% of 17
+
+Function 'mov_write_stss_tag'
+Lines executed:0.00% of 18
+
+Function 'mov_write_stsc_tag'
+Lines executed:0.00% of 21
+
+Function 'mov_write_stsz_tag'
+Lines executed:0.00% of 24
+
+Function 'mov_write_stco_tag'
+Lines executed:0.00% of 19
+
+Function 'update_size'
+Lines executed:0.00% of 6
+
+Function 'utf8len'
+Lines executed:0.00% of 6
+
+Function 'ff_is_ttml_stream_paragraph_based'
+Lines executed:0.00% of 4
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/movenc.c'
+Lines executed:0.00% of 5232
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavformat#movenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavutil#error.h.gcov'
+
+File 'libavcodec/vc1_common.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavcodec#vc1_common.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno###usr#include#stdlib.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/dnxhddata.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavcodec#dnxhddata.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 40
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 51
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavformat/ttmlenc.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavformat#ttmlenc.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 5404

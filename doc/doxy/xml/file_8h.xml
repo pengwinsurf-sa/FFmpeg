@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="file_8h" kind="file" language="C++">
+    <compoundname>file.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes refid="attributes_8h" local="yes">attributes.h</includes>
+    <includedby refid="avio__read__callback_8c" local="no">doc/examples/avio_read_callback.c</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1">
+        <label>libavutil/file.h</label>
+        <link refid="file_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>doc/examples/avio_read_callback.c</label>
+        <link refid="avio__read__callback_8c"/>
+      </node>
+      <node id="1">
+        <label>libavutil/file.h</label>
+        <link refid="file_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="file_8h_1ade51c2ba717b70fab329362952906cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="attributes_8h_1a93f17e0f0b53a66e7b5eceb3dff2918f" kindref="member">av_warn_unused_result</ref> int</type>
+        <definition>av_warn_unused_result int av_file_map</definition>
+        <argsstring>(const char *filename, uint8_t **bufptr, size_t *size, int log_offset, void *log_ctx)</argsstring>
+        <name>av_file_map</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>uint8_t **</type>
+          <declname>bufptr</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_offset</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>log_ctx</declname>
+        </param>
+        <briefdescription>
+<para>Read the file with name filename, and put its content in a newly allocated buffer or map it with mmap() when available. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In case of success set *bufptr to the read or mmapped buffer, and *size to the size in bytes of the buffer in *bufptr. Unlike mmap this function succeeds with zero sized files, in this case *bufptr will be set to NULL and *size will be set to 0. The returned buffer must be released with <ref refid="file_8h_1a12e643af4a329ae6d1d567d8a782af1e" kindref="member">av_file_unmap()</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to the file </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">bufptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointee is set to the mapped or allocated buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointee is set to the size in bytes of the buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>log_offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>loglevel offset used for logging </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>log_ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>context used for logging </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a non negative number in case of success, a negative value corresponding to an AVERROR error code in case of failure </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/file.h" line="50" column="5" declfile="libavutil/file.h" declline="50" declcolumn="5"/>
+        <referencedby refid="avio__read__callback_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="avio__read__callback_8c" startline="59" endline="134">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="file_8h_1a12e643af4a329ae6d1d567d8a782af1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void av_file_unmap</definition>
+        <argsstring>(uint8_t *bufptr, size_t size)</argsstring>
+        <name>av_file_unmap</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bufptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Unmap or free the buffer bufptr created by <ref refid="file_8h_1ade51c2ba717b70fab329362952906cfe" kindref="member">av_file_map()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bufptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the buffer previously created with <ref refid="file_8h_1ade51c2ba717b70fab329362952906cfe" kindref="member">av_file_map()</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size in bytes of bufptr, must be the same as returned by <ref refid="file_8h_1ade51c2ba717b70fab329362952906cfe" kindref="member">av_file_map()</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/file.h" line="60" column="6" declfile="libavutil/file.h" declline="60" declcolumn="6"/>
+        <referencedby refid="avio__read__callback_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="avio__read__callback_8c" startline="59" endline="134">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Misc file utilities. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_FILE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_FILE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="attributes_8h" kindref="compound">attributes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Misc<sp/>file<sp/>utilities.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>Read<sp/>the<sp/>file<sp/>with<sp/>name<sp/>filename,<sp/>and<sp/>put<sp/>its<sp/>content<sp/>in<sp/>a<sp/>newly</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>allocated<sp/>buffer<sp/>or<sp/>map<sp/>it<sp/>with<sp/>mmap()<sp/>when<sp/>available.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>In<sp/>case<sp/>of<sp/>success<sp/>set<sp/>*bufptr<sp/>to<sp/>the<sp/>read<sp/>or<sp/>mmapped<sp/>buffer,<sp/>and</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>*size<sp/>to<sp/>the<sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>the<sp/>buffer<sp/>in<sp/>*bufptr.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>Unlike<sp/>mmap<sp/>this<sp/>function<sp/>succeeds<sp/>with<sp/>zero<sp/>sized<sp/>files,<sp/>in<sp/>this</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>case<sp/>*bufptr<sp/>will<sp/>be<sp/>set<sp/>to<sp/>NULL<sp/>and<sp/>*size<sp/>will<sp/>be<sp/>set<sp/>to<sp/>0.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>The<sp/>returned<sp/>buffer<sp/>must<sp/>be<sp/>released<sp/>with<sp/>av_file_unmap().</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>@param<sp/>filename<sp/>path<sp/>to<sp/>the<sp/>file</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>bufptr<sp/>pointee<sp/>is<sp/>set<sp/>to<sp/>the<sp/>mapped<sp/>or<sp/>allocated<sp/>buffer</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>@param[out]<sp/>size<sp/>pointee<sp/>is<sp/>set<sp/>to<sp/>the<sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>the<sp/>buffer</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>@param<sp/>log_offset<sp/>loglevel<sp/>offset<sp/>used<sp/>for<sp/>logging</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>@param<sp/>log_ctx<sp/>context<sp/>used<sp/>for<sp/>logging</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>@return<sp/>a<sp/>non<sp/>negative<sp/>number<sp/>in<sp/>case<sp/>of<sp/>success,<sp/>a<sp/>negative<sp/>value</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>corresponding<sp/>to<sp/>an<sp/>AVERROR<sp/>error<sp/>code<sp/>in<sp/>case<sp/>of<sp/>failure</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><ref refid="attributes_8h_1a93f17e0f0b53a66e7b5eceb3dff2918f" kindref="member">av_warn_unused_result</ref></highlight></codeline>
+<codeline lineno="50" refid="file_8h_1ade51c2ba717b70fab329362952906cfe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="file_8h_1ade51c2ba717b70fab329362952906cfe" kindref="member">av_file_map</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/>uint8_t<sp/>**bufptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*size,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>log_offset,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*log_ctx);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="53"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Unmap<sp/>or<sp/>free<sp/>the<sp/>buffer<sp/>bufptr<sp/>created<sp/>by<sp/>av_file_map().</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>@param<sp/>bufptr<sp/>the<sp/>buffer<sp/>previously<sp/>created<sp/>with<sp/>av_file_map()</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>@param<sp/>size<sp/>size<sp/>in<sp/>bytes<sp/>of<sp/>bufptr,<sp/>must<sp/>be<sp/>the<sp/>same<sp/>as<sp/>returned</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>by<sp/>av_file_map()</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="file_8h_1a12e643af4a329ae6d1d567d8a782af1e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="file_8h_1a12e643af4a329ae6d1d567d8a782af1e" kindref="member">av_file_unmap</ref>(uint8_t<sp/>*bufptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_FILE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/file.h"/>
+  </compounddef>
+</doxygen>

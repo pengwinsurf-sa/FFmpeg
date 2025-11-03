@@ -1,0 +1,85 @@
+Function 'ff_mov_cenc_free'
+Lines executed:0.00% of 8
+
+Function 'ff_mov_cenc_init'
+Lines executed:0.00% of 14
+
+Function 'ff_mov_cenc_write_sinf_tag'
+Lines executed:0.00% of 18
+
+Function 'mov_cenc_write_schi_tag'
+Lines executed:0.00% of 11
+
+Function 'ff_mov_cenc_write_stbl_atoms'
+Lines executed:0.00% of 6
+
+Function 'mov_cenc_write_saiz_tag'
+Lines executed:0.00% of 10
+
+Function 'mov_cenc_write_saio_tag'
+Lines executed:0.00% of 13
+
+Function 'mov_cenc_write_senc_tag'
+Lines executed:0.00% of 9
+
+Function 'update_size'
+Lines executed:0.00% of 6
+
+Function 'ff_mov_cenc_av1_write_obus'
+Lines executed:0.00% of 61
+
+Function 'write_tiles'
+Lines executed:0.00% of 70
+
+Function 'ff_mov_cenc_avc_write_nal_units'
+Lines executed:0.00% of 24
+
+Function 'ff_mov_cenc_avc_parse_nal_units'
+Lines executed:0.00% of 22
+
+Function 'ff_mov_cenc_write_packet'
+Lines executed:0.00% of 9
+
+Function 'mov_cenc_end_packet'
+Lines executed:0.00% of 18
+
+Function 'mov_cenc_start_packet'
+Lines executed:0.00% of 9
+
+Function 'mov_cenc_write_encrypted'
+Lines executed:0.00% of 12
+
+Function 'auxiliary_info_add_subsample'
+Lines executed:0.00% of 15
+
+Function 'auxiliary_info_write'
+Lines executed:0.00% of 9
+
+Function 'auxiliary_info_alloc_size'
+Lines executed:0.00% of 6
+
+File 'libavformat/movenccenc.c'
+Lines executed:0.00% of 329
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenccenc.gcno##libavformat#movenccenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenccenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenccenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenccenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenccenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#movenccenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 350

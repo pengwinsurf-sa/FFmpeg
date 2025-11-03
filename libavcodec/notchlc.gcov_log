@@ -1,0 +1,40 @@
+Function 'decode_end'
+Lines executed:0.00% of 7
+
+Function 'decode_frame'
+Lines executed:0.00% of 45
+
+Function 'decode_blocks'
+Lines executed:0.00% of 242
+
+Function 'lz4_decompress'
+Lines executed:0.00% of 64
+
+Function 'decode_init'
+Lines executed:0.00% of 7
+
+File 'libavcodec/notchlc.c'
+Lines executed:0.00% of 286
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#notchlc.gcno##libavcodec#notchlc.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#notchlc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#notchlc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#notchlc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#notchlc.gcno##libavcodec#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#notchlc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 365

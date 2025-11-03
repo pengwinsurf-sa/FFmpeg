@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVRational" kind="struct" language="C++" prot="public">
+    <compoundname>AVRational</compoundname>
+    <includes refid="rational_8h" local="no">libavutil/rational.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVRational_1ae9a98c10a301c5e937095105b6f0fdb9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRational::num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <qualifiedname>AVRational::num</qualifiedname>
+        <briefdescription>
+<para>Numerator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/rational.h" line="59" column="9" bodyfile="libavutil/rational.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="group__lavu__math__rational_1gaa440bf42ede128219a571ae4ce0f90b8" compoundref="rational_8h" startline="89" endline="96">av_cmp_q</referencedby>
+        <referencedby refid="group__lavu__math__rational_1gab646f0a7cc30af543ba4a91b37f9de6e" compoundref="rational_8h" startline="159" endline="163">av_inv_q</referencedby>
+        <referencedby refid="group__lavu__math__rational_1ga935dbbf6bde8dfe5fa7ddb1da582eb07" compoundref="rational_8h" startline="104" endline="106">av_q2d</referencedby>
+        <referencedby refid="transcode_8c_1a54ad76df48ef886861a2f12bc7a9e7e4" compoundref="transcode_8c" startline="260" endline="423">init_filter</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1ac25a104c80c6a7d21fb06a438a6965ba" compoundref="decode__filter__audio_8c" startline="91" endline="207">init_filters</referencedby>
+        <referencedby refid="decode__filter__video_8c_1ac25a104c80c6a7d21fb06a438a6965ba" compoundref="decode__filter__video_8c" startline="93" endline="183">init_filters</referencedby>
+        <referencedby refid="transcode__aac_8c_1a617f4760254c119fc7caa222f3fcbd21" compoundref="transcode__aac_8c" startline="146" endline="247">open_output_file</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structAVRational_1aee46bdac67d965ac0a4204e753f910c3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVRational::den</definition>
+        <argsstring></argsstring>
+        <name>den</name>
+        <qualifiedname>AVRational::den</qualifiedname>
+        <briefdescription>
+<para>Denominator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/rational.h" line="60" column="9" bodyfile="libavutil/rational.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="group__lavu__math__rational_1gaa440bf42ede128219a571ae4ce0f90b8" compoundref="rational_8h" startline="89" endline="96">av_cmp_q</referencedby>
+        <referencedby refid="group__lavu__math__rational_1gab646f0a7cc30af543ba4a91b37f9de6e" compoundref="rational_8h" startline="159" endline="163">av_inv_q</referencedby>
+        <referencedby refid="group__lavu__math__rational_1ga935dbbf6bde8dfe5fa7ddb1da582eb07" compoundref="rational_8h" startline="104" endline="106">av_q2d</referencedby>
+        <referencedby refid="transcode_8c_1a54ad76df48ef886861a2f12bc7a9e7e4" compoundref="transcode_8c" startline="260" endline="423">init_filter</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1ac25a104c80c6a7d21fb06a438a6965ba" compoundref="decode__filter__audio_8c" startline="91" endline="207">init_filters</referencedby>
+        <referencedby refid="decode__filter__video_8c_1ac25a104c80c6a7d21fb06a438a6965ba" compoundref="decode__filter__video_8c" startline="93" endline="183">init_filters</referencedby>
+        <referencedby refid="transcode__aac_8c_1a617f4760254c119fc7caa222f3fcbd21" compoundref="transcode__aac_8c" startline="146" endline="247">open_output_file</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Rational number (pair of numerator and denominator). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/rational.h" line="58" column="1" bodyfile="libavutil/rational.h" bodystart="58" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structAVRational_1aee46bdac67d965ac0a4204e753f910c3" prot="public" virt="non-virtual"><scope>AVRational</scope><name>den</name></member>
+      <member refid="structAVRational_1ae9a98c10a301c5e937095105b6f0fdb9" prot="public" virt="non-virtual"><scope>AVRational</scope><name>num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

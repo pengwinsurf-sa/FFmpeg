@@ -1,0 +1,22 @@
+Function 'write_trailer'
+Lines executed:0.00% of 4
+
+Function 'write_packet'
+Lines executed:0.00% of 4
+
+Function 'write_header'
+Lines executed:0.00% of 47
+
+File 'libavdevice/v4l2enc.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2enc.gcno##libavdevice#v4l2enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/fcntl2.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2enc.gcno###usr#include#x86_64-linux-gnu#bits#fcntl2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2enc.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 55

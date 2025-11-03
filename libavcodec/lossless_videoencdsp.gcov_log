@@ -1,0 +1,21 @@
+Function 'ff_llvidencdsp_init'
+Lines executed:100.00% of 6
+
+Function 'sub_left_predict_c'
+Lines executed:100.00% of 9
+
+Function 'sub_median_pred_c'
+Lines executed:0.00% of 17
+
+Function 'diff_bytes_c'
+Lines executed:100.00% of 9
+
+File 'libavcodec/lossless_videoencdsp.c'
+Lines executed:64.86% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lossless_videoencdsp.gcno##libavcodec#lossless_videoencdsp.c.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lossless_videoencdsp.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:58.54% of 41

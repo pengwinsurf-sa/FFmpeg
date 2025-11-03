@@ -1,0 +1,30 @@
+Function 'config_output'
+Lines executed:0.00% of 15
+
+Function 'filter'
+Lines executed:0.00% of 16
+
+Function 'filter_slice'
+Lines executed:0.00% of 29
+
+Function 'filter_edges_16bit'
+Lines executed:0.00% of 23
+
+Function 'filter_line_c_16bit'
+Lines executed:0.00% of 12
+
+Function 'filter_edges'
+Lines executed:0.00% of 21
+
+Function 'filter_line_c'
+Lines executed:0.00% of 10
+
+File 'libavfilter/vf_yadif.c'
+Lines executed:0.00% of 124
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_yadif.gcno##libavfilter#vf_yadif.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_yadif.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 126

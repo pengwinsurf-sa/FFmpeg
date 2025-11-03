@@ -1,0 +1,55 @@
+Function 'main'
+Lines executed:0.00% of 116
+
+Function 'run_file_tests'
+Lines executed:0.00% of 31
+
+Function 'run_self_tests'
+Lines executed:0.00% of 35
+
+Function 'fmt_is_subsampled'
+Lines executed:0.00% of 3
+
+Function 'run_test'
+Lines executed:0.00% of 112
+
+Function 'scale_legacy'
+Lines executed:0.00% of 21
+
+Function 'get_ssim'
+Lines executed:0.00% of 31
+
+Function 'fmt_comps'
+Lines executed:0.00% of 6
+
+Function 'estimate_quantization_noise'
+Lines executed:0.00% of 13
+
+Function 'exit_handler'
+Lines executed:0.00% of 5
+
+File 'libswscale/tests/swscale.c'
+Lines executed:0.00% of 344
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#swscale.gcno##libswscale#tests#swscale.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#swscale.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#swscale.gcno###usr#include#stdlib.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#swscale.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-float.h.gcov'
+
+File 'libavutil/sfc64.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#swscale.gcno##libavutil#sfc64.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#tests#swscale.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:0.00% of 373

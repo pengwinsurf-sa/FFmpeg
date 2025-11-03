@@ -1,0 +1,33 @@
+Function 'dhav_read_seek'
+Lines executed:0.00% of 19
+
+Function 'dhav_read_packet'
+Lines executed:0.00% of 71
+
+Function 'get_pts'
+Lines executed:0.00% of 33
+
+Function 'dhav_read_header'
+Lines executed:0.00% of 28
+
+Function 'get_duration'
+Lines executed:0.00% of 44
+
+Function 'read_chunk'
+Lines executed:0.00% of 27
+
+Function 'parse_ext'
+Lines executed:0.00% of 63
+
+Function 'dhav_probe'
+Lines executed:0.00% of 7
+
+File 'libavformat/dhav.c'
+Lines executed:0.00% of 290
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dhav.gcno##libavformat#dhav.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dhav.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 292

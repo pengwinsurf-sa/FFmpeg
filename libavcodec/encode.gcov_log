@@ -1,0 +1,90 @@
+Function 'ff_check_codec_matrices'
+Lines executed:0.00% of 11
+
+Function 'ff_encode_add_cpb_side_data'
+Lines executed:0.00% of 20
+
+Function 'ff_encode_internal_alloc'
+Lines executed:0.00% of 2
+
+Function 'ff_encode_flush_buffers'
+Lines executed:0.00% of 7
+
+Function 'ff_encode_receive_frame'
+Lines executed:0.00% of 7
+
+Function 'ff_encode_alloc_frame'
+Lines executed:0.00% of 19
+
+Function 'ff_encode_preinit'
+Lines executed:0.00% of 54
+
+Function 'encode_preinit_audio'
+Lines executed:0.00% of 59
+
+Function 'encode_preinit_video'
+Lines executed:0.00% of 43
+
+Function 'avcodec_receive_packet'
+Lines executed:0.00% of 10
+
+Function 'avcodec_send_frame'
+Lines executed:0.00% of 16
+
+Function 'encode_send_frame_internal'
+Lines executed:0.00% of 33
+
+Function 'encode_receive_packet_internal'
+Lines executed:0.00% of 22
+
+Function 'encode_simple_internal'
+Lines executed:0.00% of 21
+
+Function 'ff_encode_encode_cb'
+Lines executed:0.00% of 39
+
+Function 'ff_encode_reordered_opaque'
+Lines executed:0.00% of 5
+
+Function 'ff_encode_get_frame'
+Lines executed:0.00% of 6
+
+Function 'avcodec_encode_subtitle'
+Lines executed:0.00% of 8
+
+Function 'pad_last_frame'
+Lines executed:0.00% of 23
+
+Function 'encode_make_refcounted'
+Lines executed:0.00% of 9
+
+Function 'ff_get_encode_buffer'
+Lines executed:0.00% of 19
+
+Function 'avcodec_default_get_encode_buffer'
+Lines executed:0.00% of 12
+
+Function 'ff_alloc_packet'
+Lines executed:0.00% of 13
+
+File 'libavcodec/encode.c'
+Lines executed:0.00% of 447
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#encode.gcno##libavcodec#encode.c.gcov'
+
+File 'libavutil/frame.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#encode.gcno##libavutil#frame.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#encode.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#encode.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/encode.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#encode.gcno##libavcodec#encode.h.gcov'
+
+Lines executed:0.00% of 458

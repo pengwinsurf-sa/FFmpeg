@@ -1,0 +1,15 @@
+Function 'acm_read_header'
+Lines executed:0.00% of 17
+
+Function 'acm_probe'
+Lines executed:0.00% of 5
+
+File 'libavformat/acm.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#acm.gcno##libavformat#acm.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#acm.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 22

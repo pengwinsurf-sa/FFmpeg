@@ -1,0 +1,42 @@
+Function 'apac_decode'
+Lines executed:0.00% of 120
+
+Function 'get_code'
+Lines executed:0.00% of 25
+
+Function 'apac_init'
+Lines executed:0.00% of 18
+
+Function 'apac_close'
+Lines executed:0.00% of 8
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/apac.c'
+Lines executed:0.00% of 130
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apac.gcno##libavcodec#apac.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apac.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apac.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apac.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#apac.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 205

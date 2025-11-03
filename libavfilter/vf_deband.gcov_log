@@ -1,0 +1,39 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'process_command'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 16
+
+Function 'config_input'
+Lines executed:0.00% of 33
+
+Function 'deband_16_c'
+Lines executed:0.00% of 40
+
+Function 'deband_16_coupling_c'
+Lines executed:0.00% of 45
+
+Function 'deband_8_coupling_c'
+Lines executed:0.00% of 43
+
+Function 'deband_8_c'
+Lines executed:0.00% of 35
+
+Function 'frand'
+Lines executed:0.00% of 3
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_deband.c'
+Lines executed:0.00% of 227
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deband.gcno##libavfilter#vf_deband.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_deband.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 230

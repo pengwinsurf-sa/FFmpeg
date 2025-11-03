@@ -1,0 +1,415 @@
+Function 'sws_convertPalette8ToPacked24'
+Lines executed:0.00% of 8
+
+Function 'sws_convertPalette8ToPacked32'
+Lines executed:0.00% of 5
+
+Function 'ff_get_unscaled_swscale'
+Lines executed:68.75% of 272
+
+Function 'planarCopyWrapper'
+Lines executed:0.00% of 120
+
+Function 'packedCopyWrapper'
+Lines executed:0.00% of 14
+
+Function 'float_y_to_uint_y_wrapper'
+Lines executed:0.00% of 14
+
+Function 'uint_y_to_float_y_wrapper'
+Lines executed:0.00% of 11
+
+Function 'yvu9ToYv12Wrapper'
+Lines executed:0.00% of 7
+
+Function 'bgr24ToYv12Wrapper'
+Lines executed:0.00% of 9
+
+Function 'rgbToRgbWrapper'
+Lines executed:0.00% of 40
+
+Function 'findRgbConvFn'
+Lines executed:0.00% of 132
+
+Function 'bayer_to_yv12_wrapper'
+Lines executed:0.00% of 36
+
+Function 'bayer_to_rgb48_wrapper'
+Lines executed:0.00% of 30
+
+Function 'bayer_to_rgb24_wrapper'
+Lines executed:0.00% of 30
+
+Function 'bayer_rggb16be_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_rggb16be_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_rggb16be_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_rggb16be_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_rggb16be_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_rggb16be_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_rggb16le_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_rggb16le_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_rggb16le_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_rggb16le_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_rggb16le_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_rggb16le_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_rggb8_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_rggb8_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_rggb8_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_rggb8_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_rggb8_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_rggb8_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_bggr16be_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_bggr16be_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_bggr16be_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_bggr16be_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_bggr16be_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_bggr16be_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_bggr16le_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_bggr16le_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_bggr16le_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_bggr16le_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_bggr16le_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_bggr16le_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_bggr8_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_bggr8_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_bggr8_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_bggr8_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_bggr8_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_bggr8_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_grbg16be_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_grbg16be_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_grbg16be_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_grbg16be_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_grbg16be_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_grbg16be_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_grbg16le_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_grbg16le_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_grbg16le_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_grbg16le_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_grbg16le_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_grbg16le_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_grbg8_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_grbg8_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_grbg8_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_grbg8_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_grbg8_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_grbg8_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_gbrg16be_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_gbrg16be_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_gbrg16be_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_gbrg16be_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_gbrg16be_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_gbrg16be_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_gbrg16le_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_gbrg16le_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_gbrg16le_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_gbrg16le_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_gbrg16le_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_gbrg16le_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'bayer_gbrg8_to_yv12_interpolate'
+Lines executed:0.00% of 21
+
+Function 'bayer_gbrg8_to_yv12_copy'
+Lines executed:0.00% of 12
+
+Function 'bayer_gbrg8_to_rgb48_interpolate'
+Lines executed:0.00% of 14
+
+Function 'bayer_gbrg8_to_rgb48_copy'
+Lines executed:0.00% of 9
+
+Function 'bayer_gbrg8_to_rgb24_interpolate'
+Lines executed:0.00% of 12
+
+Function 'bayer_gbrg8_to_rgb24_copy'
+Lines executed:0.00% of 7
+
+Function 'rgbToPlanarRgbaWrapper'
+Lines executed:0.00% of 31
+
+Function 'packed32togbrap'
+Lines executed:0.00% of 25
+
+Function 'packed24togbrap'
+Lines executed:0.00% of 19
+
+Function 'rgbToPlanarRgbWrapper'
+Lines executed:0.00% of 30
+
+Function 'packedtogbr24p'
+Lines executed:0.00% of 19
+
+Function 'planarRgbToplanarRgbWrapper'
+Lines executed:0.00% of 11
+
+Function 'planarRgbToRgbWrapper'
+Lines executed:0.00% of 35
+
+Function 'planarRgbaToRgbWrapper'
+Lines executed:0.00% of 35
+
+Function 'gbraptopacked32'
+Lines executed:0.00% of 18
+
+Function 'gbr24ptopacked32'
+Lines executed:0.00% of 18
+
+Function 'gbr24ptopacked24'
+Lines executed:0.00% of 11
+
+Function 'planarRgb16ToRgb16Wrapper'
+Lines executed:0.00% of 48
+
+Function 'gbr16ptopacked30'
+Lines executed:0.00% of 20
+
+Function 'gbr16ptopacked16'
+Lines executed:0.00% of 89
+
+Function 'Rgb16ToPlanarRgb16Wrapper'
+Lines executed:0.00% of 43
+
+Function 'packed30togbra10'
+Lines executed:0.00% of 54
+
+Function 'packed16togbra16'
+Lines executed:0.00% of 101
+
+Function 'palToGbrpWrapper'
+Lines executed:0.00% of 30
+
+Function 'palToRgbWrapper'
+Lines executed:0.00% of 24
+
+Function 'bswap_32bpc'
+Lines executed:0.00% of 17
+
+Function 'bswap_16bpc'
+Lines executed:0.00% of 17
+
+Function 'pal8ToPlanar8'
+Lines executed:0.00% of 9
+
+Function 'gray8aToPlanar8'
+Lines executed:0.00% of 9
+
+Function 'gray8aToPacked24'
+Lines executed:0.00% of 8
+
+Function 'gray8aToPacked32_1'
+Lines executed:0.00% of 5
+
+Function 'gray8aToPacked32'
+Lines executed:0.00% of 5
+
+Function 'uyvyToYuv422Wrapper'
+Lines executed:0.00% of 6
+
+Function 'uyvyToYuv420Wrapper'
+Lines executed:0.00% of 8
+
+Function 'yuyvToYuv422Wrapper'
+Lines executed:0.00% of 6
+
+Function 'yuyvToYuv420Wrapper'
+Lines executed:0.00% of 8
+
+Function 'yuv422pToUyvyWrapper'
+Lines executed:0.00% of 4
+
+Function 'yuv422pToYuy2Wrapper'
+Lines executed:0.00% of 4
+
+Function 'planarToUyvyWrapper'
+Lines executed:0.00% of 4
+
+Function 'planarToYuy2Wrapper'
+Lines executed:0.00% of 4
+
+Function 'planar8ToP01xleWrapper'
+Lines executed:0.00% of 27
+
+Function 'planarToP01xWrapper'
+Lines executed:0.00% of 33
+
+Function 'nv24ToYuv420Wrapper'
+Lines executed:100.00% of 10
+
+Function 'nv24_to_yuv420p_chroma'
+Lines executed:93.75% of 16
+
+Function 'nv24ToPlanarWrapper'
+Lines executed:0.00% of 8
+
+Function 'planarToNv24Wrapper'
+Lines executed:0.00% of 7
+
+Function 'nv12ToPlanarWrapper'
+Lines executed:0.00% of 8
+
+Function 'planarToNv12Wrapper'
+Lines executed:0.00% of 7
+
+Function 'ff_copyPlane'
+Lines executed:77.78% of 9
+
+Function 'fillPlane'
+Lines executed:0.00% of 9
+
+File 'libswscale/swscale_unscaled.c'
+Lines executed:10.72% of 1530
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale_unscaled.gcno##libswscale#swscale_unscaled.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:54.74% of 95
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale_unscaled.gcno##libswscale#swscale_internal.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale_unscaled.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:50.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale_unscaled.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale_unscaled.gcno##libavutil#common.h.gcov'
+
+File 'libswscale/bayer_template.c'
+Lines executed:0.00% of 975
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#swscale_unscaled.gcno##libswscale#bayer_template.c.gcov'
+
+Lines executed:8.35% of 2612

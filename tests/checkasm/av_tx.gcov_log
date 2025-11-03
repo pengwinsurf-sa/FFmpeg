@@ -1,0 +1,31 @@
+Function 'checkasm_check_av_tx'
+Lines executed:64.52% of 31
+
+Function 'free_tx_refs'
+Lines executed:100.00% of 6
+
+File 'tests/checkasm/av_tx.c'
+Lines executed:100.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#av_tx.gcno##tests#checkasm#av_tx.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#av_tx.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#av_tx.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#av_tx.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#av_tx.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#av_tx.gcno##libavutil#emms.h.gcov'
+
+Lines executed:70.27% of 37

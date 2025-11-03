@@ -1,0 +1,174 @@
+Function 'encode_close'
+Lines executed:0.00% of 10
+
+Function 'encode_frame'
+Lines executed:0.00% of 99
+
+Function 'ff_ffv1_encode_buffer_size'
+Lines executed:0.00% of 15
+
+Function 'encode_slice'
+Lines executed:0.00% of 96
+
+Function 'encode_float32_rgb_frame'
+Lines executed:0.00% of 152
+
+Function 'encode_float32_remap'
+Lines executed:0.00% of 75
+
+Function 'encode_float32_remap_segment'
+Lines executed:0.00% of 92
+
+Function 'load_rgb_float32_frame'
+Lines executed:0.00% of 32
+
+Function 'encode_histogram_remap'
+Lines executed:0.00% of 25
+
+Function 'choose_rct_params'
+Lines executed:0.00% of 56
+
+Function 'encode_slice_header'
+Lines executed:0.00% of 27
+
+Function 'encode_init_internal'
+Lines executed:0.00% of 49
+
+Function 'ff_ffv1_encode_setup_plane_info'
+Lines executed:0.00% of 97
+
+Function 'ff_ffv1_encode_init'
+Lines executed:0.00% of 141
+
+Function 'ff_ffv1_encode_determine_slices'
+Lines executed:0.00% of 25
+
+Function 'sort_stt'
+Lines executed:0.00% of 29
+
+Function 'ff_ffv1_write_extradata'
+Lines executed:0.00% of 58
+
+Function 'set_micro_version'
+Lines executed:0.00% of 11
+
+Function 'write_header'
+Lines executed:0.00% of 36
+
+Function 'write_quant_table'
+Lines executed:0.00% of 11
+
+Function 'load_plane'
+Lines executed:0.00% of 13
+
+Function 'encode_plane'
+Lines executed:0.00% of 30
+
+Function 'encode_rgb_frame32'
+Lines executed:0.00% of 63
+
+Function 'load_rgb_frame32'
+Lines executed:0.00% of 20
+
+Function 'get_context32'
+Lines executed:0.00% of 16
+
+Function 'encode_rgb_frame'
+Lines executed:0.00% of 66
+
+Function 'load_rgb_frame'
+Lines executed:0.00% of 23
+
+Function 'get_context'
+Lines executed:0.00% of 16
+
+Function 'put_vlc_symbol'
+Lines executed:0.00% of 19
+
+Function 'put_symbol'
+Lines executed:0.00% of 3
+
+Function 'find_best_state'
+Lines executed:0.00% of 29
+
+Function 'update_vlc_state'
+Lines executed:0.00% of 19
+
+Function 'put_rac'
+Lines executed:0.00% of 14
+
+Function 'renorm_encoder'
+Lines executed:0.00% of 12
+
+Function 'set_ur_golomb'
+Lines executed:0.00% of 10
+
+Function 'put_bits'
+No executable lines
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/ffv1enc.c'
+Lines executed:0.00% of 1098
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#ffv1enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/ffv1enc_template.c'
+Lines executed:0.00% of 328
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#ffv1enc_template.c.gcov'
+
+File 'libavcodec/ffv1_template.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#ffv1_template.c.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/ffv1.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#ffv1.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#rangecoder.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/put_golomb.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavcodec#put_golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1enc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 1629

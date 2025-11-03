@@ -1,0 +1,77 @@
+Function 'photocd_decode_close'
+Lines executed:0.00% of 5
+
+Function 'photocd_decode_init'
+Lines executed:0.00% of 7
+
+Function 'photocd_decode_frame'
+Lines executed:0.00% of 102
+
+Function 'decode_huff'
+Lines executed:0.00% of 67
+
+Function 'read_hufftable'
+Lines executed:0.00% of 30
+
+Function 'interp_pixels'
+Lines executed:0.00% of 9
+
+Function 'interp_lines'
+Lines executed:0.00% of 20
+
+Function 'interp_lowres'
+Lines executed:0.00% of 48
+
+Function 'bits_read_vlc_be'
+Lines executed:0.00% of 16
+
+Function 'bits_priv_set_idx_be'
+Lines executed:0.00% of 6
+
+Function 'bits_skip_be'
+Lines executed:0.00% of 15
+
+Function 'bits_read_nz_be'
+Lines executed:0.00% of 12
+
+Function 'bits_init_be'
+Lines executed:0.00% of 16
+
+Function 'bits_priv_refill_32_be'
+Lines executed:0.00% of 8
+
+Function 'bits_priv_refill_64_be'
+Lines executed:0.00% of 6
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/photocd.c'
+Lines executed:0.00% of 231
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno##libavcodec#photocd.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/bitstream_template.h'
+Lines executed:0.00% of 96
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno##libavcodec#bitstream_template.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#photocd.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 369

@@ -1,0 +1,22 @@
+Function 'main'
+Lines executed:0.00% of 14
+
+Function 'list_op'
+Lines executed:0.00% of 32
+
+Function 'type_string'
+Lines executed:0.00% of 22
+
+File 'doc/examples/avio_list_dir.c'
+Lines executed:0.00% of 61
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_list_dir.gcno##doc#examples#avio_list_dir.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_list_dir.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#avio_list_dir.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 68

@@ -1,0 +1,37 @@
+Function 'ff_sipr_init_16k'
+Lines executed:0.00% of 8
+
+Function 'ff_sipr_decode_frame_16k'
+Lines executed:0.00% of 68
+
+Function 'acelp_decode_gain_codef'
+Lines executed:0.00% of 5
+
+Function 'acelp_lp_decodef'
+Lines executed:0.00% of 8
+
+Function 'postfilter'
+Lines executed:0.00% of 20
+
+Function 'lsf_decode_fp_16k'
+Lines executed:0.00% of 10
+
+Function 'dequant'
+Lines executed:0.00% of 6
+
+Function 'lsf2lsp'
+Lines executed:0.00% of 5
+
+File 'libavcodec/sipr16k.c'
+Lines executed:0.00% of 121
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr16k.gcno##libavcodec#sipr16k.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr16k.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#sipr16k.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 130

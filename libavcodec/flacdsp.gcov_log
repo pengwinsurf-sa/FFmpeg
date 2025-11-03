@@ -1,0 +1,75 @@
+Function 'ff_flacdsp_init'
+Lines executed:63.64% of 33
+
+Function 'flac_wasted_33_c'
+Lines executed:100.00% of 4
+
+Function 'flac_wasted_32_c'
+Lines executed:100.00% of 4
+
+Function 'flac_lpc_33_c'
+Lines executed:100.00% of 7
+
+Function 'flac_lpc_32_c'
+Lines executed:100.00% of 7
+
+Function 'flac_lpc_16_c'
+Lines executed:100.00% of 20
+
+Function 'flac_decorrelate_ms_c_32p'
+Lines executed:0.00% of 10
+
+Function 'flac_decorrelate_rs_c_32p'
+Lines executed:0.00% of 9
+
+Function 'flac_decorrelate_ls_c_32p'
+Lines executed:0.00% of 9
+
+Function 'flac_decorrelate_indep_c_32p'
+Lines executed:0.00% of 7
+
+Function 'flac_decorrelate_ms_c_32'
+Lines executed:100.00% of 10
+
+Function 'flac_decorrelate_rs_c_32'
+Lines executed:100.00% of 9
+
+Function 'flac_decorrelate_ls_c_32'
+Lines executed:100.00% of 9
+
+Function 'flac_decorrelate_indep_c_32'
+Lines executed:100.00% of 7
+
+Function 'flac_decorrelate_ms_c_16p'
+Lines executed:0.00% of 10
+
+Function 'flac_decorrelate_rs_c_16p'
+Lines executed:0.00% of 9
+
+Function 'flac_decorrelate_ls_c_16p'
+Lines executed:0.00% of 9
+
+Function 'flac_decorrelate_indep_c_16p'
+Lines executed:0.00% of 7
+
+Function 'flac_decorrelate_ms_c_16'
+Lines executed:100.00% of 10
+
+Function 'flac_decorrelate_rs_c_16'
+Lines executed:100.00% of 9
+
+Function 'flac_decorrelate_ls_c_16'
+Lines executed:100.00% of 9
+
+Function 'flac_decorrelate_indep_c_16'
+Lines executed:100.00% of 7
+
+File 'libavcodec/flacdsp.c'
+Lines executed:84.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdsp.gcno##libavcodec#flacdsp.c.gcov'
+
+File 'libavcodec/flacdsp_template.c'
+Lines executed:60.00% of 175
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#flacdsp.gcno##libavcodec#flacdsp_template.c.gcov'
+
+Lines executed:67.20% of 250

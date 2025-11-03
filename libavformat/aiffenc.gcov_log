@@ -1,0 +1,35 @@
+Function 'aiff_deinit'
+Lines executed:0.00% of 4
+
+Function 'aiff_write_trailer'
+Lines executed:0.00% of 21
+
+Function 'aiff_write_packet'
+Lines executed:0.00% of 10
+
+Function 'aiff_write_header'
+Lines executed:0.00% of 78
+
+Function 'put_meta'
+Lines executed:0.00% of 10
+
+Function 'put_id3v2_tags'
+Lines executed:0.00% of 24
+
+File 'libavformat/aiffenc.c'
+Lines executed:0.00% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aiffenc.gcno##libavformat#aiffenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aiffenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aiffenc.gcno##libavformat#avio_internal.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aiffenc.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 147

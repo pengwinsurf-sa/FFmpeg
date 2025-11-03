@@ -1,0 +1,11 @@
+Function 'avformat_get_riff_audio_tags'
+Lines executed:0.00% of 2
+
+Function 'avformat_get_riff_video_tags'
+Lines executed:0.00% of 2
+
+File 'libavformat/riff.c'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#riff.gcno##libavformat#riff.c.gcov'
+
+Lines executed:0.00% of 4

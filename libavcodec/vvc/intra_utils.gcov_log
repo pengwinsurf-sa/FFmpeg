@@ -1,0 +1,43 @@
+Function 'ff_vvc_wide_angle_mode_mapping'
+Lines executed:0.00% of 13
+
+Function 'ff_vvc_intra_inv_angle_derive'
+Lines executed:0.00% of 5
+
+Function 'ff_vvc_intra_pred_angle_derive'
+Lines executed:0.00% of 13
+
+Function 'ff_vvc_ref_filter_flag_derive'
+Lines executed:0.00% of 18
+
+Function 'ff_vvc_get_left_available'
+Lines executed:0.00% of 21
+
+Function 'ff_vvc_get_top_available'
+Lines executed:0.00% of 23
+
+Function 'get_reconstructed_area'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_need_pdpc'
+Lines executed:0.00% of 9
+
+Function 'ff_vvc_nscale_derive'
+Lines executed:0.00% of 13
+
+Function 'ff_vvc_get_mip_size_id'
+Lines executed:0.00% of 4
+
+File 'libavcodec/vvc/intra_utils.c'
+Lines executed:0.00% of 113
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#intra_utils.gcno##libavcodec#vvc#intra_utils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#intra_utils.gcno###usr#include#x86_64-linux-gnu#bits#stdlib-bsearch.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#intra_utils.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 128

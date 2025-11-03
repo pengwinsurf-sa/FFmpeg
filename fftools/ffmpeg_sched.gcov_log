@@ -1,0 +1,212 @@
+Function 'sch_stop'
+Lines executed:0.00% of 35
+
+Function 'task_stop'
+Lines executed:0.00% of 9
+
+Function 'task_wrapper'
+Lines executed:0.00% of 23
+
+Function 'task_cleanup'
+Lines executed:0.00% of 8
+
+Function 'sch_filter_command'
+Lines executed:0.00% of 5
+
+Function 'filter_done'
+Lines executed:0.00% of 17
+
+Function 'sch_filter_send'
+Lines executed:0.00% of 10
+
+Function 'sch_filter_receive_finish'
+Lines executed:0.00% of 13
+
+Function 'sch_filter_receive'
+Lines executed:0.00% of 21
+
+Function 'enc_done'
+Lines executed:0.00% of 9
+
+Function 'sch_enc_send'
+Lines executed:0.00% of 19
+
+Function 'enc_send_to_dst'
+Lines executed:0.00% of 16
+
+Function 'sch_enc_receive'
+Lines executed:0.00% of 8
+
+Function 'dec_done'
+Lines executed:0.00% of 13
+
+Function 'sch_dec_send'
+Lines executed:0.00% of 26
+
+Function 'dec_send_to_dst'
+Lines executed:0.00% of 16
+
+Function 'send_to_filter'
+Lines executed:0.00% of 8
+
+Function 'sch_dec_receive'
+Lines executed:0.00% of 15
+
+Function 'mux_done'
+Lines executed:0.00% of 14
+
+Function 'sch_mux_sub_heartbeat'
+Lines executed:0.00% of 14
+
+Function 'sch_mux_receive_finish'
+Lines executed:0.00% of 11
+
+Function 'sch_mux_receive'
+Lines executed:0.00% of 8
+
+Function 'demux_done'
+Lines executed:0.00% of 12
+
+Function 'sch_demux_send'
+Lines executed:0.00% of 11
+
+Function 'demux_flush'
+Lines executed:0.00% of 27
+
+Function 'demux_send_for_stream'
+Lines executed:0.00% of 19
+
+Function 'demux_stream_send_to_dst'
+Lines executed:0.00% of 20
+
+Function 'send_to_mux'
+Lines executed:0.00% of 27
+
+Function 'mux_queue_packet'
+Lines executed:0.00% of 22
+
+Function 'send_to_enc'
+Lines executed:0.00% of 11
+
+Function 'send_to_enc_sq'
+Lines executed:0.00% of 44
+
+Function 'send_to_enc_thread'
+Lines executed:0.00% of 4
+
+Function 'enc_open'
+Lines executed:0.00% of 11
+
+Function 'sch_wait'
+Lines executed:0.00% of 12
+
+Function 'sch_start'
+Lines executed:0.00% of 41
+
+Function 'start_prepare'
+Lines executed:0.00% of 77
+
+Function 'check_acyclic'
+Lines executed:0.00% of 20
+
+Function 'check_acyclic_for_output'
+Lines executed:0.00% of 22
+
+Function 'schedule_update_locked'
+Lines executed:0.00% of 36
+
+Function 'unchoke_for_stream'
+Lines executed:0.00% of 12
+
+Function 'sch_mux_sub_heartbeat_add'
+Lines executed:0.00% of 15
+
+Function 'sch_mux_stream_ready'
+Lines executed:0.00% of 13
+
+Function 'sch_mux_stream_buffering'
+Lines executed:0.00% of 10
+
+Function 'mux_init'
+Lines executed:0.00% of 17
+
+Function 'mux_task_start'
+Lines executed:0.00% of 36
+
+Function 'sch_connect'
+Lines executed:0.00% of 98
+
+Function 'sch_sq_add_enc'
+Lines executed:0.00% of 17
+
+Function 'sch_add_sq_enc'
+Lines executed:0.00% of 14
+
+Function 'sch_add_filtergraph'
+Lines executed:0.00% of 28
+
+Function 'sch_add_enc'
+Lines executed:0.00% of 17
+
+Function 'sch_add_dec'
+Lines executed:0.00% of 30
+
+Function 'sch_add_dec_output'
+Lines executed:0.00% of 8
+
+Function 'sch_add_demux_stream'
+Lines executed:0.00% of 7
+
+Function 'sch_add_demux'
+Lines executed:0.00% of 14
+
+Function 'sch_add_mux_stream'
+Lines executed:0.00% of 15
+
+Function 'sch_add_mux'
+Lines executed:0.00% of 13
+
+Function 'sch_sdp_filename'
+Lines executed:0.00% of 4
+
+Function 'sch_alloc'
+Lines executed:0.00% of 23
+
+Function 'sch_free'
+Lines executed:0.00% of 68
+
+Function 'trailing_dts'
+Lines executed:0.00% of 11
+
+Function 'task_start'
+Lines executed:0.00% of 10
+
+Function 'queue_alloc'
+No executable lines
+
+Function 'waiter_init'
+Lines executed:0.00% of 9
+
+Function 'waiter_set'
+Lines executed:0.00% of 6
+
+Function 'waiter_wait'
+Lines executed:0.00% of 9
+
+File 'fftools/ffmpeg_sched.c'
+Lines executed:0.00% of 1230
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_sched.gcno##fftools#ffmpeg_sched.c.gcov'
+
+File 'fftools/ffmpeg_utils.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_sched.gcno##fftools#ffmpeg_utils.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_sched.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_sched.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 1238

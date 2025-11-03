@@ -1,0 +1,31 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'filter_frame'
+Lines executed:0.00% of 24
+
+Function 'filter_channels'
+Lines executed:0.00% of 51
+
+Function 'config_input'
+Lines executed:0.00% of 8
+
+Function 'get_coeffs'
+Lines executed:0.00% of 18
+
+File 'libavfilter/af_asubboost.c'
+Lines executed:0.00% of 109
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asubboost.gcno##libavfilter#af_asubboost.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asubboost.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_asubboost.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 113

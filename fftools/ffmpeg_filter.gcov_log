@@ -1,0 +1,240 @@
+Function 'fg_send_command'
+Lines executed:0.00% of 22
+
+Function 'filter_thread'
+Lines executed:0.00% of 86
+
+Function 'fg_thread_init'
+Lines executed:0.00% of 19
+
+Function 'fg_thread_uninit'
+Lines executed:0.00% of 11
+
+Function 'fg_thread_set_name'
+Lines executed:0.00% of 15
+
+Function 'send_frame'
+Lines executed:0.00% of 97
+
+Function 'send_eof'
+Lines executed:0.00% of 38
+
+Function 'sub2video_frame'
+Lines executed:0.00% of 24
+
+Function 'sub2video_heartbeat'
+Lines executed:0.00% of 8
+
+Function 'read_frames'
+Lines executed:0.00% of 31
+
+Function 'fg_output_step'
+Lines executed:0.00% of 48
+
+Function 'fg_output_frame'
+Lines executed:0.00% of 48
+
+Function 'close_output'
+Lines executed:0.00% of 31
+
+Function 'video_sync_process'
+Lines executed:0.00% of 87
+
+Function 'adjust_frame_pts_to_encoder_tb'
+Lines executed:0.00% of 25
+
+Function 'choose_out_timebase'
+Lines executed:0.00% of 46
+
+Function 'choose_input'
+Lines executed:0.00% of 13
+
+Function 'send_command'
+Lines executed:0.00% of 14
+
+Function 'filtergraph_is_simple'
+Lines executed:0.00% of 3
+
+Function 'ifilter_parameters_from_frame'
+Lines executed:0.00% of 39
+
+Function 'configure_filtergraph'
+Lines executed:0.00% of 112
+
+Function 'graph_is_meta'
+Lines executed:0.00% of 6
+
+Function 'filter_is_buffersrc'
+Lines executed:0.00% of 4
+
+Function 'cleanup_filtergraph'
+Lines executed:0.00% of 7
+
+Function 'configure_input_filter'
+Lines executed:0.00% of 5
+
+Function 'configure_input_audio_filter'
+Lines executed:0.00% of 31
+
+Function 'configure_input_video_filter'
+Lines executed:0.00% of 83
+
+Function 'configure_output_filter'
+Lines executed:0.00% of 5
+
+Function 'configure_output_audio_filter'
+Lines executed:0.00% of 42
+
+Function 'configure_output_video_filter'
+Lines executed:0.00% of 43
+
+Function 'insert_filter'
+Lines executed:0.00% of 13
+
+Function 'insert_trim'
+Lines executed:0.00% of 28
+
+Function 'fg_finalise_bindings'
+Lines executed:0.00% of 14
+
+Function 'bind_inputs'
+Lines executed:0.00% of 9
+
+Function 'fg_complex_bind_input'
+Lines executed:0.00% of 79
+
+Function 'fg_create_simple'
+Lines executed:0.00% of 25
+
+Function 'fg_create'
+Lines executed:0.00% of 84
+
+Function 'fg_item_name'
+Lines executed:0.00% of 3
+
+Function 'fg_free'
+Lines executed:0.00% of 40
+
+Function 'ifilter_alloc'
+Lines executed:0.00% of 15
+
+Function 'ifilter_bind_fg'
+Lines executed:0.00% of 20
+
+Function 'ofilter_bind_ifilter'
+Lines executed:0.00% of 10
+
+Function 'ofilter_bind_enc'
+Lines executed:0.00% of 64
+
+Function 'set_channel_layout'
+Lines executed:0.00% of 15
+
+Function 'ifilter_bind_dec'
+Lines executed:0.00% of 16
+
+Function 'ifilter_bind_ist'
+Lines executed:0.00% of 30
+
+Function 'ofilter_alloc'
+Lines executed:0.00% of 17
+
+Function 'ofilter_item_name'
+Lines executed:0.00% of 3
+
+Function 'describe_filter_link'
+Lines executed:0.00% of 7
+
+Function 'graph_parse'
+Lines executed:0.00% of 26
+
+Function 'graph_opts_apply'
+Lines executed:0.00% of 12
+
+Function 'filter_opt_apply'
+Lines executed:0.00% of 33
+
+Function 'read_binary'
+Lines executed:0.00% of 32
+
+Function 'choose_channel_layouts'
+Lines executed:0.00% of 13
+
+Function 'choose_color_ranges'
+Lines executed:0.00% of 1
+
+Function 'choose_color_spaces'
+Lines executed:0.00% of 1
+
+Function 'choose_sample_rates'
+Lines executed:0.00% of 1
+
+Function 'choose_sample_fmts'
+Lines executed:0.00% of 1
+
+Function 'choose_pix_fmts'
+Lines executed:0.00% of 1
+
+Function 'sub2video_update'
+Lines executed:0.00% of 24
+
+Function 'sub2video_push_ref'
+Lines executed:0.00% of 10
+
+Function 'sub2video_copy_rect'
+Lines executed:0.00% of 18
+
+Function 'sub2video_get_blank_frame'
+Lines executed:0.00% of 13
+
+Function 'filter_command_free'
+Lines executed:0.00% of 7
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 4
+
+File 'fftools/ffmpeg_filter.c'
+Lines executed:0.00% of 1691
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##fftools#ffmpeg_filter.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/thread.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavutil#thread.h.gcov'
+
+File 'fftools/ffmpeg_utils.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##fftools#ffmpeg_utils.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavutil#timestamp.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_filter.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 1732

@@ -1,0 +1,35 @@
+Function 'ff_yuv2rgb_init_x86'
+Lines executed:100.00% of 22
+
+Function 'yuv420_gbrp_ssse3'
+Lines executed:93.75% of 16
+
+Function 'yuv420_bgr24_ssse3'
+Lines executed:100.00% of 5
+
+Function 'yuv420_rgb24_ssse3'
+Lines executed:100.00% of 5
+
+Function 'yuva420_bgr32_ssse3'
+Lines executed:100.00% of 6
+
+Function 'yuva420_rgb32_ssse3'
+Lines executed:100.00% of 6
+
+Function 'yuv420_bgr32_ssse3'
+Lines executed:100.00% of 5
+
+Function 'yuv420_rgb32_ssse3'
+Lines executed:100.00% of 5
+
+Function 'yuv420_rgb16_ssse3'
+Lines executed:100.00% of 8
+
+Function 'yuv420_rgb15_ssse3'
+Lines executed:100.00% of 8
+
+File 'libswscale/x86/yuv2rgb.c'
+Lines executed:98.84% of 86
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#x86#yuv2rgb.gcno##libswscale#x86#yuv2rgb.c.gcov'
+
+Lines executed:98.84% of 86

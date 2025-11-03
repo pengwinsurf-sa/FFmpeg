@@ -1,0 +1,38 @@
+Function 'filter_frame'
+Lines executed:0.00% of 21
+
+Function 'filter_channels'
+Lines executed:0.00% of 11
+
+Function 'config_output'
+Lines executed:0.00% of 18
+
+Function 'ps_denorm_dblp'
+Lines executed:0.00% of 9
+
+Function 'ps_denorm_fltp'
+Lines executed:0.00% of 9
+
+Function 'sq_denorm_dblp'
+Lines executed:0.00% of 9
+
+Function 'sq_denorm_fltp'
+Lines executed:0.00% of 9
+
+Function 'ac_denorm_dblp'
+Lines executed:0.00% of 9
+
+Function 'ac_denorm_fltp'
+Lines executed:0.00% of 9
+
+Function 'dc_denorm_dblp'
+Lines executed:0.00% of 8
+
+Function 'dc_denorm_fltp'
+Lines executed:0.00% of 8
+
+File 'libavfilter/af_adenorm.c'
+Lines executed:0.00% of 120
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_adenorm.gcno##libavfilter#af_adenorm.c.gcov'
+
+Lines executed:0.00% of 120

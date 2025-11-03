@@ -1,0 +1,42 @@
+Function 'dca_parse'
+Lines executed:0.00% of 23
+
+Function 'dca_parse_params'
+Lines executed:0.00% of 88
+
+Function 'dca_parse_init'
+Lines executed:0.00% of 5
+
+Function 'dca_find_frame_end'
+Lines executed:0.00% of 74
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/dca_parser.c'
+Lines executed:0.00% of 161
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_parser.gcno##libavcodec#dca_parser.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_parser.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_parser.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_parser.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dca_parser.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 222

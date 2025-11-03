@@ -1,0 +1,8 @@
+Function 'ff_llviddsp_init_x86'
+Lines executed:100.00% of 17
+
+File 'libavcodec/x86/lossless_videodsp_init.c'
+Lines executed:100.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#lossless_videodsp_init.gcno##libavcodec#x86#lossless_videodsp_init.c.gcov'
+
+Lines executed:100.00% of 17

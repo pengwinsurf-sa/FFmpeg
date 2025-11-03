@@ -1,0 +1,8 @@
+Function 'ff_fdct_sse2'
+Lines executed:100.00% of 9
+
+File 'libavcodec/x86/fdct.c'
+Lines executed:100.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#fdct.gcno##libavcodec#x86#fdct.c.gcov'
+
+Lines executed:100.00% of 9

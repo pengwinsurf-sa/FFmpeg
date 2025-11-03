@@ -1,0 +1,157 @@
+Function 'sbg_read_seek'
+Lines executed:0.00% of 2
+
+Function 'sbg_read_seek2'
+Lines executed:0.00% of 6
+
+Function 'sbg_read_packet'
+Lines executed:0.00% of 17
+
+Function 'sbg_read_header'
+Lines executed:0.00% of 65
+
+Function 'sbg_read_probe'
+Lines executed:0.00% of 7
+
+Function 'encode_intervals'
+Lines executed:0.00% of 29
+
+Function 'generate_intervals'
+Lines executed:0.00% of 49
+
+Function 'generate_transition'
+Lines executed:0.00% of 42
+
+Function 'generate_plateau'
+Lines executed:0.00% of 9
+
+Function 'generate_interval'
+Lines executed:0.00% of 35
+
+Function 'add_bell'
+Lines executed:0.00% of 15
+
+Function 'add_interval'
+Lines executed:0.00% of 22
+
+Function 'expand_script'
+Lines executed:0.00% of 13
+
+Function 'expand_tseq'
+Lines executed:0.00% of 31
+
+Function 'expand_timestamps'
+Lines executed:0.00% of 38
+
+Function 'read_whole_file'
+Lines executed:0.00% of 8
+
+Function 'parse_script'
+Lines executed:0.00% of 48
+
+Function 'free_script'
+Lines executed:0.00% of 8
+
+Function 'parse_named_def'
+Lines executed:0.00% of 24
+
+Function 'parse_synth_def'
+Lines executed:0.00% of 15
+
+Function 'parse_synth_channel'
+Lines executed:0.00% of 18
+
+Function 'parse_synth_channel_spin'
+Lines executed:0.00% of 15
+
+Function 'parse_synth_channel_mix'
+Lines executed:0.00% of 7
+
+Function 'parse_synth_channel_bell'
+Lines executed:0.00% of 11
+
+Function 'parse_synth_channel_pink'
+Lines executed:0.00% of 7
+
+Function 'parse_synth_channel_sine'
+Lines executed:0.00% of 15
+
+Function 'parse_volume'
+Lines executed:0.00% of 6
+
+Function 'parse_block_def'
+Lines executed:0.00% of 16
+
+Function 'parse_wave_def'
+Lines executed:0.00% of 3
+
+Function 'parse_time_sequence'
+Lines executed:0.00% of 36
+
+Function 'parse_fade'
+Lines executed:0.00% of 10
+
+Function 'parse_timestamp'
+Lines executed:0.00% of 24
+
+Function 'parse_options'
+Lines executed:0.00% of 81
+
+Function 'parse_optarg'
+Lines executed:0.00% of 4
+
+Function 'parse_preprogrammed'
+Lines executed:0.00% of 3
+
+Function 'parse_immediate'
+Lines executed:0.00% of 3
+
+Function 'lex_name'
+Lines executed:0.00% of 8
+
+Function 'lex_wsword'
+Lines executed:0.00% of 8
+
+Function 'lex_line_end'
+Lines executed:0.00% of 10
+
+Function 'lex_fixed'
+Lines executed:0.00% of 4
+
+Function 'lex_double'
+Lines executed:0.00% of 9
+
+Function 'scale_double'
+Lines executed:0.00% of 8
+
+Function 'str_to_time'
+Lines executed:0.00% of 22
+
+Function 'alloc_array_elem'
+Lines executed:0.00% of 14
+
+File 'libavformat/sbgdec.c'
+Lines executed:0.00% of 807
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sbgdec.gcno##libavformat#sbgdec.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sbgdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sbgdec.gcno##libavutil#bprint.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sbgdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sbgdec.gcno##libavutil#avutil.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sbgdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 825

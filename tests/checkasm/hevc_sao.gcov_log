@@ -1,0 +1,30 @@
+Function 'checkasm_check_hevc_sao'
+Lines executed:100.00% of 13
+
+Function 'check_sao_edge'
+Lines executed:83.78% of 37
+
+Function 'check_sao_band'
+Lines executed:100.00% of 25
+
+File 'tests/checkasm/hevc_sao.c'
+Lines executed:100.00% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_sao.gcno##tests#checkasm#hevc_sao.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_sao.gcno##libavutil#lfg.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_sao.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_sao.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#hevc_sao.gcno##libavutil#emms.h.gcov'
+
+Lines executed:92.00% of 75

@@ -1,0 +1,32 @@
+Function 'lxf_read_packet'
+Lines executed:0.00% of 21
+
+Function 'lxf_read_header'
+Lines executed:0.00% of 37
+
+Function 'get_packet_header'
+Lines executed:0.00% of 84
+
+Function 'lxf_sync'
+Lines executed:0.00% of 15
+
+Function 'lxf_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/lxfdec.c'
+Lines executed:0.00% of 149
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lxfdec.gcno##libavformat#lxfdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lxfdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lxfdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#lxfdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 160

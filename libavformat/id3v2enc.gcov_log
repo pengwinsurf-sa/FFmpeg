@@ -1,0 +1,64 @@
+Function 'ff_id3v2_write_simple'
+Lines executed:0.00% of 7
+
+Function 'ff_id3v2_finish'
+Lines executed:0.00% of 17
+
+Function 'ff_id3v2_write_apic'
+Lines executed:0.00% of 48
+
+Function 'ff_id3v2_write_metadata'
+Lines executed:0.00% of 9
+
+Function 'write_chapter'
+Lines executed:0.00% of 29
+
+Function 'write_ctoc'
+Lines executed:0.00% of 21
+
+Function 'write_metadata'
+Lines executed:0.00% of 23
+
+Function 'ff_id3v2_start'
+Lines executed:0.00% of 8
+
+Function 'id3v2_3_metadata_split_date'
+Lines executed:0.00% of 29
+
+Function 'id3v2_check_write_tag'
+Lines executed:0.00% of 10
+
+Function 'id3v2_put_priv'
+Lines executed:0.00% of 35
+
+Function 'id3v2_put_ttag'
+Lines executed:0.00% of 21
+
+Function 'id3v2_put_size'
+Lines executed:0.00% of 6
+
+File 'libavformat/id3v2enc.c'
+Lines executed:0.00% of 245
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2enc.gcno##libavformat#id3v2enc.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2enc.gcno##libavutil#common.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2enc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2enc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2enc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#id3v2enc.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 263

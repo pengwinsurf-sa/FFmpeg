@@ -1,0 +1,12 @@
+Function 'cook_parse'
+Lines executed:0.00% of 12
+
+File 'libavcodec/cook_parser.c'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cook_parser.gcno##libavcodec#cook_parser.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cook_parser.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 12

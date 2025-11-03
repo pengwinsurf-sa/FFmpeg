@@ -1,0 +1,66 @@
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'filter_frame'
+Lines executed:0.00% of 29
+
+Function 'config_input'
+Lines executed:0.00% of 28
+
+Function 'filter_noinverse_dblp_clip'
+Lines executed:0.00% of 3
+
+Function 'filter_noinverse_dblp_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_dblp_clip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_dblp_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_noinverse_dbl_clip'
+Lines executed:0.00% of 1
+
+Function 'filter_noinverse_dbl_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_dbl_clip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_dbl_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_noinverse_fltp_clip'
+Lines executed:0.00% of 3
+
+Function 'filter_noinverse_fltp_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_fltp_clip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_fltp_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_noinverse_flt_clip'
+Lines executed:0.00% of 1
+
+Function 'filter_noinverse_flt_noclip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_flt_clip'
+Lines executed:0.00% of 1
+
+Function 'filter_inverse_flt_noclip'
+Lines executed:0.00% of 1
+
+File 'libavfilter/af_crystalizer.c'
+Lines executed:0.00% of 77
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_crystalizer.gcno##libavfilter#af_crystalizer.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_crystalizer.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 81

@@ -1,0 +1,15 @@
+Function 'speex_packet'
+Lines executed:0.00% of 24
+
+Function 'speex_header'
+Lines executed:0.00% of 47
+
+File 'libavformat/oggparsespeex.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsespeex.gcno##libavformat#oggparsespeex.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#oggparsespeex.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 71

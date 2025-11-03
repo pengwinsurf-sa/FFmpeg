@@ -1,0 +1,43 @@
+Function 'ff_jpeg2000_decode_htj2k'
+Lines executed:0.00% of 456
+
+Function 'jpeg2000_decode_magref_segment'
+Lines executed:0.00% of 44
+
+Function 'jpeg2000_decode_sigprop_segment'
+Lines executed:0.00% of 27
+
+Function 'jpeg2000_process_stripes_block'
+Lines executed:0.00% of 42
+
+Function 'jpeg2000_calc_mbr'
+Lines executed:0.00% of 13
+
+Function 'jpeg2000_decode_sig_emb'
+Lines executed:0.00% of 28
+
+Function 'jpeg2000_decode_mel_sym'
+Lines executed:0.00% of 21
+
+Function 'jpeg2000_import_bit'
+Lines executed:0.00% of 9
+
+Function 'jpeg2000_init_vlc'
+Lines executed:0.00% of 10
+
+Function 'jpeg2000_bitbuf_refill_backwards'
+Lines executed:0.00% of 36
+
+File 'libavcodec/jpeg2000htdec.c'
+Lines executed:0.00% of 682
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000htdec.gcno##libavcodec#jpeg2000htdec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000htdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/jpeg2000.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#jpeg2000htdec.gcno##libavcodec#jpeg2000.h.gcov'
+
+Lines executed:0.00% of 686

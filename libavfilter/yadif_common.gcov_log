@@ -1,0 +1,27 @@
+Function 'ff_yadif_uninit'
+Lines executed:0.00% of 7
+
+Function 'ff_yadif_config_output_common'
+Lines executed:0.00% of 25
+
+Function 'ff_yadif_request_frame'
+Lines executed:0.00% of 17
+
+Function 'ff_yadif_filter_frame'
+Lines executed:0.00% of 54
+
+Function 'fixstride'
+Lines executed:0.00% of 13
+
+Function 'return_frame'
+Lines executed:0.00% of 29
+
+File 'libavfilter/yadif_common.c'
+Lines executed:0.00% of 143
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#yadif_common.gcno##libavfilter#yadif_common.c.gcov'
+
+File 'libavutil/imgutils.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#yadif_common.gcno##libavutil#imgutils.h.gcov'
+
+Lines executed:0.00% of 145

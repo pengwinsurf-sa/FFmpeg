@@ -1,0 +1,150 @@
+Function 'uninit'
+Lines executed:0.00% of 14
+
+Function 'init'
+Lines executed:0.00% of 19
+
+Function 'config_video'
+Lines executed:0.00% of 13
+
+Function 'filter_frame'
+Lines executed:0.00% of 35
+
+Function 'config_output'
+Lines executed:0.00% of 79
+
+Function 'draw_response'
+Lines executed:0.00% of 95
+
+Function 'get_response'
+Lines executed:0.00% of 31
+
+Function 'draw_line'
+Lines executed:0.00% of 15
+
+Function 'drawtext'
+Lines executed:0.00% of 15
+
+Function 'check_stability'
+Lines executed:0.00% of 11
+
+Function 'convert_pd2zp'
+Lines executed:0.00% of 17
+
+Function 'convert_sf2tf'
+Lines executed:0.00% of 21
+
+Function 'coef_sf2zf'
+Lines executed:0.00% of 13
+
+Function 'fact'
+No executable lines
+
+Function 'convert_sp2zp'
+Lines executed:0.00% of 17
+
+Function 'convert_pr2zp'
+Lines executed:0.00% of 17
+
+Function 'convert_serial2parallel'
+Lines executed:0.00% of 48
+
+Function 'solve'
+Lines executed:0.00% of 21
+
+Function 'decompose_zp2biquads'
+Lines executed:0.00% of 91
+
+Function 'convert_zp2tf'
+Lines executed:0.00% of 29
+
+Function 'normalize_coeffs'
+Lines executed:0.00% of 13
+
+Function 'expand'
+Lines executed:0.00% of 16
+
+Function 'read_channels'
+Lines executed:0.00% of 33
+
+Function 'read_zp_coefficients'
+Lines executed:0.00% of 14
+
+Function 'read_tf_coefficients'
+Lines executed:0.00% of 14
+
+Function 'read_gains'
+Lines executed:0.00% of 20
+
+Function 'iir_ch_lattice_dblp'
+Lines executed:0.00% of 3
+
+Function 'iir_ch_lattice_fltp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_lattice_s32p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_lattice_s16p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_parallel_dblp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_parallel_fltp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_parallel_s32p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_parallel_s16p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_serial_dblp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_serial_fltp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_serial_s32p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_serial_s16p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_dblp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_fltp'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_s32p'
+Lines executed:0.00% of 1
+
+Function 'iir_ch_s16p'
+Lines executed:0.00% of 1
+
+Function 'query_formats'
+Lines executed:0.00% of 12
+
+File 'libavfilter/af_aiir.c'
+Lines executed:0.00% of 727
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aiir.gcno##libavfilter#af_aiir.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aiir.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aiir.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aiir.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aiir.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 741

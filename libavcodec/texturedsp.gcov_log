@@ -1,0 +1,88 @@
+Function 'ff_texturedsp_exec_decompress_threads'
+Lines executed:0.00% of 2
+
+Function 'exec_func'
+Lines executed:0.00% of 20
+
+Function 'ff_texturedsp_init'
+Lines executed:0.00% of 17
+
+Function 'dxn3dc_block'
+Lines executed:0.00% of 8
+
+Function 'rgtc2u_block'
+Lines executed:0.00% of 3
+
+Function 'rgtc2s_block'
+Lines executed:0.00% of 3
+
+Function 'rgtc2_block_internal'
+Lines executed:0.00% of 20
+
+Function 'rgtc1u_gray_block'
+Lines executed:0.00% of 3
+
+Function 'rgtc1u_alpha_block'
+Lines executed:0.00% of 3
+
+Function 'rgtc1u_block'
+Lines executed:0.00% of 3
+
+Function 'rgtc1s_block'
+Lines executed:0.00% of 3
+
+Function 'rgtc1_block_internal'
+Lines executed:0.00% of 25
+
+Function 'rgtc_block_internal'
+Lines executed:0.00% of 13
+
+Function 'dxt5ys_block'
+Lines executed:0.00% of 23
+
+Function 'dxt5y_block'
+Lines executed:0.00% of 7
+
+Function 'dxt5_block'
+Lines executed:0.00% of 3
+
+Function 'dxt4_block'
+Lines executed:0.00% of 16
+
+Function 'dxt5_block_internal'
+Lines executed:0.00% of 51
+
+Function 'decompress_indices'
+Lines executed:0.00% of 9
+
+Function 'dxt3_block'
+Lines executed:0.00% of 3
+
+Function 'dxt2_block'
+Lines executed:0.00% of 7
+
+Function 'dxt3_block_internal'
+Lines executed:0.00% of 21
+
+Function 'dxt1a_block'
+Lines executed:0.00% of 3
+
+Function 'dxt1_block'
+Lines executed:0.00% of 3
+
+Function 'dxt1_block_internal'
+Lines executed:0.00% of 18
+
+File 'libavcodec/texturedsp_template.c'
+Lines executed:0.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedsp.gcno##libavcodec#texturedsp_template.c.gcov'
+
+File 'libavcodec/texturedsp.c'
+Lines executed:0.00% of 262
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedsp.gcno##libavcodec#texturedsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#texturedsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 287

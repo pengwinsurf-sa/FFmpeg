@@ -1,0 +1,65 @@
+Function 'dv_probe'
+Lines executed:0.00% of 27
+
+Function 'dv_read_seek'
+Lines executed:0.00% of 10
+
+Function 'dv_read_packet'
+Lines executed:0.00% of 15
+
+Function 'dv_read_header'
+Lines executed:0.00% of 30
+
+Function 'dv_read_timecode'
+Lines executed:0.00% of 19
+
+Function 'ff_dv_ts_reset'
+Lines executed:0.00% of 9
+
+Function 'dv_frame_offset'
+Lines executed:0.00% of 12
+
+Function 'avpriv_dv_produce_packet'
+Lines executed:0.00% of 43
+
+Function 'avpriv_dv_get_packet'
+Lines executed:0.00% of 19
+
+Function 'avpriv_dv_init_demux'
+Lines executed:0.00% of 7
+
+Function 'dv_init_demux'
+Lines executed:0.00% of 10
+
+Function 'dv_extract_timecode'
+Lines executed:0.00% of 15
+
+Function 'dv_extract_video_info'
+Lines executed:0.00% of 19
+
+Function 'dv_extract_audio_info'
+Lines executed:0.00% of 48
+
+Function 'dv_extract_audio'
+Lines executed:0.00% of 57
+
+Function 'dv_audio_12to16'
+Lines executed:0.00% of 11
+
+File 'libavformat/dv.c'
+Lines executed:0.00% of 344
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dv.gcno##libavformat#dv.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dv.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dv.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dv.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 351

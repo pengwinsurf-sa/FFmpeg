@@ -1,0 +1,105 @@
+Function 'svq3_decode_end'
+Lines executed:0.00% of 11
+
+Function 'svq3_decode_frame'
+Lines executed:0.00% of 131
+
+Function 'alloc_dummy_frame'
+Lines executed:0.00% of 13
+
+Function 'get_buffer'
+Lines executed:0.00% of 8
+
+Function 'svq3_decode_init'
+Lines executed:0.00% of 65
+
+Function 'svq3_decode_extradata'
+Lines executed:0.00% of 98
+
+Function 'init_dequant4_coeff_table'
+Lines executed:0.00% of 10
+
+Function 'svq3_decode_slice_header'
+Lines executed:0.00% of 72
+
+Function 'svq3_decode_mb'
+Lines executed:0.00% of 173
+
+Function 'hl_decode_mb'
+Lines executed:0.00% of 60
+
+Function 'svq3_mc_dir'
+Lines executed:0.00% of 149
+
+Function 'svq3_mc_dir_part'
+Lines executed:0.00% of 44
+
+Function 'svq3_decode_block'
+Lines executed:0.00% of 29
+
+Function 'svq3_add_idct_c'
+Lines executed:0.00% of 31
+
+Function 'svq3_luma_dc_dequant_idct_c'
+Lines executed:0.00% of 25
+
+Function 'get_interleaved_se_golomb'
+Lines executed:0.00% of 20
+
+Function 'get_interleaved_ue_golomb'
+Lines executed:0.00% of 23
+
+Function 'skip_1stop_8data_bits'
+Lines executed:0.00% of 5
+
+Function 'show_bits'
+Lines executed:0.00% of 14
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/svq3.c'
+Lines executed:0.00% of 813
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavcodec#svq3.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 62
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/h264_parse.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavcodec#h264_parse.h.gcov'
+
+File 'libavcodec/rectangle.h'
+Lines executed:0.00% of 38
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavcodec#rectangle.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#svq3.gcno##libavcodec#golomb.h.gcov'
+
+Lines executed:0.00% of 991

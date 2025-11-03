@@ -1,0 +1,27 @@
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'print_stats'
+Lines executed:0.00% of 25
+
+Function 'filter_frame'
+Lines executed:0.00% of 15
+
+Function 'update_stat'
+Lines executed:0.00% of 7
+
+Function 'finish_block'
+Lines executed:0.00% of 17
+
+Function 'config_output'
+Lines executed:0.00% of 7
+
+File 'libavfilter/af_drmeter.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_drmeter.gcno##libavfilter#af_drmeter.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_drmeter.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 77

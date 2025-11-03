@@ -1,0 +1,11 @@
+Function 'ff_scale_adjust_dimensions'
+Lines executed:0.00% of 36
+
+Function 'ff_scale_eval_dimensions'
+Lines executed:0.00% of 33
+
+File 'libavfilter/scale_eval.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#scale_eval.gcno##libavfilter#scale_eval.c.gcov'
+
+Lines executed:0.00% of 69

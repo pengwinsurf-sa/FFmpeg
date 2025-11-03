@@ -1,0 +1,25 @@
+Function 'eightsvx_decode_close'
+Lines executed:0.00% of 7
+
+Function 'eightsvx_decode_init'
+Lines executed:0.00% of 12
+
+Function 'eightsvx_decode_frame'
+Lines executed:0.00% of 42
+
+Function 'delta_decode'
+Lines executed:0.00% of 13
+
+File 'libavcodec/8svx.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#8svx.gcno##libavcodec#8svx.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#8svx.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#8svx.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 74

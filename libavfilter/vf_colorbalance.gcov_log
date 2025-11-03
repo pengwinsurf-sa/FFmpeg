@@ -1,0 +1,36 @@
+Function 'filter_frame'
+Lines executed:0.00% of 20
+
+Function 'config_output'
+Lines executed:0.00% of 19
+
+Function 'color_balance16'
+Lines executed:0.00% of 40
+
+Function 'color_balance8'
+Lines executed:0.00% of 40
+
+Function 'color_balance16_p'
+Lines executed:0.00% of 43
+
+Function 'color_balance8_p'
+Lines executed:0.00% of 42
+
+Function 'preservel'
+Lines executed:0.00% of 20
+
+Function 'hfun'
+Lines executed:0.00% of 6
+
+Function 'get_component'
+Lines executed:0.00% of 9
+
+File 'libavfilter/vf_colorbalance.c'
+Lines executed:0.00% of 232
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorbalance.gcno##libavfilter#vf_colorbalance.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colorbalance.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 239

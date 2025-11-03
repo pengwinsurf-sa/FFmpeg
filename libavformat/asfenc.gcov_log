@@ -1,0 +1,64 @@
+Function 'asf_deinit'
+Lines executed:0.00% of 4
+
+Function 'asf_write_trailer'
+Lines executed:0.00% of 17
+
+Function 'asf_write_index'
+Lines executed:0.00% of 12
+
+Function 'asf_write_packet'
+Lines executed:0.00% of 34
+
+Function 'update_index'
+Lines executed:0.00% of 24
+
+Function 'put_frame'
+Lines executed:0.00% of 44
+
+Function 'put_payload_header'
+Lines executed:0.00% of 16
+
+Function 'flush_packet'
+Lines executed:0.00% of 22
+
+Function 'put_payload_parsing_info'
+Lines executed:0.00% of 30
+
+Function 'asf_write_stream_header'
+Lines executed:0.00% of 4
+
+Function 'asf_write_header'
+Lines executed:0.00% of 20
+
+Function 'asf_write_header1'
+Lines executed:0.00% of 282
+
+Function 'asf_write_markers'
+Lines executed:0.00% of 39
+
+Function 'put_chunk'
+Lines executed:0.00% of 12
+
+Function 'end_header'
+Lines executed:0.00% of 7
+
+Function 'put_header'
+Lines executed:0.00% of 6
+
+Function 'put_str16'
+Lines executed:0.00% of 9
+
+File 'libavformat/asfenc.c'
+Lines executed:0.00% of 578
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfenc.gcno##libavformat#asfenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfenc.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asfenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 582

@@ -1,0 +1,15 @@
+Function 'afc_read_packet'
+Lines executed:0.00% of 11
+
+Function 'afc_read_header'
+Lines executed:0.00% of 17
+
+File 'libavformat/afc.c'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#afc.gcno##libavformat#afc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#afc.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 28

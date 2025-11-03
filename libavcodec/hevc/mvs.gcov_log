@@ -1,0 +1,40 @@
+Function 'ff_hevc_luma_mv_mvp_mode'
+Lines executed:0.00% of 130
+
+Function 'mv_mp_mode_mx_lt'
+Lines executed:0.00% of 43
+
+Function 'mv_mp_mode_mx'
+Lines executed:0.00% of 8
+
+Function 'ff_hevc_luma_mv_merge_mode'
+Lines executed:0.00% of 22
+
+Function 'derive_spatial_merge_candidates'
+Lines executed:0.00% of 130
+
+Function 'temporal_luma_motion_vector'
+Lines executed:0.00% of 40
+
+Function 'derive_temporal_colocated_mvs'
+Lines executed:0.00% of 20
+
+Function 'check_mvset'
+Lines executed:0.00% of 14
+
+Function 'ff_hevc_set_neighbour_available'
+Lines executed:0.00% of 15
+
+File 'libavcodec/hevc/mvs.c'
+Lines executed:0.00% of 409
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#mvs.gcno##libavcodec#hevc#mvs.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#mvs.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#mvs.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 422

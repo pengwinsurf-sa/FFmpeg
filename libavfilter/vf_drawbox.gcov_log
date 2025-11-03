@@ -1,0 +1,43 @@
+Function 'drawgrid_filter_frame'
+Lines executed:0.00% of 4
+
+Function 'pixel_belongs_to_grid'
+Lines executed:0.00% of 13
+
+Function 'process_command'
+Lines executed:0.00% of 24
+
+Function 'filter_frame'
+Lines executed:0.00% of 27
+
+Function 'pixel_belongs_to_box'
+Lines executed:0.00% of 3
+
+Function 'config_input'
+Lines executed:0.00% of 66
+
+Function 'init'
+Lines executed:0.00% of 15
+
+Function 'box_source_string_parse'
+Lines executed:0.00% of 4
+
+Function 'draw_region_rgb_packed'
+Lines executed:0.00% of 33
+
+Function 'draw_region'
+Lines executed:0.00% of 29
+
+File 'libavfilter/vf_drawbox.c'
+Lines executed:0.00% of 212
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_drawbox.gcno##libavfilter#vf_drawbox.c.gcov'
+
+File 'libavutil/detection_bbox.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_drawbox.gcno##libavutil#detection_bbox.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_drawbox.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 218

@@ -1,0 +1,26 @@
+Function 'ff_lut3d_init_x86'
+Lines executed:0.00% of 21
+
+Function 'interp_tetrahedral_p16_sse2'
+Lines executed:0.00% of 1
+
+Function 'interp_tetrahedral_pf32_sse2'
+Lines executed:0.00% of 1
+
+Function 'interp_tetrahedral_p16_avx'
+Lines executed:0.00% of 1
+
+Function 'interp_tetrahedral_pf32_avx'
+Lines executed:0.00% of 1
+
+Function 'interp_tetrahedral_p16_avx2'
+Lines executed:0.00% of 1
+
+Function 'interp_tetrahedral_pf32_avx2'
+Lines executed:0.00% of 1
+
+File 'libavfilter/x86/vf_lut3d_init.c'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_lut3d_init.gcno##libavfilter#x86#vf_lut3d_init.c.gcov'
+
+Lines executed:0.00% of 27

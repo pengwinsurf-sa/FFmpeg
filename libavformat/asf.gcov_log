@@ -1,0 +1,14 @@
+Function 'ff_asf_handle_byte_array'
+Lines executed:0.00% of 5
+
+Function 'get_id3_tag'
+Lines executed:0.00% of 8
+
+Function 'asf_read_picture'
+Lines executed:0.00% of 45
+
+File 'libavformat/asf.c'
+Lines executed:0.00% of 58
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#asf.gcno##libavformat#asf.c.gcov'
+
+Lines executed:0.00% of 58

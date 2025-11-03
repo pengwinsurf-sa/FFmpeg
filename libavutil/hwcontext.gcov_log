@@ -1,0 +1,77 @@
+Function 'ff_hwframe_map_replace'
+Lines executed:0.00% of 3
+
+Function 'av_hwframe_ctx_create_derived'
+Lines executed:0.00% of 46
+
+Function 'av_hwframe_map'
+Lines executed:0.00% of 41
+
+Function 'ff_hwframe_map_create'
+Lines executed:0.00% of 30
+
+Function 'ff_hwframe_unmap'
+Lines executed:0.00% of 9
+
+Function 'av_hwdevice_ctx_create_derived'
+Lines executed:0.00% of 2
+
+Function 'av_hwdevice_ctx_create_derived_opts'
+Lines executed:0.00% of 45
+
+Function 'av_hwdevice_ctx_create'
+Lines executed:0.00% of 24
+
+Function 'av_hwframe_constraints_free'
+Lines executed:0.00% of 6
+
+Function 'av_hwdevice_get_hwframe_constraints'
+Lines executed:0.00% of 13
+
+Function 'av_hwdevice_hwconfig_alloc'
+Lines executed:0.00% of 5
+
+Function 'av_hwframe_get_buffer'
+Lines executed:0.00% of 32
+
+Function 'av_hwframe_transfer_data'
+Lines executed:0.00% of 25
+
+Function 'transfer_data_alloc'
+Lines executed:0.00% of 30
+
+Function 'av_hwframe_transfer_get_formats'
+Lines executed:0.00% of 4
+
+Function 'av_hwframe_ctx_init'
+Lines executed:0.00% of 22
+
+Function 'hwframe_pool_prealloc'
+Lines executed:0.00% of 18
+
+Function 'av_hwframe_ctx_alloc'
+Lines executed:0.00% of 31
+
+Function 'hwframe_ctx_free'
+Lines executed:0.00% of 14
+
+Function 'av_hwdevice_ctx_init'
+Lines executed:0.00% of 7
+
+Function 'av_hwdevice_ctx_alloc'
+Lines executed:0.00% of 9
+
+Function 'av_hwdevice_iterate_types'
+Lines executed:0.00% of 5
+
+Function 'av_hwdevice_get_type_name'
+Lines executed:0.00% of 3
+
+Function 'av_hwdevice_find_type_by_name'
+Lines executed:0.00% of 5
+
+File 'libavutil/hwcontext.c'
+Lines executed:0.00% of 429
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hwcontext.gcno##libavutil#hwcontext.c.gcov'
+
+Lines executed:0.00% of 429

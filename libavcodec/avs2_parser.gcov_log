@@ -1,0 +1,32 @@
+Function 'avs2_parse'
+Lines executed:0.00% of 14
+
+Function 'parse_avs2_units'
+Lines executed:0.00% of 20
+
+Function 'parse_avs2_seq_header'
+Lines executed:0.00% of 62
+
+Function 'avs2_find_frame_end'
+Lines executed:0.00% of 22
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/avs2_parser.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avs2_parser.gcno##libavcodec#avs2_parser.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avs2_parser.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avs2_parser.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#avs2_parser.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 137

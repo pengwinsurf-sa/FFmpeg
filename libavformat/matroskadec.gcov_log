@@ -1,0 +1,224 @@
+Function 'webm_dash_manifest_read_packet'
+Lines executed:0.00% of 2
+
+Function 'webm_dash_manifest_read_header'
+Lines executed:0.00% of 31
+
+Function 'webm_dash_manifest_cues'
+Lines executed:0.00% of 49
+
+Function 'webm_dash_manifest_compute_bandwidth'
+Lines executed:0.00% of 60
+
+Function 'buffer_size_after_time_downloaded'
+Lines executed:0.00% of 43
+
+Function 'webm_clusters_start_with_keyframe'
+Lines executed:0.00% of 32
+
+Function 'get_cue_desc'
+Lines executed:0.00% of 23
+
+Function 'matroska_read_close'
+Lines executed:0.00% of 10
+
+Function 'matroska_read_seek'
+Lines executed:0.00% of 47
+
+Function 'matroska_read_packet'
+Lines executed:0.00% of 10
+
+Function 'matroska_parse_cluster'
+Lines executed:0.00% of 29
+
+Function 'matroska_parse_block'
+Lines executed:0.00% of 93
+
+Function 'matroska_parse_frame'
+Lines executed:0.00% of 71
+
+Function 'matroska_parse_block_additional'
+Lines executed:0.00% of 53
+
+Function 'matroska_parse_webvtt'
+Lines executed:0.00% of 58
+
+Function 'matroska_parse_prores'
+Lines executed:0.00% of 12
+
+Function 'matroska_parse_wavpack'
+Lines executed:0.00% of 60
+
+Function 'matroska_parse_rm_audio'
+Lines executed:0.00% of 51
+
+Function 'matroska_parse_laces'
+Lines executed:0.00% of 57
+
+Function 'matroska_deliver_packet'
+Lines executed:0.00% of 13
+
+Function 'matroska_read_header'
+Lines executed:0.00% of 106
+
+Function 'matroska_parse_tracks'
+Lines executed:0.00% of 121
+
+Function 'mkv_parse_subtitle_codec'
+Lines executed:0.00% of 24
+
+Function 'mkv_parse_video'
+Lines executed:0.00% of 81
+
+Function 'mkv_parse_video_codec'
+Lines executed:0.00% of 47
+
+Function 'mka_parse_audio'
+Lines executed:0.00% of 27
+
+Function 'mka_parse_audio_codec'
+Lines executed:0.00% of 157
+
+Function 'get_qt_codec'
+Lines executed:0.00% of 17
+
+Function 'mkv_parse_block_addition_mappings'
+Lines executed:0.00% of 31
+
+Function 'mkv_parse_video_projection'
+Lines executed:0.00% of 59
+
+Function 'mkv_create_display_matrix'
+Lines executed:0.00% of 17
+
+Function 'mkv_parse_video_color'
+Lines executed:0.00% of 61
+
+Function 'mkv_stereo3d_conv'
+Lines executed:0.00% of 11
+
+Function 'mkv_field_order'
+Lines executed:0.00% of 13
+
+Function 'matroska_parse_flac'
+Lines executed:0.00% of 40
+
+Function 'matroska_aac_profile'
+Lines executed:0.00% of 6
+
+Function 'matroska_parse_content_encodings'
+Lines executed:0.00% of 41
+
+Function 'matroska_parse_cues'
+Lines executed:0.00% of 11
+
+Function 'matroska_add_index_entries'
+Lines executed:0.00% of 22
+
+Function 'matroska_execute_seekhead'
+Lines executed:0.00% of 21
+
+Function 'matroska_parse_seekhead_entry'
+Lines executed:0.00% of 19
+
+Function 'matroska_convert_tags'
+Lines executed:0.00% of 37
+
+Function 'matroska_convert_tag'
+Lines executed:0.00% of 25
+
+Function 'matroska_decode_buffer'
+Lines executed:0.00% of 73
+
+Function 'matroska_find_track_by_num'
+Lines executed:0.00% of 8
+
+Function 'matroska_probe'
+Lines executed:0.00% of 21
+
+Function 'ebml_free'
+Lines executed:0.00% of 23
+
+Function 'ebml_parse'
+Lines executed:0.00% of 170
+
+Function 'matroska_find_level1_elem'
+Lines executed:0.00% of 19
+
+Function 'ebml_parse_nest'
+Lines executed:0.00% of 26
+
+Function 'matroska_ebmlnum_sint'
+Lines executed:0.00% of 6
+
+Function 'ebml_read_master'
+Lines executed:0.00% of 9
+
+Function 'ebml_read_binary'
+Lines executed:0.00% of 13
+
+Function 'ebml_read_ascii'
+Lines executed:0.00% of 14
+
+Function 'ebml_read_float'
+Lines executed:0.00% of 16
+
+Function 'ebml_read_sint'
+Lines executed:0.00% of 8
+
+Function 'ebml_read_length'
+Lines executed:0.00% of 5
+
+Function 'ebml_read_num'
+Lines executed:0.00% of 30
+
+Function 'matroska_resync'
+Lines executed:0.00% of 18
+
+Function 'matroska_reset_status'
+Lines executed:0.00% of 13
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/matroskadec.c'
+Lines executed:0.00% of 2225
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavformat#matroskadec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavutil#bprint.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/flac.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavcodec#flac.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskadec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 2272

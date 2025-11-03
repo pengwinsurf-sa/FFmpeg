@@ -1,0 +1,28 @@
+Function 'dovi_rpu_close'
+Lines executed:0.00% of 6
+
+Function 'dovi_rpu_init'
+Lines executed:0.00% of 33
+
+Function 'dovi_rpu_update_fragment_av1'
+Lines executed:0.00% of 36
+
+Function 'dovi_rpu_update_fragment_hevc'
+Lines executed:0.00% of 31
+
+Function 'update_rpu'
+Lines executed:0.00% of 22
+
+File 'libavcodec/bsf/dovi_rpu.c'
+Lines executed:0.00% of 123
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dovi_rpu.gcno##libavcodec#bsf#dovi_rpu.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dovi_rpu.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#dovi_rpu.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 128

@@ -1,0 +1,64 @@
+Function 'main'
+Lines executed:0.00% of 55
+
+Function 'write_output_file_trailer'
+Lines executed:0.00% of 9
+
+Function 'load_encode_and_write'
+Lines executed:0.00% of 14
+
+Function 'encode_audio_frame'
+Lines executed:0.00% of 34
+
+Function 'init_output_frame'
+Lines executed:0.00% of 14
+
+Function 'read_decode_convert_and_store'
+Lines executed:0.00% of 28
+
+Function 'add_samples_to_fifo'
+Lines executed:0.00% of 8
+
+Function 'convert_samples'
+Lines executed:0.00% of 6
+
+Function 'init_converted_samples'
+Lines executed:0.00% of 6
+
+Function 'decode_audio_frame'
+Lines executed:0.00% of 34
+
+Function 'write_output_file_header'
+Lines executed:0.00% of 6
+
+Function 'init_fifo'
+Lines executed:0.00% of 4
+
+Function 'init_resampler'
+Lines executed:0.00% of 13
+
+Function 'init_input_frame'
+Lines executed:0.00% of 4
+
+Function 'init_packet'
+Lines executed:0.00% of 4
+
+Function 'open_output_file'
+Lines executed:0.00% of 57
+
+Function 'open_input_file'
+Lines executed:0.00% of 43
+
+File 'doc/examples/transcode_aac.c'
+Lines executed:0.00% of 334
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode_aac.gcno##doc#examples#transcode_aac.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode_aac.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#transcode_aac.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 339

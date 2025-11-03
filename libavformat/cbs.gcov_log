@@ -1,0 +1,133 @@
+Function 'ff_lavf_cbs_discard_units'
+Lines executed:0.00% of 8
+
+Function 'ff_lavf_cbs_make_unit_writable'
+Lines executed:0.00% of 9
+
+Function 'ff_lavf_cbs_make_unit_refcounted'
+Lines executed:0.00% of 4
+
+Function 'cbs_clone_unit_content'
+Lines executed:0.00% of 19
+
+Function 'cbs_clone_noncomplex_unit_content'
+Lines executed:0.00% of 34
+
+Function 'ff_lavf_cbs_alloc_unit_content'
+Lines executed:0.00% of 9
+
+Function 'cbs_alloc_content'
+Lines executed:0.00% of 4
+
+Function 'cbs_find_unit_type_desc'
+Lines executed:0.00% of 14
+
+Function 'cbs_default_free_unit_content'
+Lines executed:0.00% of 6
+
+Function 'ff_lavf_cbs_delete_unit'
+Lines executed:0.00% of 18
+
+Function 'ff_lavf_cbs_append_unit_data'
+Lines executed:0.00% of 2
+
+Function 'cbs_insert_unit_data'
+Lines executed:0.00% of 22
+
+Function 'ff_lavf_cbs_insert_unit_content'
+Lines executed:0.00% of 15
+
+Function 'cbs_insert_unit'
+Lines executed:0.00% of 22
+
+Function 'ff_lavf_cbs_read_signed'
+Lines executed:0.00% of 25
+
+Function 'ff_lavf_cbs_read_simple_unsigned'
+Lines executed:0.00% of 14
+
+Function 'ff_lavf_cbs_read_unsigned'
+Lines executed:0.00% of 4
+
+Function 'ff_lavf_cbs_trace_write_log'
+Lines executed:0.00% of 2
+
+Function 'ff_lavf_cbs_trace_read_log'
+Lines executed:0.00% of 2
+
+Function 'ff_lavf_cbs_trace_header'
+Lines executed:0.00% of 2
+
+Function 'ff_lavf_cbs_read'
+Lines executed:0.00% of 2
+
+Function 'ff_lavf_cbs_read_packet_side_data'
+Lines executed:0.00% of 5
+
+Function 'ff_lavf_cbs_read_packet'
+Lines executed:0.00% of 3
+
+Function 'ff_lavf_cbs_read_extradata_from_codec'
+Lines executed:0.00% of 4
+
+Function 'ff_lavf_cbs_read_extradata'
+Lines executed:0.00% of 4
+
+Function 'cbs_read_data'
+Lines executed:0.00% of 12
+
+Function 'cbs_fill_fragment_data'
+Lines executed:0.00% of 10
+
+Function 'cbs_read_fragment_content'
+Lines executed:0.00% of 22
+
+Function 'ff_lavf_cbs_fragment_free'
+Lines executed:0.00% of 5
+
+Function 'ff_lavf_cbs_fragment_reset'
+Lines executed:0.00% of 10
+
+Function 'ff_lavf_cbs_close'
+Lines executed:0.00% of 10
+
+Function 'ff_lavf_cbs_flush'
+Lines executed:0.00% of 4
+
+Function 'ff_lavf_cbs_init'
+Lines executed:0.00% of 26
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 12
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/cbs.c'
+Lines executed:0.00% of 335
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs.gcno##libavcodec#cbs.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cbs.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 386

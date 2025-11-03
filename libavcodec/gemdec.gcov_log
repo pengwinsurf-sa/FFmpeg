@@ -1,0 +1,29 @@
+Function 'gem_close'
+Lines executed:0.00% of 3
+
+Function 'gem_decode_frame'
+Lines executed:0.00% of 191
+
+Function 'put_lines_bytes'
+Lines executed:0.00% of 6
+
+Function 'put_lines_bits'
+Lines executed:0.00% of 13
+
+File 'libavcodec/gemdec.c'
+Lines executed:0.00% of 197
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gemdec.gcno##libavcodec#gemdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gemdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gemdec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#gemdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 213

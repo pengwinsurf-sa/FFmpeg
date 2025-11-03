@@ -1,0 +1,32 @@
+Function 'alphamerge_child_next'
+Lines executed:0.00% of 1
+
+Function 'alphamerge_framesync_preinit'
+Lines executed:0.00% of 1
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'config_output'
+Lines executed:0.00% of 18
+
+Function 'config_input_main'
+Lines executed:0.00% of 6
+
+Function 'query_formats'
+Lines executed:0.00% of 9
+
+Function 'init'
+Lines executed:0.00% of 4
+
+Function 'do_alphamerge'
+Lines executed:0.00% of 25
+
+File 'libavfilter/vf_alphamerge.c'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_alphamerge.gcno##libavfilter#vf_alphamerge.c.gcov'
+
+Lines executed:0.00% of 72

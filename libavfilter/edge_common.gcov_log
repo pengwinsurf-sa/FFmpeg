@@ -1,0 +1,38 @@
+Function 'ff_double_threshold'
+Lines executed:0.00% of 22
+
+Function 'ff_non_maximum_suppression'
+Lines executed:0.00% of 15
+
+Function 'ff_gaussian_blur_16'
+Lines executed:0.00% of 41
+
+Function 'ff_sobel_16'
+Lines executed:0.00% of 21
+
+Function 'ff_gaussian_blur_8'
+Lines executed:0.00% of 39
+
+Function 'ff_sobel_8'
+Lines executed:0.00% of 21
+
+Function 'get_rounded_direction'
+Lines executed:0.00% of 11
+
+File 'libavfilter/edge_common.c'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#edge_common.gcno##libavfilter#edge_common.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#edge_common.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/edge_template.c'
+Lines executed:0.00% of 180
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#edge_common.gcno##libavfilter#edge_template.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#edge_common.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 230

@@ -1,0 +1,12 @@
+Function 'ff_lag_rac_init'
+Lines executed:0.00% of 30
+
+File 'libavcodec/lagarithrac.c'
+Lines executed:0.00% of 16
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarithrac.gcno##libavcodec#lagarithrac.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#lagarithrac.gcno##libavcodec#get_bits.h.gcov'
+
+Lines executed:0.00% of 30

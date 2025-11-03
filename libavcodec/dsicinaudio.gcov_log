@@ -1,0 +1,19 @@
+Function 'cinaudio_decode_frame'
+Lines executed:0.00% of 29
+
+Function 'cinaudio_decode_init'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dsicinaudio.c'
+Lines executed:0.00% of 30
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsicinaudio.gcno##libavcodec#dsicinaudio.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsicinaudio.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dsicinaudio.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 37

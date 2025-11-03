@@ -1,0 +1,14 @@
+Function 'avformat_license'
+Lines executed:0.00% of 2
+
+Function 'avformat_configuration'
+Lines executed:0.00% of 2
+
+Function 'avformat_version'
+Lines executed:0.00% of 3
+
+File 'libavformat/version.c'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#version.gcno##libavformat#version.c.gcov'
+
+Lines executed:0.00% of 7

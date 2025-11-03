@@ -1,0 +1,62 @@
+Function 'main'
+Lines executed:0.00% of 70
+
+Function 'close_stream'
+Lines executed:0.00% of 8
+
+Function 'write_video_frame'
+Lines executed:0.00% of 2
+
+Function 'get_video_frame'
+Lines executed:0.00% of 20
+
+Function 'fill_yuv_image'
+Lines executed:0.00% of 11
+
+Function 'open_video'
+Lines executed:0.00% of 25
+
+Function 'alloc_frame'
+Lines executed:0.00% of 12
+
+Function 'write_audio_frame'
+Lines executed:0.00% of 23
+
+Function 'get_audio_frame'
+Lines executed:0.00% of 16
+
+Function 'open_audio'
+Lines executed:0.00% of 37
+
+Function 'alloc_audio_frame'
+Lines executed:0.00% of 14
+
+Function 'add_stream'
+Lines executed:0.00% of 51
+
+Function 'write_frame'
+Lines executed:0.00% of 21
+
+Function 'log_packet'
+Lines executed:0.00% of 9
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'doc/examples/mux.c'
+Lines executed:0.00% of 310
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#mux.gcno##doc#examples#mux.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#mux.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#mux.gcno##libavutil#error.h.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#doc#examples#mux.gcno##libavutil#timestamp.h.gcov'
+
+Lines executed:0.00% of 325

@@ -1,0 +1,11 @@
+Function 'av_vk_frame_alloc'
+Lines executed:0.00% of 2
+
+Function 'av_vkfmt_from_pixfmt'
+Lines executed:0.00% of 2
+
+File 'libavutil/hwcontext_stub.c'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#hwcontext_stub.gcno##libavutil#hwcontext_stub.c.gcov'
+
+Lines executed:0.00% of 4

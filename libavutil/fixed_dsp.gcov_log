@@ -1,0 +1,33 @@
+Function 'avpriv_alloc_fixed_dsp'
+Lines executed:100.00% of 12
+
+Function 'butterflies_fixed_c'
+Lines executed:100.00% of 8
+
+Function 'scalarproduct_fixed_c'
+Lines executed:100.00% of 6
+
+Function 'vector_fmul_c'
+Lines executed:100.00% of 7
+
+Function 'vector_fmul_window_c'
+Lines executed:100.00% of 13
+
+Function 'vector_fmul_window_scaled_c'
+Lines executed:100.00% of 17
+
+Function 'vector_fmul_reverse_c'
+Lines executed:100.00% of 8
+
+Function 'vector_fmul_add_c'
+Lines executed:100.00% of 7
+
+File 'libavutil/fixed_dsp.c'
+Lines executed:100.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#fixed_dsp.gcno##libavutil#fixed_dsp.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#fixed_dsp.gcno##libavutil#common.h.gcov'
+
+Lines executed:100.00% of 78

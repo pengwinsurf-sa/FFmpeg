@@ -1,0 +1,119 @@
+Function 'ff_cavsdsp_init_x86'
+Lines executed:0.00% of 20
+
+Function 'avg_cavs_qpel16_mc03_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc02_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc01_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc20_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc03_mmxext'
+Lines executed:0.00% of 2
+
+Function 'avg_cavs_qpel8_mc02_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc01_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_mc20_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc03_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc02_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc01_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_mc20_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc03_mmxext'
+Lines executed:0.00% of 2
+
+Function 'put_cavs_qpel8_mc02_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc01_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_mc20_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_h_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_v3_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_v2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_v1_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8or16_v3_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8or16_v2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8or16_v1_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel8_h_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_h_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_v3_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_v2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel16_v1_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8or16_v3_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8or16_v2_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8or16_v1_mmxext'
+Lines executed:0.00% of 1
+
+Function 'put_cavs_qpel8_h_mmxext'
+Lines executed:0.00% of 1
+
+Function 'avg_cavs_qpel16_mc00_sse2'
+Lines executed:0.00% of 3
+
+Function 'put_cavs_qpel16_mc00_sse2'
+Lines executed:0.00% of 3
+
+Function 'avg_cavs_qpel8_mc00_mmxext'
+Lines executed:0.00% of 3
+
+Function 'put_cavs_qpel8_mc00_mmx'
+Lines executed:0.00% of 3
+
+Function 'cavs_idct8_add_sse2'
+Lines executed:0.00% of 5
+
+File 'libavcodec/x86/cavsdsp.c'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#cavsdsp.gcno##libavcodec#x86#cavsdsp.c.gcov'
+
+Lines executed:0.00% of 75

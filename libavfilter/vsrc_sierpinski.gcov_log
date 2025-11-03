@@ -1,0 +1,28 @@
+Function 'sierpinski_request_frame'
+Lines executed:0.00% of 9
+
+Function 'draw_sierpinski'
+Lines executed:0.00% of 23
+
+Function 'config_output'
+Lines executed:0.00% of 18
+
+Function 'draw_carpet_slice'
+Lines executed:0.00% of 22
+
+Function 'draw_triangle_slice'
+Lines executed:0.00% of 15
+
+File 'libavfilter/vsrc_sierpinski.c'
+Lines executed:0.00% of 80
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_sierpinski.gcno##libavfilter#vsrc_sierpinski.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_sierpinski.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vsrc_sierpinski.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 87

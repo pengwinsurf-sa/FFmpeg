@@ -1,0 +1,27 @@
+Function 'ff_apply_motion_8x8'
+Lines executed:0.00% of 3
+
+Function 'ff_apply_motion_4x4'
+Lines executed:0.00% of 3
+
+Function 'apply_motion_generic'
+Lines executed:0.00% of 16
+
+Function 'ff_apply_vector_4x4'
+Lines executed:0.00% of 23
+
+Function 'ff_apply_vector_2x2'
+Lines executed:0.00% of 23
+
+Function 'block_copy'
+Lines executed:0.00% of 9
+
+File 'libavcodec/roqvideo.c'
+Lines executed:0.00% of 75
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#roqvideo.gcno##libavcodec#roqvideo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#roqvideo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 77

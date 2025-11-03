@@ -36,6 +36,7 @@
 
 #include "avcodec.h"
 #include "idctdsp.h"
+#include "mathops.h"
 #include "mpegvideo.h"
 #include "msmpeg4.h"
 #include "mpeg4videodata.h"
@@ -335,4 +336,3 @@ int ff_msmpeg4_pred_dc(MpegEncContext *s, int n,
     *dc_val_ptr = &dc_val[0];
     return pred;
 }
-

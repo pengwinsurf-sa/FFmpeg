@@ -1,0 +1,129 @@
+Function 'wmavoice_decode_end'
+Lines executed:0.00% of 8
+
+Function 'wmavoice_decode_packet'
+Lines executed:0.00% of 91
+
+Function 'copy_bits'
+Lines executed:0.00% of 16
+
+Function 'parse_packet_header'
+Lines executed:0.00% of 21
+
+Function 'synth_superframe'
+Lines executed:0.00% of 76
+
+Function 'stabilize_lsps'
+Lines executed:0.00% of 15
+
+Function 'synth_frame'
+Lines executed:0.00% of 111
+
+Function 'synth_block'
+Lines executed:0.00% of 14
+
+Function 'synth_block_fcb_acb'
+Lines executed:0.00% of 81
+
+Function 'synth_block_hardcoded'
+Lines executed:0.00% of 13
+
+Function 'aw_pulse_set1'
+Lines executed:0.00% of 31
+
+Function 'aw_pulse_set2'
+Lines executed:0.00% of 48
+
+Function 'aw_parse_coords'
+Lines executed:0.00% of 21
+
+Function 'dequant_lsp16r'
+Lines executed:0.00% of 21
+
+Function 'dequant_lsp16i'
+Lines executed:0.00% of 14
+
+Function 'dequant_lsp10r'
+Lines executed:0.00% of 19
+
+Function 'dequant_lsp10i'
+Lines executed:0.00% of 11
+
+Function 'dequant_lsps'
+Lines executed:0.00% of 10
+
+Function 'postfilter'
+Lines executed:0.00% of 20
+
+Function 'wiener_denoise'
+Lines executed:0.00% of 41
+
+Function 'calc_input_response'
+Lines executed:0.00% of 57
+
+Function 'tilt_factor'
+Lines executed:0.00% of 5
+
+Function 'kalman_smoothen'
+Lines executed:0.00% of 19
+
+Function 'adaptive_gain_control'
+Lines executed:0.00% of 14
+
+Function 'wmavoice_decode_init'
+Lines executed:0.00% of 85
+
+Function 'wmavoice_flush'
+Lines executed:0.00% of 19
+
+Function 'wmavoice_init_static_data'
+Lines executed:0.00% of 4
+
+Function 'decode_vbmtree'
+Lines executed:0.00% of 7
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/wmavoice.c'
+Lines executed:0.00% of 805
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavcodec#wmavoice.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#wmavoice.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 935

@@ -1,0 +1,80 @@
+Function 'scale2ref_child_next'
+Lines executed:0.00% of 4
+
+Function 'scale2ref_child_class_iterate'
+Lines executed:0.00% of 4
+
+Function 'child_next'
+Lines executed:0.00% of 6
+
+Function 'child_class_iterate'
+Lines executed:0.00% of 8
+
+Function 'activate'
+Lines executed:0.00% of 3
+
+Function 'process_command'
+Lines executed:0.00% of 14
+
+Function 'filter_frame_ref'
+Lines executed:0.00% of 38
+
+Function 'filter_frame'
+Lines executed:0.00% of 8
+
+Function 'do_scale'
+Lines executed:0.00% of 45
+
+Function 'scale_frame'
+Lines executed:0.00% of 115
+
+Function 'request_frame_ref'
+Lines executed:0.00% of 2
+
+Function 'request_frame'
+Lines executed:0.00% of 2
+
+Function 'config_props_ref'
+No executable lines
+
+Function 'config_props'
+Lines executed:0.00% of 50
+
+Function 'scale_eval_dimensions'
+Lines executed:0.00% of 70
+
+Function 'query_formats'
+Lines executed:0.00% of 44
+
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'init'
+Lines executed:0.00% of 72
+
+Function 'preinit'
+Lines executed:0.00% of 7
+
+Function 'scale_parse_expr'
+Lines executed:0.00% of 34
+
+Function 'check_exprs'
+Lines executed:0.00% of 53
+
+File 'libavfilter/vf_scale.c'
+Lines executed:0.00% of 581
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_scale.gcno##libavfilter#vf_scale.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_scale.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_scale.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_scale.gcno##libavutil#avutil.h.gcov'
+
+Lines executed:0.00% of 587

@@ -1,0 +1,8 @@
+Function 'ff_opus_dsp_init_x86'
+Lines executed:100.00% of 6
+
+File 'libavcodec/x86/opusdsp_init.c'
+Lines executed:100.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#opusdsp_init.gcno##libavcodec#x86#opusdsp_init.c.gcov'
+
+Lines executed:100.00% of 6

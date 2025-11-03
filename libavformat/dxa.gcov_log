@@ -1,0 +1,26 @@
+Function 'dxa_read_packet'
+Lines executed:0.00% of 67
+
+Function 'dxa_read_header'
+Lines executed:0.00% of 71
+
+Function 'dxa_probe'
+Lines executed:0.00% of 12
+
+File 'libavformat/dxa.c'
+Lines executed:0.00% of 141
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dxa.gcno##libavformat#dxa.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dxa.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dxa.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#dxa.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 150

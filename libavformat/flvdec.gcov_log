@@ -1,0 +1,103 @@
+Function 'flv_read_seek'
+Lines executed:0.00% of 4
+
+Function 'flv_read_packet'
+Lines executed:0.00% of 390
+
+Function 'flv_parse_mod_ex_data'
+Lines executed:0.00% of 32
+
+Function 'flv_update_video_color_info'
+Lines executed:0.00% of 52
+
+Function 'flv_parse_video_color_info'
+Lines executed:0.00% of 23
+
+Function 'resync'
+Lines executed:0.00% of 30
+
+Function 'flv_data_packet'
+Lines executed:0.00% of 41
+
+Function 'amf_skip_tag'
+Lines executed:0.00% of 28
+
+Function 'clear_index_entries'
+Lines executed:0.00% of 10
+
+Function 'flv_queue_extradata'
+Lines executed:0.00% of 25
+
+Function 'flv_read_close'
+Lines executed:0.00% of 12
+
+Function 'flv_read_header'
+Lines executed:0.00% of 21
+
+Function 'flv_read_metabody'
+Lines executed:0.00% of 34
+
+Function 'amf_parse_object'
+Lines executed:0.00% of 176
+
+Function 'parse_keyframes_index'
+Lines executed:0.00% of 56
+
+Function 'amf_get_string'
+Lines executed:0.00% of 11
+
+Function 'flv_set_video_codec'
+Lines executed:0.00% of 52
+
+Function 'flv_same_video_codec'
+Lines executed:0.00% of 23
+
+Function 'flv_set_audio_codec'
+Lines executed:0.00% of 65
+
+Function 'flv_same_audio_codec'
+Lines executed:0.00% of 45
+
+Function 'create_stream'
+Lines executed:0.00% of 25
+
+Function 'add_keyframes_index'
+Lines executed:0.00% of 20
+
+Function 'kux_probe'
+Lines executed:0.00% of 8
+
+Function 'live_flv_probe'
+Lines executed:0.00% of 2
+
+Function 'flv_probe'
+Lines executed:0.00% of 2
+
+Function 'probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/flvdec.c'
+Lines executed:0.00% of 1185
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flvdec.gcno##libavformat#flvdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flvdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flvdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flvdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flvdec.gcno##libavutil#intfloat.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flvdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 1198

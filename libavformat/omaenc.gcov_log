@@ -1,0 +1,12 @@
+Function 'oma_write_header'
+Lines executed:0.00% of 46
+
+File 'libavformat/omaenc.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#omaenc.gcno##libavformat#omaenc.c.gcov'
+
+File 'libavformat/avio_internal.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#omaenc.gcno##libavformat#avio_internal.h.gcov'
+
+Lines executed:0.00% of 46

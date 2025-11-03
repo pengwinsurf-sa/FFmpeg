@@ -1,0 +1,107 @@
+Function 'ff_amf_match_string'
+Lines executed:0.00% of 22
+
+Function 'ff_amf_get_field_value'
+Lines executed:0.00% of 10
+
+Function 'amf_get_field_value2'
+Lines executed:0.00% of 48
+
+Function 'ff_amf_tag_size'
+Lines executed:0.00% of 10
+
+Function 'amf_tag_skip'
+Lines executed:0.00% of 26
+
+Function 'ff_rtmp_packet_destroy'
+Lines executed:0.00% of 4
+
+Function 'ff_rtmp_packet_create'
+Lines executed:0.00% of 11
+
+Function 'ff_rtmp_packet_write'
+Lines executed:0.00% of 71
+
+Function 'ff_rtmp_packet_read_internal'
+Lines executed:0.00% of 8
+
+Function 'rtmp_packet_read_one_chunk'
+Lines executed:0.00% of 88
+
+Function 'ff_rtmp_packet_read'
+Lines executed:0.00% of 4
+
+Function 'ff_rtmp_check_alloc_array'
+Lines executed:0.00% of 13
+
+Function 'ff_amf_read_null'
+Lines executed:0.00% of 3
+
+Function 'ff_amf_read_string'
+Lines executed:0.00% of 4
+
+Function 'ff_amf_get_string'
+Lines executed:0.00% of 11
+
+Function 'ff_amf_read_number'
+Lines executed:0.00% of 6
+
+Function 'ff_amf_write_object_end'
+Lines executed:0.00% of 3
+
+Function 'ff_amf_write_field_name'
+Lines executed:0.00% of 7
+
+Function 'ff_amf_write_object_start'
+Lines executed:0.00% of 3
+
+Function 'ff_amf_write_null'
+Lines executed:0.00% of 3
+
+Function 'ff_amf_write_string2'
+Lines executed:0.00% of 11
+
+Function 'ff_amf_write_string'
+Lines executed:0.00% of 5
+
+Function 'ff_amf_write_array_start'
+Lines executed:0.00% of 4
+
+Function 'ff_amf_write_number'
+Lines executed:0.00% of 8
+
+Function 'ff_amf_write_bool'
+Lines executed:0.00% of 4
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/rtmppkt.c'
+Lines executed:0.00% of 337
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno##libavformat#rtmppkt.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 27
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno##libavutil#intfloat.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/url.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtmppkt.gcno##libavformat#url.h.gcov'
+
+Lines executed:0.00% of 389

@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hwcontext__drm_8h" kind="file" language="C++">
+    <compoundname>hwcontext_drm.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/hwcontext_drm.h</label>
+        <link refid="hwcontext__drm_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structAVDRMObjectDescriptor" prot="public">AVDRMObjectDescriptor</innerclass>
+    <innerclass refid="structAVDRMPlaneDescriptor" prot="public">AVDRMPlaneDescriptor</innerclass>
+    <innerclass refid="structAVDRMLayerDescriptor" prot="public">AVDRMLayerDescriptor</innerclass>
+    <innerclass refid="structAVDRMFrameDescriptor" prot="public">AVDRMFrameDescriptor</innerclass>
+    <innerclass refid="structAVDRMDeviceContext" prot="public">AVDRMDeviceContext</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035d" prot="public" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <enumvalue id="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035da8f29c39f016d0bf9a006b180b859ba4f" prot="public">
+          <name>AV_DRM_MAX_PLANES</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>The maximum number of layers/planes in a DRM frame. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_drm.h" line="35" column="1" bodyfile="libavutil/hwcontext_drm.h" bodystart="35" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>API-specific header for AV_HWDEVICE_TYPE_DRM. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Internal frame allocation is not currently supported - all frames must be allocated by the user. Thus <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> is always NULL, though this may change if support for frame allocation is added in future. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_HWCONTEXT_DRM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_HWCONTEXT_DRM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="25"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>@file</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>API-specific<sp/>header<sp/>for<sp/>AV_HWDEVICE_TYPE_DRM.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Internal<sp/>frame<sp/>allocation<sp/>is<sp/>not<sp/>currently<sp/>supported<sp/>-<sp/>all<sp/>frames</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>must<sp/>be<sp/>allocated<sp/>by<sp/>the<sp/>user.<sp/><sp/>Thus<sp/>AVHWFramesContext<sp/>is<sp/>always</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>NULL,<sp/>though<sp/>this<sp/>may<sp/>change<sp/>if<sp/>support<sp/>for<sp/>frame<sp/>allocation<sp/>is</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>added<sp/>in<sp/>future.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>maximum<sp/>number<sp/>of<sp/>layers/planes<sp/>in<sp/>a<sp/>DRM<sp/>frame.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035da8f29c39f016d0bf9a006b180b859ba4f" kindref="member">AV_DRM_MAX_PLANES</ref><sp/>=<sp/>4</highlight></codeline>
+<codeline lineno="40" refid="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035da8f29c39f016d0bf9a006b180b859ba4f" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="42"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>DRM<sp/>object<sp/>descriptor.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>Describes<sp/>a<sp/>single<sp/>DRM<sp/>object,<sp/>addressing<sp/>it<sp/>as<sp/>a<sp/>PRIME<sp/>file</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>descriptor.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="structAVDRMObjectDescriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDRMObjectDescriptor" kindref="compound">AVDRMObjectDescriptor</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>DRM<sp/>PRIME<sp/>fd<sp/>for<sp/>the<sp/>object.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structAVDRMObjectDescriptor_1a3732e73e288f10965cae373c70e8402e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDRMObjectDescriptor_1a3732e73e288f10965cae373c70e8402e" kindref="member">fd</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Total<sp/>size<sp/>of<sp/>the<sp/>object.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>(This<sp/>includes<sp/>any<sp/>parts<sp/>not<sp/>which<sp/>do<sp/>not<sp/>contain<sp/>image<sp/>data.)</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="structAVDRMObjectDescriptor_1a4eeb1aad28f187c3c3e4f9d547a55a3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structAVDRMObjectDescriptor_1a4eeb1aad28f187c3c3e4f9d547a55a3d" kindref="member">size</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Format<sp/>modifier<sp/>applied<sp/>to<sp/>the<sp/>object<sp/>(DRM_FORMAT_MOD_*).</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>the<sp/>format<sp/>modifier<sp/>is<sp/>unknown<sp/>then<sp/>this<sp/>should<sp/>be<sp/>set<sp/>to</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>DRM_FORMAT_MOD_INVALID.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="structAVDRMObjectDescriptor_1ab193fb14460d5a5f90578a80608e82ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structAVDRMObjectDescriptor_1ab193fb14460d5a5f90578a80608e82ae" kindref="member">format_modifier</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="structAVDRMObjectDescriptor" kindref="compound">AVDRMObjectDescriptor</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>DRM<sp/>plane<sp/>descriptor.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>Describes<sp/>a<sp/>single<sp/>plane<sp/>of<sp/>a<sp/>layer,<sp/>which<sp/>is<sp/>contained<sp/>within</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>a<sp/>single<sp/>object.</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="structAVDRMPlaneDescriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDRMPlaneDescriptor" kindref="compound">AVDRMPlaneDescriptor</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Index<sp/>of<sp/>the<sp/>object<sp/>containing<sp/>this<sp/>plane<sp/>in<sp/>the<sp/>objects</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>array<sp/>of<sp/>the<sp/>enclosing<sp/>frame<sp/>descriptor.</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="structAVDRMPlaneDescriptor_1af07fe11d604e0a3b5fd934f9626c008b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDRMPlaneDescriptor_1af07fe11d604e0a3b5fd934f9626c008b" kindref="member">object_index</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Offset<sp/>within<sp/>that<sp/>object<sp/>of<sp/>this<sp/>plane.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="structAVDRMPlaneDescriptor_1af1a0839b02055445257d431d946d96a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ptrdiff_t<sp/><ref refid="structAVDRMPlaneDescriptor_1af1a0839b02055445257d431d946d96a7" kindref="member">offset</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Pitch<sp/>(linesize)<sp/>of<sp/>this<sp/>plane.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="structAVDRMPlaneDescriptor_1aa4eaa5a37f40dd7301ce1b8194eefc0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ptrdiff_t<sp/><ref refid="structAVDRMPlaneDescriptor_1aa4eaa5a37f40dd7301ce1b8194eefc0a" kindref="member">pitch</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}<sp/><ref refid="structAVDRMPlaneDescriptor" kindref="compound">AVDRMPlaneDescriptor</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="90"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>DRM<sp/>layer<sp/>descriptor.</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>Describes<sp/>a<sp/>single<sp/>layer<sp/>within<sp/>a<sp/>frame.<sp/><sp/>This<sp/>has<sp/>the<sp/>structure</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>defined<sp/>by<sp/>its<sp/>format,<sp/>and<sp/>will<sp/>contain<sp/>one<sp/>or<sp/>more<sp/>planes.</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="structAVDRMLayerDescriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDRMLayerDescriptor" kindref="compound">AVDRMLayerDescriptor</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Format<sp/>of<sp/>the<sp/>layer<sp/>(DRM_FORMAT_*).</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="structAVDRMLayerDescriptor_1abe9b4585e3ad357cf058dada850c3226" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structAVDRMLayerDescriptor_1abe9b4585e3ad357cf058dada850c3226" kindref="member">format</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>planes<sp/>in<sp/>the<sp/>layer.</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>must<sp/>match<sp/>the<sp/>number<sp/>of<sp/>planes<sp/>required<sp/>by<sp/>format.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="structAVDRMLayerDescriptor_1aa71ce914f53563be8207d8bc08fbfe92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDRMLayerDescriptor_1aa71ce914f53563be8207d8bc08fbfe92" kindref="member">nb_planes</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Array<sp/>of<sp/>planes<sp/>in<sp/>this<sp/>layer.</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="structAVDRMLayerDescriptor_1a7fbaf03f401c451e82021487fefef159" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVDRMPlaneDescriptor" kindref="compound">AVDRMPlaneDescriptor</ref><sp/><ref refid="structAVDRMLayerDescriptor_1a7fbaf03f401c451e82021487fefef159" kindref="member">planes</ref>[<ref refid="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035da8f29c39f016d0bf9a006b180b859ba4f" kindref="member">AV_DRM_MAX_PLANES</ref>];</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}<sp/><ref refid="structAVDRMLayerDescriptor" kindref="compound">AVDRMLayerDescriptor</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="113"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>DRM<sp/>frame<sp/>descriptor.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>used<sp/>as<sp/>the<sp/>data<sp/>pointer<sp/>for<sp/>AV_PIX_FMT_DRM_PRIME<sp/>frames.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>also<sp/>used<sp/>by<sp/>user-allocated<sp/>frame<sp/>pools<sp/>-<sp/>allocating<sp/>in</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>AVHWFramesContext.pool<sp/>must<sp/>return<sp/>AVBufferRefs<sp/>which<sp/>contain</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>an<sp/>object<sp/>of<sp/>this<sp/>type.</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>The<sp/>fields<sp/>of<sp/>this<sp/>structure<sp/>should<sp/>be<sp/>set<sp/>such<sp/>it<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>imported<sp/>directly<sp/>by<sp/>EGL<sp/>using<sp/>the<sp/>EGL_EXT_image_dma_buf_import</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>and<sp/>EGL_EXT_image_dma_buf_import_modifiers<sp/>extensions.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/>(Note<sp/>that<sp/>the<sp/>exact<sp/>layout<sp/>of<sp/>a<sp/>particular<sp/>format<sp/>may<sp/>vary<sp/>between</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/>platforms<sp/>-<sp/>we<sp/>only<sp/>specify<sp/>that<sp/>the<sp/>same<sp/>platform<sp/>should<sp/>be<sp/>able</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>to<sp/>import<sp/>it.)</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>The<sp/>total<sp/>number<sp/>of<sp/>planes<sp/>must<sp/>not<sp/>exceed<sp/>AV_DRM_MAX_PLANES,<sp/>and</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>the<sp/>order<sp/>of<sp/>the<sp/>planes<sp/>by<sp/>increasing<sp/>layer<sp/>index<sp/>followed<sp/>by</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>increasing<sp/>plane<sp/>index<sp/>must<sp/>be<sp/>the<sp/>same<sp/>as<sp/>the<sp/>order<sp/>which<sp/>would</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>be<sp/>used<sp/>for<sp/>the<sp/>data<sp/>pointers<sp/>in<sp/>the<sp/>equivalent<sp/>software<sp/>format.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="structAVDRMFrameDescriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDRMFrameDescriptor" kindref="compound">AVDRMFrameDescriptor</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>DRM<sp/>objects<sp/>making<sp/>up<sp/>this<sp/>frame.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structAVDRMFrameDescriptor_1a5a11bc1854bb6cee2f5b0f9d514d0c4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDRMFrameDescriptor_1a5a11bc1854bb6cee2f5b0f9d514d0c4f" kindref="member">nb_objects</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Array<sp/>of<sp/>objects<sp/>making<sp/>up<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="structAVDRMFrameDescriptor_1a0a757137c80a528953645ab11f31e6b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVDRMObjectDescriptor" kindref="compound">AVDRMObjectDescriptor</ref><sp/><ref refid="structAVDRMFrameDescriptor_1a0a757137c80a528953645ab11f31e6b7" kindref="member">objects</ref>[<ref refid="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035da8f29c39f016d0bf9a006b180b859ba4f" kindref="member">AV_DRM_MAX_PLANES</ref>];</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Number<sp/>of<sp/>layers<sp/>in<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="structAVDRMFrameDescriptor_1a228800d9ce195e776833e58ee307a6ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDRMFrameDescriptor_1a228800d9ce195e776833e58ee307a6ec" kindref="member">nb_layers</ref>;</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Array<sp/>of<sp/>layers<sp/>in<sp/>the<sp/>frame.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="structAVDRMFrameDescriptor_1ad19d258e1771ef833d7e3bd873b91906" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structAVDRMLayerDescriptor" kindref="compound">AVDRMLayerDescriptor</ref><sp/><ref refid="structAVDRMFrameDescriptor_1ad19d258e1771ef833d7e3bd873b91906" kindref="member">layers</ref>[<ref refid="hwcontext__drm_8h_1abc5c98fcc1211af2b80116dd6e0a035da8f29c39f016d0bf9a006b180b859ba4f" kindref="member">AV_DRM_MAX_PLANES</ref>];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}<sp/><ref refid="structAVDRMFrameDescriptor" kindref="compound">AVDRMFrameDescriptor</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="152"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>DRM<sp/>device.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>Allocated<sp/>as<sp/>AVHWDeviceContext.hwctx.</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="structAVDRMDeviceContext" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAVDRMDeviceContext" kindref="compound">AVDRMDeviceContext</ref><sp/>{</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/>/**</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>File<sp/>descriptor<sp/>of<sp/>DRM<sp/>device.</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>used<sp/>as<sp/>the<sp/>device<sp/>to<sp/>create<sp/>frames<sp/>on,<sp/>and<sp/>may<sp/>also<sp/>be</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>used<sp/>in<sp/>some<sp/>derivation<sp/>and<sp/>mapping<sp/>operations.</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>If<sp/>no<sp/>device<sp/>is<sp/>required,<sp/>set<sp/>to<sp/>-1.</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="structAVDRMDeviceContext_1a22790a8cbf5681bbdee76a6bc99f02f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structAVDRMDeviceContext_1a22790a8cbf5681bbdee76a6bc99f02f5" kindref="member">fd</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}<sp/><ref refid="structAVDRMDeviceContext" kindref="compound">AVDRMDeviceContext</ref>;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_HWCONTEXT_DRM_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/hwcontext_drm.h"/>
+  </compounddef>
+</doxygen>

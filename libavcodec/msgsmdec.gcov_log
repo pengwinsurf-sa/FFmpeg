@@ -1,0 +1,46 @@
+Function 'ff_msgsm_decode_block'
+Lines executed:0.00% of 21
+
+Function 'gsm_decode_block'
+Lines executed:0.00% of 55
+
+Function 'postprocess'
+Lines executed:0.00% of 9
+
+Function 'short_term_synth'
+Lines executed:0.00% of 23
+
+Function 'filter_value'
+Lines executed:0.00% of 7
+
+Function 'get_rrp'
+Lines executed:0.00% of 6
+
+Function 'apcm_dequant_add'
+Lines executed:0.00% of 8
+
+File 'libavcodec/msgsmdec.c'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msgsmdec.gcno##libavcodec#msgsmdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msgsmdec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/gsmdec_template.c'
+Lines executed:0.00% of 87
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msgsmdec.gcno##libavcodec#gsmdec_template.c.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msgsmdec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msgsmdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#msgsmdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 129

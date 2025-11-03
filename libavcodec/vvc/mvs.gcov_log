@@ -1,0 +1,229 @@
+Function 'ff_vvc_get_mvf'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_update_hmvp'
+Lines executed:0.00% of 15
+
+Function 'compare_l0_mv'
+Lines executed:0.00% of 2
+
+Function 'update_hmvp'
+Lines executed:0.00% of 14
+
+Function 'ff_vvc_clip_mv'
+Lines executed:0.00% of 7
+
+Function 'ff_vvc_round_mv'
+Lines executed:0.00% of 8
+
+Function 'ff_vvc_affine_mvp'
+Lines executed:0.00% of 10
+
+Function 'affine_mvp'
+Lines executed:0.00% of 36
+
+Function 'affine_mvp_const1'
+Lines executed:0.00% of 8
+
+Function 'affine_mvp_constructed_cp'
+Lines executed:0.00% of 24
+
+Function 'ff_vvc_luma_mv_merge_ibc'
+Lines executed:0.00% of 3
+
+Function 'ff_vvc_mvp_ibc'
+Lines executed:0.00% of 5
+
+Function 'ibc_check_mv'
+Lines executed:0.00% of 8
+
+Function 'ibc_merge_candidates'
+Lines executed:0.00% of 10
+
+Function 'ibc_add_mvp'
+Lines executed:0.00% of 6
+
+Function 'ibc_history_candidates'
+Lines executed:0.00% of 16
+
+Function 'ibc_spatial_candidates'
+Lines executed:0.00% of 24
+
+Function 'ff_vvc_mvp'
+Lines executed:0.00% of 10
+
+Function 'mvp'
+Lines executed:0.00% of 7
+
+Function 'mvp_history_candidates'
+Lines executed:0.00% of 16
+
+Function 'mvp_temporal_candidates'
+Lines executed:0.00% of 6
+
+Function 'mvp_spatial_candidates'
+Lines executed:0.00% of 18
+
+Function 'mvp_from_nbs'
+Lines executed:0.00% of 12
+
+Function 'affine_mvp_candidate'
+Lines executed:0.00% of 20
+
+Function 'mvp_candidate'
+Lines executed:0.00% of 18
+
+Function 'ff_vvc_sb_mv_merge_mode'
+Lines executed:0.00% of 6
+
+Function 'sb_mv_merge_mode'
+Lines executed:0.00% of 25
+
+Function 'affine_merge_const_candidates'
+Lines executed:0.00% of 38
+
+Function 'affine_merge_zero_motion'
+Lines executed:0.00% of 8
+
+Function 'affine_merge_const6'
+Lines executed:0.00% of 24
+
+Function 'affine_merge_const5'
+Lines executed:0.00% of 15
+
+Function 'affine_merge_const4'
+Lines executed:0.00% of 19
+
+Function 'affine_merge_const3'
+Lines executed:0.00% of 17
+
+Function 'affine_merge_const2'
+Lines executed:0.00% of 17
+
+Function 'affine_merge_const1'
+Lines executed:0.00% of 16
+
+Function 'sb_temporal_merge_candidate'
+Lines executed:0.00% of 37
+
+Function 'sb_temporal_luma_motion_data'
+Lines executed:0.00% of 21
+
+Function 'sb_temproal_luma_motion'
+Lines executed:0.00% of 29
+
+Function 'derive_corner_mvf'
+Lines executed:0.00% of 8
+
+Function 'affine_merge_from_nbs'
+Lines executed:0.00% of 5
+
+Function 'affine_merge_candidate'
+Lines executed:0.00% of 17
+
+Function 'affine_neighbour_cb'
+Lines executed:0.00% of 12
+
+Function 'affine_cps_from_nb'
+Lines executed:0.00% of 47
+
+Function 'ff_vvc_luma_mv_merge_gpm'
+Lines executed:0.00% of 18
+
+Function 'ff_vvc_luma_mv_merge_mode'
+Lines executed:0.00% of 8
+
+Function 'mv_merge_mode'
+Lines executed:0.00% of 13
+
+Function 'mv_merge_zero_motion_candidate'
+Lines executed:0.00% of 18
+
+Function 'mv_merge_pairwise_candidate'
+Lines executed:0.00% of 27
+
+Function 'mv_merge_history_candidates'
+Lines executed:0.00% of 18
+
+Function 'mv_merge_temporal_candidate'
+Lines executed:0.00% of 10
+
+Function 'mv_merge_spatial_candidates'
+Lines executed:0.00% of 23
+
+Function 'mv_merge_from_nb'
+Lines executed:0.00% of 11
+
+Function 'check_available'
+Lines executed:0.00% of 26
+
+Function 'init_neighbour_context'
+Lines executed:0.00% of 17
+
+Function 'is_a0_available'
+Lines executed:0.00% of 12
+
+Function 'ff_vvc_store_mv'
+Lines executed:0.00% of 13
+
+Function 'ff_vvc_store_mvf'
+Lines executed:0.00% of 4
+
+Function 'ff_vvc_store_gpm_mvf'
+Lines executed:0.00% of 35
+
+Function 'ff_vvc_store_sb_mvs'
+Lines executed:0.00% of 34
+
+Function 'store_cp_mv'
+Lines executed:0.00% of 14
+
+Function 'derive_subblock_diff_mvs'
+Lines executed:0.00% of 15
+
+Function 'init_subblock_params'
+Lines executed:0.00% of 18
+
+Function 'is_fallback_mode'
+Lines executed:0.00% of 19
+
+Function 'derive_cb_prof_flag_lx'
+Lines executed:0.00% of 10
+
+Function 'ff_vvc_set_intra_mvf'
+Lines executed:0.00% of 14
+
+Function 'ff_vvc_set_mvf'
+Lines executed:0.00% of 11
+
+Function 'temporal_luma_motion_vector'
+Lines executed:0.00% of 36
+
+Function 'derive_temporal_colocated_mvs'
+Lines executed:0.00% of 27
+
+Function 'ff_vvc_no_backward_pred_flag'
+Lines executed:0.00% of 10
+
+Function 'check_mvset'
+Lines executed:0.00% of 28
+
+Function 'ff_vvc_mv_scale'
+Lines executed:0.00% of 14
+
+Function 'compare_mv_ref_idx'
+No executable lines
+
+File 'libavcodec/vvc/mvs.c'
+Lines executed:0.00% of 1154
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#mvs.gcno##libavcodec#vvc#mvs.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#mvs.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vvc#mvs.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 1171

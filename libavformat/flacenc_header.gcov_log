@@ -1,0 +1,11 @@
+Function 'ff_flac_is_native_layout'
+Lines executed:0.00% of 5
+
+Function 'ff_flac_write_header'
+Lines executed:0.00% of 7
+
+File 'libavformat/flacenc_header.c'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#flacenc_header.gcno##libavformat#flacenc_header.c.gcov'
+
+Lines executed:0.00% of 12

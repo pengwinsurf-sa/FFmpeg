@@ -1,0 +1,15 @@
+Function 'write_packet'
+Lines executed:0.00% of 9
+
+Function 'write_header'
+Lines executed:0.00% of 5
+
+File 'libavformat/mkvtimestamp_v2.c'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mkvtimestamp_v2.gcno##libavformat#mkvtimestamp_v2.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mkvtimestamp_v2.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 14

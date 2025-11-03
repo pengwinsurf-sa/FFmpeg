@@ -1,0 +1,63 @@
+Function 'g723_1_decode_frame'
+Lines executed:0.00% of 109
+
+Function 'generate_noise'
+Lines executed:0.00% of 94
+
+Function 'estimate_sid_gain'
+Lines executed:0.00% of 40
+
+Function 'formant_postfilter'
+Lines executed:0.00% of 46
+
+Function 'gain_scale'
+Lines executed:0.00% of 24
+
+Function 'residual_interp'
+Lines executed:0.00% of 12
+
+Function 'comp_interp_index'
+Lines executed:0.00% of 16
+
+Function 'comp_ppf_coeff'
+Lines executed:0.00% of 33
+
+Function 'comp_ppf_gains'
+Lines executed:0.00% of 21
+
+Function 'autocorr_max'
+Lines executed:0.00% of 13
+
+Function 'gen_fcb_excitation'
+Lines executed:0.00% of 36
+
+Function 'unpack_bitstream'
+Lines executed:0.00% of 119
+
+Function 'g723_1_decode_init'
+Lines executed:0.00% of 13
+
+Function 'ff_sqrt'
+Lines executed:0.00% of 11
+
+File 'libavcodec/g723_1dec.c'
+Lines executed:0.00% of 512
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1dec.gcno##libavcodec#g723_1dec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 43
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#g723_1dec.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 587

@@ -1,0 +1,11 @@
+Function 'av_log2_16bit'
+Lines executed:0.00% of 2
+
+Function 'av_log2'
+Lines executed:100.00% of 2
+
+File 'libavutil/intmath.c'
+Lines executed:50.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#intmath.gcno##libavutil#intmath.c.gcov'
+
+Lines executed:50.00% of 4

@@ -1,0 +1,16 @@
+Function 'ff_qp_table_extract'
+Lines executed:0.00% of 34
+
+File 'libavfilter/qp_table.c'
+Lines executed:0.00% of 28
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#qp_table.gcno##libavfilter#qp_table.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#qp_table.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/video_enc_params.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#qp_table.gcno##libavutil#video_enc_params.h.gcov'
+
+Lines executed:0.00% of 34

@@ -1,0 +1,28 @@
+Function 'vble_decode_init'
+Lines executed:0.00% of 12
+
+Function 'vble_decode_close'
+Lines executed:0.00% of 4
+
+Function 'vble_decode_frame'
+Lines executed:0.00% of 41
+
+Function 'vble_restore_plane'
+Lines executed:0.00% of 32
+
+Function 'vble_unpack'
+Lines executed:0.00% of 39
+
+File 'libavcodec/vble.c'
+Lines executed:0.00% of 78
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vble.gcno##libavcodec#vble.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 48
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vble.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vble.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 128

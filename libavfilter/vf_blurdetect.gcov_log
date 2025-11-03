@@ -1,0 +1,34 @@
+Function 'blurdetect_uninit'
+Lines executed:0.00% of 11
+
+Function 'blurdetect_filter_frame'
+Lines executed:0.00% of 39
+
+Function 'set_meta'
+Lines executed:0.00% of 7
+
+Function 'calculate_blur'
+Lines executed:0.00% of 33
+
+Function 'edge_width'
+Lines executed:0.00% of 35
+
+Function 'blurdetect_config_input'
+Lines executed:0.00% of 19
+
+Function 'blurdetect_init'
+Lines executed:0.00% of 5
+
+File 'libavfilter/vf_blurdetect.c'
+Lines executed:0.00% of 145
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blurdetect.gcno##libavfilter#vf_blurdetect.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blurdetect.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_blurdetect.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 149

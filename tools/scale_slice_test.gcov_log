@@ -1,0 +1,23 @@
+Function 'main'
+Lines executed:0.00% of 54
+
+Function 'process_frame'
+Lines executed:0.00% of 37
+
+File 'tools/scale_slice_test.c'
+Lines executed:0.00% of 83
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#scale_slice_test.gcno##tools#scale_slice_test.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#scale_slice_test.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#scale_slice_test.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#scale_slice_test.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:0.00% of 91

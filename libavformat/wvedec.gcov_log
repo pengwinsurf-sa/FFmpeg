@@ -1,0 +1,11 @@
+Function 'wve_read_header'
+Lines executed:0.00% of 15
+
+Function 'wve_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/wvedec.c'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wvedec.gcno##libavformat#wvedec.c.gcov'
+
+Lines executed:0.00% of 19

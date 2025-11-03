@@ -1,0 +1,69 @@
+Function 'ff_rate_estimate_qscale'
+Lines executed:0.00% of 133
+
+Function 'ff_get_2pass_fcode'
+Lines executed:0.00% of 7
+
+Function 'adaptive_quantization'
+Lines executed:0.00% of 85
+
+Function 'ff_vbv_update'
+Lines executed:0.00% of 30
+
+Function 'ff_rate_control_uninit'
+Lines executed:0.00% of 7
+
+Function 'ff_rate_control_init'
+Lines executed:0.00% of 115
+
+Function 'init_pass2'
+Lines executed:0.00% of 99
+
+Function 'get_qscale'
+Lines executed:0.00% of 49
+
+Function 'modify_qscale'
+Lines executed:0.00% of 52
+
+Function 'get_qminmax'
+Lines executed:0.00% of 20
+
+Function 'get_diff_limited_q'
+Lines executed:0.00% of 25
+
+Function 'bits2qp_cb'
+Lines executed:0.00% of 2
+
+Function 'bits2qp'
+Lines executed:0.00% of 4
+
+Function 'qp2bits_cb'
+Lines executed:0.00% of 2
+
+Function 'qp2bits'
+Lines executed:0.00% of 4
+
+Function 'ff_write_pass1_stats'
+Lines executed:0.00% of 15
+
+File 'libavcodec/ratecontrol.c'
+Lines executed:0.00% of 635
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ratecontrol.gcno##libavcodec#ratecontrol.c.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ratecontrol.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ratecontrol.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ratecontrol.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ratecontrol.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 649

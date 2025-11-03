@@ -1,0 +1,25 @@
+Function 'ass_read_header'
+Lines executed:0.00% of 41
+
+Function 'get_line'
+Lines executed:0.00% of 9
+
+Function 'read_dialogue'
+Lines executed:0.00% of 22
+
+Function 'ass_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/assdec.c'
+Lines executed:0.00% of 77
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#assdec.gcno##libavformat#assdec.c.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#assdec.gcno###usr#include#stdlib.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#assdec.gcno##libavutil#bprint.h.gcov'
+
+Lines executed:0.00% of 81

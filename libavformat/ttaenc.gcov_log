@@ -1,0 +1,23 @@
+Function 'tta_deinit'
+Lines executed:0.00% of 5
+
+Function 'tta_write_trailer'
+Lines executed:0.00% of 15
+
+Function 'tta_queue_flush'
+Lines executed:0.00% of 8
+
+Function 'tta_write_packet'
+Lines executed:0.00% of 13
+
+Function 'tta_write_header'
+Lines executed:0.00% of 13
+
+Function 'tta_init'
+Lines executed:0.00% of 15
+
+File 'libavformat/ttaenc.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ttaenc.gcno##libavformat#ttaenc.c.gcov'
+
+Lines executed:0.00% of 69

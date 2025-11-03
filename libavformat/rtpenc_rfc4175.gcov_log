@@ -1,0 +1,12 @@
+Function 'ff_rtp_send_raw_rfc4175'
+Lines executed:0.00% of 88
+
+File 'libavformat/rtpenc_rfc4175.c'
+Lines executed:0.00% of 86
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_rfc4175.gcno##libavformat#rtpenc_rfc4175.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpenc_rfc4175.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 88

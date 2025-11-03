@@ -1,0 +1,14 @@
+Function 'ff_scene_sad_get_fn'
+Lines executed:0.00% of 8
+
+Function 'ff_scene_sad_c'
+Lines executed:0.00% of 10
+
+Function 'ff_scene_sad16_c'
+Lines executed:0.00% of 14
+
+File 'libavfilter/scene_sad.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#scene_sad.gcno##libavfilter#scene_sad.c.gcov'
+
+Lines executed:0.00% of 32

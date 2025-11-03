@@ -1,0 +1,17 @@
+Function 'av1_frame_split_close'
+Lines executed:0.00% of 6
+
+Function 'av1_frame_split_flush'
+Lines executed:0.00% of 5
+
+Function 'av1_frame_split_init'
+Lines executed:0.00% of 16
+
+Function 'av1_frame_split_filter'
+Lines executed:0.00% of 87
+
+File 'libavcodec/bsf/av1_frame_split.c'
+Lines executed:0.00% of 114
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#av1_frame_split.gcno##libavcodec#bsf#av1_frame_split.c.gcov'
+
+Lines executed:0.00% of 114

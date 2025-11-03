@@ -1,0 +1,49 @@
+Function 'xan_decode_frame'
+Lines executed:0.00% of 77
+
+Function 'xan_wc3_decode_frame'
+Lines executed:0.00% of 96
+
+Function 'xan_wc3_copy_pixel_run'
+Lines executed:0.00% of 38
+
+Function 'xan_wc3_output_pixel_run'
+Lines executed:0.00% of 23
+
+Function 'xan_unpack'
+Lines executed:0.00% of 40
+
+Function 'xan_huffman_decode'
+Lines executed:0.00% of 51
+
+Function 'xan_decode_init'
+Lines executed:0.00% of 13
+
+Function 'xan_decode_end'
+Lines executed:0.00% of 7
+
+File 'libavcodec/xan.c'
+Lines executed:0.00% of 284
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xan.gcno##libavcodec#xan.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xan.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xan.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xan.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xan.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#xan.gcno##libavcodec#get_bits.h.gcov'
+
+Lines executed:0.00% of 345

@@ -1,0 +1,50 @@
+Function 'activate'
+Lines executed:0.00% of 28
+
+Function 'try_push_frame'
+Lines executed:0.00% of 84
+
+Function 'join_config_output'
+Lines executed:0.00% of 80
+
+Function 'guess_map_any'
+Lines executed:0.00% of 7
+
+Function 'guess_map_matching'
+Lines executed:0.00% of 7
+
+Function 'channel_list_pop_ch'
+Lines executed:0.00% of 4
+
+Function 'channel_list_pop'
+Lines executed:0.00% of 8
+
+Function 'join_query_formats'
+Lines executed:0.00% of 12
+
+Function 'join_uninit'
+Lines executed:0.00% of 9
+
+Function 'join_init'
+Lines executed:0.00% of 21
+
+Function 'parse_maps'
+Lines executed:0.00% of 40
+
+File 'libavfilter/af_join.c'
+Lines executed:0.00% of 290
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_join.gcno##libavfilter#af_join.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_join.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_join.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_join.gcno##libavfilter#filters.h.gcov'
+
+Lines executed:0.00% of 300

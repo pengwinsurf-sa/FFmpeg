@@ -1,0 +1,44 @@
+Function 'decode'
+Lines executed:0.00% of 51
+
+Function 'display_end_segment'
+Lines executed:0.00% of 68
+
+Function 'parse_presentation_segment'
+Lines executed:0.00% of 43
+
+Function 'parse_palette_segment'
+Lines executed:0.00% of 30
+
+Function 'parse_object_segment'
+Lines executed:0.00% of 47
+
+Function 'decode_rle'
+Lines executed:0.00% of 28
+
+Function 'close_decoder'
+Lines executed:0.00% of 3
+
+Function 'init_decoder'
+Lines executed:0.00% of 3
+
+Function 'flush_cache'
+Lines executed:0.00% of 10
+
+File 'libavcodec/pgssubdec.c'
+Lines executed:0.00% of 273
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgssubdec.gcno##libavcodec#pgssubdec.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgssubdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgssubdec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pgssubdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 283

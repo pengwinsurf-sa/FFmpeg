@@ -1,0 +1,27 @@
+Function 'ff_mqc_flush_to'
+Lines executed:0.00% of 17
+
+Function 'mqc_flush'
+Lines executed:0.00% of 14
+
+Function 'ff_mqc_encode'
+Lines executed:0.00% of 18
+
+Function 'ff_mqc_initenc'
+Lines executed:0.00% of 8
+
+Function 'renorme'
+Lines executed:0.00% of 8
+
+Function 'byteout'
+Lines executed:0.00% of 16
+
+File 'libavcodec/mqcenc.c'
+Lines executed:0.00% of 79
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mqcenc.gcno##libavcodec#mqcenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mqcenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 81

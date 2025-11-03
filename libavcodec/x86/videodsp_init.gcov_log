@@ -1,0 +1,14 @@
+Function 'ff_videodsp_init_x86'
+Lines executed:100.00% of 9
+
+Function 'emulated_edge_mc_avx2'
+Lines executed:100.00% of 44
+
+Function 'emulated_edge_mc_sse2'
+Lines executed:100.00% of 3
+
+File 'libavcodec/x86/videodsp_init.c'
+Lines executed:100.00% of 56
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#x86#videodsp_init.gcno##libavcodec#x86#videodsp_init.c.gcov'
+
+Lines executed:100.00% of 56

@@ -1,0 +1,18 @@
+Function 'avfilter_graph_dump'
+Lines executed:0.00% of 10
+
+Function 'avfilter_graph_dump_to_buf'
+Lines executed:0.00% of 73
+
+Function 'print_link_prop'
+Lines executed:0.00% of 23
+
+File 'libavfilter/graphdump.c'
+Lines executed:0.00% of 104
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#graphdump.gcno##libavfilter#graphdump.c.gcov'
+
+File 'libavutil/avutil.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#graphdump.gcno##libavutil#avutil.h.gcov'
+
+Lines executed:0.00% of 106

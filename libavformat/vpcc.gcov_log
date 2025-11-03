@@ -1,0 +1,38 @@
+Function 'ff_isom_write_vpcc'
+Lines executed:0.00% of 15
+
+Function 'ff_isom_get_vpcc_features'
+Lines executed:0.00% of 48
+
+Function 'parse_bitstream'
+Lines executed:0.00% of 29
+
+Function 'get_vp9_level'
+Lines executed:0.00% of 21
+
+Function 'get_bit_depth'
+Lines executed:0.00% of 6
+
+Function 'get_vpx_chroma_subsampling'
+Lines executed:0.00% of 10
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavformat/vpcc.c'
+Lines executed:0.00% of 102
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vpcc.gcno##libavformat#vpcc.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 37
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vpcc.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vpcc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vpcc.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 148

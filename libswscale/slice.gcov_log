@@ -1,0 +1,43 @@
+Function 'ff_free_filters'
+Lines executed:100.00% of 12
+
+Function 'ff_init_filters'
+Lines executed:87.18% of 117
+
+Function 'get_min_buffer_size'
+Lines executed:100.00% of 19
+
+Function 'fill_ones'
+Lines executed:100.00% of 13
+
+Function 'ff_init_slice_from_src'
+Lines executed:0.00% of 23
+
+Function 'ff_rotate_slice'
+Lines executed:0.00% of 17
+
+Function 'free_slice'
+Lines executed:100.00% of 9
+
+Function 'alloc_slice'
+Lines executed:100.00% of 16
+
+Function 'alloc_lines'
+Lines executed:89.47% of 19
+
+Function 'free_lines'
+Lines executed:100.00% of 15
+
+File 'libswscale/slice.c'
+Lines executed:75.85% of 236
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#slice.gcno##libswscale#slice.c.gcov'
+
+File 'libswscale/swscale_internal.h'
+Lines executed:100.00% of 22
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#slice.gcno##libswscale#swscale_internal.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#slice.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:78.08% of 260

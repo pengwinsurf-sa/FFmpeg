@@ -1,0 +1,34 @@
+Function 'ff_update_hdr_metadata'
+Lines executed:0.00% of 11
+
+Function 'ff_determine_signal_peak'
+Lines executed:0.00% of 16
+
+Function 'ff_fill_rgb2yuv_table'
+Lines executed:0.00% of 22
+
+Function 'ff_fill_rgb2xyz_table'
+Lines executed:0.00% of 28
+
+Function 'ff_matrix_mul_3x3_vec'
+Lines executed:0.00% of 7
+
+Function 'ff_matrix_mul_3x3'
+Lines executed:0.00% of 8
+
+Function 'ff_matrix_invert_3x3'
+Lines executed:0.00% of 21
+
+File 'libavfilter/colorspace.c'
+Lines executed:0.00% of 109
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspace.gcno##libavfilter#colorspace.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspace.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#colorspace.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 113

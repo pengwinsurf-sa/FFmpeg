@@ -1,0 +1,18 @@
+Function 'ff_pcm_read_seek'
+Lines executed:0.00% of 19
+
+Function 'ff_pcm_read_packet'
+Lines executed:0.00% of 8
+
+Function 'ff_pcm_default_packet_size'
+Lines executed:0.00% of 21
+
+File 'libavformat/pcm.c'
+Lines executed:0.00% of 42
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#pcm.gcno##libavformat#pcm.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#pcm.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 48

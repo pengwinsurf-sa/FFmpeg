@@ -1,0 +1,12 @@
+Function 'ff_load_image'
+Lines executed:0.00% of 70
+
+File 'libavfilter/lavfutils.c'
+Lines executed:0.00% of 67
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#lavfutils.gcno##libavfilter#lavfutils.c.gcov'
+
+File 'libavutil/imgutils.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#lavfutils.gcno##libavutil#imgutils.h.gcov'
+
+Lines executed:0.00% of 70

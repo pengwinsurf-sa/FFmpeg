@@ -1,0 +1,47 @@
+Function 'uninit'
+Lines executed:0.00% of 6
+
+Function 'init'
+Lines executed:0.00% of 18
+
+Function 'filter_frame'
+Lines executed:0.00% of 33
+
+Function 'filter_slice'
+Lines executed:0.00% of 12
+
+Function 'noise'
+Lines executed:0.00% of 21
+
+Function 'ff_line_noise_avg_c'
+Lines executed:0.00% of 7
+
+Function 'ff_line_noise_c'
+Lines executed:0.00% of 10
+
+Function 'config_input'
+Lines executed:0.00% of 9
+
+Function 'query_formats'
+Lines executed:0.00% of 9
+
+Function 'init_noise'
+Lines executed:0.00% of 45
+
+File 'libavfilter/vf_noise.c'
+Lines executed:0.00% of 159
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_noise.gcno##libavfilter#vf_noise.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_noise.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_noise.gcno##libavutil#emms.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_noise.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 170

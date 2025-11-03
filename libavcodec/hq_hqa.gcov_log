@@ -1,0 +1,61 @@
+Function 'hq_hqa_decode_init'
+Lines executed:0.00% of 7
+
+Function 'hq_init_static'
+Lines executed:0.00% of 16
+
+Function 'hq_hqa_decode_frame'
+Lines executed:0.00% of 45
+
+Function 'hqa_decode_frame'
+Lines executed:0.00% of 58
+
+Function 'hqa_decode_slice'
+Lines executed:0.00% of 10
+
+Function 'hqa_decode_mb'
+Lines executed:0.00% of 53
+
+Function 'hq_decode_frame'
+Lines executed:0.00% of 40
+
+Function 'hq_decode_mb'
+Lines executed:0.00% of 15
+
+Function 'hq_decode_block'
+Lines executed:0.00% of 23
+
+Function 'put_blocks'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+File 'libavcodec/hq_hqa.c'
+Lines executed:0.00% of 211
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hq_hqa.gcno##libavcodec#hq_hqa.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hq_hqa.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hq_hqa.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hq_hqa.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hq_hqa.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hq_hqa.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 300

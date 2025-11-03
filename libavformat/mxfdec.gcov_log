@@ -1,0 +1,270 @@
+Function 'mxf_read_seek'
+Lines executed:0.00% of 67
+
+Function 'mxf_probe'
+Lines executed:0.00% of 14
+
+Function 'mxf_read_close'
+Lines executed:0.00% of 23
+
+Function 'mxf_read_packet'
+Lines executed:0.00% of 104
+
+Function 'mxf_set_pts'
+Lines executed:0.00% of 22
+
+Function 'mxf_set_audio_pts'
+Lines executed:0.00% of 13
+
+Function 'mxf_set_current_edit_unit'
+Lines executed:0.00% of 29
+
+Function 'mxf_compute_sample_count'
+Lines executed:0.00% of 12
+
+Function 'mxf_get_next_track_edit_unit'
+Lines executed:0.00% of 11
+
+Function 'mxf_read_header'
+Lines executed:0.00% of 75
+
+Function 'mxf_read_random_index_pack'
+Lines executed:0.00% of 29
+
+Function 'mxf_handle_missing_index_segment'
+Lines executed:0.00% of 39
+
+Function 'mxf_compute_edit_units_per_packet'
+Lines executed:0.00% of 13
+
+Function 'mxf_compute_essence_containers'
+Lines executed:0.00% of 23
+
+Function 'mxf_parse_handle_essence'
+Lines executed:0.00% of 20
+
+Function 'mxf_seek_to_previous_partition'
+Lines executed:0.00% of 22
+
+Function 'mxf_parse_klv'
+Lines executed:0.00% of 14
+
+Function 'mxf_is_partition_pack_key'
+Lines executed:0.00% of 3
+
+Function 'mxf_read_local_tags'
+Lines executed:0.00% of 68
+
+Function 'mxf_read_preface_metadata'
+Lines executed:0.00% of 8
+
+Function 'mxf_read_identification_metadata'
+Lines executed:0.00% of 37
+
+Function 'mxf_timestamp_to_int64'
+Lines executed:0.00% of 21
+
+Function 'mxf_parse_structural_metadata'
+Lines executed:0.00% of 321
+
+Function 'parse_mca_labels'
+Lines executed:0.00% of 53
+
+Function 'parse_ffv1_sub_descriptor'
+Lines executed:0.00% of 11
+
+Function 'find_mca_link_id'
+Lines executed:0.00% of 6
+
+Function 'set_language'
+Lines executed:0.00% of 7
+
+Function 'mxf_get_color_range'
+Lines executed:0.00% of 11
+
+Function 'mxf_add_metadata_stream'
+Lines executed:0.00% of 26
+
+Function 'mxf_parse_physical_source_package'
+Lines executed:0.00% of 40
+
+Function 'mxf_parse_package_comments'
+Lines executed:0.00% of 11
+
+Function 'mxf_resolve_sourceclip'
+Lines executed:0.00% of 19
+
+Function 'mxf_resolve_descriptor'
+Lines executed:0.00% of 12
+
+Function 'mxf_resolve_source_package'
+Lines executed:0.00% of 9
+
+Function 'mxf_resolve_timecode_component'
+Lines executed:0.00% of 8
+
+Function 'mxf_add_timecode_metadata'
+Lines executed:0.00% of 4
+
+Function 'mxf_add_umid_metadata'
+Lines executed:0.00% of 6
+
+Function 'mxf_umid_to_str'
+Lines executed:0.00% of 7
+
+Function 'mxf_is_intra_only'
+Lines executed:0.00% of 5
+
+Function 'mxf_compute_index_tables'
+Lines executed:0.00% of 66
+
+Function 'mxf_compute_ptses_fake_index'
+Lines executed:0.00% of 59
+
+Function 'mxf_edit_unit_absolute_offset'
+Lines executed:0.00% of 43
+
+Function 'mxf_absolute_bodysid_offset'
+Lines executed:0.00% of 21
+
+Function 'mxf_get_sorted_table_segments'
+Lines executed:0.00% of 46
+
+Function 'mxf_get_wrapping_kind'
+Lines executed:0.00% of 24
+
+Function 'mxf_resolve_strong_ref'
+Lines executed:0.00% of 6
+
+Function 'mxf_read_tagged_value'
+Lines executed:0.00% of 7
+
+Function 'mxf_read_indirect_value'
+Lines executed:0.00% of 12
+
+Function 'mxf_read_ffv1_sub_descriptor'
+Lines executed:0.00% of 11
+
+Function 'mxf_read_mca_sub_descriptor'
+Lines executed:0.00% of 14
+
+Function 'mxf_read_generic_descriptor'
+Lines executed:0.00% of 138
+
+Function 'mxf_read_pixel_layout'
+Lines executed:0.00% of 13
+
+Function 'mxf_read_index_table_segment'
+Lines executed:0.00% of 32
+
+Function 'mxf_read_index_entry_array'
+Lines executed:0.00% of 22
+
+Function 'mxf_read_essence_container_data'
+Lines executed:0.00% of 14
+
+Function 'mxf_read_package'
+Lines executed:0.00% of 16
+
+Function 'mxf_read_essence_group'
+Lines executed:0.00% of 8
+
+Function 'mxf_read_sequence'
+Lines executed:0.00% of 14
+
+Function 'mxf_read_track'
+Lines executed:0.00% of 20
+
+Function 'mxf_read_pulldown_component'
+Lines executed:0.00% of 7
+
+Function 'mxf_read_timecode_component'
+Lines executed:0.00% of 13
+
+Function 'mxf_read_source_clip'
+Lines executed:0.00% of 17
+
+Function 'mxf_read_content_storage'
+Lines executed:0.00% of 9
+
+Function 'mxf_read_utf16_string'
+Lines executed:0.00% of 14
+
+Function 'mxf_read_us_ascii_string'
+Lines executed:0.00% of 12
+
+Function 'mxf_read_strong_ref_array'
+Lines executed:0.00% of 15
+
+Function 'mxf_read_cryptographic_context'
+Lines executed:0.00% of 5
+
+Function 'mxf_add_metadata_set'
+Lines executed:0.00% of 15
+
+Function 'mxf_read_partition_pack'
+Lines executed:0.00% of 111
+
+Function 'mxf_read_primer_pack'
+Lines executed:0.00% of 19
+
+Function 'mxf_decrypt_triplet'
+Lines executed:0.00% of 53
+
+Function 'mxf_get_d10_aes3_packet'
+Lines executed:0.00% of 22
+
+Function 'mxf_get_eia608_packet'
+Lines executed:0.00% of 57
+
+Function 'mxf_get_stream_index'
+Lines executed:0.00% of 6
+
+Function 'klv_read_packet'
+Lines executed:0.00% of 17
+
+Function 'mxf_read_sync_klv'
+Lines executed:0.00% of 6
+
+Function 'mxf_read_sync'
+Lines executed:0.00% of 8
+
+Function 'klv_decode_ber_length'
+Lines executed:0.00% of 12
+
+Function 'mxf_free_metadataset'
+Lines executed:0.00% of 42
+
+File 'libavformat/mxfdec.c'
+Lines executed:0.00% of 2235
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno##libavformat#mxfdec.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno##libavutil#rational.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mxfdec.gcno##libavcodec#bytestream.h.gcov'
+
+Lines executed:0.00% of 2269

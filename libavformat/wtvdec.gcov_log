@@ -1,0 +1,91 @@
+Function 'read_close'
+Lines executed:0.00% of 5
+
+Function 'read_seek'
+Lines executed:0.00% of 23
+
+Function 'read_packet'
+Lines executed:0.00% of 12
+
+Function 'read_header'
+Lines executed:0.00% of 70
+
+Function 'parse_chunks'
+Lines executed:0.00% of 155
+
+Function 'recover'
+Lines executed:0.00% of 10
+
+Function 'parse_media_type'
+Lines executed:0.00% of 84
+
+Function 'new_stream'
+Lines executed:0.00% of 17
+
+Function 'parse_mpeg1waveformatex'
+Lines executed:0.00% of 13
+
+Function 'parse_videoinfoheader2'
+Lines executed:0.00% of 6
+
+Function 'parse_legacy_attrib'
+Lines executed:0.00% of 17
+
+Function 'get_tag'
+Lines executed:0.00% of 52
+
+Function 'get_attachment'
+Lines executed:0.00% of 23
+
+Function 'oledate_to_iso8601'
+Lines executed:0.00% of 6
+
+Function 'crazytime_to_iso8601'
+Lines executed:0.00% of 6
+
+Function 'filetime_to_iso8601'
+Lines executed:0.00% of 6
+
+Function 'read_probe'
+Lines executed:0.00% of 2
+
+Function 'wtvfile_close'
+Lines executed:0.00% of 7
+
+Function 'wtvfile_open2'
+Lines executed:0.00% of 30
+
+Function 'wtvfile_open_sector'
+Lines executed:0.00% of 71
+
+Function 'wtvfile_seek'
+Lines executed:0.00% of 14
+
+Function 'wtvfile_read_packet'
+Lines executed:0.00% of 24
+
+File 'libavformat/wtvdec.c'
+Lines executed:0.00% of 641
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvdec.gcno##libavformat#wtvdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/riff.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvdec.gcno##libavformat#riff.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvdec.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#wtvdec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 653

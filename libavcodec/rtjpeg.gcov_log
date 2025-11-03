@@ -1,0 +1,39 @@
+Function 'ff_rtjpeg_init'
+Lines executed:0.00% of 8
+
+Function 'ff_rtjpeg_decode_init'
+Lines executed:0.00% of 9
+
+Function 'ff_rtjpeg_decode_frame_yuv420'
+Lines executed:0.00% of 47
+
+Function 'get_block'
+Lines executed:0.00% of 34
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+File 'libavcodec/rtjpeg.c'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtjpeg.gcno##libavcodec#rtjpeg.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 46
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtjpeg.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtjpeg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtjpeg.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rtjpeg.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 133

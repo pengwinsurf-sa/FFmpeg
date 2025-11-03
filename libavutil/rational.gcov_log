@@ -1,0 +1,42 @@
+Function 'av_gcd_q'
+Lines executed:0.00% of 8
+
+Function 'av_q2intfloat'
+Lines executed:0.00% of 23
+
+Function 'av_find_nearest_q_idx'
+Lines executed:0.00% of 6
+
+Function 'av_nearer_q'
+Lines executed:0.00% of 6
+
+Function 'av_d2q'
+Lines executed:0.00% of 13
+
+Function 'av_sub_q'
+Lines executed:0.00% of 2
+
+Function 'av_add_q'
+Lines executed:0.00% of 6
+
+Function 'av_div_q'
+Lines executed:0.00% of 2
+
+Function 'av_mul_q'
+Lines executed:0.00% of 5
+
+Function 'av_reduce'
+Lines executed:0.00% of 29
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavutil/rational.c'
+Lines executed:0.00% of 97
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#rational.gcno##libavutil#rational.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#rational.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 105

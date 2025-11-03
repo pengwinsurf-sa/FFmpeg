@@ -1,0 +1,28 @@
+Function 'h264_metadata_init'
+Lines executed:0.00% of 31
+
+Function 'h264_metadata_update_fragment'
+Lines executed:0.00% of 36
+
+Function 'h264_metadata_handle_display_orientation'
+Lines executed:0.00% of 76
+
+Function 'h264_metadata_update_sps'
+Lines executed:0.00% of 95
+
+Function 'h264_metadata_insert_aud'
+Lines executed:0.00% of 23
+
+File 'libavcodec/bsf/h264_metadata.c'
+Lines executed:0.00% of 250
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_metadata.gcno##libavcodec#bsf#h264_metadata.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_metadata.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#h264_metadata.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 261

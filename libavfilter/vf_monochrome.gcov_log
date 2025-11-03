@@ -1,0 +1,31 @@
+Function 'config_input'
+Lines executed:0.00% of 10
+
+Function 'filter_frame'
+Lines executed:0.00% of 8
+
+Function 'clear_slice16'
+Lines executed:0.00% of 20
+
+Function 'clear_slice8'
+Lines executed:0.00% of 21
+
+Function 'monochrome_slice16'
+Lines executed:0.00% of 43
+
+Function 'monochrome_slice8'
+Lines executed:0.00% of 32
+
+File 'libavfilter/vf_monochrome.c'
+Lines executed:0.00% of 125
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_monochrome.gcno##libavfilter#vf_monochrome.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_monochrome.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_monochrome.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 134

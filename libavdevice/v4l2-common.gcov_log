@@ -1,0 +1,14 @@
+Function 'ff_fmt_v4l2codec'
+Lines executed:0.00% of 5
+
+Function 'ff_fmt_v4l2ff'
+Lines executed:0.00% of 5
+
+Function 'ff_fmt_ff2v4l'
+Lines executed:0.00% of 8
+
+File 'libavdevice/v4l2-common.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavdevice#v4l2-common.gcno##libavdevice#v4l2-common.c.gcov'
+
+Lines executed:0.00% of 18

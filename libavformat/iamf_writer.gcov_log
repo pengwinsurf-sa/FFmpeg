@@ -1,0 +1,103 @@
+Function 'ff_iamf_write_audio_frame'
+Lines executed:0.00% of 80
+
+Function 'ff_iamf_write_parameter_blocks'
+Lines executed:0.00% of 16
+
+Function 'write_parameter_block'
+Lines executed:0.00% of 93
+
+Function 'ff_iamf_write_descriptors'
+Lines executed:0.00% of 19
+
+Function 'iamf_write_mixing_presentation'
+Lines executed:0.00% of 101
+
+Function 'iamf_write_audio_element'
+Lines executed:0.00% of 74
+
+Function 'param_definition'
+Lines executed:0.00% of 26
+
+Function 'ambisonics_config'
+Lines executed:0.00% of 12
+
+Function 'scalable_channel_layout_config'
+Lines executed:0.00% of 34
+
+Function 'iamf_write_codec_config'
+Lines executed:0.00% of 61
+
+Function 'ff_iamf_add_mix_presentation'
+Lines executed:0.00% of 52
+
+Function 'ff_iamf_add_audio_element'
+Lines executed:0.00% of 121
+
+Function 'add_param_definition'
+Lines executed:0.00% of 25
+
+Function 'fill_codec_config'
+Lines executed:0.00% of 43
+
+Function 'populate_audio_roll_distance'
+Lines executed:0.00% of 12
+
+Function 'update_extradata'
+Lines executed:0.00% of 70
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'get_bits64'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 20
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/iamf_writer.c'
+Lines executed:0.00% of 760
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavformat#iamf_writer.c.gcov'
+
+File 'libavformat/iamf.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavformat#iamf.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavutil/iamf.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavutil#iamf.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 50
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#iamf_writer.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 907

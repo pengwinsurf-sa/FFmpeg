@@ -1,0 +1,11 @@
+Function 'ff_hcscale_fast_c'
+Lines executed:0.00% of 13
+
+Function 'ff_hyscale_fast_c'
+Lines executed:0.00% of 11
+
+File 'libswscale/hscale_fast_bilinear.c'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libswscale#hscale_fast_bilinear.gcno##libswscale#hscale_fast_bilinear.c.gcov'
+
+Lines executed:0.00% of 24

@@ -1,0 +1,174 @@
+Function 'ipu_decode_init'
+Lines executed:0.00% of 13
+
+Function 'ipu_decode_frame'
+Lines executed:0.00% of 104
+
+Function 'mpeg_decode_end'
+Lines executed:0.00% of 4
+
+Function 'flush'
+Lines executed:0.00% of 7
+
+Function 'mpeg_decode_frame'
+Lines executed:0.00% of 43
+
+Function 'decode_chunks'
+Lines executed:0.00% of 191
+
+Function 'mpeg12_execute_slice_threads'
+Lines executed:0.00% of 14
+
+Function 'mpeg_decode_gop'
+Lines executed:0.00% of 14
+
+Function 'mpeg_decode_user_data'
+Lines executed:0.00% of 39
+
+Function 'mpeg_decode_a53_cc'
+Lines executed:0.00% of 122
+
+Function 'mpeg_set_cc_format'
+Lines executed:0.00% of 8
+
+Function 'vcr2_init_sequence'
+Lines executed:0.00% of 37
+
+Function 'mpeg1_decode_sequence'
+Lines executed:0.00% of 55
+
+Function 'slice_end'
+Lines executed:0.00% of 25
+
+Function 'slice_decode_thread'
+Lines executed:0.00% of 30
+
+Function 'mpeg_decode_slice'
+Lines executed:0.00% of 194
+
+Function 'mpeg_field_start'
+Lines executed:0.00% of 72
+
+Function 'mpeg_decode_picture_coding_extension'
+Lines executed:0.00% of 43
+
+Function 'mpeg_decode_quant_matrix_extension'
+Lines executed:0.00% of 11
+
+Function 'load_matrix'
+Lines executed:0.00% of 14
+
+Function 'mpeg_decode_picture_display_extension'
+Lines executed:0.00% of 24
+
+Function 'mpeg_decode_sequence_display_extension'
+Lines executed:0.00% of 17
+
+Function 'mpeg_decode_sequence_extension'
+Lines executed:0.00% of 30
+
+Function 'mpeg1_decode_picture'
+Lines executed:0.00% of 27
+
+Function 'mpeg_decode_postinit'
+Lines executed:0.00% of 62
+
+Function 'mpeg_get_pixelformat'
+Lines executed:0.00% of 11
+
+Function 'mpeg_decode_init'
+Lines executed:0.00% of 14
+
+Function 'mpeg_decode_mb'
+Lines executed:0.00% of 224
+
+Function 'get_dmv'
+Lines executed:0.00% of 3
+
+Function 'mpeg2_decode_block_intra'
+Lines executed:0.00% of 56
+
+Function 'mpeg2_decode_block_non_intra'
+Lines executed:0.00% of 56
+
+Function 'mpeg1_decode_block_inter'
+Lines executed:0.00% of 59
+
+Function 'mpeg_decode_motion'
+Lines executed:0.00% of 20
+
+Function 'check_marker'
+Lines executed:0.00% of 6
+
+Function 'decode_dc'
+Lines executed:0.00% of 8
+
+Function 'skip_1stop_8data_bits'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'show_bits'
+Lines executed:0.00% of 7
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'get_sbits'
+Lines executed:0.00% of 12
+
+Function 'get_xbits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+Function 'av_cmp_q'
+Lines executed:0.00% of 5
+
+File 'libavcodec/mpeg12dec.c'
+Lines executed:0.00% of 1559
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#mpeg12dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 109
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mpegvideodec.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#mpegvideodec.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavutil#emms.h.gcov'
+
+File 'libavcodec/mpegpicture.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#mpegpicture.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/mpeg12dec.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavcodec#mpeg12dec.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mpeg12dec.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 1722

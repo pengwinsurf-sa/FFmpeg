@@ -1,0 +1,87 @@
+Function 'ff_format_io_close'
+Lines executed:0.00% of 6
+
+Function 'ff_format_set_url'
+Lines executed:0.00% of 5
+
+Function 'ff_is_intra_only'
+Lines executed:0.00% of 6
+
+Function 'ff_copy_whiteblacklists'
+Lines executed:0.00% of 11
+
+Function 'ff_find_decoder'
+Lines executed:0.00% of 9
+
+Function 'avpriv_set_pts_info'
+Lines executed:0.00% of 14
+
+Function 'av_stream_get_codec_timebase'
+Lines executed:0.00% of 2
+
+Function 'avformat_transfer_internal_stream_timing_info'
+Lines executed:0.00% of 44
+
+Function 'av_guess_frame_rate'
+Lines executed:0.00% of 13
+
+Function 'av_guess_sample_aspect_ratio'
+Lines executed:0.00% of 16
+
+Function 'avformat_match_stream_specifier'
+Lines executed:0.00% of 28
+
+Function 'match_stream_specifier'
+Lines executed:0.00% of 105
+
+Function 'av_find_best_stream'
+Lines executed:0.00% of 53
+
+Function 'av_find_default_stream_index'
+Lines executed:0.00% of 24
+
+Function 'av_find_program_from_stream'
+Lines executed:0.00% of 7
+
+Function 'av_program_add_stream_index'
+Lines executed:0.00% of 17
+
+Function 'av_new_program'
+Lines executed:0.00% of 21
+
+Function 'avformat_stream_group_name'
+Lines executed:0.00% of 6
+
+Function 'ff_stream_clone'
+Lines executed:0.00% of 9
+
+Function 'stream_params_copy'
+Lines executed:0.00% of 23
+
+Function 'avformat_free_context'
+Lines executed:0.00% of 41
+
+Function 'ff_flush_packet_queue'
+Lines executed:0.00% of 8
+
+Function 'ff_remove_stream_group'
+Lines executed:0.00% of 5
+
+Function 'ff_remove_stream'
+Lines executed:0.00% of 5
+
+Function 'ff_free_stream_group'
+Lines executed:0.00% of 25
+
+Function 'ff_free_stream'
+Lines executed:0.00% of 19
+
+File 'libavformat/avformat.c'
+Lines executed:0.00% of 517
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avformat.gcno##libavformat#avformat.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avformat.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 522

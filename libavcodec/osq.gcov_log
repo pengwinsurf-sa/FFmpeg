@@ -1,0 +1,61 @@
+Function 'osq_receive_frame'
+Lines executed:0.00% of 65
+
+Function 'osq_decode_block'
+Lines executed:0.00% of 56
+
+Function 'do_decode'
+Lines executed:0.00% of 106
+
+Function 'osq_channel_parameters'
+Lines executed:0.00% of 19
+
+Function 'get_srice'
+Lines executed:0.00% of 3
+
+Function 'get_urice'
+Lines executed:0.00% of 10
+
+Function 'update_residue_parameter'
+Lines executed:0.00% of 15
+
+Function 'reset_stats'
+Lines executed:0.00% of 6
+
+Function 'osq_init'
+Lines executed:0.00% of 31
+
+Function 'osq_close'
+Lines executed:0.00% of 7
+
+Function 'osq_flush'
+Lines executed:0.00% of 5
+
+Function 'get_bits_long'
+Lines executed:0.00% of 25
+
+File 'libavcodec/osq.c'
+Lines executed:0.00% of 258
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#osq.gcno##libavcodec#osq.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#osq.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 69
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#osq.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#osq.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#osq.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#osq.gcno##libavcodec#unary.h.gcov'
+
+Lines executed:0.00% of 348

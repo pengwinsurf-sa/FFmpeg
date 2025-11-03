@@ -1,0 +1,50 @@
+Function 'usm_read_close'
+Lines executed:0.00% of 5
+
+Function 'usm_read_packet'
+Lines executed:0.00% of 27
+
+Function 'parse_chunk'
+Lines executed:0.00% of 95
+
+Function 'parse_utf'
+Lines executed:0.00% of 141
+
+Function 'usm_read_header'
+Lines executed:0.00% of 3
+
+Function 'usm_probe'
+Lines executed:0.00% of 4
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/usmdec.c'
+Lines executed:0.00% of 237
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavformat#usmdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavutil#rational.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 19
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#usmdec.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 277

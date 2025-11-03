@@ -1,0 +1,14 @@
+Function 'ff_idet_init_x86'
+Lines executed:0.00% of 5
+
+Function 'idet_filter_line_16bit_sse2'
+Lines executed:0.00% of 1
+
+Function 'idet_filter_line_sse2'
+Lines executed:0.00% of 1
+
+File 'libavfilter/x86/vf_idet_init.c'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_idet_init.gcno##libavfilter#x86#vf_idet_init.c.gcov'
+
+Lines executed:0.00% of 7

@@ -1,0 +1,69 @@
+Function 'process_command'
+Lines executed:0.00% of 13
+
+Function 'request_frame'
+Lines executed:0.00% of 26
+
+Function 'filter_frame'
+Lines executed:0.00% of 31
+
+Function 'push_samples'
+Lines executed:0.00% of 14
+
+Function 'config_props'
+Lines executed:0.00% of 6
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'init'
+Lines executed:0.00% of 5
+
+Function 'yae_flush'
+Lines executed:0.00% of 46
+
+Function 'yae_apply'
+Lines executed:0.00% of 24
+
+Function 'yae_overlap_add'
+Lines executed:0.00% of 22
+
+Function 'yae_adjust_position'
+Lines executed:0.00% of 15
+
+Function 'yae_align'
+Lines executed:0.00% of 23
+
+Function 'yae_xcorr_via_rdft'
+Lines executed:0.00% of 8
+
+Function 'yae_advance_to_next_frag'
+Lines executed:0.00% of 11
+
+Function 'yae_load_frag'
+Lines executed:0.00% of 43
+
+Function 'yae_load_data'
+Lines executed:0.00% of 34
+
+Function 'yae_downmix'
+Lines executed:0.00% of 10
+
+Function 'yae_reset'
+Lines executed:0.00% of 53
+
+Function 'yae_release_buffers'
+Lines executed:0.00% of 15
+
+Function 'yae_clear'
+Lines executed:0.00% of 25
+
+File 'libavfilter/af_atempo.c'
+Lines executed:0.00% of 424
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_atempo.gcno##libavfilter#af_atempo.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_atempo.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 428

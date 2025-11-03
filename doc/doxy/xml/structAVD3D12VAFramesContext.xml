@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVD3D12VAFramesContext" kind="struct" language="C++" prot="public">
+    <compoundname>AVD3D12VAFramesContext</compoundname>
+    <includes refid="hwcontext__d3d12va_8h" local="no">libavutil/hwcontext_d3d12va.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVD3D12VAFramesContext_1af6f32db5f377e4cea4fa8a2298b81046" prot="public" static="no" mutable="no">
+        <type>DXGI_FORMAT</type>
+        <definition>DXGI_FORMAT AVD3D12VAFramesContext::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <qualifiedname>AVD3D12VAFramesContext::format</qualifiedname>
+        <briefdescription>
+<para>DXGI_FORMAT format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>MUST be compatible with the pixel format. If unset, will be automatically set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="131" column="17" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VAFramesContext_1a3c0ebac3a1f0dcd4ac11dbda33b8c9f3" prot="public" static="no" mutable="no">
+        <type>D3D12_RESOURCE_FLAGS</type>
+        <definition>D3D12_RESOURCE_FLAGS AVD3D12VAFramesContext::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>AVD3D12VAFramesContext::flags</qualifiedname>
+        <briefdescription>
+<para>Options for working with resources. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If unset, this will be D3D12_RESOURCE_FLAG_NONE.</para>
+<para><simplesect kind="see"><para><ulink url="https://learn.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags">https://learn.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags</ulink> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="139" column="26" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This struct is allocated as <ref refid="structAVHWFramesContext_1a54e38c3e4355321e23e0f4c7411cb8ee" kindref="member">AVHWFramesContext.hwctx</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/hwcontext_d3d12va.h" line="126" column="1" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="126" bodyend="140"/>
+    <listofallmembers>
+      <member refid="structAVD3D12VAFramesContext_1a3c0ebac3a1f0dcd4ac11dbda33b8c9f3" prot="public" virt="non-virtual"><scope>AVD3D12VAFramesContext</scope><name>flags</name></member>
+      <member refid="structAVD3D12VAFramesContext_1af6f32db5f377e4cea4fa8a2298b81046" prot="public" virt="non-virtual"><scope>AVD3D12VAFramesContext</scope><name>format</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+Function 'check_avoptions'
+Lines executed:0.00% of 5
+
+Function 'remove_avoptions'
+Lines executed:0.00% of 5
+
+Function 'file_read'
+Lines executed:0.00% of 17
+
+Function 'get_rotation'
+Lines executed:0.00% of 8
+
+Function 'allocate_array_elem'
+Lines executed:0.00% of 5
+
+Function 'grow_array'
+Lines executed:0.00% of 13
+
+Function 'setup_find_stream_info_opts'
+Lines executed:0.00% of 19
+
+Function 'filter_codec_opts'
+Lines executed:0.00% of 48
+
+Function 'check_stream_specifier'
+Lines executed:0.00% of 8
+
+Function 'stream_specifier_match'
+Lines executed:0.00% of 67
+
+Function 'stream_specifier_parse'
+Lines executed:0.00% of 138
+
+Function 'stream_specifier_uninit'
+Lines executed:0.00% of 6
+
+Function 'cmdutils_isalnum'
+Lines executed:0.00% of 4
+
+Function 'get_preset_file'
+Lines executed:0.00% of 26
+
+Function 'read_yesno'
+Lines executed:0.00% of 12
+
+Function 'split_commandline'
+Lines executed:0.00% of 72
+
+Function 'uninit_parse_context'
+Lines executed:0.00% of 16
+
+Function 'init_parse_context'
+Lines executed:0.00% of 12
+
+Function 'add_opt'
+Lines executed:0.00% of 10
+
+Function 'finish_group'
+Lines executed:0.00% of 20
+
+Function 'match_group_separator'
+Lines executed:0.00% of 6
+
+Function 'opt_default'
+Lines executed:0.00% of 38
+
+Function 'parse_loglevel'
+Lines executed:0.00% of 28
+
+Function 'check_options'
+Lines executed:0.00% of 9
+
+Function 'dump_argument'
+Lines executed:0.00% of 16
+
+Function 'locate_option'
+Lines executed:0.00% of 16
+
+Function 'parse_optgroup'
+Lines executed:0.00% of 19
+
+Function 'parse_options'
+Lines executed:0.00% of 19
+
+Function 'parse_option'
+Lines executed:0.00% of 22
+
+Function 'write_option'
+Lines executed:0.00% of 87
+
+Function 'find_option'
+Lines executed:0.00% of 8
+
+Function 'show_help_children'
+Lines executed:0.00% of 11
+
+Function 'show_help_options'
+Lines executed:0.00% of 22
+
+Function 'parse_number'
+Lines executed:0.00% of 12
+
+Function 'init_dynload'
+Lines executed:0.00% of 2
+
+Function 'log_callback_help'
+Lines executed:0.00% of 5
+
+Function 'uninit_opts'
+Lines executed:0.00% of 6
+
+File 'fftools/cmdutils.c'
+Lines executed:0.00% of 814
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno##fftools#cmdutils.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/getenv_utf8.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno##libavutil#getenv_utf8.h.gcov'
+
+File 'fftools/fopen_utf8.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno##fftools#fopen_utf8.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno###usr#include#x86_64-linux-gnu#bits#stdio.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno##libavutil#avstring.h.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#cmdutils.gcno##libavutil#error.h.gcov'
+
+Lines executed:0.00% of 837

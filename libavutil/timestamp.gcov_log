@@ -1,0 +1,16 @@
+Function 'av_ts_make_time_string2'
+Lines executed:0.00% of 16
+
+File 'libavutil/timestamp.c'
+Lines executed:0.00% of 12
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timestamp.gcno##libavutil#timestamp.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timestamp.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#timestamp.gcno##libavutil#rational.h.gcov'
+
+Lines executed:0.00% of 16

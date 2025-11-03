@@ -1,0 +1,20 @@
+Function 'ff_dnxhd_print_profiles'
+Lines executed:0.00% of 9
+
+Function 'ff_dnxhd_find_cid'
+Lines executed:0.00% of 20
+
+Function 'ff_dnxhd_get_hr_frame_size'
+Lines executed:0.00% of 7
+
+Function 'ff_dnxhd_get_frame_size'
+Lines executed:0.00% of 4
+
+Function 'ff_dnxhd_get_cid_table'
+Lines executed:0.00% of 4
+
+File 'libavcodec/dnxhddata.c'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dnxhddata.gcno##libavcodec#dnxhddata.c.gcov'
+
+Lines executed:0.00% of 44

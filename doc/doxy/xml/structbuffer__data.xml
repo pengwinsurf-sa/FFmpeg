@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structbuffer__data" kind="struct" language="C++" prot="public">
+    <compoundname>buffer_data</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbuffer__data_1a017ad9c72fdc7666c29841ddeefc8cd8" prot="public" static="no" mutable="no">
+        <type>uint8_t *</type>
+        <definition>uint8_t* buffer_data::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <qualifiedname>buffer_data::ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/avio_read_callback.c" line="38" column="13" bodyfile="doc/examples/avio_read_callback.c" bodystart="38" bodyend="-1"/>
+        <referencedby refid="avio__read__callback_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="avio__read__callback_8c" startline="59" endline="134">main</referencedby>
+        <referencedby refid="avio__read__callback_8c_1a3a86bff38e7cb9093d0a32316b73b29c" compoundref="avio__read__callback_8c" startline="42" endline="57">read_packet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbuffer__data_1a9ca6d8ef5edd7f113c04c865f9367f8c" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t buffer_data::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>buffer_data::size</qualifiedname>
+        <briefdescription>
+<para>size left in the buffer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doc/examples/avio_read_callback.c" line="39" column="12" bodyfile="doc/examples/avio_read_callback.c" bodystart="39" bodyend="-1"/>
+        <referencedby refid="avio__read__callback_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="avio__read__callback_8c" startline="59" endline="134">main</referencedby>
+        <referencedby refid="avio__read__callback_8c_1a3a86bff38e7cb9093d0a32316b73b29c" compoundref="avio__read__callback_8c" startline="42" endline="57">read_packet</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="doc/examples/avio_read_callback.c" line="37" column="1" bodyfile="doc/examples/avio_read_callback.c" bodystart="37" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structbuffer__data_1a017ad9c72fdc7666c29841ddeefc8cd8" prot="public" virt="non-virtual"><scope>buffer_data</scope><name>ptr</name></member>
+      <member refid="structbuffer__data_1a9ca6d8ef5edd7f113c04c865f9367f8c" prot="public" virt="non-virtual"><scope>buffer_data</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+Function 'mpl2_read_header'
+Lines executed:0.00% of 30
+
+Function 'read_ts'
+Lines executed:0.00% of 14
+
+Function 'mpl2_probe'
+Lines executed:0.00% of 22
+
+File 'libavformat/mpl2dec.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpl2dec.gcno##libavformat#mpl2dec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpl2dec.gcno##libavformat#avio.h.gcov'
+
+File 'libavformat/subtitles.h'
+Lines executed:0.00% of 9
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpl2dec.gcno##libavformat#subtitles.h.gcov'
+
+Lines executed:0.00% of 66

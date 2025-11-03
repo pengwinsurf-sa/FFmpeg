@@ -1,0 +1,176 @@
+Function 'ff_hevc_pred_init'
+Lines executed:0.00% of 15
+
+Function 'pred_angular_3_12'
+Lines executed:0.00% of 52
+
+Function 'pred_angular_2_12'
+Lines executed:0.00% of 14
+
+Function 'pred_angular_1_12'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_0_12'
+Lines executed:0.00% of 3
+
+Function 'pred_dc_12'
+Lines executed:0.00% of 22
+
+Function 'pred_planar_3_12'
+Lines executed:0.00% of 11
+
+Function 'pred_planar_2_12'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_1_12'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_0_12'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_5_12'
+Lines executed:0.00% of 212
+
+Function 'intra_pred_4_12'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_3_12'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_2_12'
+Lines executed:0.00% of 1
+
+Function 'pred_angular_3_10'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_2_10'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_1_10'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_0_10'
+Lines executed:0.00% of 3
+
+Function 'pred_dc_10'
+Lines executed:0.00% of 22
+
+Function 'pred_planar_3_10'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_2_10'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_1_10'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_0_10'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_5_10'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_4_10'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_3_10'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_2_10'
+Lines executed:0.00% of 1
+
+Function 'pred_angular_3_9'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_2_9'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_1_9'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_0_9'
+Lines executed:0.00% of 3
+
+Function 'pred_dc_9'
+Lines executed:0.00% of 22
+
+Function 'pred_planar_3_9'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_2_9'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_1_9'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_0_9'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_5_9'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_4_9'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_3_9'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_2_9'
+Lines executed:0.00% of 1
+
+Function 'pred_angular_3_8'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_2_8'
+Lines executed:0.00% of 6
+
+Function 'pred_angular_1_8'
+Lines executed:0.00% of 3
+
+Function 'pred_angular_0_8'
+Lines executed:0.00% of 3
+
+Function 'pred_dc_8'
+Lines executed:0.00% of 22
+
+Function 'pred_planar_3_8'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_2_8'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_1_8'
+Lines executed:0.00% of 1
+
+Function 'pred_planar_0_8'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_5_8'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_4_8'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_3_8'
+Lines executed:0.00% of 1
+
+Function 'intra_pred_2_8'
+Lines executed:0.00% of 1
+
+File 'libavcodec/hevc/pred.c'
+Lines executed:0.00% of 15
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#pred.gcno##libavcodec#hevc#pred.c.gcov'
+
+File 'libavcodec/hevc/pred_template.c'
+Lines executed:0.00% of 483
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#pred.gcno##libavcodec#hevc#pred_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#pred.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hevc#pred.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 509

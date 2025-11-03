@@ -1,0 +1,30 @@
+Function 'checkasm_check_opusdsp'
+Lines executed:100.00% of 16
+
+Function 'test_deemphasis'
+Lines executed:70.83% of 24
+
+Function 'test_postfilter'
+Lines executed:93.75% of 16
+
+File 'tests/checkasm/opusdsp.c'
+Lines executed:95.45% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#opusdsp.gcno##tests#checkasm#opusdsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#opusdsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#opusdsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#opusdsp.gcno##libavutil#emms.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#opusdsp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:85.71% of 56

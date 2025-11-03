@@ -1,0 +1,14 @@
+Function 'read_packet'
+Lines executed:0.00% of 11
+
+Function 'read_header'
+Lines executed:0.00% of 12
+
+Function 'read_probe'
+Lines executed:0.00% of 8
+
+File 'libavformat/cdg.c'
+Lines executed:0.00% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#cdg.gcno##libavformat#cdg.c.gcov'
+
+Lines executed:0.00% of 31

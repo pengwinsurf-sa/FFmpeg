@@ -1,0 +1,27 @@
+Function 'checkasm_check_g722dsp'
+Lines executed:100.00% of 7
+
+Function 'check_qmf'
+Lines executed:76.67% of 30
+
+File 'tests/checkasm/g722dsp.c'
+Lines executed:95.65% of 23
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#g722dsp.gcno##tests#checkasm#g722dsp.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#g722dsp.gcno##libavutil#lfg.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#g722dsp.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#g722dsp.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#g722dsp.gcno##libavutil#emms.h.gcov'
+
+Lines executed:81.08% of 37

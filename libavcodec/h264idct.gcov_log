@@ -1,0 +1,193 @@
+Function 'ff_h264_chroma_dc_dequant_idct_14_c'
+Lines executed:0.00% of 18
+
+Function 'ff_h264_chroma422_dc_dequant_idct_14_c'
+Lines executed:0.00% of 21
+
+Function 'ff_h264_luma_dc_dequant_idct_14_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_idct_add8_422_14_c'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_idct_add8_14_c'
+Lines executed:0.00% of 9
+
+Function 'ff_h264_idct8_add4_14_c'
+Lines executed:0.00% of 8
+
+Function 'ff_h264_idct_add16intra_14_c'
+Lines executed:0.00% of 6
+
+Function 'ff_h264_idct_add16_14_c'
+Lines executed:0.00% of 8
+
+Function 'ff_h264_idct8_dc_add_14_c'
+Lines executed:100.00% of 14
+
+Function 'ff_h264_idct_dc_add_14_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct8_add_14_c'
+Lines executed:100.00% of 60
+
+Function 'ff_h264_idct_add_14_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_chroma_dc_dequant_idct_12_c'
+Lines executed:0.00% of 18
+
+Function 'ff_h264_chroma422_dc_dequant_idct_12_c'
+Lines executed:0.00% of 21
+
+Function 'ff_h264_luma_dc_dequant_idct_12_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_idct_add8_422_12_c'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_idct_add8_12_c'
+Lines executed:0.00% of 9
+
+Function 'ff_h264_idct8_add4_12_c'
+Lines executed:0.00% of 8
+
+Function 'ff_h264_idct_add16intra_12_c'
+Lines executed:0.00% of 6
+
+Function 'ff_h264_idct_add16_12_c'
+Lines executed:0.00% of 8
+
+Function 'ff_h264_idct8_dc_add_12_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct_dc_add_12_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct8_add_12_c'
+Lines executed:100.00% of 58
+
+Function 'ff_h264_idct_add_12_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_chroma_dc_dequant_idct_10_c'
+Lines executed:0.00% of 18
+
+Function 'ff_h264_chroma422_dc_dequant_idct_10_c'
+Lines executed:0.00% of 21
+
+Function 'ff_h264_luma_dc_dequant_idct_10_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_idct_add8_422_10_c'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_idct_add8_10_c'
+Lines executed:0.00% of 9
+
+Function 'ff_h264_idct8_add4_10_c'
+Lines executed:100.00% of 8
+
+Function 'ff_h264_idct_add16intra_10_c'
+Lines executed:100.00% of 6
+
+Function 'ff_h264_idct_add16_10_c'
+Lines executed:100.00% of 8
+
+Function 'ff_h264_idct8_dc_add_10_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct_dc_add_10_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct8_add_10_c'
+Lines executed:100.00% of 58
+
+Function 'ff_h264_idct_add_10_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_chroma_dc_dequant_idct_9_c'
+Lines executed:0.00% of 18
+
+Function 'ff_h264_chroma422_dc_dequant_idct_9_c'
+Lines executed:0.00% of 21
+
+Function 'ff_h264_luma_dc_dequant_idct_9_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_idct_add8_422_9_c'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_idct_add8_9_c'
+Lines executed:0.00% of 9
+
+Function 'ff_h264_idct8_add4_9_c'
+Lines executed:100.00% of 8
+
+Function 'ff_h264_idct_add16intra_9_c'
+Lines executed:100.00% of 6
+
+Function 'ff_h264_idct_add16_9_c'
+Lines executed:100.00% of 8
+
+Function 'ff_h264_idct8_dc_add_9_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct_dc_add_9_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct8_add_9_c'
+Lines executed:100.00% of 58
+
+Function 'ff_h264_idct_add_9_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_chroma_dc_dequant_idct_8_c'
+Lines executed:0.00% of 18
+
+Function 'ff_h264_chroma422_dc_dequant_idct_8_c'
+Lines executed:0.00% of 21
+
+Function 'ff_h264_luma_dc_dequant_idct_8_c'
+Lines executed:100.00% of 26
+
+Function 'ff_h264_idct_add8_422_8_c'
+Lines executed:0.00% of 15
+
+Function 'ff_h264_idct_add8_8_c'
+Lines executed:0.00% of 9
+
+Function 'ff_h264_idct8_add4_8_c'
+Lines executed:100.00% of 8
+
+Function 'ff_h264_idct_add16intra_8_c'
+Lines executed:100.00% of 6
+
+Function 'ff_h264_idct_add16_8_c'
+Lines executed:100.00% of 8
+
+Function 'ff_h264_idct8_dc_add_8_c'
+Lines executed:100.00% of 15
+
+Function 'ff_h264_idct_dc_add_8_c'
+Lines executed:100.00% of 12
+
+Function 'ff_h264_idct8_add_8_c'
+Lines executed:100.00% of 58
+
+Function 'ff_h264_idct_add_8_c'
+Lines executed:100.00% of 26
+
+File 'libavcodec/h264idct_template.c'
+Lines executed:67.88% of 1314
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264idct.gcno##libavcodec#h264idct_template.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:100.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264idct.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:100.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264idct.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:68.05% of 1321

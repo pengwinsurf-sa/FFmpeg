@@ -1,0 +1,34 @@
+Function 'ff_mlp_read_major_sync'
+Lines executed:0.00% of 86
+
+Function 'mlp_get_major_sync_size'
+Lines executed:0.00% of 11
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+File 'libavcodec/mlp_parse.c'
+Lines executed:0.00% of 63
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp_parse.gcno##libavcodec#mlp_parse.c.gcov'
+
+File 'libavcodec/mlp_parse.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp_parse.gcno##libavcodec#mlp_parse.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp_parse.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp_parse.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp_parse.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlp_parse.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 114

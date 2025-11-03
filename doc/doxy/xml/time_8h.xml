@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="time_8h" kind="file" language="C++">
+    <compoundname>time.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="parseutils_8h" local="no">libavutil/parseutils.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>libavutil/time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>doc/examples/scale_video.c</label>
+        <link refid="scale__video_8c"/>
+      </node>
+      <node id="2">
+        <label>libavutil/parseutils.h</label>
+        <link refid="parseutils_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>libavutil/time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="time_8h_1aebf7f9c94187487c31d26fa3da816468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t av_gettime</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_gettime</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the current time in microseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/time.h" line="29" column="9" declfile="libavutil/time.h" declline="29" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="time_8h_1adf0e36df54426fa167e3cc5a3406f3b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t av_gettime_relative</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_gettime_relative</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the current time in microseconds since some unspecified starting point. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On platforms that support it, the time comes from a monotonic clock This property makes this time source ideal for measuring relative time. The returned values may not be monotonic on platforms where a monotonic clock is not available. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/time.h" line="38" column="9" declfile="libavutil/time.h" declline="38" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="time_8h_1ae0df8c82a87a2eed390e4e7eac5e86bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_gettime_relative_is_monotonic</definition>
+        <argsstring>(void)</argsstring>
+        <name>av_gettime_relative_is_monotonic</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Indicates with a boolean result if the <ref refid="time_8h_1adf0e36df54426fa167e3cc5a3406f3b7" kindref="member">av_gettime_relative()</ref> time source is monotonic. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/time.h" line="44" column="5" declfile="libavutil/time.h" declline="44" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="time_8h_1a4eee9c65835652a808973f4bc1641a51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int av_usleep</definition>
+        <argsstring>(unsigned usec)</argsstring>
+        <name>av_usleep</name>
+        <param>
+          <type>unsigned</type>
+          <declname>usec</declname>
+        </param>
+        <briefdescription>
+<para>Sleep for a period of time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Although the duration is expressed in microseconds, the actual delay may be rounded to the precision of the system timer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>usec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of microseconds to sleep. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>zero on success or (negative) error code. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/time.h" line="54" column="5" declfile="libavutil/time.h" declline="54" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2000-2003<sp/>Fabrice<sp/>Bellard</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>FFmpeg.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>version<sp/>2.1<sp/>of<sp/>the<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>FFmpeg<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>License<sp/>along<sp/>with<sp/>FFmpeg;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVUTIL_TIME_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVUTIL_TIME_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="26"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>current<sp/>time<sp/>in<sp/>microseconds.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="time_8h_1aebf7f9c94187487c31d26fa3da816468" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="time_8h_1aebf7f9c94187487c31d26fa3da816468" kindref="member">av_gettime</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>Get<sp/>the<sp/>current<sp/>time<sp/>in<sp/>microseconds<sp/>since<sp/>some<sp/>unspecified<sp/>starting<sp/>point.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>On<sp/>platforms<sp/>that<sp/>support<sp/>it,<sp/>the<sp/>time<sp/>comes<sp/>from<sp/>a<sp/>monotonic<sp/>clock</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>This<sp/>property<sp/>makes<sp/>this<sp/>time<sp/>source<sp/>ideal<sp/>for<sp/>measuring<sp/>relative<sp/>time.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>The<sp/>returned<sp/>values<sp/>may<sp/>not<sp/>be<sp/>monotonic<sp/>on<sp/>platforms<sp/>where<sp/>a<sp/>monotonic</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>clock<sp/>is<sp/>not<sp/>available.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="time_8h_1adf0e36df54426fa167e3cc5a3406f3b7" refkind="member"><highlight class="normal">int64_t<sp/><ref refid="time_8h_1adf0e36df54426fa167e3cc5a3406f3b7" kindref="member">av_gettime_relative</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="40"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>Indicates<sp/>with<sp/>a<sp/>boolean<sp/>result<sp/>if<sp/>the<sp/>av_gettime_relative()<sp/>time<sp/>source</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>is<sp/>monotonic.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="time_8h_1ae0df8c82a87a2eed390e4e7eac5e86bd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="time_8h_1ae0df8c82a87a2eed390e4e7eac5e86bd" kindref="member">av_gettime_relative_is_monotonic</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="46"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>Sleep<sp/>for<sp/>a<sp/>period<sp/>of<sp/>time.<sp/><sp/>Although<sp/>the<sp/>duration<sp/>is<sp/>expressed<sp/>in</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>microseconds,<sp/>the<sp/>actual<sp/>delay<sp/>may<sp/>be<sp/>rounded<sp/>to<sp/>the<sp/>precision<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>system<sp/>timer.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>@param<sp/><sp/>usec<sp/>Number<sp/>of<sp/>microseconds<sp/>to<sp/>sleep.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>@return<sp/>zero<sp/>on<sp/>success<sp/>or<sp/>(negative)<sp/>error<sp/>code.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="time_8h_1a4eee9c65835652a808973f4bc1641a51" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="time_8h_1a4eee9c65835652a808973f4bc1641a51" kindref="member">av_usleep</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>usec);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AVUTIL_TIME_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="libavutil/time.h"/>
+  </compounddef>
+</doxygen>

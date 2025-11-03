@@ -1,0 +1,36 @@
+Function 'xiph_parse_sdp_line'
+Lines executed:0.00% of 5
+
+Function 'xiph_parse_fmtp_pair'
+Lines executed:0.00% of 38
+
+Function 'parse_packed_headers'
+Lines executed:0.00% of 53
+
+Function 'xiph_handle_packet'
+Lines executed:0.00% of 82
+
+Function 'xiph_close_context'
+Lines executed:0.00% of 4
+
+File 'libavformat/rtpdec_xiph.c'
+Lines executed:0.00% of 168
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_xiph.gcno##libavformat#rtpdec_xiph.c.gcov'
+
+File '/usr/include/stdlib.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_xiph.gcno###usr#include#stdlib.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_xiph.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_xiph.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rtpdec_xiph.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 182

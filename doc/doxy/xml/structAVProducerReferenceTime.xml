@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVProducerReferenceTime" kind="struct" language="C++" prot="public">
+    <compoundname>AVProducerReferenceTime</compoundname>
+    <includes refid="defs_8h" local="no">libavcodec/defs.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVProducerReferenceTime_1aa44842dba607b9947fc6e1c1d9638faf" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t AVProducerReferenceTime::wallclock</definition>
+        <argsstring></argsstring>
+        <name>wallclock</name>
+        <qualifiedname>AVProducerReferenceTime::wallclock</qualifiedname>
+        <briefdescription>
+<para>A UTC timestamp, in microseconds, since Unix epoch (e.g, <ref refid="time_8h_1aebf7f9c94187487c31d26fa3da816468" kindref="member">av_gettime()</ref>). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="332" column="13" bodyfile="libavcodec/defs.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVProducerReferenceTime_1a05ccbc7140b41059cccbaa06ad8910f8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AVProducerReferenceTime::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>AVProducerReferenceTime::flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="333" column="9" bodyfile="libavcodec/defs.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This structure supplies correlation between a packet timestamp and a wall clock production time. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The definition follows the Producer Reference Time (&apos;prft&apos;) as defined in ISO/IEC 14496-12 </para>
+    </detaileddescription>
+    <location file="libavcodec/defs.h" line="328" column="1" bodyfile="libavcodec/defs.h" bodystart="328" bodyend="334"/>
+    <listofallmembers>
+      <member refid="structAVProducerReferenceTime_1a05ccbc7140b41059cccbaa06ad8910f8" prot="public" virt="non-virtual"><scope>AVProducerReferenceTime</scope><name>flags</name></member>
+      <member refid="structAVProducerReferenceTime_1aa44842dba607b9947fc6e1c1d9638faf" prot="public" virt="non-virtual"><scope>AVProducerReferenceTime</scope><name>wallclock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

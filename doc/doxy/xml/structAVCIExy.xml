@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVCIExy" kind="struct" language="C++" prot="public">
+    <compoundname>AVCIExy</compoundname>
+    <includes refid="csp_8h" local="no">libavutil/csp.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVCIExy_1a081b20c1e491a7dc8abe75c3c5b49ad7" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational AVCIExy::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>AVCIExy::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/csp.h" line="57" column="16" bodyfile="libavutil/csp.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVCIExy_1afc299715d40d4eabe874459afcc4bc8f" prot="public" static="no" mutable="no">
+        <type><ref refid="structAVRational" kindref="compound">AVRational</ref></type>
+        <definition>AVRational AVCIExy::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>AVCIExy::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/csp.h" line="57" column="18" bodyfile="libavutil/csp.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Struct containing chromaticity x and y values for the standard CIE 1931 chromaticity definition. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AVCIExy</label>
+        <link refid="structAVCIExy"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AVRational</label>
+        <link refid="structAVRational"/>
+      </node>
+    </collaborationgraph>
+    <location file="libavutil/csp.h" line="56" column="1" bodyfile="libavutil/csp.h" bodystart="56" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structAVCIExy_1a081b20c1e491a7dc8abe75c3c5b49ad7" prot="public" virt="non-virtual"><scope>AVCIExy</scope><name>x</name></member>
+      <member refid="structAVCIExy_1afc299715d40d4eabe874459afcc4bc8f" prot="public" virt="non-virtual"><scope>AVCIExy</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+Function 'adpcm_flush'
+Lines executed:0.00% of 29
+
+Function 'adpcm_decode_frame'
+Lines executed:0.00% of 247
+
+Function 'get_nb_samples'
+Lines executed:0.00% of 155
+
+Function 'ff_adpcm_argo_expand_nibble'
+Lines executed:0.00% of 9
+
+Function 'adpcm_swf_decode'
+Lines executed:0.00% of 43
+
+Function 'xa_decode'
+Lines executed:0.00% of 59
+
+Function 'adpcm_zork_expand_nibble'
+Lines executed:0.00% of 27
+
+Function 'adpcm_mtaf_expand_nibble'
+Lines executed:0.00% of 8
+
+Function 'adpcm_yamaha_expand_nibble'
+Lines executed:0.00% of 9
+
+Function 'adpcm_sbpro_expand_nibble'
+Lines executed:0.00% of 11
+
+Function 'adpcm_ct_expand_nibble'
+Lines executed:0.00% of 11
+
+Function 'adpcm_ima_oki_expand_nibble'
+Lines executed:0.00% of 14
+
+Function 'adpcm_ms_expand_nibble'
+Lines executed:0.00% of 12
+
+Function 'adpcm_ima_qt_expand_nibble'
+Lines executed:0.00% of 17
+
+Function 'adpcm_ima_wav_expand_nibble'
+Lines executed:0.00% of 29
+
+Function 'adpcm_ima_cunning_expand_nibble'
+Lines executed:0.00% of 12
+
+Function 'adpcm_ima_mtf_expand_nibble'
+Lines executed:0.00% of 9
+
+Function 'adpcm_ima_alp_expand_nibble'
+Lines executed:0.00% of 16
+
+Function 'adpcm_ima_expand_nibble'
+Lines executed:0.00% of 16
+
+Function 'adpcm_agm_expand_nibble'
+Lines executed:0.00% of 34
+
+Function 'adpcm_decode_init'
+Lines executed:0.00% of 53
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+Function 'get_sbits'
+Lines executed:0.00% of 16
+
+File 'libavcodec/adpcm.c'
+Lines executed:0.00% of 731
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavcodec#adpcm.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 13
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#adpcm.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 853

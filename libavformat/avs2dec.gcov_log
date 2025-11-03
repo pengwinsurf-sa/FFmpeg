@@ -1,0 +1,12 @@
+Function 'avs2_probe'
+Lines executed:0.00% of 22
+
+File 'libavformat/avs2dec.c'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avs2dec.gcno##libavformat#avs2dec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#avs2dec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 22

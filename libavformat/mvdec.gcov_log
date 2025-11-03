@@ -1,0 +1,59 @@
+Function 'mv_read_seek'
+Lines executed:0.00% of 10
+
+Function 'mv_read_packet'
+Lines executed:0.00% of 34
+
+Function 'mv_read_header'
+Lines executed:0.00% of 127
+
+Function 'read_index'
+Lines executed:0.00% of 12
+
+Function 'read_table'
+Lines executed:0.00% of 21
+
+Function 'parse_video_var'
+Lines executed:0.00% of 42
+
+Function 'parse_audio_var'
+Lines executed:0.00% of 22
+
+Function 'parse_global_var'
+Lines executed:0.00% of 12
+
+Function 'set_channels'
+Lines executed:0.00% of 6
+
+Function 'var_read_metadata'
+Lines executed:0.00% of 5
+
+Function 'var_read_float'
+Lines executed:0.00% of 8
+
+Function 'var_read_int'
+Lines executed:0.00% of 7
+
+Function 'var_read_string'
+Lines executed:0.00% of 9
+
+Function 'mv_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/mvdec.c'
+Lines executed:0.00% of 313
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mvdec.gcno##libavformat#mvdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mvdec.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mvdec.gcno##libavutil#intfloat.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mvdec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 324

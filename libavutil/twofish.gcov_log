@@ -1,0 +1,36 @@
+Function 'av_twofish_crypt'
+Lines executed:0.00% of 16
+
+Function 'av_twofish_init'
+Lines executed:0.00% of 32
+
+Function 'twofish_decrypt'
+Lines executed:0.00% of 33
+
+Function 'twofish_encrypt'
+Lines executed:0.00% of 25
+
+Function 'precomputeMDS'
+Lines executed:0.00% of 11
+
+Function 'tf_h'
+Lines executed:0.00% of 9
+
+Function 'tf_h0'
+Lines executed:0.00% of 20
+
+Function 'tf_RS'
+Lines executed:0.00% of 20
+
+Function 'av_twofish_alloc'
+Lines executed:0.00% of 2
+
+File 'libavutil/twofish.c'
+Lines executed:0.00% of 164
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#twofish.gcno##libavutil#twofish.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#twofish.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 168

@@ -1,0 +1,28 @@
+Function 'adts_aac_read_packet'
+Lines executed:0.00% of 28
+
+Function 'handle_id3'
+Lines executed:0.00% of 20
+
+Function 'adts_aac_read_header'
+Lines executed:0.00% of 20
+
+Function 'adts_aac_resync'
+Lines executed:0.00% of 14
+
+Function 'adts_aac_probe'
+Lines executed:0.00% of 26
+
+File 'libavformat/aacdec.c'
+Lines executed:0.00% of 101
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aacdec.gcno##libavformat#aacdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aacdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aacdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 108

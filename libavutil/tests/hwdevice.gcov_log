@@ -1,0 +1,21 @@
+Function 'main'
+Lines executed:0.00% of 18
+
+Function 'test_device_type'
+Lines executed:0.00% of 32
+
+Function 'test_device'
+Lines executed:0.00% of 17
+
+Function 'test_derivation'
+Lines executed:0.00% of 40
+
+File 'libavutil/tests/hwdevice.c'
+Lines executed:0.00% of 105
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#hwdevice.gcno##libavutil#tests#hwdevice.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#hwdevice.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 107

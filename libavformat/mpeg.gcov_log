@@ -1,0 +1,71 @@
+Function 'vobsub_read_seek'
+Lines executed:0.00% of 15
+
+Function 'vobsub_read_packet'
+Lines executed:0.00% of 49
+
+Function 'vobsub_read_header'
+Lines executed:0.00% of 132
+
+Function 'vobsub_read_close'
+Lines executed:0.00% of 7
+
+Function 'vobsub_probe'
+Lines executed:0.00% of 3
+
+Function 'mpegps_read_dts'
+Lines executed:0.00% of 18
+
+Function 'mpegps_read_packet'
+Lines executed:0.00% of 88
+
+Function 'mpegps_read_pes_header'
+Lines executed:0.00% of 165
+
+Function 'mpegps_psm_parse'
+Lines executed:0.00% of 18
+
+Function 'find_next_start_code'
+Lines executed:0.00% of 18
+
+Function 'get_pts'
+Lines executed:0.00% of 14
+
+Function 'mpegps_read_header'
+Lines executed:0.00% of 13
+
+Function 'mpegps_probe'
+Lines executed:0.00% of 40
+
+Function 'check_pes'
+Lines executed:0.00% of 15
+
+File 'libavformat/mpeg.c'
+Lines executed:0.00% of 575
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno##libavformat#mpeg.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno##libavutil#rational.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno##libavutil#bprint.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/mpeg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mpeg.gcno##libavformat#mpeg.h.gcov'
+
+Lines executed:0.00% of 595

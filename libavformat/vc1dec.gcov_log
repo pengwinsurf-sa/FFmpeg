@@ -1,0 +1,12 @@
+Function 'vc1_probe'
+Lines executed:0.00% of 43
+
+File 'libavformat/vc1dec.c'
+Lines executed:0.00% of 41
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vc1dec.gcno##libavformat#vc1dec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vc1dec.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 43

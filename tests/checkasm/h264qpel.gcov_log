@@ -1,0 +1,20 @@
+Function 'checkasm_check_h264qpel'
+Lines executed:80.00% of 35
+
+File 'tests/checkasm/h264qpel.c'
+Lines executed:96.00% of 25
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264qpel.gcno##tests#checkasm#h264qpel.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264qpel.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264qpel.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#h264qpel.gcno##libavutil#emms.h.gcov'
+
+Lines executed:80.00% of 35

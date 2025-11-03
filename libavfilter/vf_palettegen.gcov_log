@@ -1,0 +1,87 @@
+Function 'uninit'
+Lines executed:0.00% of 8
+
+Function 'init'
+Lines executed:0.00% of 5
+
+Function 'config_output'
+Lines executed:0.00% of 5
+
+Function 'request_frame'
+Lines executed:0.00% of 10
+
+Function 'filter_frame'
+Lines executed:0.00% of 31
+
+Function 'update_histogram_frame'
+Lines executed:0.00% of 9
+
+Function 'update_histogram_diff'
+Lines executed:0.00% of 12
+
+Function 'color_inc'
+Lines executed:0.00% of 15
+
+Function 'get_palette_frame'
+Lines executed:0.00% of 51
+
+Function 'set_colorquant_ratio_meta'
+Lines executed:0.00% of 8
+
+Function 'load_color_refs'
+Lines executed:0.00% of 8
+
+Function 'write_palette'
+Lines executed:0.00% of 21
+
+Function 'split_box'
+Lines executed:0.00% of 11
+
+Function 'compute_box_stats'
+Lines executed:0.00% of 31
+
+Function 'cmp_color'
+Lines executed:0.00% of 4
+
+Function 'cmp_baL'
+Lines executed:0.00% of 1
+
+Function 'cmp_bLa'
+Lines executed:0.00% of 1
+
+Function 'cmp_abL'
+Lines executed:0.00% of 1
+
+Function 'cmp_aLb'
+Lines executed:0.00% of 1
+
+Function 'cmp_Lba'
+Lines executed:0.00% of 1
+
+Function 'cmp_Lab'
+Lines executed:0.00% of 1
+
+Function 'query_formats'
+Lines executed:0.00% of 6
+
+File 'libavfilter/vf_palettegen.c'
+Lines executed:0.00% of 234
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_palettegen.gcno##libavfilter#vf_palettegen.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_palettegen.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_palettegen.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_palettegen.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_palettegen.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 241

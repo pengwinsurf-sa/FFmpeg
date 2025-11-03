@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structAVD3D12VASyncContext" kind="struct" language="C++" prot="public">
+    <compoundname>AVD3D12VASyncContext</compoundname>
+    <includes refid="hwcontext__d3d12va_8h" local="no">libavutil/hwcontext_d3d12va.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAVD3D12VASyncContext_1a959a275b48b65acdbe47083634e83f18" prot="public" static="no" mutable="no">
+        <type>ID3D12Fence *</type>
+        <definition>ID3D12Fence* AVD3D12VASyncContext::fence</definition>
+        <argsstring></argsstring>
+        <name>fence</name>
+        <qualifiedname>AVD3D12VASyncContext::fence</qualifiedname>
+        <briefdescription>
+<para>D3D12 fence object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="88" column="17" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VASyncContext_1a6085642838d9419c0c6211f6f542ba55" prot="public" static="no" mutable="no">
+        <type>HANDLE</type>
+        <definition>HANDLE AVD3D12VASyncContext::event</definition>
+        <argsstring></argsstring>
+        <name>event</name>
+        <qualifiedname>AVD3D12VASyncContext::event</qualifiedname>
+        <briefdescription>
+<para>A handle to the event object that&apos;s raised when the fence reaches a certain value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="94" column="12" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAVD3D12VASyncContext_1aa4439ffb25c4c9ab8986bd42d95273cf" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t AVD3D12VASyncContext::fence_value</definition>
+        <argsstring></argsstring>
+        <name>fence_value</name>
+        <qualifiedname>AVD3D12VASyncContext::fence_value</qualifiedname>
+        <briefdescription>
+<para>The fence value used for sync. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavutil/hwcontext_d3d12va.h" line="99" column="14" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This struct is used to sync d3d12 execution. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libavutil/hwcontext_d3d12va.h" line="84" column="1" bodyfile="libavutil/hwcontext_d3d12va.h" bodystart="84" bodyend="100"/>
+    <listofallmembers>
+      <member refid="structAVD3D12VASyncContext_1a6085642838d9419c0c6211f6f542ba55" prot="public" virt="non-virtual"><scope>AVD3D12VASyncContext</scope><name>event</name></member>
+      <member refid="structAVD3D12VASyncContext_1a959a275b48b65acdbe47083634e83f18" prot="public" virt="non-virtual"><scope>AVD3D12VASyncContext</scope><name>fence</name></member>
+      <member refid="structAVD3D12VASyncContext_1aa4439ffb25c4c9ab8986bd42d95273cf" prot="public" virt="non-virtual"><scope>AVD3D12VASyncContext</scope><name>fence_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

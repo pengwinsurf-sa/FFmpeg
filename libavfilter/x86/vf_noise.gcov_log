@@ -1,0 +1,14 @@
+Function 'ff_noise_init_x86'
+Lines executed:0.00% of 7
+
+Function 'line_noise_mmxext'
+Lines executed:0.00% of 8
+
+Function 'line_noise_avg_mmx'
+Lines executed:0.00% of 9
+
+File 'libavfilter/x86/vf_noise.c'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#x86#vf_noise.gcno##libavfilter#x86#vf_noise.c.gcov'
+
+Lines executed:0.00% of 24

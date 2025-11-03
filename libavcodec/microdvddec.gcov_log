@@ -1,0 +1,34 @@
+Function 'microdvd_init'
+Lines executed:0.00% of 34
+
+Function 'microdvd_decode_frame'
+Lines executed:0.00% of 24
+
+Function 'microdvd_close_no_persistent_tags'
+Lines executed:0.00% of 20
+
+Function 'microdvd_open_tags'
+Lines executed:0.00% of 27
+
+Function 'microdvd_load_tags'
+Lines executed:0.00% of 75
+
+Function 'check_for_italic_slash_marker'
+Lines executed:0.00% of 8
+
+Function 'microdvd_set_tag'
+Lines executed:0.00% of 6
+
+File 'libavcodec/microdvddec.c'
+Lines executed:0.00% of 188
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#microdvddec.gcno##libavcodec#microdvddec.c.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#microdvddec.gcno##libavutil#avstring.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#microdvddec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 194

@@ -1,0 +1,24 @@
+Function 'filter_frame'
+Lines executed:0.00% of 12
+
+Function 'vb_stereo'
+Lines executed:0.00% of 35
+
+Function 'vb_fun'
+Lines executed:0.00% of 3
+
+Function 'config_input'
+Lines executed:0.00% of 14
+
+Function 'query_formats'
+Lines executed:0.00% of 12
+
+File 'libavfilter/af_virtualbass.c'
+Lines executed:0.00% of 74
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_virtualbass.gcno##libavfilter#af_virtualbass.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_virtualbass.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 76

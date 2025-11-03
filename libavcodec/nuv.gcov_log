@@ -1,0 +1,31 @@
+Function 'decode_end'
+Lines executed:0.00% of 5
+
+Function 'decode_init'
+Lines executed:0.00% of 15
+
+Function 'decode_frame'
+Lines executed:0.00% of 109
+
+Function 'codec_reinit'
+Lines executed:0.00% of 28
+
+Function 'get_quant'
+Lines executed:0.00% of 9
+
+Function 'copy_frame'
+Lines executed:0.00% of 10
+
+File 'libavcodec/nuv.c'
+Lines executed:0.00% of 172
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nuv.gcno##libavcodec#nuv.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nuv.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/imgutils.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#nuv.gcno##libavutil#imgutils.h.gcov'
+
+Lines executed:0.00% of 176

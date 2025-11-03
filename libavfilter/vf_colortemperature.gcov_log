@@ -1,0 +1,33 @@
+Function 'config_input'
+Lines executed:0.00% of 18
+
+Function 'filter_frame'
+Lines executed:0.00% of 7
+
+Function 'temperature_slice16p'
+Lines executed:0.00% of 34
+
+Function 'temperature_slice8p'
+Lines executed:0.00% of 32
+
+Function 'temperature_slice32'
+Lines executed:0.00% of 31
+
+Function 'temperature_slice16'
+Lines executed:0.00% of 32
+
+Function 'temperature_slice8'
+Lines executed:0.00% of 31
+
+Function 'kelvin2rgb'
+Lines executed:0.00% of 18
+
+File 'libavfilter/vf_colortemperature.c'
+Lines executed:0.00% of 196
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colortemperature.gcno##libavfilter#vf_colortemperature.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_colortemperature.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 203

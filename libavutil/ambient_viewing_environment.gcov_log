@@ -1,0 +1,15 @@
+Function 'av_ambient_viewing_environment_create_side_data'
+Lines executed:0.00% of 13
+
+Function 'av_ambient_viewing_environment_alloc'
+Lines executed:0.00% of 7
+
+File 'libavutil/ambient_viewing_environment.c'
+Lines executed:0.00% of 18
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#ambient_viewing_environment.gcno##libavutil#ambient_viewing_environment.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#ambient_viewing_environment.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 20

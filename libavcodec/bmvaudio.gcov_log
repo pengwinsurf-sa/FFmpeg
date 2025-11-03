@@ -1,0 +1,15 @@
+Function 'bmv_aud_decode_frame'
+Lines executed:0.00% of 27
+
+Function 'bmv_aud_decode_init'
+Lines executed:0.00% of 5
+
+File 'libavcodec/bmvaudio.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmvaudio.gcno##libavcodec#bmvaudio.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bmvaudio.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 32

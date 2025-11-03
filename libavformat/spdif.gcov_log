@@ -1,0 +1,12 @@
+Function 'ff_spdif_bswap_buf16'
+Lines executed:0.00% of 17
+
+File 'libavformat/spdif.c'
+Lines executed:0.00% of 14
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#spdif.gcno##libavformat#spdif.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#spdif.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 17

@@ -1,0 +1,38 @@
+Function 'apng_deinit'
+Lines executed:0.00% of 6
+
+Function 'apng_write_trailer'
+Lines executed:0.00% of 16
+
+Function 'apng_write_packet'
+Lines executed:0.00% of 9
+
+Function 'flush_packet'
+Lines executed:0.00% of 83
+
+Function 'apng_write_header'
+Lines executed:0.00% of 14
+
+Function 'apng_write_chunk'
+Lines executed:0.00% of 14
+
+Function 'apng_find_chunk'
+Lines executed:0.00% of 5
+
+File 'libavformat/apngenc.c'
+Lines executed:0.00% of 138
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apngenc.gcno##libavformat#apngenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apngenc.gcno##libavutil#bswap.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apngenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#apngenc.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 147

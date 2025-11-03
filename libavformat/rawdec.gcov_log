@@ -1,0 +1,27 @@
+Function 'mjpeg_probe'
+Lines executed:0.00% of 33
+
+Function 'raw_data_read_header'
+Lines executed:0.00% of 7
+
+Function 'ff_raw_subtitle_read_header'
+Lines executed:0.00% of 7
+
+Function 'ff_raw_video_read_header'
+Lines executed:0.00% of 17
+
+Function 'ff_raw_audio_read_header'
+Lines executed:0.00% of 8
+
+Function 'ff_raw_read_partial_packet'
+Lines executed:0.00% of 15
+
+File 'libavformat/rawdec.c'
+Lines executed:0.00% of 85
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawdec.gcno##libavformat#rawdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#rawdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 87

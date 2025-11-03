@@ -1,0 +1,43 @@
+Function 'uninit'
+Lines executed:0.00% of 5
+
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'activate'
+Lines executed:0.00% of 22
+
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'filter_channel'
+Lines executed:0.00% of 58
+
+Function 'config_output'
+Lines executed:0.00% of 8
+
+Function 'config_filter'
+Lines executed:0.00% of 36
+
+Function 'ff_anlmdn_init'
+Lines executed:0.00% of 5
+
+Function 'compute_cache_c'
+Lines executed:0.00% of 8
+
+Function 'compute_distance_ssd_c'
+Lines executed:0.00% of 5
+
+File 'libavfilter/af_anlmdn.c'
+Lines executed:0.00% of 161
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_anlmdn.gcno##libavfilter#af_anlmdn.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_anlmdn.gcno##libavfilter#filters.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_anlmdn.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 169

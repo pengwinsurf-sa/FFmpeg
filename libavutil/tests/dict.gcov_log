@@ -1,0 +1,63 @@
+Function 'main'
+Lines executed:0.00% of 79
+
+Function 'test_separators'
+Lines executed:0.00% of 17
+
+Function 'print_dict'
+Lines executed:0.00% of 6
+
+Function 'dict_iterate'
+Lines executed:0.00% of 6
+
+Function 'av_dict_get_string'
+Lines executed:0.00% of 18
+
+Function 'av_dict_copy'
+Lines executed:0.00% of 6
+
+Function 'av_dict_free'
+Lines executed:0.00% of 9
+
+Function 'av_dict_parse_string'
+Lines executed:0.00% of 9
+
+Function 'parse_key_value_pair'
+Lines executed:0.00% of 12
+
+Function 'av_dict_set_int'
+Lines executed:0.00% of 7
+
+Function 'av_dict_set'
+Lines executed:0.00% of 70
+
+Function 'av_dict_get'
+Lines executed:0.00% of 17
+
+Function 'av_dict_iterate'
+Lines executed:0.00% of 8
+
+Function 'av_dict_count'
+Lines executed:0.00% of 2
+
+File 'libavutil/tests/dict.c'
+Lines executed:0.00% of 106
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#dict.gcno##libavutil#tests#dict.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#dict.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavutil/dict.c'
+Lines executed:0.00% of 150
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#dict.gcno##libavutil#dict.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#dict.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/avstring.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#tests#dict.gcno##libavutil#avstring.h.gcov'
+
+Lines executed:0.00% of 266

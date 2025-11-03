@@ -1,0 +1,116 @@
+Function 'ff_h264_hl_decode_mb'
+Lines executed:0.00% of 15
+
+Function 'hl_decode_mb_444_complex'
+Lines executed:0.00% of 270
+
+Function 'hl_motion_444_complex'
+Lines executed:0.00% of 55
+
+Function 'mc_part_444_complex'
+Lines executed:0.00% of 116
+
+Function 'hl_decode_mb_complex'
+Lines executed:0.00% of 154
+
+Function 'hl_motion_422_complex'
+Lines executed:0.00% of 44
+
+Function 'mc_part_422_complex'
+Lines executed:0.00% of 28
+
+Function 'hl_motion_420_complex'
+Lines executed:0.00% of 42
+
+Function 'mc_part_420_complex'
+Lines executed:0.00% of 16
+
+Function 'hl_decode_mb_simple_16'
+Lines executed:0.00% of 68
+
+Function 'hl_motion_422_simple_16'
+Lines executed:0.00% of 42
+
+Function 'mc_part_422_simple_16'
+Lines executed:0.00% of 6
+
+Function 'hl_motion_420_simple_16'
+Lines executed:0.00% of 42
+
+Function 'mc_part_420_simple_16'
+Lines executed:0.00% of 6
+
+Function 'hl_decode_mb_444_simple_8'
+Lines executed:0.00% of 36
+
+Function 'hl_motion_444_simple_8'
+Lines executed:0.00% of 42
+
+Function 'mc_part_444_simple_8'
+Lines executed:0.00% of 6
+
+Function 'hl_decode_mb_simple_8'
+Lines executed:0.00% of 68
+
+Function 'hl_motion_422_simple_8'
+Lines executed:0.00% of 42
+
+Function 'mc_part_422_simple_8'
+Lines executed:0.00% of 6
+
+Function 'hl_motion_420_simple_8'
+Lines executed:0.00% of 42
+
+Function 'mc_part_420_simple_8'
+Lines executed:0.00% of 6
+
+Function 'await_references'
+Lines executed:0.00% of 52
+
+Function 'get_lowest_part_y'
+Lines executed:0.00% of 29
+
+Function 'get_bits'
+Lines executed:0.00% of 19
+
+File 'libavcodec/h264_mb.c'
+Lines executed:0.00% of 404
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavcodec#h264_mb.c.gcov'
+
+File 'libavcodec/h264_mb_template.c'
+Lines executed:0.00% of 606
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavcodec#h264_mb_template.c.gcov'
+
+File 'libavcodec/rectangle.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavcodec#rectangle.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 24
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/x86/intreadwrite.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavutil#x86#intreadwrite.h.gcov'
+
+File '/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno###usr#lib#gcc#x86_64-linux-gnu#13#include#emmintrin.h.gcov'
+
+File 'libavcodec/h264_mc_template.c'
+Lines executed:0.00% of 440
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavcodec#h264_mc_template.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#h264_mb.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 1519

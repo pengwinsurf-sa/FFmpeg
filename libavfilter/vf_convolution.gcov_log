@@ -1,0 +1,110 @@
+Function 'process_command'
+Lines executed:0.00% of 5
+
+Function 'filter_frame'
+Lines executed:0.00% of 17
+
+Function 'config_input'
+Lines executed:0.00% of 3
+
+Function 'param_init'
+Lines executed:0.00% of 133
+
+Function 'filter_slice'
+Lines executed:0.00% of 51
+
+Function 'setup_column'
+Lines executed:0.00% of 7
+
+Function 'setup_row'
+Lines executed:0.00% of 7
+
+Function 'setup_7x7'
+Lines executed:0.00% of 9
+
+Function 'setup_5x5'
+Lines executed:0.00% of 9
+
+Function 'filter_column'
+Lines executed:0.00% of 17
+
+Function 'filter_row'
+Lines executed:0.00% of 8
+
+Function 'filter_3x3'
+Lines executed:0.00% of 12
+
+Function 'filter_5x5'
+Lines executed:0.00% of 8
+
+Function 'filter_7x7'
+Lines executed:0.00% of 8
+
+Function 'filter16_column'
+Lines executed:0.00% of 17
+
+Function 'filter16_row'
+Lines executed:0.00% of 9
+
+Function 'filter16_7x7'
+Lines executed:0.00% of 9
+
+Function 'filter16_5x5'
+Lines executed:0.00% of 9
+
+Function 'filter16_3x3'
+Lines executed:0.00% of 16
+
+Function 'filter_kirsch'
+Lines executed:0.00% of 39
+
+Function 'filter_scharr'
+Lines executed:0.00% of 14
+
+Function 'filter_roberts'
+Lines executed:0.00% of 7
+
+Function 'filter_prewitt'
+Lines executed:0.00% of 12
+
+Function 'filter16_kirsch'
+Lines executed:0.00% of 40
+
+Function 'filter16_scharr'
+Lines executed:0.00% of 12
+
+Function 'filter16_roberts'
+Lines executed:0.00% of 8
+
+Function 'filter16_prewitt'
+Lines executed:0.00% of 10
+
+Function 'ff_sobel_init'
+Lines executed:0.00% of 13
+
+Function 'filter16_sobel'
+Lines executed:0.00% of 10
+
+Function 'filter_sobel'
+Lines executed:0.00% of 12
+
+Function 'setup_3x3'
+Lines executed:0.00% of 9
+
+File 'libavfilter/vf_convolution.c'
+Lines executed:0.00% of 488
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_convolution.gcno##libavfilter#vf_convolution.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_convolution.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_convolution.gcno##libavutil#common.h.gcov'
+
+File 'libavfilter/convolution.h'
+Lines executed:0.00% of 44
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#vf_convolution.gcno##libavfilter#convolution.h.gcov'
+
+Lines executed:0.00% of 540

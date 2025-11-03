@@ -1,0 +1,40 @@
+Function 'resample_child_next'
+Lines executed:0.00% of 3
+
+Function 'resample_child_class_iterate'
+Lines executed:0.00% of 4
+
+Function 'activate'
+Lines executed:0.00% of 37
+
+Function 'flush_frame'
+Lines executed:0.00% of 20
+
+Function 'filter_frame'
+Lines executed:0.00% of 39
+
+Function 'config_output'
+Lines executed:0.00% of 61
+
+Function 'query_formats'
+Lines executed:0.00% of 36
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'preinit'
+Lines executed:0.00% of 6
+
+File 'libavfilter/af_aresample.c'
+Lines executed:0.00% of 206
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aresample.gcno##libavfilter#af_aresample.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aresample.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/frame.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_aresample.gcno##libavutil#frame.h.gcov'
+
+Lines executed:0.00% of 210

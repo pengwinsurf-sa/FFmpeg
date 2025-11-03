@@ -1,0 +1,92 @@
+Function 'flush'
+Lines executed:0.00% of 5
+
+Function 'imc_decode_close'
+Lines executed:0.00% of 5
+
+Function 'imc_decode_frame'
+Lines executed:0.00% of 35
+
+Function 'imc_decode_block'
+Lines executed:0.00% of 114
+
+Function 'imc_refine_bit_allocation'
+Lines executed:0.00% of 26
+
+Function 'imc_get_coeffs'
+Lines executed:0.00% of 15
+
+Function 'inverse_quant_coeff'
+Lines executed:0.00% of 22
+
+Function 'imc_adjust_bit_allocation'
+Lines executed:0.00% of 24
+
+Function 'imc_get_skip_coeff'
+Lines executed:0.00% of 35
+
+Function 'bit_allocation'
+Lines executed:0.00% of 107
+
+Function 'imc_decode_level_coefficients_raw'
+Lines executed:0.00% of 16
+
+Function 'imc_decode_level_coefficients2'
+Lines executed:0.00% of 9
+
+Function 'imc_decode_level_coefficients'
+Lines executed:0.00% of 22
+
+Function 'imc_read_level_coeffs_raw'
+Lines executed:0.00% of 7
+
+Function 'imc_read_level_coeffs'
+Lines executed:0.00% of 32
+
+Function 'imc_calculate_coeffs'
+Lines executed:0.00% of 34
+
+Function 'imc_decode_init'
+Lines executed:0.00% of 37
+
+Function 'imc_init_static'
+Lines executed:0.00% of 9
+
+Function 'iac_generate_tabs'
+Lines executed:0.00% of 37
+
+Function 'freq2bark'
+Lines executed:0.00% of 2
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+File 'libavcodec/imc.c'
+Lines executed:0.00% of 547
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno##libavcodec#imc.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 39
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavutil/ffmath.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#imc.gcno##libavutil#ffmath.h.gcov'
+
+Lines executed:0.00% of 603

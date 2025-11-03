@@ -1,0 +1,18 @@
+Function 'main'
+Lines executed:0.00% of 46
+
+Function 'print_pix_fmt_fourccs'
+Lines executed:0.00% of 6
+
+Function 'usage'
+Lines executed:0.00% of 5
+
+File 'tools/fourcc2pixfmt.c'
+Lines executed:0.00% of 53
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#fourcc2pixfmt.gcno##tools#fourcc2pixfmt.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tools#fourcc2pixfmt.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 57

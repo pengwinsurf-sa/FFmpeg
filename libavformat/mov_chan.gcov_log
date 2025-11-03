@@ -1,0 +1,33 @@
+Function 'ff_mov_read_chnl'
+Lines executed:0.00% of 31
+
+Function 'ff_mov_get_channel_positions_from_layout'
+Lines executed:0.00% of 12
+
+Function 'ff_mov_get_channel_layout_from_config'
+Lines executed:0.00% of 15
+
+Function 'ff_mov_get_channel_config_from_layout'
+Lines executed:0.00% of 7
+
+Function 'ff_mov_read_chan'
+Lines executed:0.00% of 66
+
+Function 'ff_mov_get_channel_layout_tag'
+Lines executed:0.00% of 37
+
+Function 'is_layout_valid_for_tag'
+Lines executed:0.00% of 12
+
+Function 'mov_get_channel_layout'
+Lines executed:0.00% of 17
+
+File 'libavformat/mov_chan.c'
+Lines executed:0.00% of 189
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov_chan.gcno##libavformat#mov_chan.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#mov_chan.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 197

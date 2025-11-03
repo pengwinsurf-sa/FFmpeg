@@ -1,0 +1,20 @@
+Function 'ff_pthread_init'
+Lines executed:0.00% of 9
+
+Function 'ff_pthread_free'
+Lines executed:0.00% of 9
+
+Function 'ff_thread_free'
+Lines executed:0.00% of 5
+
+Function 'ff_thread_init'
+Lines executed:0.00% of 6
+
+Function 'validate_thread_parameters'
+Lines executed:0.00% of 16
+
+File 'libavcodec/pthread.c'
+Lines executed:0.00% of 45
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#pthread.gcno##libavcodec#pthread.c.gcov'
+
+Lines executed:0.00% of 45

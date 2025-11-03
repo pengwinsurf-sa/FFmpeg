@@ -1,0 +1,33 @@
+Function 'redspark_read_packet'
+Lines executed:0.00% of 12
+
+Function 'redspark_read_header'
+Lines executed:0.00% of 69
+
+Function 'redspark_probe'
+Lines executed:0.00% of 13
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/redspark.c'
+Lines executed:0.00% of 70
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#redspark.gcno##libavformat#redspark.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#redspark.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#redspark.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#redspark.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#redspark.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 96

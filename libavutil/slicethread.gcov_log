@@ -1,0 +1,20 @@
+Function 'avpriv_slicethread_free'
+Lines executed:17.39% of 23
+
+Function 'avpriv_slicethread_execute'
+Lines executed:0.00% of 26
+
+Function 'avpriv_slicethread_create'
+Lines executed:0.00% of 64
+
+Function 'thread_worker'
+Lines executed:0.00% of 17
+
+Function 'run_jobs'
+Lines executed:0.00% of 9
+
+File 'libavutil/slicethread.c'
+Lines executed:2.88% of 139
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavutil#slicethread.gcno##libavutil#slicethread.c.gcov'
+
+Lines executed:2.88% of 139

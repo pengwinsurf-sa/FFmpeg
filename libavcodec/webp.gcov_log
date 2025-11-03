@@ -1,0 +1,143 @@
+Function 'webp_decode_close'
+Lines executed:0.00% of 5
+
+Function 'webp_decode_init'
+Lines executed:0.00% of 5
+
+Function 'webp_decode_frame'
+Lines executed:0.00% of 161
+
+Function 'vp8_lossy_decode_frame'
+Lines executed:0.00% of 23
+
+Function 'vp8_lossy_decode_alpha'
+Lines executed:0.00% of 32
+
+Function 'alpha_inverse_prediction'
+Lines executed:0.00% of 27
+
+Function 'vp8_lossless_decode_frame'
+Lines executed:0.00% of 114
+
+Function 'update_canvas_size'
+Lines executed:0.00% of 9
+
+Function 'apply_color_indexing_transform'
+Lines executed:0.00% of 53
+
+Function 'apply_subtract_green_transform'
+Lines executed:0.00% of 9
+
+Function 'apply_color_transform'
+Lines executed:0.00% of 22
+
+Function 'apply_predictor_transform'
+Lines executed:0.00% of 17
+
+Function 'inverse_prediction'
+Lines executed:0.00% of 16
+
+Function 'inv_predict_13'
+Lines executed:0.00% of 9
+
+Function 'inv_predict_12'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_11'
+Lines executed:0.00% of 9
+
+Function 'inv_predict_10'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_9'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_8'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_7'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_6'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_5'
+Lines executed:0.00% of 6
+
+Function 'inv_predict_4'
+Lines executed:0.00% of 3
+
+Function 'inv_predict_3'
+Lines executed:0.00% of 3
+
+Function 'inv_predict_2'
+Lines executed:0.00% of 3
+
+Function 'inv_predict_1'
+Lines executed:0.00% of 3
+
+Function 'inv_predict_0'
+Lines executed:0.00% of 3
+
+Function 'decode_entropy_coded_image'
+Lines executed:0.00% of 139
+
+Function 'get_huffman_group'
+Lines executed:0.00% of 10
+
+Function 'parse_transform_color_indexing'
+Lines executed:0.00% of 18
+
+Function 'parse_transform_color'
+Lines executed:0.00% of 7
+
+Function 'parse_transform_predictor'
+Lines executed:0.00% of 7
+
+Function 'decode_entropy_image'
+Lines executed:0.00% of 17
+
+Function 'read_huffman_code_normal'
+Lines executed:0.00% of 67
+
+Function 'read_huffman_code_simple'
+Lines executed:0.00% of 9
+
+Function 'huff_reader_build_canonical'
+Lines executed:0.00% of 22
+
+Function 'huff_reader_get_symbol'
+Lines executed:0.00% of 13
+
+Function 'image_ctx_free'
+Lines executed:0.00% of 12
+
+File 'libavcodec/webp.c'
+Lines executed:0.00% of 793
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno##libavcodec#webp.c.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 26
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno##libavutil#common.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 52
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno##libavcodec#mathops.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#webp.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 889

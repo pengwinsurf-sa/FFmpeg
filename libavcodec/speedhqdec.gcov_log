@@ -1,0 +1,53 @@
+Function 'speedhq_decode_init'
+Lines executed:0.00% of 57
+
+Function 'speedhq_static_init'
+Lines executed:0.00% of 6
+
+Function 'compute_alpha_vlcs'
+Lines executed:0.00% of 45
+
+Function 'speedhq_decode_frame'
+Lines executed:0.00% of 26
+
+Function 'decode_slice_interlaced'
+Lines executed:0.00% of 8
+
+Function 'decode_slice_progressive'
+Lines executed:0.00% of 4
+
+Function 'decode_speedhq_field'
+Lines executed:0.00% of 103
+
+Function 'decode_speedhq_border'
+Lines executed:0.00% of 54
+
+Function 'decode_dct_block'
+Lines executed:0.00% of 38
+
+Function 'decode_alpha_block'
+Lines executed:0.00% of 23
+
+Function 'decode_dc_le'
+Lines executed:0.00% of 15
+
+Function 'get_xbits_le'
+Lines executed:0.00% of 11
+
+File 'libavcodec/speedhqdec.c'
+Lines executed:0.00% of 344
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqdec.gcno##libavcodec#speedhqdec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 36
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqdec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/mathops.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#speedhqdec.gcno##libavcodec#mathops.h.gcov'
+
+Lines executed:0.00% of 390

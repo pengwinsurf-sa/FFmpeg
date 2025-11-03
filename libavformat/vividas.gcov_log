@@ -1,0 +1,53 @@
+Function 'viv_read_seek'
+Lines executed:0.00% of 26
+
+Function 'viv_read_close'
+Lines executed:0.00% of 7
+
+Function 'viv_read_packet'
+Lines executed:0.00% of 70
+
+Function 'viv_read_header'
+Lines executed:0.00% of 65
+
+Function 'load_sb_block'
+Lines executed:0.00% of 27
+
+Function 'track_index'
+Lines executed:0.00% of 33
+
+Function 'track_header'
+Lines executed:0.00% of 108
+
+Function 'read_sb_block'
+Lines executed:0.00% of 41
+
+Function 'read_vblock'
+Lines executed:0.00% of 17
+
+Function 'decode_block'
+Lines executed:0.00% of 37
+
+Function 'put_v'
+Lines executed:0.00% of 10
+
+Function 'viv_probe'
+Lines executed:0.00% of 3
+
+File 'libavformat/vividas.c'
+Lines executed:0.00% of 434
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vividas.gcno##libavformat#vividas.c.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vividas.gcno##libavutil#rational.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vividas.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#vividas.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 444

@@ -1,0 +1,27 @@
+Function 'query_codec'
+Lines executed:0.00% of 5
+
+Function 'write_packet'
+Lines executed:0.00% of 79
+
+Function 'write_and_close'
+Lines executed:0.00% of 4
+
+Function 'write_packet_pipe'
+Lines executed:0.00% of 8
+
+Function 'write_muxed_file'
+Lines executed:0.00% of 27
+
+Function 'write_header'
+Lines executed:0.00% of 20
+
+File 'libavformat/img2enc.c'
+Lines executed:0.00% of 141
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2enc.gcno##libavformat#img2enc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#img2enc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 143

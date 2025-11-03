@@ -1,0 +1,265 @@
+Function 'webm_query_codec'
+Lines executed:0.00% of 3
+
+Function 'mkv_query_codec'
+Lines executed:0.00% of 6
+
+Function 'mkv_check_bitstream'
+Lines executed:0.00% of 13
+
+Function 'mkv_init'
+Lines executed:0.00% of 77
+
+Function 'mkv_get_uid'
+Lines executed:0.00% of 12
+
+Function 'mkv_write_trailer'
+Lines executed:0.00% of 123
+
+Function 'mkv_write_flush_packet'
+Lines executed:0.00% of 9
+
+Function 'mkv_write_packet'
+Lines executed:0.00% of 41
+
+Function 'mkv_write_packet_internal'
+Lines executed:0.00% of 46
+
+Function 'mkv_check_new_extra_data'
+Lines executed:0.00% of 41
+
+Function 'mkv_end_cluster'
+Lines executed:0.00% of 11
+
+Function 'mkv_write_block'
+Lines executed:0.00% of 107
+
+Function 'mkv_write_blockadditional'
+Lines executed:0.00% of 10
+
+Function 'webm_reformat_vtt'
+Lines executed:0.00% of 15
+
+Function 'mkv_reformat_av1'
+Lines executed:0.00% of 5
+
+Function 'mkv_reformat_wavpack'
+Lines executed:0.00% of 27
+
+Function 'mkv_reformat_h2645'
+Lines executed:0.00% of 7
+
+Function 'mkv_write_header'
+Lines executed:0.00% of 58
+
+Function 'mkv_write_info'
+Lines executed:0.00% of 42
+
+Function 'ebml_write_header'
+Lines executed:0.00% of 15
+
+Function 'get_metadata_duration'
+Lines executed:0.00% of 14
+
+Function 'mkv_write_attachments'
+Lines executed:0.00% of 38
+
+Function 'get_mimetype'
+Lines executed:0.00% of 9
+
+Function 'mkv_write_chapters'
+Lines executed:0.00% of 53
+
+Function 'mkv_new_chapter_ids_needed'
+Lines executed:0.00% of 5
+
+Function 'mkv_write_tags'
+Lines executed:0.00% of 29
+
+Function 'mkv_write_tag'
+Lines executed:0.00% of 27
+
+Function 'mkv_check_tag_name'
+Lines executed:0.00% of 11
+
+Function 'mkv_write_tag_targets'
+Lines executed:0.00% of 6
+
+Function 'mkv_write_simpletag'
+Lines executed:0.00% of 25
+
+Function 'mkv_write_tracks'
+Lines executed:0.00% of 28
+
+Function 'mkv_write_track'
+Lines executed:0.00% of 161
+
+Function 'mkv_write_default_duration'
+Lines executed:0.00% of 7
+
+Function 'mkv_write_track_video'
+Lines executed:0.00% of 72
+
+Function 'mkv_write_blockadditionmapping'
+Lines executed:0.00% of 24
+
+Function 'mkv_write_stereo_mode'
+Lines executed:0.00% of 41
+
+Function 'mkv_write_field_order'
+Lines executed:0.00% of 16
+
+Function 'mkv_write_video_projection'
+Lines executed:0.00% of 19
+
+Function 'mkv_handle_spherical'
+Lines executed:0.00% of 35
+
+Function 'mkv_handle_rotation'
+Lines executed:0.00% of 18
+
+Function 'mkv_write_video_color'
+Lines executed:0.00% of 44
+
+Function 'mkv_update_codecprivate'
+Lines executed:0.00% of 26
+
+Function 'mkv_put_codecprivate'
+Lines executed:0.00% of 16
+
+Function 'mkv_assemble_codecprivate'
+Lines executed:0.00% of 39
+
+Function 'mkv_assemble_native_codecprivate'
+Lines executed:0.00% of 48
+
+Function 'get_aac_sample_rates'
+Lines executed:0.00% of 11
+
+Function 'put_flac_codecpriv'
+Lines executed:0.00% of 20
+
+Function 'put_wv_codecpriv'
+Lines executed:0.00% of 5
+
+Function 'put_xiph_codecpriv'
+Lines executed:0.00% of 16
+
+Function 'mkv_assemble_cues'
+Lines executed:0.00% of 29
+
+Function 'mkv_add_cuepoint'
+Lines executed:0.00% of 20
+
+Function 'mkv_write_seekhead'
+Lines executed:0.00% of 25
+
+Function 'mkv_start_seekhead'
+Lines executed:0.00% of 5
+
+Function 'mkv_deinit'
+Lines executed:0.00% of 11
+
+Function 'put_xiph_size'
+Lines executed:0.00% of 4
+
+Function 'end_ebml_master_crc32_tentatively'
+Lines executed:0.00% of 17
+
+Function 'end_ebml_master_crc32'
+Lines executed:0.00% of 21
+
+Function 'start_ebml_master_crc32'
+Lines executed:0.00% of 5
+
+Function 'ebml_writer_write'
+Lines executed:0.00% of 6
+
+Function 'ebml_writer_elem_write'
+Lines executed:0.00% of 31
+
+Function 'ebml_writer_elem_len'
+Lines executed:0.00% of 40
+
+Function 'ebml_writer_write_block'
+Lines executed:0.00% of 15
+
+Function 'ebml_writer_block_len'
+Lines executed:0.00% of 17
+
+Function 'ebml_writer_master_len'
+Lines executed:0.00% of 16
+
+Function 'end_ebml_master'
+Lines executed:0.00% of 5
+
+Function 'start_ebml_master'
+Lines executed:0.00% of 5
+
+Function 'put_ebml_void'
+Lines executed:0.00% of 10
+
+Function 'put_ebml_binary'
+Lines executed:0.00% of 5
+
+Function 'put_ebml_float'
+Lines executed:0.00% of 5
+
+Function 'put_ebml_uint'
+Lines executed:0.00% of 10
+
+Function 'put_ebml_uid'
+Lines executed:0.00% of 5
+
+Function 'put_ebml_length'
+Lines executed:0.00% of 8
+
+Function 'put_ebml_num'
+Lines executed:0.00% of 5
+
+Function 'put_ebml_size_unknown'
+Lines executed:0.00% of 5
+
+Function 'put_ebml_id'
+Lines executed:0.00% of 1
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavformat/matroskaenc.c'
+Lines executed:0.00% of 1829
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavformat#matroskaenc.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavutil#lfg.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavformat#avio.h.gcov'
+
+File 'libavutil/rational.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavutil#rational.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavcodec#bytestream.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/intfloat.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#matroskaenc.gcno##libavutil#intfloat.h.gcov'
+
+Lines executed:0.00% of 1859

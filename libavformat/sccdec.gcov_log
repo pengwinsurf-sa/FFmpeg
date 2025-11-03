@@ -1,0 +1,11 @@
+Function 'scc_read_header'
+Lines executed:0.00% of 63
+
+Function 'scc_probe'
+Lines executed:0.00% of 9
+
+File 'libavformat/sccdec.c'
+Lines executed:0.00% of 72
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#sccdec.gcno##libavformat#sccdec.c.gcov'
+
+Lines executed:0.00% of 72

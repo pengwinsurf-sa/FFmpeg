@@ -1,0 +1,22 @@
+Function 'adx_read_header'
+Lines executed:0.00% of 31
+
+Function 'adx_read_packet'
+Lines executed:0.00% of 20
+
+Function 'adx_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/adxdec.c'
+Lines executed:0.00% of 55
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#adxdec.gcno##libavformat#adxdec.c.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 5
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#adxdec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#adxdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 62

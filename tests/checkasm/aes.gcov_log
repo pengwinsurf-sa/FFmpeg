@@ -1,0 +1,20 @@
+Function 'checkasm_check_aes'
+Lines executed:75.61% of 41
+
+File 'tests/checkasm/aes.c'
+Lines executed:87.10% of 31
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aes.gcno##tests#checkasm#aes.c.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:100.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aes.gcno##libavutil#lfg.h.gcov'
+
+File 'libavutil/x86/timer.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aes.gcno##libavutil#x86#timer.h.gcov'
+
+File 'libavutil/emms.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#tests#checkasm#aes.gcno##libavutil#emms.h.gcov'
+
+Lines executed:75.61% of 41

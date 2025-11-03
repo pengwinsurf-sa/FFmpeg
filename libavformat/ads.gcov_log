@@ -1,0 +1,14 @@
+Function 'ads_read_packet'
+Lines executed:0.00% of 6
+
+Function 'ads_read_header'
+Lines executed:0.00% of 25
+
+Function 'ads_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/ads.c'
+Lines executed:0.00% of 35
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#ads.gcno##libavformat#ads.c.gcov'
+
+Lines executed:0.00% of 35

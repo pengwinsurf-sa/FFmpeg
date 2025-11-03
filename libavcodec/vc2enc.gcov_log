@@ -1,0 +1,129 @@
+Function 'vc2_encode_init'
+Lines executed:0.00% of 117
+
+Function 'vc2_encode_end'
+Lines executed:0.00% of 9
+
+Function 'vc2_encode_frame'
+Lines executed:0.00% of 38
+
+Function 'encode_frame'
+Lines executed:0.00% of 36
+
+Function 'dwt_plane'
+Lines executed:0.00% of 42
+
+Function 'encode_slices'
+Lines executed:0.00% of 16
+
+Function 'encode_hq_slice'
+Lines executed:0.00% of 41
+
+Function 'calc_slice_sizes'
+Lines executed:0.00% of 50
+
+Function 'rate_control'
+Lines executed:0.00% of 25
+
+Function 'count_hq_slice'
+Lines executed:0.00% of 42
+
+Function 'encode_subband'
+Lines executed:0.00% of 30
+
+Function 'encode_picture_start'
+Lines executed:0.00% of 8
+
+Function 'encode_wavelet_transform'
+Lines executed:0.00% of 4
+
+Function 'encode_transform_params'
+Lines executed:0.00% of 6
+
+Function 'encode_quant_matrix'
+Lines executed:0.00% of 10
+
+Function 'init_quant_matrix'
+Lines executed:0.00% of 23
+
+Function 'encode_slice_params'
+Lines executed:0.00% of 6
+
+Function 'encode_picture_header'
+Lines executed:0.00% of 10
+
+Function 'encode_seq_header'
+Lines executed:0.00% of 7
+
+Function 'encode_source_params'
+Lines executed:0.00% of 12
+
+Function 'encode_color_spec'
+Lines executed:0.00% of 22
+
+Function 'encode_signal_range'
+Lines executed:0.00% of 5
+
+Function 'encode_aspect_ratio'
+Lines executed:0.00% of 8
+
+Function 'encode_frame_rate'
+Lines executed:0.00% of 8
+
+Function 'encode_scan_format'
+Lines executed:0.00% of 5
+
+Function 'encode_sample_fmt'
+Lines executed:0.00% of 9
+
+Function 'encode_frame_size'
+Lines executed:0.00% of 7
+
+Function 'encode_parse_params'
+Lines executed:0.00% of 6
+
+Function 'encode_parse_info'
+Lines executed:0.00% of 15
+
+Function 'put_vc2_ue_uint'
+Lines executed:0.00% of 3
+
+Function 'vc2_init_static_data'
+Lines executed:0.00% of 9
+
+Function 'skip_put_bytes'
+Lines executed:0.00% of 6
+
+Function 'put_bits63'
+Lines executed:0.00% of 4
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/vc2enc.c'
+Lines executed:0.00% of 593
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc2enc.gcno##libavcodec#vc2enc.c.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 70
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc2enc.gcno##libavcodec#put_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc2enc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc2enc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vc2enc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 672

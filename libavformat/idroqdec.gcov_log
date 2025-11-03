@@ -1,0 +1,22 @@
+Function 'roq_read_packet'
+Lines executed:0.00% of 86
+
+Function 'roq_read_header'
+Lines executed:0.00% of 12
+
+Function 'roq_probe'
+Lines executed:0.00% of 4
+
+File 'libavformat/idroqdec.c'
+Lines executed:0.00% of 98
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#idroqdec.gcno##libavformat#idroqdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#idroqdec.gcno##libavformat#avio.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#idroqdec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+Lines executed:0.00% of 102

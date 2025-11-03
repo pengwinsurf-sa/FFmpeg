@@ -1,0 +1,22 @@
+Function 'ffv1_close'
+Lines executed:0.00% of 5
+
+Function 'parse'
+Lines executed:0.00% of 29
+
+Function 'get_rac'
+Lines executed:0.00% of 21
+
+File 'libavcodec/ffv1_parser.c'
+Lines executed:0.00% of 32
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parser.gcno##libavcodec#ffv1_parser.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parser.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavcodec/rangecoder.h'
+Lines executed:0.00% of 21
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#ffv1_parser.gcno##libavcodec#rangecoder.h.gcov'
+
+Lines executed:0.00% of 55

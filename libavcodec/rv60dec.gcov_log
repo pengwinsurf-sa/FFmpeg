@@ -1,0 +1,239 @@
+Function 'rv60_decode_end'
+Lines executed:0.00% of 13
+
+Function 'rv60_flush'
+Lines executed:0.00% of 5
+
+Function 'rv60_decode_frame'
+Lines executed:0.00% of 78
+
+Function 'decode_slice'
+Lines executed:0.00% of 39
+
+Function 'read_qp_offset'
+Lines executed:0.00% of 20
+
+Function 'deblock_cu_r'
+Lines executed:0.00% of 33
+
+Function 'deblock'
+Lines executed:0.00% of 6
+
+Function 'deblock8x8'
+Lines executed:0.00% of 32
+
+Function 'deblock_edge_hor'
+Lines executed:0.00% of 16
+
+Function 'deblock_edge_ver'
+Lines executed:0.00% of 16
+
+Function 'filter_chroma_edge'
+Lines executed:0.00% of 29
+
+Function 'filter_luma_edge'
+Lines executed:0.00% of 37
+
+Function 'derive_deblock_strength'
+Lines executed:0.00% of 22
+
+Function 'deblock_set_strength'
+Lines executed:0.00% of 11
+
+Function 'decode_cu_r'
+Lines executed:0.00% of 198
+
+Function 'decode_super_cbp'
+Lines executed:0.00% of 31
+
+Function 'decode_cu_16x16'
+Lines executed:0.00% of 30
+
+Function 'decode_cu_8x8'
+Lines executed:0.00% of 23
+
+Function 'decode_cbp8'
+Lines executed:0.00% of 3
+
+Function 'decode_cu_4x4in16x16'
+Lines executed:0.00% of 19
+
+Function 'decode_4x4_block'
+Lines executed:0.00% of 22
+
+Function 'decode_4x4_block_dc'
+Lines executed:0.00% of 15
+
+Function 'decode_2x2'
+Lines executed:0.00% of 13
+
+Function 'decode_2x2_dc'
+Lines executed:0.00% of 11
+
+Function 'decode_coeff'
+Lines executed:0.00% of 10
+
+Function 'avg'
+Lines executed:0.00% of 10
+
+Function 'mc'
+Lines executed:0.00% of 48
+
+Function 'chroma_mc'
+Lines executed:0.00% of 30
+
+Function 'luma_mc'
+Lines executed:0.00% of 20
+
+Function 'read_mv_info'
+Lines executed:0.00% of 23
+
+Function 'reconstruct'
+Lines executed:0.00% of 46
+
+Function 'predict_mv'
+Lines executed:0.00% of 83
+
+Function 'mv_pred'
+Lines executed:0.00% of 4
+
+Function 'mvinfo_is_deblock_cand'
+Lines executed:0.00% of 13
+
+Function 'get_next_mv'
+Lines executed:0.00% of 13
+
+Function 'get_mv_dimensions'
+Lines executed:0.00% of 34
+
+Function 'fill_mv_skip_cand'
+Lines executed:0.00% of 22
+
+Function 'reconstruct_intra'
+Lines executed:0.00% of 43
+
+Function 'unique_list_mvinfo_add'
+Lines executed:0.00% of 1
+
+Function 'unique_list_mvinfo_init'
+Lines executed:0.00% of 1
+
+Function 'unique_list_intramode_add'
+Lines executed:0.00% of 1
+
+Function 'unique_list_intramode_init'
+Lines executed:0.00% of 1
+
+Function 'ipm_compar'
+Lines executed:0.00% of 2
+
+Function 'pred_angle'
+Lines executed:0.00% of 81
+
+Function 'pred_ver_angle'
+Lines executed:0.00% of 14
+
+Function 'pred_hor_angle'
+Lines executed:0.00% of 15
+
+Function 'filter_weak'
+Lines executed:0.00% of 6
+
+Function 'pred_dc'
+Lines executed:0.00% of 22
+
+Function 'pred_plane'
+Lines executed:0.00% of 22
+
+Function 'populate_ipred'
+Lines executed:0.00% of 38
+
+Function 'ipred_init'
+Lines executed:0.00% of 5
+
+Function 'read_intra_mode'
+Lines executed:0.00% of 6
+
+Function 'read_slice_sizes'
+Lines executed:0.00% of 27
+
+Function 'read_frame_header'
+Lines executed:0.00% of 35
+
+Function 'read_code012'
+Lines executed:0.00% of 3
+
+Function 'update_dimensions_clear_info'
+Lines executed:0.00% of 29
+
+Function 'rv60_decode_init'
+Lines executed:0.00% of 11
+
+Function 'progress_init'
+Lines executed:0.00% of 15
+
+Function 'rv60_init_static_data'
+Lines executed:0.00% of 12
+
+Function 'build_coeff_vlc'
+Lines executed:0.00% of 8
+
+Function 'gen_vlc'
+Lines executed:0.00% of 14
+
+Function 'get_interleaved_se_golomb'
+Lines executed:0.00% of 20
+
+Function 'get_bits_long'
+Lines executed:0.00% of 13
+
+Function 'get_bits'
+Lines executed:0.00% of 10
+
+Function 'NEG_USR32'
+No executable lines
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/rv60dec.c'
+Lines executed:0.00% of 1417
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#rv60dec.c.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 71
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#get_bits.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/unary.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#unary.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#x86#mathops.h.gcov'
+
+File 'libavcodec/threadprogress.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#threadprogress.h.gcov'
+
+File 'libavcodec/vlc.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#vlc.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#rv60dec.gcno##libavcodec#golomb.h.gcov'
+
+Lines executed:0.00% of 1537

@@ -370,7 +370,7 @@ static int ogg_read_page(AVFormatContext *s, int *sid, int probing)
     flags   = avio_r8(bc);
     gp      = avio_rl64(bc);
     serial  = avio_rl32(bc);
-    avio_skip(bc, 4); /* seq */
+    avio_rl32(bc); /* seq */
 
     crc_tmp = ffio_get_checksum(bc);
     crc     = avio_rb32(bc);
@@ -880,7 +880,7 @@ retry:
     }
 
     if (os->new_metadata) {
-        ret = av_packet_add_side_data(pkt, AV_PKT_DATA_METADATA_UPDATE,
+        ret = av_packet_add_side_data(pkt, AV_PKT_DATA_STRINGS_METADATA,
                                       os->new_metadata, os->new_metadata_size);
         if (ret < 0)
             return ret;

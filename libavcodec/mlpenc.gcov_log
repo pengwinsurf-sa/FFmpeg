@@ -1,0 +1,167 @@
+Function 'mlp_encode_close'
+Lines executed:0.00% of 5
+
+Function 'mlp_encode_frame'
+Lines executed:0.00% of 76
+
+Function 'process_major_frame'
+Lines executed:0.00% of 7
+
+Function 'analyze_sample_buffer'
+Lines executed:0.00% of 19
+
+Function 'set_major_params'
+Lines executed:0.00% of 29
+
+Function 'set_best_codebook'
+Lines executed:0.00% of 55
+
+Function 'clear_path_counter'
+Lines executed:0.00% of 5
+
+Function 'rematrix_channels'
+Lines executed:0.00% of 38
+
+Function 'generate_2_noise_channels'
+Lines executed:0.00% of 14
+
+Function 'apply_filters'
+Lines executed:0.00% of 6
+
+Function 'apply_filter'
+Lines executed:0.00% of 44
+
+Function 'determine_bits'
+Lines executed:0.00% of 34
+
+Function 'codebook_bits'
+Lines executed:0.00% of 18
+
+Function 'codebook_bits_offset'
+Lines executed:0.00% of 37
+
+Function 'no_codebook_bits'
+Lines executed:0.00% of 21
+
+Function 'no_codebook_bits_offset'
+Lines executed:0.00% of 15
+
+Function 'lossless_matrix_coeffs'
+Lines executed:0.00% of 19
+
+Function 'estimate_coeff'
+Lines executed:0.00% of 51
+
+Function 'determine_filters'
+Lines executed:0.00% of 5
+
+Function 'set_filter'
+Lines executed:0.00% of 27
+
+Function 'code_filter_coeffs'
+Lines executed:0.00% of 11
+
+Function 'determine_quant_step_size'
+Lines executed:0.00% of 13
+
+Function 'determine_output_shift'
+Lines executed:0.00% of 19
+
+Function 'input_to_sample_buffer'
+Lines executed:0.00% of 18
+
+Function 'input_data_internal'
+Lines executed:0.00% of 22
+
+Function 'write_access_unit'
+Lines executed:0.00% of 22
+
+Function 'write_frame_headers'
+Lines executed:0.00% of 28
+
+Function 'write_substr'
+Lines executed:0.00% of 68
+
+Function 'write_block_data'
+Lines executed:0.00% of 34
+
+Function 'write_decoding_params'
+Lines executed:0.00% of 59
+
+Function 'write_filter_params'
+Lines executed:0.00% of 14
+
+Function 'write_matrix_params'
+Lines executed:0.00% of 19
+
+Function 'write_restart_header'
+Lines executed:0.00% of 31
+
+Function 'write_major_sync'
+Lines executed:0.00% of 66
+
+Function 'mlp_encode_init'
+Lines executed:0.00% of 136
+
+Function 'mlp_encode_init_static'
+Lines executed:0.00% of 5
+
+Function 'clear_channel_params'
+Lines executed:0.00% of 8
+
+Function 'clear_decoding_params'
+Lines executed:0.00% of 10
+
+Function 'copy_restart_frame_params'
+Lines executed:0.00% of 14
+
+Function 'copy_matrix_params'
+Lines executed:0.00% of 10
+
+Function 'copy_filter_params'
+Lines executed:0.00% of 11
+
+Function 'compare_decoding_params'
+Lines executed:0.00% of 43
+
+Function 'compare_matrix_params'
+Lines executed:0.00% of 11
+
+Function 'put_bits_no_assert'
+Lines executed:0.00% of 20
+
+Function 'flush_put_bits'
+Lines executed:0.00% of 11
+
+Function 'av_bswap64'
+Lines executed:0.00% of 4
+
+File 'libavcodec/mlpenc.c'
+Lines executed:0.00% of 1144
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno##libavcodec#mlpenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno##libavutil#common.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/put_bits.h'
+Lines executed:0.00% of 59
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno##libavcodec#put_bits.h.gcov'
+
+File 'libavcodec/mlp.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno##libavcodec#mlp.h.gcov'
+
+File 'libavcodec/mlp_parse.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#mlpenc.gcno##libavcodec#mlp_parse.h.gcov'
+
+Lines executed:0.00% of 1232

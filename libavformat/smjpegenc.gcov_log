@@ -1,0 +1,18 @@
+Function 'smjpeg_write_trailer'
+Lines executed:0.00% of 13
+
+Function 'smjpeg_write_packet'
+Lines executed:0.00% of 14
+
+Function 'smjpeg_write_header'
+Lines executed:0.00% of 43
+
+File 'libavformat/smjpegenc.c'
+Lines executed:0.00% of 68
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smjpegenc.gcno##libavformat#smjpegenc.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#smjpegenc.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 70

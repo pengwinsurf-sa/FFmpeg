@@ -1,0 +1,11 @@
+Function 'vp9_metadata_init'
+Lines executed:0.00% of 2
+
+Function 'vp9_metadata_update_fragment'
+Lines executed:0.00% of 27
+
+File 'libavcodec/bsf/vp9_metadata.c'
+Lines executed:0.00% of 29
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#bsf#vp9_metadata.gcno##libavcodec#bsf#vp9_metadata.c.gcov'
+
+Lines executed:0.00% of 29

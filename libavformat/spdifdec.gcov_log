@@ -1,0 +1,24 @@
+Function 'ff_spdif_read_packet'
+Lines executed:0.00% of 40
+
+Function 'spdif_read_header'
+Lines executed:0.00% of 3
+
+Function 'ff_spdif_probe'
+Lines executed:0.00% of 25
+
+Function 'spdif_probe'
+Lines executed:0.00% of 3
+
+Function 'spdif_get_offset_and_codec'
+Lines executed:0.00% of 61
+
+File 'libavformat/spdifdec.c'
+Lines executed:0.00% of 130
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#spdifdec.gcno##libavformat#spdifdec.c.gcov'
+
+File 'libavformat/avio.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#spdifdec.gcno##libavformat#avio.h.gcov'
+
+Lines executed:0.00% of 132

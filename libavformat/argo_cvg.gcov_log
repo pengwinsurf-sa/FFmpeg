@@ -1,0 +1,32 @@
+Function 'argo_cvg_write_trailer'
+Lines executed:0.00% of 14
+
+Function 'argo_cvg_write_packet'
+Lines executed:0.00% of 9
+
+Function 'argo_cvg_write_header'
+Lines executed:0.00% of 8
+
+Function 'argo_cvg_write_init'
+Lines executed:0.00% of 13
+
+Function 'argo_cvg_seek'
+Lines executed:0.00% of 8
+
+Function 'argo_cvg_read_packet'
+Lines executed:0.00% of 15
+
+Function 'argo_cvg_read_header'
+Lines executed:0.00% of 44
+
+Function 'argo_cvg_read_checksum'
+Lines executed:0.00% of 12
+
+Function 'argo_cvg_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/argo_cvg.c'
+Lines executed:0.00% of 134
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#argo_cvg.gcno##libavformat#argo_cvg.c.gcov'
+
+Lines executed:0.00% of 134

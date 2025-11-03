@@ -1,0 +1,40 @@
+Function 'filter_frame'
+Lines executed:0.00% of 43
+
+Function 'dump_audio_service_type'
+Lines executed:0.00% of 18
+
+Function 'dump_replaygain'
+Lines executed:0.00% of 11
+
+Function 'print_peak'
+Lines executed:0.00% of 7
+
+Function 'print_gain'
+Lines executed:0.00% of 7
+
+Function 'dump_downmix'
+Lines executed:0.00% of 14
+
+Function 'dump_matrixenc'
+Lines executed:0.00% of 16
+
+Function 'uninit'
+Lines executed:0.00% of 4
+
+Function 'av_ts_make_string'
+Lines executed:0.00% of 6
+
+File 'libavfilter/af_ashowinfo.c'
+Lines executed:0.00% of 118
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_ashowinfo.gcno##libavfilter#af_ashowinfo.c.gcov'
+
+File 'libavutil/timestamp.h'
+Lines executed:0.00% of 6
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_ashowinfo.gcno##libavutil#timestamp.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_ashowinfo.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 126

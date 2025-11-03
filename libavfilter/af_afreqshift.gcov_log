@@ -1,0 +1,44 @@
+Function 'uninit'
+Lines executed:0.00% of 7
+
+Function 'filter_frame'
+Lines executed:0.00% of 23
+
+Function 'filter_channels'
+Lines executed:0.00% of 10
+
+Function 'config_input'
+Lines executed:0.00% of 18
+
+Function 'compute_coefs'
+Lines executed:0.00% of 9
+
+Function 'compute_coef'
+Lines executed:0.00% of 9
+
+Function 'compute_acc_den'
+Lines executed:0.00% of 21
+
+Function 'compute_acc_num'
+Lines executed:0.00% of 13
+
+Function 'compute_transition_param'
+Lines executed:0.00% of 12
+
+Function 'ffilter_channel_dbl'
+Lines executed:0.00% of 1
+
+Function 'ffilter_channel_flt'
+Lines executed:0.00% of 1
+
+Function 'pfilter_channel_dbl'
+Lines executed:0.00% of 1
+
+Function 'pfilter_channel_flt'
+Lines executed:0.00% of 1
+
+File 'libavfilter/af_afreqshift.c'
+Lines executed:0.00% of 126
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#af_afreqshift.gcno##libavfilter#af_afreqshift.c.gcov'
+
+Lines executed:0.00% of 126

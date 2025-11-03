@@ -1,0 +1,27 @@
+Function 'ff_vorbis_floor1_render_list'
+Lines executed:0.00% of 15
+
+Function 'render_line'
+Lines executed:0.00% of 24
+
+Function 'render_line_unrolled'
+Lines executed:0.00% of 16
+
+Function 'ff_vorbis_ready_floor1_list'
+Lines executed:0.00% of 26
+
+Function 'ff_vorbis_len2vlc'
+Lines executed:0.00% of 26
+
+Function 'ff_vorbis_nth_root'
+Lines executed:0.00% of 8
+
+File 'libavcodec/vorbis.c'
+Lines executed:0.00% of 112
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis.gcno##libavcodec#vorbis.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#vorbis.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 115

@@ -1,0 +1,40 @@
+Function 'activate'
+Lines executed:0.00% of 30
+
+Function 'config_props'
+Lines executed:0.00% of 19
+
+Function 'velvet_filter'
+Lines executed:0.00% of 3
+
+Function 'violet_filter'
+Lines executed:0.00% of 5
+
+Function 'brown_filter'
+Lines executed:0.00% of 5
+
+Function 'blue_filter'
+Lines executed:0.00% of 11
+
+Function 'pink_filter'
+Lines executed:0.00% of 11
+
+Function 'white_filter'
+Lines executed:0.00% of 2
+
+Function 'query_formats'
+Lines executed:0.00% of 10
+
+File 'libavfilter/asrc_anoisesrc.c'
+Lines executed:0.00% of 90
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#asrc_anoisesrc.gcno##libavfilter#asrc_anoisesrc.c.gcov'
+
+File 'libavfilter/filters.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#asrc_anoisesrc.gcno##libavfilter#filters.h.gcov'
+
+File 'libavutil/lfg.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavfilter#asrc_anoisesrc.gcno##libavutil#lfg.h.gcov'
+
+Lines executed:0.00% of 96

@@ -1,0 +1,45 @@
+Function 'dvdsub_init'
+Lines executed:0.00% of 20
+
+Function 'bprint_to_extradata'
+Lines executed:0.00% of 13
+
+Function 'dvdsub_encode'
+Lines executed:0.00% of 113
+
+Function 'copy_rectangle'
+Lines executed:0.00% of 12
+
+Function 'build_color_map'
+Lines executed:0.00% of 24
+
+Function 'select_palette'
+Lines executed:0.00% of 37
+
+Function 'count_colors'
+Lines executed:0.00% of 26
+
+Function 'dvd_encode_rle'
+Lines executed:0.00% of 37
+
+File 'libavcodec/dvdsubenc.c'
+Lines executed:0.00% of 274
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubenc.gcno##libavcodec#dvdsubenc.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubenc.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bprint.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubenc.gcno##libavutil#bprint.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 1
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubenc.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dvdsubenc.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 282

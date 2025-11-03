@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__lavc__decoding" kind="group">
+    <compoundname>lavc_decoding</compoundname>
+    <title>Decoding</title>
+    <innergroup refid="group__lavc__parsing">Frame parsing</innergroup>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__lavc__decoding_1ga9abe043ed40f3c270dff77235fcfcd0b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVCodecConfig</name>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0ba242c7f9314b57352be4552c4ca990dbf" prot="public">
+          <name>AV_CODEC_CONFIG_PIX_FORMAT</name>
+          <briefdescription>
+<para>AVPixelFormat, terminated by AV_PIX_FMT_NONE. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0ba5f9f42f34ba846b1f32acb0d15d9acd2" prot="public">
+          <name>AV_CODEC_CONFIG_FRAME_RATE</name>
+          <briefdescription>
+<para><ref refid="structAVRational" kindref="compound">AVRational</ref>, terminated by {0, 0}. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0bac37a7f85cdb2784a7539655992bda032" prot="public">
+          <name>AV_CODEC_CONFIG_SAMPLE_RATE</name>
+          <briefdescription>
+<para>int, terminated by 0 </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0ba3033a0b20385e192efb18c70de57fd03" prot="public">
+          <name>AV_CODEC_CONFIG_SAMPLE_FORMAT</name>
+          <briefdescription>
+<para>AVSampleFormat, terminated by AV_SAMPLE_FMT_NONE. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0bae96a9946c1f53853f958733a05727269" prot="public">
+          <name>AV_CODEC_CONFIG_CHANNEL_LAYOUT</name>
+          <briefdescription>
+<para><ref refid="structAVChannelLayout" kindref="compound">AVChannelLayout</ref>, terminated by {0}. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0ba8d9136792708c1455b2acf49d5821f77" prot="public">
+          <name>AV_CODEC_CONFIG_COLOR_RANGE</name>
+          <briefdescription>
+<para>AVColorRange, terminated by AVCOL_RANGE_UNSPECIFIED. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga9abe043ed40f3c270dff77235fcfcd0ba6635ec40162b9ed79c3e987dba816596" prot="public">
+          <name>AV_CODEC_CONFIG_COLOR_SPACE</name>
+          <briefdescription>
+<para>AVColorSpace, terminated by AVCOL_SPC_UNSPECIFIED. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2523" column="1" bodyfile="libavcodec/avcodec.h" bodystart="2523" bodyend="2531"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__lavc__decoding_1ga352363bce7d3ed82c101b3bc001d1c16" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AVDiscard</name>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16a93d0436f7651b58debe3f995e2582dcd" prot="public">
+          <name>AVDISCARD_NONE</name>
+          <initializer>=-16</initializer>
+          <briefdescription>
+<para>discard nothing </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16a81453d8c452e8ee794daf7fde1c80b5b" prot="public">
+          <name>AVDISCARD_DEFAULT</name>
+          <initializer>=  0</initializer>
+          <briefdescription>
+<para>discard useless packets like 0 size packets in avi </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16ac5a5a87ffcd6fb2362ac18449d29bde8" prot="public">
+          <name>AVDISCARD_NONREF</name>
+          <initializer>=  8</initializer>
+          <briefdescription>
+<para>discard all non reference </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16a776541ad00a4f13c3fdcd363988bffb3" prot="public">
+          <name>AVDISCARD_BIDIR</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+<para>discard all bidirectional frames </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16aabee31ca5c7c140d3a84b848164eeaf8" prot="public">
+          <name>AVDISCARD_NONINTRA</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+<para>discard all non intra frames </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16a31c8164477d9f571f82003065d2ab6f1" prot="public">
+          <name>AVDISCARD_NONKEY</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+<para>discard all frames except keyframes </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__lavc__decoding_1gga352363bce7d3ed82c101b3bc001d1c16a07517e3890ba7e19a612945483dc066a" prot="public">
+          <name>AVDISCARD_ALL</name>
+          <initializer>= 48</initializer>
+          <briefdescription>
+<para>discard all </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="220" column="1" bodyfile="libavcodec/defs.h" bodystart="220" bodyend="230"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__lavc__decoding_1ga09dee227d3666720eff1f6913d11699d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_default_get_buffer2</definition>
+        <argsstring>(AVCodecContext *s, AVFrame *frame, int flags)</argsstring>
+        <name>avcodec_default_get_buffer2</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>The default callback for <ref refid="structAVCodecContext_1aef79333a4c6abf1628c55d75ec82bede" kindref="member">AVCodecContext.get_buffer2()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is made public so it can be called by custom get_buffer2() implementations for decoders without AV_CODEC_CAP_DR1 set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2241" column="5" declfile="libavcodec/avcodec.h" declline="2241" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1gad9476afa8d6c408703166b1869e28c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_default_get_encode_buffer</definition>
+        <argsstring>(AVCodecContext *s, AVPacket *pkt, int flags)</argsstring>
+        <name>avcodec_default_get_encode_buffer</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+          <declname>pkt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>The default callback for <ref refid="structAVCodecContext_1a610bca24031c26f6ac6c6f4ff11a05b4" kindref="member">AVCodecContext.get_encode_buffer()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is made public so it can be called by custom get_encode_buffer() implementations for encoders without AV_CODEC_CAP_DR1 set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2248" column="5" declfile="libavcodec/avcodec.h" declline="2248" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga48432a3760eec9fce0f0ef7b298859f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void avcodec_align_dimensions</definition>
+        <argsstring>(AVCodecContext *s, int *width, int *height)</argsstring>
+        <name>avcodec_align_dimensions</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Modify width and height values so that they will result in a memory buffer that is acceptable for the codec if you do not use any horizontal padding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May only be used if a codec with AV_CODEC_CAP_DR1 has been opened. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2257" column="6" declfile="libavcodec/avcodec.h" declline="2257" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga34e3269dc1b9e2c98e9371241722e7e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void avcodec_align_dimensions2</definition>
+        <argsstring>(AVCodecContext *s, int *width, int *height, int linesize_align[AV_NUM_DATA_POINTERS])</argsstring>
+        <name>avcodec_align_dimensions2</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>linesize_align</declname>
+          <array>[AV_NUM_DATA_POINTERS]</array>
+        </param>
+        <briefdescription>
+<para>Modify width and height values so that they will result in a memory buffer that is acceptable for the codec if you also ensure that all line sizes are a multiple of the respective linesize_align[i]. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May only be used if a codec with AV_CODEC_CAP_DR1 has been opened. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2266" column="6" declfile="libavcodec/avcodec.h" declline="2266" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga5c30b73f0ec105f93d4e86464f541f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_decode_subtitle2</definition>
+        <argsstring>(AVCodecContext *avctx, AVSubtitle *sub, int *got_sub_ptr, const AVPacket *avpkt)</argsstring>
+        <name>avcodec_decode_subtitle2</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVSubtitle" kindref="compound">AVSubtitle</ref> *</type>
+          <declname>sub</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>got_sub_ptr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+          <declname>avpkt</declname>
+        </param>
+        <briefdescription>
+<para>Decode a subtitle message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a negative value on error, otherwise return the number of bytes used. If no subtitle could be decompressed, got_sub_ptr is zero. Otherwise, the subtitle is stored in *sub. Note that AV_CODEC_CAP_DR1 is not available for subtitle codecs. This is for simplicity, because the performance difference is expected to be negligible and reusing a get_buffer written for video codecs would probably perform badly due to a potentially very different allocation pattern.</para>
+<para>Some decoders (those marked with AV_CODEC_CAP_DELAY) have a delay between input and output. This means that for some packets they will not immediately produce decoded output and need to be flushed at the end of decoding to get all the decoded data. Flushing is done by calling this function with packets with avpkt-&gt;data set to NULL and avpkt-&gt;size set to 0 until it stops returning subtitles. It is safe to flush even those decoders that are not marked with AV_CODEC_CAP_DELAY, then no subtitles will be returned.</para>
+<para><simplesect kind="note"><para>The <ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> MUST have been opened with <ref refid="group__lavc__core_1ga11f785a188d7d9df71621001465b0f1d" kindref="member">avcodec_open2()</ref> before packets may be fed to the decoder.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the codec context </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">sub</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The preallocated <ref refid="structAVSubtitle" kindref="compound">AVSubtitle</ref> in which the decoded subtitle will be stored, must be freed with avsubtitle_free if *got_sub_ptr is set. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">got_sub_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zero if no subtitle could be decompressed, otherwise, it is nonzero. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">avpkt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input <ref refid="structAVPacket" kindref="compound">AVPacket</ref> containing the input buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2296" column="5" declfile="libavcodec/avcodec.h" declline="2296" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga58bc4bf1e0ac59e27362597e467efff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_send_packet</definition>
+        <argsstring>(AVCodecContext *avctx, const AVPacket *avpkt)</argsstring>
+        <name>avcodec_send_packet</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+          <declname>avpkt</declname>
+        </param>
+        <briefdescription>
+<para>Supply raw packet data as input to a decoder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Internally, this call will copy relevant <ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> fields, which can influence decoding per-packet, and apply them when the packet is actually decoded. (For example <ref refid="structAVCodecContext_1af869b808363998c80adf7df6a944a5a6" kindref="member">AVCodecContext.skip_frame</ref>, which might direct the decoder to drop the frame contained by the packet sent with this function.)</para>
+<para><simplesect kind="warning"><para>The input buffer, avpkt-&gt;data must be AV_INPUT_BUFFER_PADDING_SIZE larger than the actual read bytes because some optimized bitstream readers read 32 or 64 bits at once and could read over the end.</para>
+</simplesect>
+<simplesect kind="note"><para>The <ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> MUST have been opened with <ref refid="group__lavc__core_1ga11f785a188d7d9df71621001465b0f1d" kindref="member">avcodec_open2()</ref> before packets may be fed to the decoder.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec context </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">avpkt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input <ref refid="structAVPacket" kindref="compound">AVPacket</ref>. Usually, this will be a single video frame, or several complete audio frames. Ownership of the packet remains with the caller, and the decoder will not write to the packet. The decoder may create a reference to the packet data (or copy it if the packet is not reference-counted). Unlike with older APIs, the packet is always fully consumed, and if it contains multiple frames (e.g. some audio codecs), will require you to call <ref refid="group__lavc__decoding_1ga11e6542c4e66d3028668788a1a74217c" kindref="member">avcodec_receive_frame()</ref> multiple times afterwards before you can send a new packet. It can be NULL (or an <ref refid="structAVPacket" kindref="compound">AVPacket</ref> with data set to NULL and size set to 0); in this case, it is considered a flush packet, which signals the end of the stream. Sending the first flush packet will return success. Subsequent ones are unnecessary and will return AVERROR_EOF. If the decoder still has frames buffered, it will return them after sending a flush packet.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input is not accepted in the current state - user must read output with <ref refid="group__lavc__decoding_1ga11e6542c4e66d3028668788a1a74217c" kindref="member">avcodec_receive_frame()</ref> (once all output is read, the packet should be resent, and the call will not fail with EAGAIN). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AVERROR_EOF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the decoder has been flushed, and no new packets can be sent to it (also returned if more than 1 flush packet is sent) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EINVAL)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec not opened, it is an encoder, or requires flush </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(ENOMEM)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>failed to add packet to internal queue, or similar </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>another negative error code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>legitimate decoding errors </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2345" column="5" declfile="libavcodec/avcodec.h" declline="2345" declcolumn="5"/>
+        <referencedby refid="decode__video_8c_1afb211466e5ff14e81d05689d449533e3" compoundref="decode__video_8c" startline="52" endline="82">decode</referencedby>
+        <referencedby refid="decode__audio_8c_1a1704ae53d7f426e1b67341785b5b2b58" compoundref="decode__audio_8c" startline="72" endline="104">decode</referencedby>
+        <referencedby refid="transcode__aac_8c_1a5c320cc89448244f68daee53092da98c" compoundref="transcode__aac_8c" startline="370" endline="430">decode_audio_frame</referencedby>
+        <referencedby refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" compoundref="demux__decode_8c" startline="110" endline="144">decode_packet</referencedby>
+        <referencedby refid="extract__mvs_8c_1a3740a789b55da53dea5861e772d684a3" compoundref="extract__mvs_8c" startline="45" endline="84">decode_packet</referencedby>
+        <referencedby refid="hw__decode_8c_1aa376d8bc0bb004de4856e8920e0f6217" compoundref="hw__decode_8c" startline="77" endline="147">decode_write</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__filter__audio_8c" startline="223" endline="321">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga11e6542c4e66d3028668788a1a74217c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_receive_frame</definition>
+        <argsstring>(AVCodecContext *avctx, AVFrame *frame)</argsstring>
+        <name>avcodec_receive_frame</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Return decoded output data from a decoder or encoder (when the <ref refid="group__lavc__core_1gaff2b2fa4b372eae1690a0258728ea84a" kindref="member">AV_CODEC_FLAG_RECON_FRAME</ref> flag is used). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec context </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This will be set to a reference-counted video or audio frame (depending on the decoder type) allocated by the codec. Note that the function will always call av_frame_unref(frame) before doing anything else.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>success, a frame was returned </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output is not available in this state - user must try to send new input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AVERROR_EOF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the codec has been fully flushed, and there will be no more output frames </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EINVAL)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec not opened, or it is an encoder without the <ref refid="group__lavc__core_1gaff2b2fa4b372eae1690a0258728ea84a" kindref="member">AV_CODEC_FLAG_RECON_FRAME</ref> flag enabled </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>other negative error code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>legitimate decoding errors </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2366" column="5" declfile="libavcodec/avcodec.h" declline="2366" declcolumn="5"/>
+        <referencedby refid="decode__video_8c_1afb211466e5ff14e81d05689d449533e3" compoundref="decode__video_8c" startline="52" endline="82">decode</referencedby>
+        <referencedby refid="decode__audio_8c_1a1704ae53d7f426e1b67341785b5b2b58" compoundref="decode__audio_8c" startline="72" endline="104">decode</referencedby>
+        <referencedby refid="transcode__aac_8c_1a5c320cc89448244f68daee53092da98c" compoundref="transcode__aac_8c" startline="370" endline="430">decode_audio_frame</referencedby>
+        <referencedby refid="demux__decode_8c_1a9e3819273006eb6eb08cfe7a487c222e" compoundref="demux__decode_8c" startline="110" endline="144">decode_packet</referencedby>
+        <referencedby refid="extract__mvs_8c_1a3740a789b55da53dea5861e772d684a3" compoundref="extract__mvs_8c" startline="45" endline="84">decode_packet</referencedby>
+        <referencedby refid="hw__decode_8c_1aa376d8bc0bb004de4856e8920e0f6217" compoundref="hw__decode_8c" startline="77" endline="147">decode_write</referencedby>
+        <referencedby refid="decode__filter__audio_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="decode__filter__audio_8c" startline="223" endline="321">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga9395cb802a5febf1f00df31497779169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_send_frame</definition>
+        <argsstring>(AVCodecContext *avctx, const AVFrame *frame)</argsstring>
+        <name>avcodec_send_frame</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structAVFrame" kindref="compound">AVFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+<para>Supply a raw video or audio frame to the encoder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use <ref refid="group__lavc__decoding_1ga5b8eff59cf259747cf0b31563e38ded6" kindref="member">avcodec_receive_packet()</ref> to retrieve buffered output packets.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec context </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structAVFrame" kindref="compound">AVFrame</ref> containing the raw audio or video frame to be encoded. Ownership of the frame remains with the caller, and the encoder will not write to the frame. The encoder may create a reference to the frame data (or copy it if the frame is not reference-counted). It can be NULL, in which case it is considered a flush packet. This signals the end of the stream. If the encoder still has packets buffered, it will return them after this call. Once flushing mode has been entered, additional flush packets are ignored, and sending frames will return AVERROR_EOF.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+For audio: If AV_CODEC_CAP_VARIABLE_FRAME_SIZE is set, then each frame can have any number of samples. If it is not set, frame-&gt;nb_samples must be equal to avctx-&gt;frame_size for all frames except the last. The final frame may be smaller than avctx-&gt;frame_size. <parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input is not accepted in the current state - user must read output with <ref refid="group__lavc__decoding_1ga5b8eff59cf259747cf0b31563e38ded6" kindref="member">avcodec_receive_packet()</ref> (once all output is read, the packet should be resent, and the call will not fail with EAGAIN). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AVERROR_EOF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the encoder has been flushed, and no new frames can be sent to it </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EINVAL)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec not opened, it is a decoder, or requires flush </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(ENOMEM)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>failed to add packet to internal queue, or similar </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>another negative error code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>legitimate encoding errors </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2402" column="5" declfile="libavcodec/avcodec.h" declline="2402" declcolumn="5"/>
+        <referencedby refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" compoundref="encode__audio_8c" startline="94" endline="120">encode</referencedby>
+        <referencedby refid="encode__video_8c_1a56739f6d2e501c2388279fcde2078ac6" compoundref="encode__video_8c" startline="39" endline="67">encode</referencedby>
+        <referencedby refid="transcode__aac_8c_1a3d408f21612691f8c93a7aa24ea554ef" compoundref="transcode__aac_8c" startline="655" endline="717">encode_audio_frame</referencedby>
+        <referencedby refid="transcode_8c_1a0911d751b11fdf9780825b79badfae91" compoundref="transcode_8c" startline="463" endline="502">encode_write_frame</referencedby>
+        <referencedby refid="mux_8c_1a7bdbb3cdac2b8aeadf731768bb193c38" compoundref="mux_8c" startline="83" endline="122">write_frame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga5b8eff59cf259747cf0b31563e38ded6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_receive_packet</definition>
+        <argsstring>(AVCodecContext *avctx, AVPacket *avpkt)</argsstring>
+        <name>avcodec_receive_packet</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVPacket" kindref="compound">AVPacket</ref> *</type>
+          <declname>avpkt</declname>
+        </param>
+        <briefdescription>
+<para>Read encoded data from the encoder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec context </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>avpkt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This will be set to a reference-counted packet allocated by the encoder. Note that the function will always call av_packet_unref(avpkt) before doing anything else. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EAGAIN)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output is not available in the current state - user must try to send input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AVERROR_EOF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the encoder has been fully flushed, and there will be no more output packets </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EINVAL)</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codec not opened, or it is a decoder </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>another negative error code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>legitimate encoding errors </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2419" column="5" declfile="libavcodec/avcodec.h" declline="2419" declcolumn="5"/>
+        <referencedby refid="encode__audio_8c_1a4883bd84aced552588972551e86d8575" compoundref="encode__audio_8c" startline="94" endline="120">encode</referencedby>
+        <referencedby refid="encode__video_8c_1a56739f6d2e501c2388279fcde2078ac6" compoundref="encode__video_8c" startline="39" endline="67">encode</referencedby>
+        <referencedby refid="transcode__aac_8c_1a3d408f21612691f8c93a7aa24ea554ef" compoundref="transcode__aac_8c" startline="655" endline="717">encode_audio_frame</referencedby>
+        <referencedby refid="transcode_8c_1a0911d751b11fdf9780825b79badfae91" compoundref="transcode_8c" startline="463" endline="502">encode_write_frame</referencedby>
+        <referencedby refid="mux_8c_1a7bdbb3cdac2b8aeadf731768bb193c38" compoundref="mux_8c" startline="83" endline="122">write_frame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1ga7fc990105405e7958f8051cee81bee6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_get_hw_frames_parameters</definition>
+        <argsstring>(AVCodecContext *avctx, AVBufferRef *device_ref, enum AVPixelFormat hw_pix_fmt, AVBufferRef **out_frames_ref)</argsstring>
+        <name>avcodec_get_hw_frames_parameters</name>
+        <param>
+          <type><ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVBufferRef" kindref="compound">AVBufferRef</ref> *</type>
+          <declname>device_ref</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="pixfmt_8h_1a9a8e335cf3be472042bc9f0cf80cd4c5" kindref="member">AVPixelFormat</ref></type>
+          <declname>hw_pix_fmt</declname>
+        </param>
+        <param>
+          <type><ref refid="structAVBufferRef" kindref="compound">AVBufferRef</ref> **</type>
+          <declname>out_frames_ref</declname>
+        </param>
+        <briefdescription>
+<para>Create and return a <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> with values adequate for hardware decoding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is meant to get called from the get_format callback, and is a helper for preparing a <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> for <ref refid="structAVCodecContext_1a3bac44bb0b016ab838780cc19ac277d6" kindref="member">AVCodecContext.hw_frames_ctx</ref>. This API is for decoding with certain hardware acceleration modes/APIs only.</para>
+<para>The returned <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> is not initialized. The caller must do this with <ref refid="hwcontext_8h_1a66a7e1ebc7e459ce07d3de6639ac7e38" kindref="member">av_hwframe_ctx_init()</ref>.</para>
+<para>Calling this function is not a requirement, but makes it simpler to avoid codec or hardware API specific details when manually allocating frames.</para>
+<para>Alternatively to this, an API user can set <ref refid="structAVCodecContext_1acf8113e490f9e7b57465e65af9c0c75c" kindref="member">AVCodecContext.hw_device_ctx</ref>, which sets up <ref refid="structAVCodecContext_1a3bac44bb0b016ab838780cc19ac277d6" kindref="member">AVCodecContext.hw_frames_ctx</ref> fully automatically, and makes it unnecessary to call this function or having to care about <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> initialization at all.</para>
+<para>There are a number of requirements for calling this function:</para>
+<para><itemizedlist>
+<listitem><para>It must be called from get_format with the same avctx parameter that was passed to get_format. Calling it outside of get_format is not allowed, and can trigger undefined behavior.</para>
+</listitem><listitem><para>The function is not always supported (see description of return values). Even if this function returns successfully, hwaccel initialization could fail later. (The degree to which implementations check whether the stream is actually supported varies. Some do this check only after the user&apos;s get_format callback returns.)</para>
+</listitem><listitem><para>The hw_pix_fmt must be one of the choices suggested by get_format. If the user decides to use a <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> prepared with this API function, the user must return the same hw_pix_fmt from get_format.</para>
+</listitem><listitem><para>The device_ref passed to this function must support the given hw_pix_fmt.</para>
+</listitem><listitem><para>After calling this API function, it is the user&apos;s responsibility to initialize the <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> (returned by the out_frames_ref parameter), and to set <ref refid="structAVCodecContext_1a3bac44bb0b016ab838780cc19ac277d6" kindref="member">AVCodecContext.hw_frames_ctx</ref> to it. If done, this must be done before returning from get_format (this is implied by the normal <ref refid="structAVCodecContext_1a3bac44bb0b016ab838780cc19ac277d6" kindref="member">AVCodecContext.hw_frames_ctx</ref> API rules).</para>
+</listitem><listitem><para>The <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> parameters may change every time time get_format is called. Also, <ref refid="structAVCodecContext_1a3bac44bb0b016ab838780cc19ac277d6" kindref="member">AVCodecContext.hw_frames_ctx</ref> is reset before get_format. So you are inherently required to go through this process again on every get_format call.</para>
+</listitem><listitem><para>It is perfectly possible to call this function without actually using the resulting <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref>. One use-case might be trying to reuse a previously initialized <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref>, and calling this API function only to test whether the required frame parameters have changed.</para>
+</listitem><listitem><para>Fields that use dynamically allocated values of any kind must not be set by the user unless setting them is explicitly allowed by the documentation. If the user sets <ref refid="structAVHWFramesContext_1aaeccab495e5027aa0402dea10bdcd166" kindref="member">AVHWFramesContext.free</ref> and <ref refid="structAVHWFramesContext_1a4d6e4c17632bd6770654b7627722222e" kindref="member">AVHWFramesContext.user_opaque</ref>, the new free callback must call the potentially set previous free callback. This API call may set any dynamically allocated fields, including the free callback.</para>
+</listitem></itemizedlist>
+</para>
+<para>The function will set at least the following fields on <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> (potentially more, depending on hwaccel API):</para>
+<para><itemizedlist>
+<listitem><para>All fields set by <ref refid="hwcontext_8h_1a4ecba8a4ac10bfb324aa117f36b6be32" kindref="member">av_hwframe_ctx_alloc()</ref>.</para>
+</listitem><listitem><para>Set the format field to hw_pix_fmt.</para>
+</listitem><listitem><para>Set the sw_format field to the most suited and most versatile format. (An implication is that this will prefer generic formats over opaque formats with arbitrary restrictions, if possible.)</para>
+</listitem><listitem><para>Set the width/height fields to the coded frame size, rounded up to the API-specific minimum alignment.</para>
+</listitem><listitem><para>Only <emphasis>if</emphasis> the hwaccel requires a pre-allocated pool: set the initial_pool_size field to the number of maximum reference surfaces possible with the codec, plus 1 surface for the user to work (meaning the user can safely reference at most 1 decoded surface at a time), plus additional buffering introduced by frame threading. If the hwaccel does not require pre-allocation, the field is left to 0, and the decoder will allocate new surfaces on demand during decoding.</para>
+</listitem><listitem><para>Possibly <ref refid="structAVHWFramesContext_1a54e38c3e4355321e23e0f4c7411cb8ee" kindref="member">AVHWFramesContext.hwctx</ref> fields, depending on the underlying hardware API.</para>
+</listitem></itemizedlist>
+</para>
+<para>Essentially, out_frames_ref returns the same as <ref refid="hwcontext_8h_1a4ecba8a4ac10bfb324aa117f36b6be32" kindref="member">av_hwframe_ctx_alloc()</ref>, but with basic frame parameters set.</para>
+<para>The function is stateless, and does not change the <ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> or the device_ref <ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The context which is currently calling get_format, and which implicitly contains all state needed for filling the returned <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref> properly. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device_ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reference to the <ref refid="structAVHWDeviceContext" kindref="compound">AVHWDeviceContext</ref> describing the device which will be used by the hardware decoder. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hw_pix_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The hwaccel format you are going to return from get_format. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_frames_ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On success, set to a reference to an <emphasis>uninitialized</emphasis> <ref refid="structAVHWFramesContext" kindref="compound">AVHWFramesContext</ref>, created from the given device_ref. Fields will be set to values required for decoding. Not changed if an error is returned. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>zero on success, a negative value on error. The following error codes have special semantics: <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(ENOENT)</ref>: the decoder does not support this functionality. Setup is always manual, or it is a decoder which does not support setting <ref refid="structAVCodecContext_1a3bac44bb0b016ab838780cc19ac277d6" kindref="member">AVCodecContext.hw_frames_ctx</ref> at all, or it is a software format. <ref refid="group__lavu__error_1gae4bb6f165973d09584e0ec0f335f69ca" kindref="member">AVERROR(EINVAL)</ref>: it is known that hardware decoding is not supported for this configuration, or the device_ref is not supported for the hwaccel referenced by hw_pix_fmt. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2518" column="5" declfile="libavcodec/avcodec.h" declline="2518" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__lavc__decoding_1gadd58e6b0bbca99fdbc547efbaa6b0ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avcodec_get_supported_config</definition>
+        <argsstring>(const AVCodecContext *avctx, const AVCodec *codec, enum AVCodecConfig config, unsigned flags, const void **out_configs, int *out_num_configs)</argsstring>
+        <name>avcodec_get_supported_config</name>
+        <param>
+          <type>const <ref refid="structAVCodecContext" kindref="compound">AVCodecContext</ref> *</type>
+          <declname>avctx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structAVCodec" kindref="compound">AVCodec</ref> *</type>
+          <declname>codec</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="group__lavc__decoding_1ga9abe043ed40f3c270dff77235fcfcd0b" kindref="member">AVCodecConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>const void **</type>
+          <declname>out_configs</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>out_num_configs</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve a list of all supported values for a given configuration type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An optional context to use. Values such as <computeroutput>strict_std_compliance</computeroutput> may affect the result. If NULL, default values are used. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>codec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The codec to query, or NULL to use avctx-&gt;codec. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The configuration to query. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Currently unused; should be set to zero. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_configs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On success, set to a list of configurations, terminated by a config-specific terminator, or NULL if all possible values are supported. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_num_configs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On success, set to the number of elements in out_configs, excluding the terminator. Optional. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/avcodec.h" line="2548" column="5" declfile="libavcodec/avcodec.h" declline="2548" declcolumn="5"/>
+        <referencedby refid="transcode_8c_1ab6c33edf9a42e2f71594a7cdc6276407" compoundref="transcode_8c" startline="129" endline="258">open_output_file</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__lavc__decoding_1ga8f5b632a03ce83ac8e025894b1fc307a" prot="public" static="no">
+        <name>AV_INPUT_BUFFER_PADDING_SIZE</name>
+        <initializer>64</initializer>
+        <briefdescription>
+<para>Required number of additionally allocated bytes at the end of the input bitstream for decoding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is mainly needed because some optimized bitstream readers read 32 or 64 bit at once and could read over the end.<linebreak/>
+ Note: If the first 23 bits of the additional bytes are not 0, then damaged MPEG bitstreams could cause overread and segfault. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libavcodec/defs.h" line="40" column="9" bodyfile="libavcodec/defs.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

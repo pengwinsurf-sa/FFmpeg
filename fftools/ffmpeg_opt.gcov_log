@@ -1,0 +1,185 @@
+Function 'opt_adrift_threshold'
+Lines executed:0.00% of 3
+
+Function 'opt_qphist'
+Lines executed:0.00% of 3
+
+Function 'opt_timelimit'
+Lines executed:0.00% of 9
+
+Function 'opt_progress'
+Lines executed:0.00% of 15
+
+Function 'ffmpeg_parse_options'
+Lines executed:0.00% of 50
+
+Function 'open_files'
+Lines executed:0.00% of 19
+
+Function 'show_usage'
+Lines executed:0.00% of 5
+
+Function 'show_help_default'
+Lines executed:0.00% of 49
+
+Function 'opt_filter_complex_script'
+Lines executed:0.00% of 13
+
+Function 'opt_filter_complex'
+Lines executed:0.00% of 12
+
+Function 'opt_audio_qscale'
+Lines executed:0.00% of 3
+
+Function 'opt_timecode'
+Lines executed:0.00% of 10
+
+Function 'opt_vsync'
+Lines executed:0.00% of 3
+
+Function 'opt_audio_filters'
+Lines executed:0.00% of 3
+
+Function 'opt_video_filters'
+Lines executed:0.00% of 3
+
+Function 'opt_profile'
+Lines executed:0.00% of 8
+
+Function 'opt_qscale'
+Lines executed:0.00% of 12
+
+Function 'opt_bitrate'
+Lines executed:0.00% of 11
+
+Function 'opt_old2new'
+Lines executed:0.00% of 8
+
+Function 'opt_preset'
+Lines executed:0.00% of 50
+
+Function 'opt_default_new'
+Lines executed:0.00% of 14
+
+Function 'opt_data_frames'
+Lines executed:0.00% of 3
+
+Function 'opt_audio_frames'
+Lines executed:0.00% of 3
+
+Function 'opt_video_frames'
+Lines executed:0.00% of 3
+
+Function 'opt_vstats'
+Lines executed:0.00% of 15
+
+Function 'opt_vstats_file'
+No executable lines
+
+Function 'opt_target'
+Lines executed:0.00% of 93
+
+Function 'opt_streamid'
+Lines executed:0.00% of 11
+
+Function 'assert_file_overwrite'
+Lines executed:0.00% of 29
+
+Function 'find_codec'
+Lines executed:0.00% of 21
+
+Function 'opt_recording_timestamp'
+Lines executed:0.00% of 14
+
+Function 'opt_filter_hw_device'
+Lines executed:0.00% of 8
+
+Function 'opt_init_hw_device'
+Lines executed:0.00% of 9
+
+Function 'opt_sdp_file'
+Lines executed:0.00% of 3
+
+Function 'opt_attach'
+Lines executed:0.00% of 7
+
+Function 'opt_map'
+Lines executed:0.00% of 76
+
+Function 'opt_data_codec'
+No executable lines
+
+Function 'opt_subtitle_codec'
+No executable lines
+
+Function 'opt_video_codec'
+No executable lines
+
+Function 'opt_audio_codec'
+No executable lines
+
+Function 'opt_stats_period'
+Lines executed:0.00% of 10
+
+Function 'opt_abort_on'
+Lines executed:0.00% of 5
+
+Function 'opt_filter_threads'
+Lines executed:0.00% of 4
+
+Function 'apply_sync_offsets'
+Lines executed:0.00% of 28
+
+Function 'correct_input_start_times'
+Lines executed:0.00% of 27
+
+Function 'parse_and_set_vsync'
+Lines executed:0.00% of 19
+
+Function 'view_specifier_parse'
+Lines executed:0.00% of 34
+
+Function 'opt_match_per_stream_dbl'
+Lines executed:0.00% of 1
+
+Function 'opt_match_per_stream_int64'
+Lines executed:0.00% of 1
+
+Function 'opt_match_per_stream_int'
+Lines executed:0.00% of 1
+
+Function 'opt_match_per_stream_str'
+Lines executed:0.00% of 1
+
+Function 'opt_match_per_stream'
+Lines executed:0.00% of 29
+
+Function 'opt_match_per_type_str'
+Lines executed:0.00% of 6
+
+Function 'show_hwaccels'
+Lines executed:0.00% of 7
+
+Function 'init_options'
+Lines executed:0.00% of 15
+
+Function 'uninit_options'
+Lines executed:0.00% of 25
+
+File 'fftools/ffmpeg_opt.c'
+Lines executed:0.00% of 796
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_opt.gcno##fftools#ffmpeg_opt.c.gcov'
+
+File 'libavutil/error.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_opt.gcno##libavutil#error.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_opt.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/stdio2.h'
+Lines executed:0.00% of 10
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#fftools#ffmpeg_opt.gcno###usr#include#x86_64-linux-gnu#bits#stdio2.h.gcov'
+
+Lines executed:0.00% of 811

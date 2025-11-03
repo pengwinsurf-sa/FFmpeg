@@ -1,0 +1,74 @@
+Function 'decode_flush'
+Lines executed:0.00% of 7
+
+Function 'decode_close'
+Lines executed:0.00% of 5
+
+Function 'decode_frame'
+Lines executed:0.00% of 76
+
+Function 'unpack'
+Lines executed:0.00% of 40
+
+Function 'dequantize_coefficients'
+Lines executed:0.00% of 26
+
+Function 'reconstruct_hfr'
+Lines executed:0.00% of 10
+
+Function 'run_imdct'
+Lines executed:0.00% of 7
+
+Function 'decode_init'
+Lines executed:0.00% of 13
+
+Function 'init_hca'
+Lines executed:0.00% of 128
+
+Function 'init_flush'
+Lines executed:0.00% of 4
+
+Function 'ath_init1'
+Lines executed:0.00% of 11
+
+Function 'cipher_init'
+Lines executed:0.00% of 10
+
+Function 'cipher_init56'
+Lines executed:0.00% of 44
+
+Function 'get_bits'
+Lines executed:0.00% of 17
+
+Function 'av_bswap64'
+Lines executed:0.00% of 2
+
+File 'libavcodec/hcadec.c'
+Lines executed:0.00% of 324
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno##libavcodec#hcadec.c.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno##libavutil#bswap.h.gcov'
+
+File 'libavcodec/get_bits.h'
+Lines executed:0.00% of 33
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno##libavcodec#get_bits.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/bytestream.h'
+Lines executed:0.00% of 17
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno##libavcodec#bytestream.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 7
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#hcadec.gcno##libavcodec#x86#mathops.h.gcov'
+
+Lines executed:0.00% of 400

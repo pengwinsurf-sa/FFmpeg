@@ -1,0 +1,46 @@
+Function 'ff_dcadct_init'
+Lines executed:0.00% of 4
+
+Function 'imdct_half_64'
+Lines executed:0.00% of 73
+
+Function 'mod64_c'
+Lines executed:0.00% of 14
+
+Function 'mod64_b'
+Lines executed:0.00% of 10
+
+Function 'mod64_a'
+Lines executed:0.00% of 8
+
+Function 'imdct_half_32'
+Lines executed:0.00% of 33
+
+Function 'mod_c'
+Lines executed:0.00% of 8
+
+Function 'mod_b'
+Lines executed:0.00% of 10
+
+Function 'mod_a'
+Lines executed:0.00% of 8
+
+Function 'dct_b'
+Lines executed:0.00% of 10
+
+Function 'dct_a'
+Lines executed:0.00% of 8
+
+File 'libavcodec/dcadct.c'
+Lines executed:0.00% of 175
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadct.gcno##libavcodec#dcadct.c.gcov'
+
+File 'libavcodec/dcamath.h'
+Lines executed:0.00% of 8
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadct.gcno##libavcodec#dcamath.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 3
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#dcadct.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 186

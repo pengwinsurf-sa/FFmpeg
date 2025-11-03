@@ -1,0 +1,107 @@
+Function 'ff_cavs_end'
+Lines executed:0.00% of 17
+
+Function 'ff_cavs_init'
+Lines executed:0.00% of 35
+
+Function 'ff_cavs_init_top_lines'
+Lines executed:0.00% of 25
+
+Function 'ff_cavs_init_pic'
+Lines executed:0.00% of 25
+
+Function 'ff_cavs_next_mb'
+Lines executed:0.00% of 25
+
+Function 'ff_cavs_init_mb'
+Lines executed:0.00% of 25
+
+Function 'ff_cavs_mv'
+Lines executed:0.00% of 38
+
+Function 'mv_pred_median'
+Lines executed:0.00% of 27
+
+Function 'ff_cavs_inter'
+Lines executed:0.00% of 12
+
+Function 'mc_part_std'
+Lines executed:0.00% of 17
+
+Function 'mc_dir_part'
+Lines executed:0.00% of 36
+
+Function 'ff_cavs_modify_mb_i'
+Lines executed:0.00% of 19
+
+Function 'intra_pred_lp_top'
+Lines executed:0.00% of 6
+
+Function 'intra_pred_lp_left'
+Lines executed:0.00% of 6
+
+Function 'intra_pred_down_right'
+Lines executed:0.00% of 10
+
+Function 'intra_pred_down_left'
+Lines executed:0.00% of 6
+
+Function 'intra_pred_lp'
+Lines executed:0.00% of 6
+
+Function 'intra_pred_plane'
+Lines executed:0.00% of 15
+
+Function 'intra_pred_dc_128'
+Lines executed:0.00% of 6
+
+Function 'intra_pred_horiz'
+Lines executed:0.00% of 7
+
+Function 'intra_pred_vert'
+Lines executed:0.00% of 6
+
+Function 'ff_cavs_load_intra_pred_chroma'
+Lines executed:0.00% of 16
+
+Function 'ff_cavs_load_intra_pred_luma'
+Lines executed:0.00% of 46
+
+Function 'ff_cavs_filter'
+Lines executed:0.00% of 55
+
+Function 'get_bs'
+Lines executed:0.00% of 11
+
+Function 'get_se_golomb'
+Lines executed:0.00% of 22
+
+File 'libavcodec/cavs.c'
+Lines executed:0.00% of 476
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno##libavcodec#cavs.c.gcov'
+
+File 'libavcodec/cavs.h'
+Lines executed:0.00% of 11
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno##libavcodec#cavs.h.gcov'
+
+File 'libavcodec/x86/mathops.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno##libavcodec#x86#mathops.h.gcov'
+
+File '/usr/include/x86_64-linux-gnu/bits/string_fortified.h'
+Lines executed:0.00% of 4
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno###usr#include#x86_64-linux-gnu#bits#string_fortified.h.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno##libavutil#common.h.gcov'
+
+File 'libavcodec/golomb.h'
+Lines executed:0.00% of 20
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno##libavcodec#golomb.h.gcov'
+
+File 'libavutil/bswap.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavcodec#cavs.gcno##libavutil#bswap.h.gcov'
+
+Lines executed:0.00% of 519

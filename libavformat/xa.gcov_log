@@ -1,0 +1,18 @@
+Function 'xa_read_packet'
+Lines executed:0.00% of 14
+
+Function 'xa_read_header'
+Lines executed:0.00% of 24
+
+Function 'xa_probe'
+Lines executed:0.00% of 11
+
+File 'libavformat/xa.c'
+Lines executed:0.00% of 47
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#xa.gcno##libavformat#xa.c.gcov'
+
+File 'libavutil/common.h'
+Lines executed:0.00% of 2
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#xa.gcno##libavutil#common.h.gcov'
+
+Lines executed:0.00% of 49

@@ -1,0 +1,20 @@
+Function 'aptx_hd_read_packet'
+Lines executed:0.00% of 5
+
+Function 'aptx_read_packet'
+Lines executed:0.00% of 5
+
+Function 'aptx_hd_read_header'
+Lines executed:0.00% of 7
+
+Function 'aptx_read_header'
+Lines executed:0.00% of 7
+
+Function 'aptx_read_header_common'
+Lines executed:0.00% of 10
+
+File 'libavformat/aptxdec.c'
+Lines executed:0.00% of 34
+Creating '#home#ahmedzaki#benchmark_libs#FFmpeg#libavformat#aptxdec.gcno##libavformat#aptxdec.c.gcov'
+
+Lines executed:0.00% of 34
